@@ -138,6 +138,46 @@ Existen 5 tipos de Empatía pero dos son cuadros psicopatológicos:
 - Hay otros dos tipos que no vienen a cuento en este curso ya que son más psicopatológicos.
 
 
-### Feedback o retroalimentacion
+### Feedback o retroalimentación
 
-Para saber el effecto que tenmos en 
+Para saber el efecto que tenemos en otros lo que piensan de nosotros y ver los puntos de mejora que tenemos. El feedback se trata de que tal hemos trabajado y en que podemos mejorar. 
+
+Dar feedback no es solo centrarse en lo malo, si no intentando de que veamos areas de crecimiento de mejoras con el fin de evitar el miedo de inseguridad psicológica. 
+
+El feedback debe er productivo, dirigido hacia el crecimiento y la mejora. 
+
+### Conciencia organizacional
+
+Conocer el objetivo de la organización, comprender cual es el rol de cada cual, perfiles de los puestos objetivos personales de los integrantes del equipo.
+
+## Conciencia social
+
+La conciencia social es la capacidad de entenderse como parte de una comunidad y reconocer a los demás dentro de ella. Los seres humanos forman grupos con afinidades comunes, desarrollando comportamientos, creencias y una identidad compartida.
+
+El aprendizaje a través de la experiencia fortalece a las comunidades, ya que permite la transmisión de conocimientos y la creación de nuevos hábitos. En el entorno laboral, las empresas también funcionan como comunidades donde el mentoring ayuda al crecimiento individual y colectivo.
+
+### Mentoring y Conciencia Social
+
+- **Mentoring**: Proceso en el que un mentor (guía o consejero) ayuda a otra persona en su crecimiento y desarrollo.
+- Para que funcione, es clave fomentar una comunidad de aprendizaje con objetivos comunes.
+- La conciencia social impulsa el crecimiento y la inteligencia emocional (IE) a través de la **gestión de relaciones**.
+- La gestión de relaciones se basa en **habilidades blandas (soft skills)** esenciales:
+    - **Influencia**
+    - **Gestión de conflictos**
+    - **Trabajo en equipo**
+    - **Liderazgo**
+## Principio 90/10 de Stephen Covey
+
+**Principio 90/10 de Stephen Covey**
+
+- **90 % de la vida depende de nuestra reacción**, solo el 10 % son situaciones fuera de nuestro control.
+- Nuestras reacciones generan **efectos en cadena** que pueden afectar todo nuestro día.
+- Ejemplo: Una mala reacción ante un accidente menor (como derramar chocolate) puede llevar a estrés, conflictos y problemas innecesarios.
+
+**Paseo de Francis Galton**
+
+- Nuestros pensamientos influyen en la realidad y en cómo nos perciben los demás.
+- Galton experimentó con la autosugestión negativa y recibió respuestas hostiles de su entorno.
+- Nuestra **actitud y diálogo interno** afectan directamente nuestro bienestar y la percepción de los demás.
+
+🔹 **Conclusión**: Nuestra actitud y reacciones determinan nuestra inteligencia emocional y el impacto que tenemos en nuestro entorno.

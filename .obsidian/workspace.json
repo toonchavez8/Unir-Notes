@@ -152,7 +152,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -163,15 +164,18 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "callout-manager:Insert Callout": false,
+      "omnisearch:Omnisearch": false,
+      "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
   "active": "93c2fcde4025e213",
   "lastOpenFiles": [
+    "01-modam-softskills/01-inteligencia-emocional/01-inteligencia-emocional.md",
     "Untitled 1.md",
     "Welcome.md",
     "01-modam-softskills/01-inteligencia-emocional",
-    "01-modam-softskills",
-    "01-modam-softskills/01-inteligencia-emocional/01-inteligencia-emocional.md"
+    "01-modam-softskills"
   ]
 }
