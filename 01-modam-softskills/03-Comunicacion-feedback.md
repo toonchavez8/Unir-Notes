@@ -44,4 +44,9 @@ Otras **soft skills** esenciales:
 
 - **Compromiso:** Ser consciente de la importancia de nuestra comunicación.
 - **Confianza:** Tanto emisor como receptor deben generar seguridad, garantizar veracidad y fomentar un feedback sincero.
+- Disponibilidad. En comunicación hay que contar con que el tiempo que nos llevará transmitir el mensaje. Este tiene que ser el justo y necesario. Una buena fórmula es establecerlo, siempre siendo flexibles.
+- Enfocarse a los objetivos. ¿Qué queremos conseguir? ¿Cuál es nuestro propósito? Respondiendo a estas preguntas conseguiremos efectividad y eficacia.
+- Trabajo en equipo. Sea el receptor potencial un equipo o un grupo transversal dentro de la organización, todos dentro de la empresa formamos un equipo. Evitemos el juego del teléfono escacharrado: «he oído que…», «me ha contado el primo del de contabilidad…», «se dice que va a estallar una bomba en la empresa y nosotros somos la dinamita…».
+
+### Elementos de la de comunicación
 
