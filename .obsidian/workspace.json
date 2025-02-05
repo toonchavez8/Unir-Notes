@@ -11,10 +11,14 @@
             "id": "e0f4a41fd77a3b02",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "conflict-files-obsidian-git"
             }
           }
         ],
@@ -168,6 +172,8 @@
   },
   "active": "e0f4a41fd77a3b02",
   "lastOpenFiles": [
+    "01-modam-softskills/02-liderazgo-competencias-directivas.md",
+    "conflict-files-obsidian-git.md",
     "01-modam-softskills/Liderazgo y Competencias Directivas.md",
     "01-modam-softskills/01-inteligencia-emocional.md",
     "Untitled 1.md",

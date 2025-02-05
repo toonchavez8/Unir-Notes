@@ -1,4 +1,5 @@
 # Inteligencia Emocional
+#inteligenciaEmocional #softskills #inteligencia #emocional #notes
 ### Historia y definiciones
 
 La Inteligencia Emocional hace referencia a la habilidad de reconocer los sentimientos de los demás
@@ -181,3 +182,6 @@ El aprendizaje a través de la experiencia fortalece a las comunidades, ya que p
 - Nuestra **actitud y diálogo interno** afectan directamente nuestro bienestar y la percepción de los demás.
 
 🔹 **Conclusión**: Nuestra actitud y reacciones determinan nuestra inteligencia emocional y el impacto que tenemos en nuestro entorno.
+
+Next note
+[[02-liderazgo-competencias-directivas]]
