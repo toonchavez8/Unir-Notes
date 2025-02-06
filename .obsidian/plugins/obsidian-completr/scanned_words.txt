@@ -8,6 +8,7 @@ Imagen
 Identidad
 Implica
 Influencia
+Instructions
 Introducci
 Ideas
 Impl
@@ -93,7 +94,8 @@ derramar
 di
 directamente
 determinan
-delete
+deleted
+desired
 directiovas
 directivas
 deres
@@ -189,8 +191,9 @@ reacciones
 realidad
 recibi
 respuestas
-re
-ready
+resolve
+recommend
+replace
 rendimiento
 respeto
 responsabilidades
@@ -238,6 +241,8 @@ lugar
 liderazgo
 laboral
 logo
+list
+listed
 lisis
 largo
 lograr
@@ -297,7 +302,9 @@ solo
 seres
 soft
 skills
-something
+scanned
+strongly
+simple
 softskills
 siguientes
 socioecon
@@ -352,9 +359,11 @@ tal
 trabajado
 trav
 transmisi
-try
-this
+them
 the
+txt
+to
+text
 tiles
 terceros
 trabajar
@@ -395,6 +404,7 @@ Siempre
 Sentirse
 Social
 Stephen
+Source
 Sensibilidad
 Scholes
 Surge
@@ -416,6 +426,7 @@ Puede
 Proceso
 Principio
 Paseo
+Please
 Previous
 Porter
 Planificada
@@ -498,6 +509,9 @@ autosugesti
 actitud
 afectan
 and
+automatically
+available
+above
 as
 abusa
 abusivo
@@ -541,6 +555,8 @@ una
 un
 unas
 uno
+using
+use
 uso
 utilizan
 usuarios
@@ -559,6 +575,11 @@ bueno
 bitos
 basa
 blandas
+by
+be
+before
+below
+blocks
 beneficiarse
 bajo
 blicos
@@ -635,6 +656,8 @@ empresas
 esenciales
 efectos
 experiment
+each
+every
 ellas
 estrat
 estilos
@@ -691,6 +714,7 @@ queremos
 quedado
 quedar
 juegan
+json
 justo
 juicios
 papel
@@ -759,6 +783,7 @@ parte
 permite
 problemas
 perciben
+plugins
 parcialidad
 proyecto
 participantes
@@ -873,6 +898,11 @@ consejero
 conflictos
 cadena
 chocolate
+commit
+commands
+completr
+conflicted
+conflicts
 competencias
 cualquier
 comprobar
@@ -948,7 +978,7 @@ No
 Nuestras
 Nuestros
 Nuestra
-Next
+Not
 Negociaci
 maco
 motivar
@@ -988,7 +1018,7 @@ mala
 mentoring
 mentor
 menor
-make
+mode
 miembro
 muestra
 movilizacion
@@ -1031,6 +1061,7 @@ Al
 Autocontrol
 Antonieta
 Aprovechar
+Additional
 Asumir
 An
 Act
@@ -1080,8 +1111,7 @@ individual
 impulsa
 innecesarios
 impacto
-is
-inteligenciaEmocional
+in
 integridad
 interfieran
 innovaci
@@ -1136,6 +1166,11 @@ funcionan
 funcione
 fomentar
 fuera
+followed
+file
+for
+files
+following
 favoritismos
 favorece
 finanzas
@@ -1177,7 +1212,6 @@ Destacan
 Desarrolla
 Wechsler
 Wayne
-When
 no
 nos
 nuestro
@@ -1193,8 +1227,6 @@ navegar
 nosotros
 nuevos
 negativa
-new
-note
 notes
 necesitan
 nota
@@ -1223,7 +1255,6 @@ Maslow
 Miedo
 Maria
 Mentoring
-Make
 Muestra
 Modelo
 Menguzzato
@@ -1244,6 +1275,7 @@ Gestionar
 Formula
 Feedback
 Francis
+For
 Favorece
 Funciona
 Fiedler
@@ -1268,8 +1300,8 @@ objetivo
 organizaci
 objetivos
 otra
-or
-own
+obsidian
+occurrence
 opini
 orientada
 orientadas
@@ -1289,6 +1321,7 @@ Conocer
 Covey
 Conclusi
 Competencias
+Conflicts
 Coloca
 Cuenta
 Compromiso
@@ -1315,7 +1348,7 @@ vive
 vienen
 ver
 veamos
-vault
+viewing
 vacila
 ventajas
 vamos
@@ -1395,10 +1428,12 @@ Visionario
 Ventana
 yo
 ya
-your
-you
 Qui
+will
+words
+workspace
+with
+win
 Johnson
 James
 Johari
-win
