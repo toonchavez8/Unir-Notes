@@ -122,3 +122,124 @@ Para reducir las barreras en la comunicación, se recomienda:
 - **Proporcionar feedback** para confirmar la comprensión del mensaje.  
 - **Ser consciente del estado emocional propio**, prejuicios y preconceptos.  
 - **Elegir el canal adecuado** antes de iniciar la comunicación.  
+
+### Feedback  
+
+El feedback es esencial para conocer nuestro impacto en otros y detectar áreas de mejora. No solo debemos recibirlo, sino también darlo para ayudar a los demás a crecer.  
+
+Puede ser **positivo o negativo**, pero nunca despectivo. No se trata de señalar errores, sino de **proponer cómo mejorar**. Si solo nos enfocamos en lo malo, sin importar el crecimiento del otro, solo generaremos rechazo y desmotivación.  
+
+El feedback debe ser productivo, enfocado en el crecimiento y la mejora. Una forma efectiva de darlo es siguiendo el ciclo propuesto en _The Oz Principle_ de Roger Connors, Tom Smith y Craig Hickman:
+
+1. **Preguntar:** _¿Qué feedback me puedes dar?_
+2. **Responder:** Reconocer lo positivo y señalar oportunidades de mejora.
+3. **Decir:** _¡Gracias por el feedback!_
+
+Con confianza y retroalimentación constante, se pueden instaurar hábitos interpersonales saludables.
+
+Una herramienta útil para trabajar el feedback es **La Ventana de Johari**, que exploraremos al hablar de seguridad psicológica.
+
+### Consejos para desarrollar la comunicación efectiva:
+
+- Oblígate a conectar con el otro.
+- No hables todo el rato y escucha.
+- Pide _feedback_ y favorece las discusiones saludables.
+- Sé consciente de tu comunicación no verbal.
+- Usa un lenguaje claro. Entiende el contexto.
+- Individualiza los mensajes, entiende las diferencias.
+- Crea un plan y organiza tu comunicación.
+- Haz un borrador y después edita.
+- Mejora tu presencia y aprende a hablar en público.
+- Usa elementos visuales.
+- Ajusta tu mensaje a cada audiencia.
+- Cuenta con tu equipo al desarrollar comunicaciones.
+- Sé directo.
+- Reconoce las emociones, desarrolla la empatía.
+- Haz un plan y síguelo.
+- Tómate tiempo para pensar.
+### Herramientas útiles en la comunicación
+
+- **Rapport:** Es una habilidad verbal y corporal que genera confianza y facilita el entendimiento al adaptar palabras, tono, ritmo y gestos al interlocutor.
+    
+    Su objetivo es crear sintonía y confianza mutua, permitiendo una mejor comunicación, incluso con personas que nos generan emociones negativas como miedo o impaciencia.
+    
+    Para lograrlo:
+    
+    - Usa palabras similares a las del interlocutor.
+    - Refleja su postura de forma sutil.
+    - Ajusta tu respiración a su ritmo.
+    - Introduce un pequeño movimiento diferente y observa si lo sigue, señal de que la conexión está establecida.
+- **Calibración:** En PNL, es la capacidad de identificar el estado emocional de una persona a través de señales visuales, auditivas y kinestésicas.
+    
+    Para calibrar con precisión, hay que observar:
+    
+    - Movimientos oculares y tamaño de pupilas.
+    - Postura, gestos y cambios en el color de la piel.
+    - Velocidad al hablar y tono de voz.
+    - Ritmo de respiración y expresión facial.
+    
+    Agudizando nuestros sentidos, podemos acceder a información valiosa del estado consciente e inconsciente de la otra persona.
+
+### Las preguntas poderosas (abiertas y cerradas)
+
+Las preguntas son muy valiosas porque:
+
+- Exploran lo que realmente le importa al otro y le ayudan a resolverlo.
+- Tienen un propósito. Se centran en la experiencia del otro.
+- Recaban información.
+- Reflejan la escucha y la comprensión.
+- Profundizan en el pensamiento del otro, en sus sentimientos y sensaciones.
+- Permiten seguir el modo de aprender de la persona.
+- Averiguan qué quieren, por qué lo quieren, para qué y qué les impide alcanzarlo.
+- Aportan claridad y concreción.
+- Abren distintas posibilidades.
+- Permiten aprendizajes nuevos.
+- Ayudan a llevar a la persona a donde ella quiera.
+- Evitan justificaciones.
+- No puedes dejar de responderlas (el cerebro no deja pregunta sin respuesta).
+- Te obligan a reflexionar sobre tu experiencia.
+- Tienen un gran efecto en el momento oportuno.
+- Crean o cambian estados emocionales.
+- Funcionan como una luz que ilumina unas áreas y deja otras en oscuridad.
+
+### ### La importancia de hacer preguntas en lugar de aconsejar
+
+Las preguntas permiten que las personas tomen conciencia, asuman responsabilidad y se comprometan con sus respuestas. Como dice John Whitmore, cuando aceptamos y elegimos nuestras acciones, nuestro desempeño mejora.
+
+El objetivo de las preguntas es abrir nuevas formas de pensar, actuar y aprender.
+
+#### Características de una buena pregunta (Joseph O’Connor y Andrea Lages):
+
+- Suelen empezar con **"qué"**: ¿Qué quieres conseguir? ¿Qué te impide avanzar?
+- Conducen a la acción, impulsando alternativas y soluciones.
+- Se enfocan en el objetivo, no en el problema.
+- Miran hacia el presente y el futuro, en lugar del pasado.
+- Tienen un propósito claro y refuerzan pensamientos positivos.
+
+La estructura de una pregunta efectiva para el _feedback_ y el crecimiento es:  
+**¿Qué… tú… verbo… futuro positivo?**  
+Ejemplo: ¿Qué podrías hacer para mejorar tu rendimiento?
+
+### Tipos de preguntas
+
+- **Cerradas:** Solo permiten responder sí o no, útiles para confirmar información.
+- **Abiertas:** Fomentan nuevas ideas y conciencia, comenzando con **"qué"**, **"cómo"**, **"dónde"**, **"quién"**. Se recomienda evitar **"por qué"** y reformularlo como **"cuáles fueron los motivos"**.
+- **Manipulativas:** Incluyen la respuesta implícita y limitan el aprendizaje.
+- **Directas:** Ayudan a concretar información sin inducir respuestas.
+
+**Uso de "¿Por qué?" y "¿Para qué?"**
+
+- "¿Por qué?" se usa para justificar acciones y suele ser poco útil, salvo que refuerce algo positivo.
+- "¿Para qué?" conecta con el propósito y ayuda a reducir la brecha entre la situación actual y el objetivo.
+
+### Preguntas poderosas
+
+Para ser efectivas, deben ser:
+
+- Precisas y cortas.
+- Con un propósito definido.
+- Motivadoras y retadoras.
+- Sin juicio, fomentando la reflexión y la acción.
+- Respetuosas del silencio, que es una de las preguntas más poderosas.
+
+Las preguntas deben ser claras, abiertas y enfocadas en la acción. Sin embargo, si la persona no tiene la capacidad de responder por sí misma, es mejor proporcionar asesoría o instrucción.
