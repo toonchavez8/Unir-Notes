@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "76b791076c1fcf0f",
+        "id": "e00845fb6d1bfb02",
         "type": "tabs",
         "children": [
           {
-            "id": "30115a1deb8574ab",
+            "id": "c238f5cc7985c09a",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -141,10 +141,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01-modam-softskills/01-inteligencia-emocional/01-inteligencia-emocional.md"
+                "file": "01-modam-softskills/02-liderazgo-competencias-directivas.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 01-inteligencia-emocional"
+              "title": "Outline of 02-liderazgo-competencias-directivas"
             }
           }
         ],
@@ -170,15 +173,14 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "30115a1deb8574ab",
+  "active": "c238f5cc7985c09a",
   "lastOpenFiles": [
     "01-modam-softskills/02-liderazgo-competencias-directivas.md",
     "01-modam-softskills/03-Comunicacion-feedback.md",
-    "conflict-files-obsidian-git.md",
-    "01-modam-softskills/Liderazgo y Competencias Directivas.md",
     "01-modam-softskills/01-inteligencia-emocional.md",
-    "Untitled 1.md",
     "Welcome.md",
+    "create a link.md",
+    "Untitled 1.md",
     "01-modam-softskills/01-inteligencia-emocional",
     "01-modam-softskills"
   ]
