@@ -20,6 +20,20 @@
               "icon": "lucide-file",
               "title": "03-Comunicacion-feedback"
             }
+          },
+          {
+            "id": "616cde10493a75cf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
+            }
           }
         ],
         "stacked": true
@@ -175,9 +189,11 @@
   },
   "active": "c238f5cc7985c09a",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "01-modam-softskills/03-Comunicacion-feedback.md",
+    "Pasted image 20250212173936.png",
     "01-modam-softskills/04-Gestion-Trabajo-en-Equipo.md",
     "01-modam-softskills/02-liderazgo-competencias-directivas.md",
-    "01-modam-softskills/03-Comunicacion-feedback.md",
     "01-modam-softskills/01-inteligencia-emocional.md",
     "Welcome.md",
     "create a link.md",
