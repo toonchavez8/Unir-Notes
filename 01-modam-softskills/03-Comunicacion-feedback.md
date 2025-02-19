@@ -1,6 +1,6 @@
 
 # Comunicación y Feedback
-
+#softskills #notes #comunicacion #feedback 
 ## **Introducción y objetivos**
 
 Objetivos que se pretenden alcanzar:

@@ -1,3 +1,5 @@
+# Gestion del trabajo en equipo
+#unir #notes #trabajo #colaborativo #softskills 
 ## Introducion y objetivos
 
 En el entorno actual, el trabajo es cada vez más colaborativo. Un equipo no es solo un grupo de personas trabajando juntas, sino un esfuerzo conjunto que supera los logros individuales.
