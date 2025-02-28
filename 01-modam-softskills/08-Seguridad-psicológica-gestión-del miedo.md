@@ -246,7 +246,7 @@ La mayoría de las empresas dicen que confían en sus empleados, pero sus reglas
 5.- Abordar la cultura emocional.  
 Las emociones pueden bloquear o por el contrario fomentar la colaboración. Las organizaciones no pueden deshacerse de los sentimientos; pueden ignorarlos, pero no pueden evitar el cómo afectan al rendimiento. A la mayoría de los CEO no les gusta escuchar malas noticias. Por lo tanto, obligan a las personas a fingir cómo se sienten o piensan.
 
-Refiriéndonos al entorno organizacional es importante preguntar al equipo cómo se siente. Tener reuniones de escucha. Incorporar registros al comienzo de las reuniones. Crear un modelo a seguir expresando emociones. Esto ayudará a crear un entorno saludable. Si alguien está pasando por un mal momento, invítelo a salir de la reunión o a tomar un descanso.
+Refiriéndonos al entorno organizacional es importante preguntar al equipo cómo se siente. Tener reuniones de escucha. Incorporar **registros** al comienzo de las reuniones. Crear un modelo a seguir expresando emociones. Esto ayudará a crear un entorno saludable. Si alguien está pasando por un mal momento, invítelo a salir de la reunión o a tomar un descanso.
 
 Al aumentar la autoconciencia, tanto el director como su equipo pueden ajustar su carga de trabajo. Las investigaciones han descubierto que, para superar la dilación, por ejemplo, el manejo de las emociones es mucho más efectivo que el manejo del tiempo.
 
