@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "76b791076c1fcf0f",
+        "id": "fb534de7b79d2ae7",
         "type": "tabs",
         "children": [
           {
-            "id": "16934797e9afe03f",
+            "id": "efcb82487ba24042",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -79,8 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "a25b807ad639ff42",
@@ -171,10 +170,10 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "16934797e9afe03f",
+  "active": "efcb82487ba24042",
   "lastOpenFiles": [
-    "01-modam-softskills/06-toma-de-deciciones.md",
     "01-modam-softskills/07-Tecnicas-creatividad.md",
+    "01-modam-softskills/06-toma-de-deciciones.md",
     "conflict-files-obsidian-git.md",
     "01-modam-softskills/04-Gestion-Trabajo-en-Equipo.md",
     "01-modam-softskills/attachments/Pasted image 20250215105348.png",
