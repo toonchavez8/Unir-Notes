@@ -146,3 +146,6 @@ Es un proceso iterativo. Se basa en no perder el optimismo y no tener miedo, no 
 5. **Testar**: Evaluar qué funciona y mejorar.
     
 6. **Implementar**: Aplicar la solución final.
+
+---
+
