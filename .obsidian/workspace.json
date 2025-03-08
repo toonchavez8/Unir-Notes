@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "09-Motivacion-resilencia-cambio"
             }
+          },
+          {
+            "id": "66e5d4f7c4f1a2a8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01-modam-softskills/10-Gestión-complejidad.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "10-Gestión-complejidad"
+            }
           }
         ],
+        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -173,12 +188,13 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "a4881a6f030d5514",
+  "active": "66e5d4f7c4f1a2a8",
   "lastOpenFiles": [
+    "01-modam-softskills/09-Motivacion-resilencia-cambio.md",
+    "01-modam-softskills/10-Gestión-complejidad.md",
     "01-modam-softskills/attachments/Pasted image 20250308151917.png",
     "01-modam-softskills/attachments/Pasted image 20250308151743.png",
     "01-modam-softskills/08-Seguridad-psicológica-gestión-del miedo.md",
-    "01-modam-softskills/09-Motivacion-resilencia-cambio.md",
     "conflict-files-obsidian-git.md",
     "01-modam-softskills/attachments/Pasted image 20250228154836.png",
     "01-modam-softskills/attachments/Pasted image 20250228105508.png",
@@ -193,7 +209,6 @@
     "01-modam-softskills/attachments/Pasted image 20250215102257.png",
     "01-modam-softskills/attachments",
     "01-modam-softskills/04-Gestion-Trabajo-en-Equipo.md",
-    "Pasted image 20250215101754.png",
     "01-modam-softskills/01-inteligencia-emocional.md",
     "01-modam-softskills/02-liderazgo-competencias-directivas.md",
     "01-modam-softskills/03-Comunicacion-feedback.md",

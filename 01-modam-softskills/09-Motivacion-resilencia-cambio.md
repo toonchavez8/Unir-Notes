@@ -196,7 +196,7 @@ Los resultados del cambio afectan directamente al desempeño. Para evaluar la si
 
 Hay que contemplar la diferencia que existe en el uso de las palabras tanto consciente como inconscientemente, así podemos ver la diferencia entre el uso de «el cambio» como sustantivo y el uso de «voy a cambiar» como verbo.
 
-Nos enfrentamos mejor al cambio si lo visualizamos como verbo ya que nos lleva a tener una conducta de acción, es decir, a actuar, y hace de imperativo ayudándonos a modificar el estado de atasco en el que nos encontramos y a tener una mente abierta. Por ejemplo: «Estoy cambiando mi dieta». «Estoy cambiando mi relación». «Estoy cambiando de trabajo». «Estoy cambiando mi aspecto». «Estoy cambiando mis prioridades». De esta manera la relación con el cambio empieza a ser diferente. Sentimos que tenemos el control. Dejamos de sentirnos como víctimas pasivas.
+Nos enfrentamos mejor al cambio si lo visualizamos como verbo ya que nos lleva a tener una conducta de acción, es decir, a actuar, y hace de imperativo ayudándonos a modificar el estado de atasco en el que nos encontramos y a tener una mente abierta. Por ejemplo: «Estoy cambiando mi dieta». «Estoy cambiando mi relación». «Estoy cambiando de trabajo». «Estoy cambiando mi aspecto». «Estoy cambiando mis prioridades». De esta manera la **relación** con el cambio empieza a ser diferente. Sentimos que tenemos el control. Dejamos de sentirnos como víctimas pasivas.
 
 ## Ejercicios de apertura mental/flexibilizar
 
