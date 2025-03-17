@@ -48,5 +48,35 @@
   "obsidian-completr:completr-fake-arrow-up": [],
   "obsidian-completr:completr-fake-arrow-down": [],
   "obsidian-completr:completr-bypass-enter-key": [],
-  "obsidian-completr:completr-bypass-tab-key": []
+  "obsidian-completr:completr-bypass-tab-key": [],
+  "editor:delete-paragraph": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "P"
+    }
+  ],
+  "easy-typing-obsidian:easy-typing-delete-blank-line": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "B"
+    }
+  ],
+  "editor:toggle-checklist-status": [],
+  "obsidian-editor-shortcuts:insertLineBelow": [],
+  "easy-typing-obsidian:easy-typing-format-selection": [],
+  "note-refactor-obsidian:app:extract-selection-first-line": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "N"
+    }
+  ]
 }

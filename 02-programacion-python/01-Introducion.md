@@ -132,3 +132,12 @@ Cuando creamos un notebook o abrimos uno que ya existe veremos una pantalla simi
 - Formato raw en la que se muestra el texto con el formato de consola. 
 - Formato heading que crea una celda con formato título.
 
+Justo encima de las celdas, tenemos un conjunto de botones que nos permiten interactuar con las celdas. A continuación, explicaremos cada uno de estos botones siguiendo el orden de izquierda a la derecha:
+
+- Guardar: almacena en el fichero todas las celdas y guarda el estado de ejecución en el que se quedó el notebook.  
+- Nueva celda: crea una nueva celda inmediatamente después de la celda que tenemos seleccionada.  
+- Cortar: permite cortar una celda para pegarla en otro punto del notebook.  
+- Copiar: permite copiar una celda para poder pegarla en otro punto del notebook.  
+- Pegar: pegamos la celda que hemos copiado o cortado previamente inmediatamente después de la celda que tenemos seleccionada.  
+- Bajar una celda: desplaza la celda seleccionada una posición hacia abajo.  
+- Subir una celda: desplaza la celda seleccionada una posición hacia arriba.
