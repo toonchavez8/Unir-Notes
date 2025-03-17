@@ -79,8 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "a25b807ad639ff42",
@@ -171,13 +170,20 @@
       "obsidian-git:Open Git source control": false,
       "callout-manager:Insert Callout": false,
       "omnisearch:Omnisearch": false,
-      "mermaid-tools:Open Mermaid Toolbar": false
+      "mermaid-tools:Open Mermaid Toolbar": false,
+      "code-files:Create Code File": false
     }
   },
   "active": "66e5d4f7c4f1a2a8",
   "lastOpenFiles": [
-    "01-modam-softskills/10-Gestión-complejidad.md",
+    "02-programacion-python/Examples/example.py",
+    "02-programacion-python/Examples/ Example2.ipynb",
     "02-programacion-python/01-Introducion.md",
+    "02-programacion-python/Examples/Untitled.ipynb",
+    "02-programacion-python/Examples",
+    "02-programacion-python/attachments/Pasted image 20250317083920.png",
+    "02-programacion-python/attachments",
+    "01-modam-softskills/10-Gestión-complejidad.md",
     "01-modam-softskills/Untitled.md",
     "02-programacion-python",
     "01-modam-softskills/09-Motivacion-resilencia-cambio.md",
@@ -195,7 +201,6 @@
     "01-modam-softskills/attachments/Pasted image 20250215105129.png",
     "01-modam-softskills/05-Gestion-del-tiempo.md",
     "01-modam-softskills/attachments/Pasted image 20250212173936.png",
-    "01-modam-softskills/attachments/Pasted image 20250215102257.png",
     "01-modam-softskills/attachments",
     "01-modam-softskills/04-Gestion-Trabajo-en-Equipo.md",
     "01-modam-softskills/01-inteligencia-emocional.md",

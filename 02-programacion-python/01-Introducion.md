@@ -71,7 +71,9 @@ Para salir del intérprete solo debemos ejecutar el comando `exit().`
 
 Para mejorar el intérprete de Python, se puede instalar el paquete IPython
 
-IPython añade más funcionalidades al intérprete de Python, como son el resaltado de errores, completado automático de variables o módulos a través del tabulador, etc. Una vez instalado, para iniciar este intérprete solo debemos ejecutar la instrucción ipython.
+IPython añade más funcionalidades al intérprete de Python, como son el resaltado de errores, completado automático de variables o módulos a través del tabulador, etc. Una vez instalado, para iniciar este intérprete solo debemos ejecutar la instrucción `ipython.
+
+Con tab despues de iniciar un nuevo comando podemos ver mas opcciones 
 
 #### Editores de texto plano
 
@@ -81,4 +83,52 @@ para crear programas más complejos es necesario escribir scripts que contienen 
 
 Una de las primeras opciones que se pueden utilizar para implementar estos scripts es la utilización de editores de texto plano. Existen muchos tipos de editores de texto para todos los sistemas operativos, algunos ejemplos pueden ser:
 
-- 
+- Nano o vim
+- Bloc de notas
+- Sublime text 3
+- Notepad++
+- Viscual Code
+- Vs Code
+
+### Entornos de desarrollo avanzados
+
+Por último, existen diferentes entornos de desarrollo avanzados orientados a Python. Estos entornos están orientados a grandes proyectos en Python y se incluyen muchas más funcionalidades como son la gestión de repositorios
+
+Algunos de estos entornos de desarrollo pueden ejecutar en un mismo proyecto scripts y notebooks, como es el caso de PyCharm. Los entornos de desarrollo más utilizados son
+
+- PyCharm
+- Eclipse PyDev.
+- Spyder
+
+#### Jupyter Notebook
+
+Jupyter Notebook es una aplicación web incluida en la distribución Anaconda
+
+Esta aplicación web es una extensión de IPython, donde se añaden funcionalidades y se mejora la interfaz gráfica.
+
+La principal característica que tiene Jupyter Notebook es la creación de celdas con objetivos específicos. Estos objetivos específicos de cada celda pueden ser: ejecutar código de Python, incluir texto en markdown o visualizar gráficos.
+
+Para abrir Jupyter Notebook en nuestro equipo, ejecutaremos la aplicación Anaconda Navigator.
+
+Esto hará que nuestro navegador web predeterminado abra Jupyter Notebook como una aplicación web. 
+
+#### Navegador de archivos
+
+La primera ventana que nos muestra Jupyter Notebook es el navegador de archivos.
+
+A través de esta ventana podemos movernos en nuestro sistema de ficheros, crear nuevas carpetas o archivos y renombrar ficheros.
+
+Para crear un nuevo fichero, pulsamos sobre el botón New. Una vez hecho esto, se nos desplegarán varias opciones para crear un fichero: notebook (con la versión correspondiente de Python) u otro tipo de fichero como, por ejemplo, un fichero de texto o una carpeta.
+
+![[Pasted image 20250317083920.png]]
+Esto hará que se cree un fichero del tipo seleccionado en la carpeta en la que nos encontremos en ese momento. Vamos a crear un fichero de tipo notebook y, a continuación, explicaremos la ventana que nos muestra Jupyter dentro de un notebook.
+
+#### Vista del notebook
+
+Cuando creamos un notebook o abrimos uno que ya existe veremos una pantalla similar a la que se muestra en la Figura 24. En la parte inferior veremos todas las celdas de nuestro notebook. Cada una de estas celdas pueden ser de los siguientes tipos:
+
+- Código en Python.
+- Texto con markdown. 
+- Formato raw en la que se muestra el texto con el formato de consola. 
+- Formato heading que crea una celda con formato título.
+
