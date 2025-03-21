@@ -1,5 +1,5 @@
 # Toma de decisiones
-#softskills #notes #decisiones 
+#softskills #notes #decisiones #unir 
 
 ## Introducción y objetivos
 

@@ -1,6 +1,6 @@
 
 # Motivación, resiliencia y cambio
-#notes #softskills  #motivacion #resilencia #cambio
+#notes #softskills  #motivacion #resilencia #cambio #unir 
 
 ## Que es la motivacion
 

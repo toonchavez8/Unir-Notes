@@ -1,5 +1,7 @@
 # Ideas claves
 
+#notes #unir #python #historia
+
 Python se ha convertido en  uno de los lenguajes de programación mas populares dado a su potencia y facilidad para aprenderlo. 
 
 - Contextualizar Python desde su historia y sus características.
@@ -141,3 +143,5 @@ Justo encima de las celdas, tenemos un conjunto de botones que nos permiten inte
 - Pegar: pegamos la celda que hemos copiado o cortado previamente inmediatamente después de la celda que tenemos seleccionada.  
 - Bajar una celda: desplaza la celda seleccionada una posición hacia abajo.  
 - Subir una celda: desplaza la celda seleccionada una posición hacia arriba.
+[Examples 1](Examples/example.py)
+

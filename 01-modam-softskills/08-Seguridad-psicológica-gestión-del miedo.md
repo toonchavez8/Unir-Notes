@@ -1,6 +1,6 @@
 # Seguridad psicológica y gestión del miedo
 
-#notes #softskills  #Seguridad #Miedo
+#notes #softskills  #Seguridad #Miedo #unir 
 ## Las emociones, ¿qué son?
 
 Como ya comentamos al hablar de Inteligencia Emocional, las emociones se definen como el conjunto de reacciones orgánicas con las que respondemos a estímulos externos. Estas reacciones nos permiten adaptarnos a las diferentes situaciones con las que nos encontramos. Por lo tanto, tienen una relación directa con nuestra relación con el entorno y con las relaciones interpersonales.

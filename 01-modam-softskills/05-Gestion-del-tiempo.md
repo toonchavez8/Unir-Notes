@@ -1,6 +1,6 @@
 
 # Gestion del tiempo
-#notes #tiempo #softskills 
+#notes #tiempo #softskills #unir 
 
 
 ## Introduccion y objetivos

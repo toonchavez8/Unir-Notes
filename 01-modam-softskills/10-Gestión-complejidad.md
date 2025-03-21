@@ -1,4 +1,5 @@
 # Gestión de la complejidad
+#notes #unir #complejidad #softskills 
 
 ## ¿Qué es la complejidad?
 
