@@ -61,6 +61,9 @@ Interconectar
 Idear
 Implementar
 IPYN
+Identificadores
+IDENTIFICADOR
+Internacional
 Emocional
 Edward
 Expone
@@ -197,6 +200,8 @@ Hazte
 Halpern
 Hechos
 Herzberg
+Haremos
+Hola
 definiciones
 de
 dem
@@ -530,6 +535,10 @@ desafiar
 descripciones
 directivos
 dieta
+desarrolladores
+dobles
+dato
+declarar
 La
 Linea
 Las
@@ -648,6 +657,8 @@ hagan
 higi
 hilo
 hab
+hacerles
+hayamos
 referencia
 reconocer
 rmino
@@ -917,6 +928,8 @@ respaldar
 requeridas
 realiza
 riendas
+reservadas
+reservada
 la
 los
 las
@@ -1024,6 +1037,12 @@ lineal
 lat
 limitaciones
 lleven
+letras
+longitud
+llaves
+legible
+llamando
+llamar
 sentimientos
 sugiere
 ser
@@ -1283,6 +1302,12 @@ satisfechas
 satisfacci
 sustantivo
 sintaxis
+sculas
+simples
+sangr
+seguido
+sepamos
+script
 tiempo
 tiene
 tica
@@ -1447,6 +1472,8 @@ transformacionales
 transaccionales
 transformadores
 trabajan
+tuvi
+triples
 Siglo
 Self
 Se
@@ -1516,6 +1543,7 @@ Smartear
 Sistemas
 Sentimos
 Sintaxis
+Sangr
 Plat
 Pir
 Payne
@@ -1618,6 +1646,7 @@ Posteriormente
 Primeras
 Pr
 Pronto
+Palabras
 Todo
 Thorndike
 Todos
@@ -1690,6 +1719,7 @@ Transformar
 Trabajar
 Temen
 Tareas
+Tema
 aprendizaje
 ala
 aspectos
@@ -2109,6 +2139,16 @@ ayud
 atasco
 aspecto
 adaptativo
+asignaremos
+aclaraciones
+almacenar
+asignaci
+adapte
+asignado
+asignamos
+almacenado
+accesible
+almacenen
 una
 un
 unas
@@ -2153,6 +2193,12 @@ utilizar
 utilizaci
 utilizado
 usos
+utilizarse
+utiliza
+usarlos
+utilizaremos
+usaremos
+utilizada
 base
 biol
 bienestar
@@ -2236,6 +2282,7 @@ brainstoming
 bosquejo
 beneficiar
 basta
+bloque
 emocional
 emociones
 en
@@ -2605,6 +2652,8 @@ escritas
 espera
 enfrentes
 example
+ejecuta
+escribiendo
 que
 quien
 quiere
@@ -3077,6 +3126,9 @@ percibida
 practica
 pasivas
 pausa
+pertenece
+programa
+permita
 clave
 coment
 capacidad
@@ -3641,6 +3693,11 @@ contemplar
 ctimas
 ctima
 comienzas
+creadas
+comillas
+comentario
+consultarlos
+constantes
 Nic
 Necesidades
 No
@@ -3882,6 +3939,13 @@ modificar
 mis
 mental
 molesta
+may
+min
+mbolo
+mbolos
+modificarlos
+modificado
+modificada
 Arist
 Abraham
 Adem
@@ -3996,6 +4060,7 @@ Autorrealizaci
 Aumentar
 Ayudar
 Agentes
+Almacenar
 importancia
 inteligencia
 intelectivos
@@ -4304,6 +4369,12 @@ internalizar
 incorporarlos
 impacta
 imperativo
+identificadores
+identificador
+interpretabilidad
+infiere
+importamos
+import
 formaci
 factores
 fortalezas
@@ -4476,6 +4547,8 @@ Uu
 USA
 Usando
 Universidad
+Unas
+UNIR
 David
 Describe
 Developing
@@ -4699,6 +4772,10 @@ negaci
 negativamente
 nsecos
 nes
+nombres
+nombre
+necesitaremos
+ninguna
 Maslow
 Miedo
 Maria
@@ -4954,6 +5031,8 @@ odo
 oficina
 operar
 ocupado
+ocupen
+obligatorio
 Crea
 Cociente
 Con
@@ -5089,6 +5168,8 @@ Cambiar
 Curva
 Cultura
 Clima
+Comentarios
+Constantes
 vida
 viene
 va
@@ -5266,6 +5347,7 @@ Reto
 Resolver
 Resumiendo
 Ross
+Rioja
 Bar
 Bisquerra
 Bajo
@@ -5387,6 +5469,8 @@ genes
 gateando
 generado
 gradualmente
+guion
+gito
 Ofrecen
 Orientaci
 Ordena
@@ -5442,6 +5526,7 @@ Vista
 Varias
 Valorar
 Visionar
+Variables
 yo
 ya
 yO
@@ -5507,6 +5592,7 @@ Jupyter
 Justo
 Jobs
 Jerarqu
+Java
 kinest
 ki
 kH

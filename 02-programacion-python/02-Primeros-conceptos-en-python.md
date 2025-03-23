@@ -130,3 +130,212 @@ print("El precio final es:", precio_final)
 
 ## Tipos de datos
 
+Como hemos visto cuando  declaramos un elemento para alacenar un valor en python, ya sea una variable o constante no necesitamos definer el tipo de dato que se usara para guardar el valor. 
+
+Es necesidad conocer los tipos de datos que podemos encontrar en python para saber que operadores podermos usar.
+
+### Datos numericos
+
+Los primeros tipos de datos que nos encontramos son los tipos numéricos. Dentro de los tipos numéricos encontramos los siguientes tipos más específicos:
+
+- Enteros 
+	- (int): 26, 0b1101 
+	- (base binaria), 0x3f4a 
+	- (base hexadecimal)
+- Flotate
+	- *(float)*: 3.14, 5.,-67.769
+- complejos
+	- (complex): 0.1117 j
+
+Usando estos tipos de datos, podemos aplicar los siguientes tipos de operadores: operadores aritméticos, operadores de asignación y operadores de bits.
+
+#### Operadores aritméticos
+
+-  Suma (`+`)  
+	Devuelve como resultado la suma de dos números.  
+
+```python
+3.13 + 6  # Devuelve 9.13
+````
+
+- Resta (`-`)
+	Devuelve como resultado la resta de dos números.
+
+```python
+3.13 - 6  # Devuelve -2.87
+```
+
+- Multiplicación (`*`)
+	Devuelve como resultado la multiplicación de dos números.
+
+```python
+3.13 * 10  # Devuelve 31.3
+```
+
+- División (`/`)
+	Devuelve como resultado la división de dos números.
+
+```python
+3.13 / 10  # Devuelve 0.313
+```
+
+- División entera (`//`)
+	Devuelve como resultado la división entera de dos números.  
+	El resultado será únicamente la parte entera de la división.
+
+```python
+3 // 10  # Devuelve 0
+```
+
+- Módulo (`%`)
+	Devuelve como resultado el valor del resto obtenido de la división entera entre dos números.
+
+```python
+3 % 10  # Devuelve 3
+```
+
+Exponente (`**`)
+	Devuelve como resultado el valor exponencial de una base con respecto al exponente.
+
+```python
+3 ** 2  # Devuelve 9
+```
+
+#### Operadores de asignación
+
+Los operadores de asignación permiten asignar el resultado de la operación a una variable incluyendo el símbolo `=` en el operador.  
+Estos nos permiten modificar el valor de una variable sin tener que definirla en la parte derecha de la asignación.
+
+- **Asignación simple** (`=`)  
+    Asigna a la variable del lado izquierdo el valor definido en la parte derecha.
+    
+    ```python
+    resultado = 10  # resultado vale 10
+    ```
+    
+- **Suma y asignación** (`+=`)  
+    Suma el valor de la variable con el valor definido en el lado derecho.
+    
+    ```python
+    resultado = 10  # resultado vale 10
+    resultado += 10  # resultado vale 20
+    ```
+    
+- **Resta y asignación** (`-=`)  
+    Resta el valor de la variable con el valor definido en el lado derecho.
+    
+    ```python
+    resultado = 10  # resultado vale 10
+    resultado -= 10  # resultado vale 0
+    ```
+    
+- **Multiplicación y asignación** (`*=`)  
+    Multiplica el valor de la variable con el valor definido en el lado derecho.
+    
+    ```python
+    resultado = 10  # resultado vale 10
+    resultado *= 10  # resultado vale 100
+    ```
+    
+- **División y asignación** (`/=`)  
+    Divide el valor de la variable con el valor definido en el lado derecho.
+    
+    ```python
+    resultado = 10  # resultado vale 10
+    resultado /= 10  # resultado vale 1.0
+    ```
+    
+- **División entera y asignación** (`//=`)  
+    Realiza la división entera de la variable con el valor definido en el lado derecho.
+    
+    ```python
+    resultado = 14  # resultado vale 14
+    resultado //= 10  # resultado vale 1
+    ```
+    
+- **Módulo y asignación** (`%=`)  
+    Asigna a la variable el resto de la división entera entre su valor y el valor de la derecha.
+    
+    ```python
+    resultado = 14  # resultado vale 14
+    resultado %= 10  # resultado vale 4
+    ```
+    
+- **Exponente y asignación** (`**=`)  
+    Asigna a la variable el resultado de elevarla al valor de la derecha.
+    
+    ```python
+    resultado = 3  # resultado vale 3
+    resultado **= 2  # resultado vale 9
+    ```
+
+
+#### Operaciones de bits
+
+Otra de las operaciones básicas que podemos realizar en Python con valores numéricos son las operaciones de bits.  
+Estas operaciones solo se pueden aplicar a valores enteros.
+
+- **AND** (`&`): Operador lógico *and* a nivel de bits.  
+  Devuelve un número en el que cada bit es `1` si los bits correspondientes en ambos operandos son `1`, de lo contrario, `0`.
+
+  ```python
+  4 & 5  # Devuelve 4
+  # 4 en binario:  100
+  # 5 en binario:  101
+  # -----------------
+  # Resultado:      100  (4 en decimal)
+```
+
+- **OR** (`|`): Operador lógico _or_ a nivel de bits.  
+    Devuelve un número en el que cada bit es `1` si al menos uno de los bits correspondientes en los operandos es `1`.
+    
+    ```python
+    4 | 5  # Devuelve 5
+    # 4 en binario:  100
+    # 5 en binario:  101
+    # -----------------
+    # Resultado:      101  (5 en decimal)
+    ```
+    
+- **XOR** (`^`): Operador lógico _XOR_ a nivel de bits.  
+    Devuelve un número en el que cada bit es `1` si los bits correspondientes en los operandos son diferentes.
+    
+    ```python
+    4 ^ 5  # Devuelve 1
+    # 4 en binario:  100
+    # 5 en binario:  101
+    # -----------------
+    # Resultado:      001  (1 en decimal)
+    ```
+    
+- **Mover bits a la izquierda** (`<<`):  
+    Desplaza todos los bits a la izquierda tantas posiciones como se indique en el lado derecho del operador.  
+    Esto equivale a multiplicar el número por `2` elevado al número de posiciones.
+    
+    ```python
+    4 << 1  # Devuelve 8
+    # 4 en binario:   100
+    # Desplazado 1 bit a la izquierda:
+    # Resultado:     1000  (8 en decimal)
+    
+    4 << 2  # Devuelve 16
+    # 4 en binario:   100
+    # Desplazado 2 bits a la izquierda:
+    # Resultado:    10000  (16 en decimal)
+    ```
+    
+- **Mover bits a la derecha** (`>>`):  
+    Desplaza todos los bits a la derecha tantas posiciones como se indique en el lado derecho del operador.  
+    Esto equivale a dividir el número por `2` elevado al número de posiciones.
+    
+    ```python
+    4 >> 1  # Devuelve 2
+    # 4 en binario:  100
+    # Desplazado 1 bit a la derecha:
+    # Resultado:      10  (2 en decimal)
+    
+    5 >> 2  # Devuelve 1
+    # 5 en binario:  101
+    # Desplazado 2 bits a la derecha:
+    # Resultado:      1  (1 en decimal)
+    ```
