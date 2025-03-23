@@ -64,6 +64,7 @@ IPYN
 Identificadores
 IDENTIFICADOR
 Internacional
+IVA
 Emocional
 Edward
 Expone
@@ -171,6 +172,8 @@ Estoy
 Ejercicios
 Examples
 Example
+Enteros
+Exponente
 Historia
 Howard
 Habilidades
@@ -539,6 +542,10 @@ desarrolladores
 dobles
 dato
 declarar
+declaramos
+definer
+divisi
+dulo
 La
 Linea
 Las
@@ -659,6 +666,7 @@ hilo
 hab
 hacerles
 hayamos
+hexadecimal
 referencia
 reconocer
 rmino
@@ -930,6 +938,8 @@ realiza
 riendas
 reservadas
 reservada
+ricos
+resta
 la
 los
 las
@@ -1544,6 +1554,7 @@ Sistemas
 Sentimos
 Sintaxis
 Sangr
+Suma
 Plat
 Pir
 Payne
@@ -2149,6 +2160,8 @@ asignamos
 almacenado
 accesible
 almacenen
+alacenar
+aritm
 una
 un
 unas
@@ -2199,6 +2212,7 @@ usarlos
 utilizaremos
 usaremos
 utilizada
+usara
 base
 biol
 bienestar
@@ -2283,6 +2297,9 @@ bosquejo
 beneficiar
 basta
 bloque
+binaria
+bits
+bit
 emocional
 emociones
 en
@@ -2654,6 +2671,12 @@ enfrentes
 example
 ejecuta
 escribiendo
+entera
+exponente
+elevarla
+enteros
+equivale
+elevado
 que
 quien
 quiere
@@ -3129,6 +3152,7 @@ pausa
 pertenece
 programa
 permita
+podermos
 clave
 coment
 capacidad
@@ -3698,6 +3722,8 @@ comillas
 comentario
 consultarlos
 constantes
+complex
+correspondientes
 Nic
 Necesidades
 No
@@ -3946,6 +3972,8 @@ mbolos
 modificarlos
 modificado
 modificada
+multiplicaci
+multiplicar
 Arist
 Abraham
 Adem
@@ -4061,6 +4089,9 @@ Aumentar
 Ayudar
 Agentes
 Almacenar
+Asignaci
+Asigna
+AND
 importancia
 inteligencia
 intelectivos
@@ -4375,6 +4406,7 @@ interpretabilidad
 infiere
 importamos
 import
+indique
 formaci
 factores
 fortalezas
@@ -4531,6 +4563,7 @@ fracasos
 funcionando
 fluida
 flexibilizar
+float
 Utiliza
 Una
 Uno
@@ -4634,6 +4667,11 @@ Dependiendo
 Dentro
 Dedican
 Dejamos
+Datos
+Devuelve
+Divisi
+Divide
+Desplaza
 Wechsler
 Wayne
 WhatsApp
@@ -4776,6 +4814,9 @@ nombres
 nombre
 necesitaremos
 ninguna
+numericos
+num
+nicamente
 Maslow
 Miedo
 Maria
@@ -4845,6 +4886,8 @@ Modificar
 Mc
 Movilizar
 Mejorar
+Multiplicaci
+Multiplica
 Gardner
 Goleman
 Generan
@@ -4915,6 +4958,7 @@ Flexibilidad
 Flujo
 FASE
 Finalmente
+Flotate
 otras
 of
 on
@@ -5033,6 +5077,10 @@ operar
 ocupado
 ocupen
 obligatorio
+operadores
+operaci
+operador
+operandos
 Crea
 Cociente
 Con
@@ -5348,6 +5396,8 @@ Resolver
 Resumiendo
 Ross
 Rioja
+Resta
+Realiza
 Bar
 Bisquerra
 Bajo
@@ -5471,6 +5521,7 @@ generado
 gradualmente
 guion
 gito
+guardar
 Ofrecen
 Orientaci
 Ordena
@@ -5496,6 +5547,10 @@ Ojo
 Oslo
 OCDE
 Osborn
+Operadores
+Operaciones
+Operador
+OR
 Vergüenza
 Valores
 Vision
@@ -5656,6 +5711,7 @@ zona
 XKiR
 XX
 XL
+XOR
 YX
 YK
 YyJ
