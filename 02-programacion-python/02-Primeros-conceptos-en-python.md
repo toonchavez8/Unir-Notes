@@ -130,3 +130,4 @@ print("El precio final es:", precio_final)
 
 ## Tipos de datos
 
+S
