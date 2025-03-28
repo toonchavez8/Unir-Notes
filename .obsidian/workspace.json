@@ -79,8 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "a25b807ad639ff42",
@@ -177,8 +176,13 @@
   },
   "active": "0c97d200fa12efe9",
   "lastOpenFiles": [
-    "02-programacion-python/01-Introducion.md",
+    "conflict-files-obsidian-git.md",
     "02-programacion-python/02-Primeros-conceptos-en-python.md",
+    "02-programacion-python/Examples/const.py",
+    "02-programacion-python/Examples/__pycache__/const.cpython-312.pyc",
+    "02-programacion-python/Examples/__pycache__",
+    "02-programacion-python/Examples/PrimerosConceptos.ipynb",
+    "02-programacion-python/01-Introducion.md",
     "02-programacion-python/Example2.md",
     "02-programacion-python/Examples/Example2.ipynb",
     "Examples/Example2.md",
@@ -200,10 +204,8 @@
     "02-programacion-python/attachments/Pasted image 20250317083920.png",
     "02-programacion-python/attachments",
     "01-modam-softskills/Untitled.md",
-    "02-programacion-python",
     "01-modam-softskills/attachments/Pasted image 20250308151917.png",
     "01-modam-softskills/attachments/Pasted image 20250308151743.png",
-    "conflict-files-obsidian-git.md",
     "01-modam-softskills/attachments/Pasted image 20250228154836.png",
     "01-modam-softskills/attachments/Pasted image 20250228105508.png",
     "01-modam-softskills/attachments/Pasted image 20250215105348.png",
@@ -211,11 +213,8 @@
     "01-modam-softskills/attachments/Pasted image 20250215105147.png",
     "01-modam-softskills/attachments/Pasted image 20250215105129.png",
     "01-modam-softskills/attachments/Pasted image 20250212173936.png",
-    "01-modam-softskills/attachments",
     "Welcome.md",
     "create a link.md",
-    "Untitled 1.md",
-    "01-modam-softskills/01-inteligencia-emocional",
-    "01-modam-softskills"
+    "Untitled 1.md"
   ]
 }
