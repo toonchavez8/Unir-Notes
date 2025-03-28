@@ -1673,6 +1673,7 @@ Primeras
 Pr
 Pronto
 Palabras
+Programacion
 Todo
 Thorndike
 Todos
@@ -1748,6 +1749,7 @@ Tareas
 Tema
 Tipo
 Transformaci
+True
 aprendizaje
 ala
 aspectos
@@ -2325,6 +2327,8 @@ bit
 booleanos
 booleano
 binario
+bool
+basica
 emocional
 emociones
 en
@@ -3181,6 +3185,7 @@ pertenece
 programa
 permita
 podermos
+programacion
 clave
 coment
 capacidad
