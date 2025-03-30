@@ -949,6 +949,8 @@ ricos
 resta
 reemplazar
 rico
+rangos
+retorna
 la
 los
 las
@@ -1063,6 +1065,7 @@ legible
 llamando
 llamar
 listas
+ls
 sentimientos
 sugiere
 ser
@@ -1330,6 +1333,9 @@ sepamos
 script
 secuencias
 subcadena
+suficientes
+separados
+simbolo
 tiempo
 tiene
 tica
@@ -1497,6 +1503,8 @@ trabajan
 tuvi
 triples
 textos
+tiopo
+transiparl
 Siglo
 Self
 Se
@@ -2184,6 +2192,8 @@ aritm
 aplicarles
 aplicados
 aparici
+agregar
+aplicables
 una
 un
 unas
@@ -2237,6 +2247,12 @@ utilizada
 usara
 utilizando
 utilizarlo
+usarios
+usadas
+unicamente
+usamos
+unois
+ultimo
 base
 biol
 bienestar
@@ -2709,6 +2725,8 @@ elevado
 estructuras
 entero
 excepto
+eliminar
+escribimos
 que
 quien
 quiere
@@ -3186,6 +3204,9 @@ programa
 permita
 podermos
 programacion
+pagina
+posicion
+poppr
 clave
 coment
 capacidad
@@ -3766,6 +3787,8 @@ cter
 corchetes
 conversiones
 convertible
+comas
+corchetges
 Nic
 Necesidades
 No
@@ -4022,6 +4045,8 @@ multiplicar
 manipular
 mantiene
 metro
+mutable
+modificarlas
 Arist
 Abraham
 Adem
@@ -4456,6 +4481,12 @@ infiere
 importamos
 import
 indique
+indicar
+indicando
+indice
+indices
+indicamos
+incluidos
 formaci
 factores
 fortalezas
@@ -4614,6 +4645,7 @@ fluida
 flexibilizar
 float
 flotante
+funcion
 Utiliza
 Una
 Uno
@@ -4870,6 +4902,8 @@ num
 nicamente
 ndice
 ndices
+na
+numero
 Maslow
 Miedo
 Maria
@@ -5142,6 +5176,8 @@ operando
 omitimos
 original
 origin
+ocupa
+opuca
 Crea
 Cociente
 Con
@@ -5389,6 +5425,7 @@ ven
 verdaderos
 visualizamos
 vac
+vacia
 Reuven
 REA
 Re

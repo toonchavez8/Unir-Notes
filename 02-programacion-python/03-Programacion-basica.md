@@ -44,3 +44,77 @@ lista[:2] # Devolverá [3, 'Hola']
 
 Cuando usamos los rangos de indices existen unois valores por defecto cuando no indicamos su valor. El valor poppr defecto del primer indice es 0 y el valor por defecto del ultimo indice de longitud de la lista. 
 
+#### Funciones aplicables a listas
+Cuando usamos listas podemos usar un conjunto de funciones que nos permiten obtener propiedades de las listas o modificarlas
+
+- `len()`: devuelve la longitud de una lista, retorna el numero elementos incluidos en una lista
+
+```python
+	lista=[3,"hola",true]
+	len(lista) # devovera 3
+```
+
+- `index()`: devuelve ls posicion que opuca un elemento dentro de una lista
+```python
+	lista=[3,"hola",true]
+	lista.index("hola") # devovera 1
+```
+
+- `insert()`: Inserta un elemento dentro de una lista en la posicion que le indicamos
+```python
+	lista=[3,"hola",true]
+	lista.insert(1,"bye") 
+	lista # devuelve [3,"bye",true]
+```
+
+- `append()`: inserta un elemento al final de la lista. En el caso que intenemos insertar una lista de elementos  la funcion los instertera como un elemento unico
+```python
+	lista=[3,"hola",true]
+	lista.append([3,4]) 
+	lista #nos regresa [3,"hola",true,[3,4]]
+```
+
+- `extend()`: permite agregar un conjunto de elementos en una lista. A diferencia de `append`, si intenamos agregar un a lista de elementos se agregaran cada elemento a la lista original
+```python
+	lista=[3,"hola",true]
+	lista.extend([3,4]) 
+	lista #nos regresa [3,"hola",true,3,4]
+```
+
+- `remove()`: elimina el elemento que pasamos por parámetro de la lista. En caso de que este elemento estuviese repetido, solo se eliminará la primera copia.
+```python
+	lista=[3,"hola",true]
+	lista.extend([3,4]) 
+	lista #nos regresa [3,"hola",true,3,4]
+```
+
+- `count()` : devuele el numero de veces que se encuentra un elemento  de la lista
+```python
+	lista=[3,"hola",true,"hola"]
+	lista.count("hola") #nops devuelve 2
+```
+
+- `reverse()`: este metodo nos permite inverti la posicion de todos los elementos de la lista
+```python
+	lista=[3,"hola",true,"hola"]
+	lista.reverse()
+	lista # nos mostrara [True, 'Hola', 3]
+```
+
+- `sort()`: ordena los elementos de una lista. Por defecto este metodo los ordena en orden creciente. Para ordenenarlo de forma decreciente, hay que incluir el parametro `.sort(reverse=True)` . Este metodo requiere de que la lista sea de elementos del mismo tipo
+```python
+	lista = [6, 4, 1, 9, 7, 0, 5]
+	lista.sort()
+	lista # Nos mostrará [0, 1, 4, 5, 6, 7, 9]
+	lista.sort(reverse=True)
+	lista # Nos mostrará [9, 7, 6, 5, 4, 1, 0])
+```
+
+- `pop()`: elemina y devuelve el elemento que se encuentra en la posicion que se paasa por parametro. En caso de que no se pasa ningun valor por parametro se eliminara y devolvera el ultimo elemento de la lista
+```python
+	lista = [6, 4, 1, 9, 7, 0, 5]
+	lista.sort(1)
+	lista # Nos mostrará [6, 1, 9, 7, 0, 5]
+```
+
+### Tuplas
