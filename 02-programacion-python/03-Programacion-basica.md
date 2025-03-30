@@ -118,3 +118,10 @@ Cuando usamos listas podemos usar un conjunto de funciones que nos permiten obte
 ```
 
 ### Tuplas
+Al igual que las listas, las tuplas son conjuntos de elementos separados por comas. Sin embargo, a diferencia de las listas, las tuplas son inmutables, es decir, no se pueden modificar una vez creadas. Un ejemplo de tupla sería el siguiente:
+```python
+	tupla = 'Hola', 3.4, True, 'Hola' 
+	tupla
+```
+
+Hemos creado una tupla a parti de una secuencia de valores seprados por comas. El resulatado es una tupla que contiene todos los elementos. Esta operacion se denominba **empaquetado de tuplas** 
