@@ -124,4 +124,59 @@ Al igual que las listas, las tuplas son conjuntos de elementos separados por com
 	tupla
 ```
 
-Hemos creado una tupla a parti de una secuencia de valores seprados por comas. El resulatado es una tupla que contiene todos los elementos. Esta operacion se denominba **empaquetado de tuplas** 
+Hemos creado una tupla a parti de una secuencia de valores seprados por comas. El resulatado es una tupla que contiene todos los elementos. Esta operación se denomina **empaquetado de tuplas**.
+Tambien disponemos metodo inverso. Si a una tupla de longitud `n` le asignamos `n` variables, cada una de las variables tendra uno de los componentes de la tupla. Esta operacion se la llama desempaquetado de tuplas.
+
+```python
+	w,x,y,z = tupla # w = 'Hola', x = 3.4, y = true, z = "Hola"
+```
+
+Para acceder a los elementos de una tupla lo haremos de la misma manera que con las listas:
+
+```python
+	tupla[1] # nos mostrara 3.4
+	tupla[1:] # Nos mostrara (3.4,True, 'Hola')
+```
+
+#### Funciones aplicables a tuplas
+
+Al igual que las listas, tenemos varios métodos que podemos usar en las tuplas. Los métodos más utilizados son los siguientes:
+
+- `len()`: metodo que devuelve la longitud.
+```python
+	tupla = 'Hola', 3.4, True, 'Hola' 
+	len(tupla) # Devolverá 4
+```
+- `count()`: número de veces que se encuentra un elemento en una tupla.
+```python
+	tupla.count('Hola') # Devolverá 2
+```
+- `index()`: devuelve la posición que ocupa un elemento dentro de una tupla. En caso de que el elemento este repetido, devolverá la primera posición donde aparece el objeto.
+```python
+	tupla.index('Hola') # Devolverá 0
+```
+
+### Diccionarios
+La última estructura de datos que veremos en Python son los diccionarios. Los diccionarios conforman una estructura que enlaza los elementos almacenados con claves (keys) en lugar de índices, como las estructuras anteriores. Es decir, para acceder a un objeto es necesario hacerlo a través de su clave.
+
+La mejor manera de comprender un diccionario es verlo como un conjunto de pares (clave, valor), donde las claves son únicas, es decir, no están repetidas, y nos permiten acceder al objeto almacenado. Para crear un diccionario definiremos un conjunto de elementos clave valor delimitados por llaves `{}` 
+
+```python
+diccionario = { 
+	'clave1': 'Mi primer valor', 
+	'clave3': 'Y, como no, mi tercer valor', 
+	'clave2': 'Este es mi segundo valor' 
+}
+```
+
+Si queremos acceder a uno de sus valores, necesitaremos conocer su clave y lo pondremos entre corchetes `[]`
+```python
+diccionario['clave1'] # Devolverá 'Mi primer valor'
+```
+
+Para crear nuevos elementos en los diccionarios usamos la misma forma de acceso a un elemento, pero asignando un nuevo valor:
+
+```python
+diccionario['clave_nueva'] = ‘nuevo valor’
+```
+G

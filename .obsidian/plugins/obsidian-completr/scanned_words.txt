@@ -65,6 +65,7 @@ Identificadores
 IDENTIFICADOR
 Internacional
 Igual
+Inserta
 Emocional
 Edward
 Expone
@@ -552,6 +553,10 @@ devuelven
 definirse
 devolver
 decimal
+devuele
+decreciente
+devolvera
+denominba
 La
 Linea
 Las
@@ -951,6 +956,8 @@ reemplazar
 rico
 rangos
 retorna
+repetido
+resulatado
 la
 los
 las
@@ -1336,6 +1343,7 @@ subcadena
 suficientes
 separados
 simbolo
+seprados
 tiempo
 tiene
 tica
@@ -1505,6 +1513,8 @@ triples
 textos
 tiopo
 transiparl
+tuplas
+tupla
 Siglo
 Self
 Se
@@ -1758,6 +1768,7 @@ Tema
 Tipo
 Transformaci
 True
+Tuplas
 aprendizaje
 ala
 aspectos
@@ -2194,6 +2205,7 @@ aplicados
 aparici
 agregar
 aplicables
+agregaran
 una
 un
 unas
@@ -2253,6 +2265,7 @@ unicamente
 usamos
 unois
 ultimo
+unico
 base
 biol
 bienestar
@@ -2727,6 +2740,11 @@ entero
 excepto
 eliminar
 escribimos
+elimina
+estuviese
+elemina
+eliminara
+empaquetado
 que
 quien
 quiere
@@ -3207,6 +3225,9 @@ programacion
 pagina
 posicion
 poppr
+parametro
+paasa
+parti
 clave
 coment
 capacidad
@@ -3789,6 +3810,9 @@ conversiones
 convertible
 comas
 corchetges
+copia
+creciente
+conjuntos
 Nic
 Necesidades
 No
@@ -4047,6 +4071,7 @@ mantiene
 metro
 mutable
 modificarlas
+metodo
 Arist
 Abraham
 Adem
@@ -4487,6 +4512,12 @@ indice
 indices
 indicamos
 incluidos
+inserta
+intenemos
+instertera
+intenamos
+inverti
+inmutables
 formaci
 factores
 fortalezas
@@ -4904,6 +4935,7 @@ ndice
 ndices
 na
 numero
+ningun
 Maslow
 Miedo
 Maria
@@ -5178,6 +5210,9 @@ original
 origin
 ocupa
 opuca
+ordena
+ordenenarlo
+operacion
 Crea
 Cociente
 Con
