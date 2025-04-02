@@ -1,5 +1,5 @@
 # Técnicas de creatividad
-#notes #softskills #creatividad #tecnicas
+#notes #softskills #creatividad #tecnicas #unir 
 
 ## Definiciones: qué es creatividad y qué es innovación
 

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01-modam-softskills/08-Seguridad-psicológica-gestión-del miedo.md",
+                "file": "02-programacion-python/02-Primeros-conceptos-en-python.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "08-Seguridad-psicológica-gestión-del miedo"
+              "title": "02-Primeros-conceptos-en-python"
             }
           }
         ],
@@ -157,6 +157,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "code-files:Create Code File": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -172,8 +173,20 @@
   },
   "active": "527081dbbb9d4205",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
     "01-modam-softskills/08-Seguridad-psicológica-gestión-del miedo.md",
+    "conflict-files-obsidian-git.md",
+    "02-programacion-python/Examples/__pycache__/const.cpython-312.pyc",
+    "02-programacion-python/Examples/PrimerosConceptos.ipynb",
+    "02-programacion-python/Examples/__pycache__",
+    "02-programacion-python/Examples/Example2.ipynb",
+    "02-programacion-python/Examples/const.py",
+    "02-programacion-python/Examples/example.py",
+    "02-programacion-python/attachments/Pasted image 20250317083920.png",
+    "02-programacion-python/Examples",
+    "02-programacion-python/02-Primeros-conceptos-en-python.md",
+    "02-programacion-python/attachments",
+    "02-programacion-python/01-Introducion.md",
+    "02-programacion-python",
     "01-modam-softskills/attachments/Pasted image 20250308151917.png",
     "01-modam-softskills/attachments/Pasted image 20250308151743.png",
     "01-modam-softskills/10-Gestión-complejidad.md",
@@ -188,7 +201,6 @@
     "01-modam-softskills/attachments/Pasted image 20250215105147.png",
     "01-modam-softskills/attachments/Pasted image 20250215102257.png",
     "01-modam-softskills/attachments/Pasted image 20250215105129.png",
-    "01-modam-softskills/attachments/Pasted image 20250212173936.png",
     "01-modam-softskills/attachments",
     "01-modam-softskills/05-Gestion-del-tiempo.md",
     "01-modam-softskills/03-Comunicacion-feedback.md",
@@ -196,8 +208,6 @@
     "01-modam-softskills/01-inteligencia-emocional.md",
     "01-modam-softskills/Liderazgo y Competencias Directivas.md",
     "Untitled 1.md",
-    "Welcome.md",
-    "01-modam-softskills/01-inteligencia-emocional",
-    "01-modam-softskills"
+    "Welcome.md"
   ]
 }
