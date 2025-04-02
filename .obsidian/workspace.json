@@ -8,17 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "527081dbbb9d4205",
+            "id": "adb7aecedab46288",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02-programacion-python/02-Primeros-conceptos-en-python.md",
+                "file": "02-programacion-python/03-Programacion-basica.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "02-Primeros-conceptos-en-python"
+              "title": "03-Programacion-basica"
             }
           }
         ],
@@ -79,7 +79,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 290.5
+    "width": 290.5,
+    "collapsed": true
   },
   "right": {
     "id": "a25b807ad639ff42",
@@ -171,10 +172,12 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "527081dbbb9d4205",
+  "active": "adb7aecedab46288",
   "lastOpenFiles": [
-    "01-modam-softskills/08-Seguridad-psicológica-gestión-del miedo.md",
     "conflict-files-obsidian-git.md",
+    "02-programacion-python/02-Primeros-conceptos-en-python.md",
+    "02-programacion-python/03-Programacion-basica.md",
+    "01-modam-softskills/08-Seguridad-psicológica-gestión-del miedo.md",
     "02-programacion-python/Examples/__pycache__/const.cpython-312.pyc",
     "02-programacion-python/Examples/PrimerosConceptos.ipynb",
     "02-programacion-python/Examples/__pycache__",
@@ -183,7 +186,6 @@
     "02-programacion-python/Examples/example.py",
     "02-programacion-python/attachments/Pasted image 20250317083920.png",
     "02-programacion-python/Examples",
-    "02-programacion-python/02-Primeros-conceptos-en-python.md",
     "02-programacion-python/attachments",
     "02-programacion-python/01-Introducion.md",
     "02-programacion-python",

@@ -130,6 +130,7 @@ print("El precio final es:", precio_final)
 
 ## Tipos de datos
 
+
 Como hemos visto cuando  declaramos un elemento para alacenar un valor en python, ya sea una variable o constante no necesitamos definer el tipo de dato que se usara para guardar el valor. 
 
 Es necesidad conocer los tipos de datos que podemos encontrar en python para saber que operadores podermos usar.
@@ -648,4 +649,4 @@ bool(valor1)  # Devuelve True
 bool(valor2)  # Devuelve False
 bool(valor3)  # Devuelve False
 bool(valor4)  # Devuelve False
-```
+
