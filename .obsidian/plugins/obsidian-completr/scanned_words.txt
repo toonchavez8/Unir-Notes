@@ -557,6 +557,11 @@ devuele
 decreciente
 devolvera
 denominba
+disponemos
+desempaquetado
+diccionarios
+definiremos
+delimitados
 La
 Linea
 Las
@@ -679,6 +684,7 @@ hab
 hacerles
 hayamos
 hexadecimal
+haremos
 referencia
 reconocer
 rmino
@@ -958,6 +964,7 @@ rangos
 retorna
 repetido
 resulatado
+repetidas
 la
 los
 las
@@ -1515,6 +1522,7 @@ tiopo
 transiparl
 tuplas
 tupla
+tendra
 Siglo
 Self
 Se
@@ -1769,6 +1777,7 @@ Tipo
 Transformaci
 True
 Tuplas
+Tambien
 aprendizaje
 ala
 aspectos
@@ -2206,6 +2215,8 @@ aparici
 agregar
 aplicables
 agregaran
+almacenados
+acceso
 una
 un
 unas
@@ -2745,6 +2756,7 @@ estuviese
 elemina
 eliminara
 empaquetado
+enlaza
 que
 quien
 quiere
@@ -3228,6 +3240,7 @@ poppr
 parametro
 paasa
 parti
+pares
 clave
 coment
 capacidad
@@ -3813,6 +3826,7 @@ corchetges
 copia
 creciente
 conjuntos
+conforman
 Nic
 Necesidades
 No
@@ -4518,6 +4532,7 @@ instertera
 intenamos
 inverti
 inmutables
+inverso
 formaci
 factores
 fortalezas
@@ -4786,6 +4801,7 @@ Divisi
 Divide
 Desplaza
 Distinto
+Diccionarios
 Wechsler
 Wayne
 WhatsApp
@@ -5461,6 +5477,7 @@ verdaderos
 visualizamos
 vac
 vacia
+verlo
 Reuven
 REA
 Re
@@ -5804,6 +5821,7 @@ kx
 knowledge
 kernelspec
 ktor
+keys
 xito
 xima
 xN
