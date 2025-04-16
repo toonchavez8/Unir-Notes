@@ -570,6 +570,9 @@ delimitados
 duplicados
 devuelto
 devuelva
+dejarlos
+declaracion
+definicion
 La
 Linea
 Las
@@ -981,6 +984,7 @@ recorremos
 range
 rompe
 rompa
+return
 la
 los
 las
@@ -1096,6 +1100,8 @@ llamando
 llamar
 listas
 ls
+linea
+luego
 sentimientos
 sugiere
 ser
@@ -1375,6 +1381,12 @@ secci
 sentencias
 squedas
 saltarnos
+sistaxes
+seguida
+seran
+sentacias
+sentancias
+sangria
 tiempo
 tiene
 tica
@@ -1726,6 +1738,7 @@ Pr
 Pronto
 Palabras
 Programacion
+Primero
 Todo
 Thorndike
 Todos
@@ -2312,6 +2325,8 @@ union
 usario
 usuario
 unidad
+usano
+usaremosla
 base
 biol
 bienestar
@@ -2807,6 +2822,10 @@ encapsular
 extras
 ejecucion
 ejecute
+encapusar
+ejecutable
+espacios
+entienda
 que
 quien
 quiere
@@ -2872,6 +2891,7 @@ japoneses
 juntar
 jica
 jugando
+junto
 papel
 proceso
 pueden
@@ -3293,6 +3313,9 @@ parti
 pares
 podriamos
 pasaba
+podra
+parentesis
+parametros
 clave
 coment
 capacidad
@@ -4617,6 +4640,8 @@ iteraci
 iterador
 iterable
 iter
+idente
+instruciones
 formaci
 factores
 fortalezas
@@ -4777,6 +4802,9 @@ float
 flotante
 funcion
 finalizado
+funcioens
+foramto
+finalizar
 Utiliza
 Una
 Uno
@@ -5039,6 +5067,9 @@ numero
 ningun
 ntas
 next
+necessario
+numbre
+necesita
 Maslow
 Miedo
 Maria
@@ -5321,6 +5352,7 @@ ordenadas
 obtengamos
 ocurre
 ocupan
+obserar
 Crea
 Cociente
 Con
