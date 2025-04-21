@@ -600,6 +600,7 @@ Logro
 Locke
 Litwin
 Longitud
+Lasfunciones
 hace
 habilidad
 humano
@@ -2807,6 +2808,7 @@ encapsular
 extras
 ejecucion
 ejecute
+ejecutable
 que
 quien
 quiere
@@ -4887,6 +4889,7 @@ Divide
 Desplaza
 Distinto
 Diccionarios
+Definicion
 Wechsler
 Wayne
 WhatsApp
