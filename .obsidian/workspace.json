@@ -11,14 +11,12 @@
             "id": "764015021f8dc50b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/Agenda/Agenda todos.md",
-                "mode": "source",
-                "source": false
+                "file": "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/00_ideas_clave.pdf"
               },
-              "icon": "lucide-file",
-              "title": "Agenda todos"
+              "icon": "lucide-file-text",
+              "title": "00_ideas_clave"
             }
           }
         ]
@@ -94,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/Agenda/Agenda todos.md",
+                "file": "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/00_ideas_clave.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +102,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Agenda todos"
+              "title": "Backlinks for 00_ideas_clave"
             }
           },
           {
@@ -113,12 +111,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/Agenda/Agenda todos.md",
+                "file": "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/00_ideas_clave.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Agenda todos"
+              "title": "Outgoing links from 00_ideas_clave"
             }
           },
           {
@@ -142,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/Agenda/Agenda todos.md",
+                "file": "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/00_ideas_clave.pdf",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Agenda todos"
+              "title": "Outline of 00_ideas_clave"
             }
           }
         ]
@@ -174,12 +172,12 @@
       "code-files:Create Code File": false
     }
   },
-  "active": "764015021f8dc50b",
+  "active": "ce219df758ba688b",
   "lastOpenFiles": [
+    "02-programacion-python/04-funciones.md",
+    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/Agenda/Agenda todos.md",
     "02-programacion-python/03-Programacion-basica.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Agenda/Agenda.md",
-    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/Agenda/Agenda todos.md",
-    "02-programacion-python/04-funciones.md",
     "conflict-files-obsidian-git.md"
   ]
 }

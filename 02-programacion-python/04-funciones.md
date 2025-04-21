@@ -3,7 +3,6 @@
 # funciones
 
 ## Definicion de funciones
-test
 
 Las funcioens nos permiten encapusar bloques de codigo que podemos utilizarlo varias veces para no repetir codigo. Para ser esto es necessario idente ese bloque de codigo usano la sistaxes de funciones que incluye python. 
 
