@@ -1,4 +1,4 @@
-
+Me pat
 Las funcioens nos permiten encapusar bloques de codigo que podemos utilizarlo varias veces para no repetir codigo. Para ser esto es necessario idente ese bloque de codigo usano la sistaxes de funciones que incluye python. 
 
 Las funciones se define con las setencia `def`. Esta palabra clave indica a python que vamos a crear un objeto ejecutable que podra ser llamado mas adelante durante la ejecucion del programa. El foramto para definir una funcion en python es:
