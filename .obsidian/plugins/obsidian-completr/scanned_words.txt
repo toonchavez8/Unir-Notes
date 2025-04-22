@@ -2605,6 +2605,7 @@ EXCALIDRAW
 Excalidraw
 Elements
 Estrategicos
+Editar
 Historia
 Howard
 Habilidades
@@ -5254,6 +5255,8 @@ decompress
 directrices
 deciciones
 dedicamos
+descripci
+duplica
 La
 Linea
 Las
@@ -13000,6 +13003,7 @@ tqv
 twF
 tags
 this
+tabla
 Siglo
 Self
 Se
@@ -14184,6 +14188,7 @@ Shhc
 SCtU
 Switch
 Saving
+Sector
 Plat
 Pir
 Payne
@@ -18115,6 +18120,7 @@ apelan
 aspiraciones
 alinean
 ambiental
+aparecen
 una
 un
 unas
@@ -20571,6 +20577,7 @@ bFI
 bah
 bNh
 basan
+boton
 emocional
 emociones
 en
@@ -22183,6 +22190,8 @@ empesa
 excalidraw
 existimos
 exelencia
+entrada
+editado
 que
 quien
 quiere
@@ -27811,6 +27820,8 @@ check
 cuantificar
 cuidadosa
 colabroradoeres
+costos
+clic
 Nic
 Necesidades
 No
@@ -31706,6 +31717,7 @@ Afe
 AAP
 Acrobat
 Alcanzables
+Agregar
 importancia
 inteligencia
 intelectivos
@@ -37131,6 +37143,7 @@ Differencas
 Drawing
 Decompress
 Data
+Doble
 Wechsler
 Wayne
 WhatsApp
@@ -45947,6 +45960,9 @@ CreatorTool
 Cumplir
 CCar
 Cual
+Centro
+Clic
+Costos
 vida
 viene
 va
@@ -52007,6 +52023,7 @@ gFz
 gNy
 gOE
 goQ
+gitos
 Ofrecen
 Orientaci
 Ordena
@@ -53132,6 +53149,7 @@ OnJ
 Odd
 OGeh
 OPTIONS
+Observar
 Vergüenza
 Valores
 Vision
