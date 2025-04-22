@@ -62,8 +62,20 @@ Debe incluir el compromiso de la empresa hacia su mercado, la exelencia de su de
 La vision es una meta de plazo amplio en lo que establece la aspiraciones sobre los logros y lo que se desea sobre los logros a futuro. Y debe dar la ruta a seguir tanto para los directivos como los empleados. La vision debe contestar:
 - Que queremos ser
 - A donde queremos llegar
-La vision debe ser realizta y generar estimulo 
+La vision debe ser realista y aunque sea motivadora no puede ser lnalcazable. También la vision debe ser un estimulo de motivación para la empresa alcanzar una meta unificada con el collaborador.
 
 #### valores
 
+son los principios y Crencina que guian a la empresa y su cultura y su compotamiento. Se basa en respoder
+- En que creemos?
+- Como nos diferimos de los competidores?
+
+### Google
+- Mission:
+	Nuestra mission es organizar la informacion del mundo para que todo el mundo pueda acceder a ella 
+- Vision
+	Proporcionar acceso a la Información a un clic
+- Valores
+	Aprendizaje, exito y inclusión 
+### Plan estrategico
 
