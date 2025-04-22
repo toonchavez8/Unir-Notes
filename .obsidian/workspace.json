@@ -11,10 +11,14 @@
             "id": "64c556b4b30ec1bc",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/01-Estrategia-al-proyecto.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "01-Estrategia-al-proyecto"
             }
           }
         ],
@@ -171,16 +175,16 @@
       "code-files:Create Code File": false
     }
   },
-  "active": "ce219df758ba688b",
+  "active": "64c556b4b30ec1bc",
   "lastOpenFiles": [
-    "Testing - 22 04 2025.md",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/01-Estrategia-al-proyecto.md",
+    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/Agenda/Agenda todos.md",
+    "Testing - 22 04 2025.md",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/00_ideas_clave.pdf",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/00_IdeasClave.pdf",
     "Maestría-Ingeniería-de-Software/Excalidraw/Mision-Vission_Valores.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Agenda/Agenda.pdf",
     "Maestría-Ingeniería-de-Software/Excalidraw",
-    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/Agenda/Agenda todos.md",
     "02-programacion-python/04-funciones.md",
     "02-programacion-python/03-Programacion-basica.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Agenda/Agenda.md",

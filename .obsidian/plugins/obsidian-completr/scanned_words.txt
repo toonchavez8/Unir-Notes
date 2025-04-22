@@ -1270,6 +1270,7 @@ Isz
 InstanceID
 IlI
 Intenta
+Informaci
 Emocional
 Edward
 Expone
@@ -5257,6 +5258,7 @@ deciciones
 dedicamos
 descripci
 duplica
+diferimos
 La
 Linea
 Las
@@ -9115,6 +9117,8 @@ rgNe
 rdQ
 rfo
 realizta
+realista
+respoder
 la
 los
 las
@@ -10319,6 +10323,7 @@ lir
 ltcf
 lttw
 lYx
+lnalcazable
 sentimientos
 sugiere
 ser
@@ -15386,6 +15391,7 @@ Pfv
 Pro
 PRU
 Planes
+Plan
 Todo
 Thorndike
 Todos
@@ -19402,6 +19408,7 @@ unZ
 uvPN
 uuid
 under
+unificada
 base
 biol
 bienestar
@@ -22192,6 +22199,9 @@ existimos
 exelencia
 entrada
 editado
+exito
+estrategico
+estrategicos
 que
 quien
 quiere
@@ -26085,6 +26095,7 @@ palette
 particulares
 pertinecia
 proposito
+principios
 <<<<<<< HEAD
 =======
 >>>>>>> deb23d3604cc725807e193deba4bcd1e56daceac
@@ -27822,6 +27833,9 @@ cuidadosa
 colabroradoeres
 costos
 clic
+collaborador
+compotamiento
+competidores
 Nic
 Necesidades
 No
@@ -30527,6 +30541,8 @@ mAch
 menu
 more
 mediano
+motivadora
+mission
 Arist
 Abraham
 Adem
@@ -33372,6 +33388,7 @@ inp
 iuTQ
 institucionales
 incrementar
+inclusi
 formaci
 factores
 fortalezas
@@ -42277,6 +42294,7 @@ GSl
 Gisel
 GuvTg
 GzE
+Google
 Formula
 Feedback
 Francis
@@ -45963,6 +45981,7 @@ Cual
 Centro
 Clic
 Costos
+Crencina
 vida
 viene
 va
@@ -52024,6 +52043,7 @@ gNy
 gOE
 goQ
 gitos
+guian
 Ofrecen
 Orientaci
 Ordena
@@ -53150,6 +53170,7 @@ Odd
 OGeh
 OPTIONS
 Observar
+Objectivos
 Vergüenza
 Valores
 Vision

@@ -73,9 +73,36 @@ son los principios y Crencina que guian a la empresa y su cultura y su compotami
 ### Google
 - Mission:
 	Nuestra mission es organizar la informacion del mundo para que todo el mundo pueda acceder a ella 
+	
 - Vision
 	Proporcionar acceso a la Información a un clic
 - Valores
 	Aprendizaje, exito y inclusión 
 ### Plan estrategico
 
+Es herramienta de mejora para cualquier negocio. En los planes estrategicos se detallan las metas y como se pueden conseguir. El objetivo es alcanzar las metas tomando en cuenta
+- Objectivos estrategicos
+- Mission, vision, valores.
+- Puntos fuertes y amenazas
+
+## Microtest 
+
+1. Cual es la mission de una empresa?:
+	A. Es una meta de plazo amplio en la que se establece la aspiraciån sobre
+	Los logros de una empresa. *Esta es la Vision*
+	**B. Es una herramienta estratégica que sintetiza el propösito de una empresa.**
+	C. El conjunto de principios fundamentales y creencias que guian su cultura y
+	Su comportamiento. *Este es el valor*
+	D. Ninguna de las anteriores.
+2. Que es la visiön de una empresa?:
+	**A. Es una meta de plazo amplio en la que se establece la aspiraciån sobre**
+	**Los logros de una empresa.**
+	B. Es una herramienta estratégica que sintetiza el propösito de una empresa.
+	C. El conjunto de principios fundamentales y creencias que guian su cultura y
+	Su comportamiento.
+	D. Ninguna de las anteriores.
+3. Qué son los objetivos estratégicos?:
+	A. Son los elementos que guian la mejora de cualquier negocio.
+	B. Es una herramienta estratégica que sintetiza el propösito de una empresa.
+	**C. Son las metas que se propone alcanzar una empresa a largo plazo.**
+	D. Son las herramientas que se utilizan para la mejora de un proyecto.
