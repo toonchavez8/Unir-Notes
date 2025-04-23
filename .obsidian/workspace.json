@@ -20,18 +20,6 @@
               "icon": "lucide-file",
               "title": "01-Estrategia-al-proyecto"
             }
-          },
-          {
-            "id": "1b2f5f517da6275e",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.8.10"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.8.10"
-            }
           }
         ],
         "stacked": true
@@ -183,17 +171,20 @@
       "callout-manager:Insert Callout": false,
       "omnisearch:Omnisearch": false,
       "mermaid-tools:Open Mermaid Toolbar": false,
-      "code-files:Create Code File": false
+      "code-files:Create Code File": false,
+      "audio-recorder:Start/stop recording": false
     }
   },
   "active": "3b46983d4a5f9147",
   "lastOpenFiles": [
+    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/attachments/Recording 20250422194902.webm",
+    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/01-Estrategia-al-proyecto.md",
+    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/attachments",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/00_IdeasClave.pdf",
     "02-programacion-python/04-funciones.md",
     "conflict-files-obsidian-git.md",
     "Maestría-Ingeniería-de-Software/Excalidraw/Mision-Vission_Valores.md",
     "Maestría-Ingeniería-de-Software/Excalidraw",
-    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/01-Estrategia-al-proyecto.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Agenda/Agenda.pdf",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Agenda/Agenda.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Agenda/Copia de Metodologías, Desarrollo y Calidad en la Ingeniería de Software(22681).pdf",
@@ -201,9 +192,7 @@
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/00_IdeasClave.pdf.crdownload",
     "Maestría-Ingeniería-de-Software/Calendario semestral.pdf",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/Agenda/Agenda.pdf",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/Agenda/Agenda todos.md",
-    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/00_ideas_clave.pdf",
     "02-programacion-python/03-Programacion-basica.md",
     "02-programacion-python/02-Primeros-conceptos-en-python.md",
     "02-programacion-python/01-Introducion.md",
