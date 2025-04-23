@@ -20,6 +20,18 @@
               "icon": "lucide-file",
               "title": "04-funciones"
             }
+          },
+          {
+            "id": "1b2f5f517da6275e",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.10"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.10"
+            }
           }
         ],
         "stacked": true

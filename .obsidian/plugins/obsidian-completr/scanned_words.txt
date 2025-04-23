@@ -1955,6 +1955,7 @@ EMZ
 ETn
 Ekk
 EaZ
+Estasfunciones
 Historia
 Howard
 Habilidades
@@ -4065,6 +4066,13 @@ devolveremos
 definimos
 declarado
 dAS
+devuelvan
+devolvemos
+distinta
+documentar
+docstring
+doc
+divisor
 La
 Linea
 Las
@@ -5858,6 +5866,7 @@ hHm
 hAIF
 hFPgBh
 hfhJ
+help
 referencia
 reconocer
 rmino
@@ -7018,6 +7027,8 @@ rAfuA
 reciba
 recibiese
 rEVb
+recordar
+radianes
 la
 los
 las
@@ -7988,6 +7999,10 @@ lNQ
 lOJ
 lgc
 llamarlo
+lasfunciones
+lculos
+lculostrigonom
+loslados
 sentimientos
 sugiere
 ser
@@ -9122,6 +9137,9 @@ sePDEt
 semos
 sxl
 sFy
+saldr
+separar
+secciones
 tiempo
 tiene
 tica
@@ -10114,6 +10132,10 @@ teJ
 tri
 triangulo
 tantos
+trunc
+trigonom
+tricas
+tricos
 Siglo
 Self
 Se
@@ -11934,6 +11956,7 @@ PageLayout
 PQT
 Par
 PEfnmH
+PEP
 Todo
 Thorndike
 Todos
@@ -14137,6 +14160,10 @@ argumento
 alguno
 aVw
 ayS
+asterisco
+asteriscos
+agrupadas
+absoluto
 una
 un
 unas
@@ -16051,6 +16078,7 @@ beginbfrange
 bpF
 bVb
 bjH
+bastantes
 emocional
 emociones
 en
@@ -17354,6 +17382,8 @@ eQu
 ehzy
 eJv
 eGn
+encapsulan
+enumeraremos
 que
 quien
 quiere
@@ -20408,6 +20438,7 @@ pjEj
 pNn
 pnF
 pYn
+permitir
 clave
 coment
 capacidad
@@ -21819,6 +21850,12 @@ currentdict
 cner
 calcule
 cMN
+cobra
+cuentan
+cabecera
+consejos
+ceil
+calcula
 Nic
 Necesidades
 No
@@ -23853,6 +23890,7 @@ mMui
 mQmP
 mZX
 mlZ
+math
 Arist
 Abraham
 Adem
@@ -26093,6 +26131,9 @@ indeterminados
 iYq
 iLY
 ijY
+implementando
+implementamos
+inferiores
 formaci
 factores
 fortalezas
@@ -27150,6 +27191,10 @@ findresource
 fLs
 fuR
 fNX
+factoriales
+fabs
+floor
+factorial
 Utiliza
 Una
 Uno
@@ -29089,6 +29134,7 @@ DvJ
 DQT
 DpC
 DLLAUR
+Documentar
 Wechsler
 Wayne
 WhatsApp
@@ -31029,6 +31075,9 @@ nwE
 ngulo
 necesite
 nGu
+normales
+numerosas
+ngulos
 Maslow
 Miedo
 Maria
@@ -34800,6 +34849,7 @@ oxa
 oRe
 oJq
 ori
+obtenemos
 Crea
 Cociente
 Con
@@ -36695,6 +36745,7 @@ vSI
 vix
 valoresson
 vpo
+veremoslos
 Reuven
 REA
 Re
@@ -37668,6 +37719,7 @@ RUI
 Root
 RFS
 RdFv
+Retorno
 Bar
 Bisquerra
 Bajo
@@ -40391,6 +40443,7 @@ ggnvvfgovf
 gLv
 gjE
 gTt
+gcd
 Ofrecen
 Orientaci
 Ordena
