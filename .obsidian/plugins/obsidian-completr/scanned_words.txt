@@ -1274,6 +1274,9 @@ Injusticia
 Inicio
 Importancia
 IlI
+Ingenier
+IEC
+Integrar
 Emocional
 Edward
 Expone
@@ -2615,6 +2618,8 @@ Estructural
 Esfuerzos
 Elements
 Estrategicos
+Extracci
+Escalado
 Historia
 Howard
 Habilidades
@@ -3741,6 +3746,7 @@ Hyau
 HZQ
 HKE
 Humana
+Historias
 definiciones
 de
 dem
@@ -5274,6 +5280,7 @@ decompress
 difieren
 demanda
 deseen
+development
 La
 Linea
 Las
@@ -6346,6 +6353,8 @@ LTN
 Limitados
 Locura
 Lecutura
+Lenguajes
+Lean
 hace
 habilidad
 humano
@@ -7646,6 +7655,7 @@ hPRj
 hVj
 hkD
 htC
+hoja
 referencia
 reconocer
 rmino
@@ -9145,6 +9155,10 @@ repetitivo
 repetitivas
 relevancia
 representa
+reutilizaci
+repositorio
+recomendados
+resumenes
 la
 los
 las
@@ -11781,6 +11795,7 @@ sostenibles
 siglos
 sOpI
 supervisar
+sesiones
 tiempo
 tiene
 tica
@@ -13056,6 +13071,8 @@ tags
 this
 transporte
 traduce
+trica
+tablas
 Siglo
 Self
 Se
@@ -14240,6 +14257,13 @@ Saving
 Servicio
 Solicitud
 Seguimiento
+Software
+Solution
+Scrum
+Sprint
+Scrumban
+Sincronizar
+Sync
 Plat
 Pir
 Payne
@@ -15443,6 +15467,15 @@ Producci
 Permanente
 Producir
 Pizzas
+Presentaci
+Process
+Programaci
+Principios
+Patrones
+Product
+Programming
+Pruebas
+Plugins
 Todo
 Thorndike
 Todos
@@ -16651,6 +16684,10 @@ Talk
 Transparencia
 Temporal
 Text
+Transformaciones
+Tradicional
+Test
+Tables
 aprendizaje
 ala
 aspectos
@@ -18192,6 +18229,11 @@ amplia
 alinea
 anuales
 acertadas
+asignatura
+avanzado
+arquitectura
+aplicadas
+apuntes
 una
 un
 unas
@@ -19474,6 +19516,7 @@ uuid
 unificada
 uhk
 under
+unificado
 base
 biol
 bienestar
@@ -20651,6 +20694,7 @@ basan
 bvJ
 ble
 brindan
+backlog
 emocional
 emociones
 en
@@ -22273,6 +22317,10 @@ excalidraw
 entregables
 edificio
 emprenden
+eXtreme
+enlaces
+etiquetas
+esquemas
 que
 quien
 quiere
@@ -26189,6 +26237,8 @@ permanentes
 poryecto
 processo
 priorizar
+prototipos
+pruebas
 clave
 coment
 capacidad
@@ -27946,6 +27996,7 @@ centrada
 continuas
 catalizadores
 capacitados
+congreso
 Nic
 Necesidades
 No
@@ -29073,6 +29124,7 @@ Notas
 Nuevas
 Neceisdad
 Neccesidad
+Notes
 maco
 motivar
 menes
@@ -30663,6 +30715,12 @@ more
 mides
 montaje
 mixto
+modelado
+manifiesto
+madurez
+materiales
+modam
+metainformaci
 Arist
 Abraham
 Adem
@@ -31860,6 +31918,11 @@ Adaptaci
 Agrupan
 Actividades
 Adicional
+Arquitectura
+Agilidad
+Acceptance
+ATDD
+Advanced
 importancia
 inteligencia
 intelectivos
@@ -33528,6 +33591,7 @@ industriales
 integrada
 impulsen
 integral
+ingenier
 formaci
 factores
 fortalezas
@@ -34870,6 +34934,7 @@ fcbf
 finalizaci
 foumentar
 faq
+fundamentos
 Utiliza
 Una
 Uno
@@ -36097,6 +36162,9 @@ UnH
 ULj
 UWs
 UiHJ
+Unificado
+Unified
+Unir
 David
 Describe
 Developing
@@ -37303,6 +37371,10 @@ Duraci
 Data
 Direcion
 Direccion
+Diagrama
+Driven
+Dataview
+Diagramas
 Wechsler
 Wayne
 WhatsApp
@@ -39860,6 +39932,7 @@ nculo
 ndolos
 nube
 nacen
+new
 Maslow
 Miedo
 Maria
@@ -41263,6 +41336,15 @@ Motiva
 Magia
 Monitorizar
 MORE
+Microsoft
+MSF
+Metamodelado
+Modelado
+Mediciones
+Maestr
+Markdown
+Mejor
+Metolog
 Gardner
 Goleman
 Generan
@@ -42446,6 +42528,8 @@ GzÄ
 Gnj
 Grove
 Grupo
+General
+Git
 Formula
 Feedback
 Francis
@@ -43686,6 +43770,8 @@ FaKB
 Fundamental
 Flujograma
 Finalidad
+Framework
+Familia
 otras
 of
 on
@@ -44953,6 +45039,7 @@ orientan
 organizacion
 oSA
 obtenci
+owner
 Crea
 Cociente
 Con
@@ -46145,6 +46232,10 @@ Conjunto
 Cierre
 Cumplir
 CCar
+CASE
+Caso
+CMMI
+Calendar
 vida
 viene
 va
@@ -47380,6 +47471,9 @@ verdadera
 voces
 valoradas
 video
+validaci
+vault
+visualizaciones
 Reuven
 REA
 Re
@@ -48654,6 +48748,11 @@ Requisitos
 Repetitivo
 Resumen
 Requisieto
+Rational
+RUP
+Refinamientos
+Resoluci
+Relaci
 Bar
 Bisquerra
 Bajo
@@ -49788,6 +49887,8 @@ BSb
 Bkdi
 Base
 Bono
+Behavior
+BDD
 Kama
 KPI
 Kurt
@@ -50992,6 +51093,7 @@ Knqn
 KxK
 KoF
 KXx
+Kanban
 gicos
 gica
 generan
@@ -52225,6 +52327,7 @@ genuino
 ganado
 gas
 gel
+giles
 Ofrecen
 Orientaci
 Ordena
@@ -53356,6 +53459,10 @@ Organizaci
 OPTIONS
 Oportunidad
 Origin
+Objeto
+OCL
+Obsidian
+Organizar
 Vergüenza
 Valores
 Vision
@@ -54534,6 +54641,7 @@ Verificables
 Verificabilidad
 VIEW
 VfS
+Verificaci
 yo
 ya
 yO
@@ -55754,6 +55862,7 @@ ynx
 ywxQ
 yMopL
 yqi
+your
 Qui
 Qu
 Que

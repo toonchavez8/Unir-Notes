@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/Agenda/Agenda todos.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Agenda todos"
+              "title": "README"
             }
           }
         ],
@@ -179,12 +179,16 @@
   },
   "active": "47eaa4cd5f9cbb5e",
   "lastOpenFiles": [
+    "01-modam-softskills/10-Gestión-complejidad.md",
+    "README.md",
+    "01-Direccion-y-Gestion-de-Software.md",
+    "Excalidraw/Drawing 2025-04-22 20.59.15.excalidraw.md",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Agenda/Agenda todos.md",
+    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/Agenda/Agenda todos.md",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/02-Identificar-la-jerarquía.md",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/00_ideas_clave.pdf",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/01-Estrategia-al-proyecto.md",
-    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/Agenda/Agenda todos.md",
     "Maestría-Ingeniería-de-Software/Excalidraw/Mision-Vission_Valores.md",
-    "Excalidraw/Drawing 2025-04-22 20.59.15.excalidraw.md",
     "Excalidraw",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/attachments/Recording 20250422194902.webm",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/attachments",
@@ -193,7 +197,6 @@
     "conflict-files-obsidian-git.md",
     "Maestría-Ingeniería-de-Software/Excalidraw",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Agenda/Agenda.pdf",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Agenda/Agenda.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Agenda/Copia de Metodologías, Desarrollo y Calidad en la Ingeniería de Software(22681).pdf",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Agenda",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/00_IdeasClave.pdf.crdownload",
@@ -205,7 +208,6 @@
     "Examples/Example2.IPYN.md",
     "01-modam-softskills/02-liderazgo-competencias-directivas.md",
     "01-modam-softskills/01-inteligencia-emocional.md",
-    "01-modam-softskills/10-Gestión-complejidad.md",
     "01-modam-softskills/09-Motivacion-resilencia-cambio.md",
     "01-modam-softskills/08-Seguridad-psicológica-gestión-del miedo.md",
     "01-modam-softskills/07-Tecnicas-creatividad.md",
@@ -214,7 +216,6 @@
     "01-modam-softskills/04-Gestion-Trabajo-en-Equipo.md",
     "01-modam-softskills/03-Comunicacion-feedback.md",
     "02-programacion-python/attachments/Pasted image 20250317083920.png",
-    "01-modam-softskills/Untitled.md",
     "01-modam-softskills/attachments/Pasted image 20250308151917.png",
     "01-modam-softskills/attachments/Pasted image 20250308151743.png",
     "01-modam-softskills/attachments/Pasted image 20250228154836.png",
