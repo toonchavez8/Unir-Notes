@@ -1,6 +1,6 @@
-
+## Semana 1 (21/04/2025 - 25/04/2025)
 - [ ] Revisar **Tema 1. Conceptos clave de la dirección de Proyectos**:
-  - [ ] 1.1 Introducción y objetivos
+  - [x] 1.1 Introducción y objetivos
   - [ ] 1.2 De la estrategia al proyecto
   - [ ] 1.3 Identificar la jerarquía: portafolio, programa, proyecto
   - [ ] 1.4 Aspectos propios de la dirección de proyectos
