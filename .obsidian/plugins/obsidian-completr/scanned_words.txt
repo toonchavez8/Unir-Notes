@@ -11738,6 +11738,7 @@ sitos
 sOpI
 siguietnes
 sostetinble
+sintetiza
 tiempo
 tiene
 tica
@@ -15392,6 +15393,7 @@ Pro
 PRU
 Planes
 Plan
+Puntos
 Todo
 Thorndike
 Todos
@@ -18127,6 +18129,7 @@ aspiraciones
 alinean
 ambiental
 aparecen
+aspiraci
 una
 un
 unas
@@ -26096,6 +26099,7 @@ particulares
 pertinecia
 proposito
 principios
+propösito
 <<<<<<< HEAD
 =======
 >>>>>>> deb23d3604cc725807e193deba4bcd1e56daceac
@@ -47210,6 +47214,7 @@ vVH
 vbn
 vaya
 vision
+visiön
 Reuven
 REA
 Re
