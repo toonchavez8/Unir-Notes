@@ -1277,6 +1277,9 @@ IlI
 Ingenier
 IEC
 Integrar
+Iniciaci
+Identifican
+Incluye
 Emocional
 Edward
 Expone
@@ -2620,6 +2623,13 @@ Elements
 Estrategicos
 Extracci
 Escalado
+Estrategico
+Entradas
+Establecen
+Ejecutan
+Evaluaci
+Estudio
+Ejecucion
 Historia
 Howard
 Habilidades
@@ -5281,6 +5291,9 @@ difieren
 demanda
 deseen
 development
+dzas
+desviaciones
+dce
 La
 Linea
 Las
@@ -9159,6 +9172,11 @@ reutilizaci
 repositorio
 recomendados
 resumenes
+refinan
+regulan
+reducido
+retirada
+retiro
 la
 los
 las
@@ -10370,6 +10388,7 @@ libera
 leo
 legales
 leyes
+lCqAL
 sentimientos
 sugiere
 ser
@@ -11796,6 +11815,8 @@ siglos
 sOpI
 supervisar
 sesiones
+superponen
+superpuestas
 tiempo
 tiene
 tica
@@ -13073,6 +13094,8 @@ transporte
 traduce
 trica
 tablas
+transforman
+transforma
 Siglo
 Self
 Se
@@ -14264,6 +14287,7 @@ Sprint
 Scrumban
 Sincronizar
 Sync
+Salidas
 Plat
 Pir
 Payne
@@ -15476,6 +15500,10 @@ Product
 Programming
 Pruebas
 Plugins
+Personal
+Processo
+Planificacion
+PPv
 Todo
 Thorndike
 Todos
@@ -16688,6 +16716,9 @@ Transformaciones
 Tradicional
 Test
 Tables
+Tngqj
+Tecnicas
+TQjE
 aprendizaje
 ala
 aspectos
@@ -18234,6 +18265,7 @@ avanzado
 arquitectura
 aplicadas
 apuntes
+autorizaci
 una
 un
 unas
@@ -23435,6 +23467,7 @@ qPC
 qEC
 qkG
 qrw
+qdhGrQKa
 juegan
 json
 justo
@@ -26239,6 +26272,10 @@ processo
 priorizar
 prototipos
 pruebas
+planificado
+proponen
+picas
+pFkCe
 clave
 coment
 capacidad
@@ -27997,6 +28034,9 @@ continuas
 catalizadores
 capacitados
 congreso
+civil
+concepci
+cOC
 Nic
 Necesidades
 No
@@ -29125,6 +29165,7 @@ Nuevas
 Neceisdad
 Neccesidad
 Notes
+Naturaleza
 maco
 motivar
 menes
@@ -30721,6 +30762,7 @@ madurez
 materiales
 modam
 metainformaci
+mQT
 Arist
 Abraham
 Adem
@@ -33592,6 +33634,8 @@ integrada
 impulsen
 integral
 ingenier
+ivEjwt
+interrelacionadas
 formaci
 factores
 fortalezas
@@ -34935,6 +34979,8 @@ finalizaci
 foumentar
 faq
 fundamentos
+formalmente
+fXlO
 Utiliza
 Una
 Uno
@@ -37375,6 +37421,9 @@ Diagrama
 Driven
 Dataview
 Diagramas
+Definen
+Determinadas
+DBGDmue
 Wechsler
 Wayne
 WhatsApp
@@ -39933,6 +39982,7 @@ ndolos
 nube
 nacen
 new
+naturaleza
 Maslow
 Miedo
 Maria
@@ -41345,6 +41395,8 @@ Maestr
 Markdown
 Mejor
 Metolog
+Monitorean
+Mantenimiento
 Gardner
 Goleman
 Generan
@@ -42530,6 +42582,8 @@ Grove
 Grupo
 General
 Git
+Garantizan
+Generalmente
 Formula
 Feedback
 Francis
@@ -43772,6 +43826,8 @@ Flujograma
 Finalidad
 Framework
 Familia
+Finalizan
+Final
 otras
 of
 on
@@ -46236,6 +46292,8 @@ CASE
 Caso
 CMMI
 Calendar
+Ciclo
+CBfmndN
 vida
 viene
 va
@@ -47474,6 +47532,7 @@ video
 validaci
 vault
 visualizaciones
+viabilidad
 Reuven
 REA
 Re
@@ -48753,6 +48812,11 @@ RUP
 Refinamientos
 Resoluci
 Relaci
+Relacionados
+Realizaci
+Retiro
+RIYCJBAZ
+RzP
 Bar
 Bisquerra
 Bajo
@@ -53463,6 +53527,8 @@ Objeto
 OCL
 Obsidian
 Organizar
+Orientados
+OBtW
 Vergüenza
 Valores
 Vision
@@ -54642,6 +54708,8 @@ Verificabilidad
 VIEW
 VfS
 Verificaci
+Vida
+Venta
 yo
 ya
 yO
@@ -63181,6 +63249,7 @@ Zbd
 ZuPa
 ZYo
 ZDG
+ZEO
 zR
 zZ
 zS
@@ -66804,6 +66873,7 @@ YlE
 YRgco
 YFi
 You
+YGVDl
 üv
 üe
 üy
