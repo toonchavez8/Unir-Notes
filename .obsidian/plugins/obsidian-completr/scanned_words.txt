@@ -2614,6 +2614,7 @@ Editar
 Efectivos
 Estrella
 Explica
+Ejemlo
 Historia
 Howard
 Habilidades
@@ -11772,6 +11773,8 @@ significativamente
 sospecha
 sientan
 socialmente
+surgieron
+situacione
 tiempo
 tiene
 tica
@@ -14233,6 +14236,7 @@ Switch
 Saving
 Sector
 Significativo
+Seguimieno
 Plat
 Pir
 Payne
@@ -15433,6 +15437,9 @@ Planes
 Plan
 Puntos
 Polar
+Profesor
+Pembok
+Personales
 Todo
 Thorndike
 Todos
@@ -18180,6 +18187,7 @@ apreciados
 abordando
 aprendido
 ausencia
+abordaron
 una
 un
 unas
@@ -22262,6 +22270,7 @@ esquina
 equidad
 escuchadas
 equitativos
+elprofeso
 que
 quien
 quiere
@@ -26168,6 +26177,8 @@ pieza
 pilar
 profundamente
 percepciones
+principles
+proporcionado
 <<<<<<< HEAD
 =======
 >>>>>>> deb23d3604cc725807e193deba4bcd1e56daceac
@@ -27923,6 +27934,9 @@ cient
 cultivar
 cuidados
 comprometidos
+conocimientospreios
+case
+complementario
 Nic
 Necesidades
 No
@@ -29046,6 +29060,7 @@ NKFL
 NHg
 Nacen
 Necesidad
+Notas
 maco
 motivar
 menes
@@ -30636,6 +30651,7 @@ medibles
 medimos
 magia
 manifestarse
+material
 Arist
 Abraham
 Adem
@@ -31832,6 +31848,7 @@ Ambici
 Alinear
 Avanza
 Agresivos
+Adicinales
 importancia
 inteligencia
 intelectivos
@@ -37268,6 +37285,8 @@ Doble
 Doerr
 Declaran
 Desencadenantes
+Duraci
+Definic
 Wechsler
 Wayne
 WhatsApp
@@ -43647,6 +43666,7 @@ FOs
 Fia
 FmdWQ
 Fundamental
+Fecha
 otras
 of
 on
@@ -48615,6 +48635,8 @@ Retadores
 Resalta
 Reglas
 Riesgo
+Reflexiones
+Recursos
 Bar
 Bisquerra
 Bajo
