@@ -1,24 +1,24 @@
 {
   "main": {
-    "id": "7fbe22b648cb82b9",
+    "id": "523f4a0beb0a2e51",
     "type": "split",
     "children": [
       {
-        "id": "83f78830fff94ac1",
+        "id": "a6f0daa5459fa01b",
         "type": "tabs",
         "children": [
           {
-            "id": "53c118a6028f1a98",
+            "id": "c5a23b10657cb5e3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/Classes/Untitled.md",
+                "file": "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Agenda/Agenda todos.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "Agenda todos"
             }
           }
         ],
@@ -28,15 +28,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "dcb8a68f1e6868b5",
+    "id": "357262355a9c156e",
     "type": "split",
     "children": [
       {
-        "id": "aac1eaef0e5d62a8",
+        "id": "6de7607fdb809db1",
         "type": "tabs",
         "children": [
           {
-            "id": "ce219df758ba688b",
+            "id": "b74e6b9aa2987edc",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -49,13 +49,13 @@
             }
           },
           {
-            "id": "5ad71c1e79d25ab1",
+            "id": "d761e580d368b878",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
                 "query": "",
-                "matchingCase": false,
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -66,7 +66,7 @@
             }
           },
           {
-            "id": "ab27a53f6129cddb",
+            "id": "3d56d62b87ffd70f",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -79,25 +79,25 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 316.5
   },
   "right": {
-    "id": "799f88e4c1aeee97",
+    "id": "a25b807ad639ff42",
     "type": "split",
     "children": [
       {
-        "id": "789ffb5343c36d7b",
+        "id": "28f71c96ebd7cf87",
         "type": "tabs",
         "children": [
           {
-            "id": "b4dcd42ffd39ab5b",
+            "id": "0e4b2f65a40820fa",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/01-Estrategia-al-proyecto.md",
+                "file": "01-modam-softskills/01-inteligencia-emocional/01-inteligencia-emocional.md",
                 "collapseAll": false,
-                "extraContext": false,
+                "extraContext": true,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
@@ -105,54 +105,53 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 01-Estrategia-al-proyecto"
+              "title": "Backlinks for 01-inteligencia-emocional"
             }
           },
           {
-            "id": "b35f52bec4d520c2",
+            "id": "538cadb56173a756",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/01-Estrategia-al-proyecto.md",
+                "file": "01-modam-softskills/01-inteligencia-emocional/01-inteligencia-emocional.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 01-Estrategia-al-proyecto"
+              "title": "Outgoing links from 01-inteligencia-emocional"
             }
           },
           {
-            "id": "fad6254dc3071e6d",
+            "id": "6f374fb701b84381",
             "type": "leaf",
             "state": {
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true,
-                "showSearch": false,
-                "searchQuery": ""
+                "useHierarchy": true
               },
               "icon": "lucide-tags",
               "title": "Tags"
             }
           },
           {
-            "id": "8fa2aa992eb68465",
+            "id": "f0a7dee4b69988fc",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/01-Estrategia-al-proyecto.md",
+                "file": "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Agenda/Agenda todos.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 01-Estrategia-al-proyecto"
+              "title": "Outline of Agenda todos"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -171,28 +170,58 @@
       "callout-manager:Insert Callout": false,
       "omnisearch:Omnisearch": false,
       "mermaid-tools:Open Mermaid Toolbar": false,
-      "code-files:Create Code File": false
+      "code-files:Create Code File": false,
+      "audio-recorder:Start/stop recording": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "whisper:Open recording controls": false
     }
   },
-  "active": "53c118a6028f1a98",
+  "active": "c5a23b10657cb5e3",
   "lastOpenFiles": [
-    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/01-Estrategia-al-proyecto.md",
-    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/Classes/Untitled.md",
-    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/Classes",
-    "conflict-files-obsidian-git.md",
-    "README.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Agenda/Agenda todos.md",
-    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/03-Aspectos-de-dirección-de-proyectos.md",
-    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/02-Identificar-la-jerarquía.md",
-    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/Agenda/Agenda todos.md",
-    "Testing - 22 04 2025.md",
-    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/00_ideas_clave.pdf",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/00_IdeasClave.pdf",
-    "Maestría-Ingeniería-de-Software/Excalidraw/Mision-Vission_Valores.md",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/05-Stakeholders.md",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250427175143.png",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments",
+    "Maestría-Ingeniería-de-Software/Excalidraw 1/02-Metologias-Desarollo-y-Calidad.md",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/04-Modelo-proceso-dessarollo-software.md",
+    "Maestría-Ingeniería-de-Software/Excalidraw 1/01-Direcion-y-Gestion-de-Software.md",
+    "Maestría-Ingeniería-de-Software/Calendario semestral.pdf",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Agenda/Agenda.pdf",
-    "Maestría-Ingeniería-de-Software/Excalidraw",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Excalidraw/Drawing 2025-04-27 17.25.09.excalidraw.md",
+    "Maestría-Ingeniería-de-Software/Excalidraw 1",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Agenda/Agenda todos.md",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/03-proceso-desarollo-de-software.md",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/02-Crisis-de-software.md",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/01-Ingenieria-de-software.md",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/00_IdeasClave.pdf",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Actividad01_mexissi01.docx",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Actividad01_mexissi01.md",
+    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/Classes/MXMISSIABR25-1-DGPS.md",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/mexissi01_act1.docx",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades",
+    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/Agenda/Agenda todos.md",
+    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/05-Resumen tema-1.md",
+    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/04-Historia-gestion-proyectos.md",
+    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/03-Aspectos-de-dirección-de-proyectos.md",
+    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/Books/PMBOK 7ma edición.pdf",
+    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/Books",
+    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/02-Identificar-la-jerarquía.md",
+    "README.md",
+    "01-modam-softskills/10-Gestión-complejidad.md",
+    "01-Direccion-y-Gestion-de-Software.md",
+    "Excalidraw/Drawing 2025-04-22 20.59.15.excalidraw.md",
+    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/01-Estrategia-al-proyecto.md",
     "02-programacion-python/04-funciones.md",
+    "conflict-files-obsidian-git.md",
     "02-programacion-python/03-Programacion-basica.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Agenda/Agenda.md"
+    "02-programacion-python/02-Primeros-conceptos-en-python.md",
+    "02-programacion-python/attachments/Pasted image 20250317083920.png",
+    "01-modam-softskills/attachments/Pasted image 20250308151917.png",
+    "01-modam-softskills/attachments/Pasted image 20250308151743.png",
+    "01-modam-softskills/attachments/Pasted image 20250228154836.png",
+    "01-modam-softskills/attachments/Pasted image 20250228105508.png",
+    "01-modam-softskills/attachments/Pasted image 20250215105348.png",
+    "01-modam-softskills/attachments/Pasted image 20250215105150.png",
+    "01-modam-softskills/attachments/Pasted image 20250215105147.png",
+    "01-modam-softskills/attachments/Pasted image 20250215105129.png"
   ]
 }
