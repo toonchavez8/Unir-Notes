@@ -19,7 +19,7 @@
   - Herramientas y técnicas
   - Salidas
   - Equipo que ejecuta el proceso
-![[Maestría-Ingeniería-de-Software/Excalidraw/Mision-Vission_Valores.md#^area=xQgqPlzM87XwYnh0R7vMn]]
+![[01-Direcion-y-Gestion-de-Software#^area=xQgqPlzM87XwYnh0R7vMn]]
 ---
 
 ## ⚙️ Tipos de procesos
@@ -34,7 +34,7 @@
 ---
 
 ## 📊 Grupos de procesos en la dirección de proyectos (según PMBOK)
-![[Maestría-Ingeniería-de-Software/Excalidraw/Mision-Vission_Valores.md#^frame=iexn8x_YHTt9n9NtoKONF]]
+![[01-Direcion-y-Gestion-de-Software#^frame=iexn8x_YHTt9n9NtoKONF]]
 1. **Procesos de Iniciación**  
    - Definen el proyecto o una nueva fase del mismo.
    - Se busca la autorización para comenzar.

@@ -108,7 +108,7 @@ tags: []
 3. **Programas** → Grupos de proyectos relacionados y gestionados en conjunto.
 4. **Proyectos** → Esfuerzos temporales para lograr resultados únicos.
 5. **Operaciones** → Actividades permanentes, repetitivas y necesarias para el funcionamiento diario.
-![[Maestría-Ingeniería-de-Software/Excalidraw/Mision-Vission_Valores.md#^area=x-a3KOZ1U6MaB3wzGWQMP]]
+![[01-Direcion-y-Gestion-de-Software#^area=x-a3KOZ1U6MaB3wzGWQMP]]
 ---
 
 ## 🙌 Conclusión

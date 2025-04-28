@@ -1,17 +1,17 @@
 ## Semana 1 (21/04/2025 - 25/04/2025)
-- [ ] Revisar **Tema 1. Conceptos clave de la dirección de Proyectos**:
+- [x] Revisar **Tema 1. Conceptos clave de la dirección de Proyectos**:
   - [x] 1.1 Introducción y objetivos
   - [x] 1.2 De la estrategia al proyecto
   - [x] 1.3 Identificar la jerarquía: portafolio, programa, proyecto
   - [x] 1.4 Aspectos propios de la dirección de proyectos
-  - [ ] 1.5 Algo de historia de la dirección de proyectos
-  - [ ] 1.6 Asociaciones profesionales
-  - [ ] 1.7 Herramientas
+  - [x] 1.5 Algo de historia de la dirección de proyectos
+  - [x] 1.6 Asociaciones profesionales
+  - [x] 1.7 Herramientas
 - [x] Realizar Microtest 1.1 (0.5 p.) – **17/08/2025**
 - [x] Realizar Microtest 1.2 (0.5 p.) – **17/08/2025**
 - [x] Realizar Microtest 1.3 (0.5 p.) – **17/08/2025**
-- [ ] Realizar Microtest 1.4 (0.2 p.) – **17/08/2025**
-- [ ] Asistir a la clase de introducción
+- [x] Realizar Microtest 1.4 (0.2 p.) – **17/08/2025**
+- [x] Asistir a la clase de introducción
 
 ## Semana 2 (28/04/2025 - 02/05/2025)
 - [ ] Revisar **Tema 2. Inicio de Proyecto y stakeholders**:
