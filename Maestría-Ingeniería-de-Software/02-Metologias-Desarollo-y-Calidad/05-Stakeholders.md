@@ -29,7 +29,7 @@
 ---
 
 ## Ejemplos De Stakeholders
-![[Maestría-Ingeniería-de-Software/Excalidraw 1/02-Metologias-Desarollo-y-Calidad.md#^frame=VpwIsjI3bCKEQPGdicg48]]
+![[02-Metologias-Desarollo-y-Calidad#^frame=VpwIsjI3bCKEQPGdicg48]]
 ### Fuera De la Organización
 
 - **Usuarios directos** e **indirectos**.
