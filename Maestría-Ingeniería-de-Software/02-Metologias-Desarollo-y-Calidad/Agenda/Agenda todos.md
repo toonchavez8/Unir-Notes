@@ -1,17 +1,18 @@
+# Agenda Todos
 ## Semana 1 (21/04/2025 - 25/04/2025)
-- [ ] Revisar **Tema 1. Introducción a la ingeniería de software**  
-  - [ ] 1.1 Introducción y objetivos  
-  - [ ] 1.2 Ingeniería de software  
-  - [ ] 1.3 La crisis del software  
-  - [ ] 1.4 Proceso de desarrollo de software  
-  - [ ] 1.5 Modelo de proceso de desarrollo de software  
-  - [ ] 1.6 Los stakeholders  
-- [ ] Asistir a Presentación asignatura (15 min) + Clase (45 min)  
-- [ ] Realizar Microtest 1.1 (0.05 p.) – **17/08/2025 23:59**  
-- [ ] Realizar Microtest 1.2 (0.05 p.) – **17/08/2025 23:59**  
-- [ ] Realizar Microtest 1.3 (0.05 p.) – **17/08/2025 23:59**  
-- [ ] Realizar Microtest 1.4 (0.05 p.) – **17/08/2025 23:59**  
-- [ ] Realizar Microtest 1.5 (0.05 p.) – **17/08/2025 23:59**  
+- [x] Revisar **Tema 1. Introducción a la ingeniería de software**  
+  - [x] 1.1 Introducción y objetivos  
+  - [x] 1.2 Ingeniería de software  
+  - [x] 1.3 La crisis del software  
+  - [x] 1.4 Proceso de desarrollo de software  
+  - [x] 1.5 Modelo de proceso de desarrollo de software  
+  - [x] 1.6 Los stakeholders  
+- [x] Asistir a Presentación asignatura (15 min) + Clase (45 min)  
+- [x] Realizar Microtest 1.1 (0.05 p.) – **17/08/2025 23:59**  
+- [x] Realizar Microtest 1.2 (0.05 p.) – **17/08/2025 23:59**  
+- [x] Realizar Microtest 1.3 (0.05 p.) – **17/08/2025 23:59**  
+- [x] Realizar Microtest 1.4 (0.05 p.) – **17/08/2025 23:59**  
+- [x] Realizar Microtest 1.5 (0.05 p.) – **17/08/2025 23:59**  
 
 ## Semana 2 (28/04/2025 - 02/05/2025)
 - [ ] Revisar **Tema 2. Técnicas tradicionales de desarrollo de software**  
@@ -72,7 +73,7 @@
   - [ ] 5.3 Modelado estático avanzado  
   - [ ] 5.4 Modelado dinámico avanzado  
   - [ ] 5.5 Diseño modelado con prototipos  
-  - [ ] 5.6 Modelado de componentes  
+  - [ ] 5.6 Modelado de components  
 - [ ] Asistir a Clase (45 min) + Resolución Actividad 1 (15 min)  
 - [ ] Realizar Microtest 5.1 (0.05 p.) – **17/08/2025 23:59**  
 - [ ] Realizar Microtest 5.2 (0.05 p.) – **17/08/2025 23:59**  

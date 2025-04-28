@@ -44,7 +44,7 @@ Los objetivos estratégicos representan propósitos generales que orientan los e
 ---
 
 ### Mision Vision y valores
-![[Maestría-Ingeniería-de-Software/Excalidraw/Mision-Vission_Valores.md#^area=08XRaoJpughc4XJWvEz54]]
+![[01-Direcion-y-Gestion-de-Software#^area=08XRaoJpughc4XJWvEz54]]
 
 Son la base de la cultura de la organizacion, alinean la motivacion, y las deciciones. Y ayuda a foumentar las pertinecia de los colabroradoeres
 #### Mision 
