@@ -118,6 +118,8 @@ Entonces
 Ese
 Enteros
 Exponente
+Ejecuciones
+Expresi
 Historia
 Howard
 Habilidades
@@ -391,6 +393,7 @@ diccionarios
 diccionario
 definiremos
 delimitados
+duplicados
 La
 Linea
 Las
@@ -470,6 +473,7 @@ hacerles
 hayamos
 hexadecimal
 haremos
+habr
 referencia
 reconocer
 rmino
@@ -667,6 +671,7 @@ retorna
 repetido
 resulatado
 repetidas
+repetici
 la
 los
 las
@@ -959,6 +964,10 @@ suficientes
 separados
 simbolo
 seprados
+soportadas
+sentencia
+setencia
+seria
 tiempo
 tiene
 tica
@@ -1092,6 +1101,7 @@ transiparl
 tuplas
 tupla
 tendra
+traves
 Siglo
 Self
 Se
@@ -1591,6 +1601,7 @@ agregaran
 almacenados
 acceso
 asignando
+antenrio
 una
 un
 unas
@@ -1634,6 +1645,9 @@ usamos
 unois
 ultimo
 unico
+usarnos
+union
+usario
 base
 biol
 bienestar
@@ -1707,6 +1721,8 @@ booleanos
 booleano
 binario
 basica
+bifurcaciones
+bifurcaci
 emocional
 emociones
 en
@@ -1988,6 +2004,11 @@ elemina
 eliminara
 empaquetado
 enlaza
+eliminan
+elements
+error
+ejecuciones
+expressions
 que
 quien
 quiere
@@ -2329,6 +2350,9 @@ parametro
 paasa
 parti
 pares
+puesto
+podriamos
+print
 clave
 coment
 capacidad
@@ -2764,6 +2788,12 @@ contiene
 componentes
 conforman
 claves
+comprueba
+colecciones
+crearlo
+continuacion
+cumple
+condici
 Nic
 Necesidades
 No
@@ -2955,6 +2985,7 @@ metro
 mutable
 modificarlas
 metodo
+mostremos
 Arist
 Abraham
 Adem
@@ -3268,6 +3299,11 @@ intenamos
 inverti
 inmutables
 inverso
+incluidas
+intersecci
+instrucciones
+imprimimos
+incluiremos
 formaci
 factores
 fortalezas
@@ -3451,6 +3487,7 @@ Divide
 Desplaza
 Distinto
 Diccionarios
+Dos
 Wechsler
 Wayne
 WhatsApp
@@ -3747,6 +3784,10 @@ opuca
 ordena
 ordenenarlo
 operacion
+ordenada
+ordenadas
+ocasiones
+obtengamos
 Crea
 Cociente
 Con
