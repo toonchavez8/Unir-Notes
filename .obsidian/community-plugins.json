@@ -1,7 +1,6 @@
 [
   "better-export-pdf",
   "floating-toc",
-  "obsidian-excalidraw-plugin",
   "obsidian-git",
   "note-refactor-obsidian",
   "easy-typing-obsidian",
@@ -15,5 +14,6 @@
   "obsidian-dictionary-plugin",
   "mermaid-tools",
   "code-files",
-  "obsidian-editor-shortcuts"
+  "obsidian-editor-shortcuts",
+  "whisper"
 ]

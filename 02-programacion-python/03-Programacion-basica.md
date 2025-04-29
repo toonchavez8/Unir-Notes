@@ -286,4 +286,194 @@ else:
 	print("Soy manor o igual que 5")
 ```
 
-test
+
+### Expression `elif`
+
+La expresión `elif` nos permite evaluar más condiciones dentro de una estructura `if`, para ejecutar diferentes bloques de instrucciones según el caso. Si se incluye un bloque `else`, las instrucciones dentro de este bloque se ejecutarán **solo si** todas las expresiones lógicas de los bloques `if` y `elif` han devuelto `False`.
+
+Se puede añadir más de un bloque `elif`, y estos deben colocarse **después** del bloque `if` y **antes** del bloque `else`.
+
+```python
+if (EXPRESION_LOGICA):
+	codigo_1
+elif (EXPRESION_LOGICA):
+	codigo_2
+else:
+	codigo_resto
+```
+
+Vamos a aplicar esta expresión en nuestro ejemplo anterior
+
+Para ello, comprobaremos también si el valor introducido por el usuario es 5 y, si es así, mostraremos otro mensaje:
+```python
+print("Escribe un número de 1 a 10") 
+number = int(input()) 
+if (number > 5): 
+	print("¡Soy mayor que 5!") 
+elif (number == 5): 
+	print("Soy el número 5") 
+else: 
+	print("Soy menor o igual que 5")
+```
+
+### Ejecuciones iterativas
+
+En esta sección vamos a explicar las dos expresiones que existen en Python para ejecutar varias veces un conjunto de instrucciones. Esas expresiones son la sentencia `while` y la sentencia `for`. Además, veremos otras sentencias que se pueden utilizar en los bucles para modificar el flujo de ejecución y, por último, veremos el uso de iteradores que nos permiten recorrer todos los elementos de objetos como las listas
+
+#### `While loop`
+
+La primera instrucción que vamos a explicar en las iteraciones es while. Esta instrucción repite un bloque de código mientras se cumpla una condición definida por nosotros. Esa condición, al igual que pasaba con if, viene dada en forma de expresión lógica. El bloque de instrucciones de la instrucción while dejará de ejecutarse cuando esa expresión lógica devuelva un False. El formato de escritura de while es el siguiente:
+
+``` python
+while (expresion_logica):
+	sentencia_1
+	sentencia_2
+```
+Por ejemplo, imaginemos que queremos imprimir una secuencia de números desde el número 5 hasta el número 0. Esto lo podríamos hacer con un bloque while, al cual, mientras el número que estamos imprimiendo sea mayor que 0, le restaremos una unidad y lo imprimiremos:
+
+``` python
+numero = 5 
+fin = 0 
+
+while(numero > fin): 
+	numero -= 1 
+	print(numero)
+```
+
+A la instrucción while se la puede incluir la sentencia else. A diferencia de las ejecuciones condicionales, el bloque de instrucciones de la sentencia else se ejecutará siempre cuando acabe de ejecutarse las iteraciones en while. En este caso, escribiríamos la sentencia else a continuación de las instrucciones del bloque while.
+
+``` python
+while (EXPRESION_LOGICA): 
+	sentencia_1 
+	sentencia_2 
+	... 
+else: 
+	sentencia_1 
+	sentencia_2 
+	...
+```
+
+En el ejemplo anterior, podemos imprimir un mensaje al usuario para indicarle que hemos acabado de imprimir números. Para ello, incluimos un bloque else después del bloque while con la instrucción que imprimirá el mensaje
+
+```python
+numero = 5
+fin = 0
+
+while(numero > fin):
+	numero -= 1
+	print(numero)
+else:
+	print("Ya he acabado")
+```
+
+Esta es la forma más sencilla de crear sentencias iterativas. Normalmente, la instrucción while se utiliza para hacer búsquedas de elementos o ejecutar un conjunto de acciones hasta que ocurre un evento. En ambos casos, no se sabe exactamente cuántas ejecuciones tenemos que hacer y depende de la evaluación de una expresión lógica.
+
+#### `for loop`
+
+La segunda forma de crear secuencias iterativas es con la instrucción for. Esta permite recorrer un conjunto de elementos (por ejemplo, listas) en cualquier sentido y con cualquier paso. La forma general de crear una sentencia for es la siguiente:
+
+```python
+for VARIABLE in OBJETO: 
+	sentencia_1 
+	sentencia_2
+else: 
+	sentencia_1 
+	sentencia_2
+```
+
+En la instrucción for declaramos una variable a la que, en cada iteración del bucle, se le asignará el valor de uno de los elementos contenidos en `OBJETO`.
+
+Como pasaba en la sentencia while, podemos incluir una sentencia else que ejecutará sus instrucciones cuando hayan finalizado todas las iteraciones del bucle `for`
+
+Podemos hacer el mismo ejemplo que en la sentencia while. Para ello creamos una lista con los números que queremos imprimir. Con la instrucción for recorremos cada uno de esos números y los imprimimos. Al final, mostraremos un mensaje indicando que hemos acabado:
+
+```python
+list_numeros = [5, 4, 3, 2, 1, 0]
+for numero in list_numeros:
+	print(numero)
+else:
+	print("Ya acabo!")
+```
+
+Esta forma de asignación también se puede hacer con cadenas de texto. En este caso, a la variable se le irá asignando cada uno de los caracteres de la cadena en cada paso del bucle:
+
+```python
+texto = 'Hola mundo'
+for caracter in texto:
+	print(caracter)
+```
+
+Además, como es lógico, la variable puede tener un tipo de dato diferente en cada vuelta del bucle
+
+```python
+lista = ['texto', 5, (23, 56)]
+
+for elemento in lista:
+	print(elemento)
+
+```
+
+En las sentencias for, una forma de recorrer un objeto, como una lista, es a través de sus índices. El objetivo es que la variable tenga como valor en cada paso la posición de la lista que estamos visitando. Para poder hacer esto, en Python se utiliza la instrucción range. Esta instrucción nos devuelve un rango de números desde un número inicial hasta uno final, y con la separación entre números que hayamos seleccionado. Su estructura es una de las siguientes:
+
+```python
+# Secuencia de números de 0 a NUMERO_FINAL con paso 1
+ range(NUMERO_FINAL) 
+ # Secuencia de números de NUMERO_INICIAL a NUMERO_FINAL con paso 1 
+ range(NUMERO_INICIAL, NUMERO_FINAL) 
+ # Secuencia de números de NUMERO_INICIAL a NUMERO_FINAL con paso PASO 
+ range(NUMERO_INICIAL, NUMERO_FINAL, PASO)
+```
+
+Los rangos se pueden utilizar directamente como objeto en el bucle for. Sin embargo, para poder imprimir todos los índices que nos ha generado un rango, es necesario encapsular el rango en una lista.
+
+A continuación, vemos un ejemplo del uso de rangos. En este ejemplo solo queremos mostrar los caracteres que ocupan una posición par en la cadena «Hola mundo», podríamos hacerlo así:
+
+```python
+cadena = 'Hola mundo'
+
+# Comenzamos en 0, hasta la longitud de la cadena y con paso = 2
+for i in range(0, len(cadena), 2):
+	print(cadena[i])
+```
+
+
+#### Sentancias extras
+
+A las estructuras de iteración que hemos visto antes podemos incluir otras sentencias que permiten modificar la ejecución de los bucles. Estas sentencias se pueden utilizar tanto en los bucles while como en los bucles for
+
+- `break`: esta sentencia rompe la ejecucion del bucle en el momento en que se ejecute
+```python
+	numeros = list (range(10))
+	
+	for n in numeros:
+		if (n == 5):
+			print('rompemos el bulce!')
+			break
+		print(n)
+# La secuencia de ejecución sería: 0, 1, 2, 3, 4, Rompemos el bucle!
+```
+
+- `continue`: esta instrucción permite saltarnos una iteración del bucle sin que se rompa la ejecución final.
+```python
+	numeros = list (range(10))
+	
+	for n in numeros:
+		if (n == 5):
+			print('rompemos el bulce!')
+			continue
+		print(n)
+# La secuencia de ejecución sería: 0, 1, 2, 3, 4, Me salto una vuelta, 6, 7, 8, 9
+```
+
+#### Iteradores
+Otra forma de recorrer los elementos de un objeto en Python es utilizando iteradores. Un iterador es un objeto que, al aplicarlo sobre otro objeto iterable, como son las cadenas de texto o los conjuntos, nos permite obtener el siguiente elemento por visitar.
+
+Para crear un iterador sobre un objeto usamos la instrucción iter(OBJETO) y se lo asignamos a una variable. Una vez creado, podemos visitar los elementos del OBJETO con la función next() y pasando por parámetro el identificador del iterador. Veremos esto en un ejemplo
+```python
+cadena = 'Hola'
+iterador = iter(cadena)
+next(iterador) # Devolverá 'H' 
+next(iterador) # Devolverá 'o' 
+next(iterador) # Devovlerá 'l' 
+next(iterador) # Devolverá 'a'
+```
