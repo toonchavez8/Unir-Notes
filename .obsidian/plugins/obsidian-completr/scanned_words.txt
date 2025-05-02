@@ -71,6 +71,8 @@ Implementaci
 Importantes
 Injusticia
 Introducciones
+ISO
+IEC
 Emocional
 Edward
 Expone
@@ -189,6 +191,9 @@ Entorno
 Explotar
 Estimar
 Eval
+Extracci
+Escalado
+Ex
 Historia
 Howard
 Habilidades
@@ -212,6 +217,7 @@ Hola
 Hist
 Herramienta
 Humana
+Historias
 definiciones
 de
 dem
@@ -496,6 +502,8 @@ demuestra
 dimensi
 deberse
 designado
+desarrollos
+development
 La
 Linea
 Las
@@ -518,6 +526,8 @@ Lecutura
 Limitados
 Locura
 Limitaciones
+Lenguajes
+Lean
 hace
 habilidad
 humano
@@ -582,6 +592,7 @@ hexadecimal
 haremos
 habr
 hayan
+hoja
 referencia
 reconocer
 rmino
@@ -823,6 +834,7 @@ redacci
 recunion
 redacta
 repaso
+reutilizaci
 la
 los
 las
@@ -1307,6 +1319,7 @@ transparentes
 transformador
 tratar
 tramo
+trica
 Siglo
 Self
 Se
@@ -1375,6 +1388,11 @@ Superpocicion
 Servicio
 Solicitud
 Significativo
+Semana
+Solution
+Scrum
+Sprint
+Scrumban
 Plat
 Pir
 Payne
@@ -1485,6 +1503,15 @@ Presupuestar
 Planificar
 Priorizar
 Participantes
+Presentaci
+Process
+Programaci
+Principios
+Patrones
+Product
+Programming
+Pruebas
+Presentar
 Todo
 Thorndike
 Todos
@@ -1542,6 +1569,10 @@ Talk
 Transparencia
 Tras
 Te
+Transformaciones
+Tradicional
+Test
+TDD
 aprendizaje
 ala
 aspectos
@@ -1910,6 +1941,10 @@ ambigüedad
 aspecto
 autoridad
 acta
+asignatura
+avanzado
+arquitectura
+arranque
 una
 un
 unas
@@ -1960,6 +1995,7 @@ usuario
 unidad
 utilize
 unificada
+unificado
 base
 biol
 bienestar
@@ -2041,6 +2077,7 @@ bucles
 bucle
 ble
 brindan
+backlog
 emocional
 emociones
 en
@@ -2366,6 +2403,7 @@ escuchadas
 equitativos
 ejecutante
 estimada
+eXtreme
 que
 quien
 quiere
@@ -2755,6 +2793,8 @@ profundamente
 percepciones
 pronto
 preparada
+prototipos
+pruebas
 clave
 coment
 capacidad
@@ -3266,6 +3306,10 @@ cticamente
 contratar
 conocidos
 convierta
+clases
+components
+congreso
+constituci
 Nic
 Necesidades
 No
@@ -3497,6 +3541,9 @@ monetario
 minimizar
 mapa
 mental
+modelado
+manifiesto
+madurez
 Arist
 Abraham
 Adem
@@ -3613,6 +3660,13 @@ All
 Acta
 Arranque
 Anticiparse
+Agenda
+Asistir
+Actividad
+Arquitectura
+Agilidad
+Acceptance
+ATDD
 importancia
 inteligencia
 intelectivos
@@ -3901,6 +3955,7 @@ identificados
 inviables
 insuficientes
 imagen
+ingenier
 formaci
 factores
 fortalezas
@@ -4026,6 +4081,7 @@ fijar
 factible
 financieros
 ficha
+faltar
 Utiliza
 Una
 Uno
@@ -4040,6 +4096,8 @@ Usando
 Uso
 UU
 Univac
+Unificado
+Unified
 David
 Describe
 Developing
@@ -4118,6 +4176,7 @@ Declaran
 Desencadenantes
 Diversidad
 Documento
+Driven
 Wechsler
 Wayne
 WhatsApp
@@ -4304,6 +4363,10 @@ Mision
 Mission
 Motiva
 Magia
+MSF
+Metamodelado
+Modelado
+Mediciones
 Gardner
 Goleman
 Generan
@@ -4373,6 +4436,8 @@ Final
 Finalidad
 Funcionan
 Fundamental
+Framework
+Familia
 otras
 of
 on
@@ -4481,6 +4546,7 @@ ordenador
 obtenci
 organizacion
 organizar
+owner
 Crea
 Cociente
 Con
@@ -4613,6 +4679,10 @@ Comienza
 Comprometer
 Constituci
 Calendario
+CASE
+Completar
+Caso
+CMMI
 vida
 viene
 va
@@ -4710,6 +4780,7 @@ valoradas
 video
 vincula
 validar
+validaci
 Reuven
 REA
 Re
@@ -4784,6 +4855,11 @@ Resolver
 Reuni
 Recursos
 Riesgos
+Rational
+RUP
+Refinamientos
+Resoluci
+Reuniones
 Bar
 Bisquerra
 Bajo
@@ -4812,6 +4888,8 @@ Building
 Body
 Base
 Bono
+Behavior
+BDD
 Kama
 KPI
 Kurt
@@ -4821,6 +4899,7 @@ Koestler
 Kelly
 Knowledge
 Kickoff
+Kanban
 gicos
 gica
 generan
@@ -4924,6 +5003,8 @@ OKRs
 Orientado
 Obtener
 Otorga
+Objeto
+OCL
 Vergüenza
 Valores
 Vision
@@ -4948,6 +5029,7 @@ Verificables
 Verificabilidad
 Valorar
 Viabilidad
+Verificaci
 yo
 ya
 Qui
@@ -4986,3 +5068,4 @@ knowledge
 keys
 XOR
 XX
+XP
