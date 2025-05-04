@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "a6f0daa5459fa01b",
+        "id": "4ff3ccdc78ea262f",
         "type": "tabs",
         "children": [
           {
-            "id": "19b0b9e7224473ac",
+            "id": "4eb75b8f3faaf2c4",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -176,7 +176,7 @@
       "whisper:Open recording controls": false
     }
   },
-  "active": "19b0b9e7224473ac",
+  "active": "4eb75b8f3faaf2c4",
   "lastOpenFiles": [
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/06-Estrategia-y-arranque-proyecto.md",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/07-Tareas-conocimientos-y-habilidades-incio.md",
