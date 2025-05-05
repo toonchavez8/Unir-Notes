@@ -15,10 +15,10 @@
 
 ## Semana 2 (28/04/2025 - 02/05/2025)
 - [ ] Revisar **Tema 2. Inicio de Proyecto y stakeholders**:
-  - [ ] 2.1 Introducción y objetivos
-  - [ ] 2.2 De la estrategia al proyecto
-  - [ ] 2.3 Reunión de arranque del proyecto
-  - [ ] 2.4 Tareas, conocimientos y habilidades en el proceso de inicio
+  - [x] 2.1 Introducción y objetivos
+  - [x] 2.2 De la estrategia al proyecto
+  - [x] 2.3 Reunión de arranque del proyecto
+  - [x] 2.4 Tareas, conocimientos y habilidades en el proceso de inicio
   - [ ] 2.5 El proceso de inicio: entradas, herramientas y salidas
   - [ ] 2.6 Identificar a los interesados
   - [ ] 2.7 Desarrollar el plan para el involucramiento de los interesados
@@ -27,7 +27,7 @@
 - [ ] Asistir a la clase en directo
 
 ## Semana 3 (05/05/2025 - 09/05/2025)
-- [ ] Revisar continuación **Tema 2. Inicio de Proyecto y stakeholders**
+- [x] Revisar continuación **Tema 2. Inicio de Proyecto y stakeholders**
 - [ ] Realizar Microtest 2.1 (0.07 p.) – **17/08/2025**
 - [ ] Realizar Microtest 2.2 (0.04 p.) – **17/08/2025**
 - [ ] Realizar Microtest 2.3 (0.04 p.) – **17/08/2025**
