@@ -14,17 +14,17 @@
 - [x] Asistir a la clase de introducción
 
 ## Semana 2 (28/04/2025 - 02/05/2025)
-- [ ] Revisar **Tema 2. Inicio de Proyecto y stakeholders**:
+- [x] Revisar **Tema 2. Inicio de Proyecto y stakeholders**:
   - [x] 2.1 Introducción y objetivos
   - [x] 2.2 De la estrategia al proyecto
   - [x] 2.3 Reunión de arranque del proyecto
   - [x] 2.4 Tareas, conocimientos y habilidades en el proceso de inicio
-  - [ ] 2.5 El proceso de inicio: entradas, herramientas y salidas
-  - [ ] 2.6 Identificar a los interesados
-  - [ ] 2.7 Desarrollar el plan para el involucramiento de los interesados
-  - [ ] 2.8 Gestionar y monitorizar el involucramiento de los interesados
-  - [ ] 2.9 Herramientas
-- [ ] Asistir a la clase en directo
+  - [x] 2.5 El proceso de inicio: entradas, herramientas y salidas
+  - [x] 2.6 Identificar a los interesados
+  - [x] 2.7 Desarrollar el plan para el involucramiento de los interesados
+  - [x] 2.8 Gestionar y monitorizar el involucramiento de los interesados
+  - [x] 2.9 Herramientas
+- [x] Asistir a la clase en directo
 
 ## Semana 3 (05/05/2025 - 09/05/2025)
 - [x] Revisar continuación **Tema 2. Inicio de Proyecto y stakeholders**
@@ -33,6 +33,18 @@
 - [ ] Realizar Microtest 2.3 (0.04 p.) – **17/08/2025**
 - [ ] Realizar Microtest 2.4 (0.04 p.) – **17/08/2025**
 - [ ] Asistir a la clase en directo
+
+
+
+Idea clave 1. La integración en dirección de proyectos
+
+Microtest 3.1Quiz
+
+Idea clave 2. Los procesos de la gestión de la integración
+
+Idea clave 3. Flujograma de la integración y Herramientas
+
+Resumen tema 3
 
 ## Semana 4 (12/05/2025 - 16/05/2025)
 - [ ] Revisar **Tema 3. Planificación: integración**:

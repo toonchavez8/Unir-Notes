@@ -15,5 +15,6 @@
   "mermaid-tools",
   "code-files",
   "obsidian-editor-shortcuts",
-  "whisper"
+  "whisper",
+  "obsidian-linter"
 ]
