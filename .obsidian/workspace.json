@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Epam/01-Version-control-git/05-inside-git.md",
+                "file": "Epam/02-css-layouts/01-CSS-preprocessors.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "05-inside-git"
+              "title": "01-CSS-preprocessors"
             }
           }
         ],
@@ -141,13 +141,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Epam/01-Version-control-git/05-inside-git.md",
+                "file": "Epam/02-css-layouts/01-CSS-preprocessors.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 05-inside-git"
+              "title": "Outline of 01-CSS-preprocessors"
             }
           }
         ],
@@ -177,12 +177,14 @@
   },
   "active": "465a3344c4dfce88",
   "lastOpenFiles": [
+    "Epam/01-Version-control-git/05-inside-git.md",
+    "Epam/02-css-layouts/01-CSS-preprocessors.md",
+    "Epam/02-css-layouts",
     "Epam/01-Version-control-git/attachments/Pasted image 20250506170226.png",
     "Epam/01-Version-control-git/01-vcs-concept.md",
     "Epam/01-Version-control-git/02-Installation-and-setup.md",
     "Epam/01-Version-control-git/03-github.md",
     "Epam/01-Version-control-git/04-git-gui-and-gitk.md",
-    "Epam/01-Version-control-git/05-inside-git.md",
     "Epam/01-Version-control-git/attachments/Pasted image 20250506150601.png",
     "Epam/01-Version-control-git/attachments",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/07-Tareas-conocimientos-y-habilidades-incio.md",
@@ -220,8 +222,6 @@
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250428174203.png",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250427175143.png",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/artefactos.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Agenda/Agenda.pdf",
-    "02-programacion-python/attachments/Pasted image 20250317083920.png"
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/artefactos.md"
   ]
 }
