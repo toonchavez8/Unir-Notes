@@ -8,17 +8,15 @@
         "type": "tabs",
         "children": [
           {
-            "id": "465a3344c4dfce88",
+            "id": "71ca5063a0f2c1ca",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Epam/02-css-layouts/01-CSS-preprocessors.md",
-                "mode": "source",
-                "source": false
+                "file": "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/DocumentoParaLaActividad1.pdf"
               },
-              "icon": "lucide-file",
-              "title": "01-CSS-preprocessors"
+              "icon": "lucide-file-text",
+              "title": "DocumentoParaLaActividad1"
             }
           }
         ],
@@ -79,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 290.5
+    "width": 290.5,
+    "collapsed": true
   },
   "right": {
     "id": "a25b807ad639ff42",
@@ -141,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Epam/02-css-layouts/01-CSS-preprocessors.md",
+                "file": "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/DocumentoParaLaActividad1.pdf",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 01-CSS-preprocessors"
+              "title": "Outline of DocumentoParaLaActividad1"
             }
           }
         ],
@@ -175,10 +174,23 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "465a3344c4dfce88",
+  "active": "71ca5063a0f2c1ca",
   "lastOpenFiles": [
-    "Epam/01-Version-control-git/05-inside-git.md",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/DocumentoParaLaActividad1.pdf",
+    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/Actividades/mexdigete06t4actauto1.docx",
+    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/Actividades/mexdigete06t4actauto1.docx.zmdownload",
+    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/Actividades",
+    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/New folder",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/mexdigete06t4actauto1.docx",
+    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/03-Aspectos-de-dirección-de-proyectos.md",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/05-Stakeholders.md",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/03-proceso-desarollo-de-software.md",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/04-Modelo-proceso-dessarollo-software.md",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/06-Resumen-tema-.md",
+    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/06-Estrategia-y-arranque-proyecto.md",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/01-Ingenieria-de-software.md",
     "Epam/02-css-layouts/01-CSS-preprocessors.md",
+    "Epam/01-Version-control-git/05-inside-git.md",
     "Epam/02-css-layouts",
     "Epam/01-Version-control-git/attachments/Pasted image 20250506170226.png",
     "Epam/01-Version-control-git/01-vcs-concept.md",
@@ -192,7 +204,6 @@
     "Epam/01-Version-control-git",
     "Epam",
     "Untitled.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/DocumentoParaLaActividad1.pdf",
     "conflict-files-obsidian-git.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250504211925.png",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250504202513.png",
@@ -203,25 +214,13 @@
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/attachments/Pasted image 20250504183147.png",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/attachments/Pasted image 20250504110656.png",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/attachments",
-    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/Books/01 ACTA DE CONSTITUCION QUAD.pdf",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/10-resumen.md",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/09-Gestion-y-Monitorizar-interesados.md",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/08-Entradas-herramientas-salidas.md",
-    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/06-Estrategia-y-arranque-proyecto.md",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/01-Estrategia-al-proyecto.md",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/02-Identificar-la-jerarquía.md",
-    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/03-Aspectos-de-dirección-de-proyectos.md",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/04-Historia-gestion-proyectos.md",
-    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/05-Resumen-tema-1.md",
-    "02-programacion-python/03-Programacion-basica.md",
-    "README.md",
-    "Maestría-Ingeniería-de-Software/Excalidraw/02-Metologias-Desarollo-y-Calidad.md",
-    "Maestría-Ingeniería-de-Software/Excalidraw/01-Direcion-y-Gestion-de-Software.md",
-    "Maestría-Ingeniería-de-Software/Excalidraw",
-    "Maestría-Ingeniería-de-Software/Calendario semestral.pdf",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250428174203.png",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250427175143.png",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/artefactos.md"
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250427175143.png"
   ]
 }
