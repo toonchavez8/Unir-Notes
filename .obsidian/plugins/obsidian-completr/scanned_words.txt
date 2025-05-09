@@ -543,6 +543,7 @@ IBM
 Iterativo
 Iteraci
 Incremental
+Implementa
 Emocional
 Edward
 Expone
@@ -3748,6 +3749,8 @@ repiten
 recomendadas
 refieren
 refinando
+rational
+reutilizando
 la
 los
 las
@@ -4812,6 +4815,8 @@ solaparse
 surgi
 sucesivos
 sostenibilidad
+set
+simplificar
 tiempo
 tiene
 tica
@@ -5338,6 +5343,7 @@ tricas
 temprana
 tester
 tangibles
+transici
 Siglo
 Self
 Se
@@ -5797,6 +5803,8 @@ SCtU
 Sistematizaci
 Sistemas
 Sistema
+Sobre
+Segmentos
 Plat
 Pir
 Payne
@@ -6285,6 +6293,7 @@ Perspectivas
 Perspectiva
 Priorizaci
 Planification
+Prototipos
 Todo
 Thorndike
 Todos
@@ -6707,6 +6716,8 @@ TLAk
 TOA
 Transici
 Transformar
+Transicion
+Todas
 aprendizaje
 ala
 aspectos
@@ -7472,6 +7483,8 @@ aseguran
 analista
 arquitecturas
 arquitect
+acordaron
+asistencia
 una
 un
 unas
@@ -7947,6 +7960,7 @@ universales
 utica
 utilizaron
 uml
+utilizaci
 base
 biol
 bienestar
@@ -9167,6 +9181,9 @@ estaticos
 estimados
 elaboraci
 expresa
+encuentre
+encontrados
+ense
 que
 quien
 quiere
@@ -10760,6 +10777,9 @@ planifica
 proporcionan
 prognostics
 prepara
+periodo
+prueba
+ponerlo
 clave
 coment
 capacidad
@@ -11731,6 +11751,8 @@ corresponden
 considadrada
 calendario
 comparativa
+cubre
+constituye
 Nic
 Necesidades
 No
@@ -12920,6 +12942,7 @@ mostrando
 mini
 modo
 mitigaci
+manejables
 Arist
 Abraham
 Adem
@@ -15125,6 +15148,7 @@ ULj
 UWs
 UML
 Usuarios
+Utilize
 David
 Describe
 Developing
@@ -15547,6 +15571,7 @@ DmdWQ
 Del
 Determinismo
 Durante
+Dominio
 Wechsler
 Wayne
 WhatsApp
@@ -17610,6 +17635,7 @@ Gisel
 GuvTg
 GzE
 Garantizar
+Gran
 Formula
 Feedback
 Francis
@@ -19110,6 +19136,8 @@ Contiende
 Construction
 Componentes
 Cabo
+Components
+Correcci
 vida
 viene
 va
@@ -20095,6 +20123,7 @@ RVVC
 Refinar
 Representa
 Rup
+Recomendadas
 Bar
 Bisquerra
 Bajo
@@ -21390,6 +21419,7 @@ goQ
 gido
 generarl
 gastos
+garantiza
 Ofrecen
 Orientaci
 Ordena
