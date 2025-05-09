@@ -15,16 +15,16 @@
 - [x] Realizar Microtest 1.5 (0.05 p.) – **17/08/2025 23:59**  
 
 ## Semana 2 (28/04/2025 - 02/05/2025)
-- [ ] Revisar **Tema 2. Técnicas tradicionales de desarrollo de software**  
-  - [ ] 2.1 Introducción y objetivos  
-  - [ ] 2.2 Técnicas tradicionales  
-  - [ ] 2.3 Proceso Unificado de Desarrollo de Software  
-  - [ ] 2.4 Rational Unified Process (RUP)  
+- [x] Revisar **Tema 2. Técnicas tradicionales de desarrollo de software**  
+  - [x] 2.1 Introducción y objetivos  
+  - [x] 2.2 Técnicas tradicionales  
+  - [x] 2.3 Proceso Unificado de Desarrollo de Software  
+  - [x] 2.4 Rational Unified Process (RUP)  
   - [ ] 2.5 Métrica v.3  
   - [ ] 2.6 Microsoft Solution Framework (MSF)  
 - [ ] Asistir a Clase (60 min)  
-- [ ] Realizar Microtest 2.1 (0.05 p.) – **17/08/2025 23:59**  
-- [ ] Realizar Microtest 2.2 (0.05 p.) – **17/08/2025 23:59**  
+- [x] Realizar Microtest 2.1 (0.05 p.) – **17/08/2025 23:59**  
+- [x] Realizar Microtest 2.2 (0.05 p.) – **17/08/2025 23:59**  
 - [ ] Realizar Microtest 2.3 (0.05 p.) – **17/08/2025 23:59**  
 
 ## Semana 3 (05/05/2025 - 09/05/2025)
