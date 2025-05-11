@@ -20,12 +20,12 @@
   - [x] 2.2 Técnicas tradicionales  
   - [x] 2.3 Proceso Unificado de Desarrollo de Software  
   - [x] 2.4 Rational Unified Process (RUP)  
-  - [ ] 2.5 Métrica v.3  
-  - [ ] 2.6 Microsoft Solution Framework (MSF)  
+  - [x] 2.5 Métrica v.3  
+  - [x] 2.6 Microsoft Solution Framework (MSF)  
 - [ ] Asistir a Clase (60 min)  
 - [x] Realizar Microtest 2.1 (0.05 p.) – **17/08/2025 23:59**  
 - [x] Realizar Microtest 2.2 (0.05 p.) – **17/08/2025 23:59**  
-- [ ] Realizar Microtest 2.3 (0.05 p.) – **17/08/2025 23:59**  
+- [x] Realizar Microtest 2.3 (0.05 p.) – **17/08/2025 23:59**  
 
 ## Semana 3 (05/05/2025 - 09/05/2025)
 - [ ] Revisar **Tema 3. Desarrollo de software orientado a objetos y basado en modelos**  
