@@ -1,3 +1,9 @@
+---
+tags:
+  - unir
+  - Gestion
+  - Direcion
+---
 # ✅ ¿Qué Es?
 
 Es un área de conocimiento que:
@@ -69,7 +75,7 @@ La gestión de la integración del proyecto **incluye los procesos y actividades
     - **Estratega**: ejecuta la estrategia de la empresa integrando el proyecto con programas y portafolios.
         
     - **Líder**: guía y motiva al equipo durante todo el proyecto.
-        
+        ****
 3. La integración depende en gran medida de **las capacidades del líder** del proyecto.
 
 ---

@@ -23,11 +23,11 @@
 
 ## Artefactos
 
-La ejecucion de cualquier tipo de proceso de desarollo de software va a generar dos tipos de artefactos
+La ejecucion de cualquier tipo de proceso de desarollo de software va a generar dos tipos de [[artefactos]]
 
 - Son **piezas de información** utilizadas o producidas en el proceso.
     
-- Hay artefactos **internos** y artefactos **integrables** al cliente.
+- Hay [[artefactos]] **internos** y [[artefactos]] **integrables** al cliente.
     
 
 ## Motivación Del Proceso

@@ -1,3 +1,9 @@
+---
+tags:
+  - unir
+  - Gestion
+  - Direcion
+---
 
 > 📅 Tema: Repaso del tema 1
 > 🧑‍🏫 Profesor: DRA. Elena Gomez Martinez  

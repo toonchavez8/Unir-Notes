@@ -3,5 +3,8 @@
   "attachmentFolderPath": "./attachments",
   "showLineNumber": false,
   "promptDelete": false,
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "newLinkFormat": "shortest",
+  "showUnsupportedFiles": true,
+  "trashOption": "local"
 }

@@ -254,7 +254,7 @@ RUP es un proceso robusto, ideal para proyectos complejos con incertidumbre. Su 
 	- **Estática, práctica y dinámica.**
 - El proceso unificado de rational:
 	~~- - Implementa el software reutilizando components.~~
-	- **Implementa el software en base a artefactos.**
+	- **Implementa el software en base a [[artefactos]].**
 - ¿Cuál de las siguientes es una característica clave del proceso unificado?
 	- **Todas las respuestas anteriores son correctas.**
 - Uno de los modelos más importantes en la fase de inicio del proceso unificado es:

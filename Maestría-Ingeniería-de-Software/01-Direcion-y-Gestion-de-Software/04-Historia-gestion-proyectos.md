@@ -1,3 +1,9 @@
+---
+tags:
+  - unir
+  - Gestion
+  - Direcion
+---
 
 # 🧠 Notas de Clase: Historia y Herramientas de la Dirección de Proyectos
 

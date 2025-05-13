@@ -1,3 +1,9 @@
+---
+tags:
+  - unir
+  - Gestion
+  - Direcion
+---
 
 ## 🟦 **Notas Profundas: Identificación y Gestión de los Interesados en un Proyecto**
 

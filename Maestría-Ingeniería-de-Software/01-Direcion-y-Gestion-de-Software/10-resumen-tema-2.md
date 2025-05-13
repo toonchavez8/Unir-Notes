@@ -1,3 +1,9 @@
+---
+tags:
+  - unir
+  - Gestion
+  - Direcion
+---
 
 
 ### 🟩 **Inicio del Proyecto y Reunión de Arranque (Kickoff)**

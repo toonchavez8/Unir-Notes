@@ -1,3 +1,9 @@
+---
+tags:
+  - unir
+  - Gestion
+  - Direcion
+---
 # 📘 Ciclo de Vida de un Proyecto vs Ciclo de Vida de un Producto
 
 ---
