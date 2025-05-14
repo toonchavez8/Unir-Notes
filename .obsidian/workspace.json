@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "71ca5063a0f2c1ca",
+            "id": "9deb632445942755",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Epam/03-JavaScript/Classes/01-Intro-to-js.md",
+                "file": "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/14-Resumen-3.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "01-Intro-to-js"
+              "title": "14-Resumen-3"
             }
           }
         ],
@@ -151,13 +151,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Epam/03-JavaScript/Classes/01-Intro-to-js.md",
+                "file": "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/14-Resumen-3.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 01-Intro-to-js"
+              "title": "Outline of 14-Resumen-3"
             }
           }
         ],
@@ -188,13 +188,16 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "71ca5063a0f2c1ca",
+  "active": "9deb632445942755",
   "lastOpenFiles": [
-    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/12-Gestion-De-La-Integracion.md",
+    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/13-Flujograma.md",
+    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/14-Resumen-3.md",
+    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/Agenda/Agenda.pdf",
+    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/Agenda/Agenda todos.md",
     "Epam/03-JavaScript/Classes/01-Intro-to-js.md",
+    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/12-Gestion-De-La-Integracion.md",
     "Epam/03-JavaScript/Classes",
     "Epam/03-JavaScript",
-    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/13-Flujograma.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/10-Resumen-tema2.md",
     "Epam/02-css-layouts/01-CSS-preprocessors.md",
     "conflict-files-obsidian-git.md",
@@ -227,14 +230,11 @@
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/06-Estrategia-y-arranque-proyecto.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/01-Ingenieria-de-software.md",
     "Epam/01-Version-control-git/05-inside-git.md",
-    "Epam/02-css-layouts",
     "Epam/01-Version-control-git/attachments/Pasted image 20250506170226.png",
     "Epam/01-Version-control-git/01-vcs-concept.md",
     "Epam/01-Version-control-git/02-Installation-and-setup.md",
     "Epam/01-Version-control-git/03-github.md",
     "Epam/01-Version-control-git/04-git-gui-and-gitk.md",
-    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/07-Tareas-conocimientos-y-habilidades-incio.md",
-    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/Untitled.md",
-    "Untitled.md"
+    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/07-Tareas-conocimientos-y-habilidades-incio.md"
   ]
 }
