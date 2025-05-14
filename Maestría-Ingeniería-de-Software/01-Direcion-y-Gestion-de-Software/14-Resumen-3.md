@@ -188,4 +188,3 @@
 
 - Muestra el **flujo completo de la integración**.
 - Se visualizan las **entradas y salidas** de todos los procesos involucrados.
-

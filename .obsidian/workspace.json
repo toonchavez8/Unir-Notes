@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/14-Resumen-3.md",
+                "file": "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/10-Resumen-tema2.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,10 +28,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "14-Resumen-3"
+              "title": "10-Resumen-tema2"
+            }
+          },
+          {
+            "id": "6a3130ff5b85f45a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/11-Programacion-Orientada-Objetas.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "11-Programacion-Orientada-Objetas"
             }
           }
         ],
+        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -151,13 +176,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/14-Resumen-3.md",
+                "file": "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/11-Programacion-Orientada-Objetas.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 14-Resumen-3"
+              "title": "Outline of 11-Programacion-Orientada-Objetas"
             }
           }
         ],
@@ -188,12 +213,15 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "9deb632445942755",
+  "active": "6a3130ff5b85f45a",
   "lastOpenFiles": [
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250514173206.png",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/10-Resumen-tema2.md",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/11-Programacion-Orientada-Objetas.md",
+    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/14-Resumen-3.md",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/01-Estrategia-al-proyecto.md",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/00_ideas_clave.pdf",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Agenda/Agenda.pdf",
-    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/14-Resumen-3.md",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/13-Flujograma.md",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/Agenda/Agenda.pdf",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/Agenda/Agenda todos.md",
@@ -201,7 +229,6 @@
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/12-Gestion-De-La-Integracion.md",
     "Epam/03-JavaScript/Classes",
     "Epam/03-JavaScript",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/10-Resumen-tema2.md",
     "Epam/02-css-layouts/01-CSS-preprocessors.md",
     "conflict-files-obsidian-git.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/06-Resumen-tema-1.md",
@@ -233,8 +260,6 @@
     "Epam/01-Version-control-git/05-inside-git.md",
     "Epam/01-Version-control-git/attachments/Pasted image 20250506170226.png",
     "Epam/01-Version-control-git/01-vcs-concept.md",
-    "Epam/01-Version-control-git/02-Installation-and-setup.md",
-    "Epam/01-Version-control-git/03-github.md",
-    "Epam/01-Version-control-git/04-git-gui-and-gitk.md"
+    "Epam/01-Version-control-git/02-Installation-and-setup.md"
   ]
 }
