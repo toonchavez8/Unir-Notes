@@ -20,6 +20,30 @@
               "icon": "lucide-file",
               "title": "01-CSS-preprocessors"
             }
+          },
+          {
+            "id": "b16681a67a625729",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
+            }
           }
         ],
         "stacked": true
@@ -177,8 +201,19 @@
   },
   "active": "71ca5063a0f2c1ca",
   "lastOpenFiles": [
-    "Epam/02-css-layouts/Articles/001_Sass_Basics.md",
+    "conflict-files-obsidian-git.md",
     "Epam/02-css-layouts/01-CSS-preprocessors.md",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/10-Resumen-tema2.md",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/06-Resumen-tema-1.md",
+    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/attachments/Pasted image 20250513215257.png",
+    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/attachments/Pasted image 20250512214024.png",
+    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/attachments/Pasted image 20250511130444.png",
+    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/attachments/Pasted image 20250511125657.png",
+    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/13-Flujograma.md",
+    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/12-Gestion-De-La-Integracion.md",
+    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/11-Integracion-Direcion-de-proyectos.md",
+    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/10-resumen-tema-2.md",
+    "Epam/02-css-layouts/Articles/001_Sass_Basics.md",
     "Epam/02-css-layouts/Articles",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/DocumentoParaLaActividad1.pdf",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250508205216.png",
@@ -206,21 +241,11 @@
     "Epam/01-Version-control-git/02-Installation-and-setup.md",
     "Epam/01-Version-control-git/03-github.md",
     "Epam/01-Version-control-git/04-git-gui-and-gitk.md",
-    "Epam/01-Version-control-git/attachments/Pasted image 20250506150601.png",
     "Epam/01-Version-control-git/attachments",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/07-Tareas-conocimientos-y-habilidades-incio.md",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/Untitled.md",
     "Epam/01-Version-control-git",
     "Untitled.md",
-    "conflict-files-obsidian-git.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250504211925.png",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250504202513.png",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/08-Proceso-Rational-unified-process.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/07-Technicas-tradicionales.md",
-    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/attachments/Pasted image 20250504185325.png",
-    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/10-resumen.md",
-    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/09-Gestion-y-Monitorizar-interesados.md",
-    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/08-Entradas-herramientas-salidas.md",
-    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/01-Estrategia-al-proyecto.md"
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/08-Proceso-Rational-unified-process.md"
   ]
 }

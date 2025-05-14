@@ -251,3 +251,16 @@ Métrica v.3 incluye este conjunto de procesos adicionales que definen una serie
 - **Calidad**: incorporada en cada fase y rol.
 
 ---
+## Microtest
+
+- El objetivo del proceso de diseño del sistema de información, en métrica v.3, es la obtención de un marco de referencia para el desarrollo de sistemas de información que responda a los objetivos estratégicos de la organización:
+	- Falso
+- ¿Cuál es el objetivo principal del proceso de implantación y aceptación del sistema en métrica v.3?
+	- La entrega y aceptación del sistema en su totalidad y realizar el paso a producción.
+- Métrica v.3 contempla tanto desarrollos estructurados como orientados a objetos:
+	- Verdadero, pudiendo variar la orientación de las técnicas en el análisis y el diseño.
+- ¿Cuál es un principio fundamental de MSF?
+	- Establecer responsabilidades claras y compartidas.
+- ¿Cuál de las siguientes afirmaciones es correcta?
+	- Todas las respuestas anteriores son correctas.
+- 

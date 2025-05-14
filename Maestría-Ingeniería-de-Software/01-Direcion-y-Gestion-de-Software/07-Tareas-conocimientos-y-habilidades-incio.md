@@ -1,3 +1,9 @@
+---
+tags:
+  - unir
+  - Gestion
+  - Direcion
+---
 
 
 ## 🟩 **Notas de Clase: Proceso de Inicio de un Proyecto**

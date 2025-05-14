@@ -7,7 +7,7 @@
     
 2. Name it (e.g. `git-demo`).
     
-3. (Optional) Check **Initialize with README** → **Create**.
+3. (Optional) Check **Initialize with [[README]]** → **Create**.
     
 
 ## 2. Clone to Local Machine

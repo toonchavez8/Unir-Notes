@@ -112,5 +112,29 @@
       ],
       "key": "ArrowDown"
     }
+  ],
+  "quick-tagger:quick-add-tag": [
+    {
+      "modifiers": [],
+      "key": "F5"
+    }
+  ],
+  "obsidian-git:backup-and-close": [
+    {
+      "modifiers": [],
+      "key": "F12"
+    }
+  ],
+  "obsidian-git:push": [
+    {
+      "modifiers": [],
+      "key": "F11"
+    }
+  ],
+  "floating-toc:hide-toc-panel": [
+    {
+      "modifiers": [],
+      "key": "F3"
+    }
   ]
 }

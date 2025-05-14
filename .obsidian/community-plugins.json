@@ -17,5 +17,13 @@
   "obsidian-editor-shortcuts",
   "whisper",
   "obsidian-linter",
-  "docxer"
+  "docxer",
+  "linkify",
+  "obisidian-note-linker",
+  "links",
+  "obsidian-pandoc",
+  "obsidian-pandoc-reference-list",
+  "tabout",
+  "obsidian-zotero-desktop-connector",
+  "quick-tagger"
 ]

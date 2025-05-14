@@ -1,5 +1,11 @@
 ---
-tags: []
+tags:
+  - unir
+  - PMBOK
+  - proyecto
+  - programacion
+  - Gestion
+  - Direcion
 ---
 
 
