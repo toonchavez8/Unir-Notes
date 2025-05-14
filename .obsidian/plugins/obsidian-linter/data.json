@@ -113,7 +113,7 @@
     },
     "auto-correct-common-misspellings": {
       "enabled": true,
-      "ignore-words": "",
+      "ignore-words": "hace",
       "skip-words-with-multiple-capitals": true,
       "extra-auto-correct-files": []
     },
@@ -279,7 +279,7 @@
   "settingsConvertedToConfigKeyValues": true,
   "foldersToIgnore": [],
   "filesToIgnore": [],
-  "linterLocale": "system-default",
+  "linterLocale": "es-mx",
   "logLevel": "ERROR",
   "lintCommands": [],
   "customRegexes": [],
