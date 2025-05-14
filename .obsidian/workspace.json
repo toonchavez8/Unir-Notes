@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/12-Gestion-De-La-Integracion.md",
+                "file": "Epam/03-JavaScript/Classes/01-Intro-to-js.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "12-Gestion-De-La-Integracion"
+              "title": "01-Intro-to-js"
             }
           }
         ],
@@ -151,13 +151,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/12-Gestion-De-La-Integracion.md",
+                "file": "Epam/03-JavaScript/Classes/01-Intro-to-js.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 12-Gestion-De-La-Integracion"
+              "title": "Outline of 01-Intro-to-js"
             }
           }
         ],
@@ -190,6 +190,10 @@
   },
   "active": "71ca5063a0f2c1ca",
   "lastOpenFiles": [
+    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/12-Gestion-De-La-Integracion.md",
+    "Epam/03-JavaScript/Classes/01-Intro-to-js.md",
+    "Epam/03-JavaScript/Classes",
+    "Epam/03-JavaScript",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/13-Flujograma.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/10-Resumen-tema2.md",
     "Epam/02-css-layouts/01-CSS-preprocessors.md",
@@ -199,7 +203,6 @@
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/attachments/Pasted image 20250512214024.png",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/attachments/Pasted image 20250511130444.png",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/attachments/Pasted image 20250511125657.png",
-    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/12-Gestion-De-La-Integracion.md",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/11-Integracion-Direcion-de-proyectos.md",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/10-resumen-tema-2.md",
     "Epam/02-css-layouts/Articles/001_Sass_Basics.md",
@@ -230,11 +233,8 @@
     "Epam/01-Version-control-git/02-Installation-and-setup.md",
     "Epam/01-Version-control-git/03-github.md",
     "Epam/01-Version-control-git/04-git-gui-and-gitk.md",
-    "Epam/01-Version-control-git/attachments",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/07-Tareas-conocimientos-y-habilidades-incio.md",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/Untitled.md",
-    "Epam/01-Version-control-git",
-    "Untitled.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/08-Proceso-Rational-unified-process.md"
+    "Untitled.md"
   ]
 }
