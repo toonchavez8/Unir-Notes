@@ -13,12 +13,22 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Epam/02-css-layouts/01-CSS-preprocessors.md",
+                "file": "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/12-Gestion-De-La-Integracion.md",
                 "mode": "source",
-                "source": false
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
               "icon": "lucide-file",
-              "title": "01-CSS-preprocessors"
+              "title": "12-Gestion-De-La-Integracion"
             }
           }
         ],
@@ -141,13 +151,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Epam/02-css-layouts/01-CSS-preprocessors.md",
+                "file": "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/12-Gestion-De-La-Integracion.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 01-CSS-preprocessors"
+              "title": "Outline of 12-Gestion-De-La-Integracion"
             }
           }
         ],
@@ -159,6 +169,9 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obisidian-note-linker:Note Linker": false,
+      "quick-tagger:Add tag to current note": false,
+      "quick-tagger:Remove tag from current note": false,
       "markdown-importer:Open format converter": false,
       "audio-recorder:Start/stop recording": false,
       "whisper:Open recording controls": false,
@@ -177,15 +190,15 @@
   },
   "active": "71ca5063a0f2c1ca",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
-    "Epam/02-css-layouts/01-CSS-preprocessors.md",
+    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/13-Flujograma.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/10-Resumen-tema2.md",
+    "Epam/02-css-layouts/01-CSS-preprocessors.md",
+    "conflict-files-obsidian-git.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/06-Resumen-tema-1.md",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/attachments/Pasted image 20250513215257.png",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/attachments/Pasted image 20250512214024.png",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/attachments/Pasted image 20250511130444.png",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/attachments/Pasted image 20250511125657.png",
-    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/13-Flujograma.md",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/12-Gestion-De-La-Integracion.md",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/11-Integracion-Direcion-de-proyectos.md",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/10-resumen-tema-2.md",
