@@ -28,11 +28,11 @@
 
 ## Semana 3 (05/05/2025 - 09/05/2025)
 - [x] Revisar continuación **Tema 2. Inicio de Proyecto y stakeholders**
-- [ ] Realizar Microtest 2.1 (0.07 p.) – **17/08/2025**
-- [ ] Realizar Microtest 2.2 (0.04 p.) – **17/08/2025**
-- [ ] Realizar Microtest 2.3 (0.04 p.) – **17/08/2025**
-- [ ] Realizar Microtest 2.4 (0.04 p.) – **17/08/2025**
-- [ ] Asistir a la clase en directo
+- [x] Realizar Microtest 2.1 (0.07 p.) – **17/08/2025**
+- [x] Realizar Microtest 2.2 (0.04 p.) – **17/08/2025**
+- [x] Realizar Microtest 2.3 (0.04 p.) – **17/08/2025**
+- [x] Realizar Microtest 2.4 (0.04 p.) – **17/08/2025**
+- [x] Asistir a la clase en directo
 
 
 
