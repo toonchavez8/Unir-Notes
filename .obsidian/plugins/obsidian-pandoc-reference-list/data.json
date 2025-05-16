@@ -4,5 +4,8 @@
   "zoteroGroups": [],
   "renderCitations": true,
   "renderCitationsReadingMode": true,
-  "renderLinkCitations": true
+  "renderLinkCitations": true,
+  "cslStylePath": "",
+  "cslLang": "es-MX",
+  "enableCiteKeyCompletion": true
 }

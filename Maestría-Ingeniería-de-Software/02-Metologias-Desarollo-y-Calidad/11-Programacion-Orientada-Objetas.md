@@ -280,3 +280,4 @@ class Class3(Class1): pass     #single inheritance
 
 class Class4(Class3, Class2): pass     #multiple inheritance
 ```
+
