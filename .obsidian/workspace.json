@@ -4,57 +4,9 @@
     "type": "split",
     "children": [
       {
-        "id": "312f544cc3da5b84",
+        "id": "e84c82c1de9fd115",
         "type": "tabs",
         "children": [
-          {
-            "id": "103c1f2a41ec357d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/12-Prinipios-Orentacion-objetos.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "12-Prinipios-Orentacion-objetos"
-            }
-          },
-          {
-            "id": "cc64748cca9d14e8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/poliqmórficas.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "poliqmórficas"
-            }
-          },
           {
             "id": "69acada8d9364eba",
             "type": "leaf",
@@ -78,9 +30,63 @@
               "icon": "lucide-file",
               "title": "013-Objeto-y-clase"
             }
+          },
+          {
+            "id": "5506baea42a5534e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/014-Analisis-Diseño-orientado-objetos.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": true,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "014-Analisis-Diseño-orientado-objetos"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
+      },
+      {
+        "id": "312f544cc3da5b84",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "103c1f2a41ec357d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/012-Prinipios-Orentacion-objetos.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "012-Prinipios-Orentacion-objetos"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -172,13 +178,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/013-Objeto-y-clase.md",
+                "file": "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/014-Analisis-Diseño-orientado-objetos.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 013-Objeto-y-clase"
+              "title": "Outline of 014-Analisis-Diseño-orientado-objetos"
             }
           },
           {
@@ -187,12 +193,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/13-Flujograma.md",
+                "file": "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/014-Analisis-Diseño-orientado-objetos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 13-Flujograma"
+              "title": "Outgoing links from 014-Analisis-Diseño-orientado-objetos"
             }
           },
           {
@@ -215,7 +221,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -238,12 +245,15 @@
       "quick-tagger:Remove tag from current note": false
     }
   },
-  "active": "b74e6b9aa2987edc",
+  "active": "5506baea42a5534e",
   "lastOpenFiles": [
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/013-Objeto-y-clase.md",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/014-Analisis-Diseño-orientado-objetos.md",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/012-Prinipios-Orentacion-objetos.md",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/class Diagram.md",
+    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/012-Gestion-De-La-Integracion.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/010-Resumen-tema2.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/13-Objeto-y-clase.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/013-Objeto-y-clase.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/012-Prinipios-Orentacion-objetos.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/011-Programacion-Orientada-Objetas.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/100-Resumen-tema2.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/009-Metrica-3-vs-MSF.md",
@@ -258,14 +268,11 @@
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/010-resumen-tema-2.md",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/014-Resumen-3.md",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/013-Flujograma.md",
-    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/012-Gestion-De-La-Integracion.md",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/011-Integracion-Direcion-de-proyectos.md",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/100-resumen-tema-2.md",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/009-Gestion-y-Monitorizar-interesados.md",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/008-Entradas-herramientas-salidas.md",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/007-Tareas-conocimientos-y-habilidades-incio.md",
-    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/006-Estrategia-y-arranque-proyecto.md",
-    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/005-Resumen-tema-1.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Books",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Recording 20250517091254.webm",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250508205216.png",

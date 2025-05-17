@@ -136,5 +136,11 @@
       "modifiers": [],
       "key": "F3"
     }
+  ],
+  "editor:toggle-source": [
+    {
+      "modifiers": [],
+      "key": "F4"
+    }
   ]
 }
