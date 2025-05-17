@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/12-Prinipios-Orentacion-objetos.md",
+                "file": "Epam/02-css-layouts/01-CSS-preprocessors.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "12-Prinipios-Orentacion-objetos"
+              "title": "01-CSS-preprocessors"
             }
           }
         ]
@@ -123,13 +123,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/12-Prinipios-Orentacion-objetos.md",
+                "file": "Epam/02-css-layouts/01-CSS-preprocessors.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 12-Prinipios-Orentacion-objetos"
+              "title": "Outline of 01-CSS-preprocessors"
             }
           },
           {
@@ -191,9 +191,16 @@
   },
   "active": "e64bbfaf75ee41be",
   "lastOpenFiles": [
+    "Test/Test-01/skljashdlksajd.md",
+    "Test/Test-01/Untitled.md",
+    "Test/Test-01/Welcome.md",
+    "Test/Test-01",
+    "Test",
+    "New folder",
+    "Epam/03-JavaScript/Classes/01-Intro-to-js.md",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/12-Prinipios-Orentacion-objetos.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/12-Prinipios-Orentacion-objetos.pdf",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/12-Prinipios-Orentacion-objetos.docx",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/12-Prinipios-Orentacion-objetos.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/~$-Prinipios-Orentacion-objetos.docx",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/msoC72A.tmp",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Actividad01_mexissi01.docx",
@@ -210,11 +217,7 @@
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/13-Flujograma.md",
     "conflict-files-obsidian-git.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250514173206.png",
-    "Epam/03-JavaScript/Classes/01-Intro-to-js.md",
-    "Epam/03-JavaScript/Classes",
-    "Epam/03-JavaScript",
     "Epam/02-css-layouts/Articles/001_Sass_Basics.md",
-    "Epam/02-css-layouts/Articles",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/attachments/Pasted image 20250513215257.png",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/01-Estrategia-al-proyecto.md",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/Misión Vision Y Valores.md",
@@ -228,8 +231,6 @@
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/11-Integracion-Direcion-de-proyectos.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/10-Resumen-tema2.md",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/10-resumen-tema-2.md",
-    "02-Metologías-Desarrollo-y-Calidad.md",
-    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/04-Historia-gestion-proyectos.md",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/attachments/Pasted image 20250511130444.png",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/attachments/Pasted image 20250511125657.png",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250508200946.png",

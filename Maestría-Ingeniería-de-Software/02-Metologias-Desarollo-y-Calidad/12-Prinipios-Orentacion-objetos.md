@@ -171,3 +171,16 @@ direction RL
 - Cuando `p1` llama a `mover()`, se ejecuta la versión de `Punto` (por ejemplo, desplazamiento +1, -1).
 
 Este comportamiento demuestra el uso de operaciones polimórficas.
+
+---
+
+## MicroTest
+
+- El objetivo del encapsulamiento es:
+	- Conseguir reducir el acoplamiento entre las clases.
+- En la abstracción:
+	- Se denotan las características esenciales de un objeto, que lo distingue de otros objetos.
+- En el dominio de la clasificación se reconocen dos formas diferentes de clasificar objetos:
+	- Fuerte vs. débil.
+	- Estática vs. dinámica.
+- 
