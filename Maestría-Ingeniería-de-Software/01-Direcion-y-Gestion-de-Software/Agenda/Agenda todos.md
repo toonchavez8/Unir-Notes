@@ -1,4 +1,5 @@
-## Semana 1 (21/04/2025 - 25/04/2025)
+# Semana 1 (21/04/2025 - 25/04/2025)
+
 - [x] Revisar **Tema 1. Conceptos clave de la dirección de Proyectos**:
   - [x] 1.1 Introducción y objetivos
   - [x] 1.2 De la estrategia al proyecto
@@ -13,7 +14,8 @@
 - [x] Realizar Microtest 1.4 (0.2 p.) – **17/08/2025**
 - [x] Asistir a la clase de introducción
 
-## Semana 2 (28/04/2025 - 02/05/2025)
+# Semana 2 (28/04/2025 - 02/05/2025)
+
 - [x] Revisar **Tema 2. Inicio de Proyecto y stakeholders**:
   - [x] 2.1 Introducción y objetivos
   - [x] 2.2 De la estrategia al proyecto
@@ -26,15 +28,14 @@
   - [x] 2.9 Herramientas
 - [x] Asistir a la clase en directo
 
-## Semana 3 (05/05/2025 - 09/05/2025)
+# Semana 3 (05/05/2025 - 09/05/2025)
+
 - [x] Revisar continuación **Tema 2. Inicio de Proyecto y stakeholders**
 - [x] Realizar Microtest 2.1 (0.07 p.) – **17/08/2025**
 - [x] Realizar Microtest 2.2 (0.04 p.) – **17/08/2025**
 - [x] Realizar Microtest 2.3 (0.04 p.) – **17/08/2025**
 - [x] Realizar Microtest 2.4 (0.04 p.) – **17/08/2025**
 - [x] Asistir a la clase en directo
-
-
 
 Idea clave 1. La integración en dirección de proyectos
 
@@ -46,19 +47,21 @@ Idea clave 3. Flujograma de la integración y Herramientas
 
 Resumen tema 3
 
-## Semana 4 (12/05/2025 - 16/05/2025)
-- [ ] Revisar **Tema 3. Planificación: integración**:
-  - [ ] 3.1 Introducción y objetivos
-  - [ ] 3.2 La integración en dirección de proyectos
-  - [ ] 3.3 Los procesos de la gestión de la integración
-  - [ ] 3.4 Flujograma de la integración
-  - [ ] 3.5 Herramientas
-- [ ] Realizar Microtest 3.1 (0.03 p.) – **17/08/2025**
-- [ ] Realizar Microtest 3.2 (0.03 p.) – **17/08/2025**
-- [ ] Realizar Microtest 3.3 (0.03 p.) – **17/08/2025**
-- [ ] Asistir a la clase en directo
+# Semana 4 (12/05/2025 - 16/05/2025)
 
-## Semana 5 (19/05/2025 - 23/05/2025)
+- [x] Revisar **Tema 3. Planificación: integración**:
+  - [x] 3.1 Introducción y objetivos
+  - [x] 3.2 La integración en dirección de proyectos
+  - [x] 3.3 Los procesos de la gestión de la integración
+  - [x] 3.4 Flujograma de la integración
+  - [x] 3.5 Herramientas
+- [x] Realizar Microtest 3.1 (0.03 p.) – **17/08/2025**
+- [x] Realizar Microtest 3.2 (0.03 p.) – **17/08/2025**
+- [x] Realizar Microtest 3.3 (0.03 p.) – **17/08/2025**
+- [x] Asistir a la clase en directo
+
+# Semana 5 (19/05/2025 - 23/05/2025)
+
 - [ ] Revisar **Tema 4. Planificación: alcance y tiempo**:
   - [ ] 4.1 Introducción y objetivos
   - [ ] 4.2 Objetivos y alcance
@@ -69,11 +72,13 @@ Resumen tema 3
 - [ ] Completar **Actividad: Planificación de Proyectos (4.0 p.)** – **02/06/2025**
 - [ ] Asistir a la clase para explicar la actividad 1
 
-## Semana 6 (26/05/2025 - 30/05/2025)
+# Semana 6 (26/05/2025 - 30/05/2025)
+
 - [ ] Revisar continuación **Tema 4. Planificación: alcance y tiempo**
 - [ ] Asistir a la clase de refuerzo y resolución de dudas actividad 1
 
-## Semana 7 (02/06/2025 - 06/06/2025)
+# Semana 7 (02/06/2025 - 06/06/2025)
+
 - [ ] Revisar **Tema 5. Planificación: coste y riesgo**:
   - [ ] 5.1 Introducción y objetivos
   - [ ] 5.2 Planificar la gestión de los costes
@@ -91,7 +96,8 @@ Resumen tema 3
 - [ ] Realizar Microtest 4.6 (0.03 p.) – **17/08/2025**
 - [ ] Asistir a la clase en directo
 
-## Semana 8 (09/06/2025 - 13/06/2025)
+# Semana 8 (09/06/2025 - 13/06/2025)
+
 - [ ] Revisar continuación **Tema 5. Planificación: coste y riesgo**
 - [ ] Realizar Microtest 5.1 (0.03 p.) – **17/08/2025**
 - [ ] Realizar Microtest 5.2 (0.03 p.) – **17/08/2025**
@@ -101,7 +107,8 @@ Resumen tema 3
 - [ ] Realizar Microtest 5.6 (0.03 p.) – **17/08/2025**
 - [ ] Asistir a la clase para explicar la actividad individual
 
-## Semana 9 (16/06/2025 - 20/06/2025)
+# Semana 9 (16/06/2025 - 20/06/2025)
+
 - [ ] Revisar **Tema 6. Planificación: comunicación y recursos**:
   - [ ] 6.1 Introducción y objetivos
   - [ ] 6.2 Definición de la comunicación
@@ -122,7 +129,8 @@ Resumen tema 3
 - [ ] Completar **Actividad: Análisis de riesgos (4.0 p.)** – **30/06/2025**
 - [ ] Asistir a la clase en directo
 
-## Semana 10 (23/06/2025 - 27/06/2025)
+# Semana 10 (23/06/2025 - 27/06/2025)
+
 - [ ] Revisar continuación **Tema 6. Planificación: comunicación y recursos**
 - [ ] Realizar Microtest 6.1 (0.03 p.) – **17/08/2025**
 - [ ] Realizar Microtest 6.2 (0.03 p.) – **17/08/2025**
@@ -131,13 +139,14 @@ Resumen tema 3
 - [ ] Realizar Microtest 6.5 (0.03 p.) – **17/08/2025**
 - [ ] Asistir a la clase de refuerzo y resolución de dudas actividad individual
 
-## Semana 11 (30/06/2025 - 04/07/2025)
-- [ ] Revisar **Tema 7. Responsabilidad profesional**:
+# Semana 11 (30/06/2025 - 04/07/2025)
+
+- [ ] Revisar **Tema 7. Responsabilidad professional**:
   - [ ] 7.1 Introducción y objetivos
   - [ ] 7.2 Aplicación ética de la dirección de proyectos
-  - [ ] 7.3 Características de la responsabilidad social y profesional
+  - [ ] 7.3 Características de la responsabilidad social y professional
   - [ ] 7.4 Código deontológico del líder de proyectos
-  - [ ] 7.5 Actuación responsable frente a los stakeholders
+  - [ ] 7.5 Actuación responsible frente a los stakeholders
   - [ ] 7.6 Responsabilidad vs PMP®
   - [ ] 7.7 Beneficios de la profesionalización
   - [ ] 7.8 Algunas situaciones comentadas
@@ -146,7 +155,8 @@ Resumen tema 3
 - [ ] Realizar Microtest 7.2 (0.03 p.) – **17/08/2025**
 - [ ] Asistir a la clase en directo
 
-## Semana 12 (07/07/2025 - 11/07/2025)
+# Semana 12 (07/07/2025 - 11/07/2025)
+
 - [ ] Revisar **Tema 8. Calidad y aprovisionamiento**:
   - [ ] 8.1 Introducción y objetivos
   - [ ] 8.2 ISO9001 v2000 y v2015
@@ -161,7 +171,8 @@ Resumen tema 3
 - [ ] Realizar Microtest 8.4 (0.03 p.) – **17/08/2025**
 - [ ] Asistir a la clase en directo
 
-## Semana 13 (14/07/2025 - 18/07/2025)
+# Semana 13 (14/07/2025 - 18/07/2025)
+
 - [ ] Revisar **Tema 9. Ejecución, control y cierre del proyecto**:
   - [ ] 9.1 Introducción y objetivos
   - [ ] 9.2 La ejecución del proyecto
@@ -174,7 +185,8 @@ Resumen tema 3
 - [ ] Realizar Microtest 9.3 (0.03 p.) – **17/08/2025**
 - [ ] Asistir a la clase en directo
 
-## Semana 14 (21/07/2025 - 25/07/2025)
+# Semana 14 (21/07/2025 - 25/07/2025)
+
 - [ ] Revisar **Tema 10. ¿Ahora qué? Construcción de un plan básico de proyecto**:
   - [ ] 10.1 Introducción y objetivos
   - [ ] 10.2 Entender la necesidad de negocio del cliente y definir el objetivo
@@ -186,7 +198,8 @@ Resumen tema 3
 - [ ] Asistir a la clase para explicar la actividad 2
 - [ ] Asistir a la clase en directo
 
-## Semana 15 (28/07/2025 - 01/08/2025)
+# Semana 15 (28/07/2025 - 01/08/2025)
+
 - [ ] Revisar continuación **Tema 10. ¿Ahora qué? Construcción de un plan básico de proyecto**
 - [ ] Realizar Microtest 10.1 (0.03 p.) – **17/08/2025**
 - [ ] Realizar Microtest 10.2 (0.03 p.) – **17/08/2025**
@@ -195,7 +208,8 @@ Resumen tema 3
 - [ ] Realizar Microtest 10.5 (0.03 p.) – **17/08/2025**
 - [ ] Asistir a la clase de refuerzo y resolución de dudas actividad 2
 
-## Semana 16 (04/08/2025 - 08/08/2025)
+# Semana 16 (04/08/2025 - 08/08/2025)
+
 - [ ] Revisar **Tema 11. Recomendaciones para la certificación PMP®**:
   - [ ] 11.1 Introducción y objetivos
   - [ ] 11.2 Grupos de procesos y áreas de conocimiento
@@ -210,6 +224,7 @@ Resumen tema 3
 - [ ] Realizar Microtest 11.3 (0.03 p.) – **17/08/2025**
 - [ ] Asistir a la clase en directo
 
-## Semana 17 (11/08/2025 - 15/08/2025)
+# Semana 17 (11/08/2025 - 15/08/2025)
+
 - [ ] Asistir a la clase de repaso general y resolución de dudas previas al examen
 - [ ] Presentar Exámenes
