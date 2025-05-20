@@ -13,7 +13,7 @@
       "modifiers": [
         "Alt"
       ],
-      "key": "2"
+      "key": "ArrowDown"
     }
   ],
   "editor:swap-line-up": [
@@ -21,7 +21,7 @@
       "modifiers": [
         "Alt"
       ],
-      "key": "1"
+      "key": "ArrowUp"
     }
   ],
   "easy-typing-obsidian:easy-typing-format-article": [

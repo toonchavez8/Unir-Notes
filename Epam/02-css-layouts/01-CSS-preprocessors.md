@@ -77,7 +77,6 @@ Unlike Sass or LESS, [PostCSS](https://www.geeksforgeeks.org/difference-between
 
 ### [[001_Sass_Basics]]
 
-
 ## Watch Section
 
 ### Nesting
@@ -148,4 +147,34 @@ example
 
 We can use Extend to create classes with erilier rules
 
+```sCSS
+.btn{
+	border:0;
+	color:white;
+	background:black;
+	
+	&-primary {
+		@extend .btn;
+		background:blue;
+	}
+	
+	&-secondary{
+		@extend .btn;
+		background:green;
+	}
+}
+```
+
 - Using `@extend` we create a sort of template or starting point for a new class
+- That's going allow us to update and share styles
+
+#### Check Yourself
+
+TOP-3 questions on technical interview
+
+- How can you define a variable in SASS?
+	- $variable`
+- Explain the use of Sass @extend function.
+	- It can help us create subclasses by extending the functionally via a template of sorts
+- How can you refer a parent selector in the SASS?
+	- Using the `&` selector

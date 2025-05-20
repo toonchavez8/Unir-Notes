@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/Agenda/Agenda todos.md",
+                "file": "Epam/02-css-layouts/02-Css-layout-basics.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Agenda todos"
+              "title": "02-Css-layout-basics"
             }
           },
           {
@@ -53,36 +53,6 @@
               },
               "icon": "lucide-file",
               "title": "Agenda todos"
-            }
-          }
-        ]
-      },
-      {
-        "id": "312f544cc3da5b84",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "103c1f2a41ec357d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/012-Prinipios-Orentacion-objetos.md",
-                "mode": "source",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "012-Prinipios-Orentacion-objetos"
             }
           }
         ]
@@ -177,13 +147,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/Agenda/Agenda todos.md",
+                "file": "Epam/02-css-layouts/02-Css-layout-basics.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Agenda todos"
+              "title": "Outline of 02-Css-layout-basics"
             }
           },
           {
@@ -220,8 +190,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -246,6 +215,20 @@
   },
   "active": "15b5b14eff28b4a9",
   "lastOpenFiles": [
+    "Epam/02-css-layouts/01-CSS-preprocessors.md",
+    "Epam/02-css-layouts/02-Css-layout-basics.md",
+    "Epam/02-css-layouts/attachments/Pasted image 20250519211737.png",
+    "Epam/02-css-layouts/attachments/Pasted image 20250519211708.png",
+    "Epam/02-css-layouts/attachments/Pasted image 20250519211539.png",
+    "Epam/02-css-layouts/attachments/Pasted image 20250519211043.png",
+    "Epam/02-css-layouts/attachments/Pasted image 20250519210945.png",
+    "Epam/02-css-layouts/attachments/Pasted image 20250519210754.png",
+    "Epam/02-css-layouts/attachments/Pasted image 20250519210658.png",
+    "Epam/02-css-layouts/attachments/Pasted image 20250519210421.png",
+    "Epam/02-css-layouts/attachments/Pasted image 20250519210259.png",
+    "Epam/02-css-layouts/attachments/Pasted image 20250519210205.png",
+    "Epam/02-css-layouts/attachments",
+    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/Agenda/Agenda todos.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Agenda/Agenda todos.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/018-Resumen-tema-3.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/017-Herramientas-Case.md",
@@ -254,10 +237,7 @@
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/015-Lenguaje-unificado-modelado.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/013-Objeto-y-clase.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/012-Prinipios-Orentacion-objetos.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250517173444.png",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250517170128.png",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/014-Analisis-Diseño-orientado-objetos.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250517165217.png",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/class Diagram.md",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/012-Gestion-De-La-Integracion.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/010-Resumen-tema2.md",
@@ -272,25 +252,13 @@
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/004-Modelo-proceso-dessarollo-software.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/003-proceso-desarollo-de-software.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/002-Crisis-de-software.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/001-Ingenieria-de-software.md",
-    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/010-resumen-tema-2.md",
-    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/014-Resumen-3.md",
-    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/013-Flujograma.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Books",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Recording 20250517091254.webm",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250508205216.png",
     "Test/Test-01/Excalidraw",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250508205137.png",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250508200946.png",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250508200944 1.png",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250504211925.png",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250428174203.png",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Actividad01_mexissi01.docx",
     "Test/Test-01/~WRL0001.tmp",
     "Test/Test-01/~WRD0000.tmp",
     "Test/Test-01/~$ljashdlksajd.docx",
-    "Test/Test-01/skljashdlksajd.docx",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/DocumentoParaLaActividad1.pdf",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250515204004.png"
+    "Test/Test-01/skljashdlksajd.docx"
   ]
 }
