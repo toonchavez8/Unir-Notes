@@ -2,15 +2,54 @@
 
 ## Resumen
 
-Este trabajo presentara un análisis orientado a objetos de una aplicación de gestión de gimnasio, describiendo las clases principales del sistema (por ejemplo, _Gimnasio_, _Miembro_, _Entrenador_, _Clase_, _Equipo_ y _Membresía_ con sus atributos y métodos. 
+Este trabajo presentara un análisis orientado a objetos de una aplicación de gestión de gimnasio, describiendo las clases principales del sistema (por ejemplo, _Gimnasio_, _Equipo_, _Clase_, _Entrenador_, _Usuario_, _Cliente_, _Membresía_, _Asistencia_ con sus atributos y métodos. 
 
-Se identifican las relaciones entre estas clases (asociación, herencia, agregación y composición) y se justifica el uso de cada una conforme a las reglas de UML. Se incluye además un diagrama de clases UML que sintetiza la estructura estática del sistema. Las referencias citadas (en formato APA) sustentan la definición de elementos UML y conceptos de análisis orientado a objetos.
+```mermaid
+
+classDiagram
+	class Gimnasio {
+	 atributos
+	 metodos()
+	}
+	class Equipo {
+	 atributos
+	 metodos()
+	}
+	class Clase {
+	 atributos
+	 metodos()
+	}
+	class Entrenador {
+	 atributos
+	 metodos()
+	}
+```
+
+```mermaid 
+classDiagram
+class Usuario {
+ atributos
+ metodos()
+}
+class Cliente {
+ atributos
+ metodos()
+}
+class Membresía {
+ atributos
+ metodos()
+}
+class Asistencia {
+ atributos
+ metodos()
+}
+```
+
+Se identifican las relaciones entre estas clases (asociación, herencia, agregación y composición) y se justifica el uso de cada una conforme a las reglas de UML. Se incluye además varios diagrams de clases UML que sintetiza la estructura que se propone para el sistema.
 
 ## Introducción
 
-El **análisis orientado a objetos (OOA)** modela el dominio del problema en términos de clases, objetos, atributos y métodos (Avila & Bailón, 2022)[portalacademico.cch.unam.mx](https://portalacademico.cch.unam.mx/cibernetica1/analisis-y-diseno-en-poo/clases-y-objetos#:~:text=En%20la%20programaci%C3%B3n%20orientada%20a,una%20interfaz%20gr%C3%A1fica%2C%20archivos%2C%20etc). El Lenguaje de Modelado Unificado (UML) provee una notación estandarizada para visualizar estos elementos (Lucidchart, s. f.)[lucidchart.com](https://www.lucidchart.com/pages/es/tutorial-de-diagrama-de-clases-uml#:~:text=El%20UML%20se%20estableci%C3%B3%20como,interacci%C3%B3n%20entre%20clases%20y%20objetos). En particular, los _diagramas de clases UML_ representan la estructura estática de un sistema mostrando clases, atributos y operaciones y sus relaciones[lucidchart.com](https://www.lucidchart.com/pages/es/que-es-el-lenguaje-unificado-de-modelado-uml#:~:text=Los%20diagramas%20de%20clases%20representan,superposici%C3%B3n%20entre%20estos%20dos%20grupos)[gleek.io](https://gleek.io/templates/gym-management-class#:~:text=About%20class%20diagrams). Según Lucidchart (s. f.), cada clase se dibuja como un rectángulo de tres secciones (nombre, atributos, métodos)[lucidchart.com](https://www.lucidchart.com/pages/es/tutorial-de-diagrama-de-clases-uml#:~:text=La%20figura%20de%20clase%20en,se%20agrupan%20para%20mostrar%20la). Los diagrams UML facilitan comprender sistemas complejos al convertir código en modelos visuals manejables (Miro, s. f.)[miro.com](https://miro.com/es/diagrama/que-es-diagrama-uml/#:~:text=Los%20diagramas%20UML%20facilitan%20la,personas%20no%20expertas%20en%20tecnolog%C3%ADa).
-
-En este análisis se aborda una aplicación de gestión de gimnasio que integra funciones de membresías, programación de clases, control de acceso y gestión de pagos[creately.com](https://creately.com/diagram/example/YjWlCVzccFY/sistema-de-gestion-de-gimnasio#:~:text=Un%20Sistema%20de%20Gesti%C3%B3n%20de,mejora%20la%20experiencia%20del%20cliente). Se describirán las clases identificadas en el sistema, sus atributos y métodos, las relaciones entre ellas (asociaciones, herencias, composiciones) y se presentará un diagrama UML de clases. Cada decisión de modelado se basa en los principios de abstracción y modularidad de la POO (Avila & Bailón, 2022)[portalacademico.cch.unam.mx](https://portalacademico.cch.unam.mx/cibernetica1/analisis-y-diseno-en-poo/clases-y-objetos#:~:text=En%20la%20programaci%C3%B3n%20orientada%20a,una%20interfaz%20gr%C3%A1fica%2C%20archivos%2C%20etc), así como en convenciones UML (Lucidchart, s. f.)[lucidchart.com](https://www.lucidchart.com/pages/es/que-es-el-lenguaje-unificado-de-modelado-uml#:~:text=Los%20diagramas%20de%20clases%20representan,superposici%C3%B3n%20entre%20estos%20dos%20grupos).
+> [!danger] Escribir un buen introduccion despues
 
 ## Clases Del Sistema
 
@@ -55,11 +94,26 @@ En resumen, las relaciones gráficas se dibujan con la notación UML estándar: 
 
 ## Diagrama De Clases UML
 
-```mermaid 
+```mermaid
 
+classDiagram
+	class Gimnasio {
+	}
+	class Equipo {
+	}
+	class Clase {
+	}
+	class Entrenador {
+	}
+	class Usuario {
+	}
+	class Cliente {
+	}
+	class Membresia {
+	}
+	class Asistencia{
+	}
 ```
-
-![[Pasted image 20250520214141.png]]
 
 _Figura 1. Diagrama de clases UML del sistema de gestión de gimnasio._
 
