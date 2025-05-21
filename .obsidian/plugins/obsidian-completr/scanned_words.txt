@@ -3057,6 +3057,7 @@ EXCALIDRAW
 Ejecucion
 EHz
 ELa
+Escribir
 Historia
 Howard
 Habilidades
@@ -6081,6 +6082,8 @@ dNA
 dfDAMM
 dcg
 dmK
+despues
+date
 La
 Linea
 Las
@@ -8865,6 +8868,7 @@ hIk
 hKZ
 hNkS
 hDgI
+historial
 referencia
 reconocer
 rmino
@@ -18032,6 +18036,7 @@ Phnn
 PIWA
 PRK
 PyM
+Penalizaci
 Todo
 Thorndike
 Todos
@@ -21243,6 +21248,10 @@ apDL
 aTNc
 acj
 acbk
+acentuaci
+adiendo
+asistencias
+ayudando
 una
 un
 unas
@@ -25982,6 +25991,8 @@ etf
 eYU
 eLtx
 eYkH
+explicacion
+enlazan
 que
 quien
 quiere
@@ -32525,6 +32536,7 @@ cFii
 cuK
 cbC
 cPu
+citaci
 Nic
 Necesidades
 No
@@ -37072,6 +37084,7 @@ AVaf
 AaE
 AAs
 Apc
+Asistencia
 importancia
 inteligencia
 intelectivos
@@ -38976,6 +38989,7 @@ ixT
 iSnn
 iiiccc
 iJQ
+introduccion
 formaci
 factores
 fortalezas
@@ -40502,6 +40516,7 @@ fJj
 fPS
 fgU
 foW
+faltas
 Utiliza
 Una
 Uno
@@ -41919,6 +41934,7 @@ Ujv
 UCM
 UWv
 Ujd
+Usuario
 David
 Describe
 Developing
@@ -43338,6 +43354,7 @@ DSg
 DPp
 DodKC
 DBz
+Due
 Wechsler
 Wayne
 WhatsApp
@@ -47852,6 +47869,9 @@ Mei
 MHQX
 Mdb
 MfY
+Monday
+May
+Materiales
 Gardner
 Goleman
 Generan
@@ -53596,6 +53616,7 @@ CkX
 CTg
 CvS
 CFiX
+Criterio
 vida
 viene
 va
@@ -56511,6 +56532,8 @@ RgpY
 RsJ
 REx
 RvZi
+Redacci
+Registra
 Bar
 Bisquerra
 Bajo
@@ -61986,6 +62009,7 @@ OYe
 ONJD
 OxZb
 Oqp
+Ortograf
 Vergüenza
 Valores
 Vision
