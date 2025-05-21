@@ -11,24 +11,12 @@
             "id": "15b5b14eff28b4a9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Epam/02-css-layouts/02-Css-layout-basics.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "file": "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Ref_homework/DocumentoParaLaActividad1.pdf"
               },
-              "icon": "lucide-file",
-              "title": "02-Css-layout-basics"
+              "icon": "lucide-file-text",
+              "title": "DocumentoParaLaActividad1"
             }
           },
           {
@@ -147,13 +135,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Epam/02-css-layouts/02-Css-layout-basics.md",
+                "file": "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Ref_homework/DocumentoParaLaActividad1.pdf",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 02-Css-layout-basics"
+              "title": "Outline of DocumentoParaLaActividad1"
             }
           },
           {
@@ -213,10 +201,14 @@
       "quick-tagger:Remove tag from current note": false
     }
   },
-  "active": "15b5b14eff28b4a9",
+  "active": "b74e6b9aa2987edc",
   "lastOpenFiles": [
-    "Epam/02-css-layouts/01-CSS-preprocessors.md",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Actividad01_mexissi01.docx",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Ref_homework/DocumentoParaLaActividad1.pdf",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/DocumentoParaLaActividad1.pdf",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Agenda/Agenda todos.md",
     "Epam/02-css-layouts/02-Css-layout-basics.md",
+    "Epam/02-css-layouts/01-CSS-preprocessors.md",
     "Epam/02-css-layouts/attachments/Pasted image 20250519211737.png",
     "Epam/02-css-layouts/attachments/Pasted image 20250519211708.png",
     "Epam/02-css-layouts/attachments/Pasted image 20250519211539.png",
@@ -229,7 +221,6 @@
     "Epam/02-css-layouts/attachments/Pasted image 20250519210205.png",
     "Epam/02-css-layouts/attachments",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/Agenda/Agenda todos.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Agenda/Agenda todos.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/018-Resumen-tema-3.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/017-Herramientas-Case.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Agenda/Agenda.pdf",
@@ -255,10 +246,8 @@
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Books",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Recording 20250517091254.webm",
     "Test/Test-01/Excalidraw",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Actividad01_mexissi01.docx",
     "Test/Test-01/~WRL0001.tmp",
     "Test/Test-01/~WRD0000.tmp",
-    "Test/Test-01/~$ljashdlksajd.docx",
-    "Test/Test-01/skljashdlksajd.docx"
+    "Test/Test-01/~$ljashdlksajd.docx"
   ]
 }
