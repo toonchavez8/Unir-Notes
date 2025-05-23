@@ -95,14 +95,122 @@ Partiendo de las necesidades que nos comparte el cliente y gestionando los casos
 	- **Realizar seguimiento**: Monitoreo del progreso de los clientes.
 	- **Programar sesiones personales**: Organización de entrenamientos uno a uno.
 
-## Análisis de los flujos principales e interacciones.
+## Análisis De Los Flujos Principales E Interacciones
 
-Basado en los casos de usos que se identifcan podemos intuir y analizar los siguientes flujos principales sobre las interecciones entre los actores y componentes del sistema:
+Basado en los casos de usos que se identifican podemos intuir y analizar los siguientes flujos principales sobre las interactions entre los actores y components del sistema:
 
-1. Gestion de usarios y acceso 
-2. Administracion de instalaciones
-3. Control de equipo
-4. 
+### 1 . **Gestion De Usuarios Y acceso**
+
+- **Durante el registro de un nuevo usuario**
+	 1. Un administrador inicia el proceso de registro en el Sistema
+	 2. El sistema solicita datos básicos (nombre, contacto, etc)
+	 3. Se selecciona el tipo de usuario (cliente o personal)
+	 4. Si es cliente se vincula con una membership
+	 5. El sistema valida la information proporcionada
+	 6. Se generan credenciales para el ingreso
+	 7. El usuario recibe notificación de registro existo con credenciales
+- **Interacciones clave:**
+	- `Usuario` ↔ `Membresía`: Al registrar un cliente, debe asociarse con un tipo de membresía
+	- `Usuario` ↔ `Gimnasio`: Los usuarios registrados pueden acceder a las instalaciones atreves de credenciales
+
+### 2. **Administration De instalaciones**
+
+- **Gestión de espacios:**
+	1. El administrador accede al módulo de gestión de espacios
+	2. Visualiza la distribución actual de las instalaciones
+	3. Asigna equipos específicos a cada área
+	4. Configura horarios de disponibilidad de instalaciones
+	5. El sistema actualiza la información y la hace visible para los usuarios
+
+**Interacciones clave:**
+
+- `Gimnasio` ↔ `Equipo`: El gimnasio contiene diversos equipos distribuidos en sus espacios
+- `Gimnasio` ↔ `Clase`: Las clases se asignan a espacios específicos dentro del gimnasio
+
+### 3. **Control De equipo**
+
+**Programación de mantenimiento:**
+
+1. El administrador identifica equipos que requieren mantenimiento
+2. Programa fechas para revisión o reparación
+3. El sistema marca el equipo como "En mantenimiento"
+4. Se notifica al personal relevante
+5. Al completar el servicio, se actualiza el estado del equipo
+6. El sistema registra el historial de mantenimiento
+
+**Interacciones clave:**
+
+- `Equipo` ↔ `Clase`: La disponibilidad de equipos afecta la programación de clases
+- `Equipo` ↔ `Gimnasio`: El inventario de equipos es parte integral del gimnasio
+
+### 4. **Programación De actividades**
+
+ **Creación de clases grupales:**
+
+1. El entrenador accede al módulo de programación
+2. Define el tipo de clase (yoga, spinning, etc.)
+3. Establece fecha, hora y duración
+4. Asigna un espacio específico
+5. Define capacidad máxima
+6. El sistema verifica disponibilidad y no conflictos
+7. La clase se publica y queda disponible para inscripción
+
+**Interacciones clave:**
+
+- `Clase` ↔ `Entrenador`: Cada clase es impartida por un entrenador específico
+- `Clase` ↔ `Cliente`: Los clientes se inscriben en las clases
+- `Clase` ↔ `Asistencia`: El sistema registra la asistencia a cada clase
+
+### 5. **Gestión De membresías**
+
+**Flujo principal - Renovación de planes:**
+
+1. El cliente o recepcionista inicia el proceso de renovación
+2. El sistema muestra el estado actual y opciones disponibles
+3. Se selecciona el nuevo período de vigencia
+4. Se aplican promociones si corresponde
+5. Se procesa el pago
+6. El sistema actualiza la fecha de vencimiento
+7. Se notifica la renovación exitosa
+
+**Interacciones clave:**
+
+- `Membresía` ↔ `Cliente`: Cada cliente tiene asociada una membresía con características específicas
+- `Membresía` ↔ `Clase`: El tipo de membresía podría determina el acceso a ciertas clases
+
+### 6. **Control De asistencia**
+
+**Registro de entrada/salida:**
+1. El cliente se identifica en el punto de acceso (tarjeta, biometría, etc.)
+2. El sistema verifica la vigencia de la membresía
+3. Se registra la fecha y hora de entrada
+4. Al salir, el cliente se identifica nuevamente
+5. El sistema registra la hora de salida
+6. Se actualiza el historial de asistencia del cliente
+
+**Interacciones clave:**
+
+- `Asistencia` ↔ `Cliente`: Se registra cada visita del cliente
+- `Asistencia` ↔ `Clase`: Se controla la participación en actividades específicas
+- `Asistencia` ↔ `Gimnasio`: Permite monitorear el aforo en tiempo real
+
+### 7. **Entrenamiento personalizado**
+
+**Flujo principal - Asignación de rutinas:**
+
+1. El entrenador accede al perfil del cliente
+2. Evalúa su condición física y objetivos
+3. Diseña una rutina personalizada
+4. Asigna ejercicios específicos con series y repeticiones
+5. Establece progresión esperada
+6. El cliente recibe notificación de su nueva rutina
+7. El sistema permite seguimiento del cumplimiento
+
+**Interacciones clave:**
+
+- `Entrenador` ↔ `Cliente`: Relación directa para la personalización del entrenamiento
+- `Cliente` ↔ `Equipo`: Las rutinas incluyen el uso de equipos específicos
+
 ## Clases Del Sistema
 
 A continuación se detallan las clases principales del sistema de gimnasio, indicando para cada una su nombre, propósito, atributos y métodos.
