@@ -1,8 +1,26 @@
-# Análisis Del Sistema Para Una Aplicación De Gimnasio
+# Actividad 1, Extracción De Clases De Análisis Con Enfoque Orientado a Objetos
 
-## Resumen
+## Miguel De Jesus Chavez
+
+### Metodologías, Desarrollo Y Calidad En la Ingeniería De Software
+
+### Bárbaro Jorge Ferrero Castro
+
+#### Mayo 26, 2025
+
+##### Unir – Universidad Internacional De la Rioja
+
+---
+
+> [!missing] indice
+
+---
+
+## Introducción
 
 Este trabajo presentara un análisis orientado a objetos de una aplicación de gestión de gimnasio, describiendo las clases principales del sistema por ejemplo, _Gimnasio_, _Equipo_, _Clase_, _Entrenador_, _Usuario_, _Cliente_, _Membresía_, _Asistencia_ con sus atributos y métodos.
+
+Se identifican las relaciones entre estas clases (asociación, herencia, agregación y composición) y se justifica el uso de cada una conforme a las reglas de UML. Se incluye además varios diagrams de clases UML que sintetiza la estructura que se propone para el sistema. 
 
 ```mermaid
 
@@ -45,12 +63,46 @@ class Asistencia {
 }
 ```
 
-Se identifican las relaciones entre estas clases (asociación, herencia, agregación y composición) y se justifica el uso de cada una conforme a las reglas de UML. Se incluye además varios diagrams de clases UML que sintetiza la estructura que se propone para el sistema.
+Partiendo de las necesidades que nos comparte el cliente y gestionando los casos de usos podemos analizar los siguientes casos de uso que tienen los actores para llevar acabo sus actividades diversas.
 
-## Introducción
+1. **Gestion de usuarios y acceso**
+	- **Registrar Nuevo usuario**: El sistema debe permitir dar de alta nuevos clientes y personal.
+	- **Autentificar usuario**: Control de acceso mediante credenciales.
+	- **Gestionar perfiles**: El sistema de permitir la actualización de información tanto metas, como personal. 
+2. **Administración de instalaciones**
+	- **Abrir/cerrar gimnasio**: Debemos de enter un control de quien se encarga de cerrar y abir el gimnasio
+	- **Gestionar Espacios:** Asignación de espacios disponibles con equipos asignados a esa area
+	- **monitorear aforo:** Control de Capacidad de personas en instalaciones para el balanceo de entrenadores por horarios de demanda 
+3. **Control de equipo** 
+	- **Inventariar equipos**: permite que un empleado pueda añadir equipo nuevo.
+	- **Programar mantenimiento**: Calendarización de revisiones y reparaciones.
+	- **Verificar disponibilidad**: Consulta del estado actual de los equipos.
+4. **Programación de actividades** 
+	- **Crear Classes Grupales**: Permitir entrenador crear una clase ejemplo de yoga etc.
+	- **Inscribirse**: Permite que clientes pueden ingresar a las Classes.
+	- **Cancelar / Reprogramar sesiones**: permite que los usuarios cancelen su inscripción a una clase o que entrenador reagende enviando notificación previa.
+	- **Notificación de cambios**: Notificar de cancelaciones, o reprogramaciones de clases.
+5. **Gestion de membresías**
+	- **Suscribir clientes**: Registro de nuevas membresías.
+	- **Renovar planes**: Extensión de membresías existentes.
+	- **Aplicar promociones**: Gestión de descuentos y ofertas especiales.
+	- **Consultar beneficios**: Verificación de servicios incluidos.
+6. **Control de asistencia**
+	- **Registrar entrada/salida**: Seguimiento de visitas al gimnasio.
+	- **Controlar participación en clases**: Registro de asistentes a sesiones grupales.
+7. **Entrenamiento personalizado**
+	- **Asignar rutinas**: Creación de planes de entrenamiento individuales.
+	- **Realizar seguimiento**: Monitoreo del progreso de los clientes.
+	- **Programar sesiones personales**: Organización de entrenamientos uno a uno.
 
-> [!danger] Escribir un buen introduccion despues
+## Análisis de los flujos principales e interacciones.
 
+Basado en los casos de usos que se identifcan podemos intuir y analizar los siguientes flujos principales sobre las interecciones entre los actores y componentes del sistema:
+
+1. Gestion de usarios y acceso 
+2. Administracion de instalaciones
+3. Control de equipo
+4. 
 ## Clases Del Sistema
 
 A continuación se detallan las clases principales del sistema de gimnasio, indicando para cada una su nombre, propósito, atributos y métodos.
