@@ -28,23 +28,23 @@
 - [x] Realizar Microtest 2.3 (0.05 p.) – **17/08/2025 23:59**  
 
 ## Semana 3 (05/05/2025 - 09/05/2025)
-- [ ] Revisar **Tema 3. Desarrollo de software orientado a objetos y basado en modelos**  
-  - [ ] 3.1 Introducción y objetivos  
-  - [ ] 3.2 Programación orientada a objetos  
-  - [ ] 3.3 Principios de la orientación a objetos  
-  - [ ] 3.4 Objeto y clase  
-  - [ ] 3.5 Análisis y diseño orientado a objetos  
-  - [ ] 3.6 Lenguaje unificado de modelado  
-  - [ ] 3.7 Diagrama de clases  
-  - [ ] 3.8 Herramientas CASE  
-- [ ] Asistir a Clase en directo  
-- [ ] Realizar Microtest 3.1 (0.05 p.) – **17/08/2025 23:59**  
-- [ ] Realizar Microtest 3.2 (0.05 p.) – **17/08/2025 23:59**  
-- [ ] Realizar Microtest 3.3 (0.05 p.) – **17/08/2025 23:59**  
-- [ ] Realizar Microtest 3.4 (0.05 p.) – **17/08/2025 23:59**  
-- [ ] Realizar Microtest 3.5 (0.05 p.) – **17/08/2025 23:59**  
-- [ ] Realizar Microtest 3.6 (0.05 p.) – **17/08/2025 23:59**  
-- [ ] Realizar Microtest 3.7 (0.05 p.) – **17/08/2025 23:59**  
+- [x] Revisar **Tema 3. Desarrollo de software orientado a objetos y basado en modelos**  
+  - [x] 3.1 Introducción y objetivos  
+  - [x] 3.2 Programación orientada a objetos  
+  - [x] 3.3 Principios de la orientación a objetos  
+  - [x] 3.4 Objeto y clase  
+  - [x] 3.5 Análisis y diseño orientado a objetos  
+  - [x] 3.6 Lenguaje unificado de modelado  
+  - [x] 3.7 Diagrama de clases  
+  - [x] 3.8 Herramientas CASE  
+- [x] Asistir a Clase en directo  
+- [x] Realizar Microtest 3.1 (0.05 p.) – **17/08/2025 23:59**  
+- [x] Realizar Microtest 3.2 (0.05 p.) – **17/08/2025 23:59**  
+- [x] Realizar Microtest 3.3 (0.05 p.) – **17/08/2025 23:59**  
+- [x] Realizar Microtest 3.4 (0.05 p.) – **17/08/2025 23:59**  
+- [x] Realizar Microtest 3.5 (0.05 p.) – **17/08/2025 23:59**  
+- [x] Realizar Microtest 3.6 (0.05 p.) – **17/08/2025 23:59**  
+- [x] Realizar Microtest 3.7 (0.05 p.) – **17/08/2025 23:59**  
 
 ## Semana 4 (12/05/2025 - 16/05/2025)
 - [ ] Revisar **Tema 4. Ingeniería de software dirigida por modelos**  
