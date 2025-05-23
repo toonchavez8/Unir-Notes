@@ -120,8 +120,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 316.5,
-    "collapsed": true
+    "width": 316.5
   },
   "right": {
     "id": "a25b807ad639ff42",
@@ -233,15 +232,15 @@
       "quick-tagger:Remove tag from current note": false
     }
   },
-  "active": "15b5b14eff28b4a9",
+  "active": "b74e6b9aa2987edc",
   "lastOpenFiles": [
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/~$tividad_01_Miguel_DeJesus_Chavez_Barragan.docx",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Ref_homework/Actividad 1 Carlos Alfonso Cardenas Pacheco.pdf",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/DocumentoParaLaActividad1.pdf",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Actividad_01_Miguel_DeJesus_Chavez_Barragan.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Actividad01_mexissi01.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Actividad-01-Grading-criteria.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Actividad_01_Miguel_DeJesus_Chavez_Barragan.docx",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/~$tividad_01_Miguel_DeJesus_Chavez_Barragan.docx",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/~WRL0001.tmp",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/~WRD0000.tmp",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/001-Ingenieria-de-software.md",
