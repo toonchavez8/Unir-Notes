@@ -1,4 +1,10 @@
 {
   "newFileLocation": "current",
-  "attachmentFolderPath": "./attachments"
+  "attachmentFolderPath": "./attachments",
+  "showLineNumber": false,
+  "promptDelete": false,
+  "alwaysUpdateLinks": true,
+  "newLinkFormat": "shortest",
+  "showUnsupportedFiles": true,
+  "trashOption": "local"
 }

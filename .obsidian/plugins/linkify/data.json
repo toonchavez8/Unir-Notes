@@ -1,0 +1,19 @@
+{
+  "rules": [
+    {
+      "regexp": "\\bPMBOK(?:®)?(?:\\s+(?:Guide)?)?(?:\\s*(v?\\d+(?:st|nd|rd|th)?(?:\\s+Edition)?))?\\b",
+      "link": "[[PMBOK/$1]]",
+      "cssclass": ""
+    },
+    {
+      "regexp": "gh:([a-zA-Z0-9./-]*)",
+      "link": "",
+      "cssclass": ""
+    },
+    {
+      "regexp": "@([a-zA-Z0-9]*)",
+      "link": "",
+      "cssclass": ""
+    }
+  ]
+}

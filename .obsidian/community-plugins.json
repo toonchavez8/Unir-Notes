@@ -1,7 +1,6 @@
 [
   "better-export-pdf",
   "floating-toc",
-  "obsidian-excalidraw-plugin",
   "obsidian-git",
   "note-refactor-obsidian",
   "easy-typing-obsidian",
@@ -15,5 +14,18 @@
   "obsidian-dictionary-plugin",
   "mermaid-tools",
   "code-files",
-  "obsidian-editor-shortcuts"
+  "obsidian-editor-shortcuts",
+  "whisper",
+  "obsidian-linter",
+  "docxer",
+  "linkify",
+  "obisidian-note-linker",
+  "links",
+  "obsidian-pandoc",
+  "obsidian-pandoc-reference-list",
+  "tabout",
+  "obsidian-zotero-desktop-connector",
+  "quick-tagger",
+  "obsidian-icon-folder",
+  "mermaid-helper"
 ]

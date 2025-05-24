@@ -13,7 +13,7 @@
       "modifiers": [
         "Alt"
       ],
-      "key": "2"
+      "key": "ArrowDown"
     }
   ],
   "editor:swap-line-up": [
@@ -21,7 +21,7 @@
       "modifiers": [
         "Alt"
       ],
-      "key": "1"
+      "key": "ArrowUp"
     }
   ],
   "easy-typing-obsidian:easy-typing-format-article": [
@@ -77,6 +77,70 @@
         "Mod"
       ],
       "key": "N"
+    }
+  ],
+  "app:toggle-left-sidebar": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "S"
+    }
+  ],
+  "app:toggle-right-sidebar": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "D"
+    }
+  ],
+  "obsidian-editor-shortcuts:insertCursorAbove": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "ArrowUp"
+    }
+  ],
+  "obsidian-editor-shortcuts:insertCursorBelow": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "ArrowDown"
+    }
+  ],
+  "quick-tagger:quick-add-tag": [
+    {
+      "modifiers": [],
+      "key": "F5"
+    }
+  ],
+  "obsidian-git:backup-and-close": [
+    {
+      "modifiers": [],
+      "key": "F12"
+    }
+  ],
+  "obsidian-git:push": [
+    {
+      "modifiers": [],
+      "key": "F11"
+    }
+  ],
+  "floating-toc:hide-toc-panel": [
+    {
+      "modifiers": [],
+      "key": "F3"
+    }
+  ],
+  "editor:toggle-source": [
+    {
+      "modifiers": [],
+      "key": "F4"
     }
   ]
 }

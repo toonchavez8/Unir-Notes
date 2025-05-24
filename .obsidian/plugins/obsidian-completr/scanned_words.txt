@@ -3643,7 +3643,6 @@ contiene
 cantidad
 compatible
 contaba
-clases
 comando
 completado
 contienen
@@ -3683,7 +3682,6 @@ confusos
 constantemente
 concentraci
 cosa
-clase
 convocar
 conceptos
 combinaciones

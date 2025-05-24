@@ -1,0 +1,13 @@
+{
+  "pathToPandoc": "C:\\Program Files\\Pandoc\\pandoc.EXE",
+  "tooltipDelay": 400,
+  "zoteroGroups": [],
+  "renderCitations": true,
+  "renderCitationsReadingMode": true,
+  "renderLinkCitations": true,
+  "cslStylePath": "",
+  "cslLang": "es-MX",
+  "enableCiteKeyCompletion": true,
+  "cslStyleURL": "https://raw.githubusercontent.com/citation-style-language/styles/master/apa.csl",
+  "pullFromZotero": true
+}

@@ -1,0 +1,46 @@
+{
+  "settings": {
+    "migrated": 6,
+    "iconPacksPath": ".obsidian/icons",
+    "fontSize": 16,
+    "emojiStyle": "native",
+    "iconColor": null,
+    "recentlyUsedIcons": [
+      "LiCodeXml",
+      "LiCalendar",
+      "LiImages",
+      "LiFolderUp",
+      "LiFolderCog2"
+    ],
+    "recentlyUsedIconsSize": 5,
+    "rules": [],
+    "extraMargin": {
+      "top": 0,
+      "right": 4,
+      "bottom": 0,
+      "left": 0
+    },
+    "iconInTabsEnabled": false,
+    "iconInTitleEnabled": false,
+    "iconInTitlePosition": "above",
+    "iconInFrontmatterEnabled": false,
+    "iconInFrontmatterFieldName": "icon",
+    "iconColorInFrontmatterFieldName": "iconColor",
+    "iconsBackgroundCheckEnabled": false,
+    "iconsInNotesEnabled": true,
+    "iconsInLinksEnabled": true,
+    "iconIdentifier": ":",
+    "lucideIconPackType": "native",
+    "debugMode": false,
+    "useInternalPlugins": false
+  },
+  "01-modam-softskills": "LiFolderArchive",
+  "02-programacion-python": "LiFolderCode",
+  "Maestría-Ingeniería-de-Software": "LiFolderTree",
+  "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software": "LiFolderCog2",
+  "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad": "LiFolderCode",
+  "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades": "LiFolderUp",
+  "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments": "LiImages",
+  "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Agenda": "LiCalendar",
+  "Maestría-Ingeniería-de-Software/03-Desarollo-web": "LiCodeXml"
+}
