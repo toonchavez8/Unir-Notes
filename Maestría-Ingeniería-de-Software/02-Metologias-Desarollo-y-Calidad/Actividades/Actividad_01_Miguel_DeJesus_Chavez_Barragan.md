@@ -95,6 +95,188 @@ Partiendo de las necesidades que nos comparte el cliente y gestionando los casos
 	- **Realizar seguimiento**: Monitoreo del progreso de los clientes.
 	- **Programar sesiones personales**: Organización de entrenamientos uno a uno.
 
+## Análisis De Actores Y Entidades Del Sistema De Gestión De Gimnasio
+
+Los actores son los usuarios que interactúan directamente con el sistema y tienen roles específicos. A partir del análisis de los casos de uso, podemos identificar los siguientes actores:
+
+### 1. Cliente/Miembro
+
+Actor principal que utilize los servicios del gimnasio.
+
+- **Características**: Persona que ha contratado una membresía para usar las instalaciones.
+- **Responsabilidades**: Inscribirse en clases, registrar entrada/salida, consultar su historial de asistencia, renovar membresías.
+
+### 2. Entrenador
+
+Personal especializado que imparte clases y asesora a los clientes.
+
+- **Características**: Professional con experiencia en actividades físicas y entrenamiento.
+- **Responsabilidades**: Crear clases grupales, asignar rutinas personalizadas, gestionar la programación de sesiones.
+
+### 3. Administrador/Recepcionista
+
+Personal encargado de la gestión operativa del gimnasio.
+
+- **Características**: Empleado con permisos para administrar usuarios y recursos.
+- **Responsabilidades**: Registrar nuevos usuarios, gestionar membresías, controlar el acceso, supervisar instalaciones.
+
+### 4. Técnico De Mantenimiento
+
+Personal especializado en el cuidado de los equipos.
+
+- **Características**: Empleado técnico responsible del estado de las máquinas.
+- **Responsabilidades**: Programar y realizar mantenimientos, actualizar el estado de los equipos.
+
+Las entidades representan los objetos principales que son gestionados por el sistema:
+
+### 1. Gimnasio
+
+- **Descripción**: Representa la instalación física donde se desarrollan las actividades.
+- **Relevancia**: Es la entidad contenedora principal que coordina todas las operaciones.
+- **Justificación**: Necesaria para gestionar horarios de apertura/cierre, espacios y aforo.
+
+### 2. Usuario (Persona)
+
+- **Descripción**: Representa a cualquier persona registrada en el sistema.
+- **Relevancia**: Clase abstracta que define atributos comunes para clientes y personal.
+- **Justificación**: Permite unificar la gestión de accesos y datos personales.
+
+### 3. Cliente
+
+- **Descripción**: Especialización de Usuario que representa a los miembros del gimnasio.
+- **Relevancia**: Principal usuario de los servicios ofrecidos.
+- **Justificación**: Necesaria para gestionar membresías, asistencias e inscripciones.
+
+### 4. Entrenador
+
+- **Descripción**: Especialización de Usuario que representa al personal instructor.
+- **Relevancia**: Responsible de las actividades físicas dirigidas.
+- **Justificación**: Necesaria para asignar responsabilidades de clases y entrenamientos.
+
+### 5. Membresía
+
+- **Descripción**: Representa los diferentes planes de suscripción disponibles.
+- **Relevancia**: Define el nivel de acceso y beneficios de cada cliente.
+- **Justificación**: Necesaria para el modelo de negocio del gimnasio y control de acceso.
+
+### 6. Clase/Sesión
+
+- **Descripción**: Representa una actividad grupal programada.
+- **Relevancia**: Organiza las actividades colectivas del gimnasio.
+- **Justificación**: Necesaria para la programación, asistencia y asignación de recursos.
+
+### 7. Equipo
+
+- **Descripción**: Representa las máquinas y material deportivo disponible.
+- **Relevancia**: Recurso físico fundamental para las actividades.
+- **Justificación**: Necesaria para inventario, mantenimiento y asignación a espacios.
+
+### 8. Asistencia
+
+- **Descripción**: Representa el registro histórico de participación.
+- **Relevancia**: Permite seguimiento de la actividad de los clientes.
+- **Justificación**: Necesaria para análisis de uso, facturación y control de acceso.
+
+## Clases Del Sistema
+
+A continuación se detallan las clases principales del sistema de gimnasio, indicando para cada una su nombre, propósito, atributos y métodos.
+
+### Gimnasio
+
+- **Gimnasio:** Representa el centro deportivo en sí mismo. _Atributos:_ `nombre: String`, `ubicación: String`, `horario: String`. _Métodos:_ `abrir()`, `cerrar()`, `registrarEntrada(Usuario)`, `registrarSalida(Usuario)`. Esta clase puede considerarse un servicio o entidad global que coordina las operaciones del gimnasio.
+
+### Equipo
+
+- **Equipo:** Representa un equipo o máquina del gimnasio (p. ej. cinta, pesa). _Atributos:_ `equipoID: Int`, `nombre: String`, `estado: String`. _Métodos:_ `marcarMantenimiento()` `agregar_equipo(equipo)` `ver_disponibilidad()`. Los equipos son utilizados en las sesiones, pero en el modelo propuesto existen como entidades propias.
+
+### Clase
+
+- **SesiónEntrenamiento:** Representa una clase o sesión grupal (p. ej. yoga, spinning). _Atributos:_ `sesiónID: Int`, `fechaHora: DateTime`, `duración: Int`. _Métodos:_ `iniciarSesión()`, `cancelarSesión()`. Esta clase se asocia con **Miembro** (asistencia de miembros) y **Entrenador** (conduce la sesión), sin que exista dependencia de vida fuerte entre ellas.
+
+### Usuario
+
+- **Persona:** (Superclase abstracta) Modelo común para individuos en el sistema. _Atributos:_ `id: Int`, `nombre: String`, `correo: String`, `telefono: String`. _Métodos:_ `contactar()`. Se propone para agrupar atributos comunes de **Miembro** y **Entrenador** a través de herencia (generalización)
+
+### Cliente
+
+- **Miembro:** Hereda de _Persona_. Representa a un cliente registrado en el gimnasio. _Atributos:_ `fechaRegistro: Date`, `estadoMembresía: Boolean`, `tipoMembresía: Membresía` (enumeración). _Métodos:_ `pagarCuota()`, `hacerCheckIn()`, `inscribirEnClase(SesiónEntrenamiento)`. Modela las operaciones típicas de un socio del gimnasio.
+
+### Membresía
+
+La clase membresía representa los distintos tipos de planes o niveles de suscripción que puede adquirir el cliente. Se implementa con 3 tipos de membresías para iniciar con una clase de tipo enumeración pero con los dos métodos iniciales de `renovar_membresia()` y `ver_detalles`
+
+- **Tipos de membresías**: 
+ 	- `BÁSICO`: Acceso a instalaciones básicas y horarios estándar
+ 	- `PREMIUM`: Acceso completo a instalaciones y classes grupales 
+ 	- `VIP`: Total acceso, classes ilimitadas, y incluyendo entrenamiento personalizado
+
+```mermaid
+classDiagram 
+ class Membresia {
+     <<enumeration>>
+     BÁSICO
+     PREMIUM
+     VIP
+     + renovar_membresia()
+     +ver_detalles()
+ }
+```
+
+- **Metodos**:
+	 - `renovar_membresia()` - Extiende la fecha de finalización de la membresía según la duración especificada que esto puede set mensual o annual. Retorna verdadero si la operación fue exitosa.
+	 - - `ver_detalles()` - Devuelve una descripción detallada de la membresía, incluyendo beneficios, duración y costo.
+
+Analizando nuestra clase y viendo nuestros metodos y los tipos de datos que necesitanamos nos invita ampliarlo para considerar mayores casos de uso. En este caso donde queremos renovar la membresía tendríamos definir nuevos atributos para contemplar mas datos.
+
+Tal como require el método anterior `ver_detalles` también require de mas information, como los beneficios, la duración y el costo. 
+
+```mermaid
+classDiagram
+class Membresía {
+    <<enumeration>>
+    BÁSICO
+    PREMIUM
+    VIP
+    +int id
+    +String nombre
+    +Double precio
+    +Int duracion
+    +Date fechaInicio
+    +Date fechaFin
+    +Double descuento
+    +List<String> beneficios
+    +Boolean accesoClases
+    +Boolean accesoPersonalizado
+    +Boolean horariosExtendidos
+    +Int invitados
+    +Boolean accesoMultisede
+    +Int periodoCongelacion
+    +renovar_membresia(Int duracion): Boolean
+    +ver_detalles(): String
+    +aplicar_descuento(Double porcentaje): Double
+    +está_activa(): Boolean
+    +calcular_precio_total(): Double
+    +actualizar_beneficios(List<String> nuevos_beneficios)
+    +verificar_compatibilidad(String servicio): Boolean
+    +congelar(Int dias): Boolean
+    +cambiar_plan(String nuevo_plan): Membresía
+}
+```
+
+### Entrenador
+
+- **Entrenador:** Hereda de _Persona_. Representa a un instructor o entrenador del gimnasio. _Atributos:_ `especialidad: String`, `añoExperiencia: Int`. _Métodos:_ `asignarRutina(Miembro)`, `programar_clase(clase)` `ver_clientes()`. Un _Entrenador_ puede gestionar sesiones de entrenamiento y asignar rutinas personalizadas.
+
+### Asistencia
+
+- Asistencia:
+  - registrar_asistencia(): Registra la asistencia de un cliente a una clase, añadiendo una entrada a la base de datos que vincula el cliente con la clase y la fecha.
+  - ver_historial_asistencias(): Permite al cliente ver su historial de asistencias a clases, ayudando a mantener un seguimiento de su participación
+
+## Relaciones Entre Clases
+
+> [!todo] Agregar explicacion de las relaciones entre las clases y como se enlazan
+
 ## Análisis De Los Flujos Principales E Interacciones
 
 Basado en los casos de usos que se identifican podemos intuir y analizar los siguientes flujos principales sobre las interactions entre los actores y components del sistema:
@@ -210,110 +392,6 @@ Basado en los casos de usos que se identifican podemos intuir y analizar los sig
 
 - `Entrenador` ↔ `Cliente`: Relación directa para la personalización del entrenamiento
 - `Cliente` ↔ `Equipo`: Las rutinas incluyen el uso de equipos específicos
-
-## Identificación de los Actores 
-
-> [!abstract] 
-> Aquí tendría que anazliar quienes son los actores 
-## Clases Del Sistema
-
-A continuación se detallan las clases principales del sistema de gimnasio, indicando para cada una su nombre, propósito, atributos y métodos.
-
-### Gimnasio
-
-- **Gimnasio:** Representa el centro deportivo en sí mismo. _Atributos:_ `nombre: String`, `ubicación: String`, `horario: String`. _Métodos:_ `abrir()`, `cerrar()`, `registrarEntrada(Usuario)`, `registrarSalida(Usuario)`. Esta clase puede considerarse un servicio o entidad global que coordina las operaciones del gimnasio.
-
-### Equipo
-
-- **Equipo:** Representa un equipo o máquina del gimnasio (p. ej. cinta, pesa). _Atributos:_ `equipoID: Int`, `nombre: String`, `estado: String`. _Métodos:_ `marcarMantenimiento()` `agregar_equipo(equipo)` `ver_disponibilidad()`. Los equipos son utilizados en las sesiones, pero en el modelo propuesto existen como entidades propias.
-
-### Clase
-
-- **SesiónEntrenamiento:** Representa una clase o sesión grupal (p. ej. yoga, spinning). _Atributos:_ `sesiónID: Int`, `fechaHora: DateTime`, `duración: Int`. _Métodos:_ `iniciarSesión()`, `cancelarSesión()`. Esta clase se asocia con **Miembro** (asistencia de miembros) y **Entrenador** (conduce la sesión), sin que exista dependencia de vida fuerte entre ellas.
-
-### Usuario
-
-- **Persona:** (Superclase abstracta) Modelo común para individuos en el sistema. _Atributos:_ `id: Int`, `nombre: String`, `correo: String`, `telefono: String`. _Métodos:_ `contactar()`. Se propone para agrupar atributos comunes de **Miembro** y **Entrenador** a través de herencia (generalización)
-
-### Cliente
-
-- **Miembro:** Hereda de _Persona_. Representa a un cliente registrado en el gimnasio. _Atributos:_ `fechaRegistro: Date`, `estadoMembresía: Boolean`, `tipoMembresía: Membresía` (enumeración). _Métodos:_ `pagarCuota()`, `hacerCheckIn()`, `inscribirEnClase(SesiónEntrenamiento)`. Modela las operaciones típicas de un socio del gimnasio.
-
-### Membresía
-
-La clase membresía representa los distintos tipos de planes o niveles de suscripción que puede adquirir el cliente. Se implementa con 3 tipos de membresías para iniciar con una clase de tipo enumeración pero con los dos métodos iniciales de `renovar_membresia()` y `ver_detalles`
-
-- **Tipos de membresías**: 
- 	- `BÁSICO`: Acceso a instalaciones básicas y horarios estándar
- 	- `PREMIUM`: Acceso completo a instalaciones y classes grupales 
- 	- `VIP`: Total acceso, classes ilimitadas, y incluyendo entrenamiento personalizado
-
-```mermaid
-classDiagram 
- class Membresia {
-     <<enumeration>>
-     BÁSICO
-     PREMIUM
-     VIP
-     + renovar_membresia()
-     +ver_detalles()
- }
-```
-
-- **Metodos**:
-	 - `renovar_membresia()` - Extiende la fecha de finalización de la membresía según la duración especificada que esto puede set mensual o annual. Retorna verdadero si la operación fue exitosa.
-	 - - `ver_detalles()` - Devuelve una descripción detallada de la membresía, incluyendo beneficios, duración y costo.
-
-Analizando nuestra clase y viendo nuestros metodos y los tipos de datos que necesitanamos nos invita ampliarlo para considerar mayores casos de uso. En este caso donde queremos renovar la membresía tendríamos definir nuevos atributos para contemplar mas datos.
-
-Tal como require el método anterior `ver_detalles` también require de mas information, como los beneficios, la duración y el costo. 
-
-```mermaid
-classDiagram
-class Membresía {
-    <<enumeration>>
-    BÁSICO
-    PREMIUM
-    VIP
-    +int id
-    +String nombre
-    +Double precio
-    +Int duracion
-    +Date fechaInicio
-    +Date fechaFin
-    +Double descuento
-    +List<String> beneficios
-    +Boolean accesoClases
-    +Boolean accesoPersonalizado
-    +Boolean horariosExtendidos
-    +Int invitados
-    +Boolean accesoMultisede
-    +Int periodoCongelacion
-    +renovar_membresia(Int duracion): Boolean
-    +ver_detalles(): String
-    +aplicar_descuento(Double porcentaje): Double
-    +está_activa(): Boolean
-    +calcular_precio_total(): Double
-    +actualizar_beneficios(List<String> nuevos_beneficios)
-    +verificar_compatibilidad(String servicio): Boolean
-    +congelar(Int dias): Boolean
-    +cambiar_plan(String nuevo_plan): Membresía
-}
-```
-
-### Entrenador
-
-- **Entrenador:** Hereda de _Persona_. Representa a un instructor o entrenador del gimnasio. _Atributos:_ `especialidad: String`, `añoExperiencia: Int`. _Métodos:_ `asignarRutina(Miembro)`, `programar_clase(clase)` `ver_clientes()`. Un _Entrenador_ puede gestionar sesiones de entrenamiento y asignar rutinas personalizadas.
-
-### Asistencia
-
-- Asistencia:
-  - registrar_asistencia(): Registra la asistencia de un cliente a una clase, añadiendo una entrada a la base de datos que vincula el cliente con la clase y la fecha.
-  - ver_historial_asistencias(): Permite al cliente ver su historial de asistencias a clases, ayudando a mantener un seguimiento de su participación
-
-## Relaciones Entre Clases
-
-> [!todo] Agregar explicacion de las relaciones entre las clases y como se enlazan
 
 ## Diagrama De Clases UML
 
