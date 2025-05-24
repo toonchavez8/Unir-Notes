@@ -325,7 +325,8 @@ classDiagram
         + nombre
         + correo
         + telefono
-        +contactar()
+        +obtenerCorreo()
+        +obtenerTelefono()
     }
 
     %% Especializaciones de Persona
@@ -391,8 +392,8 @@ classDiagram
         PREMIUM
         VIP
 
-        +renovarMembresía()
-        +verDetalles(): String
+        %%+renovarMembresía()
+        %%+verDetalles(): String
     }
 
     %% Relaciones
