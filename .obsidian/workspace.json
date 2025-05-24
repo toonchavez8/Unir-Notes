@@ -6,7 +6,6 @@
       {
         "id": "e84c82c1de9fd115",
         "type": "tabs",
-        "dimension": 53.198294243070364,
         "children": [
           {
             "id": "15b5b14eff28b4a9",
@@ -30,37 +29,6 @@
               },
               "icon": "lucide-file",
               "title": "Actividad_01_Miguel_DeJesus_Chavez_Barragan"
-            }
-          }
-        ]
-      },
-      {
-        "id": "ac4bfaf90ff0edb5",
-        "type": "tabs",
-        "dimension": 46.80170575692964,
-        "children": [
-          {
-            "id": "8d685b2cd8746433",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Ref_homework/Actividad 1 Carlos Alfonso Cardenas Pacheco.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Actividad 1 Carlos Alfonso Cardenas Pacheco"
-            }
-          },
-          {
-            "id": "3eb41ca76b2d1456",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/DocumentoParaLaActividad1.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "DocumentoParaLaActividad1"
             }
           }
         ]
@@ -232,7 +200,7 @@
       "quick-tagger:Remove tag from current note": false
     }
   },
-  "active": "b74e6b9aa2987edc",
+  "active": "15b5b14eff28b4a9",
   "lastOpenFiles": [
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/~$tividad_01_Miguel_DeJesus_Chavez_Barragan.docx",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Ref_homework/Actividad 1 Carlos Alfonso Cardenas Pacheco.pdf",

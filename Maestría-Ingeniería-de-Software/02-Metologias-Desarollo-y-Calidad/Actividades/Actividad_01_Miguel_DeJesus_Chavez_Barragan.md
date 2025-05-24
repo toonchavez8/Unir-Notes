@@ -211,6 +211,10 @@ Basado en los casos de usos que se identifican podemos intuir y analizar los sig
 - `Entrenador` ↔ `Cliente`: Relación directa para la personalización del entrenamiento
 - `Cliente` ↔ `Equipo`: Las rutinas incluyen el uso de equipos específicos
 
+## Identificación de los Actores 
+
+> [!abstract] 
+> Aquí tendría que anazliar quienes son los actores 
 ## Clases Del Sistema
 
 A continuación se detallan las clases principales del sistema de gimnasio, indicando para cada una su nombre, propósito, atributos y métodos.
