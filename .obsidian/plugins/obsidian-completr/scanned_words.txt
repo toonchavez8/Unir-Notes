@@ -65,6 +65,7 @@ Identificadores
 IDENTIFICADOR
 Internacional
 IVA
+Igual
 Emocional
 Edward
 Expone
@@ -546,6 +547,11 @@ declaramos
 definer
 divisi
 dulo
+devuelve
+devuelven
+definirse
+devolver
+decimal
 La
 Linea
 Las
@@ -575,6 +581,7 @@ Llamado
 Logro
 Locke
 Litwin
+Longitud
 hace
 habilidad
 humano
@@ -940,6 +947,8 @@ reservadas
 reservada
 ricos
 resta
+reemplazar
+rico
 la
 los
 las
@@ -1053,6 +1062,7 @@ llaves
 legible
 llamando
 llamar
+listas
 sentimientos
 sugiere
 ser
@@ -1318,6 +1328,8 @@ sangr
 seguido
 sepamos
 script
+secuencias
+subcadena
 tiempo
 tiene
 tica
@@ -1484,6 +1496,7 @@ transformadores
 trabajan
 tuvi
 triples
+textos
 Siglo
 Self
 Se
@@ -1555,6 +1568,8 @@ Sentimos
 Sintaxis
 Sangr
 Suma
+Subcadenas
+Slicing
 Plat
 Pir
 Payne
@@ -1731,6 +1746,8 @@ Trabajar
 Temen
 Tareas
 Tema
+Tipo
+Transformaci
 aprendizaje
 ala
 aspectos
@@ -2162,6 +2179,9 @@ accesible
 almacenen
 alacenar
 aritm
+aplicarles
+aplicados
+aparici
 una
 un
 unas
@@ -2213,6 +2233,8 @@ utilizaremos
 usaremos
 utilizada
 usara
+utilizando
+utilizarlo
 base
 biol
 bienestar
@@ -2300,6 +2322,9 @@ bloque
 binaria
 bits
 bit
+booleanos
+booleano
+binario
 emocional
 emociones
 en
@@ -2677,6 +2702,9 @@ elevarla
 enteros
 equivale
 elevado
+estructuras
+entero
+excepto
 que
 quien
 quiere
@@ -3724,6 +3752,15 @@ consultarlos
 constantes
 complex
 correspondientes
+cuyos
+corresponda
+cadenas
+caracteres
+car
+cter
+corchetes
+conversiones
+convertible
 Nic
 Necesidades
 No
@@ -3757,6 +3794,9 @@ Nadie
 Nada
 Nunca
 Nos
+NOT
+Nota
+None
 maco
 motivar
 menes
@@ -3974,6 +4014,9 @@ modificado
 modificada
 multiplicaci
 multiplicar
+manipular
+mantiene
+metro
 Arist
 Abraham
 Adem
@@ -4092,6 +4135,7 @@ Almacenar
 Asignaci
 Asigna
 AND
+Acceder
 importancia
 inteligencia
 intelectivos
@@ -4564,6 +4608,7 @@ funcionando
 fluida
 flexibilizar
 float
+flotante
 Utiliza
 Una
 Uno
@@ -4672,6 +4717,7 @@ Devuelve
 Divisi
 Divide
 Desplaza
+Distinto
 Wechsler
 Wayne
 WhatsApp
@@ -4817,6 +4863,8 @@ ninguna
 numericos
 num
 nicamente
+ndice
+ndices
 Maslow
 Miedo
 Maria
@@ -4888,6 +4936,8 @@ Movilizar
 Mejorar
 Multiplicaci
 Multiplica
+Menor
+Mayor
 Gardner
 Goleman
 Generan
@@ -4959,6 +5009,8 @@ Flujo
 FASE
 Finalmente
 Flotate
+Funciones
+False
 otras
 of
 on
@@ -5081,6 +5133,9 @@ operadores
 operaci
 operador
 operandos
+operando
+omitimos
+original
 Crea
 Cociente
 Con
@@ -5218,6 +5273,9 @@ Cultura
 Clima
 Comentarios
 Constantes
+Cadenas
+Concatenaci
+Convertir
 vida
 viene
 va
@@ -5324,6 +5382,7 @@ virtuoso
 ven
 verdaderos
 visualizamos
+vac
 Reuven
 REA
 Re
@@ -5398,6 +5457,8 @@ Ross
 Rioja
 Resta
 Realiza
+Repetici
+Reemplazar
 Bar
 Bisquerra
 Bajo
@@ -5426,6 +5487,7 @@ Brainstorming
 Bill
 Buscamos
 Burke
+Buscar
 Kama
 KPI
 Kurt
