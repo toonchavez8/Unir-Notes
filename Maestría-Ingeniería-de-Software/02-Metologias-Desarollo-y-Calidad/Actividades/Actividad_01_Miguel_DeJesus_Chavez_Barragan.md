@@ -85,7 +85,6 @@ Partiendo de las necesidades que nos comparte el cliente y gestionando los casos
 5. **Gestion de membresías**
 	- **Suscribir clientes**: Registro de nuevas membresías.
 	- **Renovar planes**: Extensión de membresías existentes.
-	- **Aplicar promociones**: Gestión de descuentos y ofertas especiales.
 	- **Consultar beneficios**: Verificación de servicios incluidos.
 6. **Control de asistencia**
 	- **Registrar entrada/salida**: Seguimiento de visitas al gimnasio.
@@ -135,7 +134,7 @@ Las entidades representan los objetos principales que son gestionados por el sis
 - **Relevancia**: Es la entidad contenedora principal que coordina todas las operaciones.
 - **Justificación**: Necesaria para gestionar horarios de apertura/cierre, espacios y aforo.
 
-### 2. Usuario (Persona)
+### 2. Usuario
 
 - **Descripción**: Representa a cualquier persona registrada en el sistema.
 - **Relevancia**: Clase abstracta que define atributos comunes para clientes y personal.
@@ -155,9 +154,9 @@ Las entidades representan los objetos principales que son gestionados por el sis
 
 ### 5. Membresía
 
-- **Descripción**: Representa los diferentes planes de suscripción disponibles.
+- **Descripción**: Representa la formade iniciar y renovar un plan de suscripción.
 - **Relevancia**: Define el nivel de acceso y beneficios de cada cliente.
-- **Justificación**: Necesaria para el modelo de negocio del gimnasio y control de acceso.
+- **Justificación**: Necesaria para la renovcacion de control de acceso.
 
 ### 6. Clase/Sesión
 
@@ -183,11 +182,76 @@ A continuación se detallan las clases principales del sistema de gimnasio, indi
 
 ### Gimnasio
 
-- **Gimnasio:** Representa el centro deportivo en sí mismo. _Atributos:_ `nombre: String`, `ubicación: String`, `horario: String`. _Métodos:_ `abrir()`, `cerrar()`, `registrarEntrada(Usuario)`, `registrarSalida(Usuario)`. Esta clase puede considerarse un servicio o entidad global que coordina las operaciones del gimnasio.
+Propongo adicionalmente la classe de Gimnasio. La cual representa la entididad principal del sistema o las instalciones. Lo cual el modelo se centra en el manego de los usarios, p
+
+#### **Atributos principales:**
+
+- `nombre:`
+    Nombre official del gimnasio.
+- `ubicacion:`  
+    Dirección física o localización del gimnasio.
+- `horario:`  
+    Horario de apertura y cierre, o bien, estructura de turnos de funcionamiento.
+
+#### **Métodos clave:**
+
+- `abrir():`  
+    Cambia el estado del gimnasio a abierto, permitiendo el acceso a usuarios y el inicio de actividades.
+- `cerrar():`  
+    Cambia el estado del gimnasio a cerrado, restringiendo el acceso y finalizando las operaciones del día.
+- `registrarEntrada():`  
+    Registra la entrada de un usuario al gimnasio, validando su membresía y actualizando el historial de acceso.
+- `registrarSalida():`  
+    Registra la salida de un usuario, permitiendo llevar un control de aforo y asistencia.
+
+```mermaid
+classDiagram
+ class Gimnasio {
+ 	- nombre
+ 	- ubicacion
+ 	- horario
+ 	+ abrir()
+ 	+ cerrar()
+ 	+ registrar_entrada()
+ 	+ registrar_salida()
+ 
+ }
+
+```
 
 ### Equipo
 
-- **Equipo:** Representa un equipo o máquina del gimnasio (p. ej. cinta, pesa). _Atributos:_ `equipoID: Int`, `nombre: String`, `estado: String`. _Métodos:_ `marcarMantenimiento()` `agregar_equipo(equipo)` `ver_disponibilidad()`. Los equipos son utilizados en las sesiones, pero en el modelo propuesto existen como entidades propias.
+La clase **Equipo** representra cualquier máquina o aparato disponible que esta en el gimnasio, como cintas de correr, bicicletas, pesas, entre otros. Esta entidad es ayudara a la gestión de inventario, el control de disponibilidad y la programación de mantenimientos.
+
+#### **Atributos principales:**
+
+- `identificador`  
+    Valor único que distingue a cada equipo dentro del gimnasio.
+- `nombre`  
+    Descripción o denominación del equipo.
+- `estado`  
+    Indica la condición actual del equipo (por ejemplo: operativo, en mantenimiento, fuera de servicio).
+
+#### **Métodos clave:**
+
+- `marcarMantenimiento()`  
+    Cambia el estado del equipo para indicar que require revisión o reparación, y registra la fecha del mantenimiento.
+- `agregarEquipo(equipo)`  
+    Permite incorporar un nuevo equipo al inventario del gimnasio.
+- `verDisponibilidad()`  
+    Devuelve información sobre si el equipo está disponible para uso o reservado para alguna actividad.
+
+```mermaid
+classDiagram
+ class Equipo {
+    - identificador
+    - nombre
+    - estado
+    + marcarMantenimiento()
+    + agregarEquipo(equipo)
+    + verDisponibilidad()
+ }
+```
 
 ### Clase
 
@@ -203,65 +267,71 @@ A continuación se detallan las clases principales del sistema de gimnasio, indi
 
 ### Membresía
 
-La clase membresía representa los distintos tipos de planes o niveles de suscripción que puede adquirir el cliente. Se implementa con 3 tipos de membresías para iniciar con una clase de tipo enumeración pero con los dos métodos iniciales de `renovar_membresia()` y `ver_detalles`
+La clase **Membresía** modela el contrato de suscripción que permite a un cliente acceder a los servicios del gimnasio bajo ciertas condiciones y beneficios. Es fundamental para controlar el acceso, gestionar renovaciones y definir los privilegios de cada usuario
+
+#### Atributos Principales
+
+- `plan:planes
+	Indica el tipo plan contradado, esto se hace atraves de una classe de tipo ennumeracion con la intencion de regstringir los valres posiblibles.
+- `fecha_inicio`: 
+	Fehca en la que inicia la vigencia de la membresia
+- `fecha date`: 
+	fecha en la que termina el plazo de la membresia
+- `costo`: 
+	Monto associado con el plan
+- `estado`: 
+	indicacion si la membresia esta activida o vencida 
+
+#### Enumeracion Asociada
+
+```mermaid
+classDiagram 
+ class planes {
+     <<enumeration>>
+     BÁSICO
+     PREMIUM
+     VIP
+ }
+```
 
 - **Tipos de membresías**: 
  	- `BÁSICO`: Acceso a instalaciones básicas y horarios estándar
  	- `PREMIUM`: Acceso completo a instalaciones y classes grupales 
  	- `VIP`: Total acceso, classes ilimitadas, y incluyendo entrenamiento personalizado
 
+#### Metodos
+
+ - `renovar_membresia()` - Extiende la fecha de finalización de la membresía según la duración especificada que esto puede set mensual o annual. 
+ - `ver_detalles()` - Devuelve una descripción detallada de la membresía, incluyendo beneficios, duración y costo.
+- `es_activa()` - verifica si la membresia esta vigente con la fecha actual
+
 ```mermaid
 classDiagram 
- class Membresia {
-     <<enumeration>>
-     BÁSICO
-     PREMIUM
-     VIP
-     + renovar_membresia()
-     +ver_detalles()
- }
-```
-
-- **Metodos**:
-	 - `renovar_membresia()` - Extiende la fecha de finalización de la membresía según la duración especificada que esto puede set mensual o annual. Retorna verdadero si la operación fue exitosa.
-	 - - `ver_detalles()` - Devuelve una descripción detallada de la membresía, incluyendo beneficios, duración y costo.
-
-Analizando nuestra clase y viendo nuestros metodos y los tipos de datos que necesitanamos nos invita ampliarlo para considerar mayores casos de uso. En este caso donde queremos renovar la membresía tendríamos definir nuevos atributos para contemplar mas datos.
-
-Tal como require el método anterior `ver_detalles` también require de mas information, como los beneficios, la duración y el costo. 
-
-```mermaid
-classDiagram
-class Membresía {
-    <<enumeration>>
+direction RL
+ class membresia {
+   		- plan : planes
+   		- fecha_inicio
+   		- fecha_fin
+   		- costo
+   		- estado
+   		+ renovar_membresia()
+   		+ ver_detalles()
+   		+ es_activa()
+     }
+	     
+	class planes {<<enumeration>>
     BÁSICO
     PREMIUM
-    VIP
-    +int id
-    +String nombre
-    +Double precio
-    +Int duracion
-    +Date fechaInicio
-    +Date fechaFin
-    +Double descuento
-    +List<String> beneficios
-    +Boolean accesoClases
-    +Boolean accesoPersonalizado
-    +Boolean horariosExtendidos
-    +Int invitados
-    +Boolean accesoMultisede
-    +Int periodoCongelacion
-    +renovar_membresia(Int duracion): Boolean
-    +ver_detalles(): String
-    +aplicar_descuento(Double porcentaje): Double
-    +está_activa(): Boolean
-    +calcular_precio_total(): Double
-    +actualizar_beneficios(List<String> nuevos_beneficios)
-    +verificar_compatibilidad(String servicio): Boolean
-    +congelar(Int dias): Boolean
-    +cambiar_plan(String nuevo_plan): Membresía
-}
+    VIP}
+	
+	
+	membresia --> planes
+
 ```
+
+Dejando los atributos privados podemos aprovechar de su encapsulamiento para que} solo los metodos de la clase puden modificar el estado de la membresia. Usando una clase de tipo enumeracion nos permite simplificar y ampliar los planes desde un punto centrar. 
+
+La classe se encarga exclusivamente de resguardar la suscripbcion, la renovacion y permite que consulta rs los detalle de la misma clase, siguento el principio de la responsibilidad unica. 
 
 ### Entrenador
 
@@ -463,16 +533,17 @@ classDiagram
         +verHistorialAsistencias(): List<Asistencia>
     }
 
-    %% Enumeración de planes
-    class Membresía {
-        <<enumeration>>
-        BÁSICO
-        PREMIUM
-        VIP
 
-        %%+renovarMembresía()
-        %%+verDetalles(): String
-    }
+	class membresia {
+	  		- plan : planes
+	  		- fecha_inicio
+	  		- fecha_fin
+	  		- costo
+	  		- estado
+	  		+ renovar_membresia()
+	  		+ ver_detalles()
+	  		+ es_activa()
+	    }
 
     %% Relaciones
     Gimnasio "1" o-- "*" Persona            : coordina

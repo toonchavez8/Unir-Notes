@@ -6,3 +6,4 @@ clase
 Clase
 clases
 Clases
+Classes

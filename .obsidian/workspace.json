@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02-programacion-python/02-Primeros-conceptos-en-python.md",
+                "file": "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Actividad_01_Miguel_DeJesus_Chavez_Barragan.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,23 +28,34 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "02-Primeros-conceptos-en-python"
+              "title": "Actividad_01_Miguel_DeJesus_Chavez_Barragan"
             }
           },
           {
-            "id": "ed3aa5b9bc2bf443",
+            "id": "b37b7b81d2d3fc0c",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.8.10"
+                "file": "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Actividad01_mexissi01.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.8.10"
+              "icon": "lucide-file",
+              "title": "Actividad01_mexissi01"
             }
           }
         ],
-        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -102,7 +113,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "a25b807ad639ff42",
@@ -202,10 +214,13 @@
       "code-files:Create Code File": false
     }
   },
-  "active": "ed3aa5b9bc2bf443",
+  "active": "0c97d200fa12efe9",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Actividad01_mexissi01.md",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Actividad_01_Miguel_DeJesus_Chavez_Barragan.md",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/DocumentoParaLaActividad1.pdf",
     "02-programacion-python/02-Primeros-conceptos-en-python.md",
+    "conflict-files-obsidian-git.md",
     "README.md",
     "Maestría-Ingeniería-de-Software/Excalidraw/02-Metologias-Desarollo-y-Calidad.md",
     "Maestría-Ingeniería-de-Software/Excalidraw/01-Direcion-y-Gestion-de-Software.md",
@@ -229,9 +244,6 @@
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Agenda/Agenda.pdf",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Agenda/Agenda todos.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Agenda",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/DocumentoParaLaActividad1.pdf",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Actividad_01_Miguel_DeJesus_Chavez_Barragan.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Actividad01_mexissi01.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Actividad-01-Grading-Criteria.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/018-Resumen-tema-3.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/017-Herramientas-Case.md",
@@ -248,7 +260,6 @@
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/006-Resumen-tema-1.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/005-Stakeholders.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/004-Modelo-proceso-dessarollo-software.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/003-proceso-desarollo-de-software.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/002-Crisis-de-software.md"
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/003-proceso-desarollo-de-software.md"
   ]
 }
