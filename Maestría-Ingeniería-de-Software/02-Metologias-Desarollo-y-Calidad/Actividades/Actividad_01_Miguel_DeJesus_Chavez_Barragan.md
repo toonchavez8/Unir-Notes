@@ -10,11 +10,7 @@
 
 ##### Unir – Universidad Internacional De la Rioja
 
----
-
 > [!missing] indice
-
----
 
 ## Introducción
 
@@ -33,7 +29,7 @@ classDiagram
   atributos
   metodos()
  }
- class Clase {
+ class SesiónEntrenamiento {
   atributos
   metodos()
  }
@@ -41,6 +37,10 @@ classDiagram
   atributos
   metodos()
  }
+ class Personal {
+ atributos
+ metodos()
+}
 ```
 
 ```mermaid
@@ -225,8 +225,6 @@ La clase **Equipo** representra cualquier máquina o aparato disponible que es
 
 #### **Atributos principales:**
 
-- `identificador`  
-    Valor único que distingue a cada equipo dentro del gimnasio.
 - `nombre`  
     Descripción o denominación del equipo.
 - `estado`  
@@ -244,7 +242,6 @@ La clase **Equipo** representra cualquier máquina o aparato disponible que es
 ```mermaid
 classDiagram
  class Equipo {
-    - identificador
     - nombre
     - estado
     + marcarMantenimiento()
@@ -253,17 +250,82 @@ classDiagram
  }
 ```
 
-### Clase
-
-- **SesiónEntrenamiento:** Representa una clase o sesión grupal (p. ej. yoga, spinning). _Atributos:_ `sesiónID: Int`, `fechaHora: DateTime`, `duración: Int`. _Métodos:_ `iniciarSesión()`, `cancelarSesión()`. Esta clase se asocia con **Miembro** (asistencia de miembros) y **Entrenador** (conduce la sesión), sin que exista dependencia de vida fuerte entre ellas.
-
 ### Usuario
 
-- **Persona:** (Superclase abstracta) Modelo común para individuos en el sistema. _Atributos:_ `id: Int`, `nombre: String`, `correo: String`, `telefono: String`. _Métodos:_ `contactar()`. Se propone para agrupar atributos comunes de **Miembro** y **Entrenador** a través de herencia (generalización)
+La clase **Usuario** funciona como una superclase abstracta que modela los atributos y comportamientos comunes de todas las personas que interactúan con el sistema, ya sean clientes, entrenadores u otro personal. Su propósito es facilitar la reutilización de de la clase para simplificar y unir con la gestión de datos personales.
+
+#### **Atributos principales:**
+
+- `nombre`  
+    Nombre completo del usuario.
+- `correo`  
+    Dirección de correo electrónico para contacto y notificaciones.
+- `telefono`  
+    Número de teléfono asociado al usuario.
+
+#### **Métodos clave:**
+
+- `contactar()`  
+    Permite enviar un mensaje o notificación al usuario a través de los medios registrados (correo o teléfono).
+- `actualizarDatos()`  
+    Permite modificar la información personal del usuario.
+
+```mermaid
+classDiagram
+ class Usuario {
+    - nombre
+    - correo
+    - telefono
+    + contactar()
+    + actualizarDatos()
+ }
+```
+
+La creacion de esta class como super classe es nos permite crear classes como cliente, entrenador, personal, que hereden atributos y metodos comunes. Los atributos los mantemmos privados y usamos metodos para poder cambiar o actualizar los atribbutos asegudranod que solo la clase o subclases que puedamos crear puedan accedidar o modificar la information.
+
+De esta forma tambien podemos al tener una super clase nos permite incporar nuevos metodos en el futuro y centraliza la gestion de information sensible.
 
 ### Cliente
 
-- **Miembro:** Hereda de _Persona_. Representa a un cliente registrado en el gimnasio. _Atributos:_ `fechaRegistro: Date`, `estadoMembresía: Boolean`, `tipoMembresía: Membresía` (enumeración). _Métodos:_ `pagarCuota()`, `hacerCheckIn()`, `inscribirEnClase(SesiónEntrenamiento)`. Modela las operaciones típicas de un socio del gimnasio.
+La clase **Cliente** representa a un cliente registrado en el gimnasio, generado a partir de la superclase abstracta **Usuario**. Modela las operaciones y atributos propios de un socio, permitiendo gestionar su relación con el gimnasio y su participación en actividades.
+
+#### **Atributos principales:**
+
+- `nombre`  
+    Nombre completo del miembro (heredado de Usuario).
+- `correo`  
+    Correo electrónico para notificaciones (heredado de Usuario).
+- `telefono`  
+    Número de contacto (heredado de Usuario).
+- `fechaRegistro`  
+    Fecha en la que el miembro se inscribió al gimnasio.
+- `estadoMembresía`  
+    Indica si la membresía del miembro está activa o no.
+- `tipoMembresía`  
+    Plan de membresía asociado al miembro.
+
+#### **Métodos clave:**
+
+- `pagarCuota()`  
+    Permite al miembro realizar el pago de su cuota periódica.
+- `hacerCheckIn()`  
+    Registra la entrada del miembro al gimnasio.
+- `inscribirEnClase(sesion)`  
+    Permite al miembro inscribirse en una sesión grupal o clase.
+
+```mermaid
+classDiagram
+direction RL
+ class Cliente {
+    - fechaRegistro
+    - estadoMembresía
+    - tipoMembresía
+    + pagarCuota()
+    + hacerCheckIn()
+    + inscribirEnClase(sesion)
+ }
+ Cliente --|> Usuario
+```
 
 ### Membresía
 
@@ -335,17 +397,287 @@ La classe se encarga exclusivamente de resguardar la suscripbcion, la renovacion
 
 ### Entrenador
 
-- **Entrenador:** Hereda de _Persona_. Representa a un instructor o entrenador del gimnasio. _Atributos:_ `especialidad: String`, `añoExperiencia: Int`. _Métodos:_ `asignarRutina(Miembro)`, `programar_clase(clase)` `ver_clientes()`. Un _Entrenador_ puede gestionar sesiones de entrenamiento y asignar rutinas personalizadas.
+La clase **Entrenador** representa a un instructor o professional encargado de guiar y supervisar a los miembros del gimnasio. Es una especialización de la clase **Usuario**, lo que permite heredar atributos y métodos comunes, y añadir funcionalidades específicas relacionadas con la gestión de entrenamientos y clases.
+
+#### **Atributos principales:**
+
+- `nombre`  
+    Nombre completo del entrenador (heredado de Usuario).
+- `correo`  
+    Correo electrónico para notificaciones (heredado).
+- `telefono`  
+    Número de contacto (heredado).
+- `fechaRegistro`  
+    Fecha de alta en el gimnasio (heredado).
+- `especialidad`  
+    Área de conocimiento o disciplina principal del entrenador.
+- `añosExperiencia`  
+    Tiempo de experiencia professional en el ámbito deportivo.
+
+#### **Métodos clave:**
+
+- `asignarRutina(miembro)`  
+    Permite diseñar y asignar un plan de entrenamiento personalizado a un miembro.
+- `programarClase(clase)`  
+    Permite crear o programar una nueva sesión grupal o clase.
+- `verClientes()`  
+    Devuelve la lista de miembros bajo su supervisión o entrenamiento.
+
+```mermaid
+classDiagram
+direction RL
+ class Entrenador {
+    - especialidad
+    - añosExperiencia
+    + asignarRutina(miembro)
+    + programarClase(clase)
+    + verClientes()
+ }
+ Entrenador --|> Usuario
+```
+
+### **SesiónEntrenamiento** (clase)
+
+La clase **SesiónEntrenamiento** representa una actividad grupal programada dentro del gimnasio, como yoga, spinning o cualquier otra clase colectiva. Esta entidad permite organizar, gestionar y controlar la participación de miembros y la asignación de entrenadores.
+
+#### **Atributos principales:**
+
+- `Nombre`  
+    Nombre de la clase para identificar de que va cubir.
+- `fechaHora`  
+    Memento programado para el inicio de la sesión.
+- `duracion`  
+    Tiempo estimado de la sesión.
+- `estado`  
+    Indica si la sesión está programada, en curso, finalizada o cancelada.
+
+#### **Métodos clave:**
+
+- `iniciarSesion()`  
+    Cambia el estado de la sesión a "en curso" y permite el acceso de los participantes.
+- `cancelarSesion()`  
+    Cambia el estado de la sesión a "cancelada" y notifica a los inscritos.
+- `agregarParticipante(participante)`  
+    Permite registrar a un miembro como asistente a la sesión.
+- `asignarEntrenador(entrenador)`  
+    Asocia un entrenador responsible de la sesión.
+
+```mermaid
+classDiagram
+ class SesionEntrenamiento {
+    - nombre
+    - fechaHora
+    - duracion
+    - estado
+    + iniciarSesion()
+    + cancelarSesion()
+    + agregarParticipante(participante)
+    + asignarEntrenador(entrenador)
+ }
+```
 
 ### Asistencia
 
-- Asistencia:
-  - registrar_asistencia(): Registra la asistencia de un cliente a una clase, añadiendo una entrada a la base de datos que vincula el cliente con la clase y la fecha.
-  - ver_historial_asistencias(): Permite al cliente ver su historial de asistencias a clases, ayudando a mantener un seguimiento de su participación
+La clase **Asistencia** representa el registro de la participación de un usuario en una clase o sesión dentro del gimnasio. Esta entidad es fundamental para llevar un control histórico de la actividad de los clientes y para la gestión de reportes y análisis de uso.
 
-## Relaciones Entre Clases
+#### **Atributos principales:**
 
-> [!todo] Agregar explicacion de las relaciones entre las clases y como se enlazan
+- `fecha`  
+    Fecha y hora en la que se registra la asistencia.
+- `usuario`  
+    Referencia al miembro que asiste (asociación).
+- `sesion`  
+    Referencia a la sesión o clase a la que asiste el miembro.
+
+#### **Métodos clave:**
+
+- `registrarAsistencia()`  
+    Registra la asistencia de un miembro a una clase, añadiendo una nueva entrada al historial.
+- `verHistorialAsistencias()`  
+    Permite consultar el historial de asistencias de un miembro, facilitando el seguimiento de su participación en actividades.
+
+```mermaid
+
+classDiagram
+ class Asistencia {
+    - fecha
+    - usuario
+    - sesion
+    + registrarAsistencia()
+    + verHistorialAsistencias()
+ }
+```
+
+## Relaciones Dinámicas Entre Clases (Diagrams De Secuencia)
+
+### 1. Registro De Entrada De Un Cliente
+
+```mermaid
+sequenceDiagram
+    autonumber
+    Cliente->>Cliente: hacerCheckIn()
+    activate Cliente
+    Cliente->>Membresía: es_activa()
+    activate Membresía
+    Membresía-->>Cliente: true/false
+    deactivate Membresía
+    alt membresía activa
+        Cliente->>Gimnasio: registrar_entrada()
+        activate Gimnasio
+        Gimnasio ->> Assistencia:guardar_registro_entrada()
+        activate Assistencia
+        Assistencia -->>Gimnasio:true/false
+        deactivate Assistencia
+        Gimnasio-->>Cliente: checkInExitoso
+        deactivate Gimnasio
+    else membresía inactiva
+        Cliente-->>Cliente: mostrarError("Membresía inactiva")
+    end
+    deactivate Cliente
+
+```
+
+1. **Cliente → Cliente (`hacerCheckIn()`)**  
+    El objeto `Cliente` inicia el proceso de check-in invocando su propio método `hacerCheckIn()`.
+    
+2. **Cliente → Membresía (`es_activa()`)**  
+    Dentro de `hacerCheckIn()`, `Cliente` pregunta a su objeto `Membresía` si está activa.
+    
+3. **Membresía → Cliente (`true/false`)**  
+    `Membresía` devuelve un booleano que indica si la suscripción está vigente.
+    
+4. **Caso membresía activa**
+    
+    - **Cliente → Gimnasio (`registrar_entrada()`)**: si la membresía es válida, `Cliente` invoca `registrar_entrada()` en `Gimnasio`.
+		
+    - Gimnasio → Asistencia (`Guardar_registro_Entrada ())`: Gimansio luego guarde el registro den assistencia para que y assistencia lo guarda con el id de usario
+        
+    - **Gimnasio → Cliente (`checkInExitoso`)**: `Gimnasio` confirma el registro de entrada.
+        
+5. **Caso membresía inactiva**
+    
+    - **Cliente → Cliente (`mostrarError(…)`)**: se muestra el mensaje de error “Membresía inactiva”.
+
+**Relaciones**
+
+- **Asociación**: `Cliente` está asociado con `Membresía` y con `Gimnasio`.
+    
+- **Composición implícita**: `Gimnasio` lleva el registro interno de accesos (aunque aquí el objeto `Asistencia` no aparece explícito).
+
+### 2. Inscripción En Una Clase Grupales
+
+```mermaid
+sequenceDiagram
+    autonumber
+    Cliente->>Cliente: inscribirEnClase(sesion)
+    activate Cliente
+    Cliente->>Membresía: es_activa()
+    activate Membresía
+    Membresía-->>Cliente: true/false
+    deactivate Membresía
+    alt membresía activa
+        Cliente->>SesionEntrenamiento: agregarParticipante(Cliente)
+        activate SesionEntrenamiento
+        SesionEntrenamiento-->>Cliente: confirmaciónInscripción
+        deactivate SesionEntrenamiento
+    else membresía inactiva
+        Cliente-->>Cliente: mostrarError("No puede inscribirse")
+    end
+    deactivate Cliente
+
+```
+
+1. **Cliente → Cliente (`inscribirEnClase(sesion)`)**  
+    El cliente llama a `inscribirEnClase`, pasando la instancia de `SesionEntrenamiento`.
+    
+2. **Cliente → Membresía (`es_activa()`)**  
+    Se valida de nuevo el estado de la membresía.
+    
+3. **Membresía → Cliente (`true/false`)**  
+    Se devuelve si el cliente puede participar o no.
+    
+4. **Caso membresía activa**
+    
+    - **Cliente → SesionEntrenamiento (`agregarParticipante(Cliente)`)**: añade al cliente al listado de participantes.
+        
+    - **SesionEntrenamiento → Cliente (`confirmaciónInscripción`)**: confirma la inscripción.
+        
+5. **Caso membresía inactiva**
+    
+    - **Cliente → Cliente (`mostrarError(…)`)**: muestra el error de imposibilidad.
+
+**Relaciones**
+
+- **Asociación**: `Cliente` interactúa tanto con `Membresía` como con `SesionEntrenamiento`.
+    
+- **Agregación**: `SesionEntrenamiento` mantiene una colección de participantes (clientes).
+
+### 3. Programación De Una Clase Grupal Por Un Entrenador
+
+```mermaid
+sequenceDiagram
+    autonumber
+    Entrenador->>Entrenador: programarClase(datosClase)
+    activate Entrenador
+    Entrenador->>SesionEntrenamiento: asignarEntrenador(Entrenador)
+    activate SesionEntrenamiento
+    SesionEntrenamiento-->>Entrenador: confirmaciónAsignación
+    deactivate SesionEntrenamiento
+    Entrenador-->>Entrenador: finProgramación
+    deactivate Entrenador
+
+```
+
+1. **Entrenador → Entrenador (`programarClase(datosClase)`)**  
+    El entrenador inicia la creación de una nueva sesión, preparando los datos.
+    
+2. **Entrenador → SesionEntrenamiento (`asignarEntrenador(Entrenador)`)**  
+    Se asocia la instancia del entrenador con la nueva `SesionEntrenamiento`.
+    
+3. **SesionEntrenamiento → Entrenador (`confirmaciónAsignación`)**  
+    Se devuelve la confirmación de que el entrenador fue asignado correctamente.
+    
+4. **Entrenador → Entrenador (`finProgramación`)**  
+    El entrenador culmina internamente el flujo de programación.
+
+**Relaciones**
+
+- **Herencia/Polimorfismo**: `Entrenador` es una subclase de `Usuario`.
+    
+- **Asociación fuerte**: `SesionEntrenamiento` require un `Entrenador` para existir.
+
+### 4. Programar Mantenimiento De Un Equipo
+
+```mermaid
+
+sequenceDiagram
+    autonumber
+    Entrenador->>Equipo: marcarMantenimiento()
+    activate Equipo
+    Equipo-->>Equipo: estado = "en mantenimiento"
+    Equipo->>Equipo: verDisponibilidad()
+    Equipo-->>Entrenador: disponible = false
+    deactivate Equipo
+
+```
+
+1. **Entrenador → Equipo (`marcarMantenimiento()`)**  
+    El técnico inicia el proceso de mantenimiento de la máquina.
+    
+2. **Equipo → Equipo (interno)**  
+    Cambia su atributo `estado` a `"en mantenimiento"`.
+    
+3. **Equipo → Equipo (`verDisponibilidad()`)**  
+    Comprueba internamente si puede seguir siendo usado.
+    
+4. **Equipo → TécnicoDeMantenimiento (`false`)**  
+    Responde que ya no está disponible hasta terminar la reparación.
+
+**Relaciones**
+
+- **Asociación**: el Entrenador interactúa con el objeto `Equipo`.
+    
+- **Encapsulamiento**: las operaciones de estado y disponibilidad quedan dentro de `Equipo`.
 
 ## Análisis De Los Flujos Principales E Interacciones
 
@@ -356,7 +688,7 @@ Basado en los casos de usos que se identifican podemos intuir y analizar los sig
 - **Durante el registro de un nuevo usuario**
 	 1. Un administrador inicia el proceso de registro en el Sistema
 	 2. El sistema solicita datos básicos (nombre, contacto, etc)
-	 3. Se selecciona el tipo de usuario (cliente o personal)
+	 3. Se selecciona el tipo de usuario (cliente o personal, entrenador)
 	 4. Si es cliente se vincula con una membership
 	 5. El sistema valida la information proporcionada
 	 6. Se generan credenciales para el ingreso
@@ -462,6 +794,10 @@ Basado en los casos de usos que se identifican podemos intuir y analizar los sig
 
 - `Entrenador` ↔ `Cliente`: Relación directa para la personalización del entrenamiento
 - `Cliente` ↔ `Equipo`: Las rutinas incluyen el uso de equipos específicos
+
+## Relaciones Entre Clases
+
+> [!todo] Agregar explicacion de las relaciones entre las clases y como se enlazan
 
 ## Diagrama De Clases UML
 
