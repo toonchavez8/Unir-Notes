@@ -1,57 +1,17 @@
 # Actividad 1, Extracción De Clases De Análisis Con Enfoque Orientado a Objetos
 
-## Miguel De Jesus Chavez
+# Miguel De Jesus Chavez
 
-### Metodologías, Desarrollo Y Calidad En la Ingeniería De Software
+# Metodologías, Desarrollo Y Calidad En la Ingeniería De Software
 
-### Bárbaro Jorge Ferrero Castro
+# Bárbaro Jorge Ferrero Castro
 
-#### Mayo 26, 2025
+# Mayo 26, 2025
 
-##### Unir – Universidad Internacional De la Rioja
+# Unir – Universidad Internacional De la Rioja
 
-# Índice Del Documento
+## Índice 
 
-# Índice del Documento
-
-- [Introducción](##Introducion)
-- [Casos de Uso]([## Análisis De Actores Y Entidades Del Sistema De Gestión De Gimnasio](https://www.google.com/search?q=%23casos-de-uso))
-    - [Gestión de usuarios y acceso](https://www.google.com/search?q=%23gesti%C3%B3n-de-usuarios-y-acceso)
-    - [Administración de instalaciones](https://www.google.com/search?q=%23administraci%C3%B3n-de-instalaciones)
-    - [Control de equipo](https://www.google.com/search?q=%23control-de-equipo)
-    - [Programación de actividades](https://www.google.com/search?q=%23programaci%C3%B3n-de-actividades)
-    - [Gestión de membresías](https://www.google.com/search?q=%23gesti%C3%B3n-de-membres%C3%ADas)
-    - [Control de asistencia](https://www.google.com/search?q=%23control-de-asistencia)
-    - [Entrenamiento personalizado](https://www.google.com/search?q=%23entrenamiento-personalizado)
-- [Análisis de Actores y Entidades](https://www.google.com/search?q=%23an%C3%A1lisis-de-actores-y-entidades)
-    - [Actores principales](https://www.google.com/search?q=%23actores-principales)
-    - [Entidades del sistema](https://www.google.com/search?q=%23entidades-del-sistema)
-- [Clases del Sistema](https://www.google.com/search?q=%23clases-del-sistema)
-    - [Gimnasio](https://www.google.com/search?q=%23gimnasio)
-    - [Equipo](https://www.google.com/search?q=%23equipo)
-    - [Usuario](https://www.google.com/search?q=%23usuario)
-    - [Cliente](https://www.google.com/search?q=%23cliente)
-    - [Membresía](https://www.google.com/search?q=%23membres%C3%ADa)
-    - [Entrenador](https://www.google.com/search?q=%23entrenador)
-    - [SesiónEntrenamiento](https://www.google.com/search?q=%23sesi%C3%B3nentrenamiento-clase)
-    - [Asistencia](https://www.google.com/search?q=%23asistencia)
-- [Relaciones Dinámicas Entre Clases](https://www.google.com/search?q=%23relaciones-din%C3%A1micas-entre-clases-diagrams-de-secuencia)
-    - [Registro de Entrada de un Cliente](https://www.google.com/search?q=%231-registro-de-entrada-de-un-cliente)
-    - [Inscripción en una Clase Grupal](https://www.google.com/search?q=%232-inscripci%C3%B3n-en-una-clase-grupales)
-    - [Programación de una Clase Grupal por un Entrenador](https://www.google.com/search?q=%233-programaci%C3%B3n-de-una-clase-grupal-por-un-entrenador)
-    - [Programar Mantenimiento de un Equipo](https://www.google.com/search?q=%234-programar-mantenimiento-de-un-equipo)
-- [Análisis de Flujos Principales](https://www.google.com/search?q=%23an%C3%A1lisis-de-los-flujos-principales-e-interacciones)
-    - [Gestión de Usuarios y Acceso](https://www.google.com/search?q=%231--gesti%C3%B3n-de-usuarios-y-acceso)
-    - [Administración de Instalaciones](https://www.google.com/search?q=%232-administration-de-instalaciones)
-    - [Control de Equipo](https://www.google.com/search?q=%233-control-de-equipo)
-    - [Programación de Actividades](https://www.google.com/search?q=%234-programaci%C3%B3n-de-actividades)
-    - [Gestión de Membresías](https://www.google.com/search?q=%235-gesti%C3%B3n-de-membres%C3%ADas)
-    - [Control de Asistencia](https://www.google.com/search?q=%236-control-de-asistencia)
-    - [Entrenamiento Personalizado](https://www.google.com/search?q=%237-entrenamiento-personalizado)
-- [Relaciones Entre Clases](https://www.google.com/search?q=%23relaciones-entre-clases)
-- [Diagrama de Clases UML](https://www.google.com/search?q=%23diagrama-de-clases-uml)
-- [Conclusiones](https://www.google.com/search?q=%23conclusiones)
-- [Referencias Bibliográficas](https://www.google.com/search?q=%23referencias-bibliogr%C3%A1ficas)
 
 ## Introducción
 
@@ -99,6 +59,8 @@ class Asistencia {
  metodos()
 }
 ```
+
+### Casos De Uso
 
 Partiendo de las necesidades que nos comparte el cliente y gestionando los casos de usos podemos analizar los siguientes casos de uso que tienen los actores para llevar acabo sus actividades diversas.
 
@@ -606,8 +568,6 @@ sequenceDiagram
     
 - **Agregación**: `SesionEntrenamiento` mantiene una colección de participantes (clientes).
 
-## Conclusión
-
 ### 3. Programación De Una Clase Grupal Por Un Entrenador
 
 ```mermaid
@@ -885,3 +845,5 @@ classDiagram
     SesiónEntrenamiento "1" o-- "*" Asistencia : registra
     Equipo "*" o-- "*" SesiónEntrenamiento    : utilizado_en
 ```
+
+## Conclusión

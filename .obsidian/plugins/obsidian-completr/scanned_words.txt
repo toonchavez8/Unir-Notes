@@ -3225,6 +3225,7 @@ ECe
 Eea
 Entrada
 Especializaciones
+Entidad
 Historia
 Howard
 Habilidades
@@ -11128,6 +11129,7 @@ renovaciones
 registrarAsistencia
 registrarEntrada
 registrarSalida
+reportres
 la
 los
 las
@@ -12607,6 +12609,7 @@ lQC
 lMM
 lQz
 localizaci
+levantar
 sentimientos
 sugiere
 ser
@@ -34152,6 +34155,7 @@ cancelarSesion
 checkInExitoso
 confirmaci
 cancelarSesi
+cancelar
 Nic
 Necesidades
 No
@@ -37427,6 +37431,7 @@ mantemmos
 mermaid
 mostrarError
 marcarMantenimiento
+mataninimiento
 Arist
 Abraham
 Adem
@@ -38938,6 +38943,8 @@ AIKfVy
 AxQ
 ANs
 Assistencia
+Administrativo
+Administra
 importancia
 inteligencia
 intelectivos
@@ -44025,6 +44032,7 @@ UCu
 UOF
 UQa
 ULL
+Unifica
 David
 Describe
 Developing
@@ -56285,6 +56293,7 @@ CGvI
 CQG
 CXy
 Correo
+Controla
 vida
 viene
 va
