@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/014-Analisis-Diseño-orientado-objetos.md",
+                "file": "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/018-Resumen-tema-3.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,10 +28,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "014-Analisis-Diseño-orientado-objetos"
+              "title": "018-Resumen-tema-3"
+            }
+          },
+          {
+            "id": "d8fb17b1d0f3344a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/019-Ing-dirigida-por-modelos.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "019-Ing-dirigida-por-modelos"
             }
           }
         ],
+        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -151,13 +176,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/014-Analisis-Diseño-orientado-objetos.md",
+                "file": "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/019-Ing-dirigida-por-modelos.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 014-Analisis-Diseño-orientado-objetos"
+              "title": "Outline of 019-Ing-dirigida-por-modelos"
             }
           }
         ],
@@ -188,8 +213,14 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "b74e6b9aa2987edc",
+  "active": "d8fb17b1d0f3344a",
   "lastOpenFiles": [
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250526164807.png",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/018-Resumen-tema-3.md",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/019-Ing-dirigida-por-modelos.md",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Agenda/Agenda todos.md",
+    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/Agenda/Agenda todos.md",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/014-Analisis-Diseño-orientado-objetos.md",
     "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/mexissi04_act1.docx",
     "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades",
     "Maestría-Ingeniería-de-Software/03-Desarollo-web",
@@ -211,10 +242,8 @@
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250515204004.png",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/attachments/Pasted image 20250520214141.png",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/attachments",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/018-Resumen-tema-3.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/016-Diagrama-de-clase.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/015-Lenguaje-unificado-modelado.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/014-Analisis-Diseño-orientado-objetos.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/013-Objeto-y-clase.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/012-Prinipios-Orentacion-objetos.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/011-Programacion-Orientada-Objetas.md",
@@ -227,14 +256,10 @@
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/004-Modelo-proceso-dessarollo-software.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/003-proceso-desarollo-de-software.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/002-Crisis-de-software.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/001-Ingenieria-de-software.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/000_IdeasClave.pdf",
-    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/014-Resumen-3.md",
-    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/013-Flujograma.md",
     "Epam/02-css-layouts/attachments/Pasted image 20250519211737.png",
     "Epam/02-css-layouts/attachments/Pasted image 20250519211043.png",
     "Epam/02-css-layouts/attachments/Pasted image 20250519211708.png",
-    "Epam/02-css-layouts/attachments/Pasted image 20250519210945.png",
-    "Epam/02-css-layouts/attachments"
+    "Epam/02-css-layouts/attachments/Pasted image 20250519210945.png"
   ]
 }
