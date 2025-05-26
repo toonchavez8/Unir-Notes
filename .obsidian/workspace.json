@@ -4,18 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "3f82ec8b0cbdba10",
+        "id": "c49bae459bf1a3eb",
         "type": "tabs",
         "children": [
           {
-            "id": "0c97d200fa12efe9",
+            "id": "cb6387e302b320a5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Actividad_01_Miguel_DeJesus_Chavez_Barragan.md",
                 "mode": "source",
-                "source": false,
+                "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
                   "collapseAll": false,
@@ -31,8 +31,7 @@
               "title": "Actividad_01_Miguel_DeJesus_Chavez_Barragan"
             }
           }
-        ],
-        "stacked": true
+        ]
       }
     ],
     "direction": "vertical"
@@ -65,10 +64,10 @@
               "type": "search",
               "state": {
                 "query": "",
-                "matchingCase": false,
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
-                "extraContext": false,
+                "extraContext": true,
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
@@ -89,8 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 316.5
   },
   "right": {
     "id": "a25b807ad639ff42",
@@ -106,77 +104,83 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01-modam-softskills/01-inteligencia-emocional/01-inteligencia-emocional.md",
-                "collapseAll": false,
+                "file": "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/01-Estrategia-al-proyecto.md",
+                "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
-                "showSearch": false,
+                "showSearch": true,
                 "searchQuery": "",
-                "backlinkCollapsed": false,
+                "backlinkCollapsed": true,
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 01-inteligencia-emocional"
+              "title": "Backlinks for 01-Estrategia-al-proyecto"
             }
           },
           {
-            "id": "538cadb56173a756",
+            "id": "a39895ca42bb8957",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Actividad_01_Miguel_DeJesus_Chavez_Barragan.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Actividad_01_Miguel_DeJesus_Chavez_Barragan"
+            }
+          },
+          {
+            "id": "1af14892a40ad4d0",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01-modam-softskills/01-inteligencia-emocional/01-inteligencia-emocional.md",
+                "file": "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/Agenda/Agenda todos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 01-inteligencia-emocional"
+              "title": "Outgoing links from Agenda todos"
             }
           },
           {
-            "id": "6f374fb701b84381",
+            "id": "a6088d1a54ebaa21",
             "type": "leaf",
             "state": {
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-tags",
               "title": "Tags"
             }
           },
           {
-            "id": "f0a7dee4b69988fc",
+            "id": "1b35f08e5046460c",
             "type": "leaf",
             "state": {
-              "type": "outline",
-              "state": {
-                "file": "01-modam-softskills/02-liderazgo-competencias-directivas.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "Outline of 02-liderazgo-competencias-directivas"
+              "type": "dictionary-view",
+              "state": {},
+              "icon": "quote-glyph",
+              "title": "Dictionary"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
       "markdown-importer:Open format converter": false,
-      "audio-recorder:Start/stop recording": false,
-      "whisper:Open recording controls": false,
-      "obisidian-note-linker:Note Linker": false,
-      "quick-tagger:Add tag to current note": false,
-      "quick-tagger:Remove tag from current note": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -187,56 +191,97 @@
       "callout-manager:Insert Callout": false,
       "omnisearch:Omnisearch": false,
       "mermaid-tools:Open Mermaid Toolbar": false,
-      "code-files:Create Code File": false
+      "code-files:Create Code File": false,
+      "audio-recorder:Start/stop recording": false,
+      "whisper:Open recording controls": false,
+      "obisidian-note-linker:Note Linker": false,
+      "quick-tagger:Add tag to current note": false,
+      "quick-tagger:Remove tag from current note": false
     }
   },
-  "active": "0c97d200fa12efe9",
+  "floating": {
+    "id": "d031132ecdbbfd2d",
+    "type": "floating",
+    "children": [
+      {
+        "id": "cd948d60d75d4a1e",
+        "type": "window",
+        "children": [
+          {
+            "id": "91c841ce46d5bb25",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "822a1564b631ef49",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Ref_homework/Actividad 1 Carlos Alfonso Cardenas Pacheco.pdf"
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "Actividad 1 Carlos Alfonso Cardenas Pacheco"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 1270,
+        "y": 5,
+        "width": 645,
+        "height": 1022,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "a39895ca42bb8957",
   "lastOpenFiles": [
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Actividad_01_Miguel_DeJesus_Chavez_Barragan.pdf",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Actividad01_mexissi01.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Actividad_01_Miguel_DeJesus_Chavez_Barragan.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/DocumentoParaLaActividad1.pdf",
-    "02-programacion-python/02-Primeros-conceptos-en-python.md",
-    "conflict-files-obsidian-git.md",
-    "README.md",
-    "Maestría-Ingeniería-de-Software/Excalidraw/02-Metologias-Desarollo-y-Calidad.md",
-    "Maestría-Ingeniería-de-Software/Excalidraw/01-Direcion-y-Gestion-de-Software.md",
-    "Maestría-Ingeniería-de-Software/Excalidraw",
-    "Maestría-Ingeniería-de-Software/Calendario semestral.pdf",
     "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/mexissi04_act1.docx",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Ref_homework/Actividad 1 Carlos Alfonso Cardenas Pacheco.pdf",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Actividad_01_Miguel_DeJesus_Chavez_Barragan.md",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/~$tividad_01_Miguel_DeJesus_Chavez_Barragan.docx",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Actividad_01_Miguel_DeJesus_Chavez_Barragan.pdf",
     "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades",
     "Maestría-Ingeniería-de-Software/03-Desarollo-web",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Recording 20250517091254.webm",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250517173444.png",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250517170128.png",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250517165217.png",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250515204004.png",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250514173206.png",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250508205216.png",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250508205137.png",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250508200946.png",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250508200944 1.png",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250508200944.png",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Agenda/Agenda.pdf",
+    "Maestría-Ingeniería-de-Software/Calendario semestral.pdf",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Actividad_01_Miguel_DeJesus_Chavez_Barragan.docx",
+    "conflict-files-obsidian-git.md",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/DocumentoParaLaActividad1.pdf",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Actividad01_mexissi01.md",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Actividad-01-Grading-criteria.md",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/~WRL0001.tmp",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/001-Ingenieria-de-software.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Agenda/Agenda todos.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Agenda",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Actividad-01-Grading-Criteria.md",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/attachments/Pasted image 20250520214141.png",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250517173444.png",
+    "Maestría-Ingeniería-de-Software/Excalidraw/01-Direcion-y-Gestion-de-Software.md",
+    "Epam/02-css-layouts/02-Css-layout-basics.md",
+    "Epam/02-css-layouts/01-CSS-preprocessors.md",
+    "Epam/02-css-layouts/attachments/Pasted image 20250519211737.png",
+    "Epam/02-css-layouts/attachments/Pasted image 20250519211708.png",
+    "Epam/02-css-layouts/attachments/Pasted image 20250519211539.png",
+    "Epam/02-css-layouts/attachments/Pasted image 20250519211043.png",
+    "Epam/02-css-layouts/attachments/Pasted image 20250519210945.png",
+    "Epam/02-css-layouts/attachments/Pasted image 20250519210754.png",
+    "Epam/02-css-layouts/attachments/Pasted image 20250519210658.png",
+    "Epam/02-css-layouts/attachments/Pasted image 20250519210421.png",
+    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/Agenda/Agenda todos.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/018-Resumen-tema-3.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/017-Herramientas-Case.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/016-Diagrama-de-clase.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/015-Lenguaje-unificado-modelado.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/014-Analisis-Diseño-orientado-objetos.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/013-Objeto-y-clase.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/012-Prinipios-Orentacion-objetos.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/011-Programacion-Orientada-Objetas.md",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/014-Analisis-Diseño-orientado-objetos.md",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/class Diagram.md",
+    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/012-Gestion-De-La-Integracion.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/010-Resumen-tema2.md",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/13-Objeto-y-clase.md",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/011-Programacion-Orientada-Objetas.md",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/100-Resumen-tema2.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/009-Metrica-3-vs-MSF.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/008-Proceso-Rational-unified-process.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/007-Technicas-tradicionales.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/006-Resumen-tema-1.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/005-Stakeholders.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/004-Modelo-proceso-dessarollo-software.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/003-proceso-desarollo-de-software.md"
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/008-Proceso-Rational-unified-process.md"
   ]
 }

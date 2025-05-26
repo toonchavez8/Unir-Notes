@@ -10,7 +10,48 @@
 
 ##### Unir – Universidad Internacional De la Rioja
 
-> [!missing] indice
+# Índice Del Documento
+
+# Índice del Documento
+
+- [Introducción](##Introducion)
+- [Casos de Uso]([## Análisis De Actores Y Entidades Del Sistema De Gestión De Gimnasio](https://www.google.com/search?q=%23casos-de-uso))
+    - [Gestión de usuarios y acceso](https://www.google.com/search?q=%23gesti%C3%B3n-de-usuarios-y-acceso)
+    - [Administración de instalaciones](https://www.google.com/search?q=%23administraci%C3%B3n-de-instalaciones)
+    - [Control de equipo](https://www.google.com/search?q=%23control-de-equipo)
+    - [Programación de actividades](https://www.google.com/search?q=%23programaci%C3%B3n-de-actividades)
+    - [Gestión de membresías](https://www.google.com/search?q=%23gesti%C3%B3n-de-membres%C3%ADas)
+    - [Control de asistencia](https://www.google.com/search?q=%23control-de-asistencia)
+    - [Entrenamiento personalizado](https://www.google.com/search?q=%23entrenamiento-personalizado)
+- [Análisis de Actores y Entidades](https://www.google.com/search?q=%23an%C3%A1lisis-de-actores-y-entidades)
+    - [Actores principales](https://www.google.com/search?q=%23actores-principales)
+    - [Entidades del sistema](https://www.google.com/search?q=%23entidades-del-sistema)
+- [Clases del Sistema](https://www.google.com/search?q=%23clases-del-sistema)
+    - [Gimnasio](https://www.google.com/search?q=%23gimnasio)
+    - [Equipo](https://www.google.com/search?q=%23equipo)
+    - [Usuario](https://www.google.com/search?q=%23usuario)
+    - [Cliente](https://www.google.com/search?q=%23cliente)
+    - [Membresía](https://www.google.com/search?q=%23membres%C3%ADa)
+    - [Entrenador](https://www.google.com/search?q=%23entrenador)
+    - [SesiónEntrenamiento](https://www.google.com/search?q=%23sesi%C3%B3nentrenamiento-clase)
+    - [Asistencia](https://www.google.com/search?q=%23asistencia)
+- [Relaciones Dinámicas Entre Clases](https://www.google.com/search?q=%23relaciones-din%C3%A1micas-entre-clases-diagrams-de-secuencia)
+    - [Registro de Entrada de un Cliente](https://www.google.com/search?q=%231-registro-de-entrada-de-un-cliente)
+    - [Inscripción en una Clase Grupal](https://www.google.com/search?q=%232-inscripci%C3%B3n-en-una-clase-grupales)
+    - [Programación de una Clase Grupal por un Entrenador](https://www.google.com/search?q=%233-programaci%C3%B3n-de-una-clase-grupal-por-un-entrenador)
+    - [Programar Mantenimiento de un Equipo](https://www.google.com/search?q=%234-programar-mantenimiento-de-un-equipo)
+- [Análisis de Flujos Principales](https://www.google.com/search?q=%23an%C3%A1lisis-de-los-flujos-principales-e-interacciones)
+    - [Gestión de Usuarios y Acceso](https://www.google.com/search?q=%231--gesti%C3%B3n-de-usuarios-y-acceso)
+    - [Administración de Instalaciones](https://www.google.com/search?q=%232-administration-de-instalaciones)
+    - [Control de Equipo](https://www.google.com/search?q=%233-control-de-equipo)
+    - [Programación de Actividades](https://www.google.com/search?q=%234-programaci%C3%B3n-de-actividades)
+    - [Gestión de Membresías](https://www.google.com/search?q=%235-gesti%C3%B3n-de-membres%C3%ADas)
+    - [Control de Asistencia](https://www.google.com/search?q=%236-control-de-asistencia)
+    - [Entrenamiento Personalizado](https://www.google.com/search?q=%237-entrenamiento-personalizado)
+- [Relaciones Entre Clases](https://www.google.com/search?q=%23relaciones-entre-clases)
+- [Diagrama de Clases UML](https://www.google.com/search?q=%23diagrama-de-clases-uml)
+- [Conclusiones](https://www.google.com/search?q=%23conclusiones)
+- [Referencias Bibliográficas](https://www.google.com/search?q=%23referencias-bibliogr%C3%A1ficas)
 
 ## Introducción
 
@@ -37,10 +78,6 @@ classDiagram
   atributos
   metodos()
  }
- class Personal {
- atributos
- metodos()
-}
 ```
 
 ```mermaid
@@ -119,62 +156,19 @@ Personal encargado de la gestión operativa del gimnasio.
 - **Características**: Empleado con permisos para administrar usuarios y recursos.
 - **Responsabilidades**: Registrar nuevos usuarios, gestionar membresías, controlar el acceso, supervisar instalaciones.
 
-### 4. Técnico De Mantenimiento
-
-Personal especializado en el cuidado de los equipos.
-
-- **Características**: Empleado técnico responsible del estado de las máquinas.
-- **Responsabilidades**: Programar y realizar mantenimientos, actualizar el estado de los equipos.
-
 Las entidades representan los objetos principales que son gestionados por el sistema:
 
-### 1. Gimnasio
-
-- **Descripción**: Representa la instalación física donde se desarrollan las actividades.
-- **Relevancia**: Es la entidad contenedora principal que coordina todas las operaciones.
-- **Justificación**: Necesaria para gestionar horarios de apertura/cierre, espacios y aforo.
-
-### 2. Usuario
-
-- **Descripción**: Representa a cualquier persona registrada en el sistema.
-- **Relevancia**: Clase abstracta que define atributos comunes para clientes y personal.
-- **Justificación**: Permite unificar la gestión de accesos y datos personales.
-
-### 3. Cliente
-
-- **Descripción**: Especialización de Usuario que representa a los miembros del gimnasio.
-- **Relevancia**: Principal usuario de los servicios ofrecidos.
-- **Justificación**: Necesaria para gestionar membresías, asistencias e inscripciones.
-
-### 4. Entrenador
-
-- **Descripción**: Especialización de Usuario que representa al personal instructor.
-- **Relevancia**: Responsible de las actividades físicas dirigidas.
-- **Justificación**: Necesaria para asignar responsabilidades de clases y entrenamientos.
-
-### 5. Membresía
-
-- **Descripción**: Representa la formade iniciar y renovar un plan de suscripción.
-- **Relevancia**: Define el nivel de acceso y beneficios de cada cliente.
-- **Justificación**: Necesaria para la renovcacion de control de acceso.
-
-### 6. Clase/Sesión
-
-- **Descripción**: Representa una actividad grupal programada.
-- **Relevancia**: Organiza las actividades colectivas del gimnasio.
-- **Justificación**: Necesaria para la programación, asistencia y asignación de recursos.
-
-### 7. Equipo
-
-- **Descripción**: Representa las máquinas y material deportivo disponible.
-- **Relevancia**: Recurso físico fundamental para las actividades.
-- **Justificación**: Necesaria para inventario, mantenimiento y asignación a espacios.
-
-### 8. Asistencia
-
-- **Descripción**: Representa el registro histórico de participación.
-- **Relevancia**: Permite seguimiento de la actividad de los clientes.
-- **Justificación**: Necesaria para análisis de uso, facturación y control de acceso.
+| Nº  | Entidad          | Descripción                                                            | Relevancia                                                                                               | Justificación                                                  |
+| --- | ---------------- | ---------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------- |
+| 1   | **Gimnasio**     | Representa la instalación física donde se desarrollan las actividades. | Entidad contenedora principal que coordina todas las operaciones.                                        | Gestiona horarios de apertura/cierre, espacios y aforo.        |
+| 2   | **Usuario**      | Representa a cualquier persona registrada en el sistema.               | Clase abstracta para clientes y personal.                                                                | Unifica la gestión de accesos y datos personales.              |
+| 3   | **Cliente**      | Especialización de Usuario para los miembros del gimnasio.             | Principal usuario de los servicios ofrecidos.                                                            | Gestiona membresías, asistencias e inscripciones.              |
+| 4   | **Entrenador**   | Especialización de Usuario para el personal instructor.                | Responsible de las actividades físicas dirigidas.                                                        | Asigna clases y entrenamientos.                                |
+| 5   | **Membresía**    | Representa el plan de suscripción y su renovación.                     | Define nivel de acceso y beneficios.                                                                     | Controla el acceso y permite renovaciones.                     |
+| 6   | **Clase/Sesión** | Actividad grupal programada.                                           | Organiza las actividades colectivas.                                                                     | Programación, asistencia y asignación de recursos.             |
+| 7   | **Equipo**       | Máquinas y material deportivo disponibles.                             | Recurso físico clave para actividades.                                                                   | Control de inventario, mantenimiento y asignación a espacios.  |
+| 8   | **Asistencia**   | Registro histórico de participación.                                   | Permite seguimiento de actividad.                                                                        | Análisis de uso, facturación y control de acceso.              |
+| 9   | Personal         | Especialización de Usuario para el personal Administrativo.            | Responsible de administrar los clientes,levantar reportres para mataninimiento y administrar el gimnasio | Administra los recursos disponibles dentro las instalaciones . |
 
 ## Clases Del Sistema
 
@@ -199,9 +193,9 @@ Propongo adicionalmente la classe de Gimnasio. La cual representa la entididad p
     Cambia el estado del gimnasio a abierto, permitiendo el acceso a usuarios y el inicio de actividades.
 - `cerrar():`  
     Cambia el estado del gimnasio a cerrado, restringiendo el acceso y finalizando las operaciones del día.
-- `registrarEntrada():`  
+- `registrar_entrada():`  
     Registra la entrada de un usuario al gimnasio, validando su membresía y actualizando el historial de acceso.
-- `registrarSalida():`  
+- `registrar_salida():`  
     Registra la salida de un usuario, permitiendo llevar un control de aforo y asistencia.
 
 ```mermaid
@@ -232,11 +226,11 @@ La clase **Equipo** representra cualquier máquina o aparato disponible que es
 
 #### **Métodos clave:**
 
-- `marcarMantenimiento()`  
+- `marcar_mantenimiento()`  
     Cambia el estado del equipo para indicar que require revisión o reparación, y registra la fecha del mantenimiento.
-- `agregarEquipo(equipo)`  
+- `agregar_equipo(equipo)`  
     Permite incorporar un nuevo equipo al inventario del gimnasio.
-- `verDisponibilidad()`  
+- `ver_disponibilidad()`  
     Devuelve información sobre si el equipo está disponible para uso o reservado para alguna actividad.
 
 ```mermaid
@@ -244,9 +238,9 @@ classDiagram
  class Equipo {
     - nombre
     - estado
-    + marcarMantenimiento()
-    + agregarEquipo(equipo)
-    + verDisponibilidad()
+    + marcar_mantenimiento()
+    + agregar_equipo(equipo)
+    + ver_disponibilidad()
  }
 ```
 
@@ -267,7 +261,7 @@ La clase **Usuario** funciona como una superclase abstracta que modela los atr
 
 - `contactar()`  
     Permite enviar un mensaje o notificación al usuario a través de los medios registrados (correo o teléfono).
-- `actualizarDatos()`  
+- `actualizar_datos()`  
     Permite modificar la información personal del usuario.
 
 ```mermaid
@@ -277,7 +271,7 @@ classDiagram
     - correo
     - telefono
     + contactar()
-    + actualizarDatos()
+    + actualizar_datos()
  }
 ```
 
@@ -297,32 +291,32 @@ La clase **Cliente** representa a un cliente registrado en el gimnasio, genera
     Correo electrónico para notificaciones (heredado de Usuario).
 - `telefono`  
     Número de contacto (heredado de Usuario).
-- `fechaRegistro`  
+- `fecha_registro`  
     Fecha en la que el miembro se inscribió al gimnasio.
-- `estadoMembresía`  
+- `estado_membresía`  
     Indica si la membresía del miembro está activa o no.
-- `tipoMembresía`  
+- `tipo_membresía`  
     Plan de membresía asociado al miembro.
 
 #### **Métodos clave:**
 
-- `pagarCuota()`  
+- `pagar_cuota()`  
     Permite al miembro realizar el pago de su cuota periódica.
-- `hacerCheckIn()`  
+- `hacer_checkIn()`  
     Registra la entrada del miembro al gimnasio.
-- `inscribirEnClase(sesion)`  
+- `inscribir_en_clase(sesion)`  
     Permite al miembro inscribirse en una sesión grupal o clase.
 
 ```mermaid
 classDiagram
 direction RL
  class Cliente {
-    - fechaRegistro
-    - estadoMembresía
-    - tipoMembresía
-    + pagarCuota()
-    + hacerCheckIn()
-    + inscribirEnClase(sesion)
+    - fecha_registro
+    - estado_membresía
+    - tipo_membresía
+    + pagar_cuota()
+    + hacer_checkIn()
+    + inscribir_en_clase(sesion)
  }
  Cliente --|> Usuario
 ```
@@ -407,20 +401,20 @@ La clase **Entrenador** representa a un instructor o professional encargado de
     Correo electrónico para notificaciones (heredado).
 - `telefono`  
     Número de contacto (heredado).
-- `fechaRegistro`  
+- `fecha_registro`  
     Fecha de alta en el gimnasio (heredado).
 - `especialidad`  
     Área de conocimiento o disciplina principal del entrenador.
-- `añosExperiencia`  
+- `años_experiencia`  
     Tiempo de experiencia professional en el ámbito deportivo.
 
 #### **Métodos clave:**
 
-- `asignarRutina(miembro)`  
+- `asignar_rutina(miembro)`  
     Permite diseñar y asignar un plan de entrenamiento personalizado a un miembro.
-- `programarClase(clase)`  
+- `programar_clase(clase)`  
     Permite crear o programar una nueva sesión grupal o clase.
-- `verClientes()`  
+- `ver_clientes()`  
     Devuelve la lista de miembros bajo su supervisión o entrenamiento.
 
 ```mermaid
@@ -428,10 +422,10 @@ classDiagram
 direction RL
  class Entrenador {
     - especialidad
-    - añosExperiencia
-    + asignarRutina(miembro)
-    + programarClase(clase)
-    + verClientes()
+    - años_experiencia
+    + asignar_rutina(miembro)
+    + programar_clase(clase)
+    + ver_clientes()
  }
  Entrenador --|> Usuario
 ```
@@ -444,7 +438,7 @@ La clase **SesiónEntrenamiento** representa una actividad grupal programada d
 
 - `Nombre`  
     Nombre de la clase para identificar de que va cubir.
-- `fechaHora`  
+- `fecha_hora`  
     Memento programado para el inicio de la sesión.
 - `duracion`  
     Tiempo estimado de la sesión.
@@ -453,13 +447,13 @@ La clase **SesiónEntrenamiento** representa una actividad grupal programada d
 
 #### **Métodos clave:**
 
-- `iniciarSesion()`  
+- `iniciar_sesion()`  
     Cambia el estado de la sesión a "en curso" y permite el acceso de los participantes.
-- `cancelarSesion()`  
+- `cancelar_sesion()`  
     Cambia el estado de la sesión a "cancelada" y notifica a los inscritos.
-- `agregarParticipante(participante)`  
+- `agregar_participante(participante)`  
     Permite registrar a un miembro como asistente a la sesión.
-- `asignarEntrenador(entrenador)`  
+- `asignar_entrenador(entrenador)`  
     Asocia un entrenador responsible de la sesión.
 
 ```mermaid
@@ -469,10 +463,10 @@ classDiagram
     - fechaHora
     - duracion
     - estado
-    + iniciarSesion()
-    + cancelarSesion()
-    + agregarParticipante(participante)
-    + asignarEntrenador(entrenador)
+    + iniciar_sesion()
+    + cancelar_sesion()
+    + agregar_participante(participante)
+    + asignar_entrenador(entrenador)
  }
 ```
 
@@ -491,9 +485,9 @@ La clase **Asistencia** representa el registro de la participación de un usua
 
 #### **Métodos clave:**
 
-- `registrarAsistencia()`  
+- `registrar_asistencia()`  
     Registra la asistencia de un miembro a una clase, añadiendo una nueva entrada al historial.
-- `verHistorialAsistencias()`  
+- `ver_historial_asistencias()`  
     Permite consultar el historial de asistencias de un miembro, facilitando el seguimiento de su participación en actividades.
 
 ```mermaid
@@ -503,8 +497,8 @@ classDiagram
     - fecha
     - usuario
     - sesion
-    + registrarAsistencia()
-    + verHistorialAsistencias()
+    + registrar_asistencia()
+    + ver_historial_asistencias()
  }
 ```
 
@@ -612,6 +606,8 @@ sequenceDiagram
     
 - **Agregación**: `SesionEntrenamiento` mantiene una colección de participantes (clientes).
 
+## Conclusión
+
 ### 3. Programación De Una Clase Grupal Por Un Entrenador
 
 ```mermaid
@@ -681,7 +677,7 @@ sequenceDiagram
 
 ## Análisis De Los Flujos Principales E Interacciones
 
-Basado en los casos de usos que se identifican podemos intuir y analizar los siguientes flujos principales sobre las interactions entre los actores y components del sistema:
+Basado en los casos de usos y los diagrams de secuencia que se identifican podemos intuir y analizar los siguientes flujos principales sobre las interactions entre los actores y components del sistema:
 
 ### 1 . **Gestion De Usuarios Y acceso**
 
@@ -889,5 +885,3 @@ classDiagram
     SesiónEntrenamiento "1" o-- "*" Asistencia : registra
     Equipo "*" o-- "*" SesiónEntrenamiento    : utilizado_en
 ```
-
-## Conclusión
