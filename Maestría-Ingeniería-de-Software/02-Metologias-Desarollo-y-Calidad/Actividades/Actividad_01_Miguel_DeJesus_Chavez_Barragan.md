@@ -10,14 +10,13 @@
 
 # Unir – Universidad Internacional De la Rioja
 
-## Índice 
-
+## Índice
 
 ## Introducción
 
-Este trabajo presentara un análisis orientado a objetos de una aplicación de gestión de gimnasio, describiendo las clases principales del sistema por ejemplo, _Gimnasio_, _Equipo_, _Clase_, _Entrenador_, _Usuario_, _Cliente_, _Membresía_, _Asistencia_ con sus atributos y métodos.
+Este trabajo presentará un análisis orientado a objetos de una aplicación de gestión de gimnasio, describiendo las clases principales del sistema, por ejemplo, **Gimnasio**, **Equipo**, **Clase**, **Entrenador**, **Usuario**, **Cliente**, **Membresía**, **Asistencia** con sus atributos y métodos.
 
-Se identifican las relaciones entre estas clases (asociación, herencia, agregación y composición) y se justifica el uso de cada una conforme a las reglas de UML. Se incluye además varios diagrams de clases UML que sintetiza la estructura que se propone para el sistema. 
+Se identificarán las relaciones entre estas clases (asociación, herencia, agregación y composición) y se justificará el uso de cada una conforme a las reglas de UML. Se incluye además varios diagrams de clases UML que sintetizan la estructura que se propone para el sistema.
 
 ```mermaid
 
@@ -60,65 +59,69 @@ class Asistencia {
 }
 ```
 
+Partiendo de las necesidades que nos comparte el cliente y gestionando los casos de uso podemos analizar los siguientes casos de uso que tienen los actores para llevar a cabo sus actividades diversas.
+
 ### Casos De Uso
 
-Partiendo de las necesidades que nos comparte el cliente y gestionando los casos de usos podemos analizar los siguientes casos de uso que tienen los actores para llevar acabo sus actividades diversas.
-
-1. **Gestion de usuarios y acceso**
-	- **Registrar Nuevo usuario**: El sistema debe permitir dar de alta nuevos clientes y personal.
-	- **Autentificar usuario**: Control de acceso mediante credenciales.
-	- **Gestionar perfiles**: El sistema de permitir la actualización de información tanto metas, como personal. 
+1. **Gestión de usuarios y acceso**
+    - **Registrar Nuevo usuario**: El sistema debe permitir dar de alta nuevos clientes y personal.
+    - **Autentificar usuario**: Control de acceso mediante credenciales.
+    - **Gestionar perfiles**: El sistema debe permitir la actualización de información tanto de metas como personal.
 2. **Administración de instalaciones**
-	- **Abrir/cerrar gimnasio**: Debemos de enter un control de quien se encarga de cerrar y abir el gimnasio
-	- **Gestionar Espacios:** Asignación de espacios disponibles con equipos asignados a esa area
-	- **monitorear aforo:** Control de Capacidad de personas en instalaciones para el balanceo de entrenadores por horarios de demanda 
-3. **Control de equipo** 
-	- **Inventariar equipos**: permite que un empleado pueda añadir equipo nuevo.
-	- **Programar mantenimiento**: Calendarización de revisiones y reparaciones.
-	- **Verificar disponibilidad**: Consulta del estado actual de los equipos.
-4. **Programación de actividades** 
-	- **Crear Classes Grupales**: Permitir entrenador crear una clase ejemplo de yoga etc.
-	- **Inscribirse**: Permite que clientes pueden ingresar a las Classes.
-	- **Cancelar / Reprogramar sesiones**: permite que los usuarios cancelen su inscripción a una clase o que entrenador reagende enviando notificación previa.
-	- **Notificación de cambios**: Notificar de cancelaciones, o reprogramaciones de clases.
-5. **Gestion de membresías**
-	- **Suscribir clientes**: Registro de nuevas membresías.
-	- **Renovar planes**: Extensión de membresías existentes.
-	- **Consultar beneficios**: Verificación de servicios incluidos.
+    - **Abrir/cerrar gimnasio**: Debemos tener un control de quién se encarga de cerrar y abrir el gimnasio.
+    - **Gestionar Espacios:** Asignación de espacios disponibles con equipos asignados a esa área.
+    - **Monitorear aforo:** Control de capacidad de personas en instalaciones para el balanceo de entrenadores por horarios de demanda.
+3. **Control de equipo**
+    - **Inventariar equipos**: Permite que un empleado pueda añadir equipo nuevo.
+    - **Programar mantenimiento**: Calendarización de revisiones y reparaciones.
+    - **Verificar disponibilidad**: Consulta del estado actual de los equipos.
+4. **Programación de actividades**
+    - **Crear Clases Grupales**: Permite al entrenador crear una clase, por ejemplo, de yoga, etc.
+    - **Inscribirse**: Permite que los clientes puedan ingresar a las clases.
+    - **Cancelar / Reprogramar sesiones**: Permite que los usuarios cancelen su inscripción a una clase o que el entrenador reagende, enviando notificación previa.
+    - **Notificación de cambios**: Notificar de cancelaciones o reprogramaciones de clases.
+5. **Gestión de membresías**
+    - **Suscribir clientes**: Registro de nuevas membresías.
+    - **Renovar planes**: Extensión de membresías existentes.
+    - **Consultar beneficios**: Verificación de servicios incluidos.
 6. **Control de asistencia**
-	- **Registrar entrada/salida**: Seguimiento de visitas al gimnasio.
-	- **Controlar participación en clases**: Registro de asistentes a sesiones grupales.
+    - **Registrar entrada/salida**: Seguimiento de visitas al gimnasio.
+    - **Controlar participación en clases**: Registro de asistentes a sesiones grupales.
 7. **Entrenamiento personalizado**
-	- **Asignar rutinas**: Creación de planes de entrenamiento individuales.
-	- **Realizar seguimiento**: Monitoreo del progreso de los clientes.
-	- **Programar sesiones personales**: Organización de entrenamientos uno a uno.
+    - **Asignar rutinas**: Creación de planes de entrenamiento individuales.
+    - **Realizar seguimiento**: Monitoreo del progreso de los clientes.
+    - **Programar sesiones personales**: Organización de entrenamientos uno a uno.
 
 ## Análisis De Actores Y Entidades Del Sistema De Gestión De Gimnasio
 
-Los actores son los usuarios que interactúan directamente con el sistema y tienen roles específicos. A partir del análisis de los casos de uso, podemos identificar los siguientes actores:
+Los **actores** son los usuarios que interactúan directamente con el sistema y tienen roles específicos. A partir del análisis de los casos de uso, podemos identificar los siguientes actores:
 
-### 1. Cliente/Miembro
+### Actores Principales
+
+#### 1. Cliente
 
 Actor principal que utilize los servicios del gimnasio.
 
 - **Características**: Persona que ha contratado una membresía para usar las instalaciones.
 - **Responsabilidades**: Inscribirse en clases, registrar entrada/salida, consultar su historial de asistencia, renovar membresías.
 
-### 2. Entrenador
+#### 2. Entrenador
 
 Personal especializado que imparte clases y asesora a los clientes.
 
 - **Características**: Professional con experiencia en actividades físicas y entrenamiento.
 - **Responsabilidades**: Crear clases grupales, asignar rutinas personalizadas, gestionar la programación de sesiones.
 
-### 3. Administrador/Recepcionista
+#### 3. Administrador/Recepcionista
 
 Personal encargado de la gestión operativa del gimnasio.
 
 - **Características**: Empleado con permisos para administrar usuarios y recursos.
 - **Responsabilidades**: Registrar nuevos usuarios, gestionar membresías, controlar el acceso, supervisar instalaciones.
 
-Las entidades representan los objetos principales que son gestionados por el sistema:
+### Entidades Del Sistema
+
+Las **entidades** representan los objetos principales que son gestionados por el sistema:
 
 | Nº  | Entidad          | Descripción                                                            | Relevancia                                                                                               | Justificación                                                  |
 | --- | ---------------- | ---------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------- |
@@ -138,27 +141,20 @@ A continuación se detallan las clases principales del sistema de gimnasio, indi
 
 ### Gimnasio
 
-Propongo adicionalmente la classe de Gimnasio. La cual representa la entididad principal del sistema o las instalciones. Lo cual el modelo se centra en el manego de los usarios, p
+Propongo adicionalmente la clase **Gimnasio**, la cual representa la entidad principal del sistema o las instalaciones. El modelo se centra en el manejo de los usuarios.
 
-#### **Atributos principales:**
+#### Atributos Principales
 
-- `nombre:`
-    Nombre official del gimnasio.
-- `ubicacion:`  
-    Dirección física o localización del gimnasio.
-- `horario:`  
-    Horario de apertura y cierre, o bien, estructura de turnos de funcionamiento.
+- `nombre:` Nombre official del gimnasio.
+- `ubicacion:` Dirección física o localización del gimnasio.
+- `horario:` Horario de apertura y cierre, o bien, estructura de turnos de funcionamiento.
 
-#### **Métodos clave:**
+#### Métodos Clave
 
-- `abrir():`  
-    Cambia el estado del gimnasio a abierto, permitiendo el acceso a usuarios y el inicio de actividades.
-- `cerrar():`  
-    Cambia el estado del gimnasio a cerrado, restringiendo el acceso y finalizando las operaciones del día.
-- `registrar_entrada():`  
-    Registra la entrada de un usuario al gimnasio, validando su membresía y actualizando el historial de acceso.
-- `registrar_salida():`  
-    Registra la salida de un usuario, permitiendo llevar un control de aforo y asistencia.
+- `abrir():` Cambia el estado del gimnasio a abierto, permitiendo el acceso a usuarios y el inicio de actividades.
+- `cerrar():` Cambia el estado del gimnasio a cerrado, restringiendo el acceso y finalizando las operaciones del día.
+- `registrar_entrada():` Registra la entrada de un usuario al gimnasio, validando su membresía y actualizando el historial de acceso.
+- `registrar_salida():` Registra la salida de un usuario, permitiendo llevar un control de aforo y asistencia.
 
 ```mermaid
 classDiagram
@@ -177,23 +173,18 @@ classDiagram
 
 ### Equipo
 
-La clase **Equipo** representra cualquier máquina o aparato disponible que esta en el gimnasio, como cintas de correr, bicicletas, pesas, entre otros. Esta entidad es ayudara a la gestión de inventario, el control de disponibilidad y la programación de mantenimientos.
+La clase **Equipo** representa cualquier máquina o aparato disponible que está en el gimnasio, como cintas de correr, bicicletas, pesas, entre otros. Esta entidad ayudará a la gestión de inventario, el control de disponibilidad y la programación de mantenimientos.
 
-#### **Atributos principales:**
+#### Atributos Principales
 
-- `nombre`  
-    Descripción o denominación del equipo.
-- `estado`  
-    Indica la condición actual del equipo (por ejemplo: operativo, en mantenimiento, fuera de servicio).
+- `nombre` Descripción o denominación del equipo.
+- `estado` Indica la condición actual del equipo (por ejemplo: operativo, en mantenimiento, fuera de servicio).
 
-#### **Métodos clave:**
+#### Métodos Clave
 
-- `marcar_mantenimiento()`  
-    Cambia el estado del equipo para indicar que require revisión o reparación, y registra la fecha del mantenimiento.
-- `agregar_equipo(equipo)`  
-    Permite incorporar un nuevo equipo al inventario del gimnasio.
-- `ver_disponibilidad()`  
-    Devuelve información sobre si el equipo está disponible para uso o reservado para alguna actividad.
+- `marcar_mantenimiento()` Cambia el estado del equipo para indicar que require revisión o reparación, y registra la fecha del mantenimiento.
+- `agregar_equipo(equipo)` Permite incorporar un nuevo equipo al inventario del gimnasio.
+- `ver_disponibilidad()` Devuelve información sobre si el equipo está disponible para uso o reservado para alguna actividad.
 
 ```mermaid
 classDiagram
@@ -208,23 +199,18 @@ classDiagram
 
 ### Usuario
 
-La clase **Usuario** funciona como una superclase abstracta que modela los atributos y comportamientos comunes de todas las personas que interactúan con el sistema, ya sean clientes, entrenadores u otro personal. Su propósito es facilitar la reutilización de de la clase para simplificar y unir con la gestión de datos personales.
+La clase **Usuario** funciona como una superclase abstracta que modela los atributos y comportamientos comunes de todas las personas que interactúan con el sistema, ya sean clientes, entrenadores u otro personal. Su propósito es facilitar la reutilización de la clase para simplificar y unir con la gestión de datos personales.
 
-#### **Atributos principales:**
+#### Atributos Principales
 
-- `nombre`  
-    Nombre completo del usuario.
-- `correo`  
-    Dirección de correo electrónico para contacto y notificaciones.
-- `telefono`  
-    Número de teléfono asociado al usuario.
+- `nombre` Nombre completo del usuario.
+- `correo` Dirección de correo electrónico para contacto y notificaciones.
+- `telefono` Número de teléfono asociado al usuario.
 
-#### **Métodos clave:**
+#### Métodos Clave
 
-- `contactar()`  
-    Permite enviar un mensaje o notificación al usuario a través de los medios registrados (correo o teléfono).
-- `actualizar_datos()`  
-    Permite modificar la información personal del usuario.
+- `contactar()` Permite enviar un mensaje o notificación al usuario a través de los medios registrados (correo o teléfono).
+- `actualizar_datos()` Permite modificar la información personal del usuario.
 
 ```mermaid
 classDiagram
@@ -237,37 +223,28 @@ classDiagram
  }
 ```
 
-La creacion de esta class como super classe es nos permite crear classes como cliente, entrenador, personal, que hereden atributos y metodos comunes. Los atributos los mantemmos privados y usamos metodos para poder cambiar o actualizar los atribbutos asegudranod que solo la clase o subclases que puedamos crear puedan accedidar o modificar la information.
+La creación de esta clase como superclase nos permite crear clases como **Cliente**, **Entrenador**, que hereden atributos y métodos comunes. Los atributos los mantenemos privados y usamos métodos para poder cambiar o actualizar los atributos, asegurando que solo la clase o subclases que podamos crear puedan acceder o modificar la información.
 
-De esta forma tambien podemos al tener una super clase nos permite incporar nuevos metodos en el futuro y centraliza la gestion de information sensible.
+De esta forma también, al tener una superclase, nos permite incorporar nuevos métodos en el futuro y centralizar la gestión de información sensible.
 
 ### Cliente
 
-La clase **Cliente** representa a un cliente registrado en el gimnasio, generado a partir de la superclase abstracta **Usuario**. Modela las operaciones y atributos propios de un socio, permitiendo gestionar su relación con el gimnasio y su participación en actividades.
+La clase **Cliente** representa a un cliente registrado en el gimnasio, generado a partir de la superclase abstracta **Usuario**. Modela las operaciones y atributos propios de un socio, permitiendo gestionar su relación con el gimnasio y su participación en actividades.
 
-#### **Atributos principales:**
+#### Atributos Principales
 
-- `nombre`  
-    Nombre completo del miembro (heredado de Usuario).
-- `correo`  
-    Correo electrónico para notificaciones (heredado de Usuario).
-- `telefono`  
-    Número de contacto (heredado de Usuario).
-- `fecha_registro`  
-    Fecha en la que el miembro se inscribió al gimnasio.
-- `estado_membresía`  
-    Indica si la membresía del miembro está activa o no.
-- `tipo_membresía`  
-    Plan de membresía asociado al miembro.
+- `nombre` Nombre completo del miembro (heredado de Usuario).
+- `correo` Correo electrónico para notificaciones (heredado de Usuario).
+- `telefono` Número de contacto (heredado de Usuario).
+- `fecha_registro` Fecha en la que el miembro se inscribió al gimnasio.
+- `estado_membresía` Indica si la membresía del miembro está activa o no.
+- `tipo_membresía` Plan de membresía asociado al miembro.
 
-#### **Métodos clave:**
+#### Métodos Clave
 
-- `pagar_cuota()`  
-    Permite al miembro realizar el pago de su cuota periódica.
-- `hacer_checkIn()`  
-    Registra la entrada del miembro al gimnasio.
-- `inscribir_en_clase(sesion)`  
-    Permite al miembro inscribirse en una sesión grupal o clase.
+- `pagar_cuota()` Permite al miembro realizar el pago de su cuota periódica.
+- `hacer_checkIn()` Registra la entrada del miembro al gimnasio.
+- `inscribir_en_clase(sesion)` Permite al miembro inscribirse en una sesión grupal o clase.
 
 ```mermaid
 classDiagram
@@ -285,22 +262,17 @@ direction RL
 
 ### Membresía
 
-La clase **Membresía** modela el contrato de suscripción que permite a un cliente acceder a los servicios del gimnasio bajo ciertas condiciones y beneficios. Es fundamental para controlar el acceso, gestionar renovaciones y definir los privilegios de cada usuario
+La clase **Membresía** modela el contrato de suscripción que permite a un cliente acceder a los servicios del gimnasio bajo ciertas condiciones y beneficios. Es fundamental para controlar el acceso, gestionar renovaciones y definir los privilegios de cada usuario.
 
 #### Atributos Principales
 
-- `plan:planes
-	Indica el tipo plan contradado, esto se hace atraves de una classe de tipo ennumeracion con la intencion de regstringir los valres posiblibles.
-- `fecha_inicio`: 
-	Fehca en la que inicia la vigencia de la membresia
-- `fecha date`: 
-	fecha en la que termina el plazo de la membresia
-- `costo`: 
-	Monto associado con el plan
-- `estado`: 
-	indicacion si la membresia esta activida o vencida 
+- `plan:planes` Indica el tipo de plan contratado, esto se hace a través de una clase de tipo enumeración con la intención de restringir los valores posibles.
+- `fecha_inicio`: Fecha en la que inicia la vigencia de la membresía.
+- `fecha_fin`: Fecha en la que termina el plazo de la membresía.
+- `costo`: Monto asociado con el plan.
+- `estado`: Indicación si la membresía está activa o vencida.
 
-#### Enumeracion Asociada
+#### Enumeración Asociada
 
 ```mermaid
 classDiagram 
@@ -312,16 +284,17 @@ classDiagram
  }
 ```
 
-- **Tipos de membresías**: 
- 	- `BÁSICO`: Acceso a instalaciones básicas y horarios estándar
- 	- `PREMIUM`: Acceso completo a instalaciones y classes grupales 
- 	- `VIP`: Total acceso, classes ilimitadas, y incluyendo entrenamiento personalizado
+**Tipos de membresías**:
 
-#### Metodos
+- `BÁSICO`: Acceso a instalaciones básicas y horarios estándar.
+- `PREMIUM`: Acceso completo a instalaciones y clases grupales.
+- `VIP`: Total acceso, clases ilimitadas, y entrenamiento personalizado.
 
- - `renovar_membresia()` - Extiende la fecha de finalización de la membresía según la duración especificada que esto puede set mensual o annual. 
- - `ver_detalles()` - Devuelve una descripción detallada de la membresía, incluyendo beneficios, duración y costo.
-- `es_activa()` - verifica si la membresia esta vigente con la fecha actual
+#### Métodos
+
+- `renovar_membresia()` - Extiende la fecha de finalización de la membresía según la duración especificada, que puede set mensual o annual.
+- `ver_detalles()` - Devuelve una descripción detallada de la membresía, incluyendo beneficios, duración y costo.
+- `es_activa()` - Verifica si la membresía está vigente con la fecha actual.
 
 ```mermaid
 classDiagram 
@@ -347,37 +320,28 @@ direction RL
 
 ```
 
-Dejando los atributos privados podemos aprovechar de su encapsulamiento para que} solo los metodos de la clase puden modificar el estado de la membresia. Usando una clase de tipo enumeracion nos permite simplificar y ampliar los planes desde un punto centrar. 
+Dejando los atributos privados, podemos aprovechar su encapsulamiento para que solo los métodos de la clase puedan modificar el estado de la membresía. Usando una clase de tipo enumeración, nos permite simplificar y ampliar los planes desde un punto central.
 
-La classe se encarga exclusivamente de resguardar la suscripbcion, la renovacion y permite que consulta rs los detalle de la misma clase, siguento el principio de la responsibilidad unica. 
+La clase se encarga exclusivamente de resguardar la suscripción, la renovación y permite consultar los detalles de la misma clase, siguiendo el principio de la responsabilidad única.
 
 ### Entrenador
 
-La clase **Entrenador** representa a un instructor o professional encargado de guiar y supervisar a los miembros del gimnasio. Es una especialización de la clase **Usuario**, lo que permite heredar atributos y métodos comunes, y añadir funcionalidades específicas relacionadas con la gestión de entrenamientos y clases.
+La clase **Entrenador** representa a un instructor o professional encargado de guiar y supervisar a los miembros del gimnasio. Es una especialización de la clase **Usuario**, lo que permite heredar atributos y métodos comunes, y añadir funcionalidades específicas relacionadas con la gestión de entrenamientos y clases.
 
-#### **Atributos principales:**
+#### Atributos Principales
 
-- `nombre`  
-    Nombre completo del entrenador (heredado de Usuario).
-- `correo`  
-    Correo electrónico para notificaciones (heredado).
-- `telefono`  
-    Número de contacto (heredado).
-- `fecha_registro`  
-    Fecha de alta en el gimnasio (heredado).
-- `especialidad`  
-    Área de conocimiento o disciplina principal del entrenador.
-- `años_experiencia`  
-    Tiempo de experiencia professional en el ámbito deportivo.
+- `nombre` Nombre completo del entrenador (heredado de Usuario).
+- `correo` Correo electrónico para notificaciones (heredado).
+- `telefono` Número de contacto (heredado).
+- `fecha_registro` Fecha de alta en el gimnasio (heredado).
+- `especialidad` Área de conocimiento o disciplina principal del entrenador.
+- `años_experiencia` Tiempo de experiencia professional en el ámbito deportivo.
 
-#### **Métodos clave:**
+#### Métodos Clave
 
-- `asignar_rutina(miembro)`  
-    Permite diseñar y asignar un plan de entrenamiento personalizado a un miembro.
-- `programar_clase(clase)`  
-    Permite crear o programar una nueva sesión grupal o clase.
-- `ver_clientes()`  
-    Devuelve la lista de miembros bajo su supervisión o entrenamiento.
+- `asignar_rutina(miembro)` Permite diseñar y asignar un plan de entrenamiento personalizado a un miembro.
+- `programar_clase(clase)` Permite crear o programar una nueva sesión grupal o clase.
+- `ver_clientes()` Devuelve la lista de miembros bajo su supervisión o entrenamiento.
 
 ```mermaid
 classDiagram
@@ -392,31 +356,23 @@ direction RL
  Entrenador --|> Usuario
 ```
 
-### **SesiónEntrenamiento** (clase)
+### SesiónEntrenamiento (clase)
 
-La clase **SesiónEntrenamiento** representa una actividad grupal programada dentro del gimnasio, como yoga, spinning o cualquier otra clase colectiva. Esta entidad permite organizar, gestionar y controlar la participación de miembros y la asignación de entrenadores.
+La clase **SesiónEntrenamiento** representa una actividad grupal programada dentro del gimnasio, como yoga, spinning o cualquier otra clase colectiva. Esta entidad permite organizar, gestionar y controlar la participación de miembros y la asignación de entrenadores.
 
-#### **Atributos principales:**
+#### Atributos Principales
 
-- `Nombre`  
-    Nombre de la clase para identificar de que va cubir.
-- `fecha_hora`  
-    Memento programado para el inicio de la sesión.
-- `duracion`  
-    Tiempo estimado de la sesión.
-- `estado`  
-    Indica si la sesión está programada, en curso, finalizada o cancelada.
+- `Nombre` Nombre de la clase para identificar de qué va a cubrir.
+- `fecha_hora` Memento programado para el inicio de la sesión.
+- `duracion` Tiempo estimado de la sesión.
+- `estado` Indica si la sesión está programada, en curso, finalizada o cancelada.
 
-#### **Métodos clave:**
+#### Métodos Clave
 
-- `iniciar_sesion()`  
-    Cambia el estado de la sesión a "en curso" y permite el acceso de los participantes.
-- `cancelar_sesion()`  
-    Cambia el estado de la sesión a "cancelada" y notifica a los inscritos.
-- `agregar_participante(participante)`  
-    Permite registrar a un miembro como asistente a la sesión.
-- `asignar_entrenador(entrenador)`  
-    Asocia un entrenador responsible de la sesión.
+- `iniciar_sesion()` Cambia el estado de la sesión a "en curso" y permite el acceso de los participantes.
+- `cancelar_sesion()` Cambia el estado de la sesión a "cancelada" y notifica a los inscritos.
+- `agregar_participante(participante)` Permite registrar a un miembro como asistente a la sesión.
+- `asignar_entrenador(entrenador)` Asocia un entrenador responsible de la sesión.
 
 ```mermaid
 classDiagram
@@ -434,23 +390,18 @@ classDiagram
 
 ### Asistencia
 
-La clase **Asistencia** representa el registro de la participación de un usuario en una clase o sesión dentro del gimnasio. Esta entidad es fundamental para llevar un control histórico de la actividad de los clientes y para la gestión de reportes y análisis de uso.
+La clase **Asistencia** representa el registro de la participación de un usuario en una clase o sesión dentro del gimnasio. Esta entidad es fundamental para llevar un control histórico de la actividad de los clientes y para la gestión de reportes y análisis de uso.
 
-#### **Atributos principales:**
+#### Atributos Principales
 
-- `fecha`  
-    Fecha y hora en la que se registra la asistencia.
-- `usuario`  
-    Referencia al miembro que asiste (asociación).
-- `sesion`  
-    Referencia a la sesión o clase a la que asiste el miembro.
+- `fecha` Fecha y hora en la que se registra la asistencia.
+- `usuario` Referencia al miembro que asiste (asociación).
+- `sesion` Referencia a la sesión o clase a la que asiste el miembro.
 
-#### **Métodos clave:**
+#### Métodos Clave
 
-- `registrar_asistencia()`  
-    Registra la asistencia de un miembro a una clase, añadiendo una nueva entrada al historial.
-- `ver_historial_asistencias()`  
-    Permite consultar el historial de asistencias de un miembro, facilitando el seguimiento de su participación en actividades.
+- `registrar_asistencia()` Registra la asistencia de un miembro a una clase, añadiendo una nueva entrada al historial.
+- `ver_historial_asistencias()` Permite consultar el historial de asistencias de un miembro, facilitando el seguimiento de su participación en actividades.
 
 ```mermaid
 
@@ -759,91 +710,110 @@ Basado en los casos de usos y los diagrams de secuencia que se identifican podem
 
 ```mermaid
 classDiagram
-    %% Superclase abstracta Persona
-     class Persona {
-        + id
-        + nombre
-        + correo
-        + telefono
-        +obtenerCorreo()
-        +obtenerTelefono()
+    class Usuario {
+        -nombre
+        -correo
+        -telefono
+        +contactar()
+        +actualizar_datos()
     }
 
-    %% Especializaciones de Persona
-    class Miembro {
-        +Date fechaRegistro
-        +boolean estadoMembresía
-        +Membresía tipoMembresía
-        +pagarCuota()
-        +hacerCheckIn()
-        +inscribirEnClase(s: SesiónEntrenamiento)
+    class Cliente {
+        -fecha_registro
+        -estado_membresía
+        -tipo_membresía
+        +pagar_cuota()
+        +hacer_checkIn()
+        +inscribir_en_clase(sesion: SesionEntrenamiento)
     }
+
     class Entrenador {
-        + especialidad
-        + añoExperiencia
-        +asignarRutina(m: Miembro)
-        +programarClase(s: SesiónEntrenamiento)
-        +verClientes(): List<Miembro>
+        -especialidad
+        -años_experiencia
+        +asignar_rutina(miembro: Cliente)
+        +programar_clase(clase: SesionEntrenamiento)
+        +ver_clientes()
     }
-
-    Persona <|-- Miembro
-    Persona <|-- Entrenador
-
-    %% Clase principal Gimnasio
     class Gimnasio {
-        + nombre
-        + ubicación
-        + horario
+        -nombre
+        -ubicacion
+        -horario
         +abrir()
         +cerrar()
-        +registrarEntrada(p: Persona)
-        +registrarSalida(p: Persona)
+        +registrar_entrada(usuario: Usuario)
+        +registrar_salida(usuario: Usuario)
     }
 
-    %% Equipo/Máquina del gimnasio
     class Equipo {
-        + equipoID
-        + nombre
-        + estado       %% e.g. “operativo”, “en mantenimiento”
-        +marcarMantenimiento()
-        +verDisponibilidad()
+        -nombre
+        -estado
+        +marcar_mantenimiento()
+        +agregar_equipo(equipo: Equipo)
+        +ver_disponibilidad()
     }
 
-    %% Sesiones grupales
-    class SesiónEntrenamiento {
-        + sesiónID
-        +DateTime fechaHora
-        + duración       %% en minutos
-        +iniciarSesión()
-        +cancelarSesión()
+    class Membresía {
+        -plan: planes
+        -fecha_inicio
+        -fecha_fin
+        -costo
+        -estado
+        +renovar_membresia()
+        +ver_detalles()
+        +es_activa()
     }
 
-    %% Registro de asistencia
+    class planes {
+        %3C<enumeration%3E>
+        BÁSICO
+        PREMIUM
+        VIP
+    }
+
+    class SesionEntrenamiento {
+        -nombre
+        -fechaHora
+        -duracion
+        -estado
+        +iniciar_sesion()
+        +cancelar_sesion()
+        +agregar_participante(participante: Cliente)
+        +asignar_entrenador(entrenador: Entrenador)
+    }
+
     class Asistencia {
-        +DateTime fecha
-        +registrarAsistencia()
-        +verHistorialAsistencias(): List<Asistencia>
+        -fecha
+        -usuario: Usuario
+        -sesion: SesionEntrenamiento
+        +registrar_asistencia()
+        +ver_historial_asistencias()
     }
 
+    Usuario <|-- Cliente
+    Usuario <|-- Entrenador
 
-	class membresia {
-	  		- plan : planes
-	  		- fecha_inicio
-	  		- fecha_fin
-	  		- costo
-	  		- estado
-	  		+ renovar_membresia()
-	  		+ ver_detalles()
-	  		+ es_activa()
-	    }
+    Cliente "1" -- "0..1" Membresía : tiene
+    Cliente "1" -- "*" Asistencia : registra
+    Cliente "0..*" -- "0..*" SesionEntrenamiento : se_inscribe_en
 
-    %% Relaciones
-    Gimnasio "1" o-- "*" Persona            : coordina
-    SesiónEntrenamiento "1" o-- "1" Entrenador : impartida_por
-    SesiónEntrenamiento "*" o-- "*" Miembro     : asiste
-    Miembro "1" o-- "*" Asistencia            : tiene
-    SesiónEntrenamiento "1" o-- "*" Asistencia : registra
-    Equipo "*" o-- "*" SesiónEntrenamiento    : utilizado_en
+    Entrenador "1" -- "0..*" SesionEntrenamiento : imparte
+
+    Gimnasio "1" -- "0..*" Equipo : contiene
+    Gimnasio "1" -- "0..*" SesionEntrenamiento : organiza
+
+    SesionEntrenamiento "1" o-- "0..*" Cliente : participantes
+    SesionEntrenamiento "1" -- "1" Entrenador : asignado
+
+    Asistencia "0..*" -- "1" Usuario : para
+    Asistencia "0..*" -- "1" SesionEntrenamiento : de
+
+    Membresía "1" -- "1" planes : de_tipo>)
 ```
 
 ## Conclusión
+
+Este análisis orientado a objetos ha permitido modelar un sistema de gestión de gimnasio, identificando los actores, entidades y sus interacciones. Se han definido las clases clave con sus atributos y métodos, y se han establecido las relaciones UML adecuadas (herencia, asociación, agregación) para representar la estructura del sistema.
+
+Los diagramas de secuencia ilustran los flujos dinámicos de operaciones fundamentales como el registro de entrada de clientes, la inscripción a clases y la programación de entrenamientos o mantenimientos. La jerarquía de clases, como la especialización de `Usuario` en `Cliente`, `Entrenador` y `Personal` la coherencia en la gestión de datos. El uso de enumeraciones para `planes` en `Membresía` asegura la integridad y simplifica la expansión de los tipos de suscripción.
+
+En resumen, el modelo propuesto ofrece una base robusta y escalable para el desarrollo de un software de gestión de gimnasio, facilitando la administración de membresías, equipos, personal y actividades, lo cual es fundamental para la eficiencia operativa y la satisfacción del cliente.
