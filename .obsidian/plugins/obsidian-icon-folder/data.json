@@ -6,7 +6,7 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "LiCodeXml",
+      "LiCodepen",
       "LiCalendar",
       "LiImages",
       "LiFolderUp",
@@ -42,5 +42,5 @@
   "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades": "LiFolderUp",
   "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments": "LiImages",
   "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Agenda": "LiCalendar",
-  "Maestría-Ingeniería-de-Software/03-Desarollo-web": "LiCodeXml"
+  "Maestría-Ingeniería-de-Software/03-Desarollo-web": "LiCodepen"
 }
