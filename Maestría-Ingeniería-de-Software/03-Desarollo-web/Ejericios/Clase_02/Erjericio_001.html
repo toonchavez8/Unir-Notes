@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Personal</title>
+    <style>
+        :root {
+            --primary: #00aa77;
+            --primary-foreground: #e9fff6;
+            --background: #26885f;
+            --border: #e2e8f0;
+            --muted: rgb(227, 255, 243);
+            --muted-foreground: #e9fff6;
+            --radius: 0.5rem;
+            --card: #ffffff;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: var(--background);
+            font-family: 'Inter', 'Segoe UI', Roboto, sans-serif;
+            min-height: 100vh;
+            padding: 2rem;
+            color: #334155;
+            line-height: 1.6;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: var(--card);
+            border-radius: var(--radius);
+            box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+            padding: 2rem;
+        }
+
+        .section {
+            width: 100%;
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            border-radius: var(--radius);
+            background-color: var(--muted);
+        }
+
+        h1 {
+            color: var(--primary);
+            font-size: 2.5rem;
+            margin-bottom: 1.5rem;
+            font-weight: 600;
+        }
+
+        h2 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            color: #334155;
+        }
+
+        p {
+            font-size: 1.15rem;
+            line-height: 1.6;
+            color: #333;
+            margin-bottom: 1.5rem;
+        }
+
+        /* Estilos para la lista ordenada */
+        ol {
+            list-style-position: inside;
+            margin: 1.5rem 0;
+            counter-reset: list-counter;
+            width: 100%;
+        }
+
+        ol li {
+            position: relative;
+            padding: 0.75rem 1rem 0.75rem 3rem;
+            margin-bottom: 0.5rem;
+            background-color: var(--card);
+            border-radius: var(--radius);
+            border: 1px solid var(--border);
+            counter-increment: list-counter;
+        }
+
+
+        /* Estilos para la tabla */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1.5rem 0;
+            background-color: var(--card);
+            border-radius: var(--radius);
+            overflow: hidden;
+        }
+
+        thead {
+            background-color: var(--primary);
+            color: var(--primary-foreground);
+        }
+
+        th,
+        td {
+            padding: 0.75rem 1rem;
+            text-align: left;
+            border-bottom: 1px solid var(--border);
+        }
+
+        tbody tr:last-child td {
+            border-bottom: none;
+        }
+
+        /* Estilos para el formulario */
+        form {
+            width: 100%;
+        }
+
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: 500;
+        }
+
+        input,
+        textarea {
+            width: 100%;
+            padding: 0.75rem;
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            background-color: var(--card);
+            font-size: 1rem;
+            transition: border-color 0.2s;
+        }
+
+        input:focus,
+        textarea:focus {
+            outline: none;
+            border-color: var(--primary);
+            box-shadow: 0 0 0 2px rgba(75, 0, 130, 0.2);
+        }
+
+        textarea {
+            min-height: 100px;
+            resize: vertical;
+        }
+
+        button {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0.75rem 1.5rem;
+            background-color: var(--primary);
+            color: var(--primary-foreground);
+            border: none;
+            border-radius: var(--radius);
+            font-size: 1rem;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        button:hover {
+            opacity: 0.9;
+            transform: translateY(-1px);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Miguel Chavez</h1>
+        <p>
+            Bienvenido a mi pequeño rincón de la web. Soy muy apasionado por construir y diseñar cosas con la
+            simplicidad en mente. Me gusta ser una esponja de conocimiento, desde sumergirme profundamente en un tema
+            que me apasiona
+            completamente hasta vadear en aguas poco profundas para satisfacer mi curiosidad sobre pequeñas piezas
+            aleatorias de conocimiento general y perfeccionar mis habilidades.
+        </p>
+        <p>
+            En las raras ocasiones en que no estoy trabajando, ¡disfruto cocinando, viajando, pintando y jugando
+            videojuegos!
+        </p>
+
+        <div class="section">
+            <h2>Mis metas para este año</h2>
+            <ol>
+                <li>No ahogarme con la maestria y el trabajo!</li>
+                <li>Cambiarme de trabajo.</li>
+                <li>Viajar a merida.</li>
+            </ol>
+        </div>
+
+        <div class="section">
+            <h2>Mis materias favoritas</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Materia</th>
+                        <th>Calificación esperada</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Desarrollo Web</td>
+                        <td>95</td>
+                    </tr>
+                    <tr>
+                        <td>Metodologías de Desarrollo</td>
+                        <td>92</td>
+                    </tr>
+                    <tr>
+                        <td>Dirección y Gestión de Software</td>
+                        <td>90</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="section">
+            <h2>Contáctame</h2>
+            <form>
+                <div class="form-group">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Correo electrónico</label>
+                    <input type="email" id="email" name="email" placeholder="ejemplo@correo.com" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="expectativas">¿Qué esperas aprender en este curso?</label>
+                    <textarea id="expectativas" name="expectativas"
+                        placeholder="Cuéntame sobre tus expectativas..."></textarea>
+                </div>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

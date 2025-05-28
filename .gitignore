@@ -3,3 +3,7 @@
 /Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Ref_homework/Actividad 1 Carlos Alfonso Cardenas Pacheco.pdf
 /Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Ref_homework/
 Ref_homework/*
+
+node_modules/
+# Ignore all node_modules directories
+.DS_Store
