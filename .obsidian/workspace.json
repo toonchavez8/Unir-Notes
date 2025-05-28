@@ -30,8 +30,33 @@
               "icon": "lucide-file",
               "title": "00-Herramientas"
             }
+          },
+          {
+            "id": "2b37ca0388cbb561",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -123,13 +148,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Maestría-Ingeniería-de-Software/03-Desarollo-web/Ejericios/00-Herramientas.md",
+                "file": "conflict-files-obsidian-git.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 00-Herramientas"
+              "title": "Outline of conflict-files-obsidian-git"
             }
           },
           {
@@ -199,10 +224,13 @@
       "quick-tagger:Remove tag from current note": false
     }
   },
-  "active": "cb6387e302b320a5",
+  "active": "2b37ca0388cbb561",
   "lastOpenFiles": [
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Actividad_01_Miguel_DeJesús_Chávez_Barragan.md",
     "Maestría-Ingeniería-de-Software/03-Desarollo-web/Ejericios/00-Herramientas.md",
+    "conflict-files-obsidian-git.md",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250526164807.png",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/019-Ing-dirigida-por-modelos.md",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Actividad_01_Miguel_DeJesús_Chávez_Barragan.md",
     "Maestría-Ingeniería-de-Software/03-Desarollo-web/Ejericios",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/msoB5E0.tmp",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/msoAB6F.tmp",
@@ -215,7 +243,6 @@
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Actividad_01_Miguel_DeJesus_Chavez_Barragan.pdf",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Introducción.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/[.md",
-    "conflict-files-obsidian-git.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Actividad01_mexissi01.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Actividad-01-Grading-criteria.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/001-Ingenieria-de-software.md",
@@ -232,7 +259,6 @@
     "Epam/02-css-layouts/attachments/Pasted image 20250519210945.png",
     "Epam/02-css-layouts/attachments/Pasted image 20250519210754.png",
     "Epam/02-css-layouts/attachments/Pasted image 20250519210658.png",
-    "Epam/02-css-layouts/attachments/Pasted image 20250519210421.png",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/Agenda/Agenda todos.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/018-Resumen-tema-3.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/017-Herramientas-Case.md",
@@ -244,8 +270,6 @@
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/class Diagram.md",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/012-Gestion-De-La-Integracion.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/010-Resumen-tema2.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/13-Objeto-y-clase.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/011-Programacion-Orientada-Objetas.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/100-Resumen-tema2.md"
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/13-Objeto-y-clase.md"
   ]
 }
