@@ -1746,6 +1746,8 @@ ICSE
 Integrated
 Instance
 Independent
+Invariantes
+Invariante
 Emocional
 Edward
 Expone
@@ -3508,6 +3510,7 @@ Eds
 Extendido
 Ejemplares
 Expresados
+Excel
 Historia
 Howard
 Habilidades
@@ -6985,6 +6988,10 @@ degrees
 descomposici
 dirigen
 described
+desglose
+dedicaci
+durar
+domain
 La
 Linea
 Las
@@ -8493,6 +8500,7 @@ LHR
 LDG
 Languages
 Lämmel
+Lectures
 hace
 habilidad
 humano
@@ -10194,6 +10202,9 @@ hPz
 hKy
 hEs
 hab
+holgura
+hubiera
+hardware
 referencia
 reconocer
 rmino
@@ -12166,6 +12177,10 @@ runtime
 recolecci
 redirecci
 relativo
+realizado
+retrasar
+retrasase
+retrase
 la
 los
 las
@@ -13802,6 +13817,7 @@ lzRm
 lyR
 legibles
 life
+laterales
 sentimientos
 sugiere
 ser
@@ -15750,6 +15766,10 @@ simulaciones
 separadas
 showing
 systems
+semana
+semanas
+soluciona
+sensor
 tiempo
 tiene
 tica
@@ -17424,6 +17444,7 @@ transformaciones
 transformational
 trazabilidad
 traducir
+temperatura
 Siglo
 Self
 Se
@@ -19071,6 +19092,9 @@ Schema
 Subject
 System
 Solving
+SEMANAS
+Sensor
+Synthesis
 Plat
 Pir
 Payne
@@ -20779,6 +20803,7 @@ Purpose
 Publishers
 Parodi
 Platform
+Planteamiento
 Todo
 Thorndike
 Todos
@@ -22391,6 +22416,8 @@ Transition
 Tecnol
 Traducci
 Texto
+TAREA
+Tabla
 aprendizaje
 ala
 aspectos
@@ -24450,6 +24477,13 @@ architecture
 actualizados
 abstracto
 altos
+asignadas
+acabar
+acaba
+asignas
+arrastra
+agregan
+ambigua
 una
 un
 unas
@@ -26159,6 +26193,7 @@ uiaj
 uaT
 uLE
 uCq
+usaba
 base
 biol
 bienestar
@@ -27808,6 +27843,7 @@ biblioteca
 boilerplate
 banking
 balance
+booleana
 emocional
 emociones
 en
@@ -35136,6 +35172,11 @@ proporci
 pretende
 practice
 problems
+practicar
+plantean
+puntuaci
+persiana
+puro
 clave
 coment
 capacidad
@@ -37476,6 +37517,12 @@ conforma
 construirse
 compilador
 corresponder
+colisi
+construcciones
+complemento
+convocatoria
+calefacci
+constraint
 Nic
 Necesidades
 No
@@ -39014,6 +39061,7 @@ NwA
 Notification
 Nunca
 Negocio
+Numbers
 maco
 motivar
 menes
@@ -41071,6 +41119,9 @@ metanivel
 moradas
 metaobject
 mantienen
+mitad
+marcar
+modifican
 Arist
 Abraham
 Adem
@@ -42750,6 +42801,7 @@ Almacena
 Alice
 Aserciones
 Adaptado
+ASIGNADO
 importancia
 inteligencia
 intelectivos
@@ -44896,6 +44948,8 @@ iniciativa
 incumbencias
 implementadas
 independent
+imperativas
+invariantes
 formaci
 factores
 fortalezas
@@ -46619,6 +46673,7 @@ formateado
 formalismo
 figuras
 facility
+fijo
 Utiliza
 Una
 Uno
@@ -49904,6 +49959,10 @@ Dimensions
 Describen
 Depth
 Dingldo
+DEPENDENCIA
+DURACI
+DSML
+Declarativo
 Wechsler
 Wayne
 WhatsApp
@@ -53244,6 +53303,7 @@ namespace
 nativamente
 noun
 negras
+necesitar
 Maslow
 Miedo
 Maria
@@ -58326,6 +58386,7 @@ Foundation
 Foco
 Flecha
 Forma
+Fuente
 otras
 of
 on
@@ -61746,6 +61807,10 @@ Conforma
 Computation
 Constituye
 Clasificarse
+Considerando
+Calefacci
+Contenidos
+Convocatoria
 vida
 viene
 va
@@ -63375,6 +63440,7 @@ versa
 ventaja
 verb
 vigentes
+var
 Reuven
 REA
 Re
@@ -65106,6 +65172,9 @@ Robusto
 Robusta
 Representativo
 Repetibles
+RECURSO
+Respuesta
+Restricci
 Bar
 Bisquerra
 Bajo
@@ -66633,6 +66702,7 @@ Bus
 Butler
 BPMN
 Bases
+Brambilla
 Kama
 KPI
 Kurt
@@ -73022,6 +73092,7 @@ Vistas
 Verb
 Visualizarlo
 Vista
+VHDL
 yo
 ya
 yx
