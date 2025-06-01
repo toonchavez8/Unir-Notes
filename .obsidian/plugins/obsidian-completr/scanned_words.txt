@@ -1745,6 +1745,7 @@ IDEs
 ICSE
 Integrated
 Instance
+Independent
 Emocional
 Edward
 Expone
@@ -3506,6 +3507,7 @@ Editores
 Eds
 Extendido
 Ejemplares
+Expresados
 Historia
 Howard
 Habilidades
@@ -10191,6 +10193,7 @@ hvYjk
 hPz
 hKy
 hEs
+hab
 referencia
 reconocer
 rmino
@@ -12160,6 +12163,9 @@ rculo
 represented
 represent
 runtime
+recolecci
+redirecci
+relativo
 la
 los
 las
@@ -13795,6 +13801,7 @@ lTCN
 lzRm
 lyR
 legibles
+life
 sentimientos
 sugiere
 ser
@@ -17416,6 +17423,7 @@ tTU
 transformaciones
 transformational
 trazabilidad
+traducir
 Siglo
 Self
 Se
@@ -19061,6 +19069,8 @@ Sutton
 Sere
 Schema
 Subject
+System
+Solving
 Plat
 Pir
 Payne
@@ -20767,6 +20777,8 @@ Petri
 Place
 Purpose
 Publishers
+Parodi
+Platform
 Todo
 Thorndike
 Todos
@@ -22376,6 +22388,9 @@ Transformation
 Tarr
 Third
 Transition
+Tecnol
+Traducci
+Texto
 aprendizaje
 ala
 aspectos
@@ -24429,6 +24444,12 @@ acordadas
 account
 analiza
 aumentando
+autoreferencial
+anotaciones
+architecture
+actualizados
+abstracto
+altos
 una
 un
 unas
@@ -29942,6 +29963,7 @@ eleva
 etiquetado
 emerging
 entities
+elevar
 que
 quien
 quiere
@@ -35113,6 +35135,7 @@ piramidal
 proporci
 pretende
 practice
+problems
 clave
 coment
 capacidad
@@ -37449,6 +37472,10 @@ combinarse
 conformes
 customer
 constructs
+conforma
+construirse
+compilador
+corresponder
 Nic
 Necesidades
 No
@@ -38986,6 +39013,7 @@ Naw
 NwA
 Notification
 Nunca
+Negocio
 maco
 motivar
 menes
@@ -41039,6 +41067,10 @@ malinterpretaciones
 metaelementos
 metametaelemento
 mencionadas
+metanivel
+moradas
+metaobject
+mantienen
 Arist
 Abraham
 Adem
@@ -42716,6 +42748,8 @@ Auditables
 Arc
 Almacena
 Alice
+Aserciones
+Adaptado
 importancia
 inteligencia
 intelectivos
@@ -44860,6 +44894,8 @@ ingenieria
 inicialmente
 iniciativa
 incumbencias
+implementadas
+independent
 formaci
 factores
 fortalezas
@@ -46582,6 +46618,7 @@ facto
 formateado
 formalismo
 figuras
+facility
 Utiliza
 Una
 Uno
@@ -48195,6 +48232,7 @@ Ufe
 Uzs
 UUt
 Utilidad
+Utilizar
 David
 Describe
 Developing
@@ -51505,6 +51543,7 @@ WZS
 WSm
 WqPy
 Wimmer
+With
 no
 nos
 nuestro
@@ -53204,6 +53243,7 @@ notifiquen
 namespace
 nativamente
 noun
+negras
 Maslow
 Miedo
 Maria
@@ -56642,6 +56682,7 @@ Genera
 Garantizada
 Generacion
 Generative
+Guttman
 Formula
 Feedback
 Francis
@@ -58284,6 +58325,7 @@ Formatos
 Foundation
 Foco
 Flecha
+Forma
 otras
 of
 on
@@ -59976,6 +60018,7 @@ ocQ
 okj
 okP
 opuesta
+ormsc
 Crea
 Cociente
 Con
@@ -61698,6 +61741,11 @@ Controlados
 Concept
 Cabot
 Claypool
+Contenido
+Conforma
+Computation
+Constituye
+Clasificarse
 vida
 viene
 va
@@ -63326,6 +63374,7 @@ vice
 versa
 ventaja
 verb
+vigentes
 Reuven
 REA
 Re
@@ -68151,6 +68200,7 @@ Kna
 KgP
 KeVR
 Kent
+Kaufmann
 gicos
 gica
 generan
@@ -72970,6 +73020,8 @@ Validation
 Visser
 Vistas
 Verb
+Visualizarlo
+Vista
 yo
 ya
 yx

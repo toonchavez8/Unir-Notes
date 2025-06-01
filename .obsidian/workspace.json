@@ -42,9 +42,57 @@
               "icon": "lucide-file",
               "title": "020-MetaModelado-de-Sistemas"
             }
+          },
+          {
+            "id": "1b5ff588bee3d554",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/021-Arquitectura-dirigida-modelos.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "021-Arquitectura-dirigida-modelos"
+            }
+          },
+          {
+            "id": "318b4b778892b9ec",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/022-Lenguajes-de-dominio-Modelos-con-OCL.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "022-Lenguajes-de-dominio-Modelos-con-OCL"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -213,14 +261,19 @@
       "quick-tagger:Remove tag from current note": false
     }
   },
-  "active": "8fae31c8034c2301",
+  "active": "318b4b778892b9ec",
   "lastOpenFiles": [
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/021-Arquitectura-dirigida-modelos.md",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/022-Lenguajes-de-dominio-Modelos-con-OCL.md",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250601125702.png",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250601125640.png",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250601123525.png",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/020-MetaModelado-de-Sistemas.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Books/Desarrollo de Software Dirigido por modelos.pdf",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Books/Desarrollo de Software Dirigido por modelos.pdf.crdownload",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250601115520.png",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250601115436.png",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/000_IdeasClave.pdf",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/020-MetaModelado-de-Sistemas.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250601114553.png",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/019-Ing-dirigida-por-modelos.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/014-Analisis-Diseño-orientado-objetos.md",
@@ -230,8 +283,6 @@
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250601091450.png",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Books/Model-driven software engineering.pdf",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Books/Model-driven software engineering.pdf.crdownload",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250531195741.png",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250531182445.png",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Agenda/Agenda todos.md",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/Books/PMBOK 7ma edición.pdf",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Books/Eclipse Modeling Framework.md",
@@ -242,10 +293,8 @@
     "Maestría-Ingeniería-de-Software/03-Desarollo-web/Ejericios/001-desarrolloweb_ejercicios.docx",
     "Maestría-Ingeniería-de-Software/03-Desarollo-web/Ejericios/Clase_02/miguel_chaves.html",
     "Maestría-Ingeniería-de-Software/03-Desarollo-web/Ejericios/001-desarrolloweb_ejercicios.md",
-    "Maestría-Ingeniería-de-Software/03-Desarollo-web/Ejericios/Clase_02/Erjericio_001.html",
     "Maestría-Ingeniería-de-Software/03-Desarollo-web/Ejericios/000-Herramientas.md",
     "conflict-files-obsidian-git.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250526164807.png",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Actividad_01_Miguel_DeJesús_Chávez_Barragan.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Introducción.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/[.md",
@@ -259,7 +308,6 @@
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/018-Resumen-tema-3.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/017-Herramientas-Case.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/016-Diagrama-de-clase.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/015-Lenguaje-unificado-modelado.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/013-Objeto-y-clase.md"
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/015-Lenguaje-unificado-modelado.md"
   ]
 }

@@ -372,4 +372,4 @@ Esta figura ilustra un ejemplo de un sistema software a través de los distintos
 	- Favorece la modularidad.
 	- Favorece la reutilización.
 
-## **Saber más**
+## **Saber más**![[Desarrollo de Software Dirigido por modelos.pdf]]
