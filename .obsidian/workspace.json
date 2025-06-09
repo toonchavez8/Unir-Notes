@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "28e669c276f9b5d7",
+        "id": "786a597d77e2958d",
         "type": "tabs",
         "children": [
           {
-            "id": "7ea04aafa8c481a9",
+            "id": "783c98f0da681b17",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/025-modelo-Avansado-de-requisitos.md",
+                "file": "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/026-Modelo-estatico-avansado.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -24,11 +24,11 @@
                   "showSearch": false,
                   "searchQuery": "",
                   "backlinkCollapsed": false,
-                  "unlinkedCollapsed": false
+                  "unlinkedCollapsed": true
                 }
               },
               "icon": "lucide-file",
-              "title": "025-modelo-Avansado-de-requisitos"
+              "title": "026-Modelo-estatico-avansado"
             }
           }
         ],
@@ -151,13 +151,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/025-modelo-Avansado-de-requisitos.md",
+                "file": "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/026-Modelo-estatico-avansado.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 025-modelo-Avansado-de-requisitos"
+              "title": "Outline of 026-Modelo-estatico-avansado"
             }
           }
         ],
@@ -188,12 +188,19 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "7ea04aafa8c481a9",
+  "active": "783c98f0da681b17",
   "lastOpenFiles": [
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Pasted.md",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/026-Modelo-estatico-avansado.md",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250608212147.png",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250608212033.png",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250608202012.png",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250608201933.png",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250608201818.png",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/025-modelo-Avansado-de-requisitos.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250608195257.png",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250608192928.png",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250608192536.png",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/025-modelo-Avansado-de-requisitos.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250608190916.png",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/024-Resumen-tema-4.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/005-Stakeholders.md",
@@ -213,12 +220,6 @@
     "links",
     "conflict-files-obsidian-git.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250601132430.png",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250601132405.png",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250601132240.png",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250601132200.png",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250601131831.png",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250601125702.png",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250601125640.png",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Books/Model-driven software engineering.pdf",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Books/El Metamodelo Ecore.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Books/Eclipse Modeling Framework.md",
@@ -234,7 +235,6 @@
     "Maestría-Ingeniería-de-Software/03-Desarollo-web/Ejericios/001-desarrolloweb_ejercicios.md",
     "Maestría-Ingeniería-de-Software/03-Desarollo-web/Ejericios/000-Herramientas.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Actividad_01_Miguel_DeJesús_Chávez_Barragan.md",
-    "Dudas/Duda Blendar.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/019-Ing-dirigida-por-modelos.md"
+    "Dudas/Duda Blendar.md"
   ]
 }

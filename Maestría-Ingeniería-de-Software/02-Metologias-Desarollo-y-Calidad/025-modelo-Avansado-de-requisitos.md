@@ -161,3 +161,18 @@ También se deben tener en cuenta las relaciones de generalización entre casos 
 Al igual que las relaciones de include y extend, se debe evitar, en la medida de 10 possible, las generalizaciones entre casos de uso, optando por técnicas de modelado que faciliten su comprensión.
 
 ![[Pasted image 20250608195257.png]]
+
+--- 
+
+## Microtest
+
+- ¿Qué es un requisito de software?
+	- Una responsabilidad del software que se ha de cumplir para poder alcanzar los objetivos del sistema definidos en un contrato, especificación o cualquier otro tipo de documentación proporcionada.
+- ¿Cuáles son los tres niveles diferenciados en los requisitos de software según la funcionalidad ofrecida?
+	- Requisitos de negocio, requisitos de usuario y requisitos funcionales.
+- Según la clasificación de Sommerville, ¿a qué grupo pertenecen los requisitos relacionados con la satisfacción del usuario o impuestos por el cliente? 
+	- Requisitos del producto.
+- ¿Cuáles son los tres grandes grupos en los que Sommerville clasifica los requisitos no funcionales?
+	- Requisitos del producto, requisitos de la organización y requisitos externos.
+- ¿A qué se refieren las dimensions de los requisitos?
+	- Ámbito, característica que define y audiencia.
