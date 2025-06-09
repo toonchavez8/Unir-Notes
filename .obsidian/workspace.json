@@ -4,17 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "152554894aae9511",
+        "id": "28e669c276f9b5d7",
         "type": "tabs",
         "children": [
           {
-            "id": "7e0362e0c0d2dd07",
+            "id": "7ea04aafa8c481a9",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/025-modelo-Avansado-de-requisitos.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": false
+                }
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "025-modelo-Avansado-de-requisitos"
             }
           }
         ],
@@ -75,7 +89,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 290.5
+    "width": 286.5
   },
   "right": {
     "id": "a25b807ad639ff42",
@@ -137,12 +151,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/025-modelo-Avansado-de-requisitos.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of 025-modelo-Avansado-de-requisitos"
             }
           }
         ],
@@ -173,8 +188,29 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "7e0362e0c0d2dd07",
+  "active": "7ea04aafa8c481a9",
   "lastOpenFiles": [
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250608195257.png",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250608192928.png",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250608192536.png",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/025-modelo-Avansado-de-requisitos.md",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250608190916.png",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/024-Resumen-tema-4.md",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/005-Stakeholders.md",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/004-Modelo-proceso-dessarollo-software.md",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/002-Crisis-de-software.md",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/001-Ingenieria-de-software.md",
+    "Maestría-Ingeniería-de-Software/links/Ágiles.md",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Agenda/Agenda todos.md",
+    "Maestría-Ingeniería-de-Software/links/Ágiles 1.md",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/023-Transformaciones-de-modelos.md",
+    "Maestría-Ingeniería-de-Software/links/MDE.md",
+    "Maestría-Ingeniería-de-Software/links",
+    "Maestría-Ingeniería-de-Software./links/MDE.md",
+    "Maestría-Ingeniería-de-Software./links",
+    "Maestría-Ingeniería-de-Software.",
+    "links/MDE.md",
+    "links",
     "conflict-files-obsidian-git.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250601132430.png",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250601132405.png",
@@ -183,15 +219,11 @@
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250601131831.png",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250601125702.png",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250601125640.png",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250601123525.png",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250601115520.png",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250601115436.png",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Books/Model-driven software engineering.pdf",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Books/El Metamodelo Ecore.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Books/Eclipse Modeling Framework.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Books/Desarrollo de Software Dirigido por modelos.pdf",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Books",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/023-Transformaciones-de-modelos.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/022-Lenguajes-de-dominio-Modelos-con-OCL.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/021-Arquitectura-dirigida-modelos.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/020-MetaModelado-de-Sistemas.md",
@@ -200,25 +232,9 @@
     "Maestría-Ingeniería-de-Software/03-Desarollo-web/Ejericios/Clase_02/Erjericio_001.html",
     "Maestría-Ingeniería-de-Software/03-Desarollo-web/Ejericios/Clase_02",
     "Maestría-Ingeniería-de-Software/03-Desarollo-web/Ejericios/001-desarrolloweb_ejercicios.md",
-    "Maestría-Ingeniería-de-Software/03-Desarollo-web/Ejericios/001-desarrolloweb_ejercicios.docx",
     "Maestría-Ingeniería-de-Software/03-Desarollo-web/Ejericios/000-Herramientas.md",
-    "Maestría-Ingeniería-de-Software/03-Desarollo-web/Ejericios",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/~WRL3307.tmp",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/~$tividad_01_Miguel_DeJesus_Chavez_Barragan.docx",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Actividad_01_Miguel_DeJesús_Chávez_Barragan.md",
     "Dudas/Duda Blendar.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/019-Ing-dirigida-por-modelos.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/018-Resumen-tema-3.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Agenda/Agenda todos.md",
-    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/Agenda/Agenda todos.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/014-Analisis-Diseño-orientado-objetos.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/017-Herramientas-Case.md",
-    "01-modam-softskills/02-liderazgo-competencias-directivas.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Actividad_01_Miguel_DeJesus_Chavez_Barragan.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Actividad-01-Grading-Criteria.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Actividad01_mexissi01.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/016-Diagrama-de-clase.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/015-Lenguaje-unificado-modelado.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/013-Objeto-y-clase.md"
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/019-Ing-dirigida-por-modelos.md"
   ]
 }

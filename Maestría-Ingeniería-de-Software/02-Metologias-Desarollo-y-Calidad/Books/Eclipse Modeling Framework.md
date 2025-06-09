@@ -1,6 +1,6 @@
 # Eclipse Modeling Framework (EMF)
 
-El **Eclipse Modeling Framework (EMF)** es un framework de modelado poderoso y altamente utilizado dentro del ecosistema de Eclipse, diseñado para construir herramientas basadas en modelos y aplicaciones orientadas a datos. Es la columna vertebral de la **Ingeniería Dirigida por Modelos (MDE)** en la plataforma Eclipse, y permite a los desarrolladores definir modelos de datos y luego generar automáticamente una gran cantidad de código Java de alta calidad y herramientas de edición basadas en esos modelos.
+El **Eclipse Modeling Framework (EMF)** es un framework de modelado poderoso y altamente utilizado dentro del ecosistema de Eclipse, diseñado para construir herramientas basadas en modelos y aplicaciones orientadas a datos. Es la columna vertebral de la **Ingeniería Dirigida por Modelos ([[MDE]])** en la plataforma Eclipse, y permite a los desarrolladores definir modelos de datos y luego generar automáticamente una gran cantidad de código Java de alta calidad y herramientas de edición basadas en esos modelos.
 
 ---
 

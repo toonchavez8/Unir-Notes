@@ -8,9 +8,9 @@
     
 - Los modelos ayudan a comprender y resolver problemas mediante la **abstracción**.
     
-- La ingeniería dirigida por modelos (MDE) hace que los **modelos sean los principales artefactos en el desarrollo de software**.
+- La ingeniería dirigida por modelos ([[MDE]]) hace que los **modelos sean los principales artefactos en el desarrollo de software**.
     
-- Con MDE, los modelos son utilizados para **descripción, validación, verificación, simulación y generación de código**.
+- Con [[MDE]], los modelos son utilizados para **descripción, validación, verificación, simulación y generación de código**.
 
 ## Ventajas
 
@@ -26,19 +26,19 @@ Esto hará que los lenguajes sean más fáciles de:
 
 ## Origen Y Definición De MDE
 
-El término **MDE** fue propuesto inicialmente por **Kent**, pero tiene su origen en una iniciativa del **Object Management Group (OMG)** conocida como **Arquitectura Dirigida por Modelos (Model Driven Architecture, MDA)**.
+El término **[[MDE]]** fue propuesto inicialmente por **Kent**, pero tiene su origen en una iniciativa del **Object Management Group (OMG)** conocida como **Arquitectura Dirigida por Modelos (Model Driven Architecture, MDA)**.
 
-MDE **generaliza conceptos** mediante el establecimiento de unos principios, donde **MDA constituye un estándar aplicado** de la teoría que presenta.
+[[MDE]] **generaliza conceptos** mediante el establecimiento de unos principios, donde **MDA constituye un estándar aplicado** de la teoría que presenta.
 
 ## Principios De MDE
 
-MDE **eleva el nivel de abstracción** en el proceso de desarrollo de software, lo cual favorece:
+[[MDE]] **eleva el nivel de abstracción** en el proceso de desarrollo de software, lo cual favorece:
 
 - La gestión de la complejidad de los sistemas
     
 - La gestión del cambio inherente en los sistemas software
 
-MDE se fundamenta, básicamente, en dos conceptos:
+[[MDE]] se fundamenta, básicamente, en dos conceptos:
 
 - **Sistema**
     
@@ -61,7 +61,7 @@ flowchart LR
 
 ## Definición De Bézivin
 
-> Un modelo en MDE queda definido como una **estructura basada en un grafo (dirigido y etiquetado)** que representa algunos aspectos de un sistema y es conforme a la definición de otro grafo denominado **metamodelo**.
+> Un modelo en [[MDE]] queda definido como una **estructura basada en un grafo (dirigido y etiquetado)** que representa algunos aspectos de un sistema y es conforme a la definición de otro grafo denominado **metamodelo**.
 > 
 > (Bézivin, J. (2006). _Model driven engineering: an emerging technical space_. En R. Lämmel, J. Saraiva y J. Visser (Eds.), _Generative and transformational techniques in Software engineering_, Springer)
 
@@ -225,7 +225,7 @@ Cada tipo de modelo se basa en una **aproximación distinta de abstracción**.
 
 ## MicroTest
 
-- ¿Cuál es la relación que se da entre un sistema y un modelo en la ingeniería dirigida por modelos (MDE)?
+- ¿Cuál es la relación que se da entre un sistema y un modelo en la ingeniería dirigida por modelos ([[MDE]])?
 	- Relación de representación.
 - ¿Qué proporción pretende reducir o eliminar la necesidad de programación en la ingeniería de software dirigida por modelos?
 	- Los Modelos
@@ -238,4 +238,4 @@ Cada tipo de modelo se basa en una **aproximación distinta de abstracción**.
 
 Mambrilla, M., Cabot, J. y Wimmer, M. (2017). _Model-driven software engineering in practice_ (2.ª ed.). Morgan & Claypool Publishers.
 
-Este libro analiza cómo los enfoques basados en modelos pueden mejorar la práctica diaria de los profesionales del desarrollo de software, aumentando la eficiencia y la eficacia en el desarrollo. El objetivo de este libro es ayudar a comprender rápidamente los principios y técnicas básicos de MDE.
+Este libro analiza cómo los enfoques basados en modelos pueden mejorar la práctica diaria de los profesionales del desarrollo de software, aumentando la eficiencia y la eficacia en el desarrollo. El objetivo de este libro es ayudar a comprender rápidamente los principios y técnicas básicos de [[MDE]].

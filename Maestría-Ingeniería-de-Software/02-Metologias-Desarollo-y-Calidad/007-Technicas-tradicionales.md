@@ -73,7 +73,7 @@
         
     - **Fuerte dependencia tecnológica**.
         
-- Este nuevo contexto favorece enfoques más adaptativos como los **ágiles**, donde hay:
+- Este nuevo contexto favorece enfoques más adaptativos como los **[[ágiles]]**, donde hay:
     
     - Entregas iterativas.
         

@@ -23,7 +23,7 @@ La elección adecuada del modelo es crucial: **un modelo mal elegido puede afect
 
 ---
 
-## Modelos De Procesos Ágiles
+## Modelos De Procesos [[Ágiles]]
 
 - Buscan **adaptabilidad** y **flexibilidad**.
     
@@ -200,7 +200,7 @@ Un componente software es un fragmento de código que encapsula un conjunto de f
     
 - **CBSE** ganó popularidad con la expansión de tecnologías como **.NET** y **JavaBeans**.
     
-- Los **modelos ágiles** (como Scrum o XP) se basan en el **Manifiesto Ágil** de 2001 ([fuente](https://agilemanifesto.org/)).
+- Los **modelos [[ágiles]]** (como Scrum o XP) se basan en el **Manifiesto Ágil** de 2001 ([fuente](https://agilemanifesto.org/)).
     
 
 ---
