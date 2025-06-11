@@ -81,6 +81,7 @@ IG
 Info
 ID
 Int
+Indica
 Emocional
 Edward
 Expone
@@ -209,6 +210,7 @@ ER
 Eps
 EOF
 Especializaciones
+Entrada
 Historia
 Howard
 Habilidades
@@ -611,6 +613,11 @@ documento
 das
 date
 direction
+denominaci
+dica
+duracion
+deactivate
+datosClase
 La
 Linea
 Las
@@ -747,6 +754,8 @@ horarios
 historial
 hNI
 hacerCheckIn
+hereden
+heredado
 referencia
 reconocer
 rmino
@@ -1054,6 +1063,9 @@ renovaciones
 registrarEntrada
 registrarSalida
 registrarAsistencia
+representra
+reservado
+reutilizaci
 la
 los
 las
@@ -1460,6 +1472,13 @@ sv
 sh
 startxref
 subscripcion
+superclase
+simplificar
+super
+subclases
+sensible
+sesion
+sequenceDiagram
 tiempo
 tiene
 tica
@@ -1636,6 +1655,7 @@ tktb
 trailer
 telefono
 tipoMembres
+tambien
 Siglo
 Self
 Se
@@ -1731,6 +1751,7 @@ Size
 SICO
 String
 Sesiones
+SesionEntrenamiento
 Plat
 Pir
 Payne
@@ -1854,6 +1875,7 @@ PZ
 Prev
 Propongo
 PREMIUM
+Plan
 Todo
 Thorndike
 Todos
@@ -2414,6 +2436,17 @@ aula
 adicionalmente
 actualizando
 asignarRutina
+aparato
+ayudara
+alguna
+atribbutos
+asegudranod
+accedidar
+agregarParticipante
+asignarEntrenador
+autonumber
+activate
+alt
 una
 un
 unas
@@ -2474,6 +2507,7 @@ uKK
 uFXW
 usarios
 ubicaci
+usamos
 base
 biol
 bienestar
@@ -2579,6 +2613,7 @@ bJ
 breve
 bibliogr
 boolean
+bicicletas
 emocional
 emociones
 en
@@ -2993,6 +3028,9 @@ enumeration
 especialidad
 estadoMembres
 equipoID
+enviar
+else
+end
 que
 quien
 quiere
@@ -3510,6 +3548,9 @@ profesor
 privilegios
 pagarCuota
 programarClase
+pesas
+puedamos
+participante
 clave
 coment
 capacidad
@@ -4119,6 +4160,12 @@ contrato
 classDiagram
 correo
 cancelarSesi
+cintas
+creacion
+centraliza
+cuota
+cancelarSesion
+checkInExitoso
 Nic
 Necesidades
 No
@@ -4408,6 +4455,8 @@ manego
 mermaid
 membresia
 marcarMantenimiento
+mantemmos
+mostrarError
 Arist
 Abraham
 Adem
@@ -4554,6 +4603,7 @@ AK
 AmR
 AM
 API
+Assistencia
 importancia
 inteligencia
 intelectivos
@@ -4898,6 +4948,12 @@ interlineado
 instalciones
 inscribirEnClase
 iniciarSesi
+indicar
+incporar
+inscribi
+inscribirse
+iniciarSesion
+inactiva
 formaci
 factores
 fortalezas
@@ -5071,6 +5127,8 @@ formade
 finalizando
 fechaRegistro
 fechaHora
+false
+finProgramaci
 Utiliza
 Una
 Uno
@@ -5366,6 +5424,8 @@ nuevamente
 nuu
 na
 nID
+nInscripci
+nAsignaci
 Maslow
 Miedo
 Maria
@@ -5563,6 +5623,7 @@ FB
 Fk
 FZ
 FA
+Fecha
 otras
 of
 on
@@ -5698,6 +5759,7 @@ oExperiencia
 obtenerCorreo
 obtenerTelefono
 operativo
+osExperiencia
 Crea
 Cociente
 Con
@@ -5843,7 +5905,6 @@ Castro
 Cliente
 Calendarizaci
 Consulta
-Classes
 Cancelar
 Consultar
 Controlar
