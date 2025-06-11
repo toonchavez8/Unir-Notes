@@ -1,6 +1,5 @@
 [
   "better-export-pdf",
-  "floating-toc",
   "obsidian-git",
   "note-refactor-obsidian",
   "easy-typing-obsidian",
@@ -27,5 +26,6 @@
   "obsidian-zotero-desktop-connector",
   "quick-tagger",
   "obsidian-icon-folder",
-  "mermaid-helper"
+  "mermaid-helper",
+  "automatic-table-of-contents"
 ]

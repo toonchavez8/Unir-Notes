@@ -100,7 +100,7 @@ Un **proceso** es un conjunto de actividades interrelacionadas que reciben insum
 |---|---|
 |Incluye inicio a cierre del proyecto|Abarca desde la concepción hasta el retiro del producto del mercado|
 |Temporal|Extenso en el tiempo|
-|Metodologías: Predictivas, Ágiles, Híbridas|Enlazado con estrategias de mercado y evolución tecnológica|
+|Metodologías: Predictivas, [[Ágiles]], Híbridas|Enlazado con estrategias de mercado y evolución tecnológica|
 
 ---
 

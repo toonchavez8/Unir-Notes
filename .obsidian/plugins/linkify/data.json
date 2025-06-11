@@ -2,17 +2,17 @@
   "rules": [
     {
       "regexp": "\\bPMBOK(?:®)?(?:\\s+(?:Guide)?)?(?:\\s*(v?\\d+(?:st|nd|rd|th)?(?:\\s+Edition)?))?\\b",
-      "link": "[[PMBOK/$1]]",
+      "link": "[[.Maestría-Ingeniería-de-Software/links/PMBOK/$1]]",
       "cssclass": ""
     },
     {
-      "regexp": "gh:([a-zA-Z0-9./-]*)",
-      "link": "",
+      "regexp": "\\bMDE()",
+      "link": "[[Maestría-Ingeniería-de-Software/links/MDE/$1]]",
       "cssclass": ""
     },
     {
-      "regexp": "@([a-zA-Z0-9]*)",
-      "link": "",
+      "regexp": "\\Ágiles()",
+      "link": "[[Maestría-Ingeniería-de-Software/links/Ágiles/$1]]",
       "cssclass": ""
     }
   ]
