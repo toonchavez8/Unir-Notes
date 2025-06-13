@@ -111,7 +111,7 @@
   - [ ] 7.6 Product owner  
   - [ ] 7.7 Historias de usuario  
   - [ ] 7.8 Planificación y estimación ágil  
-  - [ ] 7.9 Mediciones en desarrollos ágiles  
+  - [ ] 7.9 Mediciones en desarrollos [[ágiles]]  
 - [ ] Realizar Microtest 7.4 (0.05 p.) – **17/08/2025 23:59**  
 - [ ] Realizar Microtest 7.5 (0.05 p.) – **17/08/2025 23:59**  
 - [ ] Realizar Microtest 7.6 (0.05 p.) – **17/08/2025 23:59**  
@@ -140,7 +140,7 @@
 - [ ] Realizar Microtest 8.6 (0.05 p.) – **17/08/2025 23:59**  
 
 ## Semana 12 (07/07/2025 - 11/07/2025)
-- [ ] Revisar **Tema 9. Técnicas ágiles de desarrollo de software**  
+- [ ] Revisar **Tema 9. Técnicas [[Ágiles]] de desarrollo de software**  
   - [ ] 9.1 Introducción y objetivos  
   - [ ] 9.2 eXtreme Programming (XP)  
   - [ ] 9.3 Lean software development  
@@ -151,8 +151,8 @@
 - [ ] Revisar continuación **Tema 9**  
   - [ ] 9.4 Kanban  
   - [ ] 9.5 Scrumban  
-  - [ ] 9.6 Otras técnicas ágiles  
-  - [ ] 9.7 Relación entre técnicas ágiles  
+  - [ ] 9.6 Otras técnicas [[Ágiles]]  
+  - [ ] 9.7 Relación entre técnicas [[Ágiles]]  
 - [ ] Asistir a Clase (45 min) + Resolución Caso 3 (15 min)  
 - [ ] Realizar Microtest 9.3 (0.05 p.) – **17/08/2025 23:59**  
 - [ ] Realizar Microtest 9.4 (0.05 p.) – **17/08/2025 23:59**  
