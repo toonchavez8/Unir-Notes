@@ -11,10 +11,12 @@
             "id": "7e0362e0c0d2dd07",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "docx-view",
+              "state": {
+                "file": "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Actividad_01_Miguel_DeJesus_Chavez_Barragan.docx"
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Actividad_01_Miguel_DeJesus_Chavez_Barragan"
             }
           }
         ],
@@ -137,12 +139,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Actividad_01_Miguel_DeJesus_Chavez_Barragan.docx",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Actividad_01_Miguel_DeJesus_Chavez_Barragan"
             }
           }
         ],
@@ -175,6 +178,8 @@
   },
   "active": "7e0362e0c0d2dd07",
   "lastOpenFiles": [
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/005-Stakeholders.md",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/mexissi01_act2.docx",
     "conflict-files-obsidian-git.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250601132430.png",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250601132405.png",
@@ -204,7 +209,6 @@
     "Maestría-Ingeniería-de-Software/03-Desarollo-web/Ejericios/000-Herramientas.md",
     "Maestría-Ingeniería-de-Software/03-Desarollo-web/Ejericios",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/~WRL3307.tmp",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/~$tividad_01_Miguel_DeJesus_Chavez_Barragan.docx",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Actividad_01_Miguel_DeJesús_Chávez_Barragan.md",
     "Dudas/Duda Blendar.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/019-Ing-dirigida-por-modelos.md",
