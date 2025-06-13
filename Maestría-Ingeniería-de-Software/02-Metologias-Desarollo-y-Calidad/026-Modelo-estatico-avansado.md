@@ -114,3 +114,12 @@ classDiagram
 ```
 
 ---
+
+## Microtest
+
+- ¿Cuál de las siguientes es una característica de una asociación reflexiva?
+	- Los enlaces pueden conectar dos instancias diferentes de la misma clase, pero también pueden conectar una instancia consigo misma.
+- ¿Qué característica tiene una clase asociación?
+	- Como se trata de un elemento único, ha de tener un único nombre.
+- Como se trata de un elemento único, ha de tener un único nombre.
+	- Debe comprenderse correctamente los aspectos del sistema que se está modelando.
