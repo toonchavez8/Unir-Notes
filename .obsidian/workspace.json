@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "9adf96771ca3324e",
+        "id": "e2230d0b21b42d04",
         "type": "tabs",
         "children": [
           {
-            "id": "8df914456c853d28",
+            "id": "c8c09c1313a9f0c9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/031-La-reutilización-del-software.md",
+                "file": "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/033-Patrones-De-Arquitectura.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "031-La-reutilización-del-software"
+              "title": "033-Patrones-De-Arquitectura"
             }
           }
         ],
@@ -152,13 +152,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/031-La-reutilización-del-software.md",
+                "file": "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/033-Patrones-De-Arquitectura.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 031-La-reutilización-del-software"
+              "title": "Outline of 033-Patrones-De-Arquitectura"
             }
           }
         ],
@@ -190,10 +190,18 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "8df914456c853d28",
+  "active": "c8c09c1313a9f0c9",
   "lastOpenFiles": [
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/030-resumen-5.md",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250617170345.png",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250617165243.png",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250617163250.png",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250617163230.png",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/033-Patrones-De-Arquitectura.md",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/032-Tecnicas-de-reutilizacion.md",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250617132123.png",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250617131753.png",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/031-La-reutilización-del-software.md",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/030-resumen-5.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250617101333.png",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250617101223.png",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/025-modelo-Avansado-de-requisitos.md",
@@ -205,17 +213,12 @@
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/018-Resumen-tema-3.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Agenda/Agenda.pdf",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Agenda/Agenda todos.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250613130018.png",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/027-Modelo-dinamico-adv.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250613120926.png",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250613120900.png",
     "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad-01-Conceptos.md",
     "conflict-files-obsidian-git.md",
     "Maestría-Ingeniería-de-Software/links/MDE.md",
     "Maestría-Ingeniería-de-Software/links/Ágiles.md",
     "Maestría-Ingeniería-de-Software/links",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/{F8EF9865-CD01-4518-9560-2960D7D848D7}.png",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/{3A709DB7-874E-4E89-A631-BD135A53B1FC}.png",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Actividad_02/mexissi01_act2.docx",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Actividad_02",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Actividad_01/~WRL3307.tmp",
@@ -234,9 +237,6 @@
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Books/Eclipse Modeling Framework.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/023-Transformaciones-de-modelos.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/022-Lenguajes-de-dominio-Modelos-con-OCL.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/021-Arquitectura-dirigida-modelos.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/020-MetaModelado-de-Sistemas.md",
-    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/Actividades/01_Actividad_Planeacion_MiguelChavez.md",
-    "Maestría-Ingeniería-de-Software/03-Desarollo-web/Ejericios/001-desarrolloweb_ejercicios.md"
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/021-Arquitectura-dirigida-modelos.md"
   ]
 }
