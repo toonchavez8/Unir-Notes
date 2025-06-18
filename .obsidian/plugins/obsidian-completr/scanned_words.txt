@@ -1244,6 +1244,8 @@ Involucrados
 Incrementales
 Indican
 Incorrectas
+Interesa
+Ideal
 Emocional
 Edward
 Expone
@@ -5152,6 +5154,9 @@ desean
 descripciones
 detectan
 diferenciados
+distribuida
+distribuyen
+disminuir
 La
 Linea
 Las
@@ -6211,6 +6216,7 @@ LNON
 LDV
 Lgl
 Ley
+Linux
 hace
 habilidad
 humano
@@ -7430,6 +7436,7 @@ hXJ
 hiB
 hechizos
 hooks
+hospitalaria
 referencia
 reconocer
 rmino
@@ -8874,6 +8881,7 @@ resume
 resumida
 recomendaciones
 replicar
+repositorio
 la
 los
 las
@@ -10099,6 +10107,8 @@ lecci
 limitaciones
 localizable
 limitar
+ligeros
+lote
 sentimientos
 sugiere
 ser
@@ -11584,6 +11594,10 @@ sequential
 subactividades
 servidor
 servidores
+sencillo
+sufre
+superior
+sustituci
 tiempo
 tiene
 tica
@@ -12866,6 +12880,7 @@ trazos
 trazable
 textuales
 tabla
+tuber
 Siglo
 Self
 Se
@@ -14098,6 +14113,7 @@ Suficiente
 Sevilla
 SRS
 Servidores
+Significativas
 Plat
 Pir
 Payne
@@ -15341,6 +15357,8 @@ Palmer
 Potenciales
 Pearson
 POIO
+Ponerse
+Plantea
 Todo
 Thorndike
 Todos
@@ -16542,6 +16560,8 @@ TkP
 Tlm
 Tipogr
 Tecnicas
+Tabla
+Tuber
 aprendizaje
 ala
 aspectos
@@ -18099,6 +18119,10 @@ arquitecturas
 aplicarse
 aprecia
 ataques
+atravesando
+adici
+almacenando
+almacenada
 una
 un
 unas
@@ -19353,6 +19377,7 @@ usados
 ubicarlos
 utilizarlos
 usulas
+usarlo
 base
 biol
 bienestar
@@ -22113,6 +22138,10 @@ etnograf
 especializaciones
 ensay
 ejecutan
+estilizada
+especializados
+enteras
+escalabilidad
 que
 quien
 quiere
@@ -23166,6 +23195,7 @@ qeT
 qvo
 qqKQ
 quinas
+queramos
 juegan
 json
 justo
@@ -25842,6 +25872,11 @@ procesamiento
 pertenecen
 puso
 patr
+pesados
+protocolos
+procesamientos
+procesado
+pacientes
 clave
 coment
 capacidad
@@ -27646,6 +27681,19 @@ conectado
 clasifica
 conectados
 comportan
+contienen
+conectan
+consecutivos
+capa
+cantidades
+consumen
+centralizado
+concentraci
+concentran
+concentrados
+concentrada
+critico
+complicado
 Nic
 Necesidades
 No
@@ -30205,6 +30253,8 @@ modificable
 malinterpretaci
 middleware
 museo
+multicapa
+manteniendo
 Arist
 Abraham
 Adem
@@ -31456,6 +31506,8 @@ Ambiguo
 Actores
 Arquitecturas
 Apropiado
+Adyacentes
+Android
 importancia
 inteligencia
 intelectivos
@@ -33056,6 +33108,9 @@ introducen
 introducidos
 inserci
 impredecible
+independencia
+inferior
+inconsistencia
 formaci
 factores
 fortalezas
@@ -34348,6 +34403,9 @@ falsos
 falso
 focus
 faciliten
+filtros
+formatos
+finalmente
 Utiliza
 Una
 Uno
@@ -36755,6 +36813,8 @@ Dan
 Desarrolladores
 Dur
 Desventajas
+Descomponen
+Desc
 Wechsler
 Wayne
 WhatsApp
@@ -39153,6 +39213,8 @@ navegaci
 narrativos
 navegables
 ngulos
+nodos
+nodo
 Maslow
 Miedo
 Maria
@@ -40479,6 +40541,8 @@ Mockups
 Mockup
 Muchos
 McMenamin
+Multicapa
+Mucho
 Gardner
 Goleman
 Generan
@@ -42816,6 +42880,7 @@ Fichas
 Favoritos
 Funcionales
 Falsos
+Filtros
 otras
 of
 on
@@ -44053,6 +44118,7 @@ ofrecidos
 observa
 optando
 ofrecida
+organizado
 Crea
 Cociente
 Con
@@ -45295,6 +45361,11 @@ Creaciön
 Comportamientos
 Contractual
 Catalunya
+Clientes
+Capa
+Compartida
+Centralizada
+Compartir
 vida
 viene
 va
@@ -47782,6 +47853,7 @@ Rect
 Requisito
 Reaserch
 Repositorios
+Redundancia
 Bar
 Bisquerra
 Bajo
@@ -50046,6 +50118,7 @@ Kaj
 KgWW
 Kul
 KUv
+Kernel
 gicos
 gica
 generan
@@ -51206,6 +51279,7 @@ generalmente
 gina
 gen
 generalizaciones
+generadores
 Ofrecen
 Orientaci
 Ordena
