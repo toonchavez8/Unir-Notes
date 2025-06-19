@@ -153,3 +153,11 @@ Plantea problemas en este modelo.
 
 ---
 
+## Microtest
+
+- ¿Cuál es un problema inherente a la utilización de arquitecturas en multicapas?
+	- Descubrimiento del contrato más adecuado por capa.
+- ¿De qué tipo son los patrones arquitectónicos tuberías y filtros, según el texto?
+	- Patrones que organizan flujos de datos linealmente.
+- ¿Qué no forma parte de la arquitectura multicapa de Android descrita?
+	- Una capa distribuida automáticamente entre servidores externos.
