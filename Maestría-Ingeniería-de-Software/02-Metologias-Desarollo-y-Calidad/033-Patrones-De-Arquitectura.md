@@ -162,6 +162,4 @@ Plantea problemas en este modelo.
 - ¿Qué no forma parte de la arquitectura multicapa de Android descrita?
 	- Una capa distribuida automáticamente entre servidores externos.
 
-
-
 https://dotnet.microsoft.com/es-es/download/e-book/serverless-apps-architecture/pdf
