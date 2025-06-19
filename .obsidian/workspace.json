@@ -44,7 +44,6 @@
             }
           }
         ],
-        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -102,8 +101,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "a25b807ad639ff42",
@@ -203,10 +201,10 @@
       "code-files:Create Code File": false
     }
   },
-  "active": "22c83f0720ca0987",
+  "active": "696ce8a2a1bac9ab",
   "lastOpenFiles": [
-    "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/mexissi04_act1.docx",
     "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad-01-Conceptos.md",
+    "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/mexissi04_act1.docx",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Actividad_02/mexissi01_act2.docx",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Actividad_02",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Actividad_01/~$tividad_01_Miguel_DeJesus_Chavez_Barragan.docx",
