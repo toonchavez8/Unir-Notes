@@ -1563,3 +1563,23 @@ console.log(`Tamaño total: ${root.getSize()} KB`);
 // O mostrar la estructura completa
 root.print('');
 ```
+
+
+----
+
+
+## MicroTest
+
+- ¿Cuál de estos elementos no está presente generalmente en los catálogos de patrones de diseño?
+	- Proyecciones financieras estimadas tras implementación del patrón.
+- ¿Qué característica no corresponde al patrón abstract factory de patrones de diseño?
+	- Implementación concreta del prototipo completo del patrón.
+- ¿Qué patrón de diseño debe elegirse al necesitar garantizar una única instancia de un objeto?
+	- Singleton.
+- ¿Cuál de las siguientes no corresponde a una clasificación común de patrones de diseño?
+	- Patrones de modificadores
+
+---
+
+## Leer mas
+
