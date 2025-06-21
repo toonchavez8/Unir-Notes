@@ -203,7 +203,7 @@ flowchart TB
 
 - Nodo maestro coordina y comunica con los esclavos.
 
-![Pasted image 20250621080904.png](https://chatgpt.com/c/Pasted%20image%2020250621080904.png)
+![[Pasted image 20250621080904.png]]
 
 ---
 
@@ -291,3 +291,4 @@ flowchart TB
 
 > "Una solución reutilizable para un problema que se presenta una y otra vez"  
 > (Alexander et al., 1977. _A Pattern Language_. Oxford University Press).
+
