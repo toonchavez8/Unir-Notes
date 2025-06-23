@@ -15428,6 +15428,7 @@ Prototype
 Proxy
 Pensemos
 Pizza
+Proyecciones
 Todo
 Thorndike
 Todos
@@ -18212,6 +18213,7 @@ alerta
 algoritmo
 abstractos
 amount
+abstract
 una
 un
 unas
@@ -22245,6 +22247,8 @@ empleando
 encargada
 estemos
 esqueleto
+estimadas
+elegirse
 que
 quien
 quiere
@@ -30414,6 +30418,7 @@ modelados
 manipulaci
 manipulado
 masa
+modificadores
 Arist
 Abraham
 Adem
@@ -34590,6 +34595,7 @@ familia
 factor
 facade
 figuras
+financieras
 Utiliza
 Una
 Uno
@@ -39406,6 +39412,7 @@ nodos
 nodo
 necesitemos
 notificar
+necesitar
 Maslow
 Miedo
 Maria
