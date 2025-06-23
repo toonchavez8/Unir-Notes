@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "84b165a3ed060172",
+            "id": "ae65180589c118de",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/017-Alcance-proceso-gestion-2.md",
+                "file": "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/018-tiempo-1.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -24,11 +24,11 @@
                   "showSearch": false,
                   "searchQuery": "",
                   "backlinkCollapsed": false,
-                  "unlinkedCollapsed": false
+                  "unlinkedCollapsed": true
                 }
               },
               "icon": "lucide-file",
-              "title": "017-Alcance-proceso-gestion-2"
+              "title": "018-tiempo-1"
             }
           }
         ],
@@ -189,13 +189,14 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "84b165a3ed060172",
+  "active": "ae65180589c118de",
   "lastOpenFiles": [
+    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/017-Alcance-proceso-gestion-2.md",
+    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/018-tiempo-1.md",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/attachments/Pasted image 20250623095033.png",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/attachments/Pasted image 20250623093355.png",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/attachments/Pasted image 20250623093313.png",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/016-Alcance-proceso-gestion-1.md",
-    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/017-Alcance-proceso-gestion-2.md",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/Untitled 1.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/035-Resumen-6.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/034-patrones-de-diseño.md",
@@ -209,7 +210,6 @@
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250620165809.png",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250620165741.png",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250620165722.png",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250620165705.png",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Books/Serverless-apps-Architecture-patterns-and-Azure-implementation.pdf",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/032-Tecnicas-de-reutilizacion.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/031-La-reutilización-del-software.md",
