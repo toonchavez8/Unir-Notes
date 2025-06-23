@@ -233,3 +233,9 @@ graph TD
 - Indica cuál de las siguientes situaciones no es consecuencia del retraso en la finalización de un proyecto:
 	- La calidad del producto se deteriora.
 
+
+
+
+https://www.ted.com/talks/laura_vanderkam_how_to_gain_control_of_your_free_time?language=es
+
+

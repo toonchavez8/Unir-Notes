@@ -1250,6 +1250,10 @@ Ishikawa
 Inteligente
 Integrados
 Independencia
+Indicadores
+Internas
+Identifica
+Indica
 Emocional
 Edward
 Expone
@@ -2582,6 +2586,7 @@ Esclavo
 Expandidos
 Enunciado
 EDT
+Externas
 Historia
 Howard
 Habilidades
@@ -5191,6 +5196,10 @@ deseos
 desglose
 descomposici
 disciplinas
+dependencias
+demora
+desviaci
+deteriora
 La
 Linea
 Las
@@ -7476,6 +7485,8 @@ heredan
 habitualmente
 habilitaci
 homog
+horas
+holgura
 referencia
 reconocer
 rmino
@@ -8943,6 +8954,7 @@ repasar
 revisan
 relativos
 requeridos
+retraso
 la
 los
 las
@@ -10176,6 +10188,7 @@ librer
 llamaremos
 liberada
 ligero
+lag
 sentimientos
 sugiere
 ser
@@ -11688,6 +11701,7 @@ substring
 source
 scope
 subentregables
+semanas
 tiempo
 tiene
 tica
@@ -14222,6 +14236,7 @@ Servir
 Sirve
 Subcontratistas
 Salida
+Secuenciar
 Plat
 Pir
 Payne
@@ -15482,6 +15497,7 @@ Perfecto
 Pregunta
 Plantillas
 Professor
+Preferidas
 Todo
 Thorndike
 Todos
@@ -16688,6 +16704,7 @@ Tuber
 Template
 Tama
 Tolerantes
+Tip
 aprendizaje
 ala
 aspectos
@@ -18276,6 +18293,11 @@ aeronaves
 apoyados
 actualizados
 alineada
+administrar
+arriba
+autorizados
+actualizaciones
+alimentan
 una
 un
 unas
@@ -19534,6 +19556,7 @@ usarlo
 utilizaci
 utilice
 uniformizar
+usada
 base
 biol
 bienestar
@@ -20705,6 +20728,7 @@ banda
 botones
 bot
 basarse
+barras
 emocional
 emociones
 en
@@ -22323,6 +22347,8 @@ entregar
 estructurarse
 estimados
 evaluarse
+exacto
+exitoso
 que
 quien
 quiere
@@ -27943,6 +27969,8 @@ creep
 cronogramas
 compatibilidad
 complementario
+calendario
+correcciones
 Nic
 Necesidades
 No
@@ -30527,6 +30555,7 @@ mensajer
 manejables
 monitoreo
 matriz
+manualmente
 Arist
 Abraham
 Adem
@@ -31789,6 +31818,7 @@ Arquitect
 Aplicaciones
 Aceptaci
 Abarcan
+Adelantos
 importancia
 inteligencia
 intelectivos
@@ -33408,6 +33438,7 @@ instalarlo
 intermediario
 incluya
 industrias
+iterativamente
 formaci
 factores
 fortalezas
@@ -37138,6 +37169,9 @@ Descomponer
 Descompone
 Diccionario
 Descomposici
+Discrecionales
+Diferencia
+Diagramas
 Wechsler
 Wayne
 WhatsApp
@@ -40881,6 +40915,7 @@ Multinivel
 Mientras
 Matriz
 MAR
+Modificadores
 Gardner
 Goleman
 Generan
@@ -41996,6 +42031,7 @@ Generador
 Gamma
 GOF
 Grano
+GanttProject
 Formula
 Feedback
 Francis
@@ -43228,6 +43264,7 @@ Factory
 Funcionalidades
 Fallos
 Fuente
+Fin
 otras
 of
 on
@@ -45736,6 +45773,8 @@ Coinciden
 Criterios
 Complementos
 Conclusiones
+Cuantificar
+Calcula
 vida
 viene
 va
@@ -48239,6 +48278,7 @@ Recopilar
 Respuesta
 Responsabilidades
 Relaciona
+Rara
 Bar
 Bisquerra
 Bajo
@@ -51672,6 +51712,7 @@ gang
 getSize
 grueso
 guiada
+gerencia
 Ofrecen
 Orientaci
 Ordena
@@ -52800,6 +52841,7 @@ Oxford
 Observer
 Opci
 Organizativos
+Obligatorias
 Vergüenza
 Valores
 Vision
