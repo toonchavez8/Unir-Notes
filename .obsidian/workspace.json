@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "1e818956162d07dd",
+            "id": "84b165a3ed060172",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/034-patrones-de-diseño.md",
+                "file": "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/017-Alcance-proceso-gestion-2.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,35 +28,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "034-patrones-de-diseño"
-            }
-          },
-          {
-            "id": "baae12866f25ab26",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
+              "title": "017-Alcance-proceso-gestion-2"
             }
           }
         ],
-        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -214,15 +189,20 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "baae12866f25ab26",
+  "active": "84b165a3ed060172",
   "lastOpenFiles": [
+    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/attachments/Pasted image 20250623095033.png",
+    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/attachments/Pasted image 20250623093355.png",
+    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/attachments/Pasted image 20250623093313.png",
+    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/016-Alcance-proceso-gestion-1.md",
+    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/017-Alcance-proceso-gestion-2.md",
+    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/Untitled 1.md",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/035-Resumen-6.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/034-patrones-de-diseño.md",
     "conflict-files-obsidian-git.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250621080927.png",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250621080904.png",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250621080738.png",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/035-Resumen-6.md",
-    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/016-Alcance-proceso de gestion.md",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/015-Objetos-Alcance.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/033-Patrones-De-Arquitectura.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250620165833.png",
@@ -230,8 +210,6 @@
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250620165741.png",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250620165722.png",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250620165705.png",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250620165648.png",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250620165605.png",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Books/Serverless-apps-Architecture-patterns-and-Azure-implementation.pdf",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/032-Tecnicas-de-reutilizacion.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/031-La-reutilización-del-software.md",
@@ -258,8 +236,6 @@
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Actividad_01/Actividad01_mexissi01.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Actividad_01/Actividad-01-Grading-Criteria.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/026-Modelo-estatico-avansado.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/024-Resumen-tema-4.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/005-Stakeholders.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Books/El Metamodelo Ecore.md"
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/024-Resumen-tema-4.md"
   ]
 }
