@@ -1259,6 +1259,7 @@ Installer
 Iniciamos
 Inicializamos
 IDE
+IqbOz
 Emocional
 Edward
 Expone
@@ -2604,6 +2605,8 @@ EString
 EclipseApplication
 EjemploListaCompra
 Extendemos
+Excel
+EDh
 Historia
 Howard
 Habilidades
@@ -3689,6 +3692,10 @@ Hide
 Haz
 Hacemos
 Holgura
+HRH
+HiHp
+Hjq
+Htl
 definiciones
 de
 dem
@@ -5230,6 +5237,10 @@ decorar
 directora
 descargaremos
 duraciones
+dicho
+dedicaci
+durar
+datPK
 La
 Linea
 Las
@@ -7528,6 +7539,7 @@ haz
 herencias
 herede
 holguras
+hubiera
 referencia
 reconocer
 rmino
@@ -9007,6 +9019,12 @@ relacione
 retrasa
 restan
 retrasarse
+realizado
+retrasar
+retrasase
+retrase
+rCM
+rnV
 la
 los
 las
@@ -10253,6 +10271,7 @@ listaCompra
 litros
 label
 link
+lrT
 sentimientos
 sugiere
 ser
@@ -11783,6 +11802,9 @@ soportara
 suman
 sucesoras
 slides
+semana
+soluciona
+soS
 tiempo
 tiene
 tica
@@ -13073,6 +13095,7 @@ terminarlo
 tendremos
 tablas
 tengamos
+trabajan
 Siglo
 Self
 Se
@@ -14330,6 +14353,8 @@ Supermercado
 Selection
 Salta
 Slack
+Sheets
+SEMANAS
 Plat
 Pir
 Payne
@@ -15598,6 +15623,9 @@ Primera
 Pulsaremos
 Ponle
 Pulsa
+Planteamiento
+Pua
+PqV
 Todo
 Thorndike
 Todos
@@ -16807,6 +16835,11 @@ Tolerantes
 Tip
 Table
 Tarea
+TAREA
+Tjos
+TDz
+Tfv
+TrDO
 aprendizaje
 ala
 aspectos
@@ -18407,6 +18440,10 @@ adiremos
 arrancado
 anidar
 abstractas
+asignadas
+acabar
+acaba
+asignas
 una
 un
 unas
@@ -19669,6 +19706,8 @@ usada
 utensilios
 ubicarlo
 unida
+ujKb
+uUUd
 base
 biol
 bienestar
@@ -20848,6 +20887,9 @@ blanco
 bamos
 buton
 boolean
+bEy
+bAd
+bSg
 emocional
 emociones
 en
@@ -22484,6 +22526,7 @@ extensiones
 enumerado
 excedan
 exporte
+eQpmz
 que
 quien
 quiere
@@ -23539,6 +23582,8 @@ qqKQ
 quinas
 queramos
 quality
+qIG
+qmR
 juegan
 json
 justo
@@ -24701,6 +24746,8 @@ jNe
 jpq
 jugadores
 jab
+jtz
+jIK
 papel
 proceso
 pueden
@@ -26263,6 +26310,11 @@ posteriormente
 plugin
 pone
 pulsar
+proporcionado
+practicar
+pregunta
+pOR
+pnz
 clave
 coment
 capacidad
@@ -28139,6 +28191,7 @@ cierra
 composiciones
 columnas
 columna
+colisi
 Nic
 Necesidades
 No
@@ -29270,6 +29323,8 @@ Navegaci
 Nodo
 Nodos
 NumberFormatException
+Numbers
+NbD
 maco
 motivar
 menes
@@ -30733,6 +30788,8 @@ muestre
 metamodelo
 modificando
 mencionadas
+mitad
+marcar
 Arist
 Abraham
 Adem
@@ -32003,6 +32060,7 @@ Attribute
 Application
 Airtable
 Alternativa
+ASIGNADO
 importancia
 inteligencia
 intelectivos
@@ -34942,6 +35000,10 @@ fino
 ferroviaria
 finalice
 familiarizarnos
+fijo
+fBq
+fMFGY
+fRM
 Utiliza
 Una
 Uno
@@ -36150,6 +36212,8 @@ Universitat
 Usarlo
 University
 Utensilios
+UwW
+Ubx
 David
 Describe
 Developing
@@ -37376,6 +37440,10 @@ Duraciones
 Desarollo
 Denom
 Deja
+DEPENDENCIA
+DURACI
+DLG
+DNC
 Wechsler
 Wayne
 WhatsApp
@@ -38559,6 +38627,7 @@ Wireframes
 WordPress
 Work
 Wizard
+Wewq
 no
 nos
 nuestro
@@ -39786,6 +39855,10 @@ nucleares
 neos
 nala
 nima
+nXPXQ
+nAw
+npAg
+nkM
 Maslow
 Miedo
 Maria
@@ -41129,6 +41202,11 @@ Masa
 Molde
 Maestr
 Metologias
+MIfDaJ
+MLqO
+MuU
+MDj
+Muik
 Gardner
 Goleman
 Generan
@@ -42246,6 +42324,7 @@ GOF
 Grano
 GanttProject
 Genera
+GFe
 Formula
 Feedback
 Francis
@@ -43481,6 +43560,9 @@ Fuente
 Fin
 Foreign
 ForeignKey
+FWT
+FEZh
+FnC
 otras
 of
 on
@@ -44728,6 +44810,8 @@ organigrama
 optimista
 ocurrido
 organizarla
+obju
+oOi
 Crea
 Cociente
 Con
@@ -46003,6 +46087,9 @@ Child
 Columna
 Column
 Clockify
+Considerando
+CSj
+CvK
 vida
 viene
 va
@@ -47226,6 +47313,10 @@ visor
 vistas
 validados
 validarse
+var
+verD
+vmbe
+vhg
 Reuven
 REA
 Re
@@ -48512,6 +48603,7 @@ Requeridos
 Relation
 Run
 Ruta
+RECURSO
 Bar
 Bisquerra
 Bajo
@@ -51948,6 +52040,9 @@ getSize
 grueso
 guiada
 gerencia
+gWO
+gkoG
+gjc
 Ofrecen
 Orientaci
 Ordena
@@ -54175,6 +54270,7 @@ Virtual
 Vlissides
 Verificando
 Vulnerabilidad
+VMG
 yo
 ya
 you
@@ -55334,6 +55430,8 @@ yBO
 yeT
 yzj
 yTVN
+yzR
+ywl
 Qui
 Qu
 Que
@@ -56486,6 +56584,7 @@ QGv
 QHJ
 Quieren
 Queremos
+QREh
 will
 words
 workspace
@@ -57585,6 +57684,7 @@ wireframes
 wireframe
 workshops
 width
+wnZ
 Johnson
 James
 Johari
@@ -59788,6 +59888,10 @@ xkD
 xND
 xRO
 xico
+xNb
+xgJ
+xcy
+xZzM
 zonas
 zona
 zero
@@ -60936,6 +61040,8 @@ zFY
 zVap
 zkxS
 zumo
+zeL
+zYyG
 Yetton
 Yes
 You
@@ -62055,6 +62161,7 @@ YNq
 YJN
 Ybp
 YrY
+YnD
 Zen
 ZD
 Zs
@@ -63167,6 +63274,8 @@ ZPY
 ZGK
 ZtP
 Ztm
+Zck
+ZRQmW
 ktor
 knowledge
 keys
@@ -64381,6 +64490,7 @@ kkH
 kkbr
 ksw
 kernel
+kob
 XOR
 XX
 XP
@@ -65473,6 +65583,9 @@ XmQ
 XkgKj
 Xkgn
 XVa
+XfuP
+XxS
+XEM
 Äy
 ÄP
 Äe
