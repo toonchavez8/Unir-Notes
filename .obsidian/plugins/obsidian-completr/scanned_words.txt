@@ -3688,6 +3688,7 @@ Heur
 Hide
 Haz
 Hacemos
+Holgura
 definiciones
 de
 dem
@@ -5228,6 +5229,7 @@ decorado
 decorar
 directora
 descargaremos
+duraciones
 La
 Linea
 Las
@@ -7525,6 +7527,7 @@ hornear
 haz
 herencias
 herede
+holguras
 referencia
 reconocer
 rmino
@@ -9001,6 +9004,9 @@ rat
 runtime
 recursiva
 relacione
+retrasa
+restan
+retrasarse
 la
 los
 las
@@ -11774,6 +11780,9 @@ secuencial
 stamo
 separada
 soportara
+suman
+sucesoras
+slides
 tiempo
 tiene
 tica
@@ -14320,6 +14329,7 @@ Saldr
 Supermercado
 Selection
 Salta
+Slack
 Plat
 Pir
 Payne
@@ -16796,6 +16806,7 @@ Tama
 Tolerantes
 Tip
 Table
+Tarea
 aprendizaje
 ala
 aspectos
@@ -22471,6 +22482,8 @@ ejercicio
 extender
 extensiones
 enumerado
+excedan
+exporte
 que
 quien
 quiere
@@ -30719,6 +30732,7 @@ mexissi
 muestre
 metamodelo
 modificando
+mencionadas
 Arist
 Abraham
 Adem
@@ -31987,6 +32001,8 @@ Archivos
 Aceptaremos
 Attribute
 Application
+Airtable
+Alternativa
 importancia
 inteligencia
 intelectivos
@@ -39769,6 +39785,7 @@ necesitar
 nucleares
 neos
 nala
+nima
 Maslow
 Miedo
 Maria
@@ -45985,6 +46002,7 @@ Columns
 Child
 Columna
 Column
+Clockify
 vida
 viene
 va
@@ -48493,6 +48511,7 @@ Recuerda
 Requeridos
 Relation
 Run
+Ruta
 Bar
 Bisquerra
 Bajo
