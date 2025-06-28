@@ -62,20 +62,20 @@ Resumen tema 3
 
 # Semana 5 (19/05/2025 - 23/05/2025)
 
-- [ ] Revisar **Tema 4. Planificación: alcance y tiempo**:
-  - [ ] 4.1 Introducción y objetivos
-  - [ ] 4.2 Objetivos y alcance
-  - [ ] 4.3 Alcance: definiciones y objetivos
-  - [ ] 4.4 Alcance: los procesos de gestión
-  - [ ] 4.5 Tiempo
-  - [ ] 4.6 Herramientas
-- [ ] Completar **Actividad: Planificación de Proyectos (4.0 p.)** – **02/06/2025**
-- [ ] Asistir a la clase para explicar la actividad 1
+- [x] Revisar **Tema 4. Planificación: alcance y tiempo**:
+  - [x] 4.1 Introducción y objetivos
+  - [x] 4.2 Objetivos y alcance
+  - [x] 4.3 Alcance: definiciones y objetivos
+  - [x] 4.4 Alcance: los procesos de gestión
+  - [x] 4.5 Tiempo
+  - [x] 4.6 Herramientas
+- [x] Completar **Actividad: Planificación de Proyectos (4.0 p.)** – **02/06/2025**
+- [x] Asistir a la clase para explicar la actividad 1
 
 # Semana 6 (26/05/2025 - 30/05/2025)
 
-- [ ] Revisar continuación **Tema 4. Planificación: alcance y tiempo**
-- [ ] Asistir a la clase de refuerzo y resolución de dudas actividad 1
+- [x] Revisar continuación **Tema 4. Planificación: alcance y tiempo**
+- [x] Asistir a la clase de refuerzo y resolución de dudas actividad 1
 
 # Semana 7 (02/06/2025 - 06/06/2025)
 
