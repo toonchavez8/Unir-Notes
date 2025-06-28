@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/016-Alcance-proceso de gestion.md",
+                "file": "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad-01-Conceptos.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "016-Alcance-proceso de gestion"
+              "title": "Actividad-01-Conceptos"
             }
           }
         ],
@@ -89,7 +89,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 286.5
+    "width": 286.5,
+    "collapsed": true
   },
   "right": {
     "id": "a25b807ad639ff42",
@@ -175,7 +176,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -200,8 +202,18 @@
   },
   "active": "37b369137700a6e1",
   "lastOpenFiles": [
-    "Maestría-Ingeniería-de-Software/Calendario semestral.pdf",
+    "conflict-files-obsidian-git.md",
+    "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad-01-Conceptos.md",
+    "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/mexissi04_act1.docx",
+    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/019-tiempo-2.md",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/016-Alcance-proceso de gestion.md",
+    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/attachments/Pasted image 20250623095033.png",
+    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/attachments/Pasted image 20250623093355.png",
+    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/attachments/Pasted image 20250623093313.png",
+    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/018-tiempo-1.md",
+    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/017-Alcance-proceso-gestion-2.md",
+    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/016-Alcance-proceso-gestion-1.md",
+    "Maestría-Ingeniería-de-Software/Calendario semestral.pdf",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/015-Objetos-Alcance.md",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/00_ideas_clave.pdf",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/014-Resumen-3.md",
@@ -213,21 +225,15 @@
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250621080738.png",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/034-patrones-de-diseño.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/026-Modelo-estatico-avansado.md",
-    "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad-01-Conceptos.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/{F8EF9865-CD01-4518-9560-2960D7D848D7}.png",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/{3A709DB7-874E-4E89-A631-BD135A53B1FC}.png",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250620165833.png",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250620165809.png",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250620165741.png",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250620165722.png",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250620165705.png",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Books/Serverless-apps-Architecture-patterns-and-Azure-implementation.pdf",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/mexissi01_act2.docx",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Actividad_02/mexissi01_act2.docx",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Actividad_02",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Actividad_01/~WRL3307.tmp",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Actividad_01/~$tividad_01_Miguel_DeJesus_Chavez_Barragan.docx",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Actividad_01/attachments",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Actividad_01/Actividad_01_Miguel_DeJesús_Chávez_Barragan.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Actividad_01/Actividad01_mexissi01.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Actividad_01/Actividad-01-Grading-Criteria.md",
@@ -240,11 +246,6 @@
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/027-Modelo-dinamico-adv.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Pasted.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/025-modelo-Avansado-de-requisitos.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/024-Resumen-tema-4.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/005-Stakeholders.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/004-Modelo-proceso-dessarollo-software.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/002-Crisis-de-software.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/001-Ingenieria-de-software.md",
-    "Maestría-Ingeniería-de-Software/links/Ágiles.md"
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/024-Resumen-tema-4.md"
   ]
 }
