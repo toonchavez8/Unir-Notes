@@ -13,22 +13,10 @@
             "state": {
               "type": "docx-view",
               "state": {
-                "file": "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/Actividades/Actividad 2/Actividad-2-Miguel_De_Jesus_Chavez.docx"
+                "file": "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Actividad_02/mexissi01_act2 1.docx"
               },
               "icon": "lucide-file",
-              "title": "Actividad-2-Miguel_De_Jesus_Chavez"
-            }
-          },
-          {
-            "id": "b835549d92d227cb",
-            "type": "leaf",
-            "state": {
-              "type": "docx-view",
-              "state": {
-                "file": "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/Actividades/Actividad 2/mexdigete06t5act.docx"
-              },
-              "icon": "lucide-file",
-              "title": "mexdigete06t5act"
+              "title": "mexissi01_act2 1"
             }
           }
         ],
@@ -191,21 +179,22 @@
   },
   "active": "b74e6b9aa2987edc",
   "lastOpenFiles": [
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Actividad_03/mexissi01_act3.docx",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Actividad_03/Organizacion Congreso Scrum.docx",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Actividad_03/Organizacion Congreso Scrum.md",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Actividad_03/adjuntosenunciadogrupal/featureMap.mp4",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Actividad_03/adjuntosenunciadogrupal/imgFeatureMap.PNG",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Actividad_03/adjuntosenunciadogrupal/trello.mp4",
+    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/Actividades/Actividad 2/Product Design Interview Playbook.pdf",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/Actividades/Actividad 2/Actividad-2-Miguel_De_Jesus_Chavez.md",
-    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/Actividades/Actividad 2/mexdigete06t5act.docx",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/Actividades/Actividad 2/Actividad-2-Miguel_De_Jesus_Chavez.docx",
+    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/Actividades/Actividad 2/mexdigete06t5act.docx",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Actividad_02/mexissi01_act2.md",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/Actividades/Actividad 1/01_Actividad_Planeacion_MiguelChavez.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Actividad_03/mexissi01_act3.docx",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Actividad_03/adjuntosenunciadogrupal/trello.mp4",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Actividad_03/adjuntosenunciadogrupal/imgTrello.PNG",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Actividad_03/adjuntosenunciadogrupal/imgFeatureMap.PNG",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Actividad_03/adjuntosenunciadogrupal/featureMap.mp4",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Actividad_03/adjuntosenunciadogrupal",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Actividad_03",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/Actividades/Actividad 2/~$xdigete06t5act.docx",
-    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/Actividades/Actividad 2/~$tividad-2-Miguel_De_Jesus_Chavez.docx",
-    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/Actividades/Actividad 1/mexdigete06t4actauto1.docx",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/022-Planificar-costos.md",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/021-Resumen-4.md",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/Agenda/Agenda todos.md",
@@ -234,7 +223,6 @@
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/025-modelo-Avansado-de-requisitos.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/029-Modelado-de-componetes.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/028-Diseno-modelado-con-prototipos.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/018-Resumen-tema-3.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Agenda/Agenda todos.md"
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/018-Resumen-tema-3.md"
   ]
 }
