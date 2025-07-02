@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/024-Control-de-costes-valor-ganado.md",
+                "file": "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Actividad_03/Organizacion Congreso Scrum.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "024-Control-de-costes-valor-ganado"
+              "title": "Organizacion Congreso Scrum"
             }
           }
         ],
@@ -159,14 +159,23 @@
               "icon": "lucide-list",
               "title": "Outline of mexissi01_act2"
             }
+          },
+          {
+            "id": "488ed5c54d6f83e9",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -191,12 +200,14 @@
   },
   "active": "408fc5885df1be5e",
   "lastOpenFiles": [
+    "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/mexissi04_act1.docx",
+    "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad-01-Conceptos.md",
+    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/024-Control-de-costes-valor-ganado.md",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/attachments/Pasted image 20250630170303.png",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/attachments/Pasted image 20250630170259.png",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/attachments/Pasted image 20250630170152.png",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/attachments/Pasted image 20250630170149.png",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/023-Presupuesto-curva-S.md",
-    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/024-Control-de-costes-valor-ganado.md",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/022-Planificar-costos.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Actividad_03/Organizacion Congreso Scrum.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Actividad_02/mexissi01_act2 1.docx",
@@ -222,7 +233,6 @@
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Actividad_02/Attachments/mexissi01_act2 15.jpeg",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Actividad_02/Attachments/mexissi01_act2 47.jpeg",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Actividad_02/Attachments/mexissi01_act2 46.jpeg",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Actividad_02/Attachments/mexissi01_act2 45.jpeg",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/018-tiempo-1.md",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/017-Alcance-proceso-gestion-2.md",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/016-Alcance-proceso-gestion-1.md",
@@ -235,7 +245,6 @@
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/032-Tecnicas-de-reutilizacion.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/031-La-reutilización-del-software.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/030-resumen-5.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/025-modelo-Avansado-de-requisitos.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/029-Modelado-de-componetes.md"
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/025-modelo-Avansado-de-requisitos.md"
   ]
 }
