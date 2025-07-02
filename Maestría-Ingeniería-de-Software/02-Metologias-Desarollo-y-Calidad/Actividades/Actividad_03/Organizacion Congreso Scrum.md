@@ -4,8 +4,13 @@
 
 1. **Asignar roles**
     - **Product Owner (PO):** Representa los intereses de la organización (ej. General Chair).
+	    - Maikal
     - **Scrum Master (SM):** Facilita el proceso Scrum y elimina impedimentos.
-    - **Scrum Team:** Grupo multidisciplinar (2–6 personas) encargado de ejecutar las tareas (hotel, catering, audiovisuales, registro, fotógrafo, logística, etc.).
+	    - Danny
+    - **Scrum Team:** Grupo multidisciplinar (2–6 personas) encargado de ejecutar las tareas (hotel, catering, audiovisuales, registro, fotógrafo, logística, etc.). 3
+	    - Miguel
+	    - Fernando
+	    - Octavio
 2. **Kick-off inicial** (1–2 horas)
     - El PO presenta visión, objetivos y alcance del congreso.
     - Definir el “producto”: la organización completa (sede, servicios, protocolo, logística).
@@ -88,13 +93,13 @@
 
 **Goal:** Provisión de catering y plan de bienvenida.
 
-|Tarea|HU|Est. (h)|
-|---|---|---|
-|Seleccionar proveedores coffee‑break|HU3|10|
-|Validar menú y restricciones|HU3|8|
-|Reservar cena de gala|HU4|12|
-|Crear guión de bienvenida y clausura|HU5|6|
-|Refinamiento inter-sprint|—|2|
+| Tarea                                | HU  | Est. (h) |
+| ------------------------------------ | --- | -------- |
+| Seleccionar proveedores coffee‑break | HU3 | 10       |
+| Validar menú y restricciones         | HU3 | 8        |
+| Reservar cena de gala                | HU4 | 12       |
+| Crear guión de bienvenida y clausura | HU5 | 6        |
+| Refinamiento inter-sprint            | —   | 2        |
 
 #### Sprint 3 – Comunicación y Cierre
 
@@ -134,13 +139,13 @@
 
 ## 8. Evidencias de Reuniones y Mejoras
 
-|Reunión|Evidencia|Mejora añadida|
-|---|---|---|
-|Kick-off|Acta con asistentes y objetivos|Vídeo introducción para ausentes|
-|Sprint Planning|Captura tablero sprint inicial|Incluir “Definition of Ready” para tareas complejas|
-|Daily (cada día)|Registro de impedimentos|Checklist móvil para seguimiento rápido|
-|Sprint Review|Vídeo demo + acta de feedback|Encuesta anónima en vivo|
-|Retrospective|Mapa de calor “bien/mal”|Votación online anónima de acciones de mejora|
+| Reunión          | Evidencia                       | Mejora añadida                                      |
+| ---------------- | ------------------------------- | --------------------------------------------------- |
+| Kick-off         | Acta con asistentes y objetivos | Vídeo introducción para ausentes                    |
+| Sprint Planning  | Captura tablero sprint inicial  | Incluir “Definition of Ready” para tareas complejas |
+| Daily (cada día) | Registro de impedimentos        | Checklist móvil para seguimiento rápido             |
+| Sprint Review    | Vídeo demo + acta de feedback   | Encuesta anónima en vivo                            |
+| Retrospective    | Mapa de calor “bien/mal”        | Votación online anónima de acciones de mejora       |
 
 ## 9. Reflexión del Aprendizaje
 
