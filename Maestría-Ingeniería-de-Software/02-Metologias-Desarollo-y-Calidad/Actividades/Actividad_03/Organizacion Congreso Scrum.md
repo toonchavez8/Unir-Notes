@@ -4,8 +4,13 @@
 
 1. **Asignar roles**
     - **Product Owner (PO):** Representa los intereses de la organización (ej. General Chair).
+	    - Maikal
     - **Scrum Master (SM):** Facilita el proceso Scrum y elimina impedimentos.
-    - **Scrum Team:** Grupo multidisciplinar (2–6 personas) encargado de ejecutar las tareas (hotel, catering, audiovisuales, registro, fotógrafo, logística, etc.).
+	    - Danny
+    - **Scrum Team:** Grupo multidisciplinar (2–6 personas) encargado de ejecutar las tareas (hotel, catering, audiovisuales, registro, fotógrafo, logística, etc.). 3
+	    - Miguel
+	    - Fernando
+	    - Octavio
 2. **Kick-off inicial** (1–2 horas)
     - El PO presenta visión, objetivos y alcance del congreso.
     - Definir el “producto”: la organización completa (sede, servicios, protocolo, logística).
@@ -46,16 +51,16 @@
     - PO valida y ajusta según ROI.
 5. **Product Backlog**
 
-|ID|Historia|Puntos|Prioridad|
-|---|---|---|---|
-|HU1|Acreditaciones|3|Must|
-|HU2|Salas AV|8|Must|
-|HU3|Coffee‑breaks|5|Should|
-|HU4|Cena de gala|8|Could|
-|HU5|Kit ponentes|2|Should|
-|HU6|Burndown chart|3|Must|
-|HU7|Fotógrafo suplente|5|Could|
-|HU8|Menú sin alérgenos|3|Must|
+| ID  | Historia           | Puntos | Prioridad |
+| --- | ------------------ | ------ | --------- |
+| HU1 | Acreditaciones     | 3      | Must      |
+| HU2 | Salas AV           | 8      | Must      |
+| HU3 | Coffee‑breaks      | 5      | Should    |
+| HU4 | Cena de gala       | 8      | Could     |
+| HU5 | Kit ponentes       | 2      | Should    |
+| HU6 | Burndown chart     | 3      | Must      |
+| HU7 | Fotógrafo suplente | 5      | Could     |
+| HU8 | Menú sin alérgenos | 3      | Must      |
 
 ## 3. Release Plan y Sprint Planning
 
@@ -76,25 +81,25 @@
 
 **Goal:** Tener sede y registro operativo.
 
-|Tarea|HU|Est. (h)|
-|---|---|---|
-|Firmar contrato con la sede|HU2|8|
-|Contratar AV para salas y sala principal|HU2|16|
-|Configurar registro online|HU1|12|
-|Diseñar/imprimir acreditaciones|HU1|6|
-|Actualizar burndown chart diario|HU6|diario|
+| Tarea                                    | HU  | Est. (h) |
+| ---------------------------------------- | --- | -------- |
+| Firmar contrato con la sede              | HU2 | 8        |
+| Contratar AV para salas y sala principal | HU2 | 16       |
+| Configurar registro online               | HU1 | 12       |
+| Diseñar/imprimir acreditaciones          | HU1 | 6        |
+| Actualizar burndown chart diario         | HU6 | diario   |
 
 #### Sprint 2 – Servicios y Protocolo
 
 **Goal:** Provisión de catering y plan de bienvenida.
 
-|Tarea|HU|Est. (h)|
-|---|---|---|
-|Seleccionar proveedores coffee‑break|HU3|10|
-|Validar menú y restricciones|HU3|8|
-|Reservar cena de gala|HU4|12|
-|Crear guión de bienvenida y clausura|HU5|6|
-|Refinamiento inter-sprint|—|2|
+| Tarea                                | HU  | Est. (h) |
+| ------------------------------------ | --- | -------- |
+| Seleccionar proveedores coffee‑break | HU3 | 10       |
+| Validar menú y restricciones         | HU3 | 8        |
+| Reservar cena de gala                | HU4 | 12       |
+| Crear guión de bienvenida y clausura | HU5 | 6        |
+| Refinamiento inter-sprint            | —   | 2        |
 
 #### Sprint 3 – Comunicación y Cierre
 
@@ -134,13 +139,13 @@
 
 ## 8. Evidencias de Reuniones y Mejoras
 
-|Reunión|Evidencia|Mejora añadida|
-|---|---|---|
-|Kick-off|Acta con asistentes y objetivos|Vídeo introducción para ausentes|
-|Sprint Planning|Captura tablero sprint inicial|Incluir “Definition of Ready” para tareas complejas|
-|Daily (cada día)|Registro de impedimentos|Checklist móvil para seguimiento rápido|
-|Sprint Review|Vídeo demo + acta de feedback|Encuesta anónima en vivo|
-|Retrospective|Mapa de calor “bien/mal”|Votación online anónima de acciones de mejora|
+| Reunión          | Evidencia                       | Mejora añadida                                      |
+| ---------------- | ------------------------------- | --------------------------------------------------- |
+| Kick-off         | Acta con asistentes y objetivos | Vídeo introducción para ausentes                    |
+| Sprint Planning  | Captura tablero sprint inicial  | Incluir “Definition of Ready” para tareas complejas |
+| Daily (cada día) | Registro de impedimentos        | Checklist móvil para seguimiento rápido             |
+| Sprint Review    | Vídeo demo + acta de feedback   | Encuesta anónima en vivo                            |
+| Retrospective    | Mapa de calor “bien/mal”        | Votación online anónima de acciones de mejora       |
 
 ## 9. Reflexión del Aprendizaje
 
