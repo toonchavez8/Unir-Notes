@@ -11,12 +11,24 @@
             "id": "4edfdf1da2036e4f",
             "type": "leaf",
             "state": {
-              "type": "docx-view",
+              "type": "markdown",
               "state": {
-                "file": "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/mexissi04_act3.docx"
+                "file": "Educative-io/Java-Masterclass/003-Simple-java-program.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
               "icon": "lucide-file",
-              "title": "mexissi04_act3"
+              "title": "003-Simple-java-program"
             }
           }
         ],
@@ -189,8 +201,11 @@
   },
   "active": "4edfdf1da2036e4f",
   "lastOpenFiles": [
-    "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/mexissi04_act2.docx",
     "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/mexissi04_act3.docx",
+    "Educative-io/Java-Masterclass/Code-tests/Sample.java",
+    "Educative-io/Java-Masterclass/Code-tests/001sample.java",
+    "Educative-io/Java-Masterclass/Code-tests",
+    "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/mexissi04_act2.docx",
     "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/mexissi04_act1.docx",
     "Educative-io/Java-Masterclass/003-Simple-java-program.md",
     "Educative-io/Java-Masterclass/attachments/Pasted image 20250715133352.png",
@@ -210,12 +225,9 @@
     "Educative-io/Design-Patterns/01-Introduction.md",
     "Educative-io/Design-Patterns/attachments/Pasted image 20250715090040.png",
     "Educative-io/Design-Patterns/attachments",
-    "Educative-io/Design-Patterns",
-    "Educative-io",
     "conflict-files-obsidian-git.md",
     "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad-01-Conceptos.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Actividad_03/Organizacion Congreso Scrum.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Actividad_03/mexissi01_act3.docx",
     "StudyGuides/Interview Questions and Answers.md",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/Actividades/Actividad 2/Untitled.md",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/024-Control-de-costes-valor-ganado.md",

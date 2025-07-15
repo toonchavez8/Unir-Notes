@@ -122,10 +122,86 @@ We will mention other conventions as we encounter them.
 >  public static void main(String[] args) {
 >  ```
 > 
->  This style saves vertical space, which is important when viewing a program on a small screen. However, this style does not align the paired open and close braces. We much prefer to align our braces for clarity. You can align your braces and save vertical space by writing the open brace at the beginning of the first line to be bracketed. For example, using this style, the class would begin as follows:
+> This style saves vertical space, which is important when viewing a program on a small screen. However, this style does not align the paired open and close braces. We much prefer to align our braces for clarity. You can align your braces and save vertical space by writing the open brace at the beginning of the first line to be bracketed. For example, using this style, the class would begin as follows:
 >  ```java
 >  public class Sample 
 >     { public static void main(String[] args)
 >  
 >  ```
 
+## White space[](https://www.educative.io/courses/java-masterclass-developers/a-simple-java-program#White-space)
+
+The white areas in the above program are known as **white space** and are caused by
+
+- Blank characters (spaces)
+- Tabs
+- New-line characters
+
+The blanks that separate words are necessary for a program, but other white spaces that appear as indentations and new lines are there for people, not for the computer.
+
+## Displaying text[](https://www.educative.io/courses/java-masterclass-developers/a-simple-java-program#Displaying-text)
+
+We introduce two Java statements that we can use to display text.
+
+### `System.out.println`[](https://www.educative.io/courses/java-masterclass-developers/a-simple-java-program#Systemoutprintln)
+
+The above program displays text on the computer’s screen. Let’s focus on the statements that form the body of the method `main`.
+
+The statement that begins with `System.out.println` displays one line of text. The identifier `println` means _print line_. Notice that the statement contains text, enclosed in double-quotes, and placed within a pair of parentheses. The text and quotes are a **string literal**. The text, but not the quotes, is displayed on the next line of the screen output. Thus, the statements
+
+```java
+System.out.println("This string is displayed on one line.");
+
+System.out.println("This string appears on the second line.");
+
+System.out.println(); // The third line is blank
+```
+
+display three lines of output, the last of which is blank.
+
+Notice that each of these statements ends with a semicolon. This punctuation separates one statement from the next within the body of a method. Note the position of the semicolon in the third statement. If we placed it after the comment, it would become part of the comment. Since the compiler ignores comments, the statement would no longer have an ending semicolon, which is a syntax error.
+
+### `System.out.print`[](https://www.educative.io/courses/java-masterclass-developers/a-simple-java-program#Systemoutprint)
+
+When we use `println`, text is displayed and then an advance is made to the next line. If we use `print` instead of `println`, no advance to the next line occurs. Instead, a subsequent `print` or `println` would place text on the same line. For example, the statements
+
+```java
+System.out.print("Four ");
+
+System.out.print("and twenty ");
+
+System.out.println("blackbirds");
+
+System.out.println("Baked in a pie.");
+
+```
+
+produce two lines of output:
+
+```bash
+Four and twenty blackbirds
+
+Baked in a pie.
+
+```
+
+The second `print` statement begins where the first `print` left off, placing `and twenty` on the same line as `Four`. The first `println` statement begins where the second `print` ends, placing `blackbirds` on the same line as before, and then advances to the next line. Thus, the text in the last `println` displays on a new line.
+
+Notice the blank characters at the end of the strings `"Four "` and `"and twenty "` in the program listing. we must include these to separate the words that are displayed. Java doesn’t insert spaces in output for us. We’ll learn more about using `println` and `print` statements later in this chapter.
+
+> [!question] 
+> Checkpoint question
+> 
+> Suppose that you want to display your name on one line, a row of dashes on the next line, and nothing on the third line. What `println` statements will do this? Write your answer in the black window below and click the RUN button to check it.
+> ```java
+> public class CheckpointQuestion 
+> {
+>    public static void main( String args[] ) 
+>    {
+>        // Write your answer here:
+>         System.out.println("Miguel");
+>         System.out.println("-------");
+>         System.out.println();
+>    } // End main
+> } // End CheckpointQuestion
+> ```
