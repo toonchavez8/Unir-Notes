@@ -3415,6 +3415,7 @@ Implements
 Import
 Instanceof
 Int
+Instead
 Emocional
 Edward
 Expone
@@ -13921,6 +13922,9 @@ designers
 discuss
 distinct
 dictated
+double
+displayed
+dashes
 La
 Linea
 Las
@@ -27600,6 +27604,9 @@ learn
 letter
 labeled
 long
+literal
+longer
+left
 sentimientos
 sugiere
 ser
@@ -31250,6 +31257,10 @@ stylistic
 spaces
 saves
 screen
+semicolon
+separates
+subsequent
+strings
 tiempo
 tiene
 tica
@@ -34710,6 +34721,7 @@ task
 though
 table
 technically
+third
 Siglo
 Self
 Se
@@ -38028,6 +38040,7 @@ Strict
 Super
 Switch
 Synchronized
+Suppose
 Plat
 Pir
 Payne
@@ -48686,6 +48699,7 @@ aiAB
 application
 avoid
 align
+answer
 una
 un
 unas
@@ -55418,6 +55432,8 @@ brace
 being
 bracketed
 beginning
+blanks
+become
 emocional
 emociones
 en
@@ -59260,6 +59276,8 @@ execute
 encounter
 employer
 ease
+enclosed
+ending
 que
 quien
 quiere
@@ -62520,6 +62538,8 @@ qBX
 qDM
 qCv
 qCCCd
+quotes
+question
 juegan
 json
 justo
@@ -69508,6 +69528,11 @@ portion
 places
 paired
 prefer
+placed
+parentheses
+punctuation
+position
+placing
 clave
 coment
 capacidad
@@ -73558,6 +73583,8 @@ counterpart
 convention
 conventions
 close
+caused
+chapter
 Nic
 Necesidades
 No
@@ -76778,6 +76805,7 @@ NqcU
 NEp
 Native
 Null
+Notice
 maco
 motivar
 menes
@@ -87660,6 +87688,8 @@ indented
 interest
 improve
 important
+indentations
+ignores
 formaci
 factores
 fortalezas
@@ -97739,6 +97769,7 @@ DkW
 DaNI
 Display
 Default
+Displaying
 Wechsler
 Wayne
 WhatsApp
@@ -100967,6 +100998,7 @@ Whp
 WWWg
 Words
 While
+White
 no
 nos
 nuestro
@@ -104227,6 +104259,8 @@ nfc
 nbuc
 natural
 nSMu
+necessary
+nothing
 Maslow
 Miedo
 Maria
@@ -117265,6 +117299,7 @@ oVQg
 ofLK
 overview
 outer
+occurs
 Crea
 Cociente
 Con
@@ -120652,6 +120687,7 @@ Char
 Const
 Continue
 Conventions
+Checkpoint
 vida
 viene
 va
@@ -153313,6 +153349,7 @@ wUUU
 wYmu
 ways
 were
+white
 Johnson
 James
 Johari
