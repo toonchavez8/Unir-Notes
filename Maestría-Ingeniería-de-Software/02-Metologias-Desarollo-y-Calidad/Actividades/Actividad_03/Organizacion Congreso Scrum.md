@@ -51,16 +51,16 @@
     - PO valida y ajusta según ROI.
 5. **Product Backlog**
 
-|ID|Historia|Puntos|Prioridad|
-|---|---|---|---|
-|HU1|Acreditaciones|3|Must|
-|HU2|Salas AV|8|Must|
-|HU3|Coffee‑breaks|5|Should|
-|HU4|Cena de gala|8|Could|
-|HU5|Kit ponentes|2|Should|
-|HU6|Burndown chart|3|Must|
-|HU7|Fotógrafo suplente|5|Could|
-|HU8|Menú sin alérgenos|3|Must|
+| ID  | Historia           | Puntos | Prioridad |
+| --- | ------------------ | ------ | --------- |
+| HU1 | Acreditaciones     | 3      | Must      |
+| HU2 | Salas AV           | 8      | Must      |
+| HU3 | Coffee‑breaks      | 5      | Should    |
+| HU4 | Cena de gala       | 8      | Could     |
+| HU5 | Kit ponentes       | 2      | Should    |
+| HU6 | Burndown chart     | 3      | Must      |
+| HU7 | Fotógrafo suplente | 5      | Could     |
+| HU8 | Menú sin alérgenos | 3      | Must      |
 
 ## 3. Release Plan y Sprint Planning
 
@@ -81,13 +81,13 @@
 
 **Goal:** Tener sede y registro operativo.
 
-|Tarea|HU|Est. (h)|
-|---|---|---|
-|Firmar contrato con la sede|HU2|8|
-|Contratar AV para salas y sala principal|HU2|16|
-|Configurar registro online|HU1|12|
-|Diseñar/imprimir acreditaciones|HU1|6|
-|Actualizar burndown chart diario|HU6|diario|
+| Tarea                                    | HU  | Est. (h) |
+| ---------------------------------------- | --- | -------- |
+| Firmar contrato con la sede              | HU2 | 8        |
+| Contratar AV para salas y sala principal | HU2 | 16       |
+| Configurar registro online               | HU1 | 12       |
+| Diseñar/imprimir acreditaciones          | HU1 | 6        |
+| Actualizar burndown chart diario         | HU6 | diario   |
 
 #### Sprint 2 – Servicios y Protocolo
 

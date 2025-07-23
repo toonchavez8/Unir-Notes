@@ -42,9 +42,45 @@
               "icon": "lucide-file",
               "title": "Sprint 3"
             }
+          },
+          {
+            "id": "0ae4f7dc8b609ab5",
+            "type": "leaf",
+            "state": {
+              "type": "docx-view",
+              "state": {
+                "file": "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/mexissi04_act1.docx"
+              },
+              "icon": "lucide-file",
+              "title": "mexissi04_act1"
+            }
+          },
+          {
+            "id": "54da6d6117f051f7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Untitled.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Untitled"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -211,11 +247,14 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "35a0ed1720cf9db5",
+  "active": "54da6d6117f051f7",
   "lastOpenFiles": [
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Actividad_03/Sprintns/Sprint1.md",
+    "conflict-files-obsidian-git.md",
+    "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Untitled.md",
+    "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/mexissi04_act1.docx",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Actividad_03/Sprintns/Sprint 3.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Actividad_03/mexissi01_act3.docx",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Actividad_03/Sprintns/Sprint1.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Actividad_03/Sprintns/attachments/Pasted image 20250712160552.png",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Actividad_03/Sprintns/attachments",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Actividad_03/Sprintns",
@@ -230,9 +269,7 @@
     "StudyGuides",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/Actividades/Actividad 2/Actividad-2-Miguel_De_Jesus_Chavez.docx",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/Actividades/Actividad 2/~WRL1328.tmp",
-    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/Actividades/Actividad 2/~WRD1184.tmp",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/Actividades/Actividad 2/Actividad-2-Miguel_De_Jesus_Chavez.md",
-    "conflict-files-obsidian-git.md",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/attachments/Pasted image 20250630170303.png",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/attachments/Pasted image 20250630170259.png",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/attachments/Pasted image 20250630170152.png",
@@ -256,7 +293,6 @@
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/015-Objetos-Alcance.md",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/014-Resumen-3.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/035-Resumen-6.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/034-patrones-de-diseño.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/026-Modelo-estatico-avansado.md"
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/034-patrones-de-diseño.md"
   ]
 }
