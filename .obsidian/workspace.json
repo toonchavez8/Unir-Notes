@@ -78,9 +78,33 @@
               "icon": "lucide-file",
               "title": "Untitled"
             }
+          },
+          {
+            "id": "ad8ce72287f9e502",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -247,52 +271,52 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "54da6d6117f051f7",
+  "active": "ad8ce72287f9e502",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
     "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Untitled.md",
-    "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/mexissi04_act1.docx",
+    "conflict-files-obsidian-git.md",
+    "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/mexissi04_act3.docx",
+    "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/mexissi04_act2.docx",
+    "Educative-io/Java-Masterclass/Prereq/attachments/Pasted image 20250715111459.png",
+    "Educative-io/Java-Masterclass/Prereq/attachments/Pasted image 20250715111247.png",
+    "Educative-io/Java-Masterclass/Prereq/attachments/Pasted image 20250715104128.png",
+    "Educative-io/Java-Masterclass/Prereq/attachments",
+    "Educative-io/Java-Masterclass/Prereq/001-Intro-to-computing.md",
+    "Educative-io/Java-Masterclass/attachments/Pasted image 20250715133352.png",
+    "Educative-io/Java-Masterclass/attachments/Pasted image 20250715114138.png",
+    "Educative-io/Java-Masterclass/Code-tests/Sample.java",
+    "Educative-io/Design-Patterns/attachments/Pasted image 20250715090040.png",
+    "Educative-io/Java-Masterclass/Prereq",
+    "Educative-io/Java-Masterclass/attachments",
+    "Educative-io/Java-Masterclass/Code-tests",
+    "Educative-io/Java-Masterclass/003-Simple-java-program.md",
+    "Educative-io/Java-Masterclass/002-Programing-Lang-Java.md",
+    "Educative-io/Java-Masterclass/001-first-look-java.md",
+    "Educative-io/Design-Patterns/02-Types-of-Design-patterns.md",
+    "Educative-io/Design-Patterns/attachments",
+    "Educative-io/Design-Patterns/01-Introduction.md",
+    "Educative-io/Design-Patterns/003-Builder-pattern.md",
+    "Educative-io/Java-Masterclass",
+    "Educative-io/Design-Patterns",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Actividad_03/Sprintns/Sprint 3.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Actividad_03/mexissi01_act3.docx",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Actividad_03/Sprintns/Sprint1.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Actividad_03/Sprintns/attachments/Pasted image 20250712160552.png",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Actividad_03/Sprintns/attachments",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Actividad_03/Sprintns",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Actividad_03/attachments/Pasted image 20250712155825.png",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Actividad_03/attachments",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Actividad_03/Organizacion Congreso Scrum.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Actividad_03/adjuntosenunciadogrupal/imgTrello.PNG",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Actividad_03/adjuntosenunciadogrupal/trello.mp4",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Actividad_03/Organizacion Congreso Scrum.docx",
     "StudyGuides/Interview Questions and Answers.md",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/Actividades/Actividad 2/Untitled.md",
-    "StudyGuides",
-    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/Actividades/Actividad 2/Actividad-2-Miguel_De_Jesus_Chavez.docx",
-    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/Actividades/Actividad 2/~WRL1328.tmp",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/Actividades/Actividad 2/Actividad-2-Miguel_De_Jesus_Chavez.md",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/attachments/Pasted image 20250630170303.png",
-    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/attachments/Pasted image 20250630170259.png",
-    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/attachments/Pasted image 20250630170152.png",
-    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/attachments/Pasted image 20250630170149.png",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/024-Control-de-costes-valor-ganado.md",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/023-Presupuesto-curva-S.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Actividad_03/adjuntosenunciadogrupal/imgFeatureMap.PNG",
     "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad-01-Conceptos.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Actividad_02/mexissi01_act2.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Actividad_02/Attachments/mexissi01_act2.jpeg",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Actividad_02/Attachments/mexissi01_act2 9.jpeg",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/Actividades/Actividad 1/01_Actividad_Planeacion_MiguelChavez.md",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/022-Planificar-costos.md",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/021-Resumen-4.md",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/020-tiempo-3.md",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/019-tiempo-2.md",
-    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/016-Alcance-proceso de gestion.md",
-    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/018-tiempo-1.md",
-    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/017-Alcance-proceso-gestion-2.md",
-    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/016-Alcance-proceso-gestion-1.md",
-    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/015-Objetos-Alcance.md",
-    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/014-Resumen-3.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/035-Resumen-6.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/034-patrones-de-diseño.md"
+    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/016-Alcance-proceso de gestion.md"
   ]
 }

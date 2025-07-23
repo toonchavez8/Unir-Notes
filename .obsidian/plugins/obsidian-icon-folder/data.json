@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiAlignVerticalSpaceAround",
       "LiBookOpenText",
       "LiCodepen",
       "LiCalendar",
-      "LiImages",
-      "LiFolderUp"
+      "LiImages"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -43,5 +43,6 @@
   "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments": "LiImages",
   "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Agenda": "LiCalendar",
   "Maestría-Ingeniería-de-Software/03-Desarollo-web": "LiCodepen",
-  "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Books": "LiBookOpenText"
+  "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Books": "LiBookOpenText",
+  "Educative-io": "LiAlignVerticalSpaceAround"
 }

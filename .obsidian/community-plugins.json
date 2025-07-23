@@ -29,5 +29,6 @@
   "mermaid-helper",
   "automatic-table-of-contents",
   "convert-url-to-iframe",
-  "obsidian-frontmatter-tag-suggest"
+  "obsidian-frontmatter-tag-suggest",
+  "hyperlink-remover"
 ]
