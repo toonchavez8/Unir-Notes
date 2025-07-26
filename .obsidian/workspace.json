@@ -146,7 +146,7 @@
       {
         "id": "1c82a275ceaf8d60",
         "type": "tabs",
-        "dimension": 14.727540500736378,
+        "dimension": 14.727540500736376,
         "children": [
           {
             "id": "ca6954263e0f2061",
@@ -327,7 +327,7 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "089e072f97e4f5ca",
+  "active": "ca6954263e0f2061",
   "lastOpenFiles": [
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/040-Product-owner.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/041-historias-de-usario.md",
