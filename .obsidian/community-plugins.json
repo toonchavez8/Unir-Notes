@@ -27,5 +27,8 @@
   "quick-tagger",
   "obsidian-icon-folder",
   "mermaid-helper",
-  "automatic-table-of-contents"
+  "automatic-table-of-contents",
+  "convert-url-to-iframe",
+  "obsidian-frontmatter-tag-suggest",
+  "hyperlink-remover"
 ]
