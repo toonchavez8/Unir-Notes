@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c41f089509770cbd",
+            "id": "cd14af92dee58561",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/008-Entradas-herramientas-salidas.md",
+                "file": "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/051-Resumen-7.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "008-Entradas-herramientas-salidas"
+              "title": "051-Resumen-7"
             }
           },
           {
@@ -223,8 +223,17 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "c41f089509770cbd",
+  "active": "cd14af92dee58561",
   "lastOpenFiles": [
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250726221651.png",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250726221549.png",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250726221436.png",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250726221421.png",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/050-Escalado-Scrum.md",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/051-Resumen-7.md",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250726215823.png",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250726215734.png",
+    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/008-Entradas-herramientas-salidas.md",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/004-Historia-gestion-proyectos.md",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/007-Tareas-conocimientos-y-habilidades-incio.md",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/009-Gestion-y-Monitorizar-interesados.md",
@@ -241,7 +250,6 @@
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/031-La-reutilización-del-software.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/038-Agil-vs-Tradicional.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/034-patrones-de-diseño.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/050-Scrum.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Books/2020-Scrum-Guide-Spanish-European.pdf",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Books/Unconfirmed 382368.crdownload",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Untitled 1.md",
@@ -251,9 +259,6 @@
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/045-Roles.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/044-Scrum.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/040-Product-owner.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/039-Hoja-de-ruta.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/037-Manifiesto-Agil.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/043-Resumen-7.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Agenda/Agenda.pdf",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/{B2FFE6B2-037F-46DB-9DB9-7F7C1723B699}.png",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250726152950.png",
@@ -265,11 +270,6 @@
     "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad_03/erueka-server/target/eureka-server-0.0.1-SNAPSHOT.jar.original",
     "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad_03/erueka-server/target/eureka-server-0.0.1-SNAPSHOT.jar",
     "Educative-io/Java-Masterclass/Prereq/attachments/Pasted image 20250715111459.png",
-    "Educative-io/Java-Masterclass/Prereq/attachments/Pasted image 20250715111247.png",
-    "Educative-io/Java-Masterclass/Prereq/attachments/Pasted image 20250715104128.png",
-    "Educative-io/Java-Masterclass/attachments/Pasted image 20250715133352.png",
-    "Educative-io/Java-Masterclass/attachments/Pasted image 20250715114138.png",
-    "Educative-io/Design-Patterns/attachments/Pasted image 20250715090040.png",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Actividad_03/Sprintns/attachments/Pasted image 20250712160552.png"
+    "Educative-io/Java-Masterclass/Prereq/attachments/Pasted image 20250715111247.png"
   ]
 }
