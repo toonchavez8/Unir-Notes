@@ -139,9 +139,33 @@
               "icon": "lucide-file",
               "title": "041-historias-de-usario"
             }
+          },
+          {
+            "id": "ca24327210b58729",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       },
       {
         "id": "1c82a275ceaf8d60",
@@ -327,11 +351,16 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "089e072f97e4f5ca",
+  "active": "ca24327210b58729",
   "lastOpenFiles": [
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/041-historias-de-usario.md",
+    "conflict-files-obsidian-git.md",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/{B2FFE6B2-037F-46DB-9DB9-7F7C1723B699}.png",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250726152950.png",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/043-Resumen-7.md",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/042-Planificacion-especificacion-agil.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/000_IdeasClave.pdf",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/040-Product-owner.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/041-historias-de-usario.md",
     "Maestría-Ingeniería-de-Software/Calendario semestral.pdf",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/039-Hoja-de-ruta.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250726113742.png",
@@ -353,7 +382,6 @@
     "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad_03/erueka-server/target/maven-archiver",
     "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad_03/erueka-server/target/surefire-reports/TEST-erueka_server.erueka_server.EruekaServerApplicationTests.xml",
     "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad_03/erueka-server/HELP.md",
-    "conflict-files-obsidian-git.md",
     "Educative-io/Java-Masterclass/Prereq/attachments/Pasted image 20250715111459.png",
     "Educative-io/Java-Masterclass/Prereq/attachments/Pasted image 20250715111247.png",
     "Educative-io/Java-Masterclass/Prereq/attachments/Pasted image 20250715104128.png",
@@ -369,10 +397,6 @@
     "Educative-io/Design-Patterns/003-Builder-pattern.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Actividad_03/Sprintns/Sprint1.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Actividad_03/Sprintns/attachments/Pasted image 20250712160552.png",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Actividad_03/attachments/Pasted image 20250712155825.png",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Actividad_03/Organizacion Congreso Scrum.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Actividad_03/adjuntosenunciadogrupal/imgTrello.PNG",
-    "StudyGuides/Interview Questions and Answers.md",
-    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/Actividades/Actividad 2/Untitled.md"
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Actividad_03/Organizacion Congreso Scrum.md"
   ]
 }
