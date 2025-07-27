@@ -6,27 +6,14 @@
       {
         "id": "15e1f5967a9840d5",
         "type": "tabs",
-        "dimension": 85.27245949926362,
         "children": [
           {
-            "id": "d0e15a629367ea2e",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/000_IdeasClave.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "000_IdeasClave"
-            }
-          },
-          {
-            "id": "5f07fae0f2190f2d",
+            "id": "c41f089509770cbd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/037-Manifiesto-Agil.md",
+                "file": "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/008-Entradas-herramientas-salidas.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -41,16 +28,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "037-Manifiesto-Agil"
+              "title": "008-Entradas-herramientas-salidas"
             }
           },
           {
-            "id": "8a82bca24605954f",
+            "id": "594508a7eca67fcf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/038-Agil-vs-Tradicional.md",
+                "file": "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/002-Identificar-la-jerarquía.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -65,126 +52,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "038-Agil-vs-Tradicional"
-            }
-          },
-          {
-            "id": "6ec23e4166e38ccf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/039-Hoja-de-ruta.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "039-Hoja-de-ruta"
-            }
-          },
-          {
-            "id": "f56afec0a4585bbe",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/040-Product-owner.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "040-Product-owner"
-            }
-          },
-          {
-            "id": "089e072f97e4f5ca",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/041-historias-de-usario.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "041-historias-de-usario"
-            }
-          },
-          {
-            "id": "ca24327210b58729",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
+              "title": "002-Identificar-la-jerarquía"
             }
           }
         ],
-        "currentTab": 6
-      },
-      {
-        "id": "1c82a275ceaf8d60",
-        "type": "tabs",
-        "dimension": 14.727540500736376,
-        "children": [
-          {
-            "id": "ca6954263e0f2061",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/000_IdeasClave.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "000_IdeasClave"
-            }
-          }
-        ]
+        "stacked": true
       }
     ],
     "direction": "vertical"
@@ -351,52 +223,53 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "ca24327210b58729",
+  "active": "c41f089509770cbd",
   "lastOpenFiles": [
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/041-historias-de-usario.md",
-    "conflict-files-obsidian-git.md",
+    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/004-Historia-gestion-proyectos.md",
+    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/007-Tareas-conocimientos-y-habilidades-incio.md",
+    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/009-Gestion-y-Monitorizar-interesados.md",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/048-Reuniones.md",
+    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/002-Identificar-la-jerarquía.md",
+    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/003-Aspectos-de-dirección-de-proyectos.md",
+    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/012-Gestion-De-La-Integracion.md",
+    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/014-Resumen-3.md",
+    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/016-Alcance-proceso-gestion-1.md",
+    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/021-Resumen-4.md",
+    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/011-Integracion-Direcion-de-proyectos.md",
+    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/005-Resumen-tema-1.md",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/004-Modelo-proceso-dessarollo-software.md",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/031-La-reutilización-del-software.md",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/038-Agil-vs-Tradicional.md",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/034-patrones-de-diseño.md",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/050-Scrum.md",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Books/2020-Scrum-Guide-Spanish-European.pdf",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Books/Unconfirmed 382368.crdownload",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Untitled 1.md",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/047-Sprint.md",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/000_IdeasClave.pdf",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/046-Product-backlog.md",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/045-Roles.md",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/044-Scrum.md",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/040-Product-owner.md",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/039-Hoja-de-ruta.md",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/037-Manifiesto-Agil.md",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/043-Resumen-7.md",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Agenda/Agenda.pdf",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/{B2FFE6B2-037F-46DB-9DB9-7F7C1723B699}.png",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250726152950.png",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/043-Resumen-7.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/042-Planificacion-especificacion-agil.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/000_IdeasClave.pdf",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/040-Product-owner.md",
     "Maestría-Ingeniería-de-Software/Calendario semestral.pdf",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/039-Hoja-de-ruta.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250726113742.png",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/038-Agil-vs-Tradicional.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Actividad_03/mexissi01_act3.docx",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/037-Manifiesto-Agil.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/036-Agilidad-en-software.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/017-Herramientas-Case.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/028-Diseno-modelado-con-prototipos.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/034-patrones-de-diseño.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Actividad_03/Sprintns/Sprint 3.md",
     "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/mexissi04_act1.docx",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/035-Resumen-6.md",
     "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/mexissi04_act2.docx",
-    "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Untitled.md",
     "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad_03/erueka-server/target/eureka-server-0.0.1-SNAPSHOT.jar.original",
     "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad_03/erueka-server/target/eureka-server-0.0.1-SNAPSHOT.jar",
-    "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad_03/erueka-server/target/maven-archiver/pom.properties",
-    "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad_03/erueka-server/target/maven-archiver",
-    "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad_03/erueka-server/target/surefire-reports/TEST-erueka_server.erueka_server.EruekaServerApplicationTests.xml",
-    "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad_03/erueka-server/HELP.md",
     "Educative-io/Java-Masterclass/Prereq/attachments/Pasted image 20250715111459.png",
     "Educative-io/Java-Masterclass/Prereq/attachments/Pasted image 20250715111247.png",
     "Educative-io/Java-Masterclass/Prereq/attachments/Pasted image 20250715104128.png",
-    "Educative-io/Java-Masterclass/Prereq/001-Intro-to-computing.md",
     "Educative-io/Java-Masterclass/attachments/Pasted image 20250715133352.png",
     "Educative-io/Java-Masterclass/attachments/Pasted image 20250715114138.png",
     "Educative-io/Design-Patterns/attachments/Pasted image 20250715090040.png",
-    "Educative-io/Java-Masterclass/003-Simple-java-program.md",
-    "Educative-io/Java-Masterclass/002-Programing-Lang-Java.md",
-    "Educative-io/Java-Masterclass/001-first-look-java.md",
-    "Educative-io/Design-Patterns/02-Types-of-Design-patterns.md",
-    "Educative-io/Design-Patterns/01-Introduction.md",
-    "Educative-io/Design-Patterns/003-Builder-pattern.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Actividad_03/Sprintns/Sprint1.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Actividad_03/Sprintns/attachments/Pasted image 20250712160552.png",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Actividad_03/Organizacion Congreso Scrum.md"
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Actividad_03/Sprintns/attachments/Pasted image 20250712160552.png"
   ]
 }

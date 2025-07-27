@@ -5,9 +5,9 @@ tags:
   - Direcion
 ---
 
-## 🟦 **Notas Profundas: Identificación y Gestión de los Interesados en un Proyecto**
+# 🟦 **Notas Profundas: Identificación Y Gestión De Los Interesados En Un Proyecto**
 
-### 📘 ¿Quiénes son los interesados (stakeholders)?
+## 📘 ¿Quiénes Son Los Interesados (stakeholders)?
 
 Los interesados son personas y o organizaciones que:
 
@@ -16,18 +16,16 @@ Los interesados son personas y o organizaciones que:
 - Cuyos intereses pueden **verse afectados positiva o negativamente** por la ejecución o resultados del proyecto.
     
 - Pueden **influir en los objetivos** del proyecto directa o indirectamente.
-    
 
-📌 Pueden ser:
+📌 Pueden set:
 
 - **Internos**: Tienen una relación directa con la organización (empleados, propietarios, inversores, accionistas).
     
 - **Externos**: No están directamente vinculados a la organización, pero son impactados (clientes, reguladores, competidores, accredores, Associationes profressionales, sindicatos, grupos financiaros, administracion, usuarios finales, comunidad, proveedores).
-    
 
 ---
 
-### 🎯 **Importancia de una buena gestión de interesados**
+## 🎯 **Importancia De Una Buena Gestión De interesados**
 
 - La **identificación, análisis y gestión eficaz** de los interesados es clave para el éxito del proyecto.
     
@@ -35,18 +33,17 @@ Los interesados son personas y o organizaciones que:
     
 - El éxito del proyecto depende, en parte, de **gestionar sus expectativas** de forma adecuada.
     
-- **El involucramiento debe comenzar tan pronto como sea posible**, idealmente:
+- **El involucramiento debe comenzar tan pronto como sea possible**, idealmente:
     
     - Tras la aprobación del acta de constitución del proyecto.
         
     - Al inicio de cada fase del proyecto.
         
     - Siempre que haya **cambios importantes** en el proyecto o en la organización.
-        
 
 ---
 
-### 🔍 ¿Qué se busca identificar?
+## 🔍 ¿Qué Se Busca Identificar?
 
 Al identificar a los interesados, se deben analizar:
 
@@ -57,13 +54,12 @@ Al identificar a los interesados, se deben analizar:
 - Su **importancia relativa** dentro del contexto del proyecto.
     
 - Su actitud: **partidario, neutral u opositor**.
-    
 
 ---
 
-### 🛠️ **Estrategias y herramientas para la identificación y análisis**
+## 🛠️ **Estrategias Y Herramientas Para la Identificación Y análisis**
 
-#### 📥 **Entradas al proceso**
+### 📥 **Entradas Al proceso**
 
 - **Acta de constitución del proyecto**:
     
@@ -87,7 +83,7 @@ Al identificar a los interesados, se deben analizar:
 	- factores ambintales
 	- Activos de los processos de la organizacion
 
-#### 🧠 **Herramientas y técnicas**
+### 🧠 **Herramientas Y técnicas**
 
 - **Juicio de expertos**:
     
@@ -103,14 +99,14 @@ Al identificar a los interesados, se deben analizar:
             
         - Evaluación **cuantitativa y cualitativa** de intereses, expectativas, influencias y actitudes.
 		
--  Representacion de datos
+- Representacion de datos
 - reuniones/
 
 ---
 
-### 📤 **Salidas del proceso**
+## 📤 **Salidas Del proceso**
 
-#### 📌 Registro de interesados
+### 📌 Registro De Interesados
 
 Documento esencial que incluye:
 
@@ -128,18 +124,17 @@ Documento esencial que incluye:
         
     - Actitud: **partidario, neutral, opositor**.
         
-    - Nivel de **interés**, **influencia** y **impacto potencial**.
-        
+    - Nivel de **interés**, **influencia** y **impacto potential**.
 
 ---
 
-### 🧠 Reflexión clave
+## 🧠 Reflexión Clave
 
-> “La satisfacción del cliente y demás interesados debe ser tratada como **un objetivo clave del proyecto**, ya que existe una diferencia natural entre lo que sucede, lo que se entrega, y lo que los interesados esperaban.”
+> “La satisfacción del cliente y demás interesados debe set tratada como **un objetivo clave del proyecto**, ya que existe una diferencia natural entre lo que sucede, lo que se entrega, y lo que los interesados esperaban.”
 
 ---
 
-## 📝Microtest
+# 📝Microtest
 
 - ¿Qué es un interesado interno?:
 	- Aquellos cuyo interés en una organización proviene de una relación directa.
@@ -147,3 +142,8 @@ Documento esencial que incluye:
 	- Cliente
 - ¿Qué no es una entrada del proceso de identificación de interesados?:
 	- Juicio de expertos.
+- sAdsa
+- D
+- Sad
+- Sad
+- Safds
