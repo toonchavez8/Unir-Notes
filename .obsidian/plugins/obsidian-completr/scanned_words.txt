@@ -3424,6 +3424,10 @@ Ideaci
 Iteraci
 Includes
 Iterative
+Informados
+Incremento
+Identificador
+Icgl
 Emocional
 Edward
 Expone
@@ -6890,6 +6894,9 @@ Exploro
 Enterprise
 Empathy
 Engineers
+Estimado
+Estimaciones
+EHY
 Historia
 Howard
 Habilidades
@@ -10234,6 +10241,7 @@ High
 Heuristic
 Heatmaps
 Helps
+HIq
 definiciones
 de
 dem
@@ -13967,6 +13975,11 @@ distance
 dead
 desplazan
 diagramaci
+desplegar
+descompone
+desplegable
+desarrolla
+descoordinaci
 La
 Linea
 Las
@@ -17222,6 +17235,7 @@ Look
 Like
 LEGO
 Law
+Lsl
 hace
 habilidad
 humano
@@ -24361,6 +24375,8 @@ recomendar
 refine
 rastreables
 revised
+renegociar
+representantes
 la
 los
 las
@@ -27698,6 +27714,7 @@ leave
 likely
 lluvias
 live
+lud
 sentimientos
 sugiere
 ser
@@ -31385,6 +31402,10 @@ scale
 satisfied
 ship
 simulate
+sincronizaci
+scrum
+sAT
+svZ
 tiempo
 tiene
 tica
@@ -34865,6 +34886,7 @@ think
 takes
 thinking
 trackable
+terminan
 Siglo
 Self
 Se
@@ -38192,6 +38214,10 @@ Smashing
 Sara
 Score
 Satisfaction
+Subconjunto
+Sprints
+Scrums
+Sincronizaci
 Plat
 Pir
 Payne
@@ -41688,6 +41714,9 @@ Principles
 Porcentaje
 Promoter
 Processes
+Pigs
+Pichler
+Participan
 Todo
 Thorndike
 Todos
@@ -45056,6 +45085,7 @@ Terms
 Testing
 Tracking
 Tokens
+TDu
 aprendizaje
 ala
 aspectos
@@ -48891,6 +48921,8 @@ activas
 assign
 assets
 adores
+autoorganizados
+asignada
 una
 un
 unas
@@ -55642,6 +55674,8 @@ busy
 buying
 banner
 boxed
+burnup
+backlogs
 emocional
 emociones
 en
@@ -59511,6 +59545,8 @@ experts
 established
 everything
 efficiently
+esquema
+excepciones
 que
 quien
 quiere
@@ -66044,6 +66080,7 @@ jäX
 jAG
 java
 journey
+jUDB
 papel
 proceso
 pueden
@@ -69800,6 +69837,11 @@ platform
 planning
 padding
 printable
+priorizada
+prioritarias
+prefiere
+paralelo
+preferido
 clave
 coment
 capacidad
@@ -80675,6 +80717,7 @@ management
 map
 methodologies
 memorize
+minimiza
 Arist
 Abraham
 Adem
@@ -84320,6 +84363,7 @@ Atomic
 ARIA
 Abandono
 Asana
+Acepta
 importancia
 inteligencia
 intelectivos
@@ -88048,6 +88092,9 @@ innovadoras
 involve
 intuitive
 inspection
+interequipos
+inician
+ifpG
 formaci
 factores
 fortalezas
@@ -91389,6 +91436,8 @@ flowcharts
 finalized
 finalizados
 flashcards
+fija
+fhzz
 Utiliza
 Una
 Uno
@@ -94747,6 +94796,7 @@ UtRI
 UqFt
 Updated
 Usability
+UdNt
 David
 Describe
 Developing
@@ -101395,6 +101445,8 @@ Would
 Watching
 Whimsical
 Weekly
+WrW
+WnW
 no
 nos
 nuestro
@@ -108112,6 +108164,7 @@ Makes
 Methodology
 Maps
 Measures
+Multifuncional
 Gardner
 Goleman
 Generan
@@ -111214,6 +111267,8 @@ GHzu
 GiA
 Generally
 Goto
+Granularidad
+Grandes
 Formula
 Feedback
 Francis
@@ -114461,6 +114516,7 @@ FigJam
 Failure
 Fitts
 Flows
+Filosof
 otras
 of
 on
@@ -117725,6 +117781,7 @@ organism
 offering
 oranges
 orange
+operativa
 Crea
 Cociente
 Con
@@ -121131,6 +121188,11 @@ Collaborative
 Collaboration
 Continuous
 Ciclos
+Comprometidos
+Chickens
+Comprensi
+Campos
+CDsm
 vida
 viene
 va
@@ -127853,6 +127915,7 @@ Reflexiono
 Research
 Rates
 Rebote
+Redactado
 Bar
 Bisquerra
 Bajo
@@ -131162,6 +131225,7 @@ Byte
 Blank
 Balance
 Bounce
+Burnup
 Kama
 KPI
 Kurt
@@ -134348,6 +134412,7 @@ KOYVUt
 Kxiq
 KUo
 Keeping
+Kniberg
 gicos
 gica
 generan
@@ -150673,6 +150738,7 @@ QlJ
 QTZ
 QGEs
 Qxk
+QYg
 will
 words
 workspace
@@ -157085,6 +157151,7 @@ Jce
 Jeee
 Journey
 Just
+JKj
 xito
 xitos
 ximo
@@ -163482,6 +163549,7 @@ zht
 zHjg
 zpn
 zones
+zjBq
 Yetton
 Yes
 You
@@ -166819,6 +166887,7 @@ YkBKx
 Yka
 YtL
 Your
+Yho
 Zen
 ZD
 Zs

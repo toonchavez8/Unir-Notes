@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "StudyGuides/Interview Questions and Answers.md",
+                "file": "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/024-Control-de-costes-valor-ganado.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,35 +28,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Interview Questions and Answers"
-            }
-          },
-          {
-            "id": "d336cf363c9fc528",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
+              "title": "024-Control-de-costes-valor-ganado"
             }
           }
         ],
-        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -224,8 +199,11 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "d336cf363c9fc528",
+  "active": "4edfdf1da2036e4f",
   "lastOpenFiles": [
+    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/Actividades/Actividad 3/mexdigete06t10actauto2.docx",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/051-Resumen-7.md",
+    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/Actividades/Actividad 3",
     "StudyGuides/Interview Questions and Answers.md",
     "conflict-files-obsidian-git.md",
     "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Untitled.md",
@@ -237,8 +215,6 @@
     "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad_03/erueka-server/src/main/java/erueka_server",
     "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad_03/erueka-server/src/test/java/erueka_server",
     "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad_03/erueka-server/src/main/resources",
-    "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad_03/erueka-server/src/main/java",
-    "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad_03/erueka-server/src/test/java",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/{B2FFE6B2-037F-46DB-9DB9-7F7C1723B699}.png",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250726221651.png",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250726221549.png",
@@ -251,7 +227,6 @@
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Actividad_03/attachments/Pasted image 20250712155825.png",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Actividad_03/Sprintns/Sprint1.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Actividad_03/Sprintns/Sprint 3.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/051-Resumen-7.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/050-Escalado-Scrum.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/048-Reuniones.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/047-Sprint.md",
@@ -270,7 +245,6 @@
     "Educative-io/Java-Masterclass/002-Programing-Lang-Java.md",
     "Educative-io/Java-Masterclass/001-first-look-java.md",
     "Educative-io/Java-Masterclass/Prereq/001-Intro-to-computing.md",
-    "Educative-io/Design-Patterns/02-Types-of-Design-patterns.md",
-    "Educative-io/Design-Patterns/003-Builder-pattern.md"
+    "Educative-io/Design-Patterns/02-Types-of-Design-patterns.md"
   ]
 }
