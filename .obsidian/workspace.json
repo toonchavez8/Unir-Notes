@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Educative-io/Java-Masterclass/003-Simple-java-program.md",
+                "file": "StudyGuides/Interview Questions and Answers.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "003-Simple-java-program"
+              "title": "Interview Questions and Answers"
             }
           }
         ],
@@ -89,8 +89,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 292.5,
-    "collapsed": true
+    "width": 292.5
   },
   "right": {
     "id": "a25b807ad639ff42",
@@ -202,13 +201,13 @@
   },
   "active": "4edfdf1da2036e4f",
   "lastOpenFiles": [
+    "Educative-io/Java-Masterclass/003-Simple-java-program.md",
     "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/mexissi04_act3.docx",
     "Educative-io/Java-Masterclass/Code-tests/Sample.java",
     "Educative-io/Java-Masterclass/Code-tests/001sample.java",
     "Educative-io/Java-Masterclass/Code-tests",
     "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/mexissi04_act2.docx",
     "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/mexissi04_act1.docx",
-    "Educative-io/Java-Masterclass/003-Simple-java-program.md",
     "Educative-io/Java-Masterclass/attachments/Pasted image 20250715133352.png",
     "Educative-io/Java-Masterclass/002-Programing-Lang-Java.md",
     "Educative-io/Java-Masterclass/attachments/Pasted image 20250715114138.png",
@@ -225,7 +224,6 @@
     "Educative-io/Java-Masterclass",
     "Educative-io/Design-Patterns/01-Introduction.md",
     "Educative-io/Design-Patterns/attachments/Pasted image 20250715090040.png",
-    "Educative-io/Design-Patterns/attachments",
     "conflict-files-obsidian-git.md",
     "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad-01-Conceptos.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Actividad_03/Organizacion Congreso Scrum.md",
