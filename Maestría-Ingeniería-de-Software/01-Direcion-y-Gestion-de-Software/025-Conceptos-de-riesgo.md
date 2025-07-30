@@ -1,7 +1,6 @@
+# 🎯 Gestión De Riesgos En Proyectos
 
-# 🎯 Gestión de Riesgos en Proyectos
-
-## ✅ ¿Qué es un riesgo?
+## ✅ ¿Qué Es Un Riesgo?
 
 - Un **riesgo** es un evento o condición incierta que, si ocurre, afecta positiva o negativamente los objetivos del proyecto (alcance, coste, tiempo, calidad).
     
@@ -12,30 +11,28 @@
 - El **riesgo** se presenta cuando sí podemos estimar la probabilidad.
     
     - Ej: posibilidad de lluvia según meteorología.
-        
 
 > La **probabilidad de ocurrencia** se mide en una escala de 0 (improbable) a 1 (seguro).
 
 ---
 
-## 📐 Cuantificación del Riesgo
+## 📐 Cuantificación Del Riesgo
 
 - No se evalúa solo por su **probabilidad**, sino también por su **impacto**.
     
-- Un riesgo con alta probabilidad pero bajo impacto puede ser menos relevante que otro con baja probabilidad y alto impacto.
-    
+- Un riesgo con alta probabilidad pero bajo impacto puede set menos relevante que otro con baja probabilidad y alto impacto.
 
 > Ejemplo:
 > 
 > - Riesgo 1: 90% probabilidad, pérdida de 100 €
->     
+> 
 > - Riesgo 2: 10% probabilidad, pérdida de 100 000 €  
->     → Riesgo 2 es más crítico
->     
+> → Riesgo 2 es más crítico
+>  
 
 ---
 
-## 🧠 Análisis de la Tolerancia al Riesgo
+## 🧠 Análisis De la Tolerancia Al Riesgo
 
 ```mermaid
 mindmap
@@ -50,13 +47,12 @@ root((Predisposición))
 - **Tolerancia al riesgo**: Cantidad o nivel de riesgo que una organización puede soportar.
     
 - **Umbral de riesgo**: Nivel a partir del cual se toman acciones específicas para mitigar o evitar el riesgo.
-    
 
 ---
 
-## 🧰 Gestión de Riesgos (PMBOK)
+## 🧰 Gestión De Riesgos (PMBOK)
 
-### 1. **Planificación de la gestión de riesgos**
+### 1. **Planificación De la Gestión De riesgos**
 
 - Define cómo se llevará a cabo la gestión de riesgos en el proyecto.
     
@@ -71,45 +67,40 @@ root((Predisposición))
     - ¿Se hará análisis cuantitativo?
         
     - ¿Con qué frecuencia se controlarán los riesgos?
-        
 
 ---
 
-### 2. **Identificación de riesgos**
+### 2. **Identificación De riesgos**
 
 - Determinar qué riesgos pueden afectar al proyecto.
     
 - Documentar características de cada riesgo.
-    
 
 ---
 
-### 3. **Análisis cualitativo de riesgos**
+### 3. **Análisis Cualitativo De riesgos**
 
 - Prioriza riesgos según impacto y probabilidad.
     
 - Usa herramientas como la **matriz de riesgo**.
-    
 
 ---
 
-### 4. **Análisis cuantitativo de riesgos**
+### 4. **Análisis Cuantitativo De riesgos**
 
 - Analiza numéricamente los efectos de los riesgos sobre los objetivos del proyecto.
-    
 
 ---
 
-### 5. **Planificación de respuesta a los riesgos**
+### 5. **Planificación De Respuesta a Los riesgos**
 
 - Desarrollar opciones y acciones para aumentar oportunidades y reducir amenazas.
     
 - Estrategias de respuesta personalizadas para cada riesgo.
-    
 
 ---
 
-### 6. **Monitoreo y control de riesgos**
+### 6. **Monitoreo Y Control De riesgos**
 
 - Realizar seguimiento de riesgos identificados.
     
@@ -120,13 +111,12 @@ root((Predisposición))
 - Tomar decisiones correctivas.
     
 - Redefinir planes o modificar objetivos si es necesario.
-    
 
 > 🔁 **La gestión de riesgos es un proceso iterativo y obligatorio.**
 
 ---
 
-## 🔄 Ciclo del Riesgo
+## 🔄 Ciclo Del Riesgo
 
 ```mermaid
 flowchart TD
