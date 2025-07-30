@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "4edfdf1da2036e4f",
+            "id": "3765a7ce82c3fcc4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/024-Control-de-costes-valor-ganado.md",
+                "file": "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/025-Conceptos-de-riesgo.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "024-Control-de-costes-valor-ganado"
+              "title": "025-Conceptos-de-riesgo"
             }
           }
         ],
@@ -89,7 +89,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 292.5
+    "width": 292.5,
+    "collapsed": true
   },
   "right": {
     "id": "a25b807ad639ff42",
@@ -199,8 +200,10 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "4edfdf1da2036e4f",
+  "active": "3765a7ce82c3fcc4",
   "lastOpenFiles": [
+    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/024-Control-de-costes-valor-ganado.md",
+    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/025-Conceptos-de-riesgo.md",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/Actividades/Actividad 3/mexdigete06t10actauto2.docx",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/051-Resumen-7.md",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/Actividades/Actividad 3",
@@ -244,7 +247,6 @@
     "Educative-io/Java-Masterclass/003-Simple-java-program.md",
     "Educative-io/Java-Masterclass/002-Programing-Lang-Java.md",
     "Educative-io/Java-Masterclass/001-first-look-java.md",
-    "Educative-io/Java-Masterclass/Prereq/001-Intro-to-computing.md",
-    "Educative-io/Design-Patterns/02-Types-of-Design-patterns.md"
+    "Educative-io/Java-Masterclass/Prereq/001-Intro-to-computing.md"
   ]
 }

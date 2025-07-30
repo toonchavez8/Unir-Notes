@@ -31406,6 +31406,7 @@ sincronizaci
 scrum
 sAT
 svZ
+sugieren
 tiempo
 tiene
 tica
@@ -48923,6 +48924,8 @@ assets
 adores
 autoorganizados
 asignada
+adelanto
+ahorraremos
 una
 un
 unas
@@ -59547,6 +59550,7 @@ everything
 efficiently
 esquema
 excepciones
+encontraremos
 que
 quien
 quiere
@@ -69842,6 +69846,7 @@ prioritarias
 prefiere
 paralelo
 preferido
+previsiones
 clave
 coment
 capacidad
@@ -73944,6 +73949,7 @@ component
 consistently
 continuos
 critiques
+comparaciones
 Nic
 Necesidades
 No
@@ -80718,6 +80724,7 @@ map
 methodologies
 memorize
 minimiza
+meses
 Arist
 Abraham
 Adem
@@ -88095,6 +88102,7 @@ inspection
 interequipos
 inician
 ifpG
+imputaci
 formaci
 factores
 fortalezas
@@ -137720,6 +137728,7 @@ grooming
 guided
 guiados
 grouping
+gastando
 Ofrecen
 Orientaci
 Ordena
