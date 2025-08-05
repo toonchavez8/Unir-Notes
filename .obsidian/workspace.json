@@ -4,19 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "0e57e3d98d4aeb47",
+        "id": "bd66efe8cc923a8e",
         "type": "tabs",
         "children": [
           {
-            "id": "3765a7ce82c3fcc4",
+            "id": "66317278acaf16a5",
             "type": "leaf",
             "state": {
-              "type": "docx-view",
-              "state": {
-                "file": "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/Actividades/Actividad 3/mexdigete06t10actauto2.docx"
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "mexdigete06t10actauto2"
+              "title": "New tab"
             }
           }
         ],
@@ -77,8 +75,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 346.5,
-    "collapsed": true
+    "width": 346.5
   },
   "right": {
     "id": "a25b807ad639ff42",
@@ -188,10 +185,10 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "3765a7ce82c3fcc4",
+  "active": "66317278acaf16a5",
   "lastOpenFiles": [
-    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/Actividades/Actividad 3/mexdigete06t10actauto2.md",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/Actividades/Actividad 3/mexdigete06t10actauto2.docx",
+    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/Actividades/Actividad 3/mexdigete06t10actauto2.md",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/025-Conceptos-de-riesgo.md",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/024-Control-de-costes-valor-ganado.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/051-Resumen-7.md",
