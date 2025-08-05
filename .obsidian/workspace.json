@@ -11,9 +11,21 @@
             "id": "3765a7ce82c3fcc4",
             "type": "leaf",
             "state": {
+              "type": "docx-view",
+              "state": {
+                "file": "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/Actividades/Actividad 3/mexdigete06t10actauto2.docx"
+              },
+              "icon": "lucide-file",
+              "title": "mexdigete06t10actauto2"
+            }
+          },
+          {
+            "id": "ed252926d6e81498",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/025-Conceptos-de-riesgo.md",
+                "file": "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/Actividades/Actividad 3/mexdigete06t10actauto2.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,10 +40,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "025-Conceptos-de-riesgo"
+              "title": "mexdigete06t10actauto2"
             }
           }
         ],
+        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -89,7 +102,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 346.5
+    "width": 346.5,
+    "collapsed": true
   },
   "right": {
     "id": "a25b807ad639ff42",
@@ -199,11 +213,12 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "3765a7ce82c3fcc4",
+  "active": "ed252926d6e81498",
   "lastOpenFiles": [
-    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/024-Control-de-costes-valor-ganado.md",
-    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/025-Conceptos-de-riesgo.md",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/Actividades/Actividad 3/mexdigete06t10actauto2.docx",
+    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/Actividades/Actividad 3/mexdigete06t10actauto2.md",
+    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/025-Conceptos-de-riesgo.md",
+    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/024-Control-de-costes-valor-ganado.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/051-Resumen-7.md",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/Actividades/Actividad 3",
     "StudyGuides/Interview Questions and Answers.md",
@@ -244,8 +259,6 @@
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/037-Manifiesto-Agil.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/036-Agilidad-en-software.md",
     "Educative-io/Java-Masterclass/003-Simple-java-program.md",
-    "Educative-io/Java-Masterclass/002-Programing-Lang-Java.md",
-    "Educative-io/Java-Masterclass/001-first-look-java.md",
-    "Educative-io/Java-Masterclass/Prereq/001-Intro-to-computing.md"
+    "Educative-io/Java-Masterclass/002-Programing-Lang-Java.md"
   ]
 }
