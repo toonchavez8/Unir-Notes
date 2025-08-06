@@ -129,3 +129,13 @@ flowchart TD
 
 ---
 
+## MicroTest
+
+- Estamos gestionando un pequeño proyecto llamado EASY Project que debe finalizar a tiempo para comenzar uno mayor, llamado BIG Problem. El éxito de este último proyecto es de vital importancia para la economía de nuestra empresa. ¿Qué es un riesgo en esta situación?:
+	- Mala planificación del proyecto EASY Project.
+- Si estamos dirigiendo un proyecto para la construcción de un edificio en Hawái. ¿Qué sería un riesgo desconocido?:
+	- Una pandemia.
+- ¿Los riesgos son los mismos para todos los proyectos?:
+	- No, cada proyecto es único y se debe particularizar.
+
+https://www.redhat.com/en/topics/management/what-is-risk-management

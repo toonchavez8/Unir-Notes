@@ -8,17 +8,55 @@
         "type": "tabs",
         "children": [
           {
-            "id": "66317278acaf16a5",
+            "id": "9b7f7edaee2e6e73",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/026-Identifacion-de-riesgos.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "026-Identifacion-de-riesgos"
+            }
+          },
+          {
+            "id": "4ec82f500519a15f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/027-Analisis-de-riesgo-Herramientas.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "027-Analisis-de-riesgo-Herramientas"
             }
           }
         ],
-        "stacked": true
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -75,7 +113,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 346.5
+    "width": 346.5,
+    "collapsed": true
   },
   "right": {
     "id": "a25b807ad639ff42",
@@ -185,11 +224,14 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "66317278acaf16a5",
+  "active": "4ec82f500519a15f",
   "lastOpenFiles": [
+    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/026-Identifacion-de-riesgos.md",
+    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/027-Analisis-de-riesgo-Herramientas.md",
+    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/attachments/Pasted image 20250806160321.png",
+    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/025-Conceptos-de-riesgo.md",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/Actividades/Actividad 3/mexdigete06t10actauto2.docx",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/Actividades/Actividad 3/mexdigete06t10actauto2.md",
-    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/025-Conceptos-de-riesgo.md",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/024-Control-de-costes-valor-ganado.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/051-Resumen-7.md",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/Actividades/Actividad 3",
@@ -213,7 +255,6 @@
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250726215734.png",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250726152950.png",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250726113742.png",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Actividad_03/attachments/Pasted image 20250712155825.png",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Actividad_03/Sprintns/Sprint1.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Actividad_03/Sprintns/Sprint 3.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/050-Escalado-Scrum.md",
@@ -230,7 +271,6 @@
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/038-Agil-vs-Tradicional.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/037-Manifiesto-Agil.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/036-Agilidad-en-software.md",
-    "Educative-io/Java-Masterclass/003-Simple-java-program.md",
-    "Educative-io/Java-Masterclass/002-Programing-Lang-Java.md"
+    "Educative-io/Java-Masterclass/003-Simple-java-program.md"
   ]
 }
