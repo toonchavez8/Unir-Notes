@@ -106,3 +106,54 @@ B4 --> C4[No actuar activamente, pero aprovechar si ocurre]
 	- Analizar el impacto del cambio con el equipo de proyecto.
 - Estamos dirigiendo un proyecto que lleva un retraso considerable. Vamos a contratar un experto para que se ocupe de las tareas que llevan más retraso. ¿Qué es esta acción?:
 	- Una acción correctiva.
+---
+
+
+
+### ✅ **Preguntas mencionadas en el orden en que aparecen:**
+
+1. **Una vez que se acuerda el alcance del proyecto con el cliente, ¿no cambiaría durante el proyecto?**
+    
+2. **¿El plan del proyecto incluye el cronograma, presupuesto, plan de respuestas a riesgos y plan de la disponibilidad de recursos?**
+    
+3. **¿La gestión de riesgos incluye la identificación, calificación, cuantificación, planificación con dos respuestas y seguimiento de los riesgos?**
+    
+4. **¿El objetivo principal de la comunicación en la gestión de proyectos es movilizar a la otra parte a la acción?**
+    
+5. **¿Desarrollar el equipo de proyectos no es un aspecto importante de la gestión de recursos?**
+    
+6. **¿El objetivo de la gestión de los costes es asegurar que el proyecto se complete superando el presupuesto aprobado?**
+    
+7. **¿Las técnicas de negociación no son útiles para que los clientes del proyecto lleguen a acuerdos entre las partes?**
+    
+8. **¿El alcance del proyecto debe acordarse solo con el cliente, no con la organización?**
+    
+9. **¿El alcance del proyecto define lo que está y no está incluido en el proyecto?**
+    
+10. **¿La dirección del proyecto se enfoca únicamente en los requisitos identificados sin considerar los diferentes intereses y expectativas de los stakeholders?**
+    
+11. **¿Cuál es una de las principales tareas durante el proceso de inicio del proyecto?**
+    
+	- (opciones implícitas: celebrar reunión de arranque, desarrollar el programa, controlar el riesgo)
+    
+
+12. **¿Qué es la estrategia empresarial?**
+    
+13. **¿Cuál es el propósito principal de una empresa?**
+    
+14. **¿Cuál es la finalidad del análisis de viabilidad de un proyecto?**
+    
+15. **¿En qué tres niveles se produce la integración del proyecto?**
+    
+16. **¿Cuál es la principal función de la gestión de la integración?**
+    
+17. **¿Qué son los objetivos estratégicos?**
+    
+18. **¿Cuál es el principal beneficio de la dirección de proyectos para los participantes?**
+    
+19. **¿Cuál es el principal beneficio de la dirección de proyectos para el desarrollo de las actividades empresariales?**
+    
+20. **¿Cuál es la principal razón para que las empresas realicen proyectos?**
+    
+
+---
