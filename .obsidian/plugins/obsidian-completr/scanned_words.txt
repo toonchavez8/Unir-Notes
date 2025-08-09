@@ -2943,6 +2943,8 @@ Involucramiento
 Inicia
 Intereses
 Interno
+Informados
+Identificador
 Emocional
 Edward
 Expone
@@ -5936,6 +5938,8 @@ Efectivo
 Especificaciön
 Experiencias
 Explicar
+Estimado
+Estimaciones
 Historia
 Howard
 Habilidades
@@ -11745,6 +11749,9 @@ divide
 diariamente
 dicamente
 desarrolla
+desplegar
+descompone
+descoordinaci
 La
 Linea
 Las
@@ -20373,6 +20380,7 @@ responde
 recopila
 retrospective
 resistencias
+renegociar
 la
 los
 las
@@ -26157,6 +26165,7 @@ scaling
 superarlos
 satisfechos
 sindicatos
+sincronizaci
 tiempo
 tiene
 tica
@@ -29006,6 +29015,7 @@ tengo
 tomaremos
 tratamiento
 tratada
+terminan
 Siglo
 Self
 Se
@@ -31845,6 +31855,8 @@ Sutherland
 Schwaber
 Saro
 Sequential
+Subconjunto
+Sincronizaci
 Plat
 Pir
 Payne
@@ -40870,6 +40882,9 @@ afectados
 accredores
 administracion
 ambintales
+autoorganizados
+abstractas
+asignada
 una
 un
 unas
@@ -46441,6 +46456,8 @@ bloquean
 bidding
 bloqueos
 bal
+burnup
+backlogs
 emocional
 emociones
 en
@@ -49695,6 +49712,7 @@ enfoc
 edades
 estructuran
 esperaban
+excepciones
 que
 quien
 quiere
@@ -58158,6 +58176,10 @@ participa
 partidario
 profressionales
 processos
+prioritarias
+prefiere
+paralelo
+preferido
 clave
 coment
 capacidad
@@ -61641,6 +61663,8 @@ clasificarlos
 contradictorios
 cuantitativa
 cualitativa
+cierra
+centralizado
 Nic
 Necesidades
 No
@@ -67456,6 +67480,7 @@ menciona
 motiven
 mejorarse
 matrices
+minimiza
 Arist
 Abraham
 Adem
@@ -70557,6 +70582,7 @@ Apoya
 Associationes
 Actitud
 Aquellos
+Acepta
 importancia
 inteligencia
 intelectivos
@@ -73800,6 +73826,8 @@ inmediatamente
 inversores
 impactados
 influencias
+interequipos
+inician
 formaci
 factores
 fortalezas
@@ -93418,6 +93446,7 @@ Geogr
 Grandes
 Garz
 Guides
+Granularidad
 Formula
 Feedback
 Francis
@@ -96222,6 +96251,7 @@ Foco
 Facilitador
 Francisco
 Fiestas
+Filosof
 otras
 of
 on
@@ -101790,6 +101820,8 @@ Cambia
 Conocedor
 Cuyos
 Cruz
+Comprensi
+Campos
 vida
 viene
 va
@@ -107402,6 +107434,7 @@ Recopilacion
 Recolecci
 Representacion
 Roja
+Redactado
 Bar
 Bisquerra
 Bajo
@@ -110185,6 +110218,7 @@ Boceto
 Buena
 Basados
 Bibliograf
+Burnup
 Kama
 KPI
 Kurt
@@ -112898,6 +112932,7 @@ KUB
 Knqn
 Kano
 Ken
+Kniberg
 gicos
 gica
 generan
