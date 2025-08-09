@@ -75,23 +75,25 @@ Una herramienta avanzada que **integra alcance, tiempo y coste** para medir el d
 
 ## 🧮 Fórmulas Clave Del Valor Ganado
 
+$$
 CV (Cost Variance)=EV−AC\text{CV (Cost Variance)} = EV - AC
-
+$$
 > **Indica si hay sobrecoste o ahorro.**
 
 - CV > 0 → Ahorro
     
 - CV < 0 → Sobrecoste
 
+$$
 SV (Schedule Variance)=EV−PV\text{SV (Schedule Variance)} = EV - PV
-
+$$
 > **Indica si estamos adelantados o retrasados.**
 
 - SV > 0 → Adelanto
     
 - SV < 0 → Retraso
 
-CPI (Cost Performance Index)=EVAC\text{CPI (Cost Performance Index)} = \frac{EV}{AC}
+$$CPI (Cost Performance Index)=EVAC\text{CPI (Cost Performance Index)} = \frac{EV}{AC}$$
 
 > **Eficiencia en uso del presupuesto.**
 
@@ -99,7 +101,7 @@ CPI (Cost Performance Index)=EVAC\text{CPI (Cost Performance Index)} = \frac{
     
 - CPI < 1 → Gasto ineficiente
 
-SPI (Schedule Performance Index)=EVPV\text{SPI (Schedule Performance Index)} = \frac{EV}{PV}
+$$SPI (Schedule Performance Index)=EVPV\text{SPI (Schedule Performance Index)} = \frac{EV}{PV}$$
 
 > **Eficiencia en ejecución del cronograma.**
 
@@ -107,11 +109,11 @@ SPI (Schedule Performance Index)=EVPV\text{SPI (Schedule Performance Index)} 
     
 - SPI < 1 → Retrasado
 
-EAC=BACCPI\text{EAC} = \frac{BAC}{CPI}
+$$EAC=BACCPI  \space {EAC} = \frac{BAC}{CPI}$$
 
 > **Proyección del coste final si continúa el rendimiento actual.**
 
-VAC=BAC−EAC\text{VAC} = BAC - EAC
+$$VAC=BAC−EAC\space{VAC} = BAC - EAC$$
 
 > **Diferencia entre el presupuesto original y la estimación actual.**
 
@@ -151,4 +153,57 @@ El control de costes y la técnica del valor ganado **van más allá del simple 
 
 ---
 
-¿Quieres que también prepare una hoja resumen tipo infografía o una presentación editable en PowerPoint/Canva basada en estas notas?
+## MicroTest
+
+
+### **Pregunta 1:**
+
+**¿Cuál de estas afirmaciones es correcta?**
+
+✅ **Respuesta correcta: d.**  
+**"Los criterios de imputación de costes tratan de reconocer el coste sobre las actividades del proyecto cuando este se produce, a la vez de requerir la menor carga burocrática posible."**
+
+🔍 **Explicación:**
+
+- La opción **a** es incorrecta porque si el **CV (Cost Variance)** es positivo, significa que el proyecto **va por debajo del presupuesto** (no sobrecoste), y si el **SV (Schedule Variance)** es negativo, **va con retraso** (no adelantado).
+    
+- La opción **b** es incorrecta: cuando **VC y VP son negativos**, es señal de problemas (más coste o más retraso), **no de estar mejor**.
+    
+- La opción **c** es incorrecta: **CPI** y **SPI** sí **permiten hacer previsiones futuras** del comportamiento del proyecto (por ejemplo, estimaciones a final del proyecto: **EAC**, **ETC**, etc.).
+    
+
+---
+
+### **Pregunta 2:**
+
+**¿En qué situación nos encontraremos al terminar el proyecto (aproximadamente)?**
+
+✅ **Respuesta correcta: c.**  
+**"Con un adelanto de un mes y 2000 € por debajo de coste."**
+
+🔍 **Explicación:**
+
+- CPI = 1.02 ⇒ eficiencia en coste del 102%, es decir, **estamos gastando menos de lo presupuestado**.
+    
+- SPI = 1.09 ⇒ eficiencia temporal del 109%, es decir, **vamos más rápido de lo previsto**.
+    
+- Si el proyecto es de 12 meses, un SPI de 1.09 indica una ganancia de tiempo del **9% del total**, es decir, aproximadamente **1 mes de adelanto**.
+    
+- Un CPI de 1.02 en un presupuesto de 100,000 € indica que **ahorraremos aproximadamente un 2%**, o sea **2,000 €**.
+    
+
+---
+
+### **Pregunta 3:**
+
+**¿Qué permite el EVT (Earned Value Technique)?**
+
+✅ **Respuesta correcta: d.**  
+**"Permite controlar la ejecución de un proyecto a través de su presupuesto y de su calendario de ejecución."**
+
+🔍 **Explicación:**
+
+- El **Valor Ganado (EVT)** es una técnica que **integra** el avance temporal y el coste, permitiendo hacer **comparaciones del trabajo planificado vs. el realizado vs. el coste**.
+    
+- Por tanto, **no se limita solo a presupuesto o solo al calendario**, como sugieren las opciones **b** y **c**.
+    
