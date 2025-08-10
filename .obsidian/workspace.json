@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c0e7b8d1f0da9a8f",
+            "id": "e0b5c212686ba469",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/030-Monitorizar-las-comunicaciones.md",
+                "file": "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/035-Etica-administrativa.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,59 +28,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "030-Monitorizar-las-comunicaciones"
-            }
-          },
-          {
-            "id": "55302de30584f982",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/031-desarollar-el-plan-rh.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "031-desarollar-el-plan-rh"
-            }
-          },
-          {
-            "id": "700d451a66861458",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/032-Actores-y-roles.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "032-Actores-y-roles"
+              "title": "035-Etica-administrativa"
             }
           }
         ],
-        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -138,7 +89,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 286.5
+    "width": 286.5,
+    "collapsed": true
   },
   "right": {
     "id": "a25b807ad639ff42",
@@ -248,8 +200,11 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "55302de30584f982",
+  "active": "e0b5c212686ba469",
   "lastOpenFiles": [
+    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/034-Resumen-6.md",
+    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/035-Etica-administrativa.md",
+    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/033-Tipos-de-organizaciones.md",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/032-Actores-y-roles.md",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/031-desarollar-el-plan-rh.md",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/030-Monitorizar-las-comunicaciones.md",
@@ -287,9 +242,6 @@
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/003-Aspectos-de-dirección-de-proyectos.md",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/012-Gestion-De-La-Integracion.md",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/014-Resumen-3.md",
-    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/016-Alcance-proceso-gestion-1.md",
-    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/021-Resumen-4.md",
-    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/011-Integracion-Direcion-de-proyectos.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Books/2020-Scrum-Guide-Spanish-European.pdf",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Books/Unconfirmed 382368.crdownload",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/000_IdeasClave.pdf",
