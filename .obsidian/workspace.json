@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "15e1f5967a9840d5",
+        "id": "ad1e55e88b122f1f",
         "type": "tabs",
         "children": [
           {
-            "id": "cd14af92dee58561",
+            "id": "c0e7b8d1f0da9a8f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/051-Resumen-7.md",
+                "file": "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/030-Monitorizar-las-comunicaciones.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,16 +28,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "051-Resumen-7"
+              "title": "030-Monitorizar-las-comunicaciones"
             }
           },
           {
-            "id": "bb119b0e2a72a17c",
+            "id": "55302de30584f982",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/031-desarollar-el-plan-rh.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,16 +52,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
+              "title": "031-desarollar-el-plan-rh"
             }
           },
           {
-            "id": "594508a7eca67fcf",
+            "id": "700d451a66861458",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/002-Identificar-la-jerarquía.md",
+                "file": "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/032-Actores-y-roles.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,7 +76,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "002-Identificar-la-jerarquía"
+              "title": "032-Actores-y-roles"
             }
           }
         ],
@@ -248,15 +248,27 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "bb119b0e2a72a17c",
+  "active": "55302de30584f982",
   "lastOpenFiles": [
+    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/032-Actores-y-roles.md",
+    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/031-desarollar-el-plan-rh.md",
+    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/030-Monitorizar-las-comunicaciones.md",
+    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/029-La-gestion-de-comunicacion.md",
+    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/028-resumen-5.md",
+    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/027-Analisis-de-riesgo-Herramientas.md",
+    "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad-02/mexissi04_act2.docx",
+    "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad-1/mexissi04_act1.docx",
+    "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad-03/mexissi04_act3.docx",
+    "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad-1/Actividad-01-Conceptos.md",
+    "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad-1/Actividad-01-Guion.md",
+    "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad-1",
+    "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad-02",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/051-Resumen-7.md",
     "conflict-files-obsidian-git.md",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/attachments/Pasted image 20250806160321.png",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/Actividades/Actividad 3/mexdigete06t10actauto2.md",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/Actividades/Actividad 3/mexdigete06t10actauto2.docx",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/Actividades/Actividad 3",
-    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/027-Analisis-de-riesgo-Herramientas.md",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/026-Identifacion-de-riesgos.md",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/025-Conceptos-de-riesgo.md",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/002-Identificar-la-jerarquía.md",
@@ -278,23 +290,11 @@
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/016-Alcance-proceso-gestion-1.md",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/021-Resumen-4.md",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/011-Integracion-Direcion-de-proyectos.md",
-    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/005-Resumen-tema-1.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/004-Modelo-proceso-dessarollo-software.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/031-La-reutilización-del-software.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/038-Agil-vs-Tradicional.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/034-patrones-de-diseño.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Books/2020-Scrum-Guide-Spanish-European.pdf",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Books/Unconfirmed 382368.crdownload",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Untitled 1.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/047-Sprint.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/000_IdeasClave.pdf",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Agenda/Agenda.pdf",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/{B2FFE6B2-037F-46DB-9DB9-7F7C1723B699}.png",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250726152950.png",
-    "Maestría-Ingeniería-de-Software/Calendario semestral.pdf",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250726113742.png",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Actividad_03/mexissi01_act3.docx",
-    "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/mexissi04_act1.docx",
-    "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/mexissi04_act2.docx"
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250726113742.png"
   ]
 }
