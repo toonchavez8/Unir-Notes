@@ -142,3 +142,12 @@
 
 ---
 
+## MicroTest
+
+- Estás trabajando para un proyecto externo y el cliente te pide realizar trabajos extra que no están incluidos en el contrato inicial. ¿Qué deberías hacer?:
+	- C. Recoges eI requerimiento y comunicas al cliente que debe emitir un
+	Requerimiento formal del cambio.
+- En una reunión con el cliente del proyecto te ofrecen un sustancioso incentivo monetario para modificar la configuración del producto de acuerdo con las necesidades del cliente. Este cambio puede provocar mayores costes y retrasos en la planificación. ¿Cuál sería la acción adecuada que deberías tomar?:
+	- Abstenerse de aceptar la oferta y recomendar al cliente que emita un requerimiento a la mesa de control de cambios.
+- Estás trabajando en un país en el que se acostumbra a intercambiar regalos entre cliente y proveedor. El código de conducta de tu compañía establece claramente que no puedes aceptar regalos de ningún cliente. El no aceptar el regalo de este cliente puede conllevar a la cancelación del contrato. La acción que tomar en este caso sería:
+	- Contactar con el departamento legal o de relaciones públicas del patrocinador del proyecto para que dé asistencia.
