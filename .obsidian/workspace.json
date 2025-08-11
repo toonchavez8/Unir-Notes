@@ -54,9 +54,33 @@
               "icon": "lucide-file",
               "title": "027-Analisis-de-riesgo-Herramientas"
             }
+          },
+          {
+            "id": "944d8015fe6ebf89",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -224,28 +248,38 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "4ec82f500519a15f",
+  "active": "944d8015fe6ebf89",
   "lastOpenFiles": [
-    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/026-Identifacion-de-riesgos.md",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/027-Analisis-de-riesgo-Herramientas.md",
+    "conflict-files-obsidian-git.md",
+    "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad-1/mexissi04_act1.docx",
+    "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad-1/Actividad-01-Conceptos.md",
+    "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad-1/Actividad-01-Guion.md",
+    "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad-1",
+    "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad-03/erueka-server/src/test/java/erueka_server/erueka_server/EruekaServerApplicationTests.java",
+    "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad-03/erueka-server/src/main/java/erueka_server/erueka_server/EruekaServerApplication.java",
+    "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad-03/erueka-server/src/test/java/erueka_server/erueka_server",
+    "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad-03/erueka-server/src/main/java/erueka_server/erueka_server",
+    "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad-03/erueka-server/src/test/java/erueka_server",
+    "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad-03/erueka-server/src/main/resources/application.properties",
+    "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad-03/erueka-server/src/main/java/erueka_server",
+    "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad-03/erueka-server/src/test/java",
+    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/035-Etica-administrativa.md",
+    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/034-Resumen-6.md",
+    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/033-Tipos-de-organizaciones.md",
+    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/032-Actores-y-roles.md",
+    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/031-desarollar-el-plan-rh.md",
+    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/030-Monitorizar-las-comunicaciones.md",
+    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/029-La-gestion-de-comunicacion.md",
+    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/028-resumen-5.md",
+    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/026-Identifacion-de-riesgos.md",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/attachments/Pasted image 20250806160321.png",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/025-Conceptos-de-riesgo.md",
-    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/Actividades/Actividad 3/mexdigete06t10actauto2.docx",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/Actividades/Actividad 3/mexdigete06t10actauto2.md",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/024-Control-de-costes-valor-ganado.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/051-Resumen-7.md",
-    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/Actividades/Actividad 3",
     "StudyGuides/Interview Questions and Answers.md",
-    "conflict-files-obsidian-git.md",
     "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Untitled.md",
-    "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad_03/erueka-server/src/main/java/erueka_server/erueka_server/EruekaServerApplication.java",
-    "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad_03/erueka-server/src/test/java/erueka_server/erueka_server/EruekaServerApplicationTests.java",
-    "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad_03/erueka-server/src/main/java/erueka_server/erueka_server",
-    "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad_03/erueka-server/src/test/java/erueka_server/erueka_server",
-    "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad_03/erueka-server/src/main/resources/application.properties",
-    "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad_03/erueka-server/src/main/java/erueka_server",
-    "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad_03/erueka-server/src/test/java/erueka_server",
-    "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad_03/erueka-server/src/main/resources",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/{B2FFE6B2-037F-46DB-9DB9-7F7C1723B699}.png",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250726221651.png",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250726221549.png",
@@ -260,17 +294,6 @@
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/050-Escalado-Scrum.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/048-Reuniones.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/047-Sprint.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/046-Product-backlog.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/045-Roles.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/044-Scrum.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/043-Resumen-7.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/042-Planificacion-especificacion-agil.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/041-historias-de-usario.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/040-Product-owner.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/039-Hoja-de-ruta.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/038-Agil-vs-Tradicional.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/037-Manifiesto-Agil.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/036-Agilidad-en-software.md",
-    "Educative-io/Java-Masterclass/003-Simple-java-program.md"
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/046-Product-backlog.md"
   ]
 }
