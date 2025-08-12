@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/026-Identifacion-de-riesgos.md",
+                "file": "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/051-Resumen-7.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,175 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "026-Identifacion-de-riesgos"
+              "title": "051-Resumen-7"
+            }
+          },
+          {
+            "id": "670e3be9dd532e51",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/052-Extreme-Programing.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "052-Extreme-Programing"
+            }
+          },
+          {
+            "id": "aceee35c85eb3ce4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/053-Lean-software-dev.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "053-Lean-software-dev"
+            }
+          },
+          {
+            "id": "79f30627c4e14a5a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/054-Kanban.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "054-Kanban"
+            }
+          },
+          {
+            "id": "2eaf2e8e13bb8d3f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/055-Scrumban.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "055-Scrumban"
+            }
+          },
+          {
+            "id": "f75209804d4b4f78",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/056-Otras-tecnicas-agiles.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "056-Otras-tecnicas-agiles"
+            }
+          },
+          {
+            "id": "994134ecc18bbd3c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/057-Relacion-entre-tecnicas-agiles.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "057-Relacion-entre-tecnicas-agiles"
+            }
+          },
+          {
+            "id": "79b2e6e183159dab",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/058-Resumen-09.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "058-Resumen-09"
             }
           },
           {
@@ -37,7 +205,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/027-Analisis-de-riesgo-Herramientas.md",
+                "file": "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/035-Etica-administrativa.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,35 +220,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "027-Analisis-de-riesgo-Herramientas"
-            }
-          },
-          {
-            "id": "944d8015fe6ebf89",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
+              "title": "035-Etica-administrativa"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -248,8 +392,21 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "944d8015fe6ebf89",
+  "active": "79b2e6e183159dab",
   "lastOpenFiles": [
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/057-Relacion-entre-tecnicas-agiles.md",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/058-Resumen-09.md",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/056-Otras-tecnicas-agiles.md",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/055-Scrumban.md",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/054-Kanban.md",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/053-Lean-software-dev.md",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/052-Extreme-Programing.md",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250811120604.png",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250811120440.png",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/051-Resumen-7.md",
+    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/026-Identifacion-de-riesgos.md",
+    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/035-Etica-administrativa.md",
+    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/Untitled.md",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/027-Analisis-de-riesgo-Herramientas.md",
     "conflict-files-obsidian-git.md",
     "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad-1/mexissi04_act1.docx",
@@ -264,7 +421,6 @@
     "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad-03/erueka-server/src/main/resources/application.properties",
     "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad-03/erueka-server/src/main/java/erueka_server",
     "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad-03/erueka-server/src/test/java",
-    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/035-Etica-administrativa.md",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/034-Resumen-6.md",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/033-Tipos-de-organizaciones.md",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/032-Actores-y-roles.md",
@@ -272,28 +428,17 @@
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/030-Monitorizar-las-comunicaciones.md",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/029-La-gestion-de-comunicacion.md",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/028-resumen-5.md",
-    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/026-Identifacion-de-riesgos.md",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/attachments/Pasted image 20250806160321.png",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/025-Conceptos-de-riesgo.md",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/Actividades/Actividad 3/mexdigete06t10actauto2.md",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/024-Control-de-costes-valor-ganado.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/051-Resumen-7.md",
     "StudyGuides/Interview Questions and Answers.md",
-    "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Untitled.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/{B2FFE6B2-037F-46DB-9DB9-7F7C1723B699}.png",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250726221651.png",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250726221549.png",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250726221436.png",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250726221421.png",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250726215823.png",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250726215734.png",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250726152950.png",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250726113742.png",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Actividad_03/Sprintns/Sprint1.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Actividad_03/Sprintns/Sprint 3.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/050-Escalado-Scrum.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/048-Reuniones.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/047-Sprint.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/046-Product-backlog.md"
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250726215734.png"
   ]
 }
