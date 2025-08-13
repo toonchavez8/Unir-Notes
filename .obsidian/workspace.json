@@ -4,124 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "15e1f5967a9840d5",
+        "id": "eeab6343f22a68d5",
         "type": "tabs",
-        "dimension": 85.27245949926362,
         "children": [
           {
-            "id": "d0e15a629367ea2e",
+            "id": "2808d474fbc705ee",
             "type": "leaf",
             "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/000_IdeasClave.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "000_IdeasClave"
-            }
-          },
-          {
-            "id": "089e072f97e4f5ca",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/041-historias-de-usario.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "041-historias-de-usario"
-            }
-          },
-          {
-            "id": "9c96a6ff9004753d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/042-Planificacion-especificacion-agil.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": true,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "042-Planificacion-especificacion-agil"
-            }
-          },
-          {
-            "id": "170d8f3f639a00d5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/043-Resumen-7.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "043-Resumen-7"
-            }
-          }
-        ],
-        "currentTab": 3
-      },
-      {
-        "id": "1c82a275ceaf8d60",
-        "type": "tabs",
-        "dimension": 14.727540500736376,
-        "children": [
-          {
-            "id": "ca6954263e0f2061",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/041-historias-de-usario.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "041-historias-de-usario"
+              "title": "New tab"
             }
           }
         ]
@@ -291,11 +184,11 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "170d8f3f639a00d5",
+  "active": "2808d474fbc705ee",
   "lastOpenFiles": [
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/042-Planificacion-especificacion-agil.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/043-Resumen-7.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/041-historias-de-usario.md",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/043-Resumen-7.md",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/042-Planificacion-especificacion-agil.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/000_IdeasClave.pdf",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/{B2FFE6B2-037F-46DB-9DB9-7F7C1723B699}.png",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250726152950.png",
@@ -337,7 +230,6 @@
     "Educative-io/Design-Patterns/003-Builder-pattern.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Actividad_03/Sprintns/Sprint1.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Actividad_03/Sprintns/attachments/Pasted image 20250712160552.png",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Actividad_03/Organizacion Congreso Scrum.md",
-    "StudyGuides/Interview Questions and Answers.md"
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Actividad_03/Organizacion Congreso Scrum.md"
   ]
 }
