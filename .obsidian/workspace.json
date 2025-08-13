@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e0b5c212686ba469",
+            "id": "f12d0764598962e8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/035-Etica-administrativa.md",
+                "file": "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/069-Resumen-10.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,35 +28,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "035-Etica-administrativa"
-            }
-          },
-          {
-            "id": "2b7db241b62deb6b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
+              "title": "069-Resumen-10"
             }
           }
         ],
-        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -89,11 +64,11 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "Microtest",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
-                "extraContext": false,
+                "extraContext": true,
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
@@ -114,8 +89,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 286.5,
-    "collapsed": true
+    "width": 605.5
   },
   "right": {
     "id": "a25b807ad639ff42",
@@ -225,8 +199,20 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "2b7db241b62deb6b",
+  "active": "f12d0764598962e8",
   "lastOpenFiles": [
+    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/001-Estrategia-al-proyecto.md",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/069-Resumen-10.md",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/068-Modelos-de-madures-CMMI.md",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/067-Mejora-del-processo-de-software.md",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/066-Familia-Iso.md",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/065-Modelos-de-calidad-de-producto-software.md",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/064-Calidad-de-software.md",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/063-Behavior-driven-development.md",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/062-Acceptance-test-driven-dev.md",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/061-Test-driven-dev.md",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/060-Purebas-de-software.md",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/059-Verificacion.md",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/035-Etica-administrativa.md",
     "conflict-files-obsidian-git.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250811120604.png",
@@ -243,25 +229,14 @@
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/033-Tipos-de-organizaciones.md",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/032-Actores-y-roles.md",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/031-desarollar-el-plan-rh.md",
-    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/030-Monitorizar-las-comunicaciones.md",
-    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/029-La-gestion-de-comunicacion.md",
-    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/028-resumen-5.md",
-    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/027-Analisis-de-riesgo-Herramientas.md",
     "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad-02/mexissi04_act2.docx",
     "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad-1/mexissi04_act1.docx",
     "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad-03/mexissi04_act3.docx",
-    "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad-1/Actividad-01-Conceptos.md",
-    "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad-1/Actividad-01-Guion.md",
     "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad-1",
     "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad-02",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/051-Resumen-7.md",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/attachments/Pasted image 20250806160321.png",
-    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/Actividades/Actividad 3/mexdigete06t10actauto2.md",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/Actividades/Actividad 3/mexdigete06t10actauto2.docx",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/Actividades/Actividad 3",
-    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/026-Identifacion-de-riesgos.md",
-    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/025-Conceptos-de-riesgo.md",
-    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/002-Identificar-la-jerarquía.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250726221651.png",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250726221549.png",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250726221436.png",
