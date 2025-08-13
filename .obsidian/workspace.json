@@ -30,8 +30,33 @@
               "icon": "lucide-file",
               "title": "035-Etica-administrativa"
             }
+          },
+          {
+            "id": "2b7db241b62deb6b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
+            }
           }
         ],
+        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -200,10 +225,21 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "e0b5c212686ba469",
+  "active": "2b7db241b62deb6b",
   "lastOpenFiles": [
-    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/034-Resumen-6.md",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/035-Etica-administrativa.md",
+    "conflict-files-obsidian-git.md",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250811120604.png",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250811120440.png",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/058-Resumen-09.md",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/057-Relacion-entre-tecnicas-agiles.md",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/056-Otras-tecnicas-agiles.md",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/055-Scrumban.md",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/054-Kanban.md",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/053-Lean-software-dev.md",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/052-Extreme-Programing.md",
+    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/Untitled.md",
+    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/034-Resumen-6.md",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/033-Tipos-de-organizaciones.md",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/032-Actores-y-roles.md",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/031-desarollar-el-plan-rh.md",
@@ -219,7 +255,6 @@
     "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad-1",
     "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad-02",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/051-Resumen-7.md",
-    "conflict-files-obsidian-git.md",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/attachments/Pasted image 20250806160321.png",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/Actividades/Actividad 3/mexdigete06t10actauto2.md",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/Actividades/Actividad 3/mexdigete06t10actauto2.docx",
@@ -231,22 +266,11 @@
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250726221549.png",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250726221436.png",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250726221421.png",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/050-Escalado-Scrum.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250726215823.png",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250726215734.png",
-    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/008-Entradas-herramientas-salidas.md",
-    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/004-Historia-gestion-proyectos.md",
-    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/007-Tareas-conocimientos-y-habilidades-incio.md",
-    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/009-Gestion-y-Monitorizar-interesados.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/048-Reuniones.md",
-    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/003-Aspectos-de-dirección-de-proyectos.md",
-    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/012-Gestion-De-La-Integracion.md",
-    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/014-Resumen-3.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Books/2020-Scrum-Guide-Spanish-European.pdf",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Books/Unconfirmed 382368.crdownload",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/000_IdeasClave.pdf",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/{B2FFE6B2-037F-46DB-9DB9-7F7C1723B699}.png",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250726152950.png",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250726113742.png"
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/{B2FFE6B2-037F-46DB-9DB9-7F7C1723B699}.png"
   ]
 }
