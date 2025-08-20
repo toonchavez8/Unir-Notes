@@ -212,30 +212,6 @@
             }
           },
           {
-            "id": "cff90b61887eefde",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
-            }
-          },
-          {
             "id": "4ec82f500519a15f",
             "type": "leaf",
             "state": {
@@ -260,7 +236,7 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -428,7 +404,7 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "cff90b61887eefde",
+  "active": "3100541bbce553bb",
   "lastOpenFiles": [
     "conflict-files-obsidian-git.md",
     "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad-03/mexissi04_act3.md",
