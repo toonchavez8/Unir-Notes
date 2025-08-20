@@ -200,6 +200,18 @@
             }
           },
           {
+            "id": "3100541bbce553bb",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.9.10"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.9.10"
+            }
+          },
+          {
             "id": "4ec82f500519a15f",
             "type": "leaf",
             "state": {
@@ -224,7 +236,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -281,8 +293,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 346.5,
-    "collapsed": true
+    "width": 346.5
   },
   "right": {
     "id": "a25b807ad639ff42",
@@ -373,6 +384,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "obisidian-note-linker:Note Linker": false,
       "quick-tagger:Add tag to current note": false,
       "quick-tagger:Remove tag from current note": false,
@@ -392,7 +404,7 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "79b2e6e183159dab",
+  "active": "3100541bbce553bb",
   "lastOpenFiles": [
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/057-Relacion-entre-tecnicas-agiles.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/058-Resumen-09.md",
