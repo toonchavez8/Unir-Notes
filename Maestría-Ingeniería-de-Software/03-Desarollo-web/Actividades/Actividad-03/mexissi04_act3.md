@@ -54,30 +54,266 @@ Rúbrica
 ---
 
 ## Rúbrica de criterios técnicos
+| **Criterio**                                                                                      | **0 points**                                                                                                | **0.75 points**                                                                                            | **1.13 points**                                                                                             | **Máxima puntuación**                                                                                                                                                                                                       |
+| ------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Criterio 1 Modificación del microservicio buscador para utilizar Elasticsearch**                | Las modificaciones realizadas no son suficientes y el código no se ejecuta correctamente. <br> **0 points** | Las modificaciones realizadas funcionan pero el modelado de los datos no es correcto. <br> **0.75 points** | Las modificaciones realizadas funcionan y modelado de los datos es correcto. <br> **1.13 points**           | Las modificaciones realizadas funcionan y modelado de los datos es correcto. Además, se han tenido en cuenta consideraciones de seguridad para trabajar con las credenciales de acceso a Elasticsearch. <br> **1.5 points** |
+| **Criterio 2 Uso de Elasticsearch para realizar sugerencias, correcciones o búsquedas full-text** | No se realizan sugerencias, correcciones ni búsquedas full-text. <br> **0 points**                          | Se realizan búsquedas full-text sobre muy pocos atributos. <br> **0.75 points**                            | Se realizan búsquedas full-text sobre todos los atributos sobre los que tiene sentido. <br> **1.13 points** | Se realizan búsquedas full-text sobre todos los atributos sobre los que tiene sentido, así como la posibilidad de implementar correcciones o sugerencias. <br> **1.5 points**                                               |
+| **Criterio 3 Uso de Elasticsearch para implementar facets**                                       | No se utilizan facets. <br> **0 points**                                                                    | Se utilizan facets para un número limitado de atributos. <br> **0.75 points**                              | Se utilizan facets para todos los atributos que lo puedan necesitar. <br> **1.13 points**                   | Se utilizan facets para todos los atributos que lo puedan necesitar. Los rangos devueltos son adecuados y permiten un buen nivel de experiencia de búsqueda. <br> **1.5 points**                                            |
+| **Criterio 4 Integración de front-end y back-end en local**                                       | No se realiza. <br> **0 points**                                                                            | Se realiza con fallos en menos de dos componentes. <br> **1.25 points**                                    | Se realiza sin fallos. <br> **1.88 points**                                                                 | Se realiza sin fallos y el CORS está configurado a nivel GW. <br> **2.5 points**                                                                                                                                            |
+| **Criterio 5 Modificación del estilo con CSS**                                                    | No se realiza. <br> **0 points**                                                                            | Se realiza correctamente para front o back, pero no ambos. <br> **1 point**                                | Se realiza correctamente para front y back. <br> **1.5 points**                                             | Se realiza correctamente para front y back. El CORS está configurado a nivel GW y únicamente el GW es accesible públicamente. <br> **2 points**                                                                             |
+| **Criterio 6 Vídeo memoria obligatoria**                                                          | No hay vídeo memoria. <br> **0 points**                                                                     | Vídeo memoria demasiado corto o que no cubre todos los aspectos. <br> **0.5 points**                       | Vídeo memoria que cubre todos los aspectos pero no entra en detalle en ellos. <br> **0.75 points**          | Duración adecuada y cobertura de todos los aspectos solicitados. <br> **1 point**                                                                                                                                           |
 
-| Criterio | Descripción | Puntos |
-|----------|-------------|--------|
-| **Criterio 1. Modificación del microservicio buscador para utilizar Elasticsearch** | Las modificaciones realizadas no son suficientes y el código no se ejecuta correctamente. | 0 |
-| | Las modificaciones realizadas funcionan pero el modelado de los datos no es correcto. | 0.75 |
-| | Las modificaciones realizadas funcionan y el modelado de los datos es correcto. | 1.13 |
-| | Las modificaciones realizadas funcionan, el modelado de los datos es correcto y se han tenido en cuenta consideraciones de seguridad para trabajar con las credenciales de acceso a Elasticsearch. | 1.5 |
-| **Criterio 2. Uso de Elasticsearch para realizar sugerencias, correcciones o búsquedas full-text** | No se realizan sugerencias, correcciones ni búsquedas full-text. | 0 |
-| | Se realizan búsquedas full-text sobre muy pocos atributos. | 0.75 |
-| | Se realizan búsquedas full-text sobre todos los atributos sobre los que tiene sentido. | 1.13 |
-| | Se realizan búsquedas full-text sobre todos los atributos sobre los que tiene sentido, así como la posibilidad de implementar correcciones o sugerencias. | 1.5 |
-| **Criterio 3. Uso de Elasticsearch para implementar facets** | No se utilizan facets. | 0 |
-| | Se utilizan facets para un número limitado de atributos. | 0.75 |
-| | Se utilizan facets para todos los atributos que lo puedan necesitar. | 1.13 |
-| | Se utilizan facets para todos los atributos que lo puedan necesitar. Los rangos devueltos son adecuados y permiten un buen nivel de experiencia de búsqueda. | 1.5 |
-| **Criterio 4. Integración de front-end y back-end en local** | No se realiza. | 0 |
-| | Se realiza con fallos en menos de dos componentes. | 1.25 |
-| | Se realiza sin fallos. | 1.88 |
-| | Se realiza sin fallos y el CORS está configurado a nivel GW. | 2.5 |
-| **Criterio 5. Modificación del estilo con CSS** | No se realiza. | 0 |
-| | Se realiza correctamente para front o back, pero no ambos. | 1 |
-| | Se realiza correctamente para front y back. | 1.5 |
-| | Se realiza correctamente para front y back. El CORS está configurado a nivel GW y únicamente el GW es accesible públicamente. | 2 |
-| **Criterio 6. Vídeo memoria obligatoria** | No hay vídeo memoria. | 0 |
-| | Vídeo memoria demasiado corto o que no cubre todos los aspectos. | 0.5 |
-| | Vídeo memoria que cubre todos los aspectos pero no entra en detalle en ellos. | 0.75 |
-| | Duración adecuada y cobertura de todos los aspectos solicitados. | 1 |
+
+----
+
+Issue 1 — Asegurar que el servicio Search use Elasticsearch con mapping correcto (search_as_you_type, text, keyword)
+
+- Observación: Existe ElasticsearchConfig.java y entidades — la integración está iniciada.
+- Conclusión: Parcial — no garantiza mapping correcto para search_as_you_type/keyword/text.
+- Dónde corregir: [Items.java](vscode-file://vscode-app/c:/Users/FoodLovers/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/code/electron-browser/workbench/workbench.html) y [ElasticsearchConfig.java](vscode-file://vscode-app/c:/Users/FoodLovers/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/code/electron-browser/workbench/workbench.html)
+- Pasos:
+    1. Anotar campos de la entidad con los tipos @Field apropiados (Text, Keyword, Search_As_You_Type).
+    2. Asegurar que el índice se cree con el mapping en ElasticsearchConfig al arrancar.
+- Ejemplo mínimo para añadir en ElasticsearchConfig (crear índice si no existe):
+
+```Java
+// ...existing code...
+// add an index creation method (pseudo)
+public void ensureIndex(RestHighLevelClient client) throws IOException {
+    String index = "items";
+    GetIndexRequest get = new GetIndexRequest(index);
+    if (!client.indices().exists(get, RequestOptions.DEFAULT)) {
+        CreateIndexRequest req = new CreateIndexRequest(index);
+        req.settings(Settings.builder()
+            .put("index.number_of_shards", 1)
+            .put("index.number_of_replicas", 0)
+        );
+        String mapping = """
+        {
+          "properties": {
+            "id": { "type": "keyword" },
+            "name": { "type": "search_as_you_type" },
+            "description": { "type": "text" },
+            "category": { "type": "keyword" },
+            "brand": { "type": "keyword" },
+            "price": { "type": "double" }
+          }
+        }
+        """;
+        req.mapping(mapping, XContentType.JSON);
+        client.indices().create(req, RequestOptions.DEFAULT);
+    }
+}
+// ...existing code...
+```
+
+Issue 2 — Implementar endpoints de búsqueda full-text, sugerencias (autocomplete) y fuzzy/correcciones
+
+- Observación: SearchAPI e InnerSearch existen pero se desconoce si soportan multi_match, completion y fuzzy.
+- Conclusión: Parcial/No completo para la nota máxima.
+- Dónde corregir: [SearchAPI.java](vscode-file://vscode-app/c:/Users/FoodLovers/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/code/electron-browser/workbench/workbench.html) y search/service/InnerSearch.java
+- Pasos:
+    1. Añadir endpoint /search?q= que realice multi_match sobre campos text con fuzziness.
+    2. Añadir endpoint /suggest?q= que use el campo search_as_you_type con prefix.
+- Ejemplo mínimo de endpoints en el controlador:
+
+```Java
+// ...existing code...
+@GetMapping("/search")
+public ResponseEntity<?> search(@RequestParam String q, @RequestParam(defaultValue="0") int page) {
+    // call service.searchFullText(q, page)
+    // return results
+}
+
+@GetMapping("/suggest")
+public ResponseEntity<?> suggest(@RequestParam String q) {
+    // call service.suggest(q) -> use prefix/search_as_you_type
+    // return suggestions
+}
+// ...existing code...
+```
+
+Issue 3 — Implementar facets (aggregaciones) y rangos de precio
+
+- Observación: No se ven endpoints explícitos de agregaciones en el árbol.
+- Conclusión: No cumple para nota máxima.
+- Dónde corregir: search/service/InnerSearch.java y SearchAPI.java
+- Pasos:
+    1. Añadir endpoint /facets que devuelva buckets de agregaciones para categoría, marca y rangos numéricos de precio.
+    2. Usar terms aggs para campos categóricos y range aggs para precio.
+- Ejemplo mínimo de agregaciones:
+
+```java
+// ...existing code...
+SearchSourceBuilder source = new SearchSourceBuilder();
+source.aggregation(AggregationBuilders.terms("by_category").field("category.keyword"));
+source.aggregation(AggregationBuilders.terms("by_brand").field("brand.keyword"));
+source.aggregation(AggregationBuilders.range("price_ranges").field("price")
+    .addUnboundedTo("cheap", 50)
+    .addRange("mid", 50, 200)
+    .addUnboundedFrom("expensive", 200));
+```
+
+Issue 4 — Front-end debe usar únicamente el Gateway y aprovechar características de ES
+
+- Observación: El front-end tiene services.js, componente Facets y mocks/data.json; no está claro si llama al Gateway.
+- Conclusión: Parcial — probablemente está usando mocks; hay que asegurar que todas las llamadas vayan al Gateway y consuman /search, /suggest, /facets.
+- Dónde corregir: [services.js](vscode-file://vscode-app/c:/Users/FoodLovers/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/code/electron-browser/workbench/workbench.html) (o api/index.js) y componentes que usan mocks.
+- Pasos:
+    1. Reemplazar llamadas a mocks por fetch al URL base del Gateway (usar variable de entorno VITE_API_URL).
+    2. Actualizar UI de búsqueda para llamar a /search, /suggest, /facets a través del Gateway.
+- Cambio mínimo en services.js:
+
+```js
+// ...existing code...
+const BASE = import.meta.env.VITE_API_URL || 'http://localhost:8080';
+export async function search(q) {
+  return fetch(`${BASE}/search-service/search?q=${encodeURIComponent(q)}`).then(r=>r.json());
+}
+export async function suggest(q) {
+  return fetch(`${BASE}/search-service/suggest?q=${encodeURIComponent(q)}`).then(r=>r.json());
+}
+export async function facets() {
+  return fetch(`${BASE}/search-service/facets`).then(r=>r.json());
+}
+// ...existing code...
+```
+Issue 5 — Configurar CORS solo en Cloud Gateway y restringir acceso directo a microservicios
+
+- Observación: cloud-gateway existe y contiene docker-compose; requiere configuración explícita de CORS.
+- Conclusión: No verificado — probablemente necesita configuración.
+- Dónde corregir: [application.yml](vscode-file://vscode-app/c:/Users/FoodLovers/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/code/electron-browser/workbench/workbench.html)
+- Pasos:
+    1. Añadir configuración de CORS en el gateway permitiendo únicamente el origen del front-end.
+    2. Asegurarse de que los microservicios no permitan CORS abierto.
+- Fragmento mínimo para application.yml:
+
+```yml
+# ...existing code...
+spring:
+  cloud:
+    gateway:
+      globalcors:
+        corsConfigurations:
+          '[/**]':
+            allowedOrigins: "http://localhost:5173" # origen del front-end
+            allowedMethods:
+              - GET
+              - POST
+              - PUT
+              - DELETE
+            allowedHeaders: "*"
+# ...existing code...
+```
+
+Issue 6 — Docker: composer stack local con Elasticsearch, Eureka, Search, Operator, Gateway
+
+- Observación: Hay Dockerfiles; cloud-gateway tiene docker-compose.*, pero no hay un compose raíz que incluya Elasticsearch y todos los servicios.
+- Conclusión: No cumple para despliegue local reproducible.
+- Dónde corregir: Crear docker-compose.dev.yml en raíz o actualizar [docker-compose.dev.yml](vscode-file://vscode-app/c:/Users/FoodLovers/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/code/electron-browser/workbench/workbench.html) para incluir todos los servicios.
+- Pasos:
+    1. Añadir docker-compose que levante: elasticsearch, eureka, operator, search, cloud-gateway (solo gateway publicado) y una red.
+    2. Exponer únicamente el puerto del gateway públicamente.
+- Ejemplo mínimo de docker-compose:  `--watch`
+
+```Dockerfile
+version: '3.8'
+services:
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:8.9.0
+    environment:
+      - discovery.type=single-node
+      - ELASTIC_PASSWORD=${ES_PASSWORD}
+    ports:
+      - "9200:9200"
+    volumes:
+      - esdata:/usr/share/elasticsearch/data
+  eureka:
+    build: ./eureka
+    environment:
+      - SPRING_PROFILES_ACTIVE=dev
+    networks:
+      - backend
+  search:
+    build: ./search
+    environment:
+      - ES_HOST=http://elasticsearch:9200
+      - ES_USER=elastic
+      - ES_PASSWORD=${ES_PASSWORD}
+    networks:
+      - backend
+  operator:
+    build: ./operator
+    networks:
+      - backend
+  cloud-gateway:
+    build: ./cloud-gateway
+    ports:
+      - "8080:8080" # only gateway exposed
+    networks:
+      - backend
+volumes:
+  esdata:
+networks:
+  backend:
+    driver: bridge
+```
+
+Issue 7 — Archivos de entorno y seguridad de credenciales
+
+- Observación: Hay .env y test.env; es necesario .env.template y no subir secretos.
+- Conclusión: Parcial — requiere ajustes para nota máxima.
+- Dónde corregir: Raíz de cada servicio (search/, operator/, cloud-gateway/, eureka/, inventario-front/)
+- Pasos:
+    1. Añadir .env.template con nombres de variables pero sin valores.
+    2. Eliminar secretos del repo y añadir .env a .gitignore.
+- Ejemplo .env.template para search:
+
+```bash
+ES_HOST=http://localhost:9200
+ES_USER=elastic
+ES_PASSWORD=changeme
+SPRING_PROFILES_ACTIVE=dev
+SERVER_PORT=9001
+```
+
+Issue 8 — UX de facets y que el front aproveche las características de ES
+
+- Observación: Existe componente Facets; necesita conexión con facets del back-end y sugerencias.
+- Conclusión: Parcial — el front debe consumir /facets y /suggest para beneficiarse.
+- Dónde corregir: [Facets.jsx](vscode-file://vscode-app/c:/Users/FoodLovers/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/code/electron-browser/workbench/workbench.html) y endpoints de search.
+- Pasos:
+    1. Conectar el componente Facets para llamar a facets() y actualizar filtros.
+    2. Conectar input de búsqueda a suggest() para autocompletado.
+
+Issue 9 — Verificación de Eureka / service discovery
+
+- Observación: El módulo eureka existe y probablemente registre servicios.
+- Conclusión: Probablemente OK pero se debe confirmar en tiempo de ejecución.
+- Dónde corregir: Revisar application.yml de cada servicio para eureka.client.serviceUrl.defaultZone y spring.application.name.
+- Pasos rápidos:
+    - Levantar stack y comprobar UI de Eureka en su puerto; verificar servicios registrados.
+
+Issue 10 — Documentación y trazabilidad para corrección/grading
+
+- Observación: README parciales.
+- Conclusión: No completo para nota máxima.
+- Dónde corregir: Añadir README en raíz con pasos para ejecutar localmente (docker-compose), cómo configurar .env y lista de endpoints (search, suggest, facets).
+- Comandos mínimos a documentar:
+    - Definir ES_PASSWORD en .env
+    - docker compose -f docker-compose.dev.yml up --build
+    - npm install && npm run dev (front-end)
+
+Resumen de comprobación (puedes copiarlo como checklist):
+
+- [ ]  Añadir/verificar mappings con search_as_you_type y tipos keyword/text.
+- [ ]  Añadir endpoints de búsqueda: full-text (multi_match + fuzziness), suggest (search_as_you_type).
+- [ ]  Añadir endpoint de facets (terms y rangos).
+- [ ]  Actualizar front-end para usar el Gateway y consumir los nuevos endpoints; eliminar mocks.
+- [ ]  Configurar CORS únicamente en cloud-gateway.
+- [ ]  Crear docker-compose.dev.yml que levante ES + todos los servicios; exponer solo el gateway.
+- [ ]  Añadir .env.template en cada servicio y eliminar secretos.
+- [ ]  Asegurar registro en Eureka para todos los servicios.
+- [ ]  Añadir README con pasos para ejecutar y desplegar.
+
+Puedo generar cambios concretos (mappings en Items.java y ElasticsearchConfig, controladores de búsqueda, docker-compose y .env.template). Indica cuál quieres que genere primero y lo scaffoldeo.

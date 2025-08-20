@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/056-Resumen-11.md",
+                "file": "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad-03/mexissi04_act3.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,19 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "056-Resumen-11"
+              "title": "mexissi04_act3"
+            }
+          },
+          {
+            "id": "17f72cbf5be767d7",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.9.10"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.9.10"
             }
           }
         ],
@@ -180,6 +192,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "obisidian-note-linker:Note Linker": false,
       "quick-tagger:Add tag to current note": false,
       "quick-tagger:Remove tag from current note": false,
@@ -201,8 +214,11 @@
   },
   "active": "6afb7ac247362c97",
   "lastOpenFiles": [
-    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/055-Certificaciones-PMI.md",
+    "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad-03/01-Guia-de-arranque.md",
+    "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad-03/mexissi04_act3.md",
+    "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad-03/mexissi04_act3.docx",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/056-Resumen-11.md",
+    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/055-Certificaciones-PMI.md",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/054-Proceso-PMP.md",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/053-Grupos-de-processo.md",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/052-resumen-10.md",
@@ -223,13 +239,9 @@
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/037-Resumen-7.md",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/036-Responsabilidad-vs-pMP.md",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/035-Etica-administrativa.md",
-    "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad-03/mexissi04_act3.docx",
-    "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad-03/mexissi04_act3.md",
     "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad-03/Attachments/mexissi04_act3.png",
     "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad-03/Attachments",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/069-Resumen-10.md",
-    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/001-Estrategia-al-proyecto.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/068-Modelos-de-madures-CMMI.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250811120604.png",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250811120440.png",
     "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad-02/mexissi04_act2.docx",
