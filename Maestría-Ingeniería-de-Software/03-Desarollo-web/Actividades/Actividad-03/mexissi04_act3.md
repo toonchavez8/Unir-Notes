@@ -64,6 +64,9 @@ Rúbrica
 | **Criterio 6 Vídeo memoria obligatoria**                                                          | No hay vídeo memoria. <br> **0 points**                                                                     | Vídeo memoria demasiado corto o que no cubre todos los aspectos. <br> **0.5 points**                       | Vídeo memoria que cubre todos los aspectos pero no entra en detalle en ellos. <br> **0.75 points**          | Duración adecuada y cobertura de todos los aspectos solicitados. <br> **1 point**                                                                                                                                           |
 
 
+
+
+
 ----
 
 Issue 1 — Asegurar que el servicio Search use Elasticsearch con mapping correcto (search_as_you_type, text, keyword)
@@ -178,6 +181,9 @@ export async function facets() {
 }
 // ...existing code...
 ```
+
+Eres Un genio de codigo, pero me queires educar y ayudar a crear issues en github, te voy a psar un issue que tengo definido mejoramelo y punta hacia donde tengo detalles y lo que pasos que me recomiedas tomar y que criteros de acceptadcion de beriad e tomar para que complete el issue y los tipos de purebas y vagamente como serian esas pruebas
+
 Issue 5 — Configurar CORS solo en Cloud Gateway y restringir acceso directo a microservicios
 
 - Observación: cloud-gateway existe y contiene docker-compose; requiere configuración explícita de CORS.
@@ -317,3 +323,10 @@ Resumen de comprobación (puedes copiarlo como checklist):
 - [ ]  Añadir README con pasos para ejecutar y desplegar.
 
 Puedo generar cambios concretos (mappings en Items.java y ElasticsearchConfig, controladores de búsqueda, docker-compose y .env.template). Indica cuál quieres que genere primero y lo scaffoldeo.
+
+
+```bash
+
+```
+
+
