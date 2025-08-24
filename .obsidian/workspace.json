@@ -11,10 +11,24 @@
             "id": "ffaab141ee691688",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/028-Diseno-modelado-con-prototipos.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "028-Diseno-modelado-con-prototipos"
             }
           }
         ]
@@ -49,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "path:\"Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/\"  microtest",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -70,7 +84,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -186,6 +201,22 @@
   },
   "active": "ffaab141ee691688",
   "lastOpenFiles": [
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/026-Modelo-estatico-avansado.md",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/025-modelo-Avansado-de-requisitos.md",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/023-Transformaciones-de-modelos.md",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/016-Diagrama-de-clase.md",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/014-Analisis-Diseño-orientado-objetos.md",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/013-Objeto-y-clase.md",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/012-Prinipios-Orentacion-objetos.md",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/011-Programacion-Orientada-Objetas.md",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/009-Metrica-3-vs-MSF.md",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/008-Proceso-Rational-unified-process.md",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/007-Technicas-tradicionales.md",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/005-Stakeholders.md",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/004-Modelo-proceso-dessarollo-software.md",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/003-proceso-desarollo-de-software.md",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/002-Crisis-de-software.md",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/001-Ingenieria-de-software.md",
     "conflict-files-obsidian-git.md",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/Actividades/Actividad 3/mexdigete06t10actauto2.md",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/Actividades/Actividad 3/mexdigete06t10actauto2.docx",
@@ -214,22 +245,6 @@
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/066-Familia-Iso.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/057-Relacion-entre-tecnicas-agiles.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/056-Otras-tecnicas-agiles.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/055-Scrumban.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/054-Kanban.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/053-Lean-software-dev.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/052-Extreme-Programing.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/051-Resumen-7.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/050-Escalado-Scrum.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/048-Reuniones.md",
-    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/035-Etica-administrativa.md",
-    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/034-Resumen-6.md",
-    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/033-Tipos-de-organizaciones.md",
-    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/032-Actores-y-roles.md",
-    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/031-desarollar-el-plan-rh.md",
-    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/030-Monitorizar-las-comunicaciones.md",
-    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/029-La-gestion-de-comunicacion.md",
-    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/028-resumen-5.md",
-    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/027-Analisis-de-riesgo-Herramientas.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/{B2FFE6B2-037F-46DB-9DB9-7F7C1723B699}.png",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250726152950.png"
   ]
