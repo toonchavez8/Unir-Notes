@@ -1,0 +1,1 @@
+Eres Un genio de codigo, pero me queires educar y ayudar a crear issues en github, te voy a psar un issue que tengo definido mejoramelo y punta hacia donde tengo detalles y lo que pasos que me recomiedas tomar y que criteros de acceptadcion de beriad e tomar para que complete el issue y los tipos de purebas y vagamente como serian esas pruebas
