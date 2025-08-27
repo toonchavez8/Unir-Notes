@@ -40,6 +40,235 @@ Figma also provides a **REST API** for developers. This API lets you access desi
 
 **Storybook** is a popular tool for UI component development and testing. It provides an isolated “workshop” where you can build, view, and interact with UI components outside of your main app[storybook.js.org](https://storybook.js.org/#:~:text=Storybook%20is%20a%20frontend%20workshop,It%27s%20open%20source%20and%20free). Thousands of teams use Storybook to develop component libraries: you spin up a local Storybook server and it renders your components (React, Vue, Angular, etc.) in different states. This makes it easy to visualize edge cases (disabled buttons, error states, form variations) without having to run the full application. As Storybook’s docs say: _“Storybook is a frontend workshop for building UI components and pages in isolation”_[storybook.js.org](https://storybook.js.org/#:~:text=Storybook%20is%20a%20frontend%20workshop,It%27s%20open%20source%20and%20free). By writing “stories” (scenarios) for each component, teams get interactive documentation and a testing sandbox. In interviews, know that Storybook is often mentioned in the context of design systems: it helps bridge designers and developers by showing exactly what each component does in code.
 
+### **General Purpose**
+
+This process integrates **Figma designs directly into Storybook** so developers can:
+
+- Visually compare UI components to their design specs.
+    
+- Ensure pixel-perfect implementation without switching between tools.
+    
+- Improve collaboration between designers and developers by centralizing both code and design references.
+    
+- Optionally inspect spacing, colors, and tokens through Figma’s API (using figspec).
+    
+
+---
+
+### **Interview-Style Answer**
+
+> **“Integrating Figma with Storybook allows developers to embed live design references directly inside the component development environment. This helps ensure components match design specifications, speeds up reviews, and reduces context switching between design and code. It also improves collaboration across teams by making design assets and component states visible in one place. Additionally, with the Figma API (figspec), we can inspect spacing, colors, and styles directly in Storybook, supporting design consistency and faster QA.”**
+# 1) Install the add-on
+
+From your project root:
+
+```bash
+# npm
+npm i -D storybook-addon-designs
+
+# or: yarn add -D storybook-addon-designs
+# or: pnpm add -D storybook-addon-designs
+```
+
+Stop Storybook if it’s running before you install.
+
+---
+
+# 2) Register the add-on in Storybook
+
+In **.storybook/main.ts** (or **main.js**), add it to `addons`:
+
+```ts
+// .storybook/main.ts
+import type { StorybookConfig } from '@storybook/react'; // adjust for your framework
+
+const config: StorybookConfig = {
+  // ...
+  addons: [
+    '@storybook/addon-essentials',
+    'storybook-addon-designs', // 👈 add this
+  ],
+};
+
+export default config;
+```
+
+---
+
+# 3) Enable the “Design” panel globally (decorator)
+
+Add the provided decorator so every story can show a design without repeating setup.
+
+```ts
+// .storybook/preview.ts (or preview.js)
+import { withDesign } from 'storybook-addon-designs';
+
+// Add it globally:
+export const decorators = [withDesign];
+```
+
+This creates a **Design** tab/panel in Storybook’s addons area.
+
+---
+
+# 4) Link a Figma design to a story (basic “embed” view)
+
+Copy a Figma link:
+
+1. In Figma, select the frame/component (e.g., a Badge variant).
+    
+2. Right-click → **Copy link** (or use the share bar’s “Copy link”).
+    
+
+Attach it in your story’s `parameters`:
+
+```ts
+// Badge.stories.tsx
+import type { Meta, StoryObj } from '@storybook/react';
+import { Badge } from './Badge';
+
+const meta: Meta<typeof Badge> = {
+  title: 'Components/Badge',
+  component: Badge,
+
+  // 👇 Applies to all stories in this file
+  parameters: {
+    design: {
+      type: 'figma', // supports: 'figma' | 'image' | 'link' | 'iframe'
+      url: 'https://www.figma.com/file/ABC...#node-id=123:456',
+    },
+  },
+};
+
+export default meta;
+type Story = StoryObj<typeof Badge>;
+
+export const Default: Story = { args: { /* ... */ } };
+```
+
+- Open Storybook → select your story → **Design** panel will show the embedded Figma artboard.
+    
+- You can also set `design` at the **story** level to point each variant at its specific Figma node:
+    
+
+```ts
+export const Success: Story = {
+  args: { variant: 'success' },
+  parameters: {
+    design: {
+      type: 'figma',
+      url: 'https://www.figma.com/file/ABC...#node-id=789:1011',
+    },
+  },
+};
+```
+
+> Tip: Some teams prefer linking the whole sticker sheet at the meta level (quick visual comparison). Others link exact variants per story for pixel-perfect mapping. Do whichever matches your workflow.
+
+---
+
+# 5) Other supported design sources (optional)
+
+Instead of Figma, you can embed:
+
+```ts
+parameters: {
+  design: { type: 'image',  url: '/designs/badge.png'   } // static image
+  // or
+  design: { type: 'link',   url: 'https://design.docs' }   // plain link
+  // or
+  design: { type: 'iframe', url: 'https://your-site'   }   // live site / videos
+}
+```
+
+---
+
+# 6) Turn on **Figma “spec” view** (inspection overlays)
+
+If you want measurements and tokens (spacing, sizes, CSS snippets) right inside Storybook, switch the design type to **figspec**. This uses the Figma API and requires a personal access token.
+
+## 6.1 Create a Figma personal access token
+
+- In Figma: **Settings → Account → Personal Access Tokens** → generate a token.
+    
+- Keep it secret.
+    
+
+## 6.2 Provide the token to Storybook
+
+Create **.env** in your project root (or add to your env manager) and set:
+
+```
+STORYBOOK_FIGMA_ACCESS_TOKEN=YOUR_TOKEN_HERE
+```
+
+> Don’t commit your `.env` to version control.
+
+**Restart Storybook** so it picks up the env var.
+
+## 6.3 Use `figspec` in your story parameters
+
+```ts
+parameters: {
+  design: {
+    type: 'figspec',
+    url: 'https://www.figma.com/file/ABC...#node-id=123:456',
+  },
+}
+```
+
+Now the Design panel shows inspection overlays: you can zoom and read spacing, sizes, and copy CSS-like values.
+
+---
+
+# 7) Compare design vs. implementation with Storybook tools
+
+- Use Storybook’s toolbar (e.g., the **Measure** tool in `@storybook/addon-essentials`) to check paddings/margins on your rendered component and compare with the Figma panel.
+    
+- If you maintain light/dark variants, switch your component’s controls/theme and compare each against the respective Figma variant by changing the linked node or using per-story `parameters`.
+    
+
+---
+
+# 8) Common tips & gotchas
+
+- **Access**: The Figma link must be accessible to whoever opens Storybook (org/project permissions apply). If the panel is blank, check Figma permissions and that you’re logged in.
+    
+- **Exact node links**: Linking to a specific **node-id** (copy link while the exact layer is selected) makes the panel jump to the right variant.
+    
+- **Project-wide default**: Putting `design` in the file’s `meta.parameters` makes it default for all stories in the file; override at story level when needed.
+    
+- **Restart on env changes**: Any change to `.env` (token setup) requires a Storybook restart.
+    
+- **Security**: Don’t publish Storybook with a tokened figspec setup to public CI previews unless you’re okay with that exposure. Prefer environment scoping or internal previews.
+    
+
+---
+
+## TL;DR Workflow
+
+1. Install `storybook-addon-designs`.
+    
+2. Register it in `.storybook/main.(ts|js)`.
+    
+3. Add `withDesign` decorator in `.storybook/preview.(ts|js)`.
+    
+4. In each story (or at meta level), set:
+    
+    ```ts
+    parameters: { design: { type: 'figma', url: 'FIGMA_LINK' } }
+    ```
+    
+5. (Optional) For inspection overlays:
+    
+    - Create `STORYBOOK_FIGMA_ACCESS_TOKEN` in `.env`.
+        
+    - Restart Storybook.
+        
+    - Switch `type` to `'figspec'`.
+        
+
+That’s everything the video demonstrates—basic Figma embedding, global enablement, per-story overrides, and the optional “spec” mode with a token—plus a few tips to make it smooth in real projects.
 ## Design Systems & Atomic Design
 
 A **design system** is a comprehensive, unified set of design standards, components, and guidelines that keep a product’s interface consistent[figma.com](https://www.figma.com/blog/design-systems-101-what-is-a-design-system/#:~:text=What%20exactly%20is%20a%20design,system). As Figma’s blog explains: _“At its core, a design system is a set of building blocks and standards that help keep the look and feel of products … consistent,”_ serving as a blueprint and shared language for teams[figma.com](https://www.figma.com/blog/design-systems-101-what-is-a-design-system/#:~:text=What%20exactly%20is%20a%20design,system). This typically includes:
