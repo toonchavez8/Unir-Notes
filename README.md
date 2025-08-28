@@ -67,3 +67,43 @@ Este repositorio está diseñado para usarse con [Obsidian](https://obsidian.md)
 📁 Excalidraw (Diagramas visuales)
 📁 Unir-Notes (Notas compartidas y resumenes)
 **
+```
+
+```text
+Quiero que actúes como un asistente académico experto en la materia del transcript que te voy a pasar. Tu tarea es tomar este transcript y generar **notas de estudio**, siguiendo estas indicaciones:
+
+1. Organiza las notas por **secciones y subtítulos** según los temas tratados en el transcript.
+
+2. Incluye **definiciones claras** de los conceptos mencionados, explicando su relevancia y contexto para que pueda aprender mejor.
+
+3. Si es necesario, incluye **MermaidJs** para ilustrar relaciones entre conceptos o jerarquías.
+
+4. Si hay datos que se pueden organizar mejor en **tablas**, hazlo para facilitar la comprensión.
+
+5. Mantén las notas **claras, concisas y fáciles de revisar**, como si fueran apuntes de clase.
+
+6. Si hay ejemplos en el transcript, inclúyelos y **explica paso a paso** cómo funcionan.
+
+7. Agrega información adicional relevante de manera breve que ayude a profundizar en los conceptos.
+
+8. Al final, incluye un pequeño **resumen de los puntos clave** para repasar rápidamente.
+
+9: no respondas con nada que no sea las notas.
+
+10: Al final teja un espacion en H2 llamado "MicroTest"
+
+El transcript es el siguiente:
+
+```
+
+
+### Prompt for MicroTest
+
+```test
+Te voy a pasar un micro examen, quiero que solo respondas con la pregunta respuesta y la justifacion de porque. siguiendo el siguente formanto
+
+1.la pregunta
+	- La respuesta: 
+	- Justifacion:
+	  
+```
