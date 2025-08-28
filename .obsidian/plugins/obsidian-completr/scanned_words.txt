@@ -2939,6 +2939,14 @@ Implantaci
 Identifica
 Interno
 Incorrectas
+Instrucciones
+Instalar
+IMPORTANTE
+Instalaci
+Instalado
+Inicia
+Individualmente
+Iniciar
 Emocional
 Edward
 Expone
@@ -5938,6 +5946,8 @@ Exactamente
 Exacto
 Efectiva
 Especialmente
+Espera
+Ejecuta
 Historia
 Howard
 Habilidades
@@ -8585,6 +8595,7 @@ Hoja
 Horas
 Hall
 Houston
+Habilita
 definiciones
 de
 dem
@@ -11774,6 +11785,8 @@ discontinua
 descendientes
 desean
 diferenciados
+descargado
+denied
 La
 Linea
 Las
@@ -14434,6 +14447,9 @@ Luca
 Liberaci
 Lograrlo
 Let
+Linux
+Limpieza
+Limpia
 hace
 habilidad
 humano
@@ -17222,6 +17238,8 @@ hereda
 heredadas
 hueca
 hueco
+habilitada
+hostname
 referencia
 reconocer
 rmino
@@ -20397,6 +20415,8 @@ requirements
 realizable
 redundante
 recuperar
+rate
+reiniciar
 la
 los
 las
@@ -23126,6 +23146,8 @@ linea
 liberar
 ltil
 localizable
+logs
+llegaste
 <<<<<<< HEAD
 =======
 >>>>>>> 75a56c8 (vault backup: 2025-07-26 14:49:44)
@@ -26194,6 +26216,10 @@ specification
 salvaguardia
 simular
 subactividades
+solicite
+subas
+sirviendo
+stack
 tiempo
 tiene
 tica
@@ -29043,6 +29069,9 @@ tangibles
 triangular
 trazable
 textuales
+trabajes
+token
+tengas
 Siglo
 Self
 Se
@@ -31874,6 +31903,11 @@ Soluciön
 Sobre
 Segmentos
 Stabilize
+Solicitar
+Silicon
+Siguiente
+Script
+Service
 Plat
 Pir
 Payne
@@ -34780,6 +34814,14 @@ Protegido
 Pajaro
 Palmer
 Potenciales
+Prerequisitos
+Paso
+PATH
+PowerShell
+Pega
+Permission
+Paralelo
+Panel
 Todo
 Thorndike
 Todos
@@ -37583,6 +37625,7 @@ Tasas
 Tampoco
 Transicion
 Tecnicas
+Troubleshooting
 aprendizaje
 ala
 aspectos
@@ -40881,6 +40924,10 @@ arbitrarios
 anticipar
 aprende
 aislados
+asistente
+aseg
+aceptaste
+autenticaci
 una
 un
 unas
@@ -49741,6 +49788,7 @@ exceden
 elicitaci
 etnograf
 especializaciones
+ejecut
 que
 quien
 quiere
@@ -58224,6 +58272,7 @@ protegido
 punta
 plantean
 pertenecen
+puerto
 clave
 coment
 capacidad
@@ -61727,6 +61776,16 @@ concisa
 conectado
 clasifica
 comprenderse
+configurar
+correo
+clonar
+contenedores
+completados
+clonarlos
+commando
+comparti
+clonados
+configuradas
 Nic
 Necesidades
 No
@@ -64435,6 +64494,8 @@ NlG
 NKFL
 Nuevos
 Notaci
+Negocio
+Nginx
 maco
 motivar
 menes
@@ -67549,6 +67610,8 @@ mueren
 modificable
 malinterpretaci
 modelando
+microservicios
+microservicio
 Arist
 Abraham
 Adem
@@ -70634,6 +70697,13 @@ Applications
 Ayudar
 Ambiguo
 Actores
+Acepta
+Apple
+Arrastra
+Aseg
+Autom
+Archivos
+APIs
 importancia
 inteligencia
 intelectivos
@@ -73886,6 +73956,12 @@ identifiable
 irrelevantes
 introducidos
 inserci
+instaladas
+invitaci
+instalador
+instalado
+internet
+iniciado
 formaci
 factores
 fortalezas
@@ -76723,6 +76799,11 @@ formando
 falsos
 falso
 focus
+facilidad
+found
+funcionen
+funcionando
+frontend
 Utiliza
 Una
 Uno
@@ -79494,6 +79575,7 @@ Unificada
 Unidireccional
 Utilizadas
 Usos
+Ubuntu
 David
 Describe
 Developing
@@ -82332,6 +82414,14 @@ Desfase
 Desarrollada
 Defini
 Dando
+Descarga
+Debian
+Docker
+Desktop
+Denegado
+Deber
+Disponibles
+Discovery
 Wechsler
 Wayne
 WhatsApp
@@ -85099,6 +85189,7 @@ WDL
 Wireframes
 Wireframe
 Workflows
+WSL
 no
 nos
 nuestro
@@ -87866,6 +87957,8 @@ nfasis
 needed
 numeradas
 normalizaci
+navegador
+ndote
 Maslow
 Miedo
 Maria
@@ -90870,6 +90963,9 @@ Mejoran
 Maksimchuk
 Multiplicidades
 McMenamin
+Microservicios
+MacOS
+Mant
 Gardner
 Goleman
 Generan
@@ -93491,6 +93587,7 @@ Grandes
 Garz
 Gran
 Generalizaci
+Gateway
 Formula
 Feedback
 Francis
@@ -96295,6 +96392,8 @@ Fragmentaci
 Falso
 Funcionales
 Falsos
+Frontend
+Felicidades
 otras
 of
 on
@@ -101854,6 +101953,19 @@ Conseguir
 Constructores
 Cero
 Contractual
+Clonar
+Clona
+Copia
+Clon
+Correctamente
+Clonado
+Confirma
+Cloud
+Contenedores
+Commandos
+Comprueba
+Carga
+Compilaci
 vida
 viene
 va
@@ -104559,6 +104671,7 @@ visison
 volverse
 verificable
 verdaderos
+virtualizaci
 Reuven
 REA
 Re
@@ -107465,6 +107578,13 @@ Recomendadas
 Representado
 Rombo
 Reaserch
+Repositorios
+Reiniciar
+Reinicia
+Reconoce
+Resolve
+Registran
+Revisa
 Bar
 Bisquerra
 Bajo
@@ -110248,6 +110368,7 @@ Boceto
 Buena
 BABOK
 Basados
+BIOS
 Kama
 KPI
 Kurt
@@ -118384,6 +118505,8 @@ Organizativo
 Oriented
 Obtiene
 Observando
+Operator
+Orden
 Vergüenza
 Valores
 Vision
@@ -121115,6 +121238,7 @@ Value
 Vivimos
 Verdadero
 Visibilidad
+Versi
 yo
 ya
 you
