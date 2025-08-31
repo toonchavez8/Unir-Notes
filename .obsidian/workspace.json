@@ -4,88 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "bd66efe8cc923a8e",
+        "id": "6ea4acf5658186b3",
         "type": "tabs",
         "children": [
           {
-            "id": "3100541bbce553bb",
+            "id": "68979e932ef7b83d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "docx-view",
               "state": {
-                "file": "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad-03/mexissi04_act3.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "file": "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad-03/mexissi04_act3.docx"
               },
               "icon": "lucide-file",
               "title": "mexissi04_act3"
             }
-          },
-          {
-            "id": "4ec82f500519a15f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/035-Etica-administrativa.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "035-Etica-administrativa"
-            }
           }
-        ]
-      },
-      {
-        "id": "2556b5923d30e8c7",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "6960843bb179c32f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad-03/Untitled.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Untitled"
-            }
-          }
-        ]
+        ],
+        "stacked": true
       }
     ],
     "direction": "vertical"
@@ -117,11 +52,11 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "Microtest",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
-                "extraContext": false,
+                "extraContext": true,
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
@@ -142,7 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 346.5
+    "width": 348.5
   },
   "right": {
     "id": "a25b807ad639ff42",
@@ -204,23 +139,23 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Actividad_02/mexissi01_act2.docx",
+                "file": "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/016-Alcance-proceso de gestion.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of mexissi01_act2"
+              "title": "Outline of 016-Alcance-proceso de gestion"
             }
           },
           {
-            "id": "488ed5c54d6f83e9",
+            "id": "40fa87d1b8198c6a",
             "type": "leaf",
             "state": {
-              "type": "git-view",
+              "type": "mermaid-toolbar-view",
               "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "icon": "trident-custom",
+              "title": "Mermaid Toolbar"
             }
           }
         ],
@@ -253,53 +188,53 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "3100541bbce553bb",
+  "active": "68979e932ef7b83d",
   "lastOpenFiles": [
-    "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad-03/Untitled.md",
-    "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad-03/mexissi04_act3.md",
-    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/035-Etica-administrativa.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/058-Resumen-09.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/057-Relacion-entre-tecnicas-agiles.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/056-Otras-tecnicas-agiles.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/055-Scrumban.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/054-Kanban.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/053-Lean-software-dev.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/052-Extreme-Programing.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/051-Resumen-7.md",
-    "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad-03/mexissi04_act3.docx",
-    "conflict-files-obsidian-git.md",
-    "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad-03/Attachments/mexissi04_act3.png",
-    "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad-03/Attachments",
     "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad-03/01-Guia-de-arranque.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/069-Resumen-10.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/068-Modelos-de-madures-CMMI.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/067-Mejora-del-processo-de-software.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/066-Familia-Iso.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/065-Modelos-de-calidad-de-producto-software.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/064-Calidad-de-software.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/063-Behavior-driven-development.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/062-Acceptance-test-driven-dev.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/061-Test-driven-dev.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/060-Purebas-de-software.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/059-Verificacion.md",
+    "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad-03/ci-cd.md",
+    "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad-03/Untitled.md",
+    "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad-03/Untitled 1.md",
+    "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad-03/mexissi04_act3.md",
+    "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad-03/mexissi04_act3.docx",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/056-Resumen-11.md",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/055-Certificaciones-PMI.md",
+    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/054-Proceso-PMP.md",
+    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/053-Grupos-de-processo.md",
+    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/052-resumen-10.md",
+    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/051-desarollo-plan-de-respuesta.md",
+    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/050-desarollo-de-presupuesto.md",
+    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/049-Creacion-cronograma.md",
+    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/048-definicion-alcance.md",
+    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/047-Entender-la-necesidad.md",
+    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/046-Resumen-9.md",
+    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/045-Cierre-proyecto-parte-2.md",
+    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/044-Cierre-de-proyecto.md",
+    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/043-Ejecucion-del-proyecto.md",
+    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/042-resumen-8.md",
+    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/041-Tipo-de-contratos.md",
+    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/040-Adquisisciones.md",
+    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/039-Definicion-processos.md",
+    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/038-Calidad-ISO9001.md",
+    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/037-Resumen-7.md",
+    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/036-Responsabilidad-vs-pMP.md",
+    "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad-03/Attachments/mexissi04_act3.png",
+    "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad-03/Attachments",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250811120604.png",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250811120440.png",
+    "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad-02/mexissi04_act2.docx",
     "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad-1/mexissi04_act1.docx",
     "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad-1",
-    "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad-03/erueka-server/src/test/java/erueka_server/erueka_server/EruekaServerApplicationTests.java",
-    "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad-03/erueka-server/src/main/java/erueka_server/erueka_server/EruekaServerApplication.java",
-    "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad-03/erueka-server/src/test/java/erueka_server/erueka_server",
-    "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad-03/erueka-server/src/main/java/erueka_server/erueka_server",
-    "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad-03/erueka-server/src/test/java/erueka_server",
-    "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad-03/erueka-server/src/main/resources/application.properties",
+    "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad-02",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/attachments/Pasted image 20250806160321.png",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/{B2FFE6B2-037F-46DB-9DB9-7F7C1723B699}.png",
+    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/Actividades/Actividad 3/mexdigete06t10actauto2.docx",
+    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/Actividades/Actividad 3",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250726221651.png",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250726221549.png",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250726221436.png",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250726221421.png",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250726215823.png"
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250726215823.png",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250726215734.png",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Books/2020-Scrum-Guide-Spanish-European.pdf",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Books/Unconfirmed 382368.crdownload"
   ]
 }
