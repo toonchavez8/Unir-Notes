@@ -64,7 +64,7 @@ Links from the job/guide referenced in the original content (keep for reference)
 - Clarify questions when needed — interviewers encourage asking clarifying questions.
     
 
----
+
 
 ## 72-Hour Preparation Schedule (High Level)
 
@@ -126,7 +126,7 @@ Links from the job/guide referenced in the original content (keep for reference)
 **Node.js fundamentals (1–2h)**
 
 - Refresh core concepts: **event-loop and async I/O**, modules (require/import), and basic APIs (`fs`, `http`).
-    
+	Input/output    
 - Example resources mentioned: ZeroToMastery Node.js interview Q&A.
     
 - Practical exercise: write a simple Node.js script (HTTP server or file reader) to solidify understanding.

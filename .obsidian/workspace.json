@@ -11,21 +11,9 @@
             "id": "68979e932ef7b83d",
             "type": "leaf",
             "state": {
-              "type": "docx-view",
-              "state": {
-                "file": "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad-03/mexissi04_act3.docx"
-              },
-              "icon": "lucide-file",
-              "title": "mexissi04_act3"
-            }
-          },
-          {
-            "id": "ff7322efd1ab04a7",
-            "type": "leaf",
-            "state": {
               "type": "markdown",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "StudyGuides/003-Wizline-Techintreview-studyguide.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -40,7 +28,31 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
+              "title": "003-Wizline-Techintreview-studyguide"
+            }
+          },
+          {
+            "id": "dfecd135957ab8d1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "StudyGuides/004-Node-http-server.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "004-Node-http-server"
             }
           }
         ],
@@ -213,11 +225,12 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "ff7322efd1ab04a7",
+  "active": "dfecd135957ab8d1",
   "lastOpenFiles": [
+    "StudyGuides/003-Wizline-Techintreview-studyguide.md",
+    "StudyGuides/004-Node-http-server.md",
     "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad-03/mexissi04_act3.docx",
     "conflict-files-obsidian-git.md",
-    "StudyGuides/003-Wizline-Techintreview-studyguide.md",
     "StudyGuides/002-WizeLine-Nodejs-figma-designsystem.md",
     "Maestría-Ingeniería-de-Software/03-Desarollo-web/006-Historia-de-javascript.md",
     "Maestría-Ingeniería-de-Software/03-Desarollo-web/005-Resumen-tema-1.md",
