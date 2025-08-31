@@ -18,8 +18,33 @@
               "icon": "lucide-file",
               "title": "mexissi04_act3"
             }
+          },
+          {
+            "id": "ff7322efd1ab04a7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
+            }
           }
         ],
+        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -188,14 +213,23 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "68979e932ef7b83d",
+  "active": "ff7322efd1ab04a7",
   "lastOpenFiles": [
+    "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad-03/mexissi04_act3.docx",
+    "conflict-files-obsidian-git.md",
+    "StudyGuides/003-Wizline-Techintreview-studyguide.md",
+    "StudyGuides/002-WizeLine-Nodejs-figma-designsystem.md",
+    "Maestría-Ingeniería-de-Software/03-Desarollo-web/006-Historia-de-javascript.md",
+    "Maestría-Ingeniería-de-Software/03-Desarollo-web/005-Resumen-tema-1.md",
+    "Maestría-Ingeniería-de-Software/03-Desarollo-web/004-bem.md",
+    "Maestría-Ingeniería-de-Software/03-Desarollo-web/003-Conceptos-basicos-de-css.md",
+    "Maestría-Ingeniería-de-Software/03-Desarollo-web/002-Conceptos-basicos-html.md",
+    "Maestría-Ingeniería-de-Software/03-Desarollo-web/001-Que-es-frontEnd.md",
     "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad-03/01-Guia-de-arranque.md",
     "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad-03/ci-cd.md",
     "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad-03/Untitled.md",
     "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad-03/Untitled 1.md",
     "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad-03/mexissi04_act3.md",
-    "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad-03/mexissi04_act3.docx",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/056-Resumen-11.md",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/055-Certificaciones-PMI.md",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/054-Proceso-PMP.md",
@@ -207,16 +241,6 @@
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/048-definicion-alcance.md",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/047-Entender-la-necesidad.md",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/046-Resumen-9.md",
-    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/045-Cierre-proyecto-parte-2.md",
-    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/044-Cierre-de-proyecto.md",
-    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/043-Ejecucion-del-proyecto.md",
-    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/042-resumen-8.md",
-    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/041-Tipo-de-contratos.md",
-    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/040-Adquisisciones.md",
-    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/039-Definicion-processos.md",
-    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/038-Calidad-ISO9001.md",
-    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/037-Resumen-7.md",
-    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/036-Responsabilidad-vs-pMP.md",
     "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad-03/Attachments/mexissi04_act3.png",
     "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad-03/Attachments",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250811120604.png",
