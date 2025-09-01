@@ -32,6 +32,30 @@
             }
           },
           {
+            "id": "6181881d7262843b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "StudyGuides/005-Storybook-figma-zeroheight-connection.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "005-Storybook-figma-zeroheight-connection"
+            }
+          },
+          {
             "id": "dfecd135957ab8d1",
             "type": "leaf",
             "state": {
@@ -225,13 +249,14 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "dfecd135957ab8d1",
+  "active": "6181881d7262843b",
   "lastOpenFiles": [
     "StudyGuides/003-Wizline-Techintreview-studyguide.md",
+    "StudyGuides/005-Storybook-figma-zeroheight-connection.md",
+    "StudyGuides/002-WizeLine-Nodejs-figma-designsystem.md",
     "StudyGuides/004-Node-http-server.md",
     "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad-03/mexissi04_act3.docx",
     "conflict-files-obsidian-git.md",
-    "StudyGuides/002-WizeLine-Nodejs-figma-designsystem.md",
     "Maestría-Ingeniería-de-Software/03-Desarollo-web/006-Historia-de-javascript.md",
     "Maestría-Ingeniería-de-Software/03-Desarollo-web/005-Resumen-tema-1.md",
     "Maestría-Ingeniería-de-Software/03-Desarollo-web/004-bem.md",
@@ -253,7 +278,6 @@
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/049-Creacion-cronograma.md",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/048-definicion-alcance.md",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/047-Entender-la-necesidad.md",
-    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/046-Resumen-9.md",
     "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad-03/Attachments/mexissi04_act3.png",
     "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad-03/Attachments",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250811120604.png",
