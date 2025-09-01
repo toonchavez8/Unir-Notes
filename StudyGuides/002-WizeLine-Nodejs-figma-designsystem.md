@@ -367,3 +367,268 @@ To maximize the 2-week timeframe, divide your study:
         
 
 This plan balances theory (concepts and docs) with practice (hands-on exercises and mock problems). Adjust as needed to your strengths and weaknesses, but ensure you touch all areas: Node fundamentals, design tool concepts, system thinking, and clear communication. Good luck!
+
+----
+
+## Algorithms
+
+## **Array Algorithm**
+#### Maximum Subarray Sum - Kadane's Algorithm
+
+Given an integer array ****arr[]****, find the ****subarray**** (containing at least one element) which has the ****maximum possible sum****, and return that sum.  
+****Note:**** A ****subarray**** is a continuous part of an array.
+
+> [!NOTE]
+> ****Input:**** arr[] = [2, 3, -8, 7, -1, 2, 3]  
+> ****Output:**** 11  
+> ****Explanation:**** The subarray [7, -1, 2, 3] has the largest sum 11.
+> 
+> ****Input:**** arr[] = [-2, -4]  
+> ****Output:**** -2  
+> ****Explanation:**** The subarray [-2] has the largest sum -2.
+> 
+> ****Input:**** arr[] = [5, 4, 1, 7, 8]  
+> ****Output:**** 25  
+> ****Explanation:**** The subarray [5, 4, 1, 7, 8] has the largest sum 25.
+
+
+##### Naive Approach By iterating over all subarrays - O(n^2) Time and O(1) Space
+
+The idea is to run two nested loops to iterate over all possible subarrays and find the maximum sum. The outer loop will mark the starting point of a subarray and inner loop will mark the ending point of the subarray.
+
+
+```js
+function maxSubarraySum(arr) {
+    let res = arr[0];
+  
+    // Outer loop for starting point of subarray
+    for (let i = 0; i < arr.length; i++) {
+        let currSum = 0;
+      
+        // Inner loop for ending point of subarray
+        for (let j = i; j < arr.length; j++) {
+            currSum = currSum + arr[j];
+          
+            // Update res if currSum is greater than res
+            res = Math.max(res, currSum);
+        }
+    }
+    return res;
+}
+
+const arr = [2, 3, -8, 7, -1, 2, 3];
+console.log(maxSubarraySum(arr));
+```
+
+```python
+def maxSubarraySum(arr):
+    res = arr[0]
+  
+    # Outer loop for starting point of subarray
+    for i in range(len(arr)):
+        currSum = 0
+      
+        # Inner loop for ending point of subarray
+        for j in range(i, len(arr)):
+            currSum = currSum + arr[j]
+            # Update res if currSum is greater than res
+            res = max(res, currSum)
+          
+    return res
+
+if __name__ == "__main__":
+    arr = [2, 3, -8, 7, -1, 2, 3]
+    print(maxSubarraySum(arr))
+```
+
+
+>   
+> The idea of [****Kadane's algorithm****](https://www.geeksforgeeks.org/problems/kadanes-algorithm-1587115620/1) is to traverse over the array from left to right and for each element, find the maximum sum among ****all subarrays ending at that element****. The result will be the maximum of all these values.
+
+To calculate the maximum sum of subarray ending at current element, say ****maxEnding****, we can use the maximum sum ending at the previous element.
+
+
+##### [Expected Approach] Using Kadane's Algorithm - O(n) Time and O(1) Space
+
+So for any element, we have two choices:
+
+> ****Choice 1:**** Extend the maximum sum subarray ending at the previous element by adding the current element to it. If the maximum subarray sum ending at the previous index is ****positive****, then it is always better to extend the subarray.
+> 
+> ****Choice 2:**** Start a new subarray starting from the current element. If the maximum subarray sum ending at the previous index is ****negative****, it is always better to start a new subarray from the current element.
+
+This means that ****maxEnding at index i = max(maxEnding at index (i - 1) + arr[i], arr[i])**** and the ****maximum**** value of maxEnding at any index will be our answer.
+
+```js
+
+function maxSubarraySum(arr) {
+    
+    // Stores the result (maximum sum found so far)    
+    let res = arr[0];
+    
+    // Maximum sum of subarray ending at current position
+    let maxEnding = arr[0];
+
+    for (let i = 1; i < arr.length; i++) {
+        
+        // Either extend the previous subarray or start 
+        // new from current element
+        maxEnding = Math.max(maxEnding + arr[i], arr[i]);
+        
+        // Update result if the new subarray sum is larger
+        res = Math.max(res, maxEnding);
+    }
+    return res;
+}
+
+// Driver Code
+const arr = [2, 3, -8, 7, -1, 2, 3];
+console.log(maxSubarraySum(arr));
+```
+
+```python
+
+def maxSubarraySum(arr):
+    
+    # Stores the result (maximum sum found so far)
+    res = arr[0]
+    
+    # Maximum sum of subarray ending at current position
+    maxEnding = arr[0]
+
+    for i in range(1, len(arr)):
+        
+        # Either extend the previous subarray or start 
+        # new from current element
+        maxEnding = max(maxEnding + arr[i], arr[i])
+        
+        # Update result if the new subarray sum is larger
+        res = max(res, maxEnding)
+    
+    return res
+
+if __name__ == "__main__":
+    arr = [2, 3, -8, 7, -1, 2, 3]
+    print(maxSubarraySum(arr))
+```
+
+### Find the missing Numbers
+Given an array ****arr[]**** of size ****n-1**** with ****distinct**** integers in the range of ****[1, n].**** This array represents a permutation of the integers from 1 to n with one element missing. Find the missing element in the array.
+
+****Examples:**** 
+
+>****Input:**** `arr[] = [8, 2, 4, 5, 3, 7, 1]  `
+****Output:**** `6  `
+****Explanation:**** All the numbers from 1 to 8 are present except 6.
+****Input:**** `arr[] = [1, 2, 3, 5]  `
+****Output:**** `4  `
+****Explanation:**** Here the size of the array is `4`, so the range will be` [1, 5]`. The missing number between `1` to `5` is `4`
+
+
+#### [Naive Approach] Linear Search for Missing Number - O(n^2) Time and O(1) Space
+
+This approach iterates through each number from 1 to `n` (where `n` is the size of the array + 1) and checks if the number is present in the array. For each number, it uses a nested loop to search the array. If a number is not found, it is returned as the missing number.
+
+```js
+
+function missingNum(arr) {
+    const n = arr.length + 1;
+
+    // Iterate from 1 to n and check
+    // if the current number is present
+    for (let i = 1; i <= n; i++) {
+        let found = false;
+        for (let j = 0; j < n - 1; j++) {
+            if (arr[j] === i) {
+                found = true;
+                break;
+            }
+        }
+
+        // If the current number is not present
+        if (!found)
+            return i;
+    }
+    return -1;
+}
+
+// drvier code 
+const arr = [8, 2, 4, 5, 3, 7, 1];
+console.log(missingNum(arr));
+```
+
+```python
+def missingNum(arr):
+    n = len(arr) + 1
+
+    # Iterate from 1 to n and check
+    # if the current number is present
+    for i in range(1, n + 1):
+        found = False
+        for j in range(n - 1):
+            if arr[j] == i:
+                found = True
+                break
+
+        # If the current number is not present
+        if not found:
+            return i
+    return -1
+
+if __name__ == '__main__':
+    arr = [8, 2, 4, 5, 3, 7, 1]
+    print(missingNum(arr))
+```
+
+#### ****[Better Approach] Using Hashing - O(n) Time and O(n) Space****
+
+This approach uses a hash array (or frequency array) to track the presence of each number from 1 to `n` in the input array. It first initializes a hash array to store the frequency of each element. Then, it iterates through the hash array to find the number that is missing (i.e., the one with a frequency of 0).
+
+```js
+function missingNum(arr) {
+    let n = arr.length + 1;
+
+    // Create hash array of size n+1
+    let hash = new Array(n + 1).fill(0);
+
+    // Store frequencies of elements
+    for (let i = 0; i < n - 1; i++) {
+        hash[arr[i]]++;
+    }
+
+    // Find the missing number
+    for (let i = 1; i <= n; i++) {
+        if (hash[i] === 0) {
+            return i;
+        }
+    }
+    return -1;
+}
+
+// driver code
+const arr = [8, 2, 4, 5, 3, 7, 1];
+const res = missingNum(arr);
+console.log(res);
+```
+
+```python
+def missingNum(arr):
+    n = len(arr) + 1
+
+    # Create hash array of size n+1
+    hash = [0] * (n + 1)
+
+    # Store frequencies of elements
+    for i in range(n - 1):
+        hash[arr[i]] += 1
+
+    # Find the missing number
+    for i in range(1, n + 1):
+        if hash[i] == 0:
+            return i
+    return -1
+
+if __name__ == '__main__':
+    arr = [8, 2, 4, 5, 3, 7, 1]
+    res = missingNum(arr)
+    print(res)
+```

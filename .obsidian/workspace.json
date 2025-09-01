@@ -11,10 +11,24 @@
             "id": "ffaab141ee691688",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "conflict-files-obsidian-git"
             }
           }
         ]
@@ -187,9 +201,15 @@
   },
   "active": "b74e6b9aa2987edc",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "Untitled.md",
+    "StudyGuides/006-Algorithams notes.md",
+    "StudyGuides/005-Storybook-figma-zeroheight-connection.md",
+    "StudyGuides/004-Node-http-server.md",
+    "StudyGuides/003-Wizline-Techintreview-studyguide.md",
+    "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad-03/ci-cd.md",
     "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad-03/01-Guia-de-arranque.md",
     "StudyGuides/Untitled.md",
-    "conflict-files-obsidian-git.md",
     "StudyGuides/002-WizeLine-Nodejs-figma-designsystem.md",
     "Maestría-Ingeniería-de-Software/03-Desarollo-web/006-Historia-de-javascript.md",
     "Maestría-Ingeniería-de-Software/03-Desarollo-web/005-Resumen-tema-1.md",
@@ -209,12 +229,6 @@
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/025-modelo-Avansado-de-requisitos.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/023-Transformaciones-de-modelos.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/016-Diagrama-de-clase.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/014-Analisis-Diseño-orientado-objetos.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/013-Objeto-y-clase.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/012-Prinipios-Orentacion-objetos.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/011-Programacion-Orientada-Objetas.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/009-Metrica-3-vs-MSF.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/008-Proceso-Rational-unified-process.md",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/Actividades/Actividad 3/mexdigete06t10actauto2.docx",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/Actividades/Actividad 3",
     "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad-1/mexissi04_act1.docx",
