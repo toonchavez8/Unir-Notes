@@ -142,5 +142,13 @@
       "modifiers": [],
       "key": "F4"
     }
+  ],
+  "obsidian-linter:lint-file": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "S"
+    }
   ]
 }
