@@ -3470,6 +3470,7 @@ Immediately
 Implement
 Insertion
 Islands
+Implementation
 Emocional
 Edward
 Expone
@@ -6991,6 +6992,8 @@ Eventually
 Exactly
 Euclidean
 Explores
+Efficient
+English
 Historia
 Howard
 Habilidades
@@ -10353,6 +10356,8 @@ Handbook
 Hour
 Honestly
 Hash
+Heaps
+Heap
 definiciones
 de
 dem
@@ -17485,6 +17490,7 @@ Links
 Level
 Lastly
 Longest
+Largest
 hace
 habilidad
 humano
@@ -20907,6 +20913,7 @@ helper
 horizontally
 heap
 heapify
+highest
 referencia
 reconocer
 rmino
@@ -39066,6 +39073,7 @@ Stored
 Sliding
 Substring
 Sorted
+Smallest
 Plat
 Pir
 Payne
@@ -42628,6 +42636,8 @@ Points
 Pointers
 Palindrome
 Permutations
+Peek
+Pathfinding
 Todo
 Thorndike
 Todos
@@ -75573,6 +75583,8 @@ cues
 cue
 chance
 cells
+consisting
+char
 Nic
 Necesidades
 No
@@ -89995,6 +90007,7 @@ island
 increment
 indepth
 incrementally
+inverted
 formaci
 factores
 fortalezas
@@ -110282,6 +110295,9 @@ Mini
 Mentally
 Monotonic
 Minimum
+MaxHeap
+MinHeap
+Median
 Gardner
 Goleman
 Generan
@@ -113397,6 +113413,7 @@ Gemini
 Graphs
 Great
 Grid
+Guaranteed
 Formula
 Feedback
 Francis
@@ -116671,6 +116688,7 @@ Far
 FIFO
 Frequency
 Fixed
+Finding
 otras
 of
 on
@@ -123468,6 +123486,7 @@ Complexity
 Characters
 Cuts
 Condition
+Closest
 vida
 viene
 va
@@ -130269,6 +130288,7 @@ Repeating
 Rotated
 Recursive
 Recursively
+Removal
 Bar
 Bisquerra
 Bajo
@@ -153212,6 +153232,8 @@ QGEs
 Qxk
 QYg
 Question
+Queues
+Queue
 will
 words
 workspace
