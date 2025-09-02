@@ -30,8 +30,33 @@
               "icon": "lucide-file",
               "title": "006-Algorithams notes"
             }
+          },
+          {
+            "id": "9bc8c462b0d4daa2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -199,11 +224,12 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "e832c3524b62a47c",
+  "active": "9bc8c462b0d4daa2",
   "lastOpenFiles": [
+    "StudyGuides/006-Algorithams notes.md",
+    "conflict-files-obsidian-git.md",
     "StudyGuides/003-Wizline-Techintreview-studyguide.md",
     "StudyGuides/002-WizeLine-Nodejs-figma-designsystem.md",
-    "StudyGuides/006-Algorithams notes.md",
     "Untitled.md",
     "StudyGuides/005-Storybook-figma-zeroheight-connection.md",
     "StudyGuides/004-Node-http-server.md",
@@ -226,7 +252,6 @@
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/054-Kanban.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/053-Lean-software-dev.md",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/052-Extreme-Programing.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/051-Resumen-7.md",
     "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad-03/mexissi04_act3.docx",
     "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad-03/Attachments/mexissi04_act3.png",
     "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad-03/Attachments",
