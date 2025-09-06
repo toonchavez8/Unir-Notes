@@ -1,19 +1,21 @@
+# Notas De Estudio: Introducción a JavaScript Y Entorno De Desarrollo
 
-# Notas de Estudio: Introducción a JavaScript y Entorno de Desarrollo
-
-## 1. Historia y Evolución de JavaScript
+## 1. Historia Y Evolución De JavaScript
 
 ### Definición
+
 **JavaScript** es un lenguaje de programación dinámico utilizado principalmente para agregar **interactividad** a páginas web y aplicaciones modernas.
 
-### Breve historia
+### Breve Historia
+
 - **1995:** Creado por **Brendan Eich** en la compañía Netscape.  
 - Nombres originales: **Mocha → LiveScript → JavaScript** (estrategia de co-branding con Java).  
 - Diferencias con Java: Aunque comparten nombre, no tienen relación técnica directa.  
 
 ### Evolución
+
 - Inicialmente diseñado para **interactividad en navegadores web**.  
-- Hoy en día, se utiliza en:
+- Hoy en día, se utilize en:
   - **Aplicaciones web**
   - **Aplicaciones móviles**
   - **Videojuegos**
@@ -24,23 +26,27 @@
   - **ES6 (2015):** Introdujo **clases, módulos, funciones flecha**, mejorando la estructura y mantenibilidad del lenguaje.
 
 ### Relevancia
+
 JavaScript es uno de los lenguajes de programación más **populares y ampliamente usados**, esencial para el desarrollo frontend moderno.
 
 ---
 
-## 2. Entorno de Desarrollo para JavaScript
+## 2. Entorno De Desarrollo Para JavaScript
 
 ### Intérprete
-- **Node.js**: Permite ejecutar JavaScript fuera del navegador.  
-- Instalación: Descarga gratuita desde la página oficial de Node.js.
 
-### Entornos de desarrollo (IDE)
+- **Node.js**: Permite ejecutar JavaScript fuera del navegador.  
+- Instalación: Descarga gratuita desde la página official de Node.js.
+
+### Entornos De Desarrollo (IDE)
+
 | IDE | Descripción | Comentarios |
 |-----|-------------|-------------|
 | **WebStorm** | IDE de JetBrains para desarrollo JavaScript | Pago, pero gratuito para estudiantes UNIR mediante Student Pack |
 | **Visual Studio Code** | Editor ligero y gratuito | Alternativa recomendada si no se desea usar WebStorm |
 
-### Crear un proyecto en WebStorm
+### Crear Un Proyecto En WebStorm
+
 1. Abrir WebStorm.  
 2. Ir a `File → New → Project`.  
 3. Seleccionar **Node.js** como base del proyecto.  
@@ -53,16 +59,18 @@ JavaScript es uno de los lenguajes de programación más **populares y ampliamen
 
 ---
 
-## 3. Conceptos clave de JavaScript
+## 3. Conceptos Clave De JavaScript
 
 ### Características
+
 - **Lenguaje dinámico:** Los tipos de datos pueden cambiar durante la ejecución.  
 - **Orientado a objetos:** Con soporte de **clases** y **objetos** (ES6).  
 - **Interactividad web:** Manejo de eventos, manipulación del DOM, animaciones.  
 - **Multiplataforma:** Funciona en navegadores, servidores (Node.js) y otras plataformas.
 
-### Diagrama simple de flujo de ejecución
-```
+### Diagrama Simple De Flujo De Ejecución
+
+```Python
 
 [Código JS en archivo .js]  
 │  
@@ -74,7 +82,8 @@ JavaScript es uno de los lenguajes de programación más **populares y ampliamen
 
 ```
 
-### Relevancia del entorno
+### Relevancia Del Entorno
+
 - Configurar correctamente el **IDE** y **Node.js** permite:
   - Ejecutar scripts de JavaScript localmente.  
   - Probar funcionalidades sin depender de un navegador.  
@@ -82,18 +91,19 @@ JavaScript es uno de los lenguajes de programación más **populares y ampliamen
 
 ---
 
-## 4. Resumen del tema
+## 4. Resumen Del Tema
 
 - **JavaScript**: Lenguaje dinámico para interactividad web y aplicaciones modernas.  
 - **Node.js**: Permite ejecutar JavaScript fuera del navegador.  
-- **IDE recomendados**: WebStorm (profesional) o VS Code (gratuito).  
+- **IDE recomendados**: WebStorm (professional) o VS Code (gratuito).  
 - **ES6**: Mejora la estructura y mantenibilidad con clases, módulos y funciones flecha.  
-- Configurar un **proyecto Node.js** es el primer paso para comenzar a programar en JavaScript de manera profesional.
+- Configurar un **proyecto Node.js** es el primer paso para comenzar a programar en JavaScript de manera professional.
 
 ---
 
 ## MicroTest
-1. ¿Qué IDEs pueden ser adecuados (dadas las facilidades que integran) para trabajar con JavaScript?
+
+1. ¿Qué IDEs pueden set adecuados (dadas las facilidades que integran) para trabajar con JavaScript?
     
     - **La respuesta:** b. Las opciones A) y C) son correctas.
         
