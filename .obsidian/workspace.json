@@ -30,33 +30,8 @@
               "icon": "lucide-file",
               "title": "006-Algorithams notes"
             }
-          },
-          {
-            "id": "9bc8c462b0d4daa2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -224,10 +199,10 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "9bc8c462b0d4daa2",
+  "active": "e832c3524b62a47c",
   "lastOpenFiles": [
-    "StudyGuides/006-Algorithams notes.md",
     "conflict-files-obsidian-git.md",
+    "StudyGuides/006-Algorithams notes.md",
     "StudyGuides/003-Wizline-Techintreview-studyguide.md",
     "StudyGuides/002-WizeLine-Nodejs-figma-designsystem.md",
     "Untitled.md",
