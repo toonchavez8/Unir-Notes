@@ -90,7 +90,7 @@ Quiero que actúes como un asistente académico experto en la materia del transc
 
 9: no respondas con nada que no sea las notas.
 
-10: Al final teja un espacion en H2 llamado "MicroTest"
+10: Al final teja un espacio en H2 llamado "MicroTest"- agregues preguntos, dejalo vacio,
 
 El transcript es el siguiente:
 

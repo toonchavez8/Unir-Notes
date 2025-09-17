@@ -30,8 +30,33 @@
               "icon": "lucide-file",
               "title": "006-Algorithams notes"
             }
+          },
+          {
+            "id": "e9c4032076cdc5d9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -199,10 +224,26 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "e832c3524b62a47c",
+  "active": "e9c4032076cdc5d9",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
     "StudyGuides/006-Algorithams notes.md",
+    "conflict-files-obsidian-git.md",
+    "Maestría-Ingeniería-de-Software/03-Desarollo-web/Untitled.md",
+    "Maestría-Ingeniería-de-Software/03-Desarollo-web/021-Resume-3.md",
+    "Maestría-Ingeniería-de-Software/03-Desarollo-web/020-closures.md",
+    "Maestría-Ingeniería-de-Software/03-Desarollo-web/019-Promesas-funciones-async.md",
+    "Maestría-Ingeniería-de-Software/03-Desarollo-web/018-El-objeto-this.md",
+    "Maestría-Ingeniería-de-Software/03-Desarollo-web/017-Objetos-literales.md",
+    "Maestría-Ingeniería-de-Software/03-Desarollo-web/016-Funciones-de-orden-superior.md",
+    "Maestría-Ingeniería-de-Software/03-Desarollo-web/015-funciones-callback.md",
+    "Maestría-Ingeniería-de-Software/03-Desarollo-web/014-Funciones-flecha.md",
+    "Maestría-Ingeniería-de-Software/03-Desarollo-web/013-Argumentos-de-funciones-de-js.md",
+    "Maestría-Ingeniería-de-Software/03-Desarollo-web/012-definicion-de-funciones-js.md",
+    "Maestría-Ingeniería-de-Software/03-Desarollo-web/011-Resumen-2.md",
+    "Maestría-Ingeniería-de-Software/03-Desarollo-web/010-estructuras-de-datos-js.md",
+    "Maestría-Ingeniería-de-Software/03-Desarollo-web/009-Estucturas-iterativas-en-js.md",
+    "Maestría-Ingeniería-de-Software/03-Desarollo-web/008-Estructuras-de-control-js.md",
+    "Maestría-Ingeniería-de-Software/03-Desarollo-web/007-Conceptos-basicos-JS.md",
     "StudyGuides/003-Wizline-Techintreview-studyguide.md",
     "StudyGuides/002-WizeLine-Nodejs-figma-designsystem.md",
     "Untitled.md",
@@ -211,22 +252,6 @@
     "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad-03/ci-cd.md",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/035-Etica-administrativa.md",
     "Maestría-Ingeniería-de-Software/03-Desarollo-web/001-Que-es-frontEnd.md",
-    "Maestría-Ingeniería-de-Software/03-Desarollo-web/002-Conceptos-basicos-html.md",
-    "Maestría-Ingeniería-de-Software/03-Desarollo-web/003-Conceptos-basicos-de-css.md",
-    "Maestría-Ingeniería-de-Software/03-Desarollo-web/006-Historia-de-javascript.md",
-    "README.md",
-    "Maestría-Ingeniería-de-Software/03-Desarollo-web/005-Resumen-tema-1.md",
-    "Maestría-Ingeniería-de-Software/03-Desarollo-web/004-bem.md",
-    "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad-03/01-Guia-de-arranque.md",
-    "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad-03/mexissi04_act3.md",
-    "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad-03/Untitled.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/058-Resumen-09.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/057-Relacion-entre-tecnicas-agiles.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/056-Otras-tecnicas-agiles.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/055-Scrumban.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/054-Kanban.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/053-Lean-software-dev.md",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/052-Extreme-Programing.md",
     "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad-03/mexissi04_act3.docx",
     "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad-03/Attachments/mexissi04_act3.png",
     "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad-03/Attachments",
