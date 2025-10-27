@@ -48,5 +48,6 @@
   "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web": "🧷",
   "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Agenda": "LiCalendar",
   "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Books": "LiBook",
-  "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades": "LiFileInput"
+  "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades": "LiFileInput",
+  "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Temas": "LiBookOpenText"
 }

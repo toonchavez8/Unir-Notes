@@ -90,6 +90,9 @@ Quiero que actúes como un asistente académico experto en la materia del transc
 
 9: no respondas con nada que no sea las notas.
 
+10: No agregues Emojis
+
+11: Agrega addicionalmente un espacio para MicroTest que sea un H2 vacia
 
 
 El transcript es el siguiente:
