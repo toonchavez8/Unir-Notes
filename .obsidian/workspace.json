@@ -110,9 +110,81 @@
               "icon": "lucide-file",
               "title": "002-Amenazas-Riesgos-Ciberseguridad"
             }
+          },
+          {
+            "id": "754bffef7d9fef10",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/003-Dimensiones-de-Seguridad.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "003-Dimensiones-de-Seguridad"
+            }
+          },
+          {
+            "id": "4d9380dfe37b6624",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/004-Ciberseguridad-es-un-processo.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "004-Ciberseguridad-es-un-processo"
+            }
+          },
+          {
+            "id": "57bf2c10a9a5b1c1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/005-Resumen-tema-1.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "005-Resumen-tema-1"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -281,9 +353,12 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "9a51a856e00522ad",
+  "active": "57bf2c10a9a5b1c1",
   "lastOpenFiles": [
     "README.md",
+    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/005-Resumen-tema-1.md",
+    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/004-Ciberseguridad-es-un-processo.md",
+    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/003-Dimensiones-de-Seguridad.md",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/002-Amenazas-Riesgos-Ciberseguridad.md",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/001-Justificacion-motivacion-ciberseguridad.md",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/000-Presentacion-Ciberseguridad.md",
@@ -317,9 +392,6 @@
     "Maestría-Ingeniería-de-Software/03-Desarollo-web/018-El-objeto-this.md",
     "Maestría-Ingeniería-de-Software/03-Desarollo-web/017-Objetos-literales.md",
     "Maestría-Ingeniería-de-Software/03-Desarollo-web/016-Funciones-de-orden-superior.md",
-    "Maestría-Ingeniería-de-Software/03-Desarollo-web/015-funciones-callback.md",
-    "Maestría-Ingeniería-de-Software/03-Desarollo-web/014-Funciones-flecha.md",
-    "Maestría-Ingeniería-de-Software/03-Desarollo-web/013-Argumentos-de-funciones-de-js.md",
     "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad-03/Attachments/mexissi04_act3.png",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250811120604.png",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250811120440.png",

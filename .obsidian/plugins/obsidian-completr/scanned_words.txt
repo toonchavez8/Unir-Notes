@@ -7039,6 +7039,7 @@ Exploits
 Explotaci
 Exploit
 Exposures
+Externalizar
 Historia
 Howard
 Habilidades
@@ -14301,6 +14302,9 @@ discretamente
 detectados
 delictivas
 diferenciador
+desastres
+documentadas
+detallados
 La
 Linea
 Las
@@ -17591,6 +17595,9 @@ LCyF
 Locker
 LockBit
 Llamadas
+Listas
+Login
+Logs
 hace
 habilidad
 humano
@@ -21028,6 +21035,8 @@ hyc
 hWm
 hashtag
 hacktivistas
+hashear
+hizo
 referencia
 reconocer
 rmino
@@ -24966,6 +24975,13 @@ routers
 revelados
 robar
 roto
+reconoce
+reposo
+remitente
+reconstruir
+repudio
+robo
+robe
 la
 los
 las
@@ -28375,6 +28391,7 @@ ltimamente
 llevado
 localizar
 leg
+llega
 sentimientos
 sugiere
 ser
@@ -32279,6 +32296,7 @@ sensible
 sofisticado
 selectivo
 suministro
+sabotajes
 tiempo
 tiene
 tica
@@ -35863,6 +35881,9 @@ tJS
 telecomunicaciones
 televisores
 timos
+transmitidos
+tercero
+terremotos
 Siglo
 Self
 Se
@@ -42899,6 +42920,7 @@ Pay
 Persistentes
 Par
 Ponen
+Proteger
 Todo
 Thorndike
 Todos
@@ -46311,6 +46333,8 @@ TRACE
 Tycoon
 Thanos
 TinyCryptor
+Trazabilidad
+Transferirlo
 aprendizaje
 ala
 aspectos
@@ -50302,6 +50326,15 @@ aprovecharlas
 aprovecha
 auspicio
 adversario
+atacantes
+autorizadas
+alterada
+altera
+auditar
+atribuir
+admin
+alteraci
+analizado
 una
 un
 unas
@@ -53738,6 +53771,7 @@ uADA
 uxSy
 uMX
 usualmente
+uniforme
 base
 biol
 bienestar
@@ -57161,6 +57195,7 @@ bBTrV
 bmX
 bloquean
 botnets
+brindar
 emocional
 emociones
 en
@@ -61161,6 +61196,11 @@ explotar
 exfiltrar
 espionaje
 exploit
+evidencia
+estructuradas
+eliminarse
+eslab
+estudios
 que
 quien
 quiere
@@ -71659,6 +71699,11 @@ publicarla
 porcentaje
 patrocinados
 prolongada
+permisos
+permiso
+protege
+protegen
+picamente
 clave
 coment
 capacidad
@@ -75997,6 +76042,13 @@ cibersabotaje
 ciberdelincuentes
 criptogr
 ciberf
+confirma
+contrase
+concede
+coras
+confidencialidad
+compromisos
+contratando
 Nic
 Necesidades
 No
@@ -82927,6 +82979,7 @@ masivo
 maras
 meramente
 maliciosos
+manipulaciones
 Arist
 Abraham
 Adem
@@ -86665,6 +86718,9 @@ Aprovecha
 Avanzadas
 APTs
 Aprovechan
+Apoyar
+Asumirlo
+Afectan
 importancia
 inteligencia
 intelectivos
@@ -90535,6 +90591,9 @@ intrusiones
 indebida
 imitan
 infraestructuras
+ingresada
+incendios
+inundaciones
 formaci
 factores
 fortalezas
@@ -93973,6 +94032,8 @@ firewalls
 farmac
 fraude
 fraudulentas
+firma
+fabricantes
 Utiliza
 Una
 Uno
@@ -100818,6 +100879,14 @@ Distribuido
 DDoS
 Dispositivos
 Doxing
+Dimensions
+Dimensi
+Directrices
+Declaraci
+Delegaci
+Describen
+Disminuir
+Desastres
 Wechsler
 Wayne
 WhatsApp
@@ -107393,6 +107462,11 @@ nmK
 neles
 negligencia
 negligencias
+nsito
+niegue
+negar
+necesiten
+naturales
 Maslow
 Miedo
 Maria
@@ -110896,6 +110970,9 @@ Maze
 Malware
 Miner
 Meet
+Multifactor
+Mecanismo
+Mitigar
 Gardner
 Goleman
 Generan
@@ -117310,6 +117387,8 @@ FpRLX
 Firewall
 Facilidad
 Farming
+Firmas
+Firma
 otras
 of
 on
@@ -120627,6 +120706,9 @@ ola
 originan
 obtenida
 oculta
+organizativos
+obligatoriedad
+obligatorias
 Crea
 Cociente
 Con
@@ -124154,6 +124236,10 @@ Configuraciones
 Correos
 Cadena
 Ciberf
+Confidencialidad
+Cifrado
+Copias
+Confirmaci
 vida
 viene
 va
@@ -127488,6 +127574,8 @@ venden
 vector
 vectores
 vectors
+valiosa
+vulnerable
 Reuven
 REA
 Re
@@ -130992,6 +131080,10 @@ RansomExx
 Realizan
 Robo
 Rootkit
+Recomendados
+RBAC
+Repudio
+Reducir
 Bar
 Bisquerra
 Bajo
@@ -140902,6 +140994,7 @@ glnK
 guerra
 gobiernos
 grave
+garantizan
 Ofrecen
 Orientaci
 Ordena
@@ -144172,6 +144265,7 @@ OHu
 OYPXSQ
 Organizaciones
 OWASP
+Obligatorios
 Vergüenza
 Valores
 Vision
