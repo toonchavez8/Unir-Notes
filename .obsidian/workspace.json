@@ -4,16 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "57e57c0768d43a0a",
+        "id": "defe2ac48f86b3b7",
         "type": "tabs",
+        "dimension": 82.75862068965517,
         "children": [
           {
-            "id": "e832c3524b62a47c",
+            "id": "c8d7a36da2cf3d3e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/001-Estrategia-al-proyecto.md",
+                "file": "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-03/Rubrica.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +29,38 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "001-Estrategia-al-proyecto"
+              "title": "Rubrica"
+            }
+          }
+        ]
+      },
+      {
+        "id": "1a2f7e37ddf88116",
+        "type": "tabs",
+        "dimension": 17.24137931034483,
+        "children": [
+          {
+            "id": "da98236d7845cd6a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/000-Presentacion-Ciberseguridad.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "000-Presentacion-Ciberseguridad"
             }
           }
         ]
@@ -199,13 +231,35 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "b74e6b9aa2987edc",
+  "active": "c8d7a36da2cf3d3e",
   "lastOpenFiles": [
+    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-02/mexissi05_act2.docx",
+    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-03/Rubrica.md",
+    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-03/mexissi05_act3.docx",
+    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-03",
+    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-01/Rubrica.md",
+    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-02",
+    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-01/mexissi05_act1.docx",
     "README.md",
+    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-01",
+    "Educative-io/Java-Masterclass/003-Simple-java-program.md",
+    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/000-Presentacion-Ciberseguridad.md",
+    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Books/temario_ciberseguridad_web.pdf",
+    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Books/Unconfirmed 958416.crdownload",
+    "Educative-io/Java-Masterclass/005-Data-types.md",
+    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Books",
+    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Agenda",
+    "Educative-io/Java-Masterclass/attachments/Pasted image 20250919165133.png",
+    "Educative-io/Java-Masterclass/004-Comments.md",
+    "Maestría-Ingeniería-de-Software/03-Desarollo-web/026-Resumen-4.md",
+    "Maestría-Ingeniería-de-Software/03-Desarollo-web/025-Creacion-modificacion-nodos.md",
+    "Maestría-Ingeniería-de-Software/03-Desarollo-web/024-Navegacion-y-modificacion.md",
+    "Maestría-Ingeniería-de-Software/03-Desarollo-web/023-QuerySelectors-y-jsdom.md",
+    "Maestría-Ingeniería-de-Software/03-Desarollo-web/022-El-Dom.md",
+    "Maestría-Ingeniería-de-Software/03-Desarollo-web/021-Resume-3.md",
+    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/001-Estrategia-al-proyecto.md",
     "StudyGuides/006-Algorithams notes.md",
     "conflict-files-obsidian-git.md",
-    "Maestría-Ingeniería-de-Software/03-Desarollo-web/Untitled.md",
-    "Maestría-Ingeniería-de-Software/03-Desarollo-web/021-Resume-3.md",
     "Maestría-Ingeniería-de-Software/03-Desarollo-web/020-closures.md",
     "Maestría-Ingeniería-de-Software/03-Desarollo-web/019-Promesas-funciones-async.md",
     "Maestría-Ingeniería-de-Software/03-Desarollo-web/018-El-objeto-this.md",
@@ -215,37 +269,14 @@
     "Maestría-Ingeniería-de-Software/03-Desarollo-web/014-Funciones-flecha.md",
     "Maestría-Ingeniería-de-Software/03-Desarollo-web/013-Argumentos-de-funciones-de-js.md",
     "Maestría-Ingeniería-de-Software/03-Desarollo-web/012-definicion-de-funciones-js.md",
-    "Maestría-Ingeniería-de-Software/03-Desarollo-web/011-Resumen-2.md",
-    "Maestría-Ingeniería-de-Software/03-Desarollo-web/010-estructuras-de-datos-js.md",
-    "Maestría-Ingeniería-de-Software/03-Desarollo-web/009-Estucturas-iterativas-en-js.md",
-    "Maestría-Ingeniería-de-Software/03-Desarollo-web/008-Estructuras-de-control-js.md",
-    "Maestría-Ingeniería-de-Software/03-Desarollo-web/007-Conceptos-basicos-JS.md",
-    "StudyGuides/003-Wizline-Techintreview-studyguide.md",
-    "StudyGuides/002-WizeLine-Nodejs-figma-designsystem.md",
-    "Untitled.md",
-    "StudyGuides/005-Storybook-figma-zeroheight-connection.md",
-    "StudyGuides/004-Node-http-server.md",
-    "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad-03/ci-cd.md",
-    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/035-Etica-administrativa.md",
-    "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad-03/mexissi04_act3.docx",
     "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad-03/Attachments/mexissi04_act3.png",
-    "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad-03/Attachments",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250811120604.png",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250811120440.png",
-    "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad-1/mexissi04_act1.docx",
-    "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad-1",
-    "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad-03/erueka-server/src/test/java/erueka_server/erueka_server/EruekaServerApplicationTests.java",
-    "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad-03/erueka-server/src/main/java/erueka_server/erueka_server/EruekaServerApplication.java",
-    "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad-03/erueka-server/src/test/java/erueka_server/erueka_server",
-    "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad-03/erueka-server/src/main/java/erueka_server/erueka_server",
-    "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad-03/erueka-server/src/test/java/erueka_server",
-    "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad-03/erueka-server/src/main/resources/application.properties",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/attachments/Pasted image 20250806160321.png",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/{B2FFE6B2-037F-46DB-9DB9-7F7C1723B699}.png",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250726221651.png",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250726221549.png",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250726221436.png",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250726221421.png",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250726215823.png"
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250726221421.png"
   ]
 }
