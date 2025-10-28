@@ -3496,6 +3496,8 @@ Intentan
 Infiltrarse
 Integridad
 Industria
+Implementados
+Implanta
 Emocional
 Edward
 Expone
@@ -7040,6 +7042,7 @@ Explotaci
 Exploit
 Exposures
 Externalizar
+Econ
 Historia
 Howard
 Habilidades
@@ -10418,6 +10421,7 @@ Hacktivistas
 Hacktivistismo
 Hacktivismo
 Hunting
+Humano
 definiciones
 de
 dem
@@ -14305,6 +14309,7 @@ diferenciador
 desastres
 documentadas
 detallados
+denegar
 La
 Linea
 Las
@@ -32297,6 +32302,7 @@ sofisticado
 selectivo
 suministro
 sabotajes
+spyware
 tiempo
 tiene
 tica
@@ -35884,6 +35890,7 @@ timos
 transmitidos
 tercero
 terremotos
+troyanos
 Siglo
 Self
 Se
@@ -42921,6 +42928,7 @@ Persistentes
 Par
 Ponen
 Proteger
+Procedimentales
 Todo
 Thorndike
 Todos
@@ -50335,6 +50343,7 @@ atribuir
 admin
 alteraci
 analizado
+aisladas
 una
 un
 unas
@@ -61201,6 +61210,7 @@ estructuradas
 eliminarse
 eslab
 estudios
+estatales
 que
 quien
 quiere
@@ -71704,6 +71714,8 @@ permiso
 protege
 protegen
 picamente
+perjuicio
+prestigio
 clave
 coment
 capacidad
@@ -76049,6 +76061,7 @@ coras
 confidencialidad
 compromisos
 contratando
+cifrar
 Nic
 Necesidades
 No
@@ -90594,6 +90607,7 @@ infraestructuras
 ingresada
 incendios
 inundaciones
+infiltraci
 formaci
 factores
 fortalezas
@@ -117389,6 +117403,7 @@ Facilidad
 Farming
 Firmas
 Firma
+Factor
 otras
 of
 on
@@ -120709,6 +120724,7 @@ oculta
 organizativos
 obligatoriedad
 obligatorias
+oportuno
 Crea
 Cociente
 Con
