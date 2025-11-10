@@ -4,16 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "defe2ac48f86b3b7",
+        "id": "7250511864e18a15",
         "type": "tabs",
+        "dimension": 16.435432230522945,
         "children": [
           {
-            "id": "c8d7a36da2cf3d3e",
+            "id": "54f5f814cb1cbf7f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Educative-io/Java-Masterclass/005-Data-types.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,19 +29,50 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "005-Data-types"
+              "title": "README"
+            }
+          }
+        ]
+      },
+      {
+        "id": "defe2ac48f86b3b7",
+        "type": "tabs",
+        "dimension": 83.56456776947705,
+        "children": [
+          {
+            "id": "b2666c0804d222a3",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Agenda/Copia de Ciberseguridad Web(31142).pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Copia de Ciberseguridad Web(31142)"
             }
           },
           {
-            "id": "be32131e57bd7fab",
+            "id": "0944f4444ba529e4",
             "type": "leaf",
             "state": {
-              "type": "docx-view",
+              "type": "markdown",
               "state": {
-                "file": "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/mexingsof07_act1.docx"
+                "file": "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/017-Resumen-3.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
               "icon": "lucide-file",
-              "title": "mexingsof07_act1"
+              "title": "017-Resumen-3"
             }
           }
         ],
@@ -212,26 +244,34 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "b74e6b9aa2987edc",
+  "active": "0944f4444ba529e4",
   "lastOpenFiles": [
+    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Agenda/Copia de Ciberseguridad Web(31142).pdf",
+    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Books/temario_ciberseguridad_web.pdf",
+    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/012-Principales-metodologias-y-herramientas.md",
+    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/017-Resumen-3.md",
+    "README.md",
+    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/016-Herramienta-Pilar.md",
+    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/015-Gestion-de-Riesgos.md",
+    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/014-Analisis-de-riesgos.md",
+    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/attachments/Pasted image 20251110102705.png",
+    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/attachments/Pasted image 20251110102643.png",
+    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/013-Planificacion-de-analisis-de-riesgos.md",
+    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/attachments/Pasted image 20251110092027.png",
+    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/attachments",
+    "Educative-io/Java-Masterclass/005-Data-types.md",
+    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/011-Resumen-2.md",
+    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/mexingsof07_act1.docx",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/mexingsof03_act3.docx",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/mexingsof03_act2.docx",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/mexingsof03_act1.docx",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/mexingsof07_act3.docx",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/mexingsof07_act2.docx",
-    "Educative-io/Java-Masterclass/005-Data-types.md",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/mexingsof07_act1.docx",
-    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-02/mexissi05_act2.docx",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria",
     "LeetCode/000-Prompt.md",
     "LeetCode/001-TwoSum.md",
     "Educative-io/Java-Masterclass/006-Variables.md",
-    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/011-Resumen-2.md",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/010-certifcaciones-de-ciberseguridad.md",
-    "README.md",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/007-Diseno-de-politca-seguridad.md",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/009-Profesion-de-gestion-ciberseguridad.md",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/008-SGSI.md",
@@ -244,21 +284,12 @@
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/006-Politica-de-seguridad.md",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-03/Rubrica.md",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-01/Rubrica.md",
-    "Educative-io/Java-Masterclass/003-Simple-java-program.md",
     "Educative-io/Java-Masterclass/attachments/Pasted image 20250919165133.png",
-    "Educative-io/Java-Masterclass/004-Comments.md",
-    "Maestría-Ingeniería-de-Software/03-Desarollo-web/026-Resumen-4.md",
-    "Maestría-Ingeniería-de-Software/03-Desarollo-web/025-Creacion-modificacion-nodos.md",
-    "Maestría-Ingeniería-de-Software/03-Desarollo-web/024-Navegacion-y-modificacion.md",
-    "Maestría-Ingeniería-de-Software/03-Desarollo-web/023-QuerySelectors-y-jsdom.md",
     "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad-03/Attachments/mexissi04_act3.png",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250811120604.png",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250811120440.png",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/attachments/Pasted image 20250806160321.png",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/{B2FFE6B2-037F-46DB-9DB9-7F7C1723B699}.png",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250726221651.png",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250726221549.png",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250726221436.png",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250726221421.png"
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250726221651.png"
   ]
 }
