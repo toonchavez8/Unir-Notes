@@ -6,7 +6,7 @@
       {
         "id": "7250511864e18a15",
         "type": "tabs",
-        "dimension": 16.435432230522945,
+        "dimension": 32.35101506221349,
         "children": [
           {
             "id": "54f5f814cb1cbf7f",
@@ -37,7 +37,7 @@
       {
         "id": "defe2ac48f86b3b7",
         "type": "tabs",
-        "dimension": 83.56456776947705,
+        "dimension": 67.64898493778651,
         "children": [
           {
             "id": "b2666c0804d222a3",
@@ -74,9 +74,81 @@
               "icon": "lucide-file",
               "title": "017-Resumen-3"
             }
+          },
+          {
+            "id": "5f0f87cd51cfe1c8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/018-Ciclo-de-vida-SSDLC.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "018-Ciclo-de-vida-SSDLC"
+            }
+          },
+          {
+            "id": "8bfa4170ffa92ecd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/019-Arquitecturas-de-las-apps-web.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "019-Arquitecturas-de-las-apps-web"
+            }
+          },
+          {
+            "id": "f66b053b6e6d037b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/020-Arquitecturas-de-apps-ajax.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "020-Arquitecturas-de-apps-ajax"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -133,7 +205,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 346.5
+    "width": 346.5,
+    "collapsed": true
   },
   "right": {
     "id": "a25b807ad639ff42",
@@ -244,13 +317,17 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "0944f4444ba529e4",
+  "active": "f66b053b6e6d037b",
   "lastOpenFiles": [
+    "README.md",
+    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/020-Arquitecturas-de-apps-ajax.md",
+    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/019-Arquitecturas-de-las-apps-web.md",
+    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/018-Ciclo-de-vida-SSDLC.md",
+    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/attachments/Pasted image 20251111163825.png",
+    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/017-Resumen-3.md",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Agenda/Copia de Ciberseguridad Web(31142).pdf",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Books/temario_ciberseguridad_web.pdf",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/012-Principales-metodologias-y-herramientas.md",
-    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/017-Resumen-3.md",
-    "README.md",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/016-Herramienta-Pilar.md",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/015-Gestion-de-Riesgos.md",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/014-Analisis-de-riesgos.md",
@@ -282,14 +359,11 @@
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/004-Ciberseguridad-es-un-processo.md",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/005-Resumen-tema-1.md",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/006-Politica-de-seguridad.md",
-    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-03/Rubrica.md",
-    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-01/Rubrica.md",
     "Educative-io/Java-Masterclass/attachments/Pasted image 20250919165133.png",
     "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad-03/Attachments/mexissi04_act3.png",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250811120604.png",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250811120440.png",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/attachments/Pasted image 20250806160321.png",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/{B2FFE6B2-037F-46DB-9DB9-7F7C1723B699}.png",
-    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250726221651.png"
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/{B2FFE6B2-037F-46DB-9DB9-7F7C1723B699}.png"
   ]
 }
