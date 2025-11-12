@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "LiAlignVerticalSpaceAround",
-      "LiBookOpenText",
-      "LiCodepen",
-      "LiCalendar",
-      "LiImages"
+      "LiAirplay",
+      "LiActivitySquare",
+      "LiCode",
+      "LiFileInput",
+      "LiBook"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -44,5 +44,13 @@
   "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Agenda": "LiCalendar",
   "Maestría-Ingeniería-de-Software/03-Desarollo-web": "LiCodepen",
   "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Books": "LiBookOpenText",
-  "Educative-io": "LiAlignVerticalSpaceAround"
+  "Educative-io": "LiAlignVerticalSpaceAround",
+  "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web": "🧷",
+  "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Agenda": "LiCalendar",
+  "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Books": "LiBook",
+  "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades": "LiFileInput",
+  "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Temas": "LiBookOpenText",
+  "LeetCode": "LiCode",
+  "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria": "LiActivitySquare",
+  "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software": "LiAirplay"
 }

@@ -5,16 +5,17 @@ Este espacio está diseñado para organizar todas las notas, materiales y activi
 
 ---
 
-## 🧭 Índice General
+# 🧭 Índice General
 
-### 🏫 Maestría-Ingeniería-de-Software
+## 🏫 Maestría-Ingeniería-de-Software
 
 - [[01-Direccion-y-Gestion-de-Software|📘 Dirección y Gestión de Proyectos de Software]]
 - [[02-Metologías-Desarrollo-y-Calidad|🧪 Metodologías de Desarrollo y Calidad]]
 
-### 🧠 01-modam-softskills
+## 🧠 01-modam-softskills
 
-Notas del módulo de habilidades blandas aplicadas al contexto profesional:
+Notas del módulo de habilidades blandas aplicadas al contexto professional:
+
 - [[01-inteligencia-emocional|🧠 Inteligencia Emocional]]
 - [[02-liderazgo-competencias-directivas|👥 Liderazgo y competencias directivas]]
 - [[03-Comunicacion-feedback|💬 Comunicación y Feedback]]
@@ -26,9 +27,10 @@ Notas del módulo de habilidades blandas aplicadas al contexto profesional:
 - [[09-Motivacion-resiliencia-cambio|🔥 Motivación y resiliencia]]
 - [[10-Gestión-complejidad|🌐 Gestión de la complejidad]]
 
-### 💻 02-programacion-python
+## 💻 02-programacion-python
 
 Notas del módulo de fundamentos de programación:
+
 - [[01-Introduccion|🧾 Introducción a Python]]
 - [[02-Primeros-conceptos-en-python|🔡 Conceptos básicos]]
 - [[03-Programacion-basica|🧱 Programación básica]]
@@ -36,7 +38,7 @@ Notas del módulo de fundamentos de programación:
 
 ---
 
-## ✍️ Uso de Obsidian
+# ✍️ Uso De Obsidian
 
 Este repositorio está diseñado para usarse con [Obsidian](https://obsidian.md), una herramienta de notas basada en Markdown que permite:
 
@@ -46,16 +48,16 @@ Este repositorio está diseñado para usarse con [Obsidian](https://obsidian.md)
 - 🔁 Sincronizar en la nube (si se configura con Obsidian Sync o Git).
 - 🧩 Integrar visualizaciones con [Excalidraw](https://github.com/zsviczian/obsidian-excalidraw-plugin).
 
-### 🛠 Plugins recomendados
+## 🛠 Plugins Recomendados
 
-- **Excalidraw**: Para esquemas visuales.
+- **Excalidraw**: Para esquemas visuals.
 - **Calendar**: Para gestionar sesiones de estudio.
 - **Dataview**: Para mostrar metainformación como tablas dinámicas.
 - **Advanced Tables**: Mejor soporte para tablas Markdown.
 
 ---
 
-## 📁 Organización
+# 📁 Organización
 
 ```text
 📁 Maestría-Ingeniería-de-Software
@@ -90,14 +92,16 @@ Quiero que actúes como un asistente académico experto en la materia del transc
 
 9: no respondas con nada que no sea las notas.
 
-10: Al final teja un espacio en H2 llamado "MicroTest"- agregues preguntos, dejalo vacio,
+10: No agregues Emojis, no es necesario mensionar el nombre del profesor
+
+11: Agrega addicionalmente un espacio para MicroTest que sea un H2 vacia
+
 
 El transcript es el siguiente:
 
 ```
 
-
-### Prompt for MicroTest
+## Prompt for MicroTest
 
 ```test
 Te voy a pasar un micro examen, quiero que solo respondas con la pregunta respuesta y la justifacion de porque. siguiendo el siguente formanto
