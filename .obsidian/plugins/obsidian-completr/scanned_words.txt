@@ -20724,6 +20724,9 @@ reject
 rechazada
 rechazarse
 resuelta
+receptora
+recuerda
+recuerdan
 la
 los
 las
@@ -23504,6 +23507,7 @@ llamarla
 lambda
 literal
 literalmente
+literales
 sentimientos
 sugiere
 ser
@@ -41729,6 +41733,7 @@ averiguar
 anidar
 almacenadas
 arreglo
+asincr
 una
 un
 unas
@@ -47373,6 +47378,7 @@ booleana
 basta
 boolean
 bigint
+bricas
 emocional
 emociones
 en
@@ -59312,6 +59318,7 @@ promesas
 pausa
 pendiente
 pausar
+proporcionarse
 clave
 coment
 capacidad
@@ -62967,6 +62974,7 @@ calcular
 complet
 consumen
 corriendo
+closure
 Nic
 Necesidades
 No
@@ -72033,6 +72041,10 @@ Acerca
 Argumentos
 Atributo
 Alis
+Avanzada
+Asincron
+Async
+Await
 importancia
 inteligencia
 intelectivos
@@ -92568,6 +92580,7 @@ Mapas
 MermaidJs
 Menos
 Mediante
+Mantienen
 Gardner
 Goleman
 Generan
@@ -98037,6 +98050,7 @@ Find
 Flecha
 Falso
 Filtrar
+Filtra
 otras
 of
 on
@@ -100769,6 +100783,7 @@ obtendremos
 obtenemos
 obtuvo
 ocurri
+omitirse
 Crea
 Cociente
 Con
@@ -103722,6 +103737,8 @@ Condici
 Capturan
 Callbacks
 Consumo
+Compuestos
+Closures
 vida
 viene
 va
