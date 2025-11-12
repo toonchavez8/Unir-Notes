@@ -146,9 +146,21 @@
               "icon": "lucide-file",
               "title": "020-Arquitecturas-de-apps-ajax"
             }
+          },
+          {
+            "id": "651147d430bbf95f",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.10.3"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.10.3"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -205,8 +217,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 346.5,
-    "collapsed": true
+    "width": 346.5
   },
   "right": {
     "id": "a25b807ad639ff42",
@@ -317,7 +328,7 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "f66b053b6e6d037b",
+  "active": "651147d430bbf95f",
   "lastOpenFiles": [
     "README.md",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/020-Arquitecturas-de-apps-ajax.md",
