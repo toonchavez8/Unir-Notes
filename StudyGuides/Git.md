@@ -520,13 +520,13 @@ Es útil para revisar una modificación puntual sin distraerse con otros archivo
 
 ### Resumen De Usos Comunes
 
-|Commando|Descripción|
-|---|---|
-|`git diff`|Muestra los cambios no agregados al staging|
-|`git diff --staged`|Compara los cambios del staging con el último commit|
-|`git diff HEAD~1`|Compara el trabajo actual con el commit anterior|
-|`git diff <commit1> <commit2>`|Compara dos commits específicos|
-|`git diff <archivo>`|Muestra las diferencias en un archivo concreto|
+| Commando                       | Descripción                                          |
+| ------------------------------ | ---------------------------------------------------- |
+| `git diff`                     | Muestra los cambios no agregados al staging          |
+| `git diff --staged`            | Compara los cambios del staging con el último commit |
+| `git diff HEAD~1`              | Compara el trabajo actual con el commit anterior     |
+| `git diff <commit1> <commit2>` | Compara dos commits específicos                      |
+| `git diff <archivo>`           | Muestra las diferencias en un archivo concreto       |
 
 En resumen, `git diff` es una herramienta fundamental para **inspeccionar y revisar cambios de código**, ayudando a confirmar que las modificaciones sean correctas antes de agregarlas al historial del proyecto.
 
@@ -808,13 +808,14 @@ Muestra información completa del remoto, incluyendo las ramas configuradas para
 
 ### Tabla De Commandos De `git remote`
 
-|Commando|Descripción|Uso común|
-|---|---|---|
-|`git remote -v`|Lista todos los repositorios remotos y sus URLs|Ver conexiones actuales|
-|`git remote add origin URL`|Agrega un nuevo repositorio remoto|Conectar un proyecto local a GitLab o GitHub|
-|`git remote remove nombre`|Elimina un remoto configurado|Quitar un origen remoto no utilizado|
-|`git remote set-url origin URL`|Cambia la URL de un remoto existente|Actualizar conexión por cambio de protocolo o repositorio|
-|`git remote show origin`|Muestra información detallada del remoto|Consultar ramas de seguimiento y configuración|
+| Commando                        | Descripción                                     | Uso común                                                 |
+| ------------------------------- | ----------------------------------------------- | --------------------------------------------------------- |
+| `git remote -v`                 | Lista todos los repositorios remotos y sus URLs | Ver conexiones actuales                                   |
+| `git remote add origin URL`     | Agrega un nuevo repositorio remoto              | Conectar un proyecto local a GitLab o GitHub              |
+| `git remote remove nombre`      | Elimina un remoto configurado                   | Quitar un origen remoto no utilizado                      |
+| `git remote set-url origin URL` | Cambia la URL de un remoto existente            | Actualizar conexión por cambio de protocolo o repositorio |
+| `git remote show origin`        | Muestra información detallada del remoto        | Consultar ramas de seguimiento y configuración            |
+|                                 |                                                 |                                                           |
 
 ---
 

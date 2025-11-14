@@ -4,11 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "defe2ac48f86b3b7",
+        "id": "f957821b1e9e6a43",
         "type": "tabs",
         "children": [
           {
             "id": "651147d430bbf95f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/001-El-problema-de-seguridad-software.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "001-El-problema-de-seguridad-software"
+            }
+          },
+          {
+            "id": "3f59806119b7e91a",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -29,6 +53,37 @@
               },
               "icon": "lucide-file",
               "title": "Git"
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "0179b793e727ab24",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "58fc6fe77b3b26a4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "README"
             }
           }
         ]
@@ -199,15 +254,22 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "651147d430bbf95f",
+  "active": "58fc6fe77b3b26a4",
   "lastOpenFiles": [
+    "StudyGuides/Git.md",
+    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/002-Vulnebilidades-y-su-clasificacion.md",
+    "README.md",
+    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/001-El-problema-de-seguridad-software.md",
+    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Agenda/Copia de Desarrollo Seguro de Software y Auditoría de la Ciberseguridad(31756).pdf",
+    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Agenda",
+    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/books/Desarrollo Seguro de Software y Auditoría de la Ciberseguridad.pdf",
+    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/books/Unconfirmed 459112.crdownload",
+    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/books",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/020-Arquitecturas-de-apps-ajax.md",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/019-Arquitecturas-de-las-apps-web.md",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/018-Ciclo-de-vida-SSDLC.md",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/017-Resumen-3.md",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Agenda/Copia de Ciberseguridad Web(31142).pdf",
-    "StudyGuides/Git.md",
-    "README.md",
     "conflict-files-obsidian-git.md",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Class_Sessions/01-Intro-Ciberseguridad.md",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Class_Sessions",
@@ -225,11 +287,6 @@
     "Educative-io/Java-Masterclass/005-Data-types.md",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/011-Resumen-2.md",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/mexingsof07_act1.docx",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/mexingsof03_act3.docx",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/mexingsof03_act2.docx",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/mexingsof03_act1.docx",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/mexingsof07_act3.docx",
     "LeetCode/000-Prompt.md",
     "LeetCode/001-TwoSum.md",
     "Educative-io/Java-Masterclass/006-Variables.md",
@@ -239,7 +296,6 @@
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/008-SGSI.md",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/000-Presentacion-Ciberseguridad.md",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/001-Justificacion-motivacion-ciberseguridad.md",
-    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/002-Amenazas-Riesgos-Ciberseguridad.md",
     "Educative-io/Java-Masterclass/attachments/Pasted image 20250919165133.png",
     "Maestría-Ingeniería-de-Software/03-Desarollo-web/Actividades/Actividad-03/Attachments/mexissi04_act3.png",
     "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments/Pasted image 20250811120604.png",
