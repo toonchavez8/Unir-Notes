@@ -30,6 +30,18 @@
               "icon": "lucide-file",
               "title": "01-Intro-Ciberseguridad"
             }
+          },
+          {
+            "id": "1191f2956749d956",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.10.3"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.10.3"
+            }
           }
         ],
         "stacked": true
