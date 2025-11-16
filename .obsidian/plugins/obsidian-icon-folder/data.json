@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiActivitySquare",
       "LiArchive",
       "LiAppWindow",
       "LiAsteriskSquare",
-      "LiAlignVerticalSpaceAround",
-      "LiBookOpenText"
+      "LiAlignVerticalSpaceAround"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -48,5 +48,6 @@
   "StudyGuides": "LiBookOpenText",
   "LeetCode": "LiCodepen",
   "Epam": "LiAsteriskSquare",
-  "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web": "LiArchive"
+  "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web": "LiArchive",
+  "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria": "LiActivitySquare"
 }
