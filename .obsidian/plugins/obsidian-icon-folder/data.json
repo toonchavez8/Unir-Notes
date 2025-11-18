@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiAsteriskSquare",
       "LiSchool",
       "LiMonitorSmartphone",
       "LiActivitySquare",
-      "LiArchive",
-      "LiAppWindow"
+      "LiArchive"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -40,12 +40,21 @@
     "iconName": "LiSchool",
     "iconColor": "#6034fe"
   },
-  "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software": "LiFolderCog2",
-  "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad": "LiFolderCode",
+  "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software": {
+    "iconName": "LiFolderCog2",
+    "iconColor": "#a200fa"
+  },
+  "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad": {
+    "iconName": "LiFolderCode",
+    "iconColor": "#d600c4"
+  },
   "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades": "LiFolderUp",
   "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments": "LiImages",
   "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Agenda": "LiCalendar",
-  "Maestría-Ingeniería-de-Software/03-Desarollo-web": "LiAppWindow",
+  "Maestría-Ingeniería-de-Software/03-Desarollo-web": {
+    "iconName": "LiAppWindow",
+    "iconColor": "#e000b0"
+  },
   "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Books": "LiBookOpenText",
   "Educative-io": "LiAlignVerticalSpaceAround",
   "StudyGuides": "LiBookOpenText",
@@ -57,10 +66,20 @@
     "iconName": "LiAsteriskSquare",
     "iconColor": "#006ec2"
   },
-  "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web": "LiArchive",
-  "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria": "LiActivitySquare",
+  "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web": {
+    "iconName": "LiArchive",
+    "iconColor": "#b500c2"
+  },
+  "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria": {
+    "iconName": "LiActivitySquare",
+    "iconColor": "#9c00f0"
+  },
   "FrontEnd-Masters": {
     "iconName": "LiMonitorSmartphone",
     "iconColor": "#cc0000"
+  },
+  "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software": {
+    "iconName": "LiAsteriskSquare",
+    "iconColor": "#6600cc"
   }
 }
