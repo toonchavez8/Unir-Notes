@@ -133,6 +133,7 @@ Esto permite conectarte a GitLab sin ingresar tu usuario/contraseña cada vez.
     eval "$(ssh-agent -s)"
     ssh-add ~/.ssh/id_ed25519
     ```
+
 > [!note] add open ssh options
 2. **Copiar la clave pública**
     
@@ -412,7 +413,6 @@ Se usa para marcar hitos, registrar eventos o ejecutar procesos automatizados (p
 | `git commit --amend`                    | Modifica el último commit                       |
 | `git commit --allow-empty -m "mensaje"` | Crea un commit sin cambios en los archivos      |
 
-
 En resumen, `git commit` es la acción que consolida los cambios en el historial del proyecto, permitiendo mantener un registro organizado, claro y recuperable de la evolución del código.
 
 Sugiero instalar un paquete con node llamado Better Commits en el entorno y con un commando podemos reducir y standardizer los commits 
@@ -485,6 +485,7 @@ De esta forma puedes revisar el detalle de los cambios antes de incluirlos en el
 ### Commandos Adicionales Útiles De `git diff`
 
 ""
+
 **1. Comparar el área de staging con el último commit**
 
 ```bash

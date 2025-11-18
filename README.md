@@ -95,6 +95,7 @@ Quiero que actúes como un asistente académico experto en la materia del transc
 10: No agregues Emojis, no es necesario mensionar el nombre del profesor
 
 11: Agrega addicionalmente un espacio para MicroTest que sea un H2 vacia
+12: si el transcript esta en ingles manten las notas en ingles
 
 
 El transcript es el siguiente:
