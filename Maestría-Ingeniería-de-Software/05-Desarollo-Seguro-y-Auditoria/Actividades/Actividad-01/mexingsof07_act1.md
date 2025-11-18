@@ -14,7 +14,7 @@ Una amenaza a cualquier sistema es cualquier actor, agente, circunstancia o even
 
 Este es un ejercicio práctico de modelado de amenazas, utilizando una herramienta de modelado como Threat Analysis and Modeling Tool (TAMT), de una aplicación web de tres capas para un negocio de pago electrónico de una librería, con la siguiente arquitectura lógica:
 
-![mexingsof07_act1](<Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Attachments/mexingsof07_act1%202.png>)
+![[Pasted image 20251118065735.png]]
 
 Utilizar la aplicación Threat Analysis and Modeling Tool (TAMT) con el propósito de analizar las amenazas de una aplicación web típica de negocio de pago electrónico de una librería (textos, libros, revistas, etc.) en formato digital con opciones de impresión. La aplicación se puede descargar [aquí](https://docs.microsoft.com/es-es/azure/security/develop/threat-modeling-tool).
 
