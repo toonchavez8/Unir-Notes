@@ -6,7 +6,7 @@
       {
         "id": "a2b96dd4e2f860da",
         "type": "tabs",
-        "dimension": 50.71839080459769,
+        "dimension": 50.7183908045977,
         "children": [
           {
             "id": "ecd2da76ec687344",
@@ -44,12 +44,13 @@
               "title": "OCTAVE paso a paso"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "abf06b800b559ce1",
         "type": "tabs",
-        "dimension": 49.2816091954023,
+        "dimension": 49.281609195402304,
         "children": [
           {
             "id": "94c2334484cb0488",
@@ -243,8 +244,10 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "ecd2da76ec687344",
+  "active": "b74e6b9aa2987edc",
   "lastOpenFiles": [
+    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-01/Dontuse.md",
+    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-01/Actividad-1-Miguel-Chavez.md",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-01/mexissi05_act1.md",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-01/~WRL2211.tmp",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-01/~WRD2207.tmp",
@@ -256,8 +259,6 @@
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-01/mso1E7.tmp",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-01/~WRL0569.tmp",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-01/~WRD0565.tmp",
-    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-01/Actividad-1-Miguel-Chavez.md",
-    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-01/Dontuse.md",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-01/Attachments/Pasted image 20251117164449.png",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-01/Attachments/Pasted image 20251117164437.png",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-01/Attachments/Pasted image 20251117164409.png",
