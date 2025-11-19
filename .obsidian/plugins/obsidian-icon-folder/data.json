@@ -56,7 +56,10 @@
     "iconColor": "#e000b0"
   },
   "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Books": "LiBookOpenText",
-  "Educative-io": "LiAlignVerticalSpaceAround",
+  "Educative-io": {
+    "iconName": "LiAlignVerticalSpaceAround",
+    "iconColor": "#6664dd"
+  },
   "StudyGuides": "LiBookOpenText",
   "LeetCode": {
     "iconName": "LiCodepen",

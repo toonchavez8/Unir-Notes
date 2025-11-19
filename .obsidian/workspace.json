@@ -4,210 +4,9 @@
     "type": "split",
     "children": [
       {
-        "id": "f957821b1e9e6a43",
-        "type": "tabs",
-        "dimension": 59.241126070991434,
-        "children": [
-          {
-            "id": "bbe080b16c353684",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "FrontEnd-Masters/01-Last-Algorithim/02-Big-O-Time-Complexity.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "02-Big-O-Time-Complexity"
-            }
-          },
-          {
-            "id": "fa0cffec3e729506",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/002-Vulnebilidades-y-su-clasificacion.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "002-Vulnebilidades-y-su-clasificacion"
-            }
-          },
-          {
-            "id": "0a162bc6c194415e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/003-Propiedades-del-Software-Seguro.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "003-Propiedades-del-Software-Seguro"
-            }
-          },
-          {
-            "id": "77da29fb93ca7269",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/004-Principios-del-diseno-seguridad.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "004-Principios-del-diseno-seguridad"
-            }
-          },
-          {
-            "id": "b00b00cffb28d6df",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/005-Tipos-s-SDLC.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "005-Tipos-s-SDLC"
-            }
-          },
-          {
-            "id": "51a4772be11c2273",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/006-Estandares-de-seguridad-de-software.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "006-Estandares-de-seguridad-de-software"
-            }
-          },
-          {
-            "id": "6dc2f60339065d16",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/007-Resumen-01.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "007-Resumen-01"
-            }
-          },
-          {
-            "id": "10961a3998b0d630",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Untitled.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Untitled"
-            }
-          }
-        ],
-        "currentTab": 6,
-        "stacked": true
-      },
-      {
         "id": "0179b793e727ab24",
         "type": "tabs",
-        "dimension": 40.758873929008566,
+        "dimension": 24.112607099143208,
         "children": [
           {
             "id": "58fc6fe77b3b26a4",
@@ -234,6 +33,158 @@
             }
           }
         ]
+      },
+      {
+        "id": "6bb80607b34fa14c",
+        "type": "tabs",
+        "dimension": 75.8873929008568,
+        "children": [
+          {
+            "id": "eabc9c73b5031879",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Educative-io/Java-Masterclass/006-Variables.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "006-Variables"
+            }
+          },
+          {
+            "id": "607179b881aa0257",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Educative-io/Java-Masterclass/007-Constants.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "007-Constants"
+            }
+          },
+          {
+            "id": "d746906c1d03b35f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Educative-io/Java-Masterclass/008-Simple-input-from-keyboard.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "008-Simple-input-from-keyboard"
+            }
+          },
+          {
+            "id": "937787c1ca094168",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Educative-io/Java-Masterclass/009-Apples-by-the-Box.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "009-Apples-by-the-Box"
+            }
+          },
+          {
+            "id": "c0f203daff9431b3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Educative-io/Java-Masterclass/010-Writing-Compiling-and-Running-Java Program.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "010-Writing-Compiling-and-Running-Java Program"
+            }
+          },
+          {
+            "id": "761f4111fcb88c69",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Educative-io/Java-Masterclass/011-Summery.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "011-Summery"
+            }
+          }
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -290,7 +241,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240.5
+    "width": 240.5,
+    "collapsed": true
   },
   "right": {
     "id": "a25b807ad639ff42",
@@ -401,18 +353,24 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "6dc2f60339065d16",
+  "active": "937787c1ca094168",
   "lastOpenFiles": [
+    "Educative-io/Java-Masterclass/010-Writing-Compiling-and-Running-Java Program.md",
+    "Educative-io/Java-Masterclass/011-Summery.md",
     "README.md",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/007-Resumen-01.md",
+    "Educative-io/Java-Masterclass/009-Apples-by-the-Box.md",
+    "Educative-io/Java-Masterclass/008-Simple-input-from-keyboard.md",
+    "Educative-io/Java-Masterclass/007-Constants.md",
+    "Educative-io/Java-Masterclass/006-Variables.md",
+    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Untitled.md",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/006-Estandares-de-seguridad-de-software.md",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/005-Tipos-s-SDLC.md",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/004-Principios-del-diseno-seguridad.md",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/003-Propiedades-del-Software-Seguro.md",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/002-Vulnebilidades-y-su-clasificacion.md",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Untitled.md",
-    "FrontEnd-Masters/01-Last-Algorithim/03-Arrays-data-structure.md",
     "FrontEnd-Masters/01-Last-Algorithim/02-Big-O-Time-Complexity.md",
+    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/007-Resumen-01.md",
+    "FrontEnd-Masters/01-Last-Algorithim/03-Arrays-data-structure.md",
     "FrontEnd-Masters/01-Last-Algorithim/attachments/Pasted image 20251118104558.png",
     "FrontEnd-Masters/01-Last-Algorithim/attachments",
     "FrontEnd-Masters/01-Last-Algorithim/01-Introduction.md",
@@ -442,12 +400,6 @@
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-01/Actividad 1 - notas.md",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/001-El-problema-de-seguridad-software.md",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/020-Arquitecturas-de-apps-ajax.md",
-    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/019-Arquitecturas-de-las-apps-web.md",
-    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/018-Ciclo-de-vida-SSDLC.md",
-    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/017-Resumen-3.md",
-    "conflict-files-obsidian-git.md",
-    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Class_Sessions/01-Intro-Ciberseguridad.md",
-    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/012-Principales-metodologias-y-herramientas.md",
-    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/016-Herramienta-Pilar.md"
+    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/019-Arquitecturas-de-las-apps-web.md"
   ]
 }
