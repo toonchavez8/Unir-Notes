@@ -3719,6 +3719,10 @@ Integer
 Interactive
 Inputs
 Improves
+Inspecci
+Intento
+Interrupci
+IPSEC
 Emocional
 Edward
 Expone
@@ -7519,6 +7523,10 @@ Echo
 Execution
 Expected
 Echoing
+Elevation
+Escalada
+Exploitability
+Encriptado
 Historia
 Howard
 Habilidades
@@ -15236,6 +15244,9 @@ datasets
 determining
 descubrimiento
 demonstration
+desuso
+dibujar
+disclosure
 La
 Linea
 Las
@@ -18714,6 +18725,9 @@ Literal
 Line
 Logical
 Later
+Lifecycles
+Letra
+Llevar
 hace
 habilidad
 humano
@@ -26591,6 +26605,10 @@ reports
 rounds
 rounding
 representations
+remarks
+reproducir
+resistentes
+revelaci
 la
 los
 las
@@ -34337,6 +34355,8 @@ scientific
 saved
 simplify
 savings
+summarize
+suplementaci
 tiempo
 tiene
 tica
@@ -38126,6 +38146,7 @@ totalCost
 traces
 typing
 typed
+trazables
 Siglo
 Self
 Se
@@ -41825,6 +41846,11 @@ Steps
 Second
 Savings
 Same
+Such
+STRIDE
+Simulation
+Spoofing
+Sellado
 Plat
 Pir
 Payne
@@ -45652,6 +45678,9 @@ Provided
 Pseudocode
 Prints
 Print
+PASTA
+Privilege
+Prototipo
 Todo
 Thorndike
 Todos
@@ -49303,6 +49332,9 @@ Theta
 Tight
 Tres
 Takeaways
+TRIKE
+Tampering
+Tempering
 aprendizaje
 ala
 aspectos
@@ -53574,6 +53606,9 @@ applesPerBox
 artifacts
 accurate
 artifact
+although
+aborde
+almacenamiento
 una
 un
 unas
@@ -65168,6 +65203,9 @@ exponent
 exponents
 explanation
 echo
+enclose
+estudiado
+elevaci
 que
 quien
 quiere
@@ -76348,6 +76386,9 @@ purchased
 prompt
 prior
 presenting
+probadas
+pentesting
+privilege
 clave
 coment
 capacidad
@@ -81009,6 +81050,12 @@ catch
 conceptually
 costOfApples
 conversion
+converted
+considerada
+circunstancia
+confundirse
+confidenciales
+colas
 Nic
 Necesidades
 No
@@ -84470,6 +84517,7 @@ Named
 Naming
 Negative
 Numeric
+Negaci
 maco
 motivar
 menes
@@ -88396,6 +88444,8 @@ measured
 multiply
 mixes
 mistyped
+mencionado
+mitigaciones
 Arist
 Abraham
 Adem
@@ -92365,6 +92415,12 @@ Administrar
 Apples
 Annotated
 Arithmetic
+Attack
+Antiguas
+Almacenes
+Aplicabilidad
+Affected
+Acercamiento
 importancia
 inteligencia
 intelectivos
@@ -96517,6 +96573,8 @@ intervening
 indicates
 iterative
 individually
+incorporadas
+inherentes
 formaci
 factores
 fortalezas
@@ -100193,6 +100251,7 @@ fine
 formats
 fixes
 fractions
+ficamente
 Utiliza
 Una
 Uno
@@ -103825,6 +103884,7 @@ Upper
 Unnamed
 Underscores
 Usage
+Utilizada
 David
 Describe
 Developing
@@ -107556,6 +107616,11 @@ DOZEN
 Debugging
 Discussion
 Declares
+DREAD
+Disclosure
+Denial
+Damage
+Discoverability
 Wechsler
 Wayne
 WhatsApp
@@ -114570,6 +114635,7 @@ normative
 near
 numberOfApples
 numeric
+necesitarlo
 Maslow
 Miedo
 Maria
@@ -118310,6 +118376,9 @@ Mitigaciones
 Mergesort
 Matter
 Multiply
+Models
+MSTAM
+Mediante
 Gardner
 Goleman
 Generan
@@ -125131,6 +125200,7 @@ Floating
 Formats
 Flowchart
 Formatting
+Fronteras
 otras
 of
 on
@@ -128647,6 +128717,8 @@ operators
 operate
 outperform
 omitted
+ofensivo
+ocurriendo
 Crea
 Cociente
 Con
@@ -132500,6 +132572,8 @@ Caption
 Compute
 Comments
 Consider
+CORA
+Cabo
 vida
 viene
 va
@@ -139777,6 +139851,10 @@ Rare
 Reusing
 Reduces
 Running
+RPC
+Repudiation
+Reproducibility
+Repetir
 Bar
 Bisquerra
 Bajo
@@ -143338,6 +143416,8 @@ BSIMM
 Begin
 Balanced
 Brief
+Bart
+Bases
 Kama
 KPI
 Kurt
@@ -157270,6 +157350,7 @@ Vector
 Validaciones
 Variable
 Vuelve
+Varias
 yo
 ya
 you

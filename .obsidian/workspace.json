@@ -6,7 +6,7 @@
       {
         "id": "0179b793e727ab24",
         "type": "tabs",
-        "dimension": 24.112607099143204,
+        "dimension": 38.8560157790927,
         "children": [
           {
             "id": "58fc6fe77b3b26a4",
@@ -35,17 +35,17 @@
         ]
       },
       {
-        "id": "6bb80607b34fa14c",
+        "id": "52695b751b6ac95b",
         "type": "tabs",
-        "dimension": 75.8873929008568,
+        "dimension": 61.1439842209073,
         "children": [
           {
-            "id": "eabc9c73b5031879",
+            "id": "dc76e87282ec9926",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Educative-io/Java-Masterclass/006-Variables.md",
+                "file": "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/007-Resumen-01.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -60,16 +60,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "006-Variables"
+              "title": "007-Resumen-01"
             }
           },
           {
-            "id": "607179b881aa0257",
+            "id": "35b5563b1acddac2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Educative-io/Java-Masterclass/007-Constants.md",
+                "file": "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/008-Seguridad-en-el-ciclo-de-vida-software.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -84,16 +84,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "007-Constants"
+              "title": "008-Seguridad-en-el-ciclo-de-vida-software"
             }
           },
           {
-            "id": "d746906c1d03b35f",
+            "id": "2203b05ed65cfe7e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Educative-io/Java-Masterclass/008-Simple-input-from-keyboard.md",
+                "file": "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/009-Modelo-de-amenazas.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -108,83 +108,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "008-Simple-input-from-keyboard"
-            }
-          },
-          {
-            "id": "937787c1ca094168",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Educative-io/Java-Masterclass/009-Apples-by-the-Box.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "009-Apples-by-the-Box"
-            }
-          },
-          {
-            "id": "c0f203daff9431b3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Educative-io/Java-Masterclass/010-Writing-Compiling-and-Running-Java Program.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "010-Writing-Compiling-and-Running-Java Program"
-            }
-          },
-          {
-            "id": "761f4111fcb88c69",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Educative-io/Java-Masterclass/011-Summery.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "011-Summery"
+              "title": "009-Modelo-de-amenazas"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -241,7 +169,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240.5
+    "width": 240.5,
+    "collapsed": true
   },
   "right": {
     "id": "a25b807ad639ff42",
@@ -352,11 +281,17 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "937787c1ca094168",
+  "active": "2203b05ed65cfe7e",
   "lastOpenFiles": [
-    "Educative-io/Java-Masterclass/010-Writing-Compiling-and-Running-Java Program.md",
-    "Educative-io/Java-Masterclass/011-Summery.md",
     "README.md",
+    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/009-Modelo-de-amenazas.md",
+    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/attachments/Pasted image 20251120150332.png",
+    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/008-Seguridad-en-el-ciclo-de-vida-software.md",
+    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/attachments/Pasted image 20251120144231.png",
+    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/attachments",
+    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/007-Resumen-01.md",
+    "Educative-io/Java-Masterclass/011-Summery.md",
+    "Educative-io/Java-Masterclass/010-Writing-Compiling-and-Running-Java Program.md",
     "Educative-io/Java-Masterclass/009-Apples-by-the-Box.md",
     "Educative-io/Java-Masterclass/008-Simple-input-from-keyboard.md",
     "Educative-io/Java-Masterclass/007-Constants.md",
@@ -368,7 +303,6 @@
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/003-Propiedades-del-Software-Seguro.md",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/002-Vulnebilidades-y-su-clasificacion.md",
     "FrontEnd-Masters/01-Last-Algorithim/02-Big-O-Time-Complexity.md",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/007-Resumen-01.md",
     "FrontEnd-Masters/01-Last-Algorithim/03-Arrays-data-structure.md",
     "FrontEnd-Masters/01-Last-Algorithim/attachments/Pasted image 20251118104558.png",
     "FrontEnd-Masters/01-Last-Algorithim/attachments",
@@ -389,16 +323,10 @@
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Actividad-01/attachments/Pasted image 20251118065723.png",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Actividad-01/mexingsof07_act1.md",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Actividad-01/mexingsof07_act1.docx",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Actividad-01/attachments",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-01/mexissi05_act1.md.md",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-01/mexissi05_act1.md",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-01/Attachments/Pasted image 20251117164449.png",
-    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-01/Attachments/Pasted image 20251117164437.png",
-    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-01/Attachments/mexissi05_act1 3.jpeg",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-01/Actividad-1-Miguel-Chavez.md",
-    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-01/Actividad 1 - notas.md",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/001-El-problema-de-seguridad-software.md",
-    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/020-Arquitecturas-de-apps-ajax.md",
-    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/019-Arquitecturas-de-las-apps-web.md"
+    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-01/Actividad 1 - notas.md"
   ]
 }
