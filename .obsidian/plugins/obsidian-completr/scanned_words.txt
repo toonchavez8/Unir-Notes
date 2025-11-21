@@ -63947,6 +63947,7 @@ combindad
 considerardos
 calificacion
 cualtiativa
+commandos
 Nic
 Necesidades
 No
@@ -122081,6 +122082,7 @@ OCtave
 Oadxj
 OWASP
 Octav
+Occur
 Vergüenza
 Valores
 Vision
