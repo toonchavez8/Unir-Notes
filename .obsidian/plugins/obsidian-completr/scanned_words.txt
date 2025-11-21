@@ -60193,6 +60193,7 @@ probablidad
 percidibo
 probalidad
 percibido
+pandoc
 clave
 coment
 capacidad

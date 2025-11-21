@@ -1,36 +1,60 @@
-# Variables
-
-In this lesson, we will learn how to name pieces of data in our program.
+# Variables — Study Notes
 
 ---
 
-## Why Use Variables
+## Variables Overview
 
-**Variables** are used to represent a piece of data in a Java program. The variable represents a memory location that stores the data. The data itself is called the variable’s **value**.
+**Summary:** Variables allow us to name and store data in memory so a program can use and manipulate that data. Each variable has a value that lives at a specific memory location.  
+**Takeaways:**
 
-We use an **identifier** to name a variable. By convention, variable names should:
-
-- Begin with a lowercase letter
+- A variable represents a memory location.
     
-- Be meaningful
-
-For example, if our variable represents the sales tax for a purchase, name it `salesTax` instead of `st` or `stax`.
-
-Multiple-word variable names are common. By convention, the first word begins with a lowercase letter, but subsequent words in the name each begin with an uppercase letter.
-
-> ✏️ **Programming Tip**  
-> Java variable names can be long. Favor clarity over brevity. Avoid one-letter names unless the context suggests that they are appropriate. Follow convention by beginning variable names with a lowercase letter.
+- Its contents are called the variable’s value.
+    
+- Names (identifiers) describe what the data represents.
 
 ---
 
-## Declarations
+## Naming Variables
 
-When we first create a variable, we must choose its **data type** — that is, we must specify what type of data the variable will represent.
+**Summary:** Variable names (identifiers) should start with a lowercase letter and clearly describe their purpose. Multi-word names use camelCase formatting.  
+**Takeaways:**
 
-For example, if our program involves apples, we might track the number of apples in the variable `numberOfApples`. This count is an integer, so the data type of this variable would be `int`.
+- Begin with lowercase; use meaningful names.
+    
+- camelCase: first word lowercase, next words uppercase first letter.
+    
+- Avoid unclear or very short names unless appropriate.
 
-We declare the data type of a variable in a **declaration statement**.  
-For example, the following statements declare one `int` variable, two `double` variables, a character variable, and a Boolean variable:
+---
+
+## Programming Tip on Naming
+
+**Summary:** Clarity is favored over brevity. Long names are acceptable if they communicate meaning. One-letter variables should be used only when obvious.  
+**Takeaways:**
+
+- Prefer clarity over shortness.
+    
+- Avoid one-letter names unless context makes them clear.
+    
+- Always start with lowercase.
+
+---
+
+## Declarations Overview
+
+**Summary:** Declaring a variable means specifying its data type and name. A variable must be declared before it is used.  
+**Takeaways:**
+
+- Declaration = data type + variable name.
+    
+- Declare before use; declare once.
+    
+- Commas allow multiple variables of the same type.
+
+---
+
+### Example Declarations
 
 ```java
 int numberOfApples;
@@ -39,72 +63,106 @@ char letter;
 boolean done;
 ```
 
-Each declaration begins with a data type and contains one or more variables of that type.  
-Commas separate variables of the same type, and a semicolon ends each declaration.
-
-> 📝 **Note: Variable declarations**  
-> You must declare a variable before you can use it. You declare each variable only once, regardless of how often you use it.
-
 ---
 
-## Assignments
+## Assignment Statements
 
-When we declare a variable within the body of a method, Java gives it no particular initial value.  
-We can either give an initial value to a variable or change its existing value by using an **assignment statement**.
+**Summary:** Assignment gives a variable an initial value or updates its value. The assignment operator `=` stores the value of an expression into the variable.  
+**Takeaways:**
 
-An assignment statement has the following form:
-
-```Python
-variable = expression;
-```
-
-The **assignment operator** (`=`) assigns the value of the expression to the variable.  
-An **operator** is a symbol within a programming language that represents a particular operation or action.  
-For example:
-
-- `=` assigns a value to a variable.
+- `variable = expression;` is the assignment format.
     
-- `*` multiplies two arithmetic values.
-
-An **expression** is a combination of operators and other components that represent values.
-
-> 📝 **Syntax: Assignment statement**  
-> `variable = expression;`  
-> It assigns the value of the expression to the variable.
+- `=` does not mean “equals”; it means “store into.”
+    
+- Variables declared in methods start with no assigned value.
 
 ---
 
-### Example
+## Assignment Syntax
 
-After the following declarations:
+**Summary:** A valid assignment ends with a semicolon and places the expression on the right and the variable on the left.  
+**Takeaways:**
+
+- Format: `variable = expression;`
+    
+- Expression can be a literal, another variable, or a calculation.
+
+---
+
+## Assignment Example
+
+**Summary:** Values can be assigned using literals or expressions. Arithmetic expressions combine operators and variables.  
+**Takeaways:**
+
+- Literals represent fixed values.
+    
+- `*` multiplies values in an expression.
+    
+- Expression results can be stored in another variable.
+
+### Original Code
 
 ```java
 int numberOfApples;
 double pricePerApple, totalCost;
-```
 
-We can assign values to the variables by writing:
-
-```java
 numberOfApples = 15;
 pricePerApple = 0.29;
 totalCost = numberOfApples * pricePerApple;
 ```
 
-The `15` and `0.29` are called **literals** — fixed values written directly in the code.  
-Here, `15` is an integer literal, and `0.29` is a real (floating-point) literal.
+### Annotated Version
 
-The expression `numberOfApples * pricePerApple` is an example of an **arithmetic expression**.  
-The operator `*` multiplies the current values of the two variables, and the resulting product (`4.35`) is assigned to `totalCost`.
+```java
+// Declare variables
+int numberOfApples;
+double pricePerApple, totalCost;
 
-> 📝 **Note: Using variables**  
-> Once you declare a variable and assign it a value, you can use it in another assignment statement.
+// Assign literal values
+numberOfApples = 15;      // integer literal
+pricePerApple = 0.29;     // real (double) literal
+
+// Multiply two variables and store the result
+totalCost = numberOfApples * pricePerApple; // expression assigned to totalCost
+```
+
+### Step-by-step Explanation
+
+1. `numberOfApples` receives the integer literal `15`.
+    
+2. `pricePerApple` receives the double literal `0.29`.
+    
+3. The expression multiplies their current values.
+    
+4. The result (`4.35`) is stored in `totalCost`.
 
 ---
 
-## Declarations and Assignments Within a Program
+## Using Variables in Programs
 
-The program below shows variable declarations and assignment statements working together to compute the cost of a certain number of apples.
+**Summary:** After assigning values, variables can be used in other expressions and assignments.  
+**Takeaways:**
+
+- Variables can appear inside new assignments.
+    
+- Their values update as the program runs.
+    
+- Assignment overwrites previous values.
+
+---
+
+## Declarations and Assignments in Full Program
+
+**Summary:** A program can declare variables, assign values, compute results, and display output with string concatenation.  
+**Takeaways:**
+
+- `+` joins strings (concatenation).
+    
+- Java converts numbers to strings when concatenating.
+    
+- Print statements can be broken across lines.
+
+### Example Program (from text) — Reconstructed
 
 ```java
 public class Apples {
@@ -123,111 +181,136 @@ public class Apples {
 }
 ```
 
-This program multiplies the number of apples by their price and prints the total cost.
+### Annotated Version
+
+```java
+public class Apples {
+    public static void main(String[] args) {
+
+        // Variable declarations
+        int numberOfApples;
+        double pricePerApple, totalCost;
+
+        // Assign values
+        numberOfApples = 15;
+        pricePerApple = 0.29;
+
+        // Compute total cost
+        totalCost = numberOfApples * pricePerApple;
+
+        // Concatenate numbers and strings for output
+        System.out.print(numberOfApples + " apples at $");
+        System.out.print(pricePerApple + " apiece cost $");
+
+        // Print final computed value
+        System.out.println(totalCost);
+    }
+}
+```
+
+### Step-by-step Explanation
+
+1. Variables are declared.
+    
+2. Values are assigned.
+    
+3. The multiplication calculates cost.
+    
+4. The concatenation prints text + numbers.
 
 ---
 
-### The `+` Operator and String Concatenation
+## Strings across Lines
 
-Note the use of the `+` operator in the program’s `print` statements.  
-When used this way, the `+` operator **concatenates** (joins) one string with another.
+**Summary:** Long print statements can be split across lines as long as breaks occur between operators. Strings cannot be split without closing and reopening quotes.  
+**Takeaways:**
 
-Although it appears that we are joining a number with a string, Java automatically converts the number into a string before displaying it.
+- Line breaks around `+` are allowed.
+    
+- A string literal cannot span lines directly.
+    
+- Must break the string into two literals and concatenate.
 
----
-
-### Strings Spanning Two or More Lines
-
-The previous program uses several `print` statements to display one line of output:
-
-```java
-System.out.print(numberOfApples + " apples at $");
-System.out.print(pricePerApple + " apiece cost $");
-System.out.println(totalCost);
-```
-
-We could also write one `println` statement and get the same output:
-
-```java
-System.out.println(numberOfApples + " apples at $" +
-                   pricePerApple + " apiece cost $" + totalCost);
-```
-
-If a statement is long, we can split it across multiple lines.  
-The compiler ignores white space before or after the `+` operator.
-
-However, a **string literal** cannot span multiple lines directly — this would cause a syntax error:
+### Incorrect Version
 
 ```java
 System.out.println("The total cost of 15 apples if bought
-                   separately is $" + totalCost); // SYNTAX ERROR!
+                    separately is $" + totalCost);  // ERROR
 ```
 
-✅ Correct version:
+### Correct Version
 
 ```java
 System.out.println("The total cost of 15 apples if bought " +
                    "separately is $" + totalCost);
 ```
 
-Note the additional quotes, space after `"bought "`, and the `+` operator joining the strings.
-
 ---
 
-## Changing the Value of a Variable
+## Changing Variable Values
 
-Variables are named so because their values can **change**.
+**Summary:** Variables can be reassigned new values or updated based on their existing value.  
+**Takeaways:**
 
-For example:
+- Reassignment overwrites the previous value.
+    
+- Updating uses the current value on the right side.
+    
+- `x = x + 1` increases numerical variables.
 
-```java
-numberOfApples = 20;
-```
-
-Or we could add 1 to its current value:
-
-```java
-numberOfApples = numberOfApples + 1;
-```
-
-If `numberOfApples` was 20, this statement makes it 21.
-
-You should **not** read the `=` as “equals.”  
-It means “assign the result of the expression on the right to the variable on the left.”
-
-Example sequence:
+### Example
 
 ```java
 int numberOfApples;
 numberOfApples = 15;
-numberOfApples = 20;
-numberOfApples = numberOfApples + 1;
+numberOfApples = 20;          // new value
+numberOfApples = numberOfApples + 1; // becomes 21
 ```
 
-> 📝 **Note: Tracing variable values**  
-> To understand assignments, imagine the current value of each variable step by step.  
-> Tracing helps you detect logic errors — an essential skill for debugging.
+---
 
-> 📝 **Note: Declaring and initializing a variable**  
-> You can assign an initial value when declaring a variable:
+## Tracing Assignments
 
- ```java
- int numberOfApples = 15;
- ```
+**Summary:** Understanding assignments requires mentally tracking current variable values through execution. This is essential for debugging and logic tracing.  
+**Takeaways:**
+
+- Track variable values step by step.
+    
+- Helps find logic errors.
+    
+- Fundamental programming skill.
+
+---
+
+## Declaring + Initializing at once
+
+**Summary:** You may give a variable an initial value at the moment of declaration.  
+**Takeaways:**
+
+- Format: `type name = value;`
+    
+- Saves an extra assignment.
+
+### Example
+
+```java
+int numberOfApples = 15;
+```
 
 ---
 
 ## Character Variables
 
-After declaring a variable as a `char`, assign it a character literal:
+**Summary:** `char` stores a single character using single quotes. Declaration and assignment can be separate or combined.  
+**Takeaways:**
 
-```java
-char letter;
-letter = 'a';
-```
+- Character literal uses single quotes.
+    
+- Only one character allowed.
+    
+- Can assign during declaration.
 
-A **character literal** is a single character enclosed in single quotes.  
-You can also combine declaration and assignment:
+### Example
 
 ```java
 char letter = 'a';
@@ -237,19 +320,33 @@ char letter = 'a';
 
 ## Boolean Variables
 
-We can assign a value of either `true` or `false` to a variable declared as a Boolean:
+**Summary:** Boolean variables store either `true` or `false`. These values are reserved words.  
+**Takeaways:**
 
-```java
-boolean done;
-done = true;
-```
+- Only two valid Boolean literals: `true`, `false`.
+    
+- Use them in conditions and logic.
+    
+- Can declare and initialize together.
 
-The reserved words `true` and `false` are **Boolean literals** that represent predefined logical values.
-
-As with other data types, we can combine declaration and assignment:
+### Example
 
 ```java
 boolean done = true;
 ```
 
-Boolean variables and expressions play an important role in controlling program logic.
+---
+
+# Key Points
+
+- Variables store data at named memory locations.
+    
+- Use meaningful camelCase names starting lowercase.
+    
+- Declare a variable’s type before using it.
+    
+- Assignment uses `=` to store values or computed results.
+    
+- Strings must be concatenated, not split across lines.
+    
+- Reassignments update the stored value; trace variable values to understand program flow.

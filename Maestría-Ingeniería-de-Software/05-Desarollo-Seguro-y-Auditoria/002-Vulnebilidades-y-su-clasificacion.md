@@ -167,3 +167,32 @@ B --> C[CVSS: Severidad]
 ---
 
 ## MicroTest
+
+### **1. Señalar la Respuesta Incorrecta. El Cálculo Del CVSS Se Realiza En Base a Tres Tipos De métricas:**
+
+- **La respuesta:** B. Métricas estadísticas.
+    
+- **Justificación:**  
+    El sistema CVSS se basa exclusivamente en **métricas base, temporales y ambientales**. No existen “métricas estadísticas” dentro del estándar, por lo que esta opción es incorrecta.
+
+---
+
+### **2. ¿Cuál De Las Siguientes no Es Una Fase Del Ciclo De Vida De Una vulnerabilidad?**
+
+- **La respuesta:** C. Validación final por el usuario.
+    
+- **Justificación:**  
+    El ciclo de vida de una vulnerabilidad incluye: **descubrimiento, verificación, análisis, solución y publicación**, pero **no contempla ninguna fase donde el usuario final valid la vulnerabilidad**. Esa acción no forma parte del proceso formal.
+
+---
+
+### **3. «Los Técnicos Buscan Vulnerabilidades Similares (el Ciclo Vuelve a comenzar)». ¿A Qué Fase corresponde?**
+
+- **La respuesta:** B. Búsqueda.
+    
+- **Justificación:**  
+    La frase describe la actividad de **buscar nuevas vulnerabilidades basadas en patrones previous**, lo cual forma parte de la fase de **búsqueda**, donde se reinicia el proceso utilizando lo aprendido en ciclos anteriores.
+
+---
+
+Si quieres, puedo prepararte más microtests para practicar según estas mismas notas.

@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "LiActivitySquare",
-      "LiArchive",
-      "LiAppWindow",
       "LiAsteriskSquare",
-      "LiAlignVerticalSpaceAround"
+      "LiSchool",
+      "LiMonitorSmartphone",
+      "LiActivitySquare",
+      "LiArchive"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -36,18 +36,53 @@
   },
   "01-modam-softskills": "LiFolderArchive",
   "02-programacion-python": "LiFolderCode",
-  "Maestría-Ingeniería-de-Software": "LiFolderTree",
-  "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software": "LiFolderCog2",
-  "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad": "LiFolderCode",
+  "Maestría-Ingeniería-de-Software": {
+    "iconName": "LiSchool",
+    "iconColor": "#6034fe"
+  },
+  "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software": {
+    "iconName": "LiFolderCog2",
+    "iconColor": "#a200fa"
+  },
+  "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad": {
+    "iconName": "LiFolderCode",
+    "iconColor": "#d600c4"
+  },
   "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades": "LiFolderUp",
   "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/attachments": "LiImages",
   "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Agenda": "LiCalendar",
-  "Maestría-Ingeniería-de-Software/03-Desarollo-web": "LiAppWindow",
+  "Maestría-Ingeniería-de-Software/03-Desarollo-web": {
+    "iconName": "LiAppWindow",
+    "iconColor": "#e000b0"
+  },
   "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Books": "LiBookOpenText",
-  "Educative-io": "LiAlignVerticalSpaceAround",
+  "Educative-io": {
+    "iconName": "LiAlignVerticalSpaceAround",
+    "iconColor": "#6664dd"
+  },
   "StudyGuides": "LiBookOpenText",
-  "LeetCode": "LiCodepen",
-  "Epam": "LiAsteriskSquare",
-  "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web": "LiArchive",
-  "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria": "LiActivitySquare"
+  "LeetCode": {
+    "iconName": "LiCodepen",
+    "iconColor": "#e0ce00"
+  },
+  "Epam": {
+    "iconName": "LiAsteriskSquare",
+    "iconColor": "#006ec2"
+  },
+  "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web": {
+    "iconName": "LiArchive",
+    "iconColor": "#b500c2"
+  },
+  "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria": {
+    "iconName": "LiActivitySquare",
+    "iconColor": "#9c00f0"
+  },
+  "FrontEnd-Masters": {
+    "iconName": "LiMonitorSmartphone",
+    "iconColor": "#cc0000"
+  },
+  "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software": {
+    "iconName": "LiAsteriskSquare",
+    "iconColor": "#6600cc"
+  }
 }
