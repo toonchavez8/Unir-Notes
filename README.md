@@ -71,6 +71,22 @@ Este repositorio está diseñado para usarse con [Obsidian](https://obsidian.md)
 **
 ```
 
+
+## Prompt for MicroTest
+
+```test
+Te voy a pasar un micro examen, quiero que solo respondas con la pregunta respuesta y la justifacion de porque. siguiendo el siguente formanto
+
+no incluyas divisdores de ---
+
+1.la pregunta
+	- La respuesta: 
+	- Justifacion:
+	  
+```
+
+
+
 ```text
 Quiero que actúes como un asistente académico experto en la materia del transcript que te voy a pasar. Tu tarea es tomar este transcript y generar **notas de estudio**, siguiendo estas indicaciones:
 
@@ -101,20 +117,7 @@ El transcript es el siguiente:
 
 ```
 
-## Prompt for MicroTest
-
-```test
-Te voy a pasar un micro examen, quiero que solo respondas con la pregunta respuesta y la justifacion de porque. siguiendo el siguente formanto
-
-no incluyas divisdores de ---
-
-1.la pregunta
-	- La respuesta: 
-	- Justifacion:
-	  
-```
-
-## Promopt for Notes from Educative
+## Prompt for Notes from Educative
 
 ```text
 You are an academic study-notes assistant. I will paste content (from Educative.io or similar) and you must return study notes in English. For each paragraph in the source:
