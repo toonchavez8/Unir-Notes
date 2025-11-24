@@ -6137,6 +6137,7 @@ Exposure
 English
 Esenciales
 Engine
+Estructurada
 Historia
 Howard
 Habilidades
@@ -12182,6 +12183,9 @@ dddddddddddddddddddddddddddddddddddddddd
 dyWi
 dYC
 downgrade
+disminuyen
+descritos
+disminuci
 La
 Linea
 Las
@@ -21167,6 +21171,8 @@ restrictiva
 repetitivos
 replay
 rastros
+requiriendo
+reemplazan
 la
 los
 las
@@ -23989,6 +23995,8 @@ lAAb
 liAH
 lPd
 leg
+licenciamiento
+listados
 sentimientos
 sugiere
 ser
@@ -27247,6 +27255,7 @@ synchronizer
 suitable
 simplifican
 subtipos
+sobrecostes
 tiempo
 tiene
 tica
@@ -33186,6 +33195,8 @@ SameSite
 Strict
 SWEBoK
 Segundo
+Sobrecostes
+Sustituyen
 Plat
 Pir
 Payne
@@ -36231,6 +36242,7 @@ Protocol
 Promopt
 Plataformas
 Paquete
+Pensamiento
 Todo
 Thorndike
 Todos
@@ -39114,6 +39126,7 @@ Transmission
 Terminolog
 Toolkit
 Tercer
+Tecnol
 aprendizaje
 ala
 aspectos
@@ -42650,6 +42663,9 @@ administrativas
 alertas
 asisten
 adopta
+automatizando
+acelera
+apropiadas
 una
 un
 unas
@@ -48386,6 +48402,7 @@ blanca
 borrado
 bruta
 bullets
+busquen
 emocional
 emociones
 en
@@ -51817,6 +51834,8 @@ educative
 extraneous
 especializados
 eligen
+estandarizar
+eficientemente
 que
 quien
 quiere
@@ -60580,6 +60599,7 @@ protegidas
 pila
 pertenecen
 pilas
+posterior
 clave
 coment
 capacidad
@@ -64352,6 +64372,10 @@ caption
 comparisons
 commentary
 creadores
+consistentes
+computacionales
+competente
+cognitivas
 Nic
 Necesidades
 No
@@ -70340,6 +70364,7 @@ manipulada
 monto
 modifica
 misconfig
+movilidad
 Arist
 Abraham
 Adem
@@ -73617,6 +73642,10 @@ Aclarar
 Adoptar
 Adoptada
 Adoptado
+Automatizar
+Aumentan
+Aplicabilidad
+Aporta
 importancia
 inteligencia
 intelectivos
@@ -77034,6 +77063,7 @@ izDk
 images
 intercepta
 irrelevantes
+independizar
 formaci
 factores
 fortalezas
@@ -79977,6 +80007,7 @@ fffffffffffffffffffffffffffffff
 fluye
 falsifica
 fool
+fusionar
 Utiliza
 Una
 Uno
@@ -85738,6 +85769,7 @@ During
 Dread
 Diferenciar
 Definidas
+Disminuci
 Wechsler
 Wayne
 WhatsApp
@@ -94481,6 +94513,8 @@ Middle
 Module
 Manipulation
 Monitorizaci
+Minimizaci
+Migraci
 Gardner
 Goleman
 Generan
@@ -102816,6 +102850,7 @@ obTaPaPALaPALaLALaPALaLALaPALaLALaPALaLALaPALaLALaPALaLALaPALaLALaPALaLALaPALaLA
 ovDW
 orders
 ocultos
+obligar
 Crea
 Cociente
 Con
@@ -105864,6 +105899,8 @@ Cruzados
 CSRF
 Cita
 Clasificar
+Crean
+Controlan
 vida
 viene
 va
