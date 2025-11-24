@@ -3737,6 +3737,9 @@ Interfaces
 Intruder
 Insufficient
 Intercepci
+Inspirado
+Improvement
+Ingl
 Emocional
 Edward
 Expone
@@ -7566,6 +7569,7 @@ Endpoints
 Elevaci
 Escalation
 Exposure
+Engine
 Historia
 Howard
 Habilidades
@@ -11154,6 +11158,7 @@ Hydra
 Hijacking
 HSTS
 HMAC
+Heterog
 definiciones
 de
 dem
@@ -15312,6 +15317,7 @@ defectuosa
 dedicado
 downgrade
 deshabilitar
+dirigidas
 La
 Linea
 Las
@@ -22467,6 +22473,8 @@ humo
 hierarchical
 hostil
 hable
+hol
+heterog
 referencia
 reconocer
 rmino
@@ -26710,6 +26718,8 @@ restrictiva
 repetitivos
 replay
 rastros
+restringida
+reemplazos
 la
 los
 las
@@ -30336,6 +30346,8 @@ libros
 leguaje
 likelihood
 llegando
+labores
+legibles
 sentimientos
 sugiere
 ser
@@ -34488,6 +34500,8 @@ separated
 sanitizar
 sniffing
 synchronizer
+simplifican
+subtipos
 tiempo
 tiene
 tica
@@ -38291,6 +38305,8 @@ transmitida
 transportado
 tima
 tolerar
+toolkit
+toolkits
 Siglo
 Self
 Se
@@ -42019,6 +42035,9 @@ Sniffing
 Sensitive
 Sitios
 SameSite
+SWEBoK
+Segundo
+SDKs
 Plat
 Pir
 Payne
@@ -45878,6 +45897,9 @@ Petici
 Proveedor
 Processing
 Protocol
+Plataformas
+Primero
+Paquete
 Todo
 Thorndike
 Todos
@@ -49542,6 +49564,12 @@ TAMT
 Their
 Temprana
 Transmission
+Terminolog
+Toolkit
+Tercer
+Testeo
+Temario
+Toolkits
 aprendizaje
 ala
 aspectos
@@ -53854,6 +53882,13 @@ adivinar
 autenticados
 antifalsificaci
 administrativas
+automatizar
+asisten
+apoyan
+asignarlas
+automatizaci
+acelera
+aceleradores
 una
 un
 unas
@@ -57537,6 +57572,7 @@ unauthorized
 unused
 underlined
 unencrypted
+utilidades
 base
 biol
 bienestar
@@ -61182,6 +61218,7 @@ bloqueo
 behave
 bypass
 borrado
+backends
 emocional
 emociones
 en
@@ -65492,6 +65529,8 @@ enrutamiento
 ejecutadas
 escapes
 enviadas
+eligen
+emulaci
 que
 quien
 quiere
@@ -76710,6 +76749,7 @@ placement
 pedido
 payloads
 pinning
+pilas
 clave
 coment
 capacidad
@@ -81414,6 +81454,8 @@ carritos
 credit
 cookie
 certificados
+creadores
+compuestas
 Nic
 Necesidades
 No
@@ -92841,6 +92883,10 @@ Automatizaci
 Attempts
 Argon
 Authenticity
+Aclarar
+Adoptada
+Adoptado
+Autocorregible
 importancia
 inteligencia
 intelectivos
@@ -97014,6 +97060,8 @@ inyecci
 incoherente
 images
 intercepta
+igualmente
+inferir
 formaci
 factores
 fortalezas
@@ -100703,6 +100751,8 @@ fuzzing
 familiares
 fluye
 falsifica
+fool
+facilitadoras
 Utiliza
 Una
 Uno
@@ -104339,6 +104389,7 @@ Utilizada
 Updating
 Ubicaci
 Utilizaci
+Unitario
 David
 Describe
 Developing
@@ -108093,6 +108144,10 @@ Dibuja
 DAO
 During
 Dread
+Diferenciar
+Definidas
+Depurar
+Distribuidas
 Wechsler
 Wayne
 WhatsApp
@@ -118872,6 +118927,7 @@ Maneja
 MITM
 Middle
 Module
+Middleware
 Gardner
 Goleman
 Generan
@@ -122197,6 +122253,8 @@ Getting
 Gener
 Genere
 Generation
+Grupal
+Gherkin
 Formula
 Feedback
 Francis
@@ -125714,6 +125772,7 @@ Fixation
 Falsificaci
 Forgery
 Force
+Fomentan
 otras
 of
 on
@@ -140426,6 +140485,7 @@ Reflejado
 Reflected
 Restriction
 Rate
+Resumido
 Bar
 Bisquerra
 Bajo
@@ -144000,6 +144060,7 @@ Boundaries
 Browser
 Bruta
 Brute
+Bloques
 Kama
 KPI
 Kurt
@@ -154450,6 +154511,7 @@ Ocurr
 Occur
 Order
 ORM
+Orientadas
 Vergüenza
 Valores
 Vision

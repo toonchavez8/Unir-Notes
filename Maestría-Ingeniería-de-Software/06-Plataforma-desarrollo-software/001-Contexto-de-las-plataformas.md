@@ -1,4 +1,4 @@
-# Notas De Estudio: Contexto De Las Plataformas De Desarrollo De Software
+# Notas De Estudio: Contexto De Las Plataformas De Desarrollogit De Software
 
 ---
 
