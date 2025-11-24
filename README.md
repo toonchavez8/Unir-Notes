@@ -95,7 +95,6 @@ Quiero que actúes como un asistente académico experto en la materia del transc
 10: No agregues Emojis, no es necesario mensionar el nombre del profesor
 
 11: Agrega addicionalmente un espacio para MicroTest que sea un H2 vacia
-12: si el transcript esta en ingles manten las notas en ingles
 
 
 El transcript es el siguiente:
@@ -107,13 +106,16 @@ El transcript es el siguiente:
 ```test
 Te voy a pasar un micro examen, quiero que solo respondas con la pregunta respuesta y la justifacion de porque. siguiendo el siguente formanto
 
+no incluyas divisdores de ---
+
 1.la pregunta
 	- La respuesta: 
 	- Justifacion:
 	  
 ```
 
-## Promopt for notes from educative
+## Promopt for Notes from Educative
+
 ```text
 You are an academic study-notes assistant. I will paste content (from Educative.io or similar) and you must return study notes in English. For each paragraph in the source:
 

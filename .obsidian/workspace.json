@@ -6,7 +6,7 @@
       {
         "id": "0179b793e727ab24",
         "type": "tabs",
-        "dimension": 38.8560157790927,
+        "dimension": 37.95379537953795,
         "children": [
           {
             "id": "58fc6fe77b3b26a4",
@@ -37,15 +37,15 @@
       {
         "id": "52695b751b6ac95b",
         "type": "tabs",
-        "dimension": 61.1439842209073,
+        "dimension": 62.04620462046204,
         "children": [
           {
-            "id": "dc76e87282ec9926",
+            "id": "798818d666e56256",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/007-Resumen-01.md",
+                "file": "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/012-Analisis-de-riesgo-arquitectonico.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -60,16 +60,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "007-Resumen-01"
+              "title": "012-Analisis-de-riesgo-arquitectonico"
             }
           },
           {
-            "id": "35b5563b1acddac2",
+            "id": "5ab83a309b5f413d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/008-Seguridad-en-el-ciclo-de-vida-software.md",
+                "file": "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/013-Patrones-de-diseno.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -84,16 +84,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "008-Seguridad-en-el-ciclo-de-vida-software"
+              "title": "013-Patrones-de-diseno"
             }
           },
           {
-            "id": "2203b05ed65cfe7e",
+            "id": "ec44ec233571fc7d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/009-Modelo-de-amenazas.md",
+                "file": "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Actividad-01/mexingsof07_act1.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -108,7 +108,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "009-Modelo-de-amenazas"
+              "title": "mexingsof07_act1"
             }
           }
         ],
@@ -281,15 +281,24 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "2203b05ed65cfe7e",
+  "active": "ec44ec233571fc7d",
   "lastOpenFiles": [
+    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Actividad-01/mexingsof07_act1.docx",
+    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/014-Resumen-2.md",
     "README.md",
+    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/013-Patrones-de-diseno.md",
+    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/012-Analisis-de-riesgo-arquitectonico.md",
+    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/attachments/Pasted image 20251121152222.png",
+    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/011-.md",
+    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/010-Attack-modeling.md",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/009-Modelo-de-amenazas.md",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/attachments/Pasted image 20251120150332.png",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/008-Seguridad-en-el-ciclo-de-vida-software.md",
+    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/007-Resumen-01.md",
+    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Actividad-01/mexingsof07_act1.md",
+    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-01/Actividad 1 - notas.md",
+    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/attachments/Pasted image 20251120150332.png",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/attachments/Pasted image 20251120144231.png",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/attachments",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/007-Resumen-01.md",
     "Educative-io/Java-Masterclass/011-Summery.md",
     "Educative-io/Java-Masterclass/010-Writing-Compiling-and-Running-Java Program.md",
     "Educative-io/Java-Masterclass/009-Apples-by-the-Box.md",
@@ -306,8 +315,6 @@
     "FrontEnd-Masters/01-Last-Algorithim/03-Arrays-data-structure.md",
     "FrontEnd-Masters/01-Last-Algorithim/attachments/Pasted image 20251118104558.png",
     "FrontEnd-Masters/01-Last-Algorithim/attachments",
-    "FrontEnd-Masters/01-Last-Algorithim/01-Introduction.md",
-    "StudyGuides/Git.md",
     "FrontEnd-Masters/01-Last-Algorithim",
     "FrontEnd-Masters",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Attachments/mexingsof07_act1 3.png",
@@ -320,13 +327,6 @@
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Actividad-02/mexingsof07_act2.docx",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Actividad-02",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Actividad-01/attachments/Pasted image 20251118065735.png",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Actividad-01/attachments/Pasted image 20251118065723.png",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Actividad-01/mexingsof07_act1.md",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Actividad-01/mexingsof07_act1.docx",
-    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-01/mexissi05_act1.md.md",
-    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-01/mexissi05_act1.md",
-    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-01/Attachments/Pasted image 20251117164449.png",
-    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-01/Actividad-1-Miguel-Chavez.md",
-    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-01/Actividad 1 - notas.md"
+    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Actividad-01/attachments/Pasted image 20251118065723.png"
   ]
 }

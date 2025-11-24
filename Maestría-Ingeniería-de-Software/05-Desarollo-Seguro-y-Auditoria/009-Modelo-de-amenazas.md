@@ -576,3 +576,43 @@ When new assets or flows emerge (e.g., bad account list), the DFD must be update
 ---
 
 ## MicroTest
+
+## 1. Señala la Respuesta Incorrecta. Los Casos De Abuso
+
+- **La respuesta:** A
+    
+- **Justificación:**  
+    La opción A describe **buenas prácticas para obtener requisitos funcionales**, pero los casos de abuso **no se utilizan** para requisitos funcionales positivos.  
+    Su propósito es identificar **acciones que el sistema NO debe permitir**, amenazas y comportamientos maliciosos. Las demás opciones describen correctamente la naturaleza y utilidad de los casos de abuso.
+
+---
+
+## 2. Indicar Diferencias Entre Los Casos De Uso De Seguridad Y Los Casos De Abuso
+
+- **La respuesta:** A
+    
+- **Justificación:**  
+    La opción A es la única que establece correctamente la diferencia clave:
+    
+    - El **caso de abuso** identifica y describe **amenazas o comportamientos maliciosos**.
+        
+    - El **caso de uso de seguridad** especifica **requisitos de seguridad** que deben implementarse para mitigar dichas amenazas.  
+        Las demás opciones son incorrectas:
+        
+    - B: el éxito del atacante **no** es el criterio de éxito del caso de uso de seguridad.
+        
+    - C: está formulada de forma incoherente (se refiere a "casos de abuso de seguridad").
+        
+    - D: ambos tipos pueden set usados por equipos de seguridad _y_ desarrollo, por lo que no establece diferencias.
+
+---
+
+## 3. Señalar la Respuesta Incorrecta. Los Casos De Abuso Permiten Comprender Mejor Las Áreas De Riesgo Del Sistema Mediante
+
+- **La respuesta:** B
+    
+- **Justificación:**  
+    La opción B es incorrecta porque los casos de abuso **no buscan identificar puntos “no susceptibles” de set atacados**, sino todo lo contrario: descubren **puntos vulnerables**, amenazas y escenarios negativos.  
+    Las demás opciones sí describen beneficios reales del uso de casos de abuso en seguridad.
+
+https://ieeexplore.ieee.org/document/1306981
