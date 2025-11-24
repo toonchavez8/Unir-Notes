@@ -86,9 +86,33 @@
               "icon": "lucide-file",
               "title": "001-Contexto-de-las-plataformas"
             }
+          },
+          {
+            "id": "451e53aad850b185",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -256,14 +280,15 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "5ab83a309b5f413d",
+  "active": "451e53aad850b185",
   "lastOpenFiles": [
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/001-Contexto-de-las-plataformas.md",
+    "conflict-files-obsidian-git.md",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/002-Valor-utilidad-plataformas.md",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/000-Presentacion.md",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Untitled.md",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/001-Contexto-de-las-plataformas.md",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/013-Patrones-de-diseno.md",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Actividad-01/mexingsof07_act1.md",
-    "conflict-files-obsidian-git.md",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Books/Plataforma de Desarrollo de Software.pdf",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Books",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Agenda/Copia de Plataforma de Desarrollo de Software MODAM(31755).pdf",
@@ -293,7 +318,6 @@
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/006-Estandares-de-seguridad-de-software.md",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/005-Tipos-s-SDLC.md",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/004-Principios-del-diseno-seguridad.md",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/003-Propiedades-del-Software-Seguro.md",
     "FrontEnd-Masters/01-Last-Algorithim/attachments/Pasted image 20251118104558.png",
     "FrontEnd-Masters/01-Last-Algorithim/attachments",
     "FrontEnd-Masters/01-Last-Algorithim",
