@@ -1,6 +1,7 @@
 {
   "pathToPandoc": "C:\\Program Files\\Pandoc\\pandoc.EXE",
   "tooltipDelay": 400,
+<<<<<<< HEAD
   "zoteroGroups": [
     {
       "id": 1,
@@ -8,13 +9,10 @@
       "lastUpdate": 1763999781259
     }
   ],
+=======
+  "zoteroGroups": [],
+>>>>>>> origin/main
   "renderCitations": true,
   "renderCitationsReadingMode": true,
-  "renderLinkCitations": true,
-  "cslStylePath": "",
-  "cslLang": "es-MX",
-  "enableCiteKeyCompletion": true,
-  "cslStyleURL": "https://raw.githubusercontent.com/citation-style-language/styles/master/apa.csl",
-  "pullFromZotero": true,
-  "showCitekeyTooltips": true
+  "renderLinkCitations": true
 }
