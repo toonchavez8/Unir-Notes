@@ -71,7 +71,6 @@ Este repositorio está diseñado para usarse con [Obsidian](https://obsidian.md)
 **
 ```
 
-
 ## Prompt for MicroTest
 
 ```test
@@ -84,8 +83,6 @@ no incluyas divisdores de ---
 	- Justifacion:
 	  
 ```
-
-
 
 ```text
 Quiero que actúes como un asistente académico experto en la materia del transcript que te voy a pasar. Tu tarea es tomar este transcript y generar **notas de estudio**, siguiendo estas indicaciones:
@@ -112,7 +109,7 @@ Quiero que actúes como un asistente académico experto en la materia del transc
 
 11: Agrega addicionalmente un espacio para MicroTest que sea un H2 vacia
 
-
+if the transcript is in English then create the notes in english
 El transcript es el siguiente:
 
 ```

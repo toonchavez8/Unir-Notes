@@ -6,15 +6,15 @@
       {
         "id": "c7b2f1ee6dffc64b",
         "type": "tabs",
-        "dimension": 66.19822485207101,
+        "dimension": 60.07194244604317,
         "children": [
           {
-            "id": "43e48d5bd6c2671e",
+            "id": "072d1b294593f2d3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/003-Control-de-versiones.md",
+                "file": "FrontEnd-Masters/03-intro-node-v3/12-Async-code.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -29,163 +29,18 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "003-Control-de-versiones"
-            }
-          },
-          {
-            "id": "8609705c98fdb547",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/004-Resumen-1.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "004-Resumen-1"
-            }
-          },
-          {
-            "id": "971f40c794eed540",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/005-Contexto-de-las-plataformas.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "005-Contexto-de-las-plataformas"
-            }
-          },
-          {
-            "id": "f7604164cda2a37f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/006-Valor-utiliad-de-requisitos.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "006-Valor-utiliad-de-requisitos"
-            }
-          },
-          {
-            "id": "b7feb84a60119d6a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/007-Principales-Plataformas-de-Requisitos.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "007-Principales-Plataformas-de-Requisitos"
-            }
-          },
-          {
-            "id": "d3bcd1fc006c4036",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/008-Plataformas-para-hitorias-usuarios.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "008-Plataformas-para-hitorias-usuarios"
-            }
-          },
-          {
-            "id": "cc943df6f018e150",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/009-Resumen-02.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "009-Resumen-02"
+              "title": "12-Async-code"
             }
           }
-        ],
-        "currentTab": 6
+        ]
       },
       {
-        "id": "0179b793e727ab24",
+        "id": "dc723a9f7a475857",
         "type": "tabs",
-        "dimension": 33.80177514792899,
+        "dimension": 39.92805755395683,
         "children": [
           {
-            "id": "58fc6fe77b3b26a4",
+            "id": "736d0613ff68c611",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -265,8 +120,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240.5,
-    "collapsed": true
+    "width": 240.5
   },
   "right": {
     "id": "a25b807ad639ff42",
@@ -377,53 +231,53 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "cc943df6f018e150",
+  "active": "072d1b294593f2d3",
   "lastOpenFiles": [
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/008-Plataformas-para-hitorias-usuarios.md",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/009-Resumen-02.md",
+    "FrontEnd-Masters/03-intro-node-v3/11-Notes-app-commands.md",
+    "FrontEnd-Masters/03-intro-node-v3/10-yargs-module.md",
+    "FrontEnd-Masters/03-intro-node-v3/09-Internal-3rd-party-modules.md",
+    "FrontEnd-Masters/03-intro-node-v3/08-Thinking-in-modules.md",
+    "FrontEnd-Masters/03-intro-node-v3/07-importing-modules.md",
+    "FrontEnd-Masters/03-intro-node-v3/06-Modules-overview.md",
+    "FrontEnd-Masters/03-intro-node-v3/05-processing-cli-arguments.md",
+    "FrontEnd-Masters/03-intro-node-v3/04-Custom-cli-setup.md",
+    "FrontEnd-Masters/03-intro-node-v3/03-Cli-note-taking-app-start.md",
+    "FrontEnd-Masters/03-intro-node-v3/02-Browser-vs-Node.md",
+    "FrontEnd-Masters/03-intro-node-v3/01-Non-blocking-IO.md",
+    "Educative-io/Java-Masterclass/012-Arithmec.md",
+    "Educative-io/Java-Masterclass/011-Summery.md",
+    "FrontEnd-Masters/03-intro-node-v3/12-Async-code.md",
     "README.md",
+    "FrontEnd-Masters/03-intro-node-v3",
+    "Educative-io/Java-Masterclass/005-Data-types.md",
+    "Educative-io/Java-Masterclass/007-Constants.md",
+    "Educative-io/Java-Masterclass/008-Simple-input-from-keyboard.md",
+    "Educative-io/Java-Masterclass/009-Apples-by-the-Box.md",
+    "Educative-io/Java-Masterclass/010-Writing-Compiling-and-Running-Java Program.md",
+    "FrontEnd-Masters/02-Complete-intro-CompSci/002-Big-O-And-Algorithmic-Efficiencycod e.md",
+    "FrontEnd-Masters/02-Complete-intro-CompSci/001-Codesandbox.md",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/009-Resumen-02.md",
+    "FrontEnd-Masters/02-Complete-intro-CompSci",
+    "FrontEnd-Masters/Untitled.md",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/008-Plataformas-para-hitorias-usuarios.md",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/007-Principales-Plataformas-de-Requisitos.md",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/006-Valor-utiliad-de-requisitos.md",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/005-Contexto-de-las-plataformas.md",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/004-Resumen-1.md",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/003-Control-de-versiones.md",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/002-Valor-utilidad-plataformas.md",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/001-Contexto-de-las-plataformas.md",
-    "conflict-files-obsidian-git.md",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/000-Presentacion.md",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/013-Patrones-de-diseno.md",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Actividad-01/mexingsof07_act1.md",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Books/Plataforma de Desarrollo de Software.pdf",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Books",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Agenda/Copia de Plataforma de Desarrollo de Software MODAM(31755).pdf",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Agenda",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Actividad-01/attachments/dfd_diagram.png",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Actividad-01/mexingsof07_act1.docx",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/014-Resumen-2.md",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/012-Analisis-de-riesgo-arquitectonico.md",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/attachments/Pasted image 20251121152222.png",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/011-.md",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/010-Attack-modeling.md",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/009-Modelo-de-amenazas.md",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/008-Seguridad-en-el-ciclo-de-vida-software.md",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/007-Resumen-01.md",
-    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-01/Actividad 1 - notas.md",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/attachments/Pasted image 20251120150332.png",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/attachments/Pasted image 20251120144231.png",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/attachments",
-    "Educative-io/Java-Masterclass/011-Summery.md",
-    "Educative-io/Java-Masterclass/010-Writing-Compiling-and-Running-Java Program.md",
-    "Educative-io/Java-Masterclass/009-Apples-by-the-Box.md",
-    "Educative-io/Java-Masterclass/008-Simple-input-from-keyboard.md",
     "FrontEnd-Masters/01-Last-Algorithim/attachments/Pasted image 20251118104558.png",
     "FrontEnd-Masters/01-Last-Algorithim/attachments",
     "FrontEnd-Masters/01-Last-Algorithim",
-    "FrontEnd-Masters",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Attachments/mexingsof07_act1 3.png",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Attachments/mexingsof07_act1.png",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Attachments/mexingsof07_act1 2.png",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Attachments/mexingsof07_act1 1.png",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Attachments",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Actividad-01/attachments/Pasted image 20251118065735.png"
   ]
 }

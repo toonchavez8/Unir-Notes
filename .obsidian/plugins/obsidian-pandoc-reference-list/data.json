@@ -1,17 +1,7 @@
 {
   "pathToPandoc": "C:\\Program Files\\Pandoc\\pandoc.EXE",
   "tooltipDelay": 400,
-<<<<<<< HEAD
-  "zoteroGroups": [
-    {
-      "id": 1,
-      "name": "My Library",
-      "lastUpdate": 1763999781259
-    }
-  ],
-=======
   "zoteroGroups": [],
->>>>>>> origin/main
   "renderCitations": true,
   "renderCitationsReadingMode": true,
   "renderLinkCitations": true
