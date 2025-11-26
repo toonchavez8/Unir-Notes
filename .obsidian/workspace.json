@@ -31,8 +31,153 @@
               "icon": "lucide-file",
               "title": "12-Async-code"
             }
+          },
+          {
+            "id": "3ad9638f68d07ad2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "FrontEnd-Masters/03-intro-node-v3/13-fs-module.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "13-fs-module"
+            }
+          },
+          {
+            "id": "d8e5a51d57ad0ee8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "FrontEnd-Masters/03-intro-node-v3/14-File-sistem-as-db.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "14-File-sistem-as-db"
+            }
+          },
+          {
+            "id": "7e73eec0b3b9900e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "FrontEnd-Masters/03-intro-node-v3/15-Crud-methods.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "15-Crud-methods"
+            }
+          },
+          {
+            "id": "aaaf6f6559ce9688",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "FrontEnd-Masters/03-intro-node-v3/16-Crup-filtering-removing.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "16-Crup-filtering-removing"
+            }
+          },
+          {
+            "id": "21dee26cf2c32709",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "FrontEnd-Masters/03-intro-node-v3/17-updating-cli-cmds.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "17-updating-cli-cmds"
+            }
+          },
+          {
+            "id": "6c9d12c8052c7203",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "FrontEnd-Masters/03-intro-node-v3/18-Software-testing-concept.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "18-Software-testing-concept"
+            }
           }
-        ]
+        ],
+        "currentTab": 6
       },
       {
         "id": "dc723a9f7a475857",
@@ -231,8 +376,16 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "072d1b294593f2d3",
+  "active": "6c9d12c8052c7203",
   "lastOpenFiles": [
+    "FrontEnd-Masters/03-intro-node-v3/17-updating-cli-cmds.md",
+    "FrontEnd-Masters/03-intro-node-v3/18-Software-testing-concept.md",
+    "README.md",
+    "FrontEnd-Masters/03-intro-node-v3/16-Crup-filtering-removing.md",
+    "FrontEnd-Masters/03-intro-node-v3/15-Crud-methods.md",
+    "FrontEnd-Masters/03-intro-node-v3/14-File-sistem-as-db.md",
+    "FrontEnd-Masters/03-intro-node-v3/13-fs-module.md",
+    "FrontEnd-Masters/03-intro-node-v3/12-Async-code.md",
     "FrontEnd-Masters/03-intro-node-v3/11-Notes-app-commands.md",
     "FrontEnd-Masters/03-intro-node-v3/10-yargs-module.md",
     "FrontEnd-Masters/03-intro-node-v3/09-Internal-3rd-party-modules.md",
@@ -246,21 +399,13 @@
     "FrontEnd-Masters/03-intro-node-v3/01-Non-blocking-IO.md",
     "Educative-io/Java-Masterclass/012-Arithmec.md",
     "Educative-io/Java-Masterclass/011-Summery.md",
-    "FrontEnd-Masters/03-intro-node-v3/12-Async-code.md",
-    "README.md",
     "FrontEnd-Masters/03-intro-node-v3",
     "Educative-io/Java-Masterclass/005-Data-types.md",
     "Educative-io/Java-Masterclass/007-Constants.md",
     "Educative-io/Java-Masterclass/008-Simple-input-from-keyboard.md",
     "Educative-io/Java-Masterclass/009-Apples-by-the-Box.md",
     "Educative-io/Java-Masterclass/010-Writing-Compiling-and-Running-Java Program.md",
-    "FrontEnd-Masters/02-Complete-intro-CompSci/002-Big-O-And-Algorithmic-Efficiencycod e.md",
-    "FrontEnd-Masters/02-Complete-intro-CompSci/001-Codesandbox.md",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/009-Resumen-02.md",
     "FrontEnd-Masters/02-Complete-intro-CompSci",
-    "FrontEnd-Masters/Untitled.md",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/008-Plataformas-para-hitorias-usuarios.md",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/007-Principales-Plataformas-de-Requisitos.md",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Books/Plataforma de Desarrollo de Software.pdf",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Books",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Agenda/Copia de Plataforma de Desarrollo de Software MODAM(31755).pdf",
