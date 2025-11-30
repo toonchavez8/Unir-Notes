@@ -91,9 +91,33 @@
               "icon": "lucide-book-up",
               "title": "Release Notes 1.10.6"
             }
+          },
+          {
+            "id": "df535712964a7b03",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       },
       {
         "id": "cd8d29b2279acbbb",
@@ -292,52 +316,53 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "1cea85b3ebd2b12b",
+  "active": "df535712964a7b03",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "FrontEnd-Masters/03-intro-node-v3/18-Software-testing-concept.md",
+    "FrontEnd-Masters/03-intro-node-v3/16-Crup-filtering-removing.md",
+    "FrontEnd-Masters/03-intro-node-v3/17-updating-cli-cmds.md",
+    "FrontEnd-Masters/03-intro-node-v3/15-Crud-methods.md",
+    "FrontEnd-Masters/03-intro-node-v3/14-File-sistem-as-db.md",
+    "FrontEnd-Masters/03-intro-node-v3/13-fs-module.md",
+    "FrontEnd-Masters/03-intro-node-v3/12-Async-code.md",
+    "FrontEnd-Masters/03-intro-node-v3/09-Internal-3rd-party-modules.md",
+    "FrontEnd-Masters/03-intro-node-v3/10-yargs-module.md",
+    "FrontEnd-Masters/03-intro-node-v3/11-Notes-app-commands.md",
+    "FrontEnd-Masters/03-intro-node-v3/05-processing-cli-arguments.md",
+    "FrontEnd-Masters/03-intro-node-v3/08-Thinking-in-modules.md",
+    "FrontEnd-Masters/03-intro-node-v3/07-importing-modules.md",
+    "FrontEnd-Masters/03-intro-node-v3/03-Cli-note-taking-app-start.md",
+    "FrontEnd-Masters/03-intro-node-v3/06-Modules-overview.md",
+    "FrontEnd-Masters/03-intro-node-v3/02-Browser-vs-Node.md",
+    "FrontEnd-Masters/03-intro-node-v3/04-Custom-cli-setup.md",
+    "FrontEnd-Masters/03-intro-node-v3/01-Non-blocking-IO.md",
+    "FrontEnd-Masters/03-intro-node-v3",
+    "FrontEnd-Masters/02-Complete-intro-CompSci/002-Big-O-And-Algorithmic-Efficiencycod e.md",
+    "FrontEnd-Masters/02-Complete-intro-CompSci/001-Codesandbox.md",
+    "FrontEnd-Masters/02-Complete-intro-CompSci",
+    "Educative-io/Java-Masterclass/012-Arithmec.md",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Actividad-01/mexingsof07_act1.docx",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/002-Valor-utilidad-plataformas.md",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/009-Resumen-02.md",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/008-Plataformas-para-hitorias-usuarios.md",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/007-Principales-Plataformas-de-Requisitos.md",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/006-Valor-utiliad-de-requisitos.md",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/005-Contexto-de-las-plataformas.md",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/004-Resumen-1.md",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/003-Control-de-versiones.md",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/attachments/Pasted image 20251121152222.png",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/014-Resumen-2.md",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/013-Patrones-de-diseno.md",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/012-Analisis-de-riesgo-arquitectonico.md",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/011-.md",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/010-Attack-modeling.md",
-    "README.md",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/001-Contexto-de-las-plataformas.md",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/000-Presentacion.md",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Agenda/Copia de Plataforma de Desarrollo de Software MODAM(31755).pdf",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Agenda",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Books/Plataforma de Desarrollo de Software.pdf",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Books/Unconfirmed 614230.crdownload",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Books",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Actividad-01/mexingsof07_act1.md",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Actividad-01/attachments/dfd_diagram.png",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Attachments/mexingsof07_act1 1.png",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Attachments/mexingsof07_act1.png",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Actividad-01/attachments/Pasted image 20251118065735.png",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Actividad-01/attachments/Pasted image 20251118065723.png",
-    "conflict-files-obsidian-git.md",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/attachments/Pasted image 20251120150332.png",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/attachments/Pasted image 20251120144231.png",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/attachments",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Untitled.md",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/009-Modelo-de-amenazas.md",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/008-Seguridad-en-el-ciclo-de-vida-software.md",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/007-Resumen-01.md",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/006-Estandares-de-seguridad-de-software.md",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/005-Tipos-s-SDLC.md",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/004-Principios-del-diseno-seguridad.md",
     "FrontEnd-Masters/01-Last-Algorithim/attachments/Pasted image 20251118104558.png",
     "FrontEnd-Masters/01-Last-Algorithim/attachments",
-    "FrontEnd-Masters/01-Last-Algorithim",
-    "FrontEnd-Masters",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-01/Attachments/Pasted image 20251117164449.png"
   ]
 }
