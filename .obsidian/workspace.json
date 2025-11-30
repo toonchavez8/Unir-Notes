@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "c7b2f1ee6dffc64b",
+        "id": "230322f7e9de7c1b",
         "type": "tabs",
-        "dimension": 66.19822485207101,
+        "dimension": 75.98540145985402,
         "children": [
           {
-            "id": "43e48d5bd6c2671e",
+            "id": "084b298275e8377f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/003-Control-de-versiones.md",
+                "file": "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/000-Presentacion.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -29,16 +29,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "003-Control-de-versiones"
+              "title": "000-Presentacion"
             }
           },
           {
-            "id": "8609705c98fdb547",
+            "id": "e09f58ed03700f22",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/004-Resumen-1.md",
+                "file": "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/001-Contexto-de-las-plataformas.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -53,16 +53,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "004-Resumen-1"
+              "title": "001-Contexto-de-las-plataformas"
             }
           },
           {
-            "id": "971f40c794eed540",
+            "id": "9240d190e81881da",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/005-Contexto-de-las-plataformas.md",
+                "file": "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Actividad-01/mexingsof07_act1.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -77,115 +77,31 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "005-Contexto-de-las-plataformas"
+              "title": "mexingsof07_act1"
             }
           },
           {
-            "id": "f7604164cda2a37f",
+            "id": "1cea85b3ebd2b12b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "release-notes",
               "state": {
-                "file": "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/006-Valor-utiliad-de-requisitos.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "currentVersion": "1.10.6"
               },
-              "icon": "lucide-file",
-              "title": "006-Valor-utiliad-de-requisitos"
-            }
-          },
-          {
-            "id": "b7feb84a60119d6a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/007-Principales-Plataformas-de-Requisitos.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "007-Principales-Plataformas-de-Requisitos"
-            }
-          },
-          {
-            "id": "d3bcd1fc006c4036",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/008-Plataformas-para-hitorias-usuarios.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "008-Plataformas-para-hitorias-usuarios"
-            }
-          },
-          {
-            "id": "cc943df6f018e150",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/009-Resumen-02.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "009-Resumen-02"
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.10.6"
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 3
       },
       {
-        "id": "0179b793e727ab24",
+        "id": "cd8d29b2279acbbb",
         "type": "tabs",
-        "dimension": 33.80177514792899,
+        "dimension": 24.014598540145986,
         "children": [
           {
-            "id": "58fc6fe77b3b26a4",
+            "id": "5a8acfa5aea29e57",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -240,11 +156,11 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "Microtest",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
-                "extraContext": false,
+                "extraContext": true,
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
@@ -265,8 +181,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240.5,
-    "collapsed": true
+    "width": 378.5
   },
   "right": {
     "id": "a25b807ad639ff42",
@@ -328,23 +243,23 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Actividad_02/mexissi01_act2.docx",
+                "file": "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/016-Alcance-proceso de gestion.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of mexissi01_act2"
+              "title": "Outline of 016-Alcance-proceso de gestion"
             }
           },
           {
-            "id": "488ed5c54d6f83e9",
+            "id": "40fa87d1b8198c6a",
             "type": "leaf",
             "state": {
-              "type": "git-view",
+              "type": "mermaid-toolbar-view",
               "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "icon": "trident-custom",
+              "title": "Mermaid Toolbar"
             }
           }
         ],
@@ -377,53 +292,52 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "cc943df6f018e150",
+  "active": "1cea85b3ebd2b12b",
   "lastOpenFiles": [
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/008-Plataformas-para-hitorias-usuarios.md",
+    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Actividad-01/mexingsof07_act1.docx",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/002-Valor-utilidad-plataformas.md",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/009-Resumen-02.md",
-    "README.md",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/008-Plataformas-para-hitorias-usuarios.md",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/007-Principales-Plataformas-de-Requisitos.md",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/006-Valor-utiliad-de-requisitos.md",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/005-Contexto-de-las-plataformas.md",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/004-Resumen-1.md",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/003-Control-de-versiones.md",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/002-Valor-utilidad-plataformas.md",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/001-Contexto-de-las-plataformas.md",
-    "conflict-files-obsidian-git.md",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/000-Presentacion.md",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/013-Patrones-de-diseno.md",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Actividad-01/mexingsof07_act1.md",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Books/Plataforma de Desarrollo de Software.pdf",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Books",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Agenda/Copia de Plataforma de Desarrollo de Software MODAM(31755).pdf",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Agenda",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Actividad-01/attachments/dfd_diagram.png",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Actividad-01/mexingsof07_act1.docx",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/014-Resumen-2.md",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/012-Analisis-de-riesgo-arquitectonico.md",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/attachments/Pasted image 20251121152222.png",
+    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/014-Resumen-2.md",
+    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/013-Patrones-de-diseno.md",
+    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/012-Analisis-de-riesgo-arquitectonico.md",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/011-.md",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/010-Attack-modeling.md",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/009-Modelo-de-amenazas.md",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/008-Seguridad-en-el-ciclo-de-vida-software.md",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/007-Resumen-01.md",
-    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-01/Actividad 1 - notas.md",
+    "README.md",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/001-Contexto-de-las-plataformas.md",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/000-Presentacion.md",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Agenda/Copia de Plataforma de Desarrollo de Software MODAM(31755).pdf",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Agenda",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Books/Plataforma de Desarrollo de Software.pdf",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Books/Unconfirmed 614230.crdownload",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Books",
+    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Actividad-01/mexingsof07_act1.md",
+    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Actividad-01/attachments/dfd_diagram.png",
+    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Attachments/mexingsof07_act1 1.png",
+    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Attachments/mexingsof07_act1.png",
+    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Actividad-01/attachments/Pasted image 20251118065735.png",
+    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Actividad-01/attachments/Pasted image 20251118065723.png",
+    "conflict-files-obsidian-git.md",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/attachments/Pasted image 20251120150332.png",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/attachments/Pasted image 20251120144231.png",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/attachments",
-    "Educative-io/Java-Masterclass/011-Summery.md",
-    "Educative-io/Java-Masterclass/010-Writing-Compiling-and-Running-Java Program.md",
-    "Educative-io/Java-Masterclass/009-Apples-by-the-Box.md",
-    "Educative-io/Java-Masterclass/008-Simple-input-from-keyboard.md",
+    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Untitled.md",
+    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/009-Modelo-de-amenazas.md",
+    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/008-Seguridad-en-el-ciclo-de-vida-software.md",
+    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/007-Resumen-01.md",
+    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/006-Estandares-de-seguridad-de-software.md",
+    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/005-Tipos-s-SDLC.md",
+    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/004-Principios-del-diseno-seguridad.md",
     "FrontEnd-Masters/01-Last-Algorithim/attachments/Pasted image 20251118104558.png",
     "FrontEnd-Masters/01-Last-Algorithim/attachments",
     "FrontEnd-Masters/01-Last-Algorithim",
     "FrontEnd-Masters",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Attachments/mexingsof07_act1 3.png",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Attachments/mexingsof07_act1.png",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Attachments/mexingsof07_act1 2.png",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Attachments/mexingsof07_act1 1.png",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Attachments",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Actividad-01/attachments/Pasted image 20251118065735.png"
+    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-01/Attachments/Pasted image 20251117164449.png"
   ]
 }
