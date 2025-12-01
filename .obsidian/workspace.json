@@ -9,150 +9,6 @@
         "dimension": 60.07194244604317,
         "children": [
           {
-            "id": "072d1b294593f2d3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "FrontEnd-Masters/03-intro-node-v3/12-Async-code.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "12-Async-code"
-            }
-          },
-          {
-            "id": "3ad9638f68d07ad2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "FrontEnd-Masters/03-intro-node-v3/13-fs-module.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "13-fs-module"
-            }
-          },
-          {
-            "id": "d8e5a51d57ad0ee8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "FrontEnd-Masters/03-intro-node-v3/14-File-sistem-as-db.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "14-File-sistem-as-db"
-            }
-          },
-          {
-            "id": "7e73eec0b3b9900e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "FrontEnd-Masters/03-intro-node-v3/15-Crud-methods.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "15-Crud-methods"
-            }
-          },
-          {
-            "id": "aaaf6f6559ce9688",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "FrontEnd-Masters/03-intro-node-v3/16-Crup-filtering-removing.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "16-Crup-filtering-removing"
-            }
-          },
-          {
-            "id": "21dee26cf2c32709",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "FrontEnd-Masters/03-intro-node-v3/17-updating-cli-cmds.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "17-updating-cli-cmds"
-            }
-          },
-          {
             "id": "6c9d12c8052c7203",
             "type": "leaf",
             "state": {
@@ -175,9 +31,177 @@
               "icon": "lucide-file",
               "title": "18-Software-testing-concept"
             }
+          },
+          {
+            "id": "38deab6e1982f60c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "FrontEnd-Masters/03-intro-node-v3/19-Unit-testing-with-jest.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "19-Unit-testing-with-jest"
+            }
+          },
+          {
+            "id": "520937a91f9e749a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "FrontEnd-Masters/03-intro-node-v3/20-Testing-with-mocks.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "20-Testing-with-mocks"
+            }
+          },
+          {
+            "id": "bfc702017a425e9c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "FrontEnd-Masters/03-intro-node-v3/21-testring-aditional-funcs.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "21-testring-aditional-funcs"
+            }
+          },
+          {
+            "id": "0cb3c4a96c135357",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "FrontEnd-Masters/03-intro-node-v3/22-intro-to-servers-in-node.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "22-intro-to-servers-in-node"
+            }
+          },
+          {
+            "id": "32c98a6c5324de63",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "FrontEnd-Masters/03-intro-node-v3/23-Interpolating-data-formating-notes.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "23-Interpolating-data-formating-notes"
+            }
+          },
+          {
+            "id": "20c4fa9bf46d38ab",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "FrontEnd-Masters/03-intro-node-v3/24-Http-server-rendering.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "24-Http-server-rendering"
+            }
+          },
+          {
+            "id": "37e1c30b8037242e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "FrontEnd-Masters/03-intro-node-v3/25-wraping-up.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "25-wraping-up"
+            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       },
       {
         "id": "dc723a9f7a475857",
@@ -376,15 +400,24 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "6c9d12c8052c7203",
+  "active": "37e1c30b8037242e",
   "lastOpenFiles": [
-    "FrontEnd-Masters/03-intro-node-v3/17-updating-cli-cmds.md",
-    "FrontEnd-Masters/03-intro-node-v3/18-Software-testing-concept.md",
+    "FrontEnd-Masters/03-intro-node-v3/24-Http-server-rendering.md",
+    "FrontEnd-Masters/03-intro-node-v3/25-wraping-up.md",
     "README.md",
+    "FrontEnd-Masters/03-intro-node-v3/23-Interpolating-data-formating-notes.md",
+    "FrontEnd-Masters/03-intro-node-v3/22-intro-to-servers-in-node.md",
+    "FrontEnd-Masters/03-intro-node-v3/21-testring-aditional-funcs.md",
+    "FrontEnd-Masters/03-intro-node-v3/20-Testing-with-mocks.md",
+    "FrontEnd-Masters/03-intro-node-v3/19-Unit-testing-with-jest.md",
+    "FrontEnd-Masters/03-intro-node-v3/18-Software-testing-concept.md",
+    "Educative-io/Java-Masterclass/012-Arithmec-Operators.md",
+    "FrontEnd-Masters/03-intro-node-v3/17-updating-cli-cmds.md",
     "FrontEnd-Masters/03-intro-node-v3/16-Crup-filtering-removing.md",
     "FrontEnd-Masters/03-intro-node-v3/15-Crud-methods.md",
     "FrontEnd-Masters/03-intro-node-v3/14-File-sistem-as-db.md",
     "FrontEnd-Masters/03-intro-node-v3/13-fs-module.md",
+    "Educative-io/Java-Masterclass/011-Summery.md",
     "FrontEnd-Masters/03-intro-node-v3/12-Async-code.md",
     "FrontEnd-Masters/03-intro-node-v3/11-Notes-app-commands.md",
     "FrontEnd-Masters/03-intro-node-v3/10-yargs-module.md",
@@ -395,16 +428,7 @@
     "FrontEnd-Masters/03-intro-node-v3/05-processing-cli-arguments.md",
     "FrontEnd-Masters/03-intro-node-v3/04-Custom-cli-setup.md",
     "FrontEnd-Masters/03-intro-node-v3/03-Cli-note-taking-app-start.md",
-    "FrontEnd-Masters/03-intro-node-v3/02-Browser-vs-Node.md",
-    "FrontEnd-Masters/03-intro-node-v3/01-Non-blocking-IO.md",
-    "Educative-io/Java-Masterclass/012-Arithmec.md",
-    "Educative-io/Java-Masterclass/011-Summery.md",
     "FrontEnd-Masters/03-intro-node-v3",
-    "Educative-io/Java-Masterclass/005-Data-types.md",
-    "Educative-io/Java-Masterclass/007-Constants.md",
-    "Educative-io/Java-Masterclass/008-Simple-input-from-keyboard.md",
-    "Educative-io/Java-Masterclass/009-Apples-by-the-Box.md",
-    "Educative-io/Java-Masterclass/010-Writing-Compiling-and-Running-Java Program.md",
     "FrontEnd-Masters/02-Complete-intro-CompSci",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Books/Plataforma de Desarrollo de Software.pdf",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Books",
