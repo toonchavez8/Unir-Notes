@@ -159,6 +159,8 @@ export async function runAgent(
 }
 ```
 
+![[Pasted image 20251202124103.png]]
+
 ## Key Points
 
 1. **Tools are declarative** - You describe what they do, the model decides when to use them
