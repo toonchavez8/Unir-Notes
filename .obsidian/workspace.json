@@ -91,9 +91,33 @@
               "icon": "lucide-book-up",
               "title": "Release Notes 1.10.6"
             }
+          },
+          {
+            "id": "97edd051ce580413",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       },
       {
         "id": "cd8d29b2279acbbb",
@@ -292,37 +316,39 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "1cea85b3ebd2b12b",
+  "active": "97edd051ce580413",
   "lastOpenFiles": [
     "conflict-files-obsidian-git.md",
+    "FrontEnd-Masters/04-Build-Ai-agent/attachments/Pasted image 20251202124103.png",
+    "FrontEnd-Masters/04-Build-Ai-agent/course.md",
+    "FrontEnd-Masters/04-Build-Ai-agent/attachments",
+    "FrontEnd-Masters/04-Build-Ai-agent/09-HITL.md",
+    "FrontEnd-Masters/04-Build-Ai-agent/08-Shell-Tool.md",
+    "FrontEnd-Masters/04-Build-Ai-agent/07-Web-Search-Context-Management.md",
+    "FrontEnd-Masters/04-Build-Ai-agent/06-File-System-Tools.md",
+    "FrontEnd-Masters/04-Build-Ai-agent/05-Multi-turn-Evals.md",
+    "FrontEnd-Masters/04-Build-Ai-agent/04-The-Agent-Loop.md",
+    "FrontEnd-Masters/04-Build-Ai-agent/03-Single-Turn-Evals.md",
+    "FrontEnd-Masters/04-Build-Ai-agent/02-Tool-Calling.md",
+    "FrontEnd-Masters/04-Build-Ai-agent/01-Intro-to-Agents.md",
+    "FrontEnd-Masters/04-Build-Ai-agent",
+    "FrontEnd-Masters/03-intro-node-v3/Untitled.md",
+    "FrontEnd-Masters/03-intro-node-v3/25-wraping-up.md",
+    "FrontEnd-Masters/03-intro-node-v3/24-Http-server-rendering.md",
+    "FrontEnd-Masters/03-intro-node-v3/23-Interpolating-data-formating-notes.md",
+    "FrontEnd-Masters/03-intro-node-v3/22-intro-to-servers-in-node.md",
+    "FrontEnd-Masters/03-intro-node-v3/21-testring-aditional-funcs.md",
+    "FrontEnd-Masters/03-intro-node-v3/20-Testing-with-mocks.md",
+    "FrontEnd-Masters/03-intro-node-v3/19-Unit-testing-with-jest.md",
+    "Educative-io/Java-Masterclass/012-Arithmec-Operators.md",
     "FrontEnd-Masters/03-intro-node-v3/18-Software-testing-concept.md",
     "FrontEnd-Masters/03-intro-node-v3/16-Crup-filtering-removing.md",
     "FrontEnd-Masters/03-intro-node-v3/17-updating-cli-cmds.md",
     "FrontEnd-Masters/03-intro-node-v3/15-Crud-methods.md",
     "FrontEnd-Masters/03-intro-node-v3/14-File-sistem-as-db.md",
-    "FrontEnd-Masters/03-intro-node-v3/13-fs-module.md",
-    "FrontEnd-Masters/03-intro-node-v3/12-Async-code.md",
-    "FrontEnd-Masters/03-intro-node-v3/09-Internal-3rd-party-modules.md",
-    "FrontEnd-Masters/03-intro-node-v3/10-yargs-module.md",
-    "FrontEnd-Masters/03-intro-node-v3/11-Notes-app-commands.md",
-    "FrontEnd-Masters/03-intro-node-v3/05-processing-cli-arguments.md",
-    "FrontEnd-Masters/03-intro-node-v3/08-Thinking-in-modules.md",
-    "FrontEnd-Masters/03-intro-node-v3/07-importing-modules.md",
-    "FrontEnd-Masters/03-intro-node-v3/03-Cli-note-taking-app-start.md",
-    "FrontEnd-Masters/03-intro-node-v3/06-Modules-overview.md",
-    "FrontEnd-Masters/03-intro-node-v3/02-Browser-vs-Node.md",
-    "FrontEnd-Masters/03-intro-node-v3/04-Custom-cli-setup.md",
-    "FrontEnd-Masters/03-intro-node-v3/01-Non-blocking-IO.md",
     "FrontEnd-Masters/03-intro-node-v3",
-    "FrontEnd-Masters/02-Complete-intro-CompSci/002-Big-O-And-Algorithmic-Efficiencycod e.md",
-    "FrontEnd-Masters/02-Complete-intro-CompSci/001-Codesandbox.md",
     "FrontEnd-Masters/02-Complete-intro-CompSci",
-    "Educative-io/Java-Masterclass/012-Arithmec.md",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Actividad-01/mexingsof07_act1.docx",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/002-Valor-utilidad-plataformas.md",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/009-Resumen-02.md",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/008-Plataformas-para-hitorias-usuarios.md",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/007-Principales-Plataformas-de-Requisitos.md",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/attachments/Pasted image 20251121152222.png",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Agenda/Copia de Plataforma de Desarrollo de Software MODAM(31755).pdf",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Agenda",
@@ -336,9 +362,6 @@
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Actividad-01/attachments/Pasted image 20251118065723.png",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/attachments/Pasted image 20251120150332.png",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/attachments/Pasted image 20251120144231.png",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/attachments",
-    "FrontEnd-Masters/01-Last-Algorithim/attachments/Pasted image 20251118104558.png",
-    "FrontEnd-Masters/01-Last-Algorithim/attachments",
-    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-01/Attachments/Pasted image 20251117164449.png"
+    "FrontEnd-Masters/01-Last-Algorithim/attachments/Pasted image 20251118104558.png"
   ]
 }

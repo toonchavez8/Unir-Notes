@@ -107,12 +107,14 @@ Quiero que actúes como un asistente académico experto en la materia del transc
 
 10: No agregues Emojis, no es necesario mensionar el nombre del profesor
 
-11: Agrega addicionalmente un espacio para MicroTest que sea un H2 vacia
+
 
 if the transcript is in English then create the notes in english
 El transcript es el siguiente:
 
 ```
+
+11: Agrega addicionalmente un espacio para MicroTest que sea un H2 vacia
 
 ## Prompt for Notes from Educative
 
