@@ -91,33 +91,9 @@
               "icon": "lucide-book-up",
               "title": "Release Notes 1.10.6"
             }
-          },
-          {
-            "id": "df535712964a7b03",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       },
       {
         "id": "cd8d29b2279acbbb",
@@ -316,7 +292,7 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "df535712964a7b03",
+  "active": "1cea85b3ebd2b12b",
   "lastOpenFiles": [
     "conflict-files-obsidian-git.md",
     "FrontEnd-Masters/03-intro-node-v3/18-Software-testing-concept.md",
