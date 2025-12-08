@@ -4,128 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "230322f7e9de7c1b",
+        "id": "1fb4c4722192ae2b",
         "type": "tabs",
-        "dimension": 75.98540145985402,
+        "dimension": 36.05839416058394,
         "children": [
           {
-            "id": "084b298275e8377f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/000-Presentacion.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "000-Presentacion"
-            }
-          },
-          {
-            "id": "e09f58ed03700f22",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/001-Contexto-de-las-plataformas.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "001-Contexto-de-las-plataformas"
-            }
-          },
-          {
-            "id": "9240d190e81881da",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Actividad-01/mexingsof07_act1.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "mexingsof07_act1"
-            }
-          },
-          {
-            "id": "1cea85b3ebd2b12b",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.10.6"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.10.6"
-            }
-          },
-          {
-            "id": "97edd051ce580413",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
-            }
-          }
-        ],
-        "currentTab": 4
-      },
-      {
-        "id": "cd8d29b2279acbbb",
-        "type": "tabs",
-        "dimension": 24.014598540145986,
-        "children": [
-          {
-            "id": "5a8acfa5aea29e57",
+            "id": "75665889c911daab",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -149,6 +33,134 @@
             }
           }
         ]
+      },
+      {
+        "id": "15b2b44e405ac987",
+        "type": "tabs",
+        "dimension": 63.94160583941606,
+        "children": [
+          {
+            "id": "52985c34f6b578db",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/010-Contexto-de-plataformas-ing-software.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "010-Contexto-de-plataformas-ing-software"
+            }
+          },
+          {
+            "id": "8195f30b8bf07169",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/011-Valor-y-utilidad.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "011-Valor-y-utilidad"
+            }
+          },
+          {
+            "id": "c9112f96c9730a0e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/012-Plataformas-applicaiton-lifecycle-management.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "012-Plataformas-applicaiton-lifecycle-management"
+            }
+          },
+          {
+            "id": "130b0a8f4ab785c0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/013-Plataformas-computer-aided-swe.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "013-Plataformas-computer-aided-swe"
+            }
+          },
+          {
+            "id": "81e5d5f06a47ef2d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/014-Plataformas-case-Papryus.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "014-Plataformas-case-Papryus"
+            }
+          }
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -205,7 +217,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 378.5
+    "width": 378.5,
+    "collapsed": true
   },
   "right": {
     "id": "a25b807ad639ff42",
@@ -316,8 +329,20 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "97edd051ce580413",
+  "active": "81e5d5f06a47ef2d",
   "lastOpenFiles": [
+    "README.md",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/014-Plataformas-case-Papryus.md",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/013-Plataformas-computer-aided-swe.md",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/012-Plataformas-applicaiton-lifecycle-management.md",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/011-Valor-y-utilidad.md",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Books/es_a-guide-to-calculating-the-roi-of-application-lifecycle-management-tools.pdf",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Books/Unconfirmed 895562.crdownload",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/010-Contexto-de-plataformas-ing-software.md",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/009-Resumen-02.md",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/000-Presentacion.md",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/001-Contexto-de-las-plataformas.md",
+    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Actividad-01/mexingsof07_act1.md",
     "conflict-files-obsidian-git.md",
     "FrontEnd-Masters/04-Build-Ai-agent/attachments/Pasted image 20251202124103.png",
     "FrontEnd-Masters/04-Build-Ai-agent/course.md",
@@ -337,15 +362,6 @@
     "FrontEnd-Masters/03-intro-node-v3/24-Http-server-rendering.md",
     "FrontEnd-Masters/03-intro-node-v3/23-Interpolating-data-formating-notes.md",
     "FrontEnd-Masters/03-intro-node-v3/22-intro-to-servers-in-node.md",
-    "FrontEnd-Masters/03-intro-node-v3/21-testring-aditional-funcs.md",
-    "FrontEnd-Masters/03-intro-node-v3/20-Testing-with-mocks.md",
-    "FrontEnd-Masters/03-intro-node-v3/19-Unit-testing-with-jest.md",
-    "Educative-io/Java-Masterclass/012-Arithmec-Operators.md",
-    "FrontEnd-Masters/03-intro-node-v3/18-Software-testing-concept.md",
-    "FrontEnd-Masters/03-intro-node-v3/16-Crup-filtering-removing.md",
-    "FrontEnd-Masters/03-intro-node-v3/17-updating-cli-cmds.md",
-    "FrontEnd-Masters/03-intro-node-v3/15-Crud-methods.md",
-    "FrontEnd-Masters/03-intro-node-v3/14-File-sistem-as-db.md",
     "FrontEnd-Masters/03-intro-node-v3",
     "FrontEnd-Masters/02-Complete-intro-CompSci",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Actividad-01/mexingsof07_act1.docx",
@@ -353,8 +369,6 @@
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Agenda/Copia de Plataforma de Desarrollo de Software MODAM(31755).pdf",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Agenda",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Books/Plataforma de Desarrollo de Software.pdf",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Books/Unconfirmed 614230.crdownload",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Books",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Actividad-01/attachments/dfd_diagram.png",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Attachments/mexingsof07_act1 1.png",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Attachments/mexingsof07_act1.png",
