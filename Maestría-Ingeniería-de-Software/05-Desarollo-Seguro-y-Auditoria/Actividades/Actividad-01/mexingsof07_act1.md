@@ -340,14 +340,14 @@ Your provided images give examples, but to get **full 3 points** from rubric, yo
 
 ## **1. Inyección SQL**
 
-|Campo|Contenido|
-|---|---|
-|**Descripción**|Un atacante manipula entradas de usuario para alterar consultas SQL ejecutadas por la aplicación.|
-|**Objetivo**|SQL Database (DS1) / Módulo de acceso a datos|
-|**Técnicas de ataque**|Inserción de payloads SQL en campos de login, búsqueda o parámetros de URL.|
-|**CAPEC**|**CAPEC-66** (SQL Injection)|
-|**CWE**|**CWE-89** – Improper Neutralization of Special Elements in SQL Commands|
-|**Mitigación**|Uso estricto de _prepared statements_, validación por lista blanca, ORM seguro, privilegios mínimos en la cuenta DB.|
+| Campo                  | Contenido                                                                                                            |
+| ---------------------- | -------------------------------------------------------------------------------------------------------------------- |
+| **Descripción**        | Un atacante manipula entradas de usuario para alterar consultas SQL ejecutadas por la aplicación.                    |
+| **Objetivo**           | SQL Database (DS1) / Módulo de acceso a datos                                                                        |
+| **Técnicas de ataque** | Inserción de payloads SQL en campos de login, búsqueda o parámetros de URL.                                          |
+| **CAPEC**              | **CAPEC-66** (SQL Injection)                                                                                         |
+| **CWE**                | **CWE-89** – Improper Neutralization of Special Elements in SQL Commands                                             |
+| **Mitigación**         | Uso estricto de _prepared statements_, validación por lista blanca, ORM seguro, privilegios mínimos en la cuenta DB. |
 
 ---
 
@@ -366,40 +366,40 @@ Your provided images give examples, but to get **full 3 points** from rubric, yo
 
 ## **3. Cross-Site Scripting Almacenado (XSS-S)**
 
-|Campo|Contenido|
-|---|---|
-|**Descripción**|Scripts maliciosos se guardan en la base de datos y afectan a múltiples usuarios.|
-|**Objetivo**|SQL Database (DS1) / Web Server UI|
-|**Técnicas de ataque**|Inserción de JavaScript en comentarios, reseñas o formularios almacenados.|
-|**CAPEC**|**CAPEC-248** (Stored XSS)|
-|**CWE**|**CWE-79**|
-|**Mitigación**|Sanitización en el servidor al almacenar, escapes en la salida, CSP restrictiva, validación por lista blanca.|
+| Campo                  | Contenido                                                                                                     |
+| ---------------------- | ------------------------------------------------------------------------------------------------------------- |
+| **Descripción**        | Scripts maliciosos se guardan en la base de datos y afectan a múltiples usuarios.                             |
+| **Objetivo**           | SQL Database (DS1) / Web Server UI                                                                            |
+| **Técnicas de ataque** | Inserción de JavaScript en comentarios, reseñas o formularios almacenados.                                    |
+| **CAPEC**              | **CAPEC-248** (Stored XSS)                                                                                    |
+| **CWE**                | **CWE-79**                                                                                                    |
+| **Mitigación**         | Sanitización en el servidor al almacenar, escapes en la salida, CSP restrictiva, validación por lista blanca. |
 
 ---
 
 ## **4. Fuerza Bruta De credenciales**
 
-|Campo|Contenido|
-|---|---|
-|**Descripción**|Intentos repetitivos para adivinar contraseñas de clientes o administradores.|
-|**Objetivo**|Web Server (P1) / Autenticación|
-|**Técnicas de ataque**|Automatización con scripts (Hydra, Burp Intruder).|
-|**CAPEC**|**CAPEC-49** (Password Brute Forcing)|
-|**CWE**|**CWE-307** – Improper Restriction of Excessive Authentication Attempts|
-|**Mitigación**|Rate limiting, bloqueo temporal, MFA, detección de IPs anómalas, hashing Argon2 para contraseñas.|
+| Campo                  | Contenido                                                                                         |
+| ---------------------- | ------------------------------------------------------------------------------------------------- |
+| **Descripción**        | Intentos repetitivos para adivinar contraseñas de clientes o administradores.                     |
+| **Objetivo**           | Web Server (P1) / Autenticación                                                                   |
+| **Técnicas de ataque** | Automatización con scripts (Hydra, Burp Intruder).                                                |
+| **CAPEC**              | **CAPEC-49** (Password Brute Forcing)                                                             |
+| **CWE**                | **CWE-307** – Improper Restriction of Excessive Authentication Attempts                           |
+| **Mitigación**         | Rate limiting, bloqueo temporal, MFA, detección de IPs anómalas, hashing Argon2 para contraseñas. |
 
 ---
 
 ## **5. Secuestro De Sesión (Session Hijacking)**
 
-|Campo|Contenido|
-|---|---|
-|**Descripción**|Robo de cookies de sesión para hacerse pasar por un usuario legítimo.|
-|**Objetivo**|Application Logic (P2) / Módulo de sesiones|
-|**Técnicas de ataque**|Robo de cookie vía XSS, sniffing, o vulnerabilidades en transmisión.|
-|**CAPEC**|**CAPEC-593** (Session Fixation/Session Hijacking)|
-|**CWE**|**CWE-613** – Insufficient Session Expiration|
-|**Mitigación**|Cookies `HttpOnly`, `Secure`, rotación de session ID en login, expiración corta, TLS obligatorio.|
+| Campo                  | Contenido                                                                                         |
+| ---------------------- | ------------------------------------------------------------------------------------------------- |
+| **Descripción**        | Robo de cookies de sesión para hacerse pasar por un usuario legítimo.                             |
+| **Objetivo**           | Application Logic (P2) / Módulo de sesiones                                                       |
+| **Técnicas de ataque** | Robo de cookie vía XSS, sniffing, o vulnerabilidades en transmisión.                              |
+| **CAPEC**              | **CAPEC-593** (Session Fixation/Session Hijacking)                                                |
+| **CWE**                | **CWE-613** – Insufficient Session Expiration                                                     |
+| **Mitigación**         | Cookies `HttpOnly`, `Secure`, rotación de session ID en login, expiración corta, TLS obligatorio. |
 
 ---
 
@@ -444,27 +444,27 @@ Your provided images give examples, but to get **full 3 points** from rubric, yo
 
 ## **9. Ataque Al Proveedor De Pago (respuesta manipulada)**
 
-|Campo|Contenido|
-|---|---|
-|**Descripción**|Un atacante intercepta o falsifica la respuesta del gateway de pago para aprobar transacciones no válidas.|
-|**Objetivo**|Payment Processing Module (P3)|
-|**Técnicas de ataque**|Manipulación del retorno, replay, interceptación.|
-|**CAPEC**|**CAPEC-172** (Protocol Manipulation)|
-|**CWE**|**CWE-345** – Insufficient Verification of Data Authenticity|
-|**Mitigación**|Verificación criptográfica de la respuesta (JWT/HMAC), timestamps, nonces, validación del monto y orden.|
+| Campo                  | Contenido                                                                                                  |
+| ---------------------- | ---------------------------------------------------------------------------------------------------------- |
+| **Descripción**        | Un atacante intercepta o falsifica la respuesta del gateway de pago para aprobar transacciones no válidas. |
+| **Objetivo**           | Payment Processing Module (P3)                                                                             |
+| **Técnicas de ataque** | Manipulación del retorno, replay, interceptación.                                                          |
+| **CAPEC**              | **CAPEC-172** (Protocol Manipulation)                                                                      |
+| **CWE**                | **CWE-345** – Insufficient Verification of Data Authenticity                                               |
+| **Mitigación**         | Verificación criptográfica de la respuesta (JWT/HMAC), timestamps, nonces, validación del monto y orden.   |
 
 ---
 
 ## **10. Ataque a Logs (alteración O borrado)**
 
-|Campo|Contenido|
-|---|---|
-|**Descripción**|Un atacante borra o modifica logs para ocultar rastros de un ataque.|
-|**Objetivo**|NoSQL Log Storage (DS2)|
-|**Técnicas de ataque**|Acceso directo al servidor, APIs mal protegidas.|
-|**CAPEC**|**CAPEC-151** (Log Tampering)|
-|**CWE**|**CWE-778** – Insufficient Logging|
-|**Mitigación**|Logs inmutables, envío a SIEM externo, control de acceso estricto, write-once storage, alertas en modificación de logs.|
+| Campo                  | Contenido                                                                                                               |
+| ---------------------- | ----------------------------------------------------------------------------------------------------------------------- |
+| **Descripción**        | Un atacante borra o modifica logs para ocultar rastros de un ataque.                                                    |
+| **Objetivo**           | NoSQL Log Storage (DS2)                                                                                                 |
+| **Técnicas de ataque** | Acceso directo al servidor, APIs mal protegidas.                                                                        |
+| **CAPEC**              | **CAPEC-151** (Log Tampering)                                                                                           |
+| **CWE**                | **CWE-778** – Insufficient Logging                                                                                      |
+| **Mitigación**         | Logs inmutables, envío a SIEM externo, control de acceso estricto, write-once storage, alertas en modificación de logs. |
 
 ## Dread Map
 
