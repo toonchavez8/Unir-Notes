@@ -15,6 +15,32 @@ Evals (evaluations) are critical for AI agent development because:
 
 Without evals, you're flying blind. You might think your agent is working great based on a few manual tests, but in production it could be failing in ways you never anticipated.
 
+### **Deterministic**
+
+- Same input → same output
+    
+- Every time, no exceptions
+    
+- Behavior is predictable and reproducible
+    
+- Example:
+    
+    - A function like `f(x) = x * 2` is deterministic.
+        
+    - If you call it 100 times with `x = 5`, you always get `10`.
+
+### **Non-deterministic**
+
+- Same input → output might vary
+    
+- System might use randomness, timing, or external state
+    
+- Example:
+    
+    - A function that returns a random number.
+        
+    - Or code depending on thread scheduling, network latency, etc.
+
 ## Offline Vs Online Evals
 
 ### Offline Evals
