@@ -219,3 +219,26 @@ Esto lo posiciona como una herramienta útil en:
 ---
 
 ## **MicroTest**
+
+1. **A la hora de rellenar un Actor en un diagrama de casos de uso, los campos que nos permite completar por defecto son:**
+    
+    - **La respuesta: b. Name, Label, IsAbstract, Visibility.**
+        
+    - **Justificación:**  
+        En Papyrus, un _Actor_ es un elemento UML que hereda las propiedades básicas de _Classifier_, lo cual incluye **Name**, **Visibility** y atributos como **isAbstract**. Además, Papyrus muestra un campo visual adicional llamado **Label** para representación gráfica. Por lo tanto, esta es la opción correcta y la más completa.
+        
+2. **En un diagrama de clases, que una Class herede de otra Papyrus la denota como:**
+    
+    - **La respuesta: d. Ninguna de las anteriores.**
+        
+    - **Justificación:**  
+        La herencia en UML no se indica mediante propiedades como _IsRoot_, _IsDerived_ o _IsChild_. Papyrus utilize la relación UML **Generalization**, que se muestra con una flecha con punta triangular hacia la clase padre. Ninguna de las opciones corresponde al mecanismo UML real, por lo que _ninguna de las anteriores_ es correcta.
+        
+3. **En un diagrama de actividad, el elemento inicial se denomina:**
+    
+    - **La respuesta: c. InitialNode.**
+        
+    - **Justificación:**  
+        Según el estándar UML y la implementación de Papyrus, el nodo inicial de un Activity Diagram se llama exactamente **InitialNode**. Es el punto de entrada del flujo y siempre se denota así en la paleta de elementos de Papyrus.
+        
+        
