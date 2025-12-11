@@ -158,9 +158,33 @@
               "icon": "lucide-file",
               "title": "014-Plataformas-case-Papryus"
             }
+          },
+          {
+            "id": "66a2ae241cea94b8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/015-Plataforma-case-webgme-metamodelado.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "015-Plataforma-case-webgme-metamodelado"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -329,9 +353,10 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "81e5d5f06a47ef2d",
+  "active": "66a2ae241cea94b8",
   "lastOpenFiles": [
     "README.md",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/015-Plataforma-case-webgme-metamodelado.md",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/014-Plataformas-case-Papryus.md",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/013-Plataformas-computer-aided-swe.md",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/012-Plataformas-applicaiton-lifecycle-management.md",
@@ -361,7 +386,6 @@
     "FrontEnd-Masters/03-intro-node-v3/25-wraping-up.md",
     "FrontEnd-Masters/03-intro-node-v3/24-Http-server-rendering.md",
     "FrontEnd-Masters/03-intro-node-v3/23-Interpolating-data-formating-notes.md",
-    "FrontEnd-Masters/03-intro-node-v3/22-intro-to-servers-in-node.md",
     "FrontEnd-Masters/03-intro-node-v3",
     "FrontEnd-Masters/02-Complete-intro-CompSci",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Actividad-01/mexingsof07_act1.docx",

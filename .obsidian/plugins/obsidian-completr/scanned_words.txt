@@ -3118,6 +3118,14 @@ IJH
 Inflectra
 Intland
 Incidencias
+Interaction
+ISBN
+IsAbstract
+IsRoot
+IsDerived
+IsChild
+InitialNode
+Instanciaci
 Emocional
 Edward
 Expone
@@ -6281,6 +6289,11 @@ ELYO
 Ehwh
 Estandarizar
 Environment
+Eugenia
+Entrar
+Estabilidad
+Editores
+Ecore
 Historia
 Howard
 Habilidades
@@ -9068,6 +9081,7 @@ HxiG
 Hvvv
 HNU
 HDXEo
+Hijo
 definiciones
 de
 dem
@@ -12455,6 +12469,12 @@ dXvA
 dhu
 dwzf
 deZi
+drag
+desactualizada
+denota
+defina
+deliverable
+decoradores
 La
 Linea
 Las
@@ -15277,6 +15297,7 @@ LCQ
 LsG
 LuL
 LUf
+Libro
 hace
 habilidad
 humano
@@ -18173,6 +18194,8 @@ hOz
 hkCT
 hBt
 hVJ
+hereda
+herede
 referencia
 reconocer
 rmino
@@ -21586,6 +21609,8 @@ riGr
 redundancias
 regulados
 reguladas
+rellenar
+refleje
 la
 los
 las
@@ -24474,6 +24499,7 @@ lhPo
 lOcs
 lXj
 lqi
+lienzo
 sentimientos
 sugiere
 ser
@@ -27809,6 +27835,9 @@ srD
 suite
 separadas
 semillas
+swimlanes
+separado
+sincronizan
 tiempo
 tiene
 tica
@@ -30835,6 +30864,8 @@ tIy
 temprano
 textuales
 tendencia
+transformadores
+triangular
 Siglo
 Self
 Se
@@ -33878,6 +33909,7 @@ Simulink
 SysML
 Sirius
 Sublime
+Soportados
 Plat
 Pir
 Payne
@@ -37000,6 +37032,8 @@ PqP
 PLyw
 Polarion
 Profiles
+Paquetes
+Particiones
 Todo
 Thorndike
 Todos
@@ -39957,6 +39991,9 @@ TrS
 TBe
 TdSxS
 Twd
+TaskModel
+TaskModelElement
+Transcript
 aprendizaje
 ala
 aspectos
@@ -43581,6 +43618,9 @@ accesibilidad
 automatizados
 adaptada
 automatizable
+anotaciones
+aladas
+agregado
 una
 un
 unas
@@ -52900,6 +52940,8 @@ ehPhZ
 ehQQ
 euT
 extensible
+ecosistema
+ejecutable
 que
 quien
 quiere
@@ -61813,6 +61855,9 @@ paletas
 pipelines
 personalizar
 preexistente
+posiciona
+padre
+paleta
 clave
 coment
 capacidad
@@ -68474,6 +68519,7 @@ NtQs
 Nci
 Nopr
 NMP
+Nombrarlo
 maco
 motivar
 menes
@@ -71741,6 +71787,8 @@ mec
 meras
 multidisciplinaria
 metamodelado
+manipulan
+multil
 Arist
 Abraham
 Adem
@@ -75067,6 +75115,8 @@ Advance
 Automoci
 Architect
 Alice
+Arrastrar
+Activity
 importancia
 inteligencia
 intelectivos
@@ -78560,6 +78610,12 @@ iuZ
 ihq
 inconsistencias
 industrias
+inferior
+isAbstract
+instanciados
+instanciado
+importado
+instanciarse
 formaci
 factores
 fortalezas
@@ -84408,6 +84464,7 @@ UBC
 UQb
 Uacd
 Usada
+Unidos
 David
 Describe
 Developing
@@ -87424,6 +87481,13 @@ DCnCm
 Destacados
 Draw
 Diagramaci
+Drag
+Deliverable
+Dependency
+Definidos
+Deliverables
+Dependencies
+Dependencias
 Wechsler
 Wayne
 WhatsApp
@@ -96312,6 +96376,9 @@ Microfocus
 Metodol
 Matlab
 MARTE
+Marketplace
+Metamodelizaci
+Marcar
 Gardner
 Goleman
 Generan
@@ -99051,6 +99118,8 @@ Gioi
 GTu
 Generic
 GME
+GEF
+Generalization
 Formula
 Feedback
 Francis
@@ -104820,6 +104889,7 @@ ozi
 oci
 oiiO
 owzO
+originalmente
 Crea
 Cociente
 Con
@@ -107949,6 +108019,11 @@ Codebeamer
 Categor
 Cameo
 CCML
+Case
+Classifier
+Contenci
+Comment
+Comments
 vida
 viene
 va
@@ -110770,6 +110845,7 @@ vier
 vmY
 viO
 vBDc
+validaciones
 Reuven
 REA
 Re
@@ -125198,6 +125274,8 @@ OLP
 ODEJRF
 OLC
 OUIwh
+OMEI
+Organizados
 Vergüenza
 Valores
 Vision
@@ -128083,6 +128161,9 @@ Vqep
 Vfg
 VTgZ
 Vendor
+Visibility
+Vanderbilt
+Volver
 yo
 ya
 you
@@ -141916,6 +141997,7 @@ xMW
 xHv
 xNRdN
 xVyv
+xUML
 zonas
 zona
 zero
