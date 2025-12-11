@@ -3126,6 +3126,7 @@ IsDerived
 IsChild
 InitialNode
 Instanciaci
+Incluidos
 Emocional
 Edward
 Expone
@@ -6294,6 +6295,7 @@ Entrar
 Estabilidad
 Editores
 Ecore
+Explicado
 Historia
 Howard
 Habilidades
@@ -12475,6 +12477,9 @@ denota
 defina
 deliverable
 decoradores
+destination
+decorador
+debajo
 La
 Linea
 Las
@@ -18196,6 +18201,7 @@ hBt
 hVJ
 hereda
 herede
+hijos
 referencia
 reconocer
 rmino
@@ -27838,6 +27844,7 @@ semillas
 swimlanes
 separado
 sincronizan
+subtareas
 tiempo
 tiene
 tica
@@ -37034,6 +37041,9 @@ Polarion
 Profiles
 Paquetes
 Particiones
+Personalizaci
+Permitidos
+Programabilidad
 Todo
 Thorndike
 Todos
@@ -43621,6 +43631,8 @@ automatizable
 anotaciones
 aladas
 agregado
+arrastra
+aislados
 una
 un
 unas
@@ -52942,6 +52954,10 @@ euT
 extensible
 ecosistema
 ejecutable
+etiqueta
+extendiendo
+exigir
+editen
 que
 quien
 quiere
@@ -61858,6 +61874,9 @@ preexistente
 posiciona
 padre
 paleta
+profundizan
+puntero
+programados
 clave
 coment
 capacidad
@@ -65712,6 +65731,14 @@ cmVH
 cuadrantes
 componer
 consolidada
+connector
+configurando
+canvas
+conos
+cono
+controlan
+cardinalidad
+containments
 Nic
 Necesidades
 No
@@ -71789,6 +71816,9 @@ multidisciplinaria
 metamodelado
 manipulan
 multil
+metamodelar
+mueven
+manipulamos
 Arist
 Abraham
 Adem
@@ -75117,6 +75147,7 @@ Architect
 Alice
 Arrastrar
 Activity
+Avanzadas
 importancia
 inteligencia
 intelectivos
@@ -78616,6 +78647,7 @@ instanciados
 instanciado
 importado
 instanciarse
+inspirado
 formaci
 factores
 fortalezas
@@ -81593,6 +81625,7 @@ fzQJ
 fvy
 fAn
 fUML
+flechas
 Utiliza
 Una
 Uno
@@ -84465,6 +84498,7 @@ UQb
 Uacd
 Usada
 Unidos
+Unicidad
 David
 Describe
 Developing
@@ -87488,6 +87522,7 @@ Definidos
 Deliverables
 Dependencies
 Dependencias
+Decoradores
 Wechsler
 Wayne
 WhatsApp
@@ -93219,6 +93254,7 @@ nCHK
 nXI
 nMnf
 normadas
+navegamos
 Maslow
 Miedo
 Maria
@@ -99120,6 +99156,7 @@ Generic
 GME
 GEF
 Generalization
+GraphView
 Formula
 Feedback
 Francis
@@ -108024,6 +108061,9 @@ Classifier
 Contenci
 Comment
 Comments
+Cambiar
+Composition
+Cardinalidad
 vida
 viene
 va
@@ -110846,6 +110886,8 @@ vmY
 viO
 vBDc
 validaciones
+visualizadores
+visualiza
 Reuven
 REA
 Re
@@ -128164,6 +128206,11 @@ Vendor
 Visibility
 Vanderbilt
 Volver
+Visualizadores
+Visualizers
+Visualizador
+Visualizer
+Versiones
 yo
 ya
 you
