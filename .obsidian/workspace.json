@@ -30,33 +30,8 @@
               "icon": "lucide-file",
               "title": "03-Single-Turn-Evals"
             }
-          },
-          {
-            "id": "41ee01301ef6c380",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -224,10 +199,10 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "41ee01301ef6c380",
+  "active": "b9c8fd2f0822f5b8",
   "lastOpenFiles": [
-    "FrontEnd-Masters/04-Build-Ai-agent/03-Single-Turn-Evals.md",
     "conflict-files-obsidian-git.md",
+    "FrontEnd-Masters/04-Build-Ai-agent/03-Single-Turn-Evals.md",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Books/es_a-guide-to-calculating-the-roi-of-application-lifecycle-management-tools.pdf",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/014-Plataformas-case-Papryus.md",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/013-Plataformas-computer-aided-swe.md",
