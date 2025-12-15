@@ -55,33 +55,9 @@
               "icon": "lucide-file",
               "title": "019-valor-utilidad-low-code"
             }
-          },
-          {
-            "id": "913702030e3928a9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       },
       {
         "id": "b4423cb9d4d8363c",
@@ -280,10 +256,10 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "913702030e3928a9",
+  "active": "c1f88ef6175e2387",
   "lastOpenFiles": [
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/019-valor-utilidad-low-code.md",
     "conflict-files-obsidian-git.md",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/019-valor-utilidad-low-code.md",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Attachments/mexingsof03_act1.jpeg",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Attachments/mexingsof03_act1 1.jpeg",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Attachments",
