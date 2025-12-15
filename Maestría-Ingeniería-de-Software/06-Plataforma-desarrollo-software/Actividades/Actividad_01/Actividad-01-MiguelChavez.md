@@ -112,7 +112,7 @@ A continuación se presenta una historia de usuario detallada que representa una
 
 A continuación se presenta una historia de usuario ejemplar, con su descripción, contexto de uso y criterios de aceptación detallados en formato Gherkin.
 
-**ID:** 003 
+**ID:** Scrum-15 
 **Título:** Buscar propietario de mascota por apellido  
 **Épica:** Gestión de Propietarios  
 **Prioridad:** Alta  
@@ -122,6 +122,7 @@ A continuación se presenta una historia de usuario ejemplar, con su descripció
 Como **recepcionista** de la clínica veterinaria,  
 quiero **buscar propietarios de mascotas por su apellido**  
 para **localizar rápidamente sus registros y consultar la información de sus mascotas y visitas programadas**.
+![[Pasted image 20251214221544.png]]
 
 **Contexto de uso:**  
 Esta funcionalidad se utilize principalmente en el mostrador de recepción cuando:
