@@ -45,7 +45,7 @@
               "state": {
                 "file": "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_01/Actividad-01-MiguelChavez.md",
                 "mode": "source",
-                "source": true,
+                "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
                   "collapseAll": false,
@@ -231,8 +231,17 @@
   },
   "active": "12b70dd108b59929",
   "lastOpenFiles": [
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_01/mexingsof03_act1.md",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_01/attachments/Pasted image 20251214221313.png",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_01/attachments/Pasted image 20251214221250.png",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_01/attachments/Pasted image 20251214221119.png",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_01/attachments/Pasted image 20251214220504.png",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_01/Untitled.md",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_01/Actividad-01-MiguelChavez.md",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_01/attachments/Pasted image 20251214220350.png",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_01/attachments/Pasted image 20251214220221.png",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_01/attachments/Pasted image 20251214220202.png",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_01/attachments",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_01/mexingsof03_act1.md",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/011-Valor-y-utilidad.md",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_01/mexingsof03_act1.docx",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/010-Contexto-de-plataformas-ing-software.md",
@@ -266,16 +275,7 @@
     "FrontEnd-Masters/04-Build-Ai-agent/06-File-System-Tools.md",
     "FrontEnd-Masters/04-Build-Ai-agent/05-Multi-turn-Evals.md",
     "FrontEnd-Masters/04-Build-Ai-agent/04-The-Agent-Loop.md",
-    "FrontEnd-Masters/04-Build-Ai-agent/03-Single-Turn-Evals.md",
-    "FrontEnd-Masters/04-Build-Ai-agent/02-Tool-Calling.md",
     "FrontEnd-Masters/04-Build-Ai-agent",
-    "FrontEnd-Masters/03-intro-node-v3",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/attachments/Pasted image 20251121152222.png",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Actividad-01/attachments/dfd_diagram.png",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Attachments/mexingsof07_act1 1.png",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Attachments/mexingsof07_act1.png",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Actividad-01/attachments/Pasted image 20251118065735.png",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Actividad-01/attachments/Pasted image 20251118065723.png",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/attachments/Pasted image 20251120150332.png"
+    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/attachments/Pasted image 20251121152222.png"
   ]
 }

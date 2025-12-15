@@ -12497,6 +12497,10 @@ desarrollarlo
 descubrimiento
 designe
 depues
+desventaja
+denominada
+destacables
+demas
 La
 Linea
 Las
@@ -18225,6 +18229,7 @@ height
 historais
 hize
 hisotrias
+hallazgos
 referencia
 reconocer
 rmino
@@ -21646,6 +21651,13 @@ redirige
 redirecciones
 registradas
 repetin
+razonablemente
+restantes
+resultaron
+requiri
+reforz
+respalda
+resalt
 la
 los
 las
@@ -24537,6 +24549,7 @@ lqi
 lienzo
 localizar
 logre
+logr
 sentimientos
 sugiere
 ser
@@ -27884,6 +27897,7 @@ sigugentes
 siguentes
 seriam
 storieas
+seleccion
 tiempo
 tiene
 tica
@@ -33961,6 +33975,7 @@ Spira
 SNAPSHOT
 Suele
 Subtareas
+Sintetizar
 Plat
 Pir
 Payne
@@ -37095,6 +37110,8 @@ Paginaci
 Pets
 Precondiciones
 Postcondiciones
+Petclinic
+Pantalla
 Todo
 Thorndike
 Todos
@@ -43696,6 +43713,13 @@ appliocacion
 agregando
 agendar
 agendada
+adhesivas
+ampliaciones
+aden
+aqui
+aprend
+aplicaron
+adjunto
 una
 un
 unas
@@ -46640,6 +46664,7 @@ unbty
 uHXM
 uoi
 unicas
+utilizaron
 base
 biol
 bienestar
@@ -49524,6 +49549,7 @@ basarse
 basarte
 bird
 basandome
+bosquej
 emocional
 emociones
 en
@@ -53041,6 +53067,13 @@ empalmarse
 empalamn
 encontre
 exitosas
+esquem
+experencia
+etiquet
+eran
+ejemplar
+evidencian
+elegidas
 que
 quien
 quiere
@@ -61978,6 +62011,10 @@ podmos
 permitio
 postis
 predefinida
+plasmando
+pude
+planificados
+perro
 clave
 coment
 capacidad
@@ -65855,6 +65892,11 @@ categolaizaradas
 confluisz
 categorizar
 cruds
+complementos
+compartirlas
+consideradas
+consumi
+correspond
 Nic
 Necesidades
 No
@@ -71945,6 +71987,9 @@ masctoa
 mvp
 manejando
 mayoria
+maquetas
+motivan
+mostr
 Arist
 Abraham
 Adem
@@ -78786,6 +78831,8 @@ interaciones
 inicie
 importan
 ingresados
+identifiqu
+incluyeron
 formaci
 factores
 fortalezas
@@ -81766,6 +81813,9 @@ fUML
 flechas
 fidelity
 fullscreen
+figma
+familiarizarse
+faltaran
 Utiliza
 Una
 Uno
@@ -87671,6 +87721,7 @@ Descubre
 Detallada
 Davis
 Despues
+Descubr
 Wechsler
 Wayne
 WhatsApp
@@ -96573,6 +96624,7 @@ Marca
 MockFlow
 Mascotas
 Mascota
+Mapeo
 Gardner
 Goleman
 Generan
@@ -105092,6 +105144,7 @@ owzO
 originalmente
 optimizaci
 origigen
+organic
 Crea
 Cociente
 Con
@@ -108235,6 +108288,8 @@ Capturas
 CardBoard
 Cardboard
 City
+Conoc
+Comprend
 vida
 viene
 va
@@ -111065,6 +111120,7 @@ verlos
 veinticinco
 veterinaria
 valide
+veterinarias
 Reuven
 REA
 Re
@@ -122708,6 +122764,7 @@ giS
 goq
 gPz
 generaremos
+gato
 Ofrecen
 Orientaci
 Ordena
@@ -128402,6 +128459,8 @@ Visitas
 Veterinarios
 Validaciones
 Visit
+Veterinario
+Visualic
 yo
 ya
 you
