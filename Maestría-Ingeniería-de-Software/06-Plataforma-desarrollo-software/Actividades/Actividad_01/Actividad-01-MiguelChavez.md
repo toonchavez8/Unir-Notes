@@ -199,16 +199,34 @@ Los escenarios anteriores definen el comportamiento esperado del sistema para la
 
 ## Wireframing De la Pantalla De Propietario
 
-Para el diseño del wireframe se utilizó la plataforma **Figma**. En ella se bosquejó la **pantalla de ficha de propietario**, que muestra la información detallada de un cliente. Se definieron campos como nombre, dirección, ciudad, teléfono y una sección con la lista de mascotas asociadas, cada una con su nombre, tipo y fecha de nacimiento. También se incluyeron botones de acción: “Editar datos del dueño”, “Agregar nueva mascota” y “Registrar visita” para cada mascota. Para el wireframe se utilizaron plantillas básicas de formulario (inputs, etiquetas) disponibles en la librería de Figma. El diseño resultante es esquemático (sin estilos finales) y se exportó como imagen PNG para su inclusión.
+Para el diseño del wireframe utilicé la plataforma **Figma**. En esta herramienta realicé el wireframe de la **pantalla de ficha de propietario**, cuyo objetivo es mostrar la información detallada de un cliente de manera clara y estructurada.
+
+La pantalla incluye campos como **nombre**, **dirección**, **ciudad** y **teléfono**, así como una sección dedicada a la **lista de mascotas asociadas** al propietario. Para cada mascota se muestra información relevante como **nombre**, **tipo** y **fecha de nacimiento**. Además, se definieron botones de acción clave: **“Editar datos del dueño”**, **“Agregar nueva mascota”** y **“Registrar visita”** para cada mascota, facilitando la interacción y el flujo de trabajo del usuario.
+
+Antes de iniciar el diseño visual, comencé extrayendo los **requerimientos** y planteando **propuestas iniciales** en un archivo en formato Markdown. Este documento me sirvió como guía para definir los **criterios de aceptación** y delimitar claramente el alcance y los objetivos del diseño de esta historia de usuario.
+
+![[Pasted image 20251215161634.png]]
+
+Posteriormente, en mi tableta realicé **varias versiones de bocetos** explorando distintas disposiciones y jerarquías de información. Este proceso iterativo me permitió refinar el diseño y asegurar que cumpliera con los requerimientos previamente definidos.
+
+![[Pasted image 20251215162710.png]]
+
+Una vez definido el boceto final, lo llevé a **Figma**, donde comencé a construir el wireframe de manera digital, respetando la estructura y decisiones tomadas durante la etapa de bocetaje.
+
+![[Pasted image 20251215164913.png]]
+
+Para la elaboración del wireframe se utilize **formas básicas de formulario** (inputs, etiquetas y contenedores) . El resultado es un diseño **esquemático**, sin estilos visuals finales, enfocado en la distribución de la información y la funcionalidad. Finalmente, el wireframe fue **exportado como imagen PNG** para su inclusión en la documentación correspondiente.
+
+![[Pasted image 20251215165756.png]]
 
 ## Valoración Del Aprendizaje
 
-|Aspecto|Lo que aprendí|Dificultades/Observaciones|
-|---|---|---|
-|Herramientas de mapeo|Conocí el uso de Jira y Confluence para planificar historias de usuario. Aprendí a crear épicas, historias y releases en Jira.|Require familiarizarse con la interfaz; configurar plugins (Whiteboard) consumió tiempo.|
-|Story Mapping|Comprendí cómo estructurar las historias en flujos (navegación, dueños, etc.) y priorizar para un MVP. Visualicé mejor el alcance de cada release.|Fue un reto inicial identificar todas las historias clave; también alinear qué historias correspondían a cada rol.|
-|Herramienta de wireframes|Aprendí a usar Figma para elaborar maquetas de pantalla. Descubrí plantillas de wireframe útiles y colaboración en línea.|La mayor dificultad fue la distribución de elementos en la pantalla y asegurar que no faltaran campos críticos en el diseño.|
-|Documentación del proceso|Comprendí la importancia de justificar elecciones y plasmar el trabajo (capturas, enlaces, evidencias).|Sintetizar la información de forma clara requirió esfuerzo (especialmente al completar la memoria con limitación de páginas).|
+| Aspecto                   | Lo que aprendí                                                                                                                                     | Dificultades/Observaciones                                                                                                    |
+| ------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
+| Herramientas de mapeo     | Conocí el uso de Jira y Confluence para planificar historias de usuario. Aprendí a crear épicas, y historias en Jira.                              | Require familiarizarse con la interfaz; configurar plugins (Whiteboard) consumió tiempo, Tambien es abrumador.                |
+| Story Mapping             | Comprendí cómo estructurar las historias en flujos (navegación, dueños, etc.) y priorizar para un MVP. Visualicé mejor el alcance de cada release. | Fue un reto inicial identificar todas las historias clave; también alinear qué historias correspondían a cada rol.            |
+| Herramienta de wireframes | Ya conocia figma, lo que me apoyo para realizar el dieño                                                                                           | La mayor dificultad fue la distribución de elementos en la pantalla y asegurar que no faltaran campos críticos en el diseño.  |
+| Documentación del proceso | Comprendí la importancia de justificar elecciones y plasmar el trabajo (capturas, enlaces, evidencias).                                            | Sintetizar la información de forma clara requirió esfuerzo (especialmente al completar la memoria con limitación de páginas). |
 
 Cada uno de estos aspectos contribuyó al aprendizaje general. Por ejemplo, la práctica con Jira reforzó mi entendimiento de la gestión ágil de requerimientos, mientras que el uso de Figma mejoró mis habilidades de diseño de interfaces. Las dificultades señaladas motivan a profundizar en el uso de estas herramientas.
 

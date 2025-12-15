@@ -6,7 +6,6 @@
       {
         "id": "4096db34fe282b63",
         "type": "tabs",
-        "dimension": 75.55012224938875,
         "children": [
           {
             "id": "5c8f75d68bbf84af",
@@ -38,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/019-valor-utilidad-low-code.md",
+                "file": "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_01/Actividad-01-MiguelChavez.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -53,42 +52,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "019-valor-utilidad-low-code"
+              "title": "Actividad-01-MiguelChavez"
             }
           }
         ],
         "currentTab": 1
-      },
-      {
-        "id": "b4423cb9d4d8363c",
-        "type": "tabs",
-        "dimension": 24.449877750611243,
-        "children": [
-          {
-            "id": "b9c8fd2f0822f5b8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "README"
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -253,13 +221,20 @@
       "obsidian-git:Open Git source control": false,
       "callout-manager:Insert Callout": false,
       "omnisearch:Omnisearch": false,
-      "mermaid-tools:Open Mermaid Toolbar": false
+      "mermaid-tools:Open Mermaid Toolbar": false,
+      "vscode-editor:Create Code File": false
     }
   },
   "active": "c1f88ef6175e2387",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_01/attachments/Pasted image 20251215165756.png",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_01/attachments/Pasted image 20251215164913.png",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_01/attachments/Pasted image 20251215162710.png",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_01/attachments/Pasted image 20251215162658.png",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_01/attachments/Pasted image 20251215161634.png",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_01/mexingsof03_act1.md",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/019-valor-utilidad-low-code.md",
+    "conflict-files-obsidian-git.md",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Attachments/mexingsof03_act1.jpeg",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Attachments/mexingsof03_act1 1.jpeg",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Attachments",
@@ -267,16 +242,11 @@
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_03",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_02/mexingsof03_act2.docx",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_02",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_01/mexingsof03_act1.md",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_01/mexingsof03_act1.docx",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_01/attachments/Pasted image 20251214221544.png",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_01/attachments/Pasted image 20251214221454.png",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_01/attachments/Pasted image 20251214221449.png",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_01/attachments/Pasted image 20251214220504.png",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_01/attachments/Pasted image 20251214221313.png",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_01/attachments/Pasted image 20251214221250.png",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_01/attachments/Pasted image 20251214221119.png",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_01/attachments/Pasted image 20251214220350.png",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_01/attachments",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_01/Untitled.md",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_01/Actividad-01-MiguelChavez.md",
