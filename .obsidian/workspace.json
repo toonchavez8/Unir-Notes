@@ -55,9 +55,33 @@
               "icon": "lucide-file",
               "title": "019-valor-utilidad-low-code"
             }
+          },
+          {
+            "id": "913702030e3928a9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "b4423cb9d4d8363c",
@@ -256,14 +280,35 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "c1f88ef6175e2387",
+  "active": "913702030e3928a9",
   "lastOpenFiles": [
-    "README.md",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/019-valor-utilidad-low-code.md",
+    "conflict-files-obsidian-git.md",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Attachments/mexingsof03_act1.jpeg",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Attachments/mexingsof03_act1 1.jpeg",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Attachments",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_03/mexingsof03_act3.docx",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_03",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_02/mexingsof03_act2.docx",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_02",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_01/mexingsof03_act1.md",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_01/mexingsof03_act1.docx",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_01/attachments/Pasted image 20251214221544.png",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_01/attachments/Pasted image 20251214221454.png",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_01/attachments/Pasted image 20251214221449.png",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_01/attachments/Pasted image 20251214220504.png",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_01/attachments/Pasted image 20251214221313.png",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_01/attachments/Pasted image 20251214221250.png",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_01/attachments/Pasted image 20251214221119.png",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_01/attachments/Pasted image 20251214220350.png",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_01/attachments",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_01/Untitled.md",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_01/Actividad-01-MiguelChavez.md",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_01",
+    "README.md",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/018-contexto-low-code.md",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/017-Resumen-3.md",
     "FrontEnd-Masters/04-Build-Ai-agent/03-Single-Turn-Evals.md",
-    "conflict-files-obsidian-git.md",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/016-Webgme-funcionaledidas-avanzadas.md",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/015-Plataforma-case-webgme-metamodelado.md",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Books/es_a-guide-to-calculating-the-roi-of-application-lifecycle-management-tools.pdf",
@@ -274,7 +319,6 @@
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/010-Contexto-de-plataformas-ing-software.md",
     "FrontEnd-Masters/04-Build-Ai-agent/02-Tool-Calling.md",
     "FrontEnd-Masters/04-Build-Ai-agent/course.md",
-    "FrontEnd-Masters/04-Build-Ai-agent/attachments/Pasted image 20251202124103.png",
     "FrontEnd-Masters/04-Build-Ai-agent/attachments",
     "FrontEnd-Masters/04-Build-Ai-agent/01-Intro-to-Agents.md",
     "FrontEnd-Masters/04-Build-Ai-agent/09-HITL.md",
@@ -282,27 +326,6 @@
     "FrontEnd-Masters/04-Build-Ai-agent/07-Web-Search-Context-Management.md",
     "FrontEnd-Masters/04-Build-Ai-agent/06-File-System-Tools.md",
     "FrontEnd-Masters/04-Build-Ai-agent/05-Multi-turn-Evals.md",
-    "FrontEnd-Masters/04-Build-Ai-agent/04-The-Agent-Loop.md",
-    "FrontEnd-Masters/04-Build-Ai-agent/01-Notes.md",
-    "FrontEnd-Masters/04-Build-Ai-agent",
-    "FrontEnd-Masters/03-intro-node-v3/Untitled.md",
-    "FrontEnd-Masters/03-intro-node-v3/18-Software-testing-concept.md",
-    "FrontEnd-Masters/03-intro-node-v3/19-Unit-testing-with-jest.md",
-    "FrontEnd-Masters/03-intro-node-v3",
-    "FrontEnd-Masters/02-Complete-intro-CompSci",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Books/Plataforma de Desarrollo de Software.pdf",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Books",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Agenda/Copia de Plataforma de Desarrollo de Software MODAM(31755).pdf",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Agenda",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Actividad-01/attachments/dfd_diagram.png",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Actividad-01/mexingsof07_act1.docx",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/attachments/Pasted image 20251121152222.png",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/attachments/Pasted image 20251120150332.png",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/attachments/Pasted image 20251120144231.png",
-    "FrontEnd-Masters/01-Last-Algorithim/attachments/Pasted image 20251118104558.png",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Attachments/mexingsof07_act1 3.png",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Attachments/mexingsof07_act1.png",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Attachments/mexingsof07_act1 2.png",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Attachments/mexingsof07_act1 1.png"
+    "FrontEnd-Masters/04-Build-Ai-agent/04-The-Agent-Loop.md"
   ]
 }

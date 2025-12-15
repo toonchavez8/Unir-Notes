@@ -71,12 +71,12 @@ A continuación se presentan varias herramientas utilizadas para gestionar histo
 
 ### Tabla Comparativa General
 
-|Plataforma|Enfoque principal|Características destacadas|
-|---|---|---|
-|**Jira + Agile User Story Map**|Gestión de tareas y proyectos|Extensión para story maps, priorización visual, colaboración.|
-|**CardBoard**|Story mapping visual|Colaboración, planificación ágil, interfaz intuitiva.|
-|**StoriesOnBoard**|User Story Mapping|Visión del producto, descomposición de historias, soporte para releases.|
-|**Avion**|Product planning|Roadmaps basados en historias, priorización y estructura clara.|
+| Plataforma                      | Enfoque principal             | Características destacadas                                               |
+| ------------------------------- | ----------------------------- | ------------------------------------------------------------------------ |
+| **Jira + Agile User Story Map** | Gestión de tareas y proyectos | Extensión para story maps, priorización visual, colaboración.            |
+| **CardBoard**                   | Story mapping visual          | Colaboración, planificación ágil, interfaz intuitiva.                    |
+| **StoriesOnBoard**              | User Story Mapping            | Visión del producto, descomposición de historias, soporte para releases. |
+| **Avion**                       | Product planning              | Roadmaps basados en historias, priorización y estructura clara.          |
 
 ---
 
