@@ -296,21 +296,14 @@ A continuación se presenta el mapeo de historias de usuario para el sistema Spr
 
 ### Diferencias Clave Entre MVP Y Versión Actual
 
-| Aspecto | MVP | Versión Actual |
-
-|---------|-----|----------------|
-
+| Aspecto          | MVP                          | Versión Actual                                                             |
+| ---------------- | ---------------------------- | -------------------------------------------------------------------------- |
 | **Propietarios** | CRUD básico, búsqueda simple | CRUD completo con paginación, validaciones avanzadas, mensajes de feedback |
-
-| **Mascotas** | No incluido | CRUD completo, tipos predefinidos, validaciones de fechas y nombres únicos |
-
-| **Visitas** | No incluido | Gestión completa de visitas con historial por mascota |
-
-| **Veterinarios** | Solo visualización simple | Listado paginado con especialidades, API REST |
-
-| **UX/UI** | Básica sin feedback | Mensajes de confirmación y error, paginación, navegación mejorada |
-
-| **Validaciones** | Mínimas | Exhaustivas en todos los formularios |
+| **Mascotas**     | No incluido                  | CRUD completo, tipos predefinidos, validaciones de fechas y nombres únicos |
+| **Visitas**      | No incluido                  | Gestión completa de visitas con historial por mascota                      |
+| **Veterinarios** | Solo visualización simple    | Listado paginado con especialidades, API REST                              |
+| **UX/UI**        | Básica sin feedback          | Mensajes de confirmación y error, paginación, navegación mejorada          |
+| **Validaciones** | Mínimas                      | Exhaustivas en todos los formularios                                       |
 
 ---
 
