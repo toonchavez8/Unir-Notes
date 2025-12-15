@@ -3789,6 +3789,7 @@ Isolation
 Infinitely
 Isolates
 Inbox
+Ilustrativo
 Emocional
 Edward
 Expone
@@ -7675,6 +7676,9 @@ Eviction
 Emotional
 Extending
 Ephemeral
+Ensamblador
+Enfrentar
+Empresarial
 Historia
 Howard
 Habilidades
@@ -15511,6 +15515,12 @@ deny
 days
 deployments
 drafting
+deuda
+dibujos
+declarativa
+disruptivas
+declarativo
+drag
 La
 Linea
 Las
@@ -19030,6 +19040,8 @@ Lets
 Live
 Loses
 Limits
+LCAP
+Legibilidad
 hace
 habilidad
 humano
@@ -27061,6 +27073,9 @@ rejected
 retrieval
 randomness
 random
+representativa
+revoluci
+representativo
 la
 los
 las
@@ -30714,6 +30729,7 @@ lots
 lose
 letting
 liability
+leve
 sentimientos
 sugiere
 ser
@@ -34983,6 +34999,9 @@ sent
 serverless
 semi
 specializing
+subconjunto
+sistematizar
+sistematizan
 tiempo
 tiene
 tica
@@ -38848,6 +38867,8 @@ trail
 teach
 triage
 timing
+taxonom
+talento
 Siglo
 Self
 Se
@@ -42661,6 +42682,10 @@ Seed
 Shell
 Sandboxed
 Seccomp
+Spira
+STEM
+Similitudes
+Shadow
 Plat
 Pir
 Payne
@@ -46583,6 +46608,13 @@ Phone
 Prioritized
 Plug
 Prerequisites
+Programmers
+Productividad
+Platform
+Propuesta
+Previenen
+Pantallas
+Perfiles
 Todo
 Thorndike
 Todos
@@ -50284,6 +50316,9 @@ Tavily
 Transformers
 Training
 Takes
+Transformar
+Talento
+Taxonom
 aprendizaje
 ala
 aspectos
@@ -54672,6 +54707,11 @@ approval
 assess
 aggregates
 approving
+abstraer
+asistidas
+artificial
+audiencias
+accesibilidad
 una
 un
 unas
@@ -58378,6 +58418,7 @@ untrusted
 uncertain
 urgent
 urgency
+universalmente
 base
 biol
 bienestar
@@ -62059,6 +62100,8 @@ benefit
 bombs
 backdoors
 blowing
+buscado
+bridos
 emocional
 emociones
 en
@@ -66447,6 +66490,12 @@ escalating
 evolution
 educator
 extending
+elevar
+encaja
+ecosistema
+ejes
+espectro
+evolutivo
 que
 quien
 quiere
@@ -77751,6 +77800,12 @@ portfolio
 passionate
 protocols
 primitives
+panorama
+planteamiento
+posiciona
+popularizaci
+populariza
+portable
 clave
 coment
 capacidad
@@ -82563,6 +82618,11 @@ charge
 calendar
 customer
 composable
+cartera
+conformes
+cercanos
+consultora
+centrales
 Nic
 Necesidades
 No
@@ -86038,6 +86098,7 @@ NEVER
 Natural
 Navigate
 Notification
+Nube
 maco
 motivar
 menes
@@ -90035,6 +90096,10 @@ modelLimits
 margin
 manifests
 monitoring
+metamodelado
+mnem
+mezclan
+modelando
 Arist
 Abraham
 Adem
@@ -94120,6 +94185,11 @@ Approval
 Architectures
 Approve
 Along
+Antecedentes
+Aportes
+Actualidad
+Asistido
+Automatizan
 importancia
 inteligencia
 intelectivos
@@ -98357,6 +98427,7 @@ intentional
 industries
 irreversible
 inbox
+ideales
 formaci
 factores
 fortalezas
@@ -102094,6 +102165,7 @@ fork
 facing
 feeds
 finance
+foco
 Utiliza
 Una
 Uno
@@ -109551,6 +109623,17 @@ Devin
 Destructive
 Date
 Delegatable
+Departamentos
+Destacados
+Dashboards
+Decoradores
+Democratizaci
+Desaf
+Devs
+Democratizan
+Disminuyen
+Developer
+Despliegues
 Wechsler
 Wayne
 WhatsApp
@@ -113029,6 +113112,7 @@ Wiring
 Want
 Were
 Who
+WebGME
 no
 nos
 nuestro
@@ -120410,6 +120494,11 @@ Mechanism
 Mandatory
 Mobile
 Moss
+Modelar
+Martin
+MVPs
+Mantenibilidad
+Mixto
 Gardner
 Goleman
 Generan
@@ -123754,6 +123843,9 @@ Generic
 Graceful
 Giving
 Granularity
+Gartner
+Gobernanza
+Generado
 Formula
 Feedback
 Francis
@@ -127303,6 +127395,10 @@ Forbidden
 Four
 Firecracker
 Filesystem
+Forrester
+Forbes
+Fijo
+Favorecen
 otras
 of
 on
@@ -130858,6 +130954,7 @@ ourselves
 orchestrate
 occasionally
 orchestration
+optimizaci
 Crea
 Cociente
 Con
@@ -134828,6 +134925,13 @@ Concerns
 Calibration
 Channels
 Comfortable
+Cubiertas
+CodeBeamer
+Ceros
+Citizen
+Contraste
+Compatibilidad
+Combinan
 vida
 viene
 va
@@ -138366,6 +138470,8 @@ vibes
 visibility
 visualization
 variation
+validaciones
+viables
 Reuven
 REA
 Re
@@ -145810,6 +145916,8 @@ Bing
 Bloat
 Batch
 Batched
+Bamboo
+Brecha
 Kama
 KPI
 Kurt
@@ -149234,6 +149342,7 @@ Keys
 Known
 Keyboard
 Keeps
+Kabot
 gicos
 gica
 generan
@@ -152814,6 +152923,7 @@ generations
 generator
 gVisor
 grants
+gobernanza
 Ofrecen
 Orientaci
 Ordena
@@ -156307,6 +156417,7 @@ Observability
 Orchestrated
 Obvious
 Overall
+OutSystems
 Vergüenza
 Valores
 Vision
@@ -159817,6 +159928,8 @@ Validation
 Visualization
 Very
 Vendor
+Visibilidad
+Visualizadores
 yo
 ya
 you

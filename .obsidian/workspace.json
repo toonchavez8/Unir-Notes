@@ -6,6 +6,63 @@
       {
         "id": "4096db34fe282b63",
         "type": "tabs",
+        "dimension": 75.55012224938875,
+        "children": [
+          {
+            "id": "5c8f75d68bbf84af",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/018-contexto-low-code.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "018-contexto-low-code"
+            }
+          },
+          {
+            "id": "c1f88ef6175e2387",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/019-valor-utilidad-low-code.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "019-valor-utilidad-low-code"
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "b4423cb9d4d8363c",
+        "type": "tabs",
+        "dimension": 24.449877750611243,
         "children": [
           {
             "id": "b9c8fd2f0822f5b8",
@@ -13,7 +70,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FrontEnd-Masters/04-Build-Ai-agent/03-Single-Turn-Evals.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,35 +85,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "03-Single-Turn-Evals"
-            }
-          },
-          {
-            "id": "dac47a646158d108",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
+              "title": "README"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -224,11 +256,14 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "dac47a646158d108",
+  "active": "c1f88ef6175e2387",
   "lastOpenFiles": [
+    "README.md",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/019-valor-utilidad-low-code.md",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/018-contexto-low-code.md",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/017-Resumen-3.md",
     "FrontEnd-Masters/04-Build-Ai-agent/03-Single-Turn-Evals.md",
     "conflict-files-obsidian-git.md",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/017-Resumen-3.md",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/016-Webgme-funcionaledidas-avanzadas.md",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/015-Plataforma-case-webgme-metamodelado.md",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Books/es_a-guide-to-calculating-the-roi-of-application-lifecycle-management-tools.pdf",
@@ -253,9 +288,6 @@
     "FrontEnd-Masters/03-intro-node-v3/Untitled.md",
     "FrontEnd-Masters/03-intro-node-v3/18-Software-testing-concept.md",
     "FrontEnd-Masters/03-intro-node-v3/19-Unit-testing-with-jest.md",
-    "FrontEnd-Masters/03-intro-node-v3/17-updating-cli-cmds.md",
-    "FrontEnd-Masters/03-intro-node-v3/16-Crup-filtering-removing.md",
-    "FrontEnd-Masters/03-intro-node-v3/15-Crud-methods.md",
     "FrontEnd-Masters/03-intro-node-v3",
     "FrontEnd-Masters/02-Complete-intro-CompSci",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Books/Plataforma de Desarrollo de Software.pdf",
