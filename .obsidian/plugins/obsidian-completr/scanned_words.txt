@@ -15531,6 +15531,10 @@ detallaremos
 descargues
 destacables
 demas
+dedicada
+delimitar
+disposiciones
+die
 La
 Linea
 Las
@@ -27101,6 +27105,7 @@ requiri
 reforz
 respalda
 resalt
+realic
 la
 los
 las
@@ -35033,6 +35038,7 @@ sale
 sacar
 seleccion
 segmentaci
+sirvi
 tiempo
 tiene
 tica
@@ -38901,6 +38907,8 @@ timing
 taxonom
 talento
 tolerante
+tableta
+tomadas
 Siglo
 Self
 Se
@@ -46657,6 +46665,7 @@ Precondiciones
 Postcondiciones
 Petclinic
 Pantalla
+Posteriormente
 Todo
 Thorndike
 Todos
@@ -54769,6 +54778,7 @@ aprend
 aladas
 aplicaron
 adjunto
+abrumador
 una
 un
 unas
@@ -58477,6 +58487,7 @@ urgent
 urgency
 universalmente
 utilizaron
+utilic
 base
 biol
 bienestar
@@ -62164,6 +62175,8 @@ basarte
 bird
 breadcrumbs
 bosquej
+bocetos
+bocetaje
 emocional
 emociones
 en
@@ -66571,6 +66584,9 @@ exitosas
 ejemplar
 evidencian
 elegidas
+extrayendo
+explorando
+exportado
 que
 quien
 quiere
@@ -77896,6 +77912,8 @@ pude
 perro
 predefinida
 pasada
+planteando
+propuestas
 clave
 coment
 capacidad
@@ -82727,6 +82745,9 @@ compartirlas
 complet
 consumi
 correspond
+comenc
+cumpliera
+conocia
 Nic
 Necesidades
 No
