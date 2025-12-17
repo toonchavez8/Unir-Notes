@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiSquareDashedBottomCode",
       "LiAsteriskSquare",
       "LiSchool",
       "LiMonitorSmartphone",
-      "LiActivitySquare",
-      "LiArchive"
+      "LiActivitySquare"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -84,5 +84,9 @@
   "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software": {
     "iconName": "LiAsteriskSquare",
     "iconColor": "#6600cc"
+  },
+  "Dev_Challenges": {
+    "iconName": "LiSquareDashedBottomCode",
+    "iconColor": "#53f38b"
   }
 }
