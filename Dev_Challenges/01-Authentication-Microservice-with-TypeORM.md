@@ -135,9 +135,9 @@ Follow the steps below to complete your authentication microservice.
 
 ### Step 7: Create Authentication Controller
 
-- [ ] Create file: `src/controllers/auth.controller.ts`
+- [x] Create file: `src/controllers/auth.controller.ts`
 
-- [ ] Plan to implement controller methods:
+- [x] Plan to implement controller methods:
 
   - `register` - Handles POST `/api/auth/register` requests
 
@@ -145,7 +145,7 @@ Follow the steps below to complete your authentication microservice.
 
 ### Step 8: Implement Register Controller
 
-- [ ] In `register` method, plan to:
+- [x] In `register` method, plan to:
 
   - Extract `username`, `email`, `password` from request body
 
@@ -163,7 +163,7 @@ Follow the steps below to complete your authentication microservice.
 
 ### Step 9: Implement Login Controller
 
-- [ ] In `login` method, plan to:
+- [x] In `login` method, plan to:
 
   - Extract `email` and `password` from request body
 
@@ -185,9 +185,9 @@ Follow the steps below to complete your authentication microservice.
 
 ### Step 10: Create Authentication Routes
 
-- [ ] Create file: `src/routes/auth.routes.ts`
+- [x] Create file: `src/routes/auth.routes.ts`
 
-- [ ] Plan to:
+- [x] Plan to:
 
   - Import Express Router
 
@@ -201,15 +201,15 @@ Follow the steps below to complete your authentication microservice.
 
 ### Step 11: Update Main Server File
 
-- [ ] Open `src/index.ts`
+- [x] Open `src/index.ts`
 
-- [ ] Import the auth routes
+- [x] Import the auth routes
 
-- [ ] Mount the routes at `/api/auth` prefix
+- [x] Mount the routes at `/api/auth` prefix
 
-- [ ] Remove or comment out test endpoints (GET `/users`, GET `/users/:id`)
+- [x] Remove or comment out test endpoints (GET `/users`, GET `/users/:id`)
 
-- [ ] Keep the root GET `/` endpoint for health checks
+- [x] Keep the root GET `/` endpoint for health checks
 
 ---
 
@@ -275,43 +275,43 @@ Follow the steps below to complete your authentication microservice.
 
 ### Step 16: Manual Testing Preparation
 
-- [ ] Ensure database is running and accessible
+- [x] Ensure database is running and accessible
 
-- [ ] Verify all environment variables are set
+- [x] Verify all environment variables are set
 
-- [ ] Run the development server using `npm run dev`
+- [x] Run the development server using `npm run dev`
 
-- [ ] Check console for any startup errors
+- [x] Check console for any startup errors
 
 ### Step 17: Test User Registration
 
-- [ ] Use Postman, Thunder Client, or curl to test
+- [x] Use Postman, Thunder Client, or curl to test
 
-- [ ] Send POST request to `http://localhost:3000/api/auth/register`
+- [x] Send POST request to `http://localhost:3000/api/auth/register`
 
-- [ ] Include JSON body with username, email, password
+- [x] Include JSON body with username, email, password
 
-- [ ] Verify 201 response with userId
+- [x] Verify 201 response with userId
 
-- [ ] Try registering with same email (should get 409 Conflict)
+- [x] Try registering with same email (should get 409 Conflict)
 
-- [ ] Try with missing fields (should get 400 Bad Request)
+- [x] Try with missing fields (should get 400 Bad Request)
 
 ### Step 18: Test User Login
 
-- [ ] Send POST request to `http://localhost:3000/api/auth/login`
+- [x] Send POST request to `http://localhost:3000/api/auth/login`
 
-- [ ] Include JSON body with email and password (use registered user)
+- [x] Include JSON body with email and password (use registered user)
 
-- [ ] Verify 200 response with valid JWT token
+- [x] Verify 200 response with valid JWT token
 
-- [ ] Try with wrong password (should get 401 Unauthorized)
+- [x] Try with wrong password (should get 401 Unauthorized)
 
-- [ ] Try with non-existent email (should get 401 Unauthorized)
+- [x] Try with non-existent email (should get 401 Unauthorized)
 
 ### Step 19: Verify JWT Token
 
-- [ ] Copy the accessToken from login response
+- [x] Copy the accessToken from login response
 
 - [ ] Decode it using jwt.io to verify payload contains id and email
 
@@ -321,11 +321,11 @@ Follow the steps below to complete your authentication microservice.
 
 ### Step 20: Database Verification
 
-- [ ] Connect to your database using a database client
+- [x] Connect to your database using a database client
 
-- [ ] Query the User table
+- [x] Query the User table
 
-- [ ] Verify that:
+- [x] Verify that:
 
   - Users are created with UUID ids
 
