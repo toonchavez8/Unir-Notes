@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "0b768a230254b253",
+            "id": "88c616a3a5189807",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-02/mexissi05_act2.md",
+                "file": "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_01/Actividad-01-MiguelChavez.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,19 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "mexissi05_act2"
-            }
-          },
-          {
-            "id": "88c616a3a5189807",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_01/attachments/Pasted image 20251214220221.png"
-              },
-              "icon": "lucide-image",
-              "title": "Pasted image 20251214220221"
+              "title": "Actividad-01-MiguelChavez"
             }
           }
         ]
@@ -209,6 +197,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "vscode-editor:Create Code File": false,
       "bases:Create new base": false,
       "obisidian-note-linker:Note Linker": false,
       "quick-tagger:Add tag to current note": false,
@@ -229,10 +218,17 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "0b768a230254b253",
+  "active": "88c616a3a5189807",
   "lastOpenFiles": [
-    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-02/Attachments/mexissi05_act2.png",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/011-Valor-y-utilidad.md",
+    "Untitled.canvas",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_02/mexingsof03_act2.docx",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_01/attachments/Pasted image 20251214220221.png",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_01/Actividad-01-MiguelChavez.pdf",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_01/Actividad-01-MiguelChavez.docx",
+    "Epam/02-css-layouts/01-CSS-preprocessors.md",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-02/mexissi05_act2.md",
+    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-02/Attachments/mexissi05_act2.png",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-02/mexissi05_act2.docx",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-02/Attachments/mexissi05_act2 3.png",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-02/Attachments/mexissi05_act2 2.png",
@@ -242,12 +238,8 @@
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_01/~WRL0958.tmp",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_01/~WRD0946.tmp",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_01/~WRD0942.tmp",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_01/Actividad-01-MiguelChavez.pdf",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_01/msoA886.tmp",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_01/~WRL0708.tmp",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_01/~WRD0692.tmp",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_01/~WRL3900.tmp",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_01/attachments/Pasted image 20251214220221.png",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_01/Actividad-01-MiguelChavez.md",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_01/attachments/Pasted image 20251215165756.png",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_01/attachments/Pasted image 20251215164913.png",
@@ -257,7 +249,6 @@
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/019-valor-utilidad-low-code.md",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/018-contexto-low-code.md",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_01/Untitled.md",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/011-Valor-y-utilidad.md",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/010-Contexto-de-plataformas-ing-software.md",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/008-Plataformas-para-hitorias-usuarios.md",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/017-Resumen-3.md",
@@ -274,7 +265,6 @@
     "conflict-files-obsidian-git.md",
     "FrontEnd-Masters/04-Build-Ai-agent/course.md",
     "FrontEnd-Masters/04-Build-Ai-agent/09-HITL.md",
-    "FrontEnd-Masters/04-Build-Ai-agent/08-Shell-Tool.md",
-    "FrontEnd-Masters/04-Build-Ai-agent/07-Web-Search-Context-Management.md"
+    "FrontEnd-Masters/04-Build-Ai-agent/08-Shell-Tool.md"
   ]
 }
