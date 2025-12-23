@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "b4ede501a4487add",
+        "id": "83f1a7b7134e502e",
         "type": "tabs",
-        "dimension": 52.976190476190474,
+        "dimension": 72.12962962962963,
         "children": [
           {
-            "id": "43f4e65fbe66078a",
+            "id": "c1f88ef6175e2387",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/024-Principales-plataformas aceleradoras.md",
+                "file": "FrontEnd-Masters/05-Hard-parts-of-servers-node/01-node-overview.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -29,16 +29,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "024-Principales-plataformas aceleradoras"
+              "title": "01-node-overview"
             }
           },
           {
-            "id": "d0b246aa41999aca",
+            "id": "b5975bdb91ec4277",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/025-Principales-plataformas aceleradoras-jhipster.md",
+                "file": "FrontEnd-Masters/05-Hard-parts-of-servers-node/11-Req-res-with-node.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -53,16 +53,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "025-Principales-plataformas aceleradoras-jhipster"
+              "title": "11-Req-res-with-node"
             }
           },
           {
-            "id": "dd5be90c68d2ab39",
+            "id": "1488f097aebf74d0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/026-resumen-04.md",
+                "file": "FrontEnd-Masters/05-Hard-parts-of-servers-node/12-Express-Q-and-A.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -77,19 +77,43 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "026-resumen-04"
+              "title": "12-Express-Q-and-A"
+            }
+          },
+          {
+            "id": "d5385d8364181865",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "FrontEnd-Masters/05-Hard-parts-of-servers-node/13-Preparing-for-httpRequestobject.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "13-Preparing-for-httpRequestobject"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       },
       {
-        "id": "642ecce23bef20ad",
+        "id": "4096db34fe282b63",
         "type": "tabs",
-        "dimension": 47.023809523809526,
+        "dimension": 27.870370370370374,
         "children": [
           {
-            "id": "88c616a3a5189807",
+            "id": "5c8f75d68bbf84af",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -148,7 +172,7 @@
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
-                "extraContext": true,
+                "extraContext": false,
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
@@ -169,7 +193,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 378.5,
+    "width": 240.5,
     "collapsed": true
   },
   "right": {
@@ -232,23 +256,23 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/016-Alcance-proceso de gestion.md",
+                "file": "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Actividad_02/mexissi01_act2.docx",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 016-Alcance-proceso de gestion"
+              "title": "Outline of mexissi01_act2"
             }
           },
           {
-            "id": "40fa87d1b8198c6a",
+            "id": "488ed5c54d6f83e9",
             "type": "leaf",
             "state": {
-              "type": "mermaid-toolbar-view",
+              "type": "git-view",
               "state": {},
-              "icon": "trident-custom",
-              "title": "Mermaid Toolbar"
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ],
@@ -261,7 +285,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "vscode-editor:Create Code File": false,
       "bases:Create new base": false,
       "obisidian-note-linker:Note Linker": false,
       "quick-tagger:Add tag to current note": false,
@@ -279,12 +302,34 @@
       "obsidian-git:Open Git source control": false,
       "callout-manager:Insert Callout": false,
       "omnisearch:Omnisearch": false,
-      "mermaid-tools:Open Mermaid Toolbar": false
+      "mermaid-tools:Open Mermaid Toolbar": false,
+      "vscode-editor:Create Code File": false
     }
   },
-  "active": "dd5be90c68d2ab39",
+  "active": "d5385d8364181865",
   "lastOpenFiles": [
+    "FrontEnd-Masters/05-Hard-parts-of-servers-node/12-Express-Q-and-A.md",
+    "FrontEnd-Masters/05-Hard-parts-of-servers-node/13-Preparing-for-httpRequestobject.md",
     "README.md",
+    "FrontEnd-Masters/05-Hard-parts-of-servers-node/11-Req-res-with-node.md",
+    "FrontEnd-Masters/05-Hard-parts-of-servers-node/01-node-overview.md",
+    "FrontEnd-Masters/05-Hard-parts-of-servers-node/02-js-node-and-the-pc.md",
+    "FrontEnd-Masters/05-Hard-parts-of-servers-node/03-Executing-js-code-review.md",
+    "FrontEnd-Masters/05-Hard-parts-of-servers-node/04-executing-node-code.md",
+    "FrontEnd-Masters/05-Hard-parts-of-servers-node/05-Calling-node-with-js.md",
+    "FrontEnd-Masters/05-Hard-parts-of-servers-node/06-Calling-methods-in-node.md",
+    "FrontEnd-Masters/05-Hard-parts-of-servers-node/07-Calling-a-func-under-the-hood.md",
+    "FrontEnd-Masters/05-Hard-parts-of-servers-node/08-Creating-server-under-the-hood.md",
+    "FrontEnd-Masters/05-Hard-parts-of-servers-node/09-creating-a-server-summery.md",
+    "FrontEnd-Masters/05-Hard-parts-of-servers-node/10-Node-Q-and-A.md",
+    "FrontEnd-Masters/05-Hard-parts-of-servers-node/Books/Hard-Parts-Servers-Node.pdf",
+    "FrontEnd-Masters/05-Hard-parts-of-servers-node/Books/Unconfirmed 456336.crdownload",
+    "FrontEnd-Masters/05-Hard-parts-of-servers-node/Books",
+    "FrontEnd-Masters/05-Hard-parts-of-servers-node/New folder",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/018-contexto-low-code.md",
+    "Dev_Challenges/01-Authentication-Microservice-with-TypeORM.md",
+    "FrontEnd-Masters/05-Hard-parts-of-servers-node",
+    "Untitled.canvas",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/026-resumen-04.md",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/025-Principales-plataformas aceleradoras-jhipster.md",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/024-Principales-plataformas aceleradoras.md",
@@ -292,44 +337,23 @@
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/022-pp-lowcode-no-code-oss.md",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/021-principales-plataformas-low-code-nocode-practica.md",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/020-principales-plataformas-low-code-no-code.md",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/019-valor-utilidad-low-code.md",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_01/Actividad-01-MiguelChavez.md",
-    "conflict-files-obsidian-git.md",
-    "Dev_Challenges/01-Authentication-Microservice-with-TypeORM.md",
     "Dev_Challenges",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/011-Valor-y-utilidad.md",
-    "Untitled.canvas",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_02/mexingsof03_act2.docx",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_01/attachments/Pasted image 20251214220221.png",
+    "conflict-files-obsidian-git.md",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_01/Actividad-01-MiguelChavez.pdf",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_01/Actividad-01-MiguelChavez.docx",
-    "Epam/02-css-layouts/01-CSS-preprocessors.md",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-02/mexissi05_act2.md",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-02/Attachments/mexissi05_act2.png",
-    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-02/mexissi05_act2.docx",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-02/Attachments/mexissi05_act2 3.png",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-02/Attachments/mexissi05_act2 2.png",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-02/Attachments/mexissi05_act2 1.png",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-02/Attachments",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_01/mexingsof03_act1.md",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_01/~WRL0958.tmp",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_01/~WRD0946.tmp",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_01/~WRD0942.tmp",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_01/msoA886.tmp",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_01/attachments/Pasted image 20251215165756.png",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_01/attachments/Pasted image 20251215164913.png",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_01/attachments/Pasted image 20251215162710.png",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_01/attachments/Pasted image 20251215162658.png",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_01/attachments/Pasted image 20251215161634.png",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/018-contexto-low-code.md",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_01/Untitled.md",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/010-Contexto-de-plataformas-ing-software.md",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/008-Plataformas-para-hitorias-usuarios.md",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/017-Resumen-3.md",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/016-Webgme-funcionaledidas-avanzadas.md",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/015-Plataforma-case-webgme-metamodelado.md",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/014-Plataformas-case-Papryus.md",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/013-Plataformas-computer-aided-swe.md",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/012-Plataformas-applicaiton-lifecycle-management.md"
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Attachments/mexingsof03_act1.jpeg",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Attachments"
   ]
 }
