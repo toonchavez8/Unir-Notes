@@ -322,3 +322,5 @@ Las plataformas aceleradoras:
     
 
 ## MicroTest
+
+[[026-resumen-04]]
