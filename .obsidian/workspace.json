@@ -6,6 +6,87 @@
       {
         "id": "b4ede501a4487add",
         "type": "tabs",
+        "dimension": 52.976190476190474,
+        "children": [
+          {
+            "id": "43f4e65fbe66078a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/024-Principales-plataformas aceleradoras.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "024-Principales-plataformas aceleradoras"
+            }
+          },
+          {
+            "id": "d0b246aa41999aca",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/025-Principales-plataformas aceleradoras-jhipster.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "025-Principales-plataformas aceleradoras-jhipster"
+            }
+          },
+          {
+            "id": "dd5be90c68d2ab39",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/026-resumen-04.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "026-resumen-04"
+            }
+          }
+        ],
+        "currentTab": 2
+      },
+      {
+        "id": "642ecce23bef20ad",
+        "type": "tabs",
+        "dimension": 47.023809523809526,
         "children": [
           {
             "id": "88c616a3a5189807",
@@ -13,7 +94,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_01/Actividad-01-MiguelChavez.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,50 +109,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Actividad-01-MiguelChavez"
-            }
-          },
-          {
-            "id": "fe72923c5b166588",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
-            }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "86cd1f4892bf4d6d",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "05f1142d3d971823",
-            "type": "leaf",
-            "state": {
-              "type": "docx-view",
-              "state": {
-                "file": "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-02/mexissi05_act2.docx"
-              },
-              "icon": "lucide-file",
-              "title": "mexissi05_act2"
+              "title": "README"
             }
           }
         ]
@@ -131,7 +169,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 378.5
+    "width": 378.5,
+    "collapsed": true
   },
   "right": {
     "id": "a25b807ad639ff42",
@@ -243,8 +282,17 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "fe72923c5b166588",
+  "active": "dd5be90c68d2ab39",
   "lastOpenFiles": [
+    "README.md",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/026-resumen-04.md",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/025-Principales-plataformas aceleradoras-jhipster.md",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/024-Principales-plataformas aceleradoras.md",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/023-low-code-no-code-oss-demo.md",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/022-pp-lowcode-no-code-oss.md",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/021-principales-plataformas-low-code-nocode-practica.md",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/020-principales-plataformas-low-code-no-code.md",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/019-valor-utilidad-low-code.md",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_01/Actividad-01-MiguelChavez.md",
     "conflict-files-obsidian-git.md",
     "Dev_Challenges/01-Authentication-Microservice-with-TypeORM.md",
@@ -273,24 +321,15 @@
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_01/attachments/Pasted image 20251215162710.png",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_01/attachments/Pasted image 20251215162658.png",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_01/attachments/Pasted image 20251215161634.png",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/019-valor-utilidad-low-code.md",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/018-contexto-low-code.md",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_01/Untitled.md",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/010-Contexto-de-plataformas-ing-software.md",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/008-Plataformas-para-hitorias-usuarios.md",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/017-Resumen-3.md",
-    "README.md",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/016-Webgme-funcionaledidas-avanzadas.md",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/015-Plataforma-case-webgme-metamodelado.md",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/014-Plataformas-case-Papryus.md",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/013-Plataformas-computer-aided-swe.md",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/012-Plataformas-applicaiton-lifecycle-management.md",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/009-Resumen-02.md",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/000-Presentacion.md",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/001-Contexto-de-las-plataformas.md",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Actividad-01/mexingsof07_act1.md",
-    "FrontEnd-Masters/04-Build-Ai-agent/course.md",
-    "FrontEnd-Masters/04-Build-Ai-agent/09-HITL.md",
-    "FrontEnd-Masters/04-Build-Ai-agent/08-Shell-Tool.md"
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/012-Plataformas-applicaiton-lifecycle-management.md"
   ]
 }
