@@ -6,7 +6,7 @@
       {
         "id": "83f1a7b7134e502e",
         "type": "tabs",
-        "dimension": 72.12962962962963,
+        "dimension": 72.10965435041716,
         "children": [
           {
             "id": "c1f88ef6175e2387",
@@ -86,7 +86,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FrontEnd-Masters/05-Hard-parts-of-servers-node/13-Preparing-for-httpRequestobject.md",
+                "file": "StudyGuides/007-Nextjs-patterns.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -101,7 +101,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "13-Preparing-for-httpRequestobject"
+              "title": "007-Nextjs-patterns"
             }
           }
         ],
@@ -110,7 +110,7 @@
       {
         "id": "4096db34fe282b63",
         "type": "tabs",
-        "dimension": 27.870370370370374,
+        "dimension": 27.890345649582837,
         "children": [
           {
             "id": "5c8f75d68bbf84af",
@@ -193,8 +193,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240.5,
-    "collapsed": true
+    "width": 240.5
   },
   "right": {
     "id": "a25b807ad639ff42",
@@ -308,8 +307,9 @@
   },
   "active": "d5385d8364181865",
   "lastOpenFiles": [
-    "FrontEnd-Masters/05-Hard-parts-of-servers-node/12-Express-Q-and-A.md",
     "FrontEnd-Masters/05-Hard-parts-of-servers-node/13-Preparing-for-httpRequestobject.md",
+    "StudyGuides/007-Nextjs-patterns.md",
+    "FrontEnd-Masters/05-Hard-parts-of-servers-node/12-Express-Q-and-A.md",
     "README.md",
     "FrontEnd-Masters/05-Hard-parts-of-servers-node/11-Req-res-with-node.md",
     "FrontEnd-Masters/05-Hard-parts-of-servers-node/01-node-overview.md",
@@ -342,7 +342,6 @@
     "conflict-files-obsidian-git.md",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_01/Actividad-01-MiguelChavez.pdf",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_01/Actividad-01-MiguelChavez.docx",
-    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-02/mexissi05_act2.md",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-02/Attachments/mexissi05_act2.png",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-02/Attachments/mexissi05_act2 3.png",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-02/Attachments/mexissi05_act2 2.png",
