@@ -9,12 +9,12 @@
         "dimension": 72.10965435041716,
         "children": [
           {
-            "id": "c1f88ef6175e2387",
+            "id": "17c8f87c2c5a2c09",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FrontEnd-Masters/05-Hard-parts-of-servers-node/01-node-overview.md",
+                "file": "FrontEnd-Masters/05-Hard-parts-of-servers-node/27-importing-with-fs.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -29,16 +29,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "01-node-overview"
+              "title": "27-importing-with-fs"
             }
           },
           {
-            "id": "b5975bdb91ec4277",
+            "id": "5e046d52073f35ee",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FrontEnd-Masters/05-Hard-parts-of-servers-node/11-Req-res-with-node.md",
+                "file": "FrontEnd-Masters/05-Hard-parts-of-servers-node/28-reading-from-the-fs.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -53,16 +53,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "11-Req-res-with-node"
+              "title": "28-reading-from-the-fs"
             }
           },
           {
-            "id": "1488f097aebf74d0",
+            "id": "e86adcf93bc7f009",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FrontEnd-Masters/05-Hard-parts-of-servers-node/12-Express-Q-and-A.md",
+                "file": "FrontEnd-Masters/05-Hard-parts-of-servers-node/29-Call-Stack-intro.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -77,16 +77,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "12-Express-Q-and-A"
+              "title": "29-Call-Stack-intro"
             }
           },
           {
-            "id": "b038000858850676",
+            "id": "3b21d9616a3ff510",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FrontEnd-Masters/05-Hard-parts-of-servers-node/13-Parsing-HttpRequestObject.md",
+                "file": "FrontEnd-Masters/05-Hard-parts-of-servers-node/30-FS-Q&A.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -101,35 +101,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "13-Parsing-HttpRequestObject"
-            }
-          },
-          {
-            "id": "9ff47da5d721b80f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "FrontEnd-Masters/05-Hard-parts-of-servers-node/14-http-response-in-node.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "14-http-response-in-node"
+              "title": "30-FS-Q&A"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       },
       {
         "id": "4096db34fe282b63",
@@ -217,8 +193,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240.5,
-    "collapsed": true
+    "width": 240.5
   },
   "right": {
     "id": "a25b807ad639ff42",
@@ -330,40 +305,40 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "9ff47da5d721b80f",
+  "active": "3b21d9616a3ff510",
   "lastOpenFiles": [
     "README.md",
+    "FrontEnd-Masters/05-Hard-parts-of-servers-node/30-FS-Q&A.md",
+    "FrontEnd-Masters/05-Hard-parts-of-servers-node/29-Call-Stack-intro.md",
+    "FrontEnd-Masters/05-Hard-parts-of-servers-node/28-reading-from-the-fs.md",
+    "FrontEnd-Masters/05-Hard-parts-of-servers-node/27-importing-with-fs.md",
+    "FrontEnd-Masters/05-Hard-parts-of-servers-node/26-intro-Fs-api.md",
+    "FrontEnd-Masters/05-Hard-parts-of-servers-node/25-Node-Event-handling.md",
+    "FrontEnd-Masters/05-Hard-parts-of-servers-node/24-Modifying-the-node-server.md",
+    "FrontEnd-Masters/05-Hard-parts-of-servers-node/23-Event-handling-node.md",
+    "FrontEnd-Masters/05-Hard-parts-of-servers-node/22-Error-handling-node.md",
+    "FrontEnd-Masters/05-Hard-parts-of-servers-node/21-node-pair-programing-setup.md",
+    "FrontEnd-Masters/05-Hard-parts-of-servers-node/20-Local-node-dev.md",
+    "FrontEnd-Masters/05-Hard-parts-of-servers-node/19-cloud-node-dev.md",
+    "FrontEnd-Masters/05-Hard-parts-of-servers-node/18-js-node-dev.md",
+    "FrontEnd-Masters/05-Hard-parts-of-servers-node/17-Require-in-node.md",
+    "FrontEnd-Masters/05-Hard-parts-of-servers-node/16-Response-Headers.md",
+    "FrontEnd-Masters/05-Hard-parts-of-servers-node/15-Http-Res-Req-Q-and-A.md",
     "FrontEnd-Masters/05-Hard-parts-of-servers-node/14-http-response-in-node.md",
     "FrontEnd-Masters/05-Hard-parts-of-servers-node/13-Parsing-HttpRequestObject.md",
     "FrontEnd-Masters/05-Hard-parts-of-servers-node/12-Express-Q-and-A.md",
-    "StudyGuides/007-Nextjs-patterns.md",
-    "FrontEnd-Masters/05-Hard-parts-of-servers-node/13-Preparing-for-httpRequestobject.md",
     "FrontEnd-Masters/05-Hard-parts-of-servers-node/11-Req-res-with-node.md",
     "FrontEnd-Masters/05-Hard-parts-of-servers-node/01-node-overview.md",
-    "FrontEnd-Masters/05-Hard-parts-of-servers-node/02-js-node-and-the-pc.md",
-    "FrontEnd-Masters/05-Hard-parts-of-servers-node/03-Executing-js-code-review.md",
-    "FrontEnd-Masters/05-Hard-parts-of-servers-node/04-executing-node-code.md",
-    "FrontEnd-Masters/05-Hard-parts-of-servers-node/05-Calling-node-with-js.md",
-    "FrontEnd-Masters/05-Hard-parts-of-servers-node/06-Calling-methods-in-node.md",
-    "FrontEnd-Masters/05-Hard-parts-of-servers-node/07-Calling-a-func-under-the-hood.md",
-    "FrontEnd-Masters/05-Hard-parts-of-servers-node/08-Creating-server-under-the-hood.md",
     "FrontEnd-Masters/05-Hard-parts-of-servers-node/09-creating-a-server-summery.md",
-    "FrontEnd-Masters/05-Hard-parts-of-servers-node/10-Node-Q-and-A.md",
+    "FrontEnd-Masters/05-Hard-parts-of-servers-node/04-executing-node-code.md",
+    "FrontEnd-Masters/05-Hard-parts-of-servers-node/13-Preparing-for-httpRequestobject.md",
+    "StudyGuides/007-Nextjs-patterns.md",
     "FrontEnd-Masters/05-Hard-parts-of-servers-node/Books/Hard-Parts-Servers-Node.pdf",
     "FrontEnd-Masters/05-Hard-parts-of-servers-node/Books/Unconfirmed 456336.crdownload",
     "FrontEnd-Masters/05-Hard-parts-of-servers-node/Books",
     "FrontEnd-Masters/05-Hard-parts-of-servers-node/New folder",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/018-contexto-low-code.md",
-    "Dev_Challenges/01-Authentication-Microservice-with-TypeORM.md",
     "FrontEnd-Masters/05-Hard-parts-of-servers-node",
     "Untitled.canvas",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/026-resumen-04.md",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/025-Principales-plataformas aceleradoras-jhipster.md",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/024-Principales-plataformas aceleradoras.md",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/023-low-code-no-code-oss-demo.md",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/022-pp-lowcode-no-code-oss.md",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/021-principales-plataformas-low-code-nocode-practica.md",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/020-principales-plataformas-low-code-no-code.md",
     "Dev_Challenges",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_01/Actividad-01-MiguelChavez.pdf",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_01/Actividad-01-MiguelChavez.docx",

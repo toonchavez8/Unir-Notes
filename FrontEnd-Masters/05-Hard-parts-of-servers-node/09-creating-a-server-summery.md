@@ -124,7 +124,7 @@ When Node.js auto-runs a callback, it inserts data needed to handle the event:
 # Node.js Event Pattern (Generalized)
 
 ```mermaid
-flowchart LR
+flowchart TD
     A[Background Feature Activity] --> B[Node.js Runtime]
     B --> C[Auto-run Callback Function]
     C --> D[Incoming Data Object]
