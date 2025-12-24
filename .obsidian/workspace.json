@@ -81,12 +81,12 @@
             }
           },
           {
-            "id": "d5385d8364181865",
+            "id": "b038000858850676",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "StudyGuides/007-Nextjs-patterns.md",
+                "file": "FrontEnd-Masters/05-Hard-parts-of-servers-node/13-Parsing-HttpRequestObject.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -101,11 +101,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "007-Nextjs-patterns"
+              "title": "13-Parsing-HttpRequestObject"
+            }
+          },
+          {
+            "id": "9ff47da5d721b80f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "FrontEnd-Masters/05-Hard-parts-of-servers-node/14-http-response-in-node.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "14-http-response-in-node"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       },
       {
         "id": "4096db34fe282b63",
@@ -193,7 +217,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240.5
+    "width": 240.5,
+    "collapsed": true
   },
   "right": {
     "id": "a25b807ad639ff42",
@@ -305,12 +330,14 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "d5385d8364181865",
+  "active": "9ff47da5d721b80f",
   "lastOpenFiles": [
-    "FrontEnd-Masters/05-Hard-parts-of-servers-node/13-Preparing-for-httpRequestobject.md",
-    "StudyGuides/007-Nextjs-patterns.md",
-    "FrontEnd-Masters/05-Hard-parts-of-servers-node/12-Express-Q-and-A.md",
     "README.md",
+    "FrontEnd-Masters/05-Hard-parts-of-servers-node/14-http-response-in-node.md",
+    "FrontEnd-Masters/05-Hard-parts-of-servers-node/13-Parsing-HttpRequestObject.md",
+    "FrontEnd-Masters/05-Hard-parts-of-servers-node/12-Express-Q-and-A.md",
+    "StudyGuides/007-Nextjs-patterns.md",
+    "FrontEnd-Masters/05-Hard-parts-of-servers-node/13-Preparing-for-httpRequestobject.md",
     "FrontEnd-Masters/05-Hard-parts-of-servers-node/11-Req-res-with-node.md",
     "FrontEnd-Masters/05-Hard-parts-of-servers-node/01-node-overview.md",
     "FrontEnd-Masters/05-Hard-parts-of-servers-node/02-js-node-and-the-pc.md",
@@ -337,9 +364,7 @@
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/022-pp-lowcode-no-code-oss.md",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/021-principales-plataformas-low-code-nocode-practica.md",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/020-principales-plataformas-low-code-no-code.md",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_01/Actividad-01-MiguelChavez.md",
     "Dev_Challenges",
-    "conflict-files-obsidian-git.md",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_01/Actividad-01-MiguelChavez.pdf",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_01/Actividad-01-MiguelChavez.docx",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-02/Attachments/mexissi05_act2.png",
