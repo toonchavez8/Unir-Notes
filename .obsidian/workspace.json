@@ -9,12 +9,12 @@
         "dimension": 52.976190476190474,
         "children": [
           {
-            "id": "43f4e65fbe66078a",
+            "id": "c3f9a2f0983a9368",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/024-Principales-plataformas aceleradoras.md",
+                "file": "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/015-Pruebas-de-Seguridad-Basadas-en Riesgo.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -29,16 +29,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "024-Principales-plataformas aceleradoras"
+              "title": "015-Pruebas-de-Seguridad-Basadas-en Riesgo"
             }
           },
           {
-            "id": "d0b246aa41999aca",
+            "id": "09da43563c25afc6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/025-Principales-plataformas aceleradoras-jhipster.md",
+                "file": "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/016-Revision-de-codigo.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -53,16 +53,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "025-Principales-plataformas aceleradoras-jhipster"
+              "title": "016-Revision-de-codigo"
             }
           },
           {
-            "id": "dd5be90c68d2ab39",
+            "id": "afc431e6f14e8198",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/026-resumen-04.md",
+                "file": "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/017-Pruebas-de-penetracion.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -77,16 +77,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "026-resumen-04"
+              "title": "017-Pruebas-de-penetracion"
             }
           },
           {
-            "id": "630fb35dd55e6cad",
+            "id": "eb38733f22f9f2cd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/018-Operaciones-De-Seguridad.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -101,11 +101,59 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
+              "title": "018-Operaciones-De-Seguridad"
+            }
+          },
+          {
+            "id": "52efcbbb861b06d8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/019-Revisión-Externa-De-Seguridad.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "019-Revisión-Externa-De-Seguridad"
+            }
+          },
+          {
+            "id": "85c2978b925d8d6d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/020-Resumen-03.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "020-Resumen-03"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       },
       {
         "id": "642ecce23bef20ad",
@@ -119,7 +167,7 @@
               "type": "markdown",
               "state": {
                 "file": "README.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -306,9 +354,24 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "630fb35dd55e6cad",
+  "active": "85c2978b925d8d6d",
   "lastOpenFiles": [
+    "README.md",
+    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/020-Resumen-03.md",
+    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/019-Revisión-Externa-De-Seguridad.md",
+    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/018-Operaciones-De-Seguridad.md",
+    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/017-Pruebas-de-penetracion.md",
+    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/016-Revision-de-codigo.md",
+    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/015-Pruebas-de-Seguridad-Basadas-en Riesgo.md",
+    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/attachments/Pasted image 20251225110407.png",
+    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/attachments/Pasted image 20251225110404.png",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/024-Principales-plataformas aceleradoras.md",
+    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/014-Resumen-2.md",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/025-Principales-plataformas aceleradoras-jhipster.md",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/026-resumen-04.md",
+    "Untitled.canvas",
+    "Educative-io/Java-Masterclass/006-Variables.md",
+    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/001-El-problema-de-seguridad-software.md",
     "conflict-files-obsidian-git.md",
     "StudyGuides/007-Nextjs-patterns.md",
     "FrontEnd-Masters/05-Hard-parts-of-servers-node/Books/Hard-Parts-Servers-Node.pdf",
@@ -324,21 +387,8 @@
     "FrontEnd-Masters/05-Hard-parts-of-servers-node/22-Error-handling-node.md",
     "FrontEnd-Masters/05-Hard-parts-of-servers-node/21-node-pair-programing-setup.md",
     "FrontEnd-Masters/05-Hard-parts-of-servers-node/20-Local-node-dev.md",
-    "FrontEnd-Masters/05-Hard-parts-of-servers-node/19-cloud-node-dev.md",
-    "FrontEnd-Masters/05-Hard-parts-of-servers-node/18-js-node-dev.md",
-    "FrontEnd-Masters/05-Hard-parts-of-servers-node/17-Require-in-node.md",
-    "FrontEnd-Masters/05-Hard-parts-of-servers-node/16-Response-Headers.md",
-    "FrontEnd-Masters/05-Hard-parts-of-servers-node/15-Http-Res-Req-Q-and-A.md",
-    "FrontEnd-Masters/05-Hard-parts-of-servers-node/14-http-response-in-node.md",
-    "FrontEnd-Masters/05-Hard-parts-of-servers-node/13-Preparing-for-httpRequestobject.md",
-    "FrontEnd-Masters/05-Hard-parts-of-servers-node/13-Parsing-HttpRequestObject.md",
-    "FrontEnd-Masters/05-Hard-parts-of-servers-node/12-Express-Q-and-A.md",
-    "FrontEnd-Masters/05-Hard-parts-of-servers-node/11-Req-res-with-node.md",
-    "FrontEnd-Masters/05-Hard-parts-of-servers-node/10-Node-Q-and-A.md",
-    "FrontEnd-Masters/05-Hard-parts-of-servers-node/07-Calling-a-func-under-the-hood.md",
     "FrontEnd-Masters/05-Hard-parts-of-servers-node",
     "Dev_Challenges",
-    "Untitled.canvas",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_02/mexingsof03_act2.docx",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_01/attachments/Pasted image 20251214220221.png",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_01/Actividad-01-MiguelChavez.pdf",
@@ -352,8 +402,6 @@
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_01/~WRL0958.tmp",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_01/attachments/Pasted image 20251215165756.png",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_01/attachments/Pasted image 20251215164913.png",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_01/attachments/Pasted image 20251215162710.png",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_01/attachments/Pasted image 20251215162658.png",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_01/attachments/Pasted image 20251215161634.png"
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_01/attachments/Pasted image 20251215162710.png"
   ]
 }
