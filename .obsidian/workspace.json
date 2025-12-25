@@ -79,9 +79,33 @@
               "icon": "lucide-file",
               "title": "026-resumen-04"
             }
+          },
+          {
+            "id": "630fb35dd55e6cad",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       },
       {
         "id": "642ecce23bef20ad",
@@ -282,54 +306,54 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "dd5be90c68d2ab39",
+  "active": "630fb35dd55e6cad",
   "lastOpenFiles": [
-    "README.md",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/026-resumen-04.md",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/025-Principales-plataformas aceleradoras-jhipster.md",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/024-Principales-plataformas aceleradoras.md",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/023-low-code-no-code-oss-demo.md",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/022-pp-lowcode-no-code-oss.md",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/021-principales-plataformas-low-code-nocode-practica.md",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/020-principales-plataformas-low-code-no-code.md",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/019-valor-utilidad-low-code.md",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_01/Actividad-01-MiguelChavez.md",
     "conflict-files-obsidian-git.md",
-    "Dev_Challenges/01-Authentication-Microservice-with-TypeORM.md",
+    "StudyGuides/007-Nextjs-patterns.md",
+    "FrontEnd-Masters/05-Hard-parts-of-servers-node/Books/Hard-Parts-Servers-Node.pdf",
+    "FrontEnd-Masters/05-Hard-parts-of-servers-node/Books",
+    "FrontEnd-Masters/05-Hard-parts-of-servers-node/30-FS-Q&A.md",
+    "FrontEnd-Masters/05-Hard-parts-of-servers-node/29-Call-Stack-intro.md",
+    "FrontEnd-Masters/05-Hard-parts-of-servers-node/28-reading-from-the-fs.md",
+    "FrontEnd-Masters/05-Hard-parts-of-servers-node/27-importing-with-fs.md",
+    "FrontEnd-Masters/05-Hard-parts-of-servers-node/26-intro-Fs-api.md",
+    "FrontEnd-Masters/05-Hard-parts-of-servers-node/25-Node-Event-handling.md",
+    "FrontEnd-Masters/05-Hard-parts-of-servers-node/24-Modifying-the-node-server.md",
+    "FrontEnd-Masters/05-Hard-parts-of-servers-node/23-Event-handling-node.md",
+    "FrontEnd-Masters/05-Hard-parts-of-servers-node/22-Error-handling-node.md",
+    "FrontEnd-Masters/05-Hard-parts-of-servers-node/21-node-pair-programing-setup.md",
+    "FrontEnd-Masters/05-Hard-parts-of-servers-node/20-Local-node-dev.md",
+    "FrontEnd-Masters/05-Hard-parts-of-servers-node/19-cloud-node-dev.md",
+    "FrontEnd-Masters/05-Hard-parts-of-servers-node/18-js-node-dev.md",
+    "FrontEnd-Masters/05-Hard-parts-of-servers-node/17-Require-in-node.md",
+    "FrontEnd-Masters/05-Hard-parts-of-servers-node/16-Response-Headers.md",
+    "FrontEnd-Masters/05-Hard-parts-of-servers-node/15-Http-Res-Req-Q-and-A.md",
+    "FrontEnd-Masters/05-Hard-parts-of-servers-node/14-http-response-in-node.md",
+    "FrontEnd-Masters/05-Hard-parts-of-servers-node/13-Preparing-for-httpRequestobject.md",
+    "FrontEnd-Masters/05-Hard-parts-of-servers-node/13-Parsing-HttpRequestObject.md",
+    "FrontEnd-Masters/05-Hard-parts-of-servers-node/12-Express-Q-and-A.md",
+    "FrontEnd-Masters/05-Hard-parts-of-servers-node/11-Req-res-with-node.md",
+    "FrontEnd-Masters/05-Hard-parts-of-servers-node/10-Node-Q-and-A.md",
+    "FrontEnd-Masters/05-Hard-parts-of-servers-node/07-Calling-a-func-under-the-hood.md",
+    "FrontEnd-Masters/05-Hard-parts-of-servers-node",
     "Dev_Challenges",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/011-Valor-y-utilidad.md",
     "Untitled.canvas",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_02/mexingsof03_act2.docx",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_01/attachments/Pasted image 20251214220221.png",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_01/Actividad-01-MiguelChavez.pdf",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_01/Actividad-01-MiguelChavez.docx",
-    "Epam/02-css-layouts/01-CSS-preprocessors.md",
-    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-02/mexissi05_act2.md",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-02/Attachments/mexissi05_act2.png",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-02/mexissi05_act2.docx",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-02/Attachments/mexissi05_act2 3.png",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-02/Attachments/mexissi05_act2 2.png",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-02/Attachments/mexissi05_act2 1.png",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-02/Attachments",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_01/mexingsof03_act1.md",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_01/~WRL0958.tmp",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_01/~WRD0946.tmp",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_01/~WRD0942.tmp",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_01/msoA886.tmp",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_01/attachments/Pasted image 20251215165756.png",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_01/attachments/Pasted image 20251215164913.png",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_01/attachments/Pasted image 20251215162710.png",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_01/attachments/Pasted image 20251215162658.png",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_01/attachments/Pasted image 20251215161634.png",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/018-contexto-low-code.md",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_01/Untitled.md",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/010-Contexto-de-plataformas-ing-software.md",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/008-Plataformas-para-hitorias-usuarios.md",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/017-Resumen-3.md",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/016-Webgme-funcionaledidas-avanzadas.md",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/015-Plataforma-case-webgme-metamodelado.md",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/014-Plataformas-case-Papryus.md",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/013-Plataformas-computer-aided-swe.md",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/012-Plataformas-applicaiton-lifecycle-management.md"
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_01/attachments/Pasted image 20251215161634.png"
   ]
 }
