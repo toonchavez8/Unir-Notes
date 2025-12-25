@@ -3182,6 +3182,7 @@ Interactivo
 Idiomas
 Importaci
 Importar
+Iterativa
 Emocional
 Edward
 Expone
@@ -6402,6 +6403,7 @@ Extensibilidad
 Esqueletos
 ElasticSearch
 Enumerados
+Escala
 Historia
 Howard
 Habilidades
@@ -34581,6 +34583,7 @@ Saldo
 Show
 Swagger
 Soportadas
+STEM
 Plat
 Pir
 Payne
@@ -37764,6 +37767,7 @@ Providers
 Popularidad
 PostgreSQL
 Persistencia
+Poco
 Todo
 Thorndike
 Todos
@@ -40772,6 +40776,7 @@ TxY
 TGer
 Tel
 Tablas
+Taxonom
 aprendizaje
 ala
 aspectos
@@ -44484,6 +44489,7 @@ arquetipo
 agilizar
 aceleradora
 autogenerado
+atado
 una
 un
 unas
@@ -53973,6 +53979,8 @@ enumerados
 esqueleto
 esqueletos
 encajan
+exigido
+equilibrar
 que
 quien
 quiere
@@ -67027,6 +67035,9 @@ configuran
 cuadrante
 clasifica
 cach
+comprueban
+cualificados
+copilotos
 Nic
 Necesidades
 No
@@ -73242,6 +73253,7 @@ modelan
 multilingües
 monol
 mappers
+mantenible
 Arist
 Abraham
 Adem
@@ -76615,6 +76627,7 @@ Aceleradoras
 Aceleradora
 Abierto
 Activada
+Asistentes
 importancia
 inteligencia
 intelectivos
@@ -80178,6 +80191,7 @@ intuitivo
 intensivo
 instalables
 internacionalizaci
+interpretado
 formaci
 factores
 fortalezas
@@ -92129,6 +92143,7 @@ WSl
 Wikis
 WebRatio
 WebFlux
+Waterfall
 no
 nos
 nuestro
@@ -98261,6 +98276,7 @@ Marcada
 Monol
 Micronaut
 Mappers
+Mucho
 Gardner
 Goleman
 Generan
@@ -110123,6 +110139,8 @@ Consideraci
 Carpeta
 Creados
 Changelogs
+Crecimiento
+Cualquiera
 vida
 viene
 va
@@ -113004,6 +113022,8 @@ vendors
 videojuegos
 validan
 vendor
+verifican
+vocaciones
 Reuven
 REA
 Re
@@ -124843,6 +124863,7 @@ gJGV
 gvfcQQ
 gratuitas
 generador
+gestionada
 Ofrecen
 Orientaci
 Ordena
