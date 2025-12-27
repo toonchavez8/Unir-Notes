@@ -151,9 +151,33 @@
               "icon": "lucide-file",
               "title": "020-Resumen-03"
             }
+          },
+          {
+            "id": "c2dedac016597272",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       },
       {
         "id": "642ecce23bef20ad",
@@ -354,10 +378,11 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "85c2978b925d8d6d",
+  "active": "c2dedac016597272",
   "lastOpenFiles": [
-    "README.md",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/020-Resumen-03.md",
+    "conflict-files-obsidian-git.md",
+    "README.md",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/019-Revisión-Externa-De-Seguridad.md",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/018-Operaciones-De-Seguridad.md",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/017-Pruebas-de-penetracion.md",
@@ -372,7 +397,6 @@
     "Untitled.canvas",
     "Educative-io/Java-Masterclass/006-Variables.md",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/001-El-problema-de-seguridad-software.md",
-    "conflict-files-obsidian-git.md",
     "StudyGuides/007-Nextjs-patterns.md",
     "FrontEnd-Masters/05-Hard-parts-of-servers-node/Books/Hard-Parts-Servers-Node.pdf",
     "FrontEnd-Masters/05-Hard-parts-of-servers-node/Books",
