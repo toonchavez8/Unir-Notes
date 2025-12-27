@@ -15644,6 +15644,7 @@ Literals
 Lines
 Letra
 Logstash
+Libres
 hace
 habilidad
 humano
@@ -34715,6 +34716,8 @@ Solvers
 Severidad
 Secuencias
 Secundarios
+Snyk
+Segunda
 Plat
 Pir
 Payne
@@ -37907,6 +37910,8 @@ Propias
 Parrot
 Preferible
 Posteriores
+PQL
+Preferiblemente
 Todo
 Thorndike
 Todos
@@ -44654,6 +44659,8 @@ arquitect
 analizadores
 ajuste
 ajeno
+alterado
+ajena
 una
 un
 unas
@@ -67296,6 +67303,8 @@ ciberataque
 complementando
 condicionado
 clico
+clica
+complementarios
 Nic
 Necesidades
 No
@@ -80500,6 +80509,8 @@ intellectual
 inseguro
 imparcial
 imparcialidad
+inesperadas
+inestables
 formaci
 factores
 fortalezas
@@ -104419,6 +104430,7 @@ Falsos
 Fuzzer
 Forman
 Firmas
+Firma
 otras
 of
 on
@@ -125275,6 +125287,7 @@ gratuitas
 generador
 gestionada
 garantizan
+gris
 Ofrecen
 Orientaci
 Ordena
