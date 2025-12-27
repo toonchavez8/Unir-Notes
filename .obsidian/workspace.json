@@ -151,33 +151,9 @@
               "icon": "lucide-file",
               "title": "020-Resumen-03"
             }
-          },
-          {
-            "id": "c2dedac016597272",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
-            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       },
       {
         "id": "642ecce23bef20ad",
@@ -265,8 +241,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 378.5,
-    "collapsed": true
+    "width": 378.5
   },
   "right": {
     "id": "a25b807ad639ff42",
@@ -378,10 +353,10 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "c2dedac016597272",
+  "active": "b74e6b9aa2987edc",
   "lastOpenFiles": [
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/020-Resumen-03.md",
     "conflict-files-obsidian-git.md",
+    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/020-Resumen-03.md",
     "README.md",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/019-Revisión-Externa-De-Seguridad.md",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/018-Operaciones-De-Seguridad.md",
