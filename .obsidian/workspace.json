@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dev_Challenges/02-Fem-Typing-Speed-Test.md",
+                "file": "02-programacion-python/03-Programacion-basica.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "02-Fem-Typing-Speed-Test"
+              "title": "03-Programacion-basica"
             }
           }
         ]
@@ -88,8 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240.5,
-    "collapsed": true
+    "width": 240.5
   },
   "right": {
     "id": "a25b807ad639ff42",
@@ -203,8 +202,18 @@
   },
   "active": "3b21d9616a3ff510",
   "lastOpenFiles": [
-    "README.md",
+    "02-programacion-python/01-Introducion.md",
+    "02-programacion-python/02-Primeros-conceptos-en-python.md",
+    "Dev_Challenges/01-Authentication-Microservice-with-TypeORM.md",
     "Dev_Challenges/02-Fem-Typing-Speed-Test.md",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/001-Contexto-de-las-plataformas.md",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/003-Control-de-versiones.md",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/005-Contexto-de-las-plataformas.md",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/011-Valor-y-utilidad.md",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/010-Contexto-de-plataformas-ing-software.md",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/007-Principales-Plataformas-de-Requisitos.md",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/004-Resumen-1.md",
+    "README.md",
     "FrontEnd-Masters/05-Hard-parts-of-servers-node/30-FS-Q&A.md",
     "conflict-files-obsidian-git.md",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/attachments/Pasted image 20251225110407.png",
@@ -221,16 +230,6 @@
     "FrontEnd-Masters/05-Hard-parts-of-servers-node/26-intro-Fs-api.md",
     "FrontEnd-Masters/05-Hard-parts-of-servers-node/25-Node-Event-handling.md",
     "FrontEnd-Masters/05-Hard-parts-of-servers-node/24-Modifying-the-node-server.md",
-    "FrontEnd-Masters/05-Hard-parts-of-servers-node/23-Event-handling-node.md",
-    "FrontEnd-Masters/05-Hard-parts-of-servers-node/22-Error-handling-node.md",
-    "FrontEnd-Masters/05-Hard-parts-of-servers-node/21-node-pair-programing-setup.md",
-    "FrontEnd-Masters/05-Hard-parts-of-servers-node/20-Local-node-dev.md",
-    "FrontEnd-Masters/05-Hard-parts-of-servers-node/19-cloud-node-dev.md",
-    "FrontEnd-Masters/05-Hard-parts-of-servers-node/18-js-node-dev.md",
-    "FrontEnd-Masters/05-Hard-parts-of-servers-node/17-Require-in-node.md",
-    "FrontEnd-Masters/05-Hard-parts-of-servers-node/16-Response-Headers.md",
-    "FrontEnd-Masters/05-Hard-parts-of-servers-node/15-Http-Res-Req-Q-and-A.md",
-    "FrontEnd-Masters/05-Hard-parts-of-servers-node/14-http-response-in-node.md",
     "FrontEnd-Masters/05-Hard-parts-of-servers-node/Books/Hard-Parts-Servers-Node.pdf",
     "FrontEnd-Masters/05-Hard-parts-of-servers-node/Books/Unconfirmed 456336.crdownload",
     "FrontEnd-Masters/05-Hard-parts-of-servers-node/Books",
