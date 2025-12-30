@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "83f1a7b7134e502e",
+        "id": "d4339fceeaad1616",
         "type": "tabs",
         "children": [
           {
-            "id": "3b21d9616a3ff510",
+            "id": "373291263a17f0eb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02-programacion-python/03-Programacion-basica.md",
-                "mode": "preview",
+                "file": "Dev_Challenges/02-Fem-Typing-Speed-Test.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "03-Programacion-basica"
+              "title": "02-Fem-Typing-Speed-Test"
             }
           }
         ]
@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#unir",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -200,8 +200,9 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "3b21d9616a3ff510",
+  "active": "373291263a17f0eb",
   "lastOpenFiles": [
+    "02-programacion-python/03-Programacion-basica.md",
     "02-programacion-python/01-Introducion.md",
     "02-programacion-python/02-Primeros-conceptos-en-python.md",
     "Dev_Challenges/01-Authentication-Microservice-with-TypeORM.md",
@@ -229,7 +230,6 @@
     "FrontEnd-Masters/05-Hard-parts-of-servers-node/27-importing-with-fs.md",
     "FrontEnd-Masters/05-Hard-parts-of-servers-node/26-intro-Fs-api.md",
     "FrontEnd-Masters/05-Hard-parts-of-servers-node/25-Node-Event-handling.md",
-    "FrontEnd-Masters/05-Hard-parts-of-servers-node/24-Modifying-the-node-server.md",
     "FrontEnd-Masters/05-Hard-parts-of-servers-node/Books/Hard-Parts-Servers-Node.pdf",
     "FrontEnd-Masters/05-Hard-parts-of-servers-node/Books/Unconfirmed 456336.crdownload",
     "FrontEnd-Masters/05-Hard-parts-of-servers-node/Books",
