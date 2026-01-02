@@ -180,27 +180,17 @@ export default defineConfig({
 
 **Why each configuration choice:**
 
-| Option | Value | Reason |
-
-|--------|-------|--------|
-
-| `testDir: './e2e'` | Separate from unit tests | Clear separation of concerns; E2E tests have different patterns |
-
-| `fullyParallel: true` | Enabled | Speeds up test execution; each test is isolated |
-
-| `forbidOnly: !!process.env.CI` | CI-only | Prevents accidental `.only` commits breaking CI |
-
-| `retries: process.env.CI ? 2 : 0` | 2 on CI | Handles flaky network/timing issues in CI |
-
-| `baseURL` | localhost:3000 | Matches Next.js default dev server port |
-
-| `screenshot: 'only-on-failure'` | Failure only | Saves disk space; screenshots help debugging |
-
-| `trace: 'on-first-retry'` | First retry | Captures detailed timeline for flaky test analysis |
-
-| `webServer.command` | `npm run dev` | Auto-starts Next.js; no manual server management |
-
-| `webServer.reuseExistingServer` | Not on CI | Dev: reuse existing server; CI: fresh instance |
+| Option                            | Value                    | Reason                                                          |
+| --------------------------------- | ------------------------ | --------------------------------------------------------------- |
+| `testDir: './e2e'`                | Separate from unit tests | Clear separation of concerns; E2E tests have different patterns |
+| `fullyParallel: true`             | Enabled                  | Speeds up test execution; each test is isolated                 |
+| `forbidOnly: !!process.env.CI`    | CI-only                  | Prevents accidental `.only` commits breaking CI                 |
+| `retries: process.env.CI ? 2 : 0` | 2 on CI                  | Handles flaky network/timing issues in CI                       |
+| `baseURL`                         | localhost:3000           | Matches Next.js default dev server port                         |
+| `screenshot: 'only-on-failure'`   | Failure only             | Saves disk space; screenshots help debugging                    |
+| `trace: 'on-first-retry'`         | First retry              | Captures detailed timeline for flaky test analysis              |
+| `webServer.command`               | `npm run dev`            | Auto-starts Next.js; no manual server management                |
+| `webServer.reuseExistingServer`   | Not on CI                | Dev: reuse existing server; CI: fresh instance                  |
 
 #### Step 3: Create Test Directory Structure
 
@@ -412,25 +402,17 @@ export { expect };
 
 The results modal must not be dismissible by accident. Users often press Escape or click outside modals by habit, which would lose their test results and break the user experience.
 
-### Allowed Exit Methods
+### Allowed Exit Method
 
-| Action | Allowed | Implementation Location |
-
-|--------|---------|------------------------|
-
-| Click "Try Again" button | ✅ Yes | `ResultsModal.tsx` button onClick |
-
-| Click "New Passage" button | ✅ Yes | `ResultsModal.tsx` button onClick |
-
-| Press `Ctrl+R` (Reset) | ✅ Yes | `useKeyboardShortcuts` hook |
-
-| Press `Ctrl+N` (New Passage) | ✅ Yes | `useKeyboardShortcuts` hook |
-
-| Press `Escape` | ❌ No | Must be blocked |
-
-| Click backdrop/outside | ❌ No | Must be blocked |
-
-| Browser back button | ❌ No | Should be handled |
+| Action                       | Allowed | Implementation Location           |
+| ---------------------------- | ------- | --------------------------------- |
+| Click "Try Again" button     | ✅ Yes   | `ResultsModal.tsx` button onClick |
+| Click "New Passage" button   | ✅ Yes   | `ResultsModal.tsx` button onClick |
+| Press `Ctrl+R` (Reset)       | ✅ Yes   | `useKeyboardShortcuts` hook       |
+| Press `Ctrl+N` (New Passage) | ✅ Yes   | `useKeyboardShortcuts` hook       |
+| Press `Escape`               | ❌ No    | Must be blocked                   |
+| Click backdrop/outside       | ❌ No    | Must be blocked                   |
+| Browser back button          | ❌ No    | Should be handled                 |
 
 ### Current Implementation Analysis
 
@@ -738,17 +720,15 @@ useEffect(() => {
 
 ### Accessibility Considerations
 
-| Concern | Solution |
+| Concern | Solution 
 
-|---------|----------|
+|---------|----------|| Focus trapping | Modal should trap focus within itself using `inert` attribute on background content |
 
-| Focus trapping | Modal should trap focus within itself using `inert` attribute on background content |
+ Screen reader announcement | Use `role="dialog"` and `aria-modal="true"` |
 
-| Screen reader announcement | Use `role="dialog"` and `aria-modal="true"` |
+|Escape key expectation | Provide clear visual instruction that Escape doesn't close |
 
-| Escape key expectation | Provide clear visual instruction that Escape doesn't close |
-
-| Keyboard navigation | Ensure Tab cycles through modal buttons only |
+| eyboard navigation | Ensure Tab cycles through modal buttons only |
 
 **Proposed focus trap implementation**:
 
@@ -922,17 +902,12 @@ function getModalTextConfig(resultType: TestResultType): ModalTextConfig {
 
 **Why this design?**
 
-| Decision | Reason |
-
-|----------|--------|
-
+|Decision                                 | Reason                                       |
+| ---------------------------------------- | -------------------------------------------- |
 | Separate `deriveTestResultType` function | Single responsibility; testable in isolation |
-
-| Explicit type union | TypeScript ensures all cases are handled |
-
-| Config object pattern | Easy to add new result types or modify text |
-
-| Emoji as optional | Normal completions don't need celebration |
+| Explicit type union                      | TypeScript ensures all cases are handled     |
+| Config object pattern                    | Easy to add new result types or modify text  |
+| Emoji as optional                        | Normal completions don't need celebration    |
 
 #### 3.3 Usage in Component
 
@@ -1010,17 +985,12 @@ const textConfig = getModalTextConfig(resultType);
 
 #### 3.4 Edge Cases
 
-| Scenario | Handling |
-
-|----------|----------|
-
-| Statistics not yet loaded | Default to 'normal' type |
-
-| WPM is 0 (user didn't type) | Still show 'normal' - don't punish |
-
-| Tie with previous best | 'normal' (must beat, not match) |
-
-| Statistics cleared mid-session | Next test becomes 'baseline' |
+Scenario                       | Handling                           |
+| ------------------------------ | ---------------------------------- |
+| Statistics not yet loaded      | Default to 'normal' type           |
+| WPM is 0 (user didn't type)    | Still show 'normal' - don't punish |
+| Tie with previous best         | 'normal' (must beat, not match)    |
+| Statistics cleared mid-session | Next test becomes 'baseline'       |
 
 **Robust derivation with edge cases**:
 
@@ -1146,16 +1116,11 @@ className="absolute w-full h-full inset-0 z-20 flex flex-col items-center justif
 
 ### Why Session Storage (Not Local Storage)
 
-| Storage Type | Persistence | Use Case |
-
-|--------------|-------------|----------|
-
-| `sessionStorage` | Tab/window lifetime | ✅ Overlay state - resets on new session |
-
-| `localStorage` | Permanent until cleared | ❌ Would permanently hide overlay |
-
-| Cookie | Configurable expiry | ❌ Overkill for this use case |
-
+| Storage Type | Persistence | Use Case 
+|--------------|-------------|----------
+| `sessionStorage` | Tab/window lifetime | ✅ Overlay state - resets on new session 
+| `localStorage` | Permanent until cleared | ❌ Would permanently hide overlay 
+| Cookie | Configurable expiry | ❌ Overkill for this use case 
 | Memory (useState) | Component lifetime | ❌ Would reset on every navigation |
 
 **Why session-scoped storage is correct:**
@@ -1620,19 +1585,13 @@ test.describe('Results Modal Exit Prevention', () => {
 
 **Why each test exists:**
 
-| Test | Purpose |
-
-|------|---------|
-
-| Escape key test | Verifies accidental key press doesn't lose results |
-
-| Backdrop click test | Verifies mouse misclicks don't dismiss modal |
-
-| Back button test | Verifies browser navigation doesn't break flow |
-
-| Try Again test | Verifies legitimate exit path works |
-
-| New Passage test | Verifies legitimate exit path works |
+|Test                | Purpose                                            |
+| ------------------- | -------------------------------------------------- |
+| Escape key test     | Verifies accidental key press doesn't lose results |
+| Backdrop click test | Verifies mouse misclicks don't dismiss modal       |
+| Back button test    | Verifies browser navigation doesn't break flow     |
+| Try Again test      | Verifies legitimate exit path works                |
+| New Passage test    | Verifies legitimate exit path works                |
 
 ### 5.2 Modal Text Content Tests
 
@@ -1830,15 +1789,11 @@ test.describe('Results Modal Text Content', () => {
 
 **Why each test exists:**
 
-| Test | Purpose |
-
-|------|---------|
-
-| Baseline test | Verifies first-time user experience |
-
+| Test          | Purpose                                |
+| ------------- | -------------------------------------- |
+| Baseline test | Verifies first-time user experience    |
 | New best test | Verifies achievement recognition works |
-
-| Normal test | Verifies default state works correctly |
+| Normal test   | Verifies default state works correctly |
 
 ### 5.3 Overlay Behavior Tests
 
@@ -2131,23 +2086,14 @@ test.describe('Start Overlay Behavior', () => {
 **Why each test exists:**
 
 | Test | Purpose |
-
 |------|---------|
-
 | First visit test | Verifies onboarding experience |
-
 | Blur effect test | Verifies visual styling is applied |
-
 | Start button test | Verifies button dismissal works |
-
 | Typing dismissal test | Verifies auto-start behavior |
-
 | Retry persistence test | Verifies session storage works |
-
 | New passage persistence test | Verifies session storage works |
-
 | New session reset test | Verifies session scope is correct |
-
 | Blur coverage test | Verifies no visual cropping |
 
 ### 5.4 Keyboard Shortcut Tests
@@ -2382,23 +2328,15 @@ test.describe('Keyboard Shortcuts', () => {
 
 **Why each test exists:**
 
-| Test | Purpose |
-
-|------|---------|
-
-| Ctrl+R reset test | Verifies reset shortcut during typing |
-
-| Ctrl+N new passage test | Verifies passage change shortcut |
-
-| Ctrl+C cancel test | Verifies test cancellation works |
-
-| Ctrl+R in modal test | Verifies shortcut works in modal |
-
-| Ctrl+N in modal test | Verifies shortcut works in modal |
-
-| Enter in modal test | Verifies Enter doesn't accidentally close |
-
-| Shortcut hints test | Verifies UI shows available shortcuts |
+| Test                    | Purpose                                   |
+| ----------------------- | ----------------------------------------- |
+| Ctrl+R reset test       | Verifies reset shortcut during typing     |
+| Ctrl+N new passage test | Verifies passage change shortcut          |
+| Ctrl+C cancel test      | Verifies test cancellation works          |
+| Ctrl+R in modal test    | Verifies shortcut works in modal          |
+| Ctrl+N in modal test    | Verifies shortcut works in modal          |
+| Enter in modal test     | Verifies Enter doesn't accidentally close |
+| Shortcut hints test     | Verifies UI shows available shortcuts     |
 
 ---
 
@@ -2406,17 +2344,12 @@ test.describe('Keyboard Shortcuts', () => {
 
 For the Playwright tests to work, the following `data-testid` attributes must be added to components:
 
-| Component | Test ID | Element |
-
-|-----------|---------|---------|
-
-| PassageDisplay | `passage-text` | Container with passage text |
-
-| ResultsModal | `results-modal` | Modal container |
-
-| ResultsModal | `modal-backdrop` | Backdrop element |
-
-| StartOverlay | `start-overlay` | Overlay container |
+| Component      | Test ID          | Element                     |
+| -------------- | ---------------- | --------------------------- |
+| PassageDisplay | `passage-text`   | Container with passage text |
+| ResultsModal   | `results-modal`  | Modal container             |
+| ResultsModal   | `modal-backdrop` | Backdrop element            |
+| StartOverlay   | `start-overlay`  | Overlay container           |
 
 **Note**: These test IDs would need to be added to the actual components when implementing the tests.
 
