@@ -151,9 +151,33 @@
               "icon": "lucide-file",
               "title": "01-Authentication-Microservice-with-TypeORM"
             }
+          },
+          {
+            "id": "af8cf7770086e68a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       },
       {
         "id": "642ecce23bef20ad",
@@ -353,10 +377,14 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "85c2978b925d8d6d",
+  "active": "af8cf7770086e68a",
   "lastOpenFiles": [
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/020-Resumen-03.md",
+    "Dev_Challenges/01-Authentication-Microservice-with-TypeORM.md",
     "conflict-files-obsidian-git.md",
+    "StudyGuides/009-Advanced-Typescript.md",
+    "StudyGuides/008-vim-hotkeys.md",
+    "Dev_Challenges/02-Fem-Typing-Speed-Test.md",
+    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/020-Resumen-03.md",
     "README.md",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/019-Revisión-Externa-De-Seguridad.md",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/018-Operaciones-De-Seguridad.md",
@@ -382,10 +410,6 @@
     "FrontEnd-Masters/05-Hard-parts-of-servers-node/26-intro-Fs-api.md",
     "FrontEnd-Masters/05-Hard-parts-of-servers-node/25-Node-Event-handling.md",
     "FrontEnd-Masters/05-Hard-parts-of-servers-node/24-Modifying-the-node-server.md",
-    "FrontEnd-Masters/05-Hard-parts-of-servers-node/23-Event-handling-node.md",
-    "FrontEnd-Masters/05-Hard-parts-of-servers-node/22-Error-handling-node.md",
-    "FrontEnd-Masters/05-Hard-parts-of-servers-node/21-node-pair-programing-setup.md",
-    "FrontEnd-Masters/05-Hard-parts-of-servers-node/20-Local-node-dev.md",
     "FrontEnd-Masters/05-Hard-parts-of-servers-node",
     "Dev_Challenges",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_02/mexingsof03_act2.docx",

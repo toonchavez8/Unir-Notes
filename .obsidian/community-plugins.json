@@ -31,5 +31,6 @@
   "convert-url-to-iframe",
   "obsidian-frontmatter-tag-suggest",
   "hyperlink-remover",
-  "vscode-editor"
+  "vscode-editor",
+  "execute-code"
 ]
