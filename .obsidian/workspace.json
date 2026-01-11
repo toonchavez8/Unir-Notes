@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Class_Sessions/01-07-2026-Auth-NTLM-Kerberos.md",
+                "file": "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Actividad-02/mexingsof07_act2.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,37 +28,25 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "01-07-2026-Auth-NTLM-Kerberos"
+              "title": "mexingsof07_act2"
             }
           }
         ]
       },
       {
-        "id": "a89443b239149479",
+        "id": "d6ca77b11b8166f3",
         "type": "tabs",
         "children": [
           {
-            "id": "95be4b014f85fa65",
+            "id": "86bf9bc9a306fe26",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "docx-view",
               "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "file": "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Actividad-02/mexingsof07_act2.docx"
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "mexingsof07_act2"
             }
           }
         ]
@@ -233,14 +221,27 @@
   },
   "active": "7651c5b8a304bf96",
   "lastOpenFiles": [
-    "README.md",
+    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Actividad-02/mexingsof07_act2.docx",
+    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Actividad-02/mexingsof07_act2.md",
+    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-03/mexissi05_act3.md",
+    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-03/Rubrica.md",
+    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-03/mexissi05_act3.docx",
+    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-03/Attachments/mexissi05_act3 4.png",
+    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-03/Attachments/mexissi05_act3 3.png",
+    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-03/Attachments/mexissi05_act3 2.png",
+    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-03/Attachments/mexissi05_act3 1.png",
+    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-03/Attachments/mexissi05_act3.png",
+    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-03/Attachments",
+    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Actividad-03/mexingsof07_act3.docx",
+    "LeetCode/000-Prompt.md",
+    "Dev_Challenges/Ai-chatbot-whatapp.md",
+    "Dev_Challenges/asd.md",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Class_Sessions/01-07-2026-Auth-NTLM-Kerberos.md",
+    "README.md",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Classes",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Classes/01-06-2026-Ataques-al-Código.md",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Class_Sessions/attachments/Pasted image 20260109213619.png",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Class_Sessions/attachments",
-    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-03/mexissi05_act3.docx",
-    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-03/Rubrica.md",
     "Dev_Challenges/01-Authentication-Microservice-with-TypeORM.md",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/019-Revisión-Externa-De-Seguridad.md",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/018-Operaciones-De-Seguridad.md",
@@ -253,32 +254,18 @@
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_02/Attachments/mexingsof03_act2 5.png",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_02/Attachments/mexingsof03_act2 4.png",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_02/Attachments/mexingsof03_act2 3.png",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_02/Attachments/mexingsof03_act2 2.png",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_02/Attachments/mexingsof03_act2 1.png",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_02/Attachments/mexingsof03_act2.jpeg",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_02/Attachments/mexingsof03_act2.png",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_02/Attachments",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Actividad-02/mexingsof07_act2.docx",
-    "Dev_Challenges/asd.md",
     "conflict-files-obsidian-git.md",
     "StudyGuides/009-Advanced-Typescript.md",
     "StudyGuides/008-vim-hotkeys.md",
     "Dev_Challenges/02-Fem-Typing-Speed-Test.md",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/020-Resumen-03.md",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/attachments/Pasted image 20251225110407.png",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/024-Principales-plataformas aceleradoras.md",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/014-Resumen-2.md",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/025-Principales-plataformas aceleradoras-jhipster.md",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/026-resumen-04.md",
     "Untitled.canvas",
-    "Educative-io/Java-Masterclass/006-Variables.md",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/001-El-problema-de-seguridad-software.md",
-    "StudyGuides/007-Nextjs-patterns.md",
     "FrontEnd-Masters/05-Hard-parts-of-servers-node/Books/Hard-Parts-Servers-Node.pdf",
-    "FrontEnd-Masters/05-Hard-parts-of-servers-node/Books",
-    "FrontEnd-Masters/05-Hard-parts-of-servers-node/30-FS-Q&A.md",
-    "FrontEnd-Masters/05-Hard-parts-of-servers-node/29-Call-Stack-intro.md",
-    "FrontEnd-Masters/05-Hard-parts-of-servers-node",
-    "Dev_Challenges"
+    "FrontEnd-Masters/05-Hard-parts-of-servers-node/Books"
   ]
 }
