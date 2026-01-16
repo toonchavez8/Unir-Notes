@@ -1,19 +1,32 @@
 {
   "database": "Zotero",
-  "noteImportFolder": "",
+  "noteImportFolder": "*/citations_zotero",
   "pdfExportImageDPI": 120,
   "pdfExportImageFormat": "jpg",
   "pdfExportImageQuality": 90,
   "citeFormats": [
+    {
+      "name": "APA 7",
+      "format": "formatted-bibliography",
+      "cslStyle": "apa"
+    },
     {
       "name": "Format #1",
       "format": "pandoc",
       "cslStyle": "norsk-apa-manual"
     }
   ],
-  "exportFormats": [],
+  "exportFormats": [
+    {
+      "name": "Import #1",
+      "outputPathTemplate": "{{citekey}}.md",
+      "imageOutputPathTemplate": "{{citekey}}/",
+      "imageBaseNameTemplate": "image",
+      "cslStyle": "apa"
+    }
+  ],
   "citeSuggestTemplate": "[[{{citekey}}]]",
-  "openNoteAfterImport": false,
+  "openNoteAfterImport": true,
   "whichNotesToOpenAfterImport": "first-imported-note",
   "shouldConcat": false
 }

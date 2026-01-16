@@ -30,5 +30,7 @@
   "automatic-table-of-contents",
   "convert-url-to-iframe",
   "obsidian-frontmatter-tag-suggest",
-  "hyperlink-remover"
+  "hyperlink-remover",
+  "vscode-editor",
+  "execute-code"
 ]

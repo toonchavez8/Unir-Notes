@@ -3035,12 +3035,13 @@ var ObsidianLinksSettingTab = class extends import_obsidian6.PluginSettingTab {
         });
       });
     }
-    new import_obsidian6.Setting(containerEl).setName("Embed/Unembed").setDesc("").addToggle((toggle) => {
+    const settingembedUnembedLink = new import_obsidian6.Setting(containerEl).setName("Embed/Unembed").setDesc("").addToggle((toggle) => {
       toggle.setValue(this.plugin.settings.contexMenu.embedUnembedLink).onChange(async (value) => {
         this.plugin.settings.contexMenu.embedUnembedLink = value;
         await this.plugin.saveSettings();
       });
     });
+    this.setSettingHelpLink(settingembedUnembedLink, this.getFullDocUrl("embed--unembed-files"));
     new import_obsidian6.Setting(containerEl).setName("Delete").setDesc("").addToggle((toggle) => {
       toggle.setValue(this.plugin.settings.contexMenu.deleteLink).onChange(async (value) => {
         this.plugin.settings.contexMenu.deleteLink = value;
@@ -3528,7 +3529,10 @@ var ConvertLinkToWikilinkCommand = class extends CommandBase {
   }
   convertLinkToWikiLink(linkData, editor) {
     const link = linkData.type === 1 /* Markdown */ ? linkData.destination ? decodeURI(linkData.destination.content) : "" : linkData.destination;
-    const text = linkData.text ? linkData.text.content !== link ? "|" + linkData.text.content : "" : "";
+    let text = linkData.text ? linkData.text.content !== link ? "|" + linkData.text.content : "" : "";
+    if (linkData.destinationType === DestinationType.Image && linkData.imageDimensions) {
+      text = text + "|" + linkData.imageDimensions.width;
+    }
     const embededSymbol = linkData.embedded ? "!" : "";
     const rawLinkText = `${embededSymbol}[[${link}${text}]]`;
     editor.replaceRange(
