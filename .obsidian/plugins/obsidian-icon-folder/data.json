@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiKeyboard",
       "LiSquareDashedBottomCode",
       "LiAsteriskSquare",
       "LiSchool",
-      "LiMonitorSmartphone",
-      "LiActivitySquare"
+      "LiMonitorSmartphone"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -88,5 +88,9 @@
   "Dev_Challenges": {
     "iconName": "LiSquareDashedBottomCode",
     "iconColor": "#53f38b"
+  },
+  "Dev-Journel": {
+    "iconName": "LiKeyboard",
+    "iconColor": "#049a61"
   }
 }

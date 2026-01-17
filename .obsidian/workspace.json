@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dev_Challenges/asd.md",
+                "file": "Dev-Journel/Projects/01-Space-Tourism-Multi-Page.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,10 +28,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "asd"
+              "title": "01-Space-Tourism-Multi-Page"
+            }
+          },
+          {
+            "id": "9905e98198eb4df1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Dev-Journel/Projects/02-Alejandra-leyva.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "02-Alejandra-leyva"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -179,6 +204,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "vscode-editor:Create Code File": false,
       "bases:Create new base": false,
       "obisidian-note-linker:Note Linker": false,
       "quick-tagger:Add tag to current note": false,
@@ -199,9 +225,16 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "b74e6b9aa2987edc",
+  "active": "9905e98198eb4df1",
   "lastOpenFiles": [
-    "Untitled",
+    "Dev-Journel/Projects/01-Space-Tourism-Multi-Page.md",
+    "Dev-Journel/Projects/02-Alejandra-leyva.md",
+    "Templates/Project Template.md",
+    "Dev-Journel/Projects/00-template.md",
+    "Templates",
+    "Dev-Journel/Projects",
+    "Dev-Journel/Blog",
+    "Dev-Journel",
     "Dev_Challenges/Ai-chatbot-whatapp.md",
     "StudyGuides/006-Algorithams notes.md",
     "conflict-files-obsidian-git.md",
@@ -229,10 +262,6 @@
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_01/Actividad-01-MiguelChavez.pdf",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_01/attachments",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_01/Actividad-01-MiguelChavez.md",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_01/Actividad-01-MiguelChavez.docx",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Books/Plataforma de Desarrollo de Software.pdf",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Books/es_a-guide-to-calculating-the-roi-of-application-lifecycle-management-tools.pdf",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Agenda/Copia de Plataforma de Desarrollo de Software MODAM(31755).pdf",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/026-resumen-04.md",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/025-Principales-plataformas aceleradoras-jhipster.md",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/024-Principales-plataformas aceleradoras.md",
@@ -243,9 +272,6 @@
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/019-valor-utilidad-low-code.md",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/018-contexto-low-code.md",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/016-Webgme-funcionaledidas-avanzadas.md",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/017-Resumen-3.md",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/015-Plataforma-case-webgme-metamodelado.md",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/014-Plataformas-case-Papryus.md",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/013-Plataformas-computer-aided-swe.md"
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/017-Resumen-3.md"
   ]
 }
