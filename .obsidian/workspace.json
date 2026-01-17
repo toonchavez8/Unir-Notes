@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "StudyGuides/006-Algorithams notes.md",
+                "file": "Dev_Challenges/asd.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "006-Algorithams notes"
+              "title": "asd"
             }
           }
         ]
@@ -199,8 +199,11 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "e832c3524b62a47c",
+  "active": "b74e6b9aa2987edc",
   "lastOpenFiles": [
+    "Untitled",
+    "Dev_Challenges/Ai-chatbot-whatapp.md",
+    "StudyGuides/006-Algorithams notes.md",
     "conflict-files-obsidian-git.md",
     "StudyGuides/Git.md",
     "StudyGuides/009-Advanced-Typescript.md",
@@ -243,9 +246,6 @@
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/017-Resumen-3.md",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/015-Plataforma-case-webgme-metamodelado.md",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/014-Plataformas-case-Papryus.md",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/013-Plataformas-computer-aided-swe.md",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/011-Valor-y-utilidad.md",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/012-Plataformas-applicaiton-lifecycle-management.md",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/010-Contexto-de-plataformas-ing-software.md"
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/013-Plataformas-computer-aided-swe.md"
   ]
 }
