@@ -11,25 +11,27 @@
 
 {{Short 2–3 sentence description of what the project is and what it demonstrates.}}
 
+A portfolio for Foto-Journelist Alejandra Leyva to showcase her projects. It allows the Client to upload and create new pages based on her projects. The site allows for both `eng` and `esp` readability.  
+
 ---
 
 ## Objectives
 
-- {{Primary goal}}
+- Design the Portfolio
     
-- {{Secondary goal}}
+- Make it responsive and connect to a CMS
     
-- {{Any specific constraint or focus}}
+- Local language support for lang switching
 
 ---
 
 ## Tech Stack
 
-- {{HTML / CSS / JS / Frameworks}}
+- Next js, tailwind
     
-- {{Libraries or tools}}
+- Prismic IO CMS
     
-- {{Optional: Deployment}}
+- Deployed via Vercel
 
 ---
 
