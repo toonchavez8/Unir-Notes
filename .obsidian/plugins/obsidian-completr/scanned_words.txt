@@ -12812,6 +12812,7 @@ directions
 dFL
 dRFA
 dataPath
+dereference
 La
 Linea
 Las
@@ -18688,6 +18689,7 @@ hFx
 habilitar
 hacker
 hostent
+hilos
 referencia
 reconocer
 rmino
@@ -25183,6 +25185,7 @@ logError
 leak
 logOutput
 len
+liberada
 sentimientos
 sugiere
 ser
@@ -28653,6 +28656,7 @@ socket
 sockaddr
 serversocket
 sobrescribiendo
+semilla
 tiempo
 tiene
 tica
@@ -47946,6 +47950,7 @@ uLsmF
 uhFx
 ugn
 untrustedListSize
+utilice
 base
 biol
 bienestar
@@ -54513,6 +54518,7 @@ eKZV
 eth
 endConnection
 evil
+especificadores
 que
 quien
 quiere
@@ -63695,6 +63701,9 @@ ptr
 pseudoaleatorios
 param
 profilePath
+provoca
+predecibles
+provocando
 clave
 coment
 capacidad
@@ -67724,6 +67733,9 @@ clientlen
 clientsocket
 clientaddr
 conversion
+controlada
+causar
+concatena
 Nic
 Necesidades
 No
@@ -80997,6 +81009,7 @@ ihOEO
 instala
 ifconfig
 inet
+indefinidos
 formaci
 factores
 fortalezas
