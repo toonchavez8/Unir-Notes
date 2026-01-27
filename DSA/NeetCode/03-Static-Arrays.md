@@ -9,7 +9,6 @@
 - Elements are stored next to each other in memory.
     
 - This enables fast, predictable access.
-    
 
 ---
 
@@ -22,7 +21,6 @@
 - Second element → index `1`
     
 - Third element → index `2`
-    
 
 ```text
 Index:   0   1   2
@@ -34,7 +32,6 @@ Array:  [5,  6,  7]
 - Each index maps directly to a memory address.
     
 - No traversal is required.
-    
 
 > **Time Complexity:** `O(1)` (constant time)
 
@@ -51,7 +48,6 @@ To read all values:
 2. Increment the index by `1`
     
 3. Stop at `array.length`
-    
 
 ```js
 for (let i = 0; i < array.length; i++) {
@@ -70,7 +66,6 @@ for (let i = 0; i < array.length; i++) {
 - Writing to a known index is direct.
     
 - No other elements are affected.
-    
 
 > **Time Complexity:** `O(1)`
 
@@ -89,7 +84,6 @@ for (let i = 0; i < array.length; i++) {
     - Other arrays
         
     - The operating system
-        
 
 ⚠️ You **cannot safely append** beyond allocated space.
 
@@ -102,7 +96,6 @@ If there is unused space:
 - The index of the next free slot is known.
     
 - Value is written directly.
-    
 
 > **Time Complexity:** `O(1)`
 
@@ -113,7 +106,6 @@ If there is unused space:
 - Memory is **not deallocated**.
     
 - The value is overwritten (e.g. `0`, `null`, `-1`).
-    
 
 ```text
 Before: [5, 6, 7]
@@ -154,7 +146,6 @@ After:  [4, 5, 6]
 2. Shift `5` → index `1`
     
 3. Insert `4` → index `0`
-    
 
 ⚠️ Shifting must occur **right to left** to avoid overwriting.
 
@@ -180,7 +171,6 @@ After:  [6, 7]
 2. Shift `7` → index `1`
     
 3. Ignore or overwrite last value
-    
 
 > **Worst-case Time Complexity:** `O(n)`
 
@@ -193,7 +183,6 @@ Big-O describes **maximum possible cost**, not best or average cases.
 - Insert at end → `O(1)`
     
 - Insert at beginning → `O(n)` ← **worst case**
-    
 
 We generalize to stay safe and consistent.
 
@@ -223,6 +212,5 @@ We generalize to stay safe and consistent.
 - Order preservation causes shifting
     
 - Middle insertions/removals are expensive
-    
 
 > 🔑 These concepts are **foundational** for understanding more advanced data structures like dynamic arrays, linked lists, and vectors.
