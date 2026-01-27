@@ -61,10 +61,6 @@
     "iconColor": "#6664dd"
   },
   "StudyGuides": "LiBookOpenText",
-  "LeetCode": {
-    "iconName": "LiCodepen",
-    "iconColor": "#e0ce00"
-  },
   "Epam": {
     "iconName": "LiAsteriskSquare",
     "iconColor": "#006ec2"
@@ -92,5 +88,9 @@
   "Dev-Journel": {
     "iconName": "LiKeyboard",
     "iconColor": "#049a61"
+  },
+  "DSA": {
+    "iconName": "LiCodepen",
+    "iconColor": "#e0ce00"
   }
 }

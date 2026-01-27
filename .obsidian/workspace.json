@@ -4,17 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "b4ede501a4487add",
+        "id": "8ca0750f457a07ae",
         "type": "tabs",
-        "dimension": 52.976190476190474,
         "children": [
           {
-            "id": "47f087c68d0402ca",
+            "id": "426ff9f7e9eadc9a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LeetCode/000-Prompt.md",
+                "file": "DSA/NeetCode/01-Ram.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -29,40 +28,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "000-Prompt"
+              "title": "01-Ram"
             }
           },
           {
-            "id": "c050157bc057c1d6",
+            "id": "5a69b64b4496f02e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FrontEnd-Masters/01-Last-Algorithim/02-Big-O-Time-Complexity.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "02-Big-O-Time-Complexity"
-            }
-          },
-          {
-            "id": "64e1e2d9f8b63ea3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "FrontEnd-Masters/01-Last-Algorithim/03-Arrays-data-structure.md",
+                "file": "DSA/NeetCode/03-Static-Arrays.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -77,258 +52,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "03-Arrays-data-structure"
-            }
-          },
-          {
-            "id": "8ea6ad6d7d1d6602",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "FrontEnd-Masters/01-Last-Algorithim/04-array-q-and-a.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "04-array-q-and-a"
-            }
-          },
-          {
-            "id": "412f4782435645b0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "FrontEnd-Masters/01-Last-Algorithim/05-Linear-search-Kata-setup.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "05-Linear-search-Kata-setup"
-            }
-          },
-          {
-            "id": "9ccf107526b027a6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "FrontEnd-Masters/01-Last-Algorithim/06-Binary-search-algorithim.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "06-Binary-search-algorithim"
-            }
-          },
-          {
-            "id": "d1d8c6ae371d1c9d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "FrontEnd-Masters/01-Last-Algorithim/07-Psudo-code-Binary-search.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "07-Psudo-code-Binary-search"
-            }
-          },
-          {
-            "id": "ef9e90bfa9fda200",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "FrontEnd-Masters/01-Last-Algorithim/08-Implementing-Binary-Search.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "08-Implementing-Binary-Search"
-            }
-          },
-          {
-            "id": "b8223bb473f6feb9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "FrontEnd-Masters/01-Last-Algorithim/09-Two-crystal-ball-problem.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "09-Two-crystal-ball-problem"
-            }
-          },
-          {
-            "id": "cf98e64934399e61",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "FrontEnd-Masters/01-Last-Algorithim/10-Implementing-two-crystal-balls.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "10-Implementing-two-crystal-balls"
-            }
-          },
-          {
-            "id": "df901a2995fbd4a6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "FrontEnd-Masters/01-Last-Algorithim/11-Bubble-sort.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "11-Bubble-sort"
-            }
-          },
-          {
-            "id": "22bd391fd572c647",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "FrontEnd-Masters/01-Last-Algorithim/12-implementing-bubble-sort.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "12-implementing-bubble-sort"
+              "title": "03-Static-Arrays"
             }
           }
         ],
-        "currentTab": 11
-      },
-      {
-        "id": "642ecce23bef20ad",
-        "type": "tabs",
-        "dimension": 47.023809523809526,
-        "children": [
-          {
-            "id": "88c616a3a5189807",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "README"
-            }
-          }
-        ]
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -385,7 +113,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 378.5
+    "width": 298.5
   },
   "right": {
     "id": "a25b807ad639ff42",
@@ -497,34 +225,86 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "22bd391fd572c647",
+  "floating": {
+    "id": "2e8cf495f734189f",
+    "type": "floating",
+    "children": [
+      {
+        "id": "9bda1fd0691aca57",
+        "type": "window",
+        "children": [
+          {
+            "id": "9edea3c1ed5426de",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "81fd591dcef2a1d1",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "README.md",
+                    "mode": "preview",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "icon": "lucide-file",
+                  "title": "README"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 2508,
+        "y": 582,
+        "width": 1327,
+        "height": 445,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "5a69b64b4496f02e",
   "lastOpenFiles": [
-    "FrontEnd-Masters/01-Last-Algorithim/02-Big-O-Time-Complexity.md",
-    "LeetCode/000-Prompt.md",
-    "FrontEnd-Masters/01-Last-Algorithim/12-implementing-bubble-sort.md",
     "README.md",
+    "DSA/NeetCode/03-Static-Arrays.md",
+    "DSA/NeetCode/02-Arrays-Memory.md",
+    "DSA/LeetCode/876-Middle-of-linked-list.md",
+    "DSA/LeetCode/412-Fizz-Buzz.md",
+    "DSA/LeetCode/383-random-note.md",
+    "DSA/LeetCode/001-TwoSum.md",
+    "DSA/LeetCode/000-Prompt.md",
+    "DSA/NeetCode/01-Ram.md",
+    "DSA/NeetCode",
+    "DSA/LeetCode",
+    "FrontEnd-Masters/01-Last-Algorithim/14-Linked-list-complexity.md",
+    "Dev_Challenges/Algos/Untitled.md",
+    "FrontEnd-Masters/01-Last-Algorithim/17-Stack.md",
+    "FrontEnd-Masters/01-Last-Algorithim/16-Queue-implementatio-QA.md",
+    "FrontEnd-Masters/01-Last-Algorithim/15-Queue.md",
+    "Dev_Challenges/Algos",
+    "FrontEnd-Masters/01-Last-Algorithim/18-Implementing-a-stack.md",
+    "Dev-Journel/Projects/02-Alejandra-leyva.md",
+    "FrontEnd-Masters/01-Last-Algorithim/13-Linked-list.md",
+    "FrontEnd-Masters/01-Last-Algorithim/12-implementing-bubble-sort.md",
     "FrontEnd-Masters/01-Last-Algorithim/11-Bubble-sort.md",
     "FrontEnd-Masters/01-Last-Algorithim/10-Implementing-two-crystal-balls.md",
     "FrontEnd-Masters/01-Last-Algorithim/09-Two-crystal-ball-problem.md",
     "FrontEnd-Masters/01-Last-Algorithim/08-Implementing-Binary-Search.md",
-    "FrontEnd-Masters/01-Last-Algorithim/03-Arrays-data-structure.md",
     "FrontEnd-Masters/01-Last-Algorithim/07-Psudo-code-Binary-search.md",
     "FrontEnd-Masters/01-Last-Algorithim/06-Binary-search-algorithim.md",
     "FrontEnd-Masters/01-Last-Algorithim/05-Linear-search-Kata-setup.md",
     "FrontEnd-Masters/01-Last-Algorithim/04-array-q-and-a.md",
-    "LeetCode/1342-Number-of-steps-to-reduce-num-0.md",
-    "LeetCode/412-Fizz-Buzz.md",
-    "LeetCode/001-TwoSum.md",
-    "LeetCode/876-Middle-of-linked-list.md",
-    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/024-Vulnerabilidades-OWASP-LFI-RFI.md",
-    "StudyGuides/010-IBM-Front-end-web-study-guide.md",
-    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/025-Vulerabilidades-OWASP-Hardcoded-password.md",
-    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/023-Vulnerabilidades-OWASP-2021.md",
-    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/022-Resumen-4.md",
-    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/021-Protocolo-HTTP.md",
-    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/020-Arquitecturas-de-apps-ajax.md",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/019-Revisión-Externa-De-Seguridad.md",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/018-Operaciones-De-Seguridad.md",
     "Templates",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_02/Attachments/mexingsof03_act2.jpeg",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_02/Attachments/mexingsof03_act2 5.png",
@@ -542,9 +322,6 @@
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-03/Attachments",
     "Dev-Journel/Projects",
     "Dev-Journel",
-    "Untitled.canvas",
-    "FrontEnd-Masters/05-Hard-parts-of-servers-node/Books/Hard-Parts-Servers-Node.pdf",
-    "FrontEnd-Masters/05-Hard-parts-of-servers-node/Books",
-    "FrontEnd-Masters/05-Hard-parts-of-servers-node"
+    "Untitled.canvas"
   ]
 }
