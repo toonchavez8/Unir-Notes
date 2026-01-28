@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiCodesandbox",
       "LiKeyboard",
       "LiSquareDashedBottomCode",
       "LiAsteriskSquare",
-      "LiSchool",
-      "LiMonitorSmartphone"
+      "LiSchool"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -92,5 +92,13 @@
   "DSA": {
     "iconName": "LiCodepen",
     "iconColor": "#e0ce00"
+  },
+  "DSA/LeetCode": {
+    "iconName": "LiCodesandbox",
+    "iconColor": "#ff7300"
+  },
+  "DSA/NeetCode": {
+    "iconName": "LiSquareDashedBottomCode",
+    "iconColor": "#fa9e00"
   }
 }

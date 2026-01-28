@@ -225,55 +225,6 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "floating": {
-    "id": "2e8cf495f734189f",
-    "type": "floating",
-    "children": [
-      {
-        "id": "9bda1fd0691aca57",
-        "type": "window",
-        "children": [
-          {
-            "id": "9edea3c1ed5426de",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "81fd591dcef2a1d1",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "README.md",
-                    "mode": "preview",
-                    "source": false,
-                    "backlinks": true,
-                    "backlinkOpts": {
-                      "collapseAll": false,
-                      "extraContext": false,
-                      "sortOrder": "alphabetical",
-                      "showSearch": false,
-                      "searchQuery": "",
-                      "backlinkCollapsed": false,
-                      "unlinkedCollapsed": true
-                    }
-                  },
-                  "icon": "lucide-file",
-                  "title": "README"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 2508,
-        "y": 582,
-        "width": 1327,
-        "height": 445,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
   "active": "5a69b64b4496f02e",
   "lastOpenFiles": [
     "README.md",
