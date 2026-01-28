@@ -3240,6 +3240,9 @@ Integers
 Integer
 Iterating
 Ignore
+Integrando
+IsSuccessStatusCode
+Invocar
 Emocional
 Edward
 Expone
@@ -6509,6 +6512,10 @@ Ends
 Enqueue
 Edge
 Enqueueing
+Exception
+EnsureSuccessStatusCode
+Equals
+EncodedAuthenticationString
 Historia
 Howard
 Habilidades
@@ -9362,6 +9369,10 @@ Heap
 Have
 Happens
 Hood
+HttpClient
+HttpResponseMessage
+HttpStatusCode
+Habr
 definiciones
 de
 dem
@@ -12904,6 +12915,8 @@ decrementing
 difference
 decrement
 deallocated
+desaparece
+duplicado
 La
 Linea
 Las
@@ -22370,6 +22383,10 @@ relying
 restored
 ransom
 removals
+recuadro
+readonly
+responseBody
+renombrar
 la
 los
 las
@@ -25342,6 +25359,8 @@ locality
 loss
 letters
 longer
+lanzamos
+lanzado
 sentimientos
 sugiere
 ser
@@ -28838,6 +28857,18 @@ stale
 soon
 stops
 stay
+supondremos
+swagger
+speciality
+specialties
+specialities
+specialityList
+specialityToBeCreated
+specialityCreated
+specialityFounded
+specialityFoundedIndividual
+specialityChanged
+statusCode
 tiempo
 tiene
 tica
@@ -31952,6 +31983,10 @@ teaching
 tail
 traversals
 tracked
+tendremos
+tenerlo
+traza
+tuvieras
 Siglo
 Self
 Se
@@ -35149,6 +35184,10 @@ Smallest
 Storing
 Say
 Shifting
+Speciality
+StatusCode
+SYK
+Sale
 Plat
 Pir
 Payne
@@ -38378,6 +38417,10 @@ Pop
 Peek
 Predictable
 Pointer
+PostAsJsonAsync
+PutAsJsonAsync
+PRegunta
+POSTMAN
 Todo
 Thorndike
 Todos
@@ -41430,6 +41473,9 @@ Tracks
 Term
 Topic
 Through
+Threading
+ToString
+ToBase
 aprendizaje
 ala
 aspectos
@@ -45229,6 +45275,8 @@ accounted
 appeared
 asks
 append
+adjunta
+authenticationString
 una
 un
 unas
@@ -51196,6 +51244,9 @@ basis
 bookkeeping
 buffering
 been
+boot
+borrar
+buscarla
 emocional
 emociones
 en
@@ -54833,6 +54884,9 @@ enqueues
 encapsulated
 exposes
 elegant
+especificado
+especialidad
+editando
 que
 quien
 quiere
@@ -60396,6 +60450,8 @@ jsonwebtoken
 jumps
 jumping
 join
+jsonContent
+jsonString
 papel
 proceso
 pueden
@@ -64028,6 +64084,10 @@ placed
 processed
 preserve
 preservation
+poniendo
+pongamos
+pedir
+probamos
 clave
 coment
 capacidad
@@ -68106,6 +68166,9 @@ counting
 constructing
 construction
 crash
+completada
+clientId
+clientSecret
 Nic
 Necesidades
 No
@@ -74385,6 +74448,7 @@ managing
 managed
 matched
 magazine
+mostrando
 Arist
 Abraham
 Adem
@@ -77812,6 +77876,10 @@ Active
 Addresses
 Availability
 Adjacent
+Ampliamos
+Accept
+ASCIIEncoding
+Aparentemente
 importancia
 inteligencia
 intelectivos
@@ -81458,6 +81526,9 @@ increment
 implication
 instantly
 insertions
+implementaciones
+interaccionar
+intentas
 formaci
 factores
 fortalezas
@@ -84532,6 +84603,9 @@ focused
 frequent
 foundation
 frequencies
+findByName
+foreach
+fNo
 Utiliza
 Una
 Uno
@@ -87460,6 +87534,7 @@ Unauthorized
 Unavailable
 UNION
 Upper
+UpdateSpecialityAsync
 David
 Describe
 Developing
@@ -90597,6 +90672,11 @@ Defines
 Dequeue
 Doing
 Difficulty
+Deserialize
+DeleteSpecialityAsync
+DeleteAsync
+DefaultRequestHeaders
+Dice
 Wechsler
 Wayne
 WhatsApp
@@ -93510,6 +93590,7 @@ While
 Weaknesses
 Walk
 Writing
+WriteLine
 no
 nos
 nuestro
@@ -96447,6 +96528,8 @@ needle
 neighbor
 neighbors
 numerically
+namespace
+nulos
 Maslow
 Miedo
 Maria
@@ -99695,6 +99778,9 @@ Maintained
 Matter
 Modified
 Movement
+MySpecialityDemo
+MediaTypeWithQualityHeaderValue
+Modifica
 Gardner
 Goleman
 Generan
@@ -102505,6 +102591,10 @@ Guard
 Graphs
 Gigabyte
 Greedy
+GetAsync
+GetSpecialitiesAsync
+GetSpecialityAsync
+GetBytes
 Formula
 Feedback
 Francis
@@ -111724,6 +111814,12 @@ Counting
 Characters
 Consume
 Correctness
+ConsoleApp
+Console
+Collections
+CreateSpecialityAsync
+Changed
+Comprobamos
 vida
 viene
 va
@@ -117845,6 +117941,8 @@ Removes
 Random
 Ransom
 Respects
+ReadAsStringAsync
+ReadLine
 Bar
 Bisquerra
 Bajo
@@ -120824,6 +120922,8 @@ Bookkeeping
 Breaks
 Bytes
 Bits
+BaseAddress
+Borrar
 Kama
 KPI
 Kurt
@@ -126586,6 +126686,8 @@ graphs
 generic
 gain
 gone
+guardadas
+gfBs
 Ofrecen
 Orientaci
 Ordena
@@ -132402,6 +132504,7 @@ Views
 Visualizing
 Very
 Valuable
+Vuelve
 yo
 ya
 you
@@ -143627,6 +143730,8 @@ Journelist
 Jump
 Jumping
 Jumps
+Json
+JsonSerializer
 xito
 xitos
 ximo
