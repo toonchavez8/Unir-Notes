@@ -60,7 +60,10 @@
     "iconName": "LiAlignVerticalSpaceAround",
     "iconColor": "#6664dd"
   },
-  "StudyGuides": "LiBookOpenText",
+  "StudyGuides": {
+    "iconName": "LiBookOpenText",
+    "iconColor": "#eb0095"
+  },
   "Epam": {
     "iconName": "LiAsteriskSquare",
     "iconColor": "#006ec2"
