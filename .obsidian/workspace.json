@@ -4,24 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "8ca0750f457a07ae",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "426ff9f7e9eadc9a",
-            "type": "leaf",
-            "state": {
-              "type": "docx-view",
-              "state": {
-                "file": "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_02/mexingsof03_act2.docx"
-              },
-              "icon": "lucide-file",
-              "title": "mexingsof03_act2"
-            }
-          }
-        ]
-      },
-      {
         "id": "12874b64b8ff95fa",
         "type": "tabs",
         "children": [
@@ -31,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_02/mexingsof03_act2.md",
+                "file": "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/025-Vulerabilidades-OWASP-Hardcoded-password.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -46,10 +28,131 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "mexingsof03_act2"
+              "title": "025-Vulerabilidades-OWASP-Hardcoded-password"
+            }
+          },
+          {
+            "id": "703b88c0797c7472",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/026-Vulnerabilidades-Owasp-CSRF-Open-redirect.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "026-Vulnerabilidades-Owasp-CSRF-Open-redirect"
+            }
+          },
+          {
+            "id": "52ac7eb6d70b9ab3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/027-Resumen-05.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "027-Resumen-05"
+            }
+          },
+          {
+            "id": "d305fadd43d7245b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/028-Authicacion-http-basic-digest.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "028-Authicacion-http-basic-digest"
+            }
+          },
+          {
+            "id": "af5ae1677eb3a38b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/029-Kerberos.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "029-Kerberos"
+            }
+          },
+          {
+            "id": "2e0c87cc84e55d69",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/030-Autenticación-OAUTH2-OPENID-CONNECT.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "030-Autenticación-OAUTH2-OPENID-CONNECT"
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -218,14 +321,69 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "5a69b64b4496f02e",
+  "floating": {
+    "id": "2e8cf495f734189f",
+    "type": "floating",
+    "children": [
+      {
+        "id": "8504cf46fcb5f454",
+        "type": "window",
+        "children": [
+          {
+            "id": "7d48a5fb88d2ef5e",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "217f45a1e564a955",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "README.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "icon": "lucide-file",
+                  "title": "README"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 2508,
+        "y": 582,
+        "width": 1327,
+        "height": 445,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "2e0c87cc84e55d69",
   "lastOpenFiles": [
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_02/mexingsof03_act2.docx",
+    "README.md",
+    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/030-Autenticación-OAUTH2-OPENID-CONNECT.md",
+    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/029-Kerberos.md",
+    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/028-Authicacion-http-basic-digest.md",
+    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/027-Resumen-05.md",
+    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/026-Vulnerabilidades-Owasp-CSRF-Open-redirect.md",
+    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/025-Vulerabilidades-OWASP-Hardcoded-password.md",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_02/mexingsof03_act2.md",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_02/mexingsof03_act2.docx",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_02/Attachments/mexingsof03_act2.png",
     "DSA/NeetCode/01-Ram.md",
     "DSA/NeetCode/03-Static-Arrays.md",
-    "README.md",
     "DSA/NeetCode/02-Arrays-Memory.md",
     "DSA/LeetCode/876-Middle-of-linked-list.md",
     "DSA/LeetCode/412-Fizz-Buzz.md",
@@ -245,11 +403,6 @@
     "FrontEnd-Masters/01-Last-Algorithim/13-Linked-list.md",
     "FrontEnd-Masters/01-Last-Algorithim/12-implementing-bubble-sort.md",
     "FrontEnd-Masters/01-Last-Algorithim/11-Bubble-sort.md",
-    "FrontEnd-Masters/01-Last-Algorithim/10-Implementing-two-crystal-balls.md",
-    "FrontEnd-Masters/01-Last-Algorithim/09-Two-crystal-ball-problem.md",
-    "FrontEnd-Masters/01-Last-Algorithim/08-Implementing-Binary-Search.md",
-    "FrontEnd-Masters/01-Last-Algorithim/07-Psudo-code-Binary-search.md",
-    "FrontEnd-Masters/01-Last-Algorithim/06-Binary-search-algorithim.md",
     "Templates",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_02/Attachments/mexingsof03_act2.jpeg",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_02/Attachments/mexingsof03_act2 5.png",
