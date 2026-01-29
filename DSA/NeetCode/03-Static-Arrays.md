@@ -67,6 +67,7 @@ for (let i = 0; i < array.length; i++) {
     
 - No other elements are affected.
 
+> Big **O notation**
 > **Time Complexity:** `O(1)`
 
 ---
@@ -74,6 +75,8 @@ for (let i = 0; i < array.length; i++) {
 ## Static Arrays (Fixed Size)
 
 > **Static arrays have a fixed size at allocation time.**
+
+JavaScript and Python use Dynamic arrays and Therefore we don't worry as much about having fixed sizes.
 
 ### Why Size Cannot Change
 
@@ -85,7 +88,7 @@ for (let i = 0; i < array.length; i++) {
         
     - The operating system
 
-⚠️ You **cannot safely append** beyond allocated space.
+ You **cannot safely append** beyond allocated space.
 
 ---
 
@@ -98,6 +101,8 @@ If there is unused space:
 - Value is written directly.
 
 > **Time Complexity:** `O(1)`
+
+Its a constant time operation. Or instant operation
 
 ---
 
@@ -149,7 +154,12 @@ After:  [4, 5, 6]
 
 ⚠️ Shifting must occur **right to left** to avoid overwriting.
 
+> It will not be efficient
 > **Worst-case Time Complexity:** `O(n)`
+> N - refers to variables
+> O - refers to **worst case** in Big O notation
+
+This can not be done in one operation. 
 
 ---
 
@@ -213,4 +223,4 @@ We generalize to stay safe and consistent.
     
 - Middle insertions/removals are expensive
 
-> 🔑 These concepts are **foundational** for understanding more advanced data structures like dynamic arrays, linked lists, and vectors.
+> These concepts are **foundational** for understanding more advanced data structures like dynamic arrays, linked lists, and vectors.
