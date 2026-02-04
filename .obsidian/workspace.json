@@ -35,12 +35,24 @@
             "id": "e24a4e45a026692b",
             "type": "leaf",
             "state": {
-              "type": "docx-view",
+              "type": "markdown",
               "state": {
-                "file": "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-03/Test de penetración a la aplicación web BADSTORE.docx"
+                "file": "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Actividad-03/Rubrica.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
               "icon": "lucide-file",
-              "title": "Test de penetración a la aplicación web BADSTORE"
+              "title": "Rubrica"
             }
           }
         ],
@@ -56,10 +68,10 @@
             "state": {
               "type": "docx-view",
               "state": {
-                "file": "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Actividad-02/mexingsof07_act2.docx"
+                "file": "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_03/mexingsof03_act3.docx"
               },
               "icon": "lucide-file",
-              "title": "mexingsof07_act2"
+              "title": "mexingsof03_act3"
             }
           }
         ]
@@ -233,8 +245,19 @@
   },
   "active": "e24a4e45a026692b",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
+    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Actividad-03/mexingsof07_act3.md",
+    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Actividad-03/Rubrica.md",
+    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Actividad-03/mexingsof07_act3.docx",
+    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Actividad-03/Attachments/mexingsof07_act3 1.png",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_03/mexingsof03_act3.md",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_03/mexingsof03_act3.docx",
+    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Actividad-02/mexingsof07_act2.docx",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_03/Attachments/mexingsof03_act3 1.jpeg",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_03/Attachments/mexingsof03_act3.jpeg",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_03/Attachments",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_03/01-Rubrica.md",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-03/Test de penetración a la aplicación web BADSTORE.docx",
+    "conflict-files-obsidian-git.md",
     "FrontEnd-Masters/01-Last-Algorithim/13-Linked-list.md",
     "Dev_Challenges/Algos/Untitled.md",
     "Dev_Challenges/Algos",
@@ -266,18 +289,8 @@
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-03/Attachments/Test de penetración a la aplicación web BADSTORE 2.png",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-03/Attachments/Test de penetración a la aplicación web BADSTORE 1.png",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-03/Attachments/Test de penetración a la aplicación web BADSTORE.png",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Actividad-02/mexingsof07_act2.md",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Actividad-02/Untitled.md",
-    "Templates/Project Template.md",
-    "Templates",
-    "Dev-Journel/Projects",
-    "Dev-Journel",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Actividad-02/mexingsof07_act2.docx",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-03/Attachments/mexissi05_act3 4.png",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-03/Attachments/mexissi05_act3 3.png",
-    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-03/Attachments/mexissi05_act3 2.png",
-    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-03/Attachments/mexissi05_act3 1.png",
-    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-03/Attachments/mexissi05_act3.png",
     "Untitled.canvas"
   ]
 }
