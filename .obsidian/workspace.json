@@ -42,33 +42,9 @@
               "icon": "lucide-file",
               "title": "Test de penetración a la aplicación web BADSTORE"
             }
-          },
-          {
-            "id": "3e7fdb89622b99f0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       },
       {
         "id": "d6ca77b11b8166f3",
@@ -255,10 +231,10 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "3e7fdb89622b99f0",
+  "active": "e24a4e45a026692b",
   "lastOpenFiles": [
-    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-03/Test de penetración a la aplicación web BADSTORE.docx",
     "conflict-files-obsidian-git.md",
+    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-03/Test de penetración a la aplicación web BADSTORE.docx",
     "FrontEnd-Masters/01-Last-Algorithim/13-Linked-list.md",
     "Dev_Challenges/Algos/Untitled.md",
     "Dev_Challenges/Algos",
