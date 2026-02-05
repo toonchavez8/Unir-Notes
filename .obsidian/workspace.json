@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Actividad-03/Rubrica.md",
+                "file": "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/030-Autenticación-OAUTH2-OPENID-CONNECT.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,11 +52,107 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Rubrica"
+              "title": "030-Autenticación-OAUTH2-OPENID-CONNECT"
+            }
+          },
+          {
+            "id": "20a933bec9841bed",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/031-Autenticación-TLS-Formularios.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "031-Autenticación-TLS-Formularios"
+            }
+          },
+          {
+            "id": "72fa6582f790b09c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/032-Ataques-y-recomendaciones.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "032-Ataques-y-recomendaciones"
+            }
+          },
+          {
+            "id": "96bd11379d7ccd09",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/033-Resumen-06.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "033-Resumen-06"
+            }
+          },
+          {
+            "id": "4ff697a4f10e99c8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/034-Gestion-de-sessiones.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "034-Gestion-de-sessiones"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 5
       },
       {
         "id": "d6ca77b11b8166f3",
@@ -66,12 +162,24 @@
             "id": "86bf9bc9a306fe26",
             "type": "leaf",
             "state": {
-              "type": "docx-view",
+              "type": "markdown",
               "state": {
-                "file": "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_03/mexingsof03_act3.docx"
+                "file": "README.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
               "icon": "lucide-file",
-              "title": "mexingsof03_act3"
+              "title": "README"
             }
           }
         ]
@@ -131,7 +239,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 378.5
+    "width": 328.5,
+    "collapsed": true
   },
   "right": {
     "id": "a25b807ad639ff42",
@@ -243,14 +352,22 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "e24a4e45a026692b",
+  "active": "4ff697a4f10e99c8",
   "lastOpenFiles": [
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Actividad-03/mexingsof07_act3.md",
+    "README.md",
+    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/034-Gestion-de-sessiones.md",
+    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/033-Resumen-06.md",
+    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/032-Ataques-y-recomendaciones.md",
+    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Books/pildorapytec_nov2020_seguridad_TLS.pdf",
+    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Books/Unconfirmed 435515.crdownload",
+    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/031-Autenticación-TLS-Formularios.md",
+    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/030-Autenticación-OAUTH2-OPENID-CONNECT.md",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_03/mexingsof03_act3.docx",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Actividad-03/Rubrica.md",
+    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Actividad-03/mexingsof07_act3.md",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Actividad-03/mexingsof07_act3.docx",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Actividad-03/Attachments/mexingsof07_act3 1.png",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_03/mexingsof03_act3.md",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_03/mexingsof03_act3.docx",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Actividad-02/mexingsof07_act2.docx",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_03/Attachments/mexingsof03_act3 1.jpeg",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_03/Attachments/mexingsof03_act3.jpeg",
@@ -274,16 +391,8 @@
     "DSA/LeetCode/0026-Remove-Duplicates-from-Sorted-Array.md",
     "DSA/LeetCode/0027-Remove-Element.md",
     "DSA/LeetCode/0412-Fizz-Buzz.md",
-    "DSA/LeetCode/0383-random-note.md",
-    "DSA/LeetCode/0001-TwoSum.md",
-    "DSA/LeetCode/0000-Prompt.md",
     "DSA/NeetCode",
     "DSA/LeetCode",
-    "DSA",
-    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-03/Test de penetración a la aplicación web BADSTORE.md",
-    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-03/mexissi05_act3.md",
-    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-03/mexissi05_act3.docx",
-    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-03/Actividad-03.md",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-03/Attachments/Test de penetración a la aplicación web BADSTORE 4.png",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-03/Attachments/Test de penetración a la aplicación web BADSTORE 3.png",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-03/Attachments/Test de penetración a la aplicación web BADSTORE 2.png",
