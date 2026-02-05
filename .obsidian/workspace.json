@@ -135,7 +135,7 @@
               "state": {
                 "file": "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/034-Gestion-de-sessiones.md",
                 "mode": "source",
-                "source": true,
+                "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
                   "collapseAll": false,
@@ -150,9 +150,33 @@
               "icon": "lucide-file",
               "title": "034-Gestion-de-sessiones"
             }
+          },
+          {
+            "id": "336f457a87082df9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/035-Authorizacion.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "035-Authorizacion"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       },
       {
         "id": "d6ca77b11b8166f3",
@@ -352,9 +376,10 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "4ff697a4f10e99c8",
+  "active": "336f457a87082df9",
   "lastOpenFiles": [
     "README.md",
+    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/035-Authorizacion.md",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/034-Gestion-de-sessiones.md",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/033-Resumen-06.md",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/032-Ataques-y-recomendaciones.md",
@@ -390,7 +415,6 @@
     "DSA/LeetCode/0876-Middle-of-linked-list.md",
     "DSA/LeetCode/0026-Remove-Duplicates-from-Sorted-Array.md",
     "DSA/LeetCode/0027-Remove-Element.md",
-    "DSA/LeetCode/0412-Fizz-Buzz.md",
     "DSA/NeetCode",
     "DSA/LeetCode",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-03/Attachments/Test de penetración a la aplicación web BADSTORE 4.png",

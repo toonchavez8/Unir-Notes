@@ -6497,6 +6497,7 @@ Emite
 Explicados
 Ettercap
 Expuestas
+Expires
 Historia
 Howard
 Habilidades
@@ -15824,6 +15825,7 @@ Lite
 Layers
 Largo
 LyUn
+Limitar
 hace
 habilidad
 humano
@@ -18818,6 +18820,8 @@ htXEv
 head
 habilita
 hzqR
+hidden
+hijacking
 referencia
 reconocer
 rmino
@@ -22373,6 +22377,9 @@ requerida
 reutilizarla
 robo
 reconocida
+regenerarse
+reautenticar
+removeAttribute
 la
 los
 las
@@ -28863,6 +28870,9 @@ salting
 suplantar
 sospechosas
 sesiön
+setAttribute
+setMaxInactiveInterval
+securizada
 tiempo
 tiene
 tica
@@ -35183,6 +35193,7 @@ Supongamos
 Segmentaci
 Seguras
 Sesiön
+Sidejacking
 Plat
 Pir
 Payne
@@ -38422,6 +38433,10 @@ Potencialmente
 PAYLOAD
 Prevenir
 Pinning
+Permisos
+Preferencias
+Predicci
+Proteger
 Todo
 Thorndike
 Todos
@@ -41476,6 +41491,7 @@ TSRQF
 Transport
 Trasladar
 Theft
+Timeout
 aprendizaje
 ala
 aspectos
@@ -45278,6 +45294,7 @@ auditadas
 auditados
 autenticaciön
 aplicaciön
+aprovecharse
 una
 un
 unas
@@ -54922,6 +54939,7 @@ emitido
 espiar
 envenenamiento
 especificos
+eliminarse
 que
 quien
 quiere
@@ -64165,6 +64183,8 @@ posicionarse
 prolongada
 persistentes
 previene
+prefijos
+predicci
 clave
 coment
 capacidad
@@ -68241,6 +68261,8 @@ combinados
 configurarse
 consentimiento
 certificate
+concurrencia
+cifradas
 Nic
 Necesidades
 No
@@ -77971,6 +77993,10 @@ Asim
 Attack
 ARP
 Autenticaciön
+Aleatoriedad
+Aproximadamente
+Aproximado
+Adivinar
 importancia
 inteligencia
 intelectivos
@@ -81606,6 +81632,10 @@ interceptar
 incrustadas
 intentos
 informaciön
+inactividad
+invalidate
+isNew
+impredecibles
 formaci
 factores
 fortalezas
@@ -90786,6 +90816,8 @@ DOCTYPE
 DENY
 Dada
 Deshabilitar
+Destruir
+Defensas
 Wechsler
 Wayne
 WhatsApp
@@ -108693,6 +108725,7 @@ osos
 opacity
 obstante
 oqgn
+ociosa
 Crea
 Cociente
 Con
@@ -111973,6 +112006,9 @@ Consecuencia
 CAPTCHA
 Certificate
 Confiar
+Cookie
+Considerando
+Contra
 vida
 viene
 va
@@ -118101,6 +118137,10 @@ Reautenticar
 Reautenticaci
 Ripper
 Replay
+Rewriting
+Revelaci
+RNG
+Regenerar
 Bar
 Bisquerra
 Bajo
@@ -126869,6 +126909,8 @@ gwFL
 gppp
 gmJ
 generadas
+getAttribute
+getId
 Ofrecen
 Orientaci
 Ordena
