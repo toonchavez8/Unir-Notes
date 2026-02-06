@@ -266,3 +266,21 @@ Proceso:
 - El principio de mínimos privilegios es fundamental.
 
 ## MicroTest
+
+1. ¿Cómo se denomina la base de datos del mecanismo de autorización?
+    
+    - **La respuesta:** a. Lista de control de acceso.
+        
+    - **Justificación:** La lista de control de acceso (ACL) es el componente donde se almacenan y consultan los permisos, roles y relaciones entre usuarios y recursos. Funciona como la “base de datos lógica” del sistema de autorización porque ahí se verifica quién puede acceder a qué.
+        
+2. ¿Con qué tipo de usuario se ejecuta un proceso relativo a un sitio web o plugin del navegador?
+    
+    - **La respuesta:** c. Con un token restringido.
+        
+    - **Justificación:** Los navegadores modernos aíslan procesos usando tokens restringidos para limitar privilegios. Esto evita que un plugin o pestaña comprometida tenga acceso total al sistema operativo, aplicando el principio de mínimos privilegios.
+        
+3. ¿Qué se comprueba en la lista de control de acceso para permitir el acceso a un recurso a un usuario?
+    
+    - **La respuesta:** a. Si el usuario posee el rol necesario que require el recurso para set accedido.
+        
+    - **Justificación:** El mecanismo de autorización compara el rol o permisos del usuario contra los requisitos del recurso. Si coincide con el rol permitido en la ACL, se concede acceso; de lo contrario, se deniega.

@@ -32,12 +32,12 @@
             }
           },
           {
-            "id": "e24a4e45a026692b",
+            "id": "119946f179a9d11c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/030-Autenticación-OAUTH2-OPENID-CONNECT.md",
+                "file": "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/037-Resumen-07.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,16 +52,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "030-Autenticación-OAUTH2-OPENID-CONNECT"
+              "title": "037-Resumen-07"
             }
           },
           {
-            "id": "20a933bec9841bed",
+            "id": "0f0dbde63e0e6113",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/031-Autenticación-TLS-Formularios.md",
+                "file": "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/038-Principios-del-Desarrollo-Seguro.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,16 +76,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "031-Autenticación-TLS-Formularios"
+              "title": "038-Principios-del-Desarrollo-Seguro"
             }
           },
           {
-            "id": "72fa6582f790b09c",
+            "id": "a8b76e5fdc85ab20",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/032-Ataques-y-recomendaciones.md",
+                "file": "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/039-Owasp-top-ten-01.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,16 +100,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "032-Ataques-y-recomendaciones"
+              "title": "039-Owasp-top-ten-01"
             }
           },
           {
-            "id": "96bd11379d7ccd09",
+            "id": "f662fca7c3b10d45",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/033-Resumen-06.md",
+                "file": "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/040-Owasp-top-ten-2.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -124,16 +124,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "033-Resumen-06"
+              "title": "040-Owasp-top-ten-2"
             }
           },
           {
-            "id": "4ff697a4f10e99c8",
+            "id": "fd44b19209198664",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/034-Gestion-de-sessiones.md",
+                "file": "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/041-Owasp-top-ten-3.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -148,16 +148,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "034-Gestion-de-sessiones"
+              "title": "041-Owasp-top-ten-3"
             }
           },
           {
-            "id": "336f457a87082df9",
+            "id": "2dd5100f3dff62a3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/035-Authorizacion.md",
+                "file": "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/042-Open-redirect-csrf-ssrf.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -172,11 +172,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "035-Authorizacion"
+              "title": "042-Open-redirect-csrf-ssrf"
+            }
+          },
+          {
+            "id": "676b0f4a2272e82b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/043-Resumen-8.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "043-Resumen-8"
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       },
       {
         "id": "d6ca77b11b8166f3",
@@ -376,9 +400,17 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "336f457a87082df9",
+  "active": "676b0f4a2272e82b",
   "lastOpenFiles": [
     "README.md",
+    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/043-Resumen-8.md",
+    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/042-Open-redirect-csrf-ssrf.md",
+    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/041-Owasp-top-ten-3.md",
+    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/040-Owasp-top-ten-2.md",
+    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/039-Owasp-top-ten-01.md",
+    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/038-Principios-del-Desarrollo-Seguro.md",
+    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/037-Resumen-07.md",
+    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/036-Autorizacion-recomendaciones.md",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/035-Authorizacion.md",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/034-Gestion-de-sessiones.md",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/033-Resumen-06.md",
@@ -407,14 +439,6 @@
     "DSA/NeetCode/05-Stack.md",
     "DSA/NeetCode/03-Static-Arrays.md",
     "DSA/NeetCode/02-Arrays-Memory.md",
-    "DSA/NeetCode/01-Ram.md",
-    "DSA/LeetCode/Untitled 1.md",
-    "DSA/LeetCode/1929-Concatenation-of-Array.md",
-    "DSA/LeetCode/1470-Shuffle-the-Array.md",
-    "DSA/LeetCode/1342-Number-of-steps-to-reduce-num-0.md",
-    "DSA/LeetCode/0876-Middle-of-linked-list.md",
-    "DSA/LeetCode/0026-Remove-Duplicates-from-Sorted-Array.md",
-    "DSA/LeetCode/0027-Remove-Element.md",
     "DSA/NeetCode",
     "DSA/LeetCode",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-03/Attachments/Test de penetración a la aplicación web BADSTORE 4.png",
