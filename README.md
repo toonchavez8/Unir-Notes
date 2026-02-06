@@ -97,7 +97,7 @@ Quiero que actúes como un asistente académico experto en la materia del transc
 
 5. Mantén las notas **claras, concisas y fáciles de revisar**, como si fueran apuntes de clase.
 
-6. Si hay ejemplos en el transcript, inclúyelos y **explica paso a paso** cómo funcionan.
+6. Si hay ejemplos de codigo en el transcript, inclúyelos y **explica paso a paso** cómo funcionan.
 
 7. Agrega información adicional relevante de manera breve que ayude a profundizar en los conceptos.
 
@@ -113,8 +113,6 @@ if the transcript is in English then create the notes in english
 El transcript es el siguiente:
 
 ```
-
-
 
 ## Prompt for Notes from Educative
 

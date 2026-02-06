@@ -12940,6 +12940,7 @@ decodificar
 derivada
 deshabilitada
 doubling
+dados
 La
 Linea
 Las
@@ -84760,6 +84761,8 @@ firmado
 filtra
 falsificados
 firmada
+forjadas
+forjada
 Utiliza
 Una
 Uno

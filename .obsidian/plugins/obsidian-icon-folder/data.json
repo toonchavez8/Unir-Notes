@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "LiCodesandbox",
       "LiKeyboard",
       "LiSquareDashedBottomCode",
       "LiAsteriskSquare",
-      "LiSchool"
+      "LiSchool",
+      "LiMonitorSmartphone"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -60,10 +60,7 @@
     "iconName": "LiAlignVerticalSpaceAround",
     "iconColor": "#6664dd"
   },
-  "StudyGuides": {
-    "iconName": "LiBookOpenText",
-    "iconColor": "#eb0095"
-  },
+  "StudyGuides": "LiBookOpenText",
   "Epam": {
     "iconName": "LiAsteriskSquare",
     "iconColor": "#006ec2"
@@ -91,17 +88,5 @@
   "Dev-Journel": {
     "iconName": "LiKeyboard",
     "iconColor": "#049a61"
-  },
-  "DSA": {
-    "iconName": "LiCodepen",
-    "iconColor": "#e0ce00"
-  },
-  "DSA/LeetCode": {
-    "iconName": "LiCodesandbox",
-    "iconColor": "#ff7300"
-  },
-  "DSA/NeetCode": {
-    "iconName": "LiSquareDashedBottomCode",
-    "iconColor": "#fa9e00"
   }
 }
