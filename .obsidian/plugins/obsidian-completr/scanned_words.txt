@@ -3252,6 +3252,7 @@ Implementations
 Insertions
 Inefficient
 IsEmpty
+Inversi
 Emocional
 Edward
 Expone
@@ -6531,6 +6532,10 @@ Explicados
 Exist
 Expensive
 Exactly
+Exfiltraci
+Emplear
+Encoder
+ESAPI
 Historia
 Howard
 Habilidades
@@ -12941,6 +12946,11 @@ derivada
 deshabilitada
 doubling
 dados
+destinadas
+derivarse
+defensivos
+defensas
+defensivas
 La
 Linea
 Las
@@ -18836,6 +18846,7 @@ half
 happen
 halfway
 habilitados
+habilitaci
 referencia
 reconocer
 rmino
@@ -22428,6 +22439,10 @@ retain
 restricted
 reversible
 repeat
+robos
+representarse
+reconstrucci
+rentabilidad
 la
 los
 las
@@ -32044,6 +32059,7 @@ trigger
 toward
 tradeoff
 tricks
+tercer
 Siglo
 Self
 Se
@@ -35249,6 +35265,12 @@ Sello
 Silver
 Scans
 Shuffle
+Schema
+Simulaciones
+SecureRamdom
+SecureRandom
+SOURCE
+SINK
 Plat
 Pir
 Payne
@@ -38485,6 +38507,9 @@ POSTMAN
 Permisos
 PAYLOAD
 Pushing
+PreparedStatement
+Previene
+Protection
 Todo
 Thorndike
 Todos
@@ -41544,6 +41569,7 @@ Ticket
 TGTs
 Tradeoff
 Trick
+Transversales
 aprendizaje
 ala
 aspectos
@@ -45363,6 +45389,8 @@ attempted
 amortization
 alternating
 alternately
+adoptarse
+auditores
 una
 un
 unas
@@ -51335,6 +51363,8 @@ been
 boot
 borrar
 buscarla
+blacklist
+barrera
 emocional
 emociones
 en
@@ -54982,6 +55012,9 @@ emite
 expire
 enviado
 explotan
+escaneos
+ejecutado
+evadidas
 que
 quien
 quiere
@@ -60547,6 +60580,7 @@ jumping
 join
 jsonContent
 jsonString
+juegos
 papel
 proceso
 pueden
@@ -64194,6 +64228,15 @@ predecibles
 powers
 plates
 popped
+professor
+protegerse
+proporcional
+parser
+posibilitando
+prediga
+predicciones
+peligrosas
+parametrizada
 clave
 coment
 capacidad
@@ -68293,6 +68336,8 @@ claims
 capturado
 caduca
 copied
+combinarse
+concientizar
 Nic
 Necesidades
 No
@@ -71179,6 +71224,7 @@ Nonce
 NTLM
 NTLMv
 NTV
+Nunca
 maco
 motivar
 menes
@@ -74580,6 +74626,10 @@ mostrando
 modifications
 much
 modification
+molesto
+masivamente
+mitiga
+mitigarlos
 Arist
 Abraham
 Adem
@@ -78021,6 +78071,7 @@ Advantages
 Attempting
 Assuming
 Auxiliary
+Adopci
 importancia
 inteligencia
 intelectivos
@@ -81680,6 +81731,9 @@ irrelevant
 interleave
 interleaved
 interleaving
+innecesarias
+impredecibles
+injection
 formaci
 factores
 fortalezas
@@ -90846,6 +90900,10 @@ Disadvantages
 Desc
 Dinamic
 Duplicates
+Defensas
+Depende
+DTD
+Defensa
 Wechsler
 Wayne
 WhatsApp
@@ -93764,6 +93822,7 @@ WebGoat
 Wacke
 Wireshark
 Whenever
+Whitelist
 no
 nos
 nuestro
@@ -96709,6 +96768,7 @@ ndolo
 nothing
 nums
 normally
+negras
 Maslow
 Miedo
 Maria
@@ -99965,6 +100025,7 @@ Mechanism
 Models
 Mistakes
 Minimum
+Macro
 Gardner
 Goleman
 Generan
@@ -102781,6 +102842,8 @@ GetSpecialityAsync
 GetBytes
 Granting
 Golden
+Ganancia
+Generadores
 Formula
 Feedback
 Francis
@@ -108714,6 +108777,7 @@ organizing
 operating
 overwritten
 occurrences
+obtenida
 Crea
 Cociente
 Con
@@ -114917,6 +114981,8 @@ visualized
 visited
 viaja
 violates
+vulnerar
+vector
 Reuven
 REA
 Re
@@ -118156,6 +118222,8 @@ Resizing
 Resize
 Returned
 Recomputing
+Restablecer
+Relacionadas
 Bar
 Bisquerra
 Bajo
@@ -126909,6 +126977,8 @@ guardadas
 gfBs
 garanticen
 getMin
+gasto
+generadores
 Ofrecen
 Orientaci
 Ordena
@@ -132735,6 +132805,8 @@ Valuable
 Vuelve
 Validadas
 Vulnerables
+Vermejo
+Vulnerable
 yo
 ya
 you
@@ -143964,6 +144036,7 @@ Jumps
 Json
 JsonSerializer
 Junior
+Juan
 xito
 xitos
 ximo
@@ -160897,6 +160970,7 @@ XJI
 XLBZ
 XRdm
 XMLHttpRequest
+XSD
 Äy
 ÄP
 Äe
