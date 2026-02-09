@@ -4,31 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "7c953784151aa344",
+        "id": "da698df424dca039",
         "type": "tabs",
         "children": [
           {
-            "id": "5801b298f8c582a6",
+            "id": "97c847210ab2dd8d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
+              "title": "New tab"
             }
           }
         ]
@@ -197,7 +183,7 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "5801b298f8c582a6",
+  "active": "97c847210ab2dd8d",
   "lastOpenFiles": [
     "conflict-files-obsidian-git.md",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/051-Resuemen-10.md",
