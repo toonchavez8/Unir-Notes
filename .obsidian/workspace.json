@@ -11,10 +11,24 @@
             "id": "5801b298f8c582a6",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "conflict-files-obsidian-git"
             }
           }
         ]
@@ -183,8 +197,17 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "b74e6b9aa2987edc",
+  "active": "5801b298f8c582a6",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/051-Resuemen-10.md",
+    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/050-Seguridad-en-apps-RIA.md",
+    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/049-Headers-http.md",
+    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/048-Firewall-app-web.md",
+    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/047-Resumen-9.md",
+    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/046-Analisis-de-seguridad-Dast.md",
+    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/045-Analisis-seguridad-estatico.md",
+    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/044-Analisis-de-app-web.md",
     "6.-Instructivo para la Recepción de Materiales y Servicios.docx",
     "6.-Instructivo para la Recepción de Materiales y Servicios.md",
     "5.-Instructivo para la Generación de Orden de Compra.docx",
@@ -206,27 +229,19 @@
     "DSA/LeetCode/0000-Prompt.md",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/001-Justificacion-motivacion-ciberseguridad.md",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/026-Vulnerabilidades-Owasp-CSRF-Open-redirect.md",
-    "conflict-files-obsidian-git.md",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_03/Attachments/mexingsof03_act3.jpeg",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_03/Attachments/mexingsof03_act3 1.jpeg",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_03/Attachments",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Actividad-03/Attachments/mexingsof07_act3.png",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Actividad-03/Attachments/mexingsof07_act3 1.png",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Actividad-03/Attachments",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Actividad-02/Untitled.md",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Books/pildorapytec_nov2020_seguridad_TLS.pdf",
-    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-03/Test de penetración a la aplicación web BADSTORE.md",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-03/Test de penetración a la aplicación web BADSTORE.docx",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-03/Attachments/Test de penetración a la aplicación web BADSTORE.png",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-03/Attachments/Test de penetración a la aplicación web BADSTORE 4.png",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-03/Attachments/Test de penetración a la aplicación web BADSTORE 3.png",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-03/Attachments/Test de penetración a la aplicación web BADSTORE 2.png",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-03/Attachments/Test de penetración a la aplicación web BADSTORE 1.png",
-    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-03/Actividad-03.md",
-    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/043-Resumen-8.md",
-    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/038-Principios-del-Desarrollo-Seguro.md",
-    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/037-Resumen-07.md",
-    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/036-Autorizacion-recomendaciones.md",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_02/mexingsof03_act2.docx",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_02/Attachments/mexingsof03_act2.png",
     "DSA/NeetCode",
