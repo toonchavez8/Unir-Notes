@@ -138,9 +138,33 @@
               "icon": "lucide-book-up",
               "title": "Release Notes 1.11.7"
             }
+          },
+          {
+            "id": "2ef59367aca1aaee",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
+            }
           }
         ],
-        "currentTab": 5,
+        "currentTab": 6,
         "stacked": true
       },
       {
@@ -341,8 +365,12 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "c1ef8f390f113db4",
+  "active": "2ef59367aca1aaee",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "DSA/LeetCode/0682-Baseball-game.md",
+    "DSA/LeetCode/0155-Min-Stack.md",
+    "DSA/LeetCode/0020-valir parenthesis.md",
     "README.md",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/051-Resuemen-10.md",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/050-Seguridad-en-apps-RIA.md",
@@ -367,11 +395,7 @@
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/032-Ataques-y-recomendaciones.md",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Books/pildorapytec_nov2020_seguridad_TLS.pdf",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Books/Unconfirmed 435515.crdownload",
-    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/031-Autenticación-TLS-Formularios.md",
-    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/030-Autenticación-OAUTH2-OPENID-CONNECT.md",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_03/mexingsof03_act3.docx",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Actividad-03/Rubrica.md",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Actividad-03/mexingsof07_act3.md",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Actividad-03/mexingsof07_act3.docx",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Actividad-03/Attachments/mexingsof07_act3 1.png",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Actividad-02/mexingsof07_act2.docx",
