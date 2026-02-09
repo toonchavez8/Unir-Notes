@@ -74,7 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 369.5
+    "width": 271.5
   },
   "right": {
     "id": "a25b807ad639ff42",
@@ -183,8 +183,21 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "5801b298f8c582a6",
+  "active": "b74e6b9aa2987edc",
   "lastOpenFiles": [
+    "6.-Instructivo para la Recepción de Materiales y Servicios.docx",
+    "6.-Instructivo para la Recepción de Materiales y Servicios.md",
+    "5.-Instructivo para la Generación de Orden de Compra.docx",
+    "6.-Instructivo para la Recepción de Materiales y Servicios (1).docx",
+    "5.-Instructivo para la Generación de Orden de Compra.md",
+    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/005-Resumen-tema-1.md",
+    "5.-Instructivo para la Generación de Orden de Compra (1).docx",
+    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/041-Owasp-top-ten-3.md",
+    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/042-Open-redirect-csrf-ssrf.md",
+    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/013-Patrones-de-diseno.md",
+    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/002-Vulnebilidades-y-su-clasificacion.md",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/022-pp-lowcode-no-code-oss.md",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/003-Control-de-versiones.md",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/039-Owasp-top-ten-01.md",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/040-Owasp-top-ten-2.md",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/025-Principales-plataformas aceleradoras-jhipster.md",
@@ -211,26 +224,12 @@
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-03/Attachments/Test de penetración a la aplicación web BADSTORE 1.png",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-03/Actividad-03.md",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/043-Resumen-8.md",
-    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/042-Open-redirect-csrf-ssrf.md",
-    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/041-Owasp-top-ten-3.md",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/038-Principios-del-Desarrollo-Seguro.md",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/037-Resumen-07.md",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/036-Autorizacion-recomendaciones.md",
-    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/035-Authorizacion.md",
-    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/034-Gestion-de-sessiones.md",
-    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/033-Resumen-06.md",
-    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/032-Ataques-y-recomendaciones.md",
-    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/031-Autenticación-TLS-Formularios.md",
-    "DSA/LeetCode/0155-Min-Stack.md",
-    "DSA/LeetCode/0020-valir parenthesis.md",
-    "DSA/LeetCode/0682-Baseball-game.md",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_02/mexingsof03_act2.docx",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_02/Attachments/mexingsof03_act2.png",
     "DSA/NeetCode",
-    "DSA/LeetCode",
-    "Dev_Challenges/Algos",
-    "Templates",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_02/Attachments",
     "Untitled.canvas"
   ]
 }
