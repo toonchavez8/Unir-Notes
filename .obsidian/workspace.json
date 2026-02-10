@@ -4,158 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "81021adb569dac6e",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "7651c5b8a304bf96",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-03/Test de penetración a la aplicación web BADSTORE.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Test de penetración a la aplicación web BADSTORE"
-            }
-          },
-          {
-            "id": "a1b7c3751328c1e5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/048-Firewall-app-web.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "048-Firewall-app-web"
-            }
-          },
-          {
-            "id": "9dea7ab567874551",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/049-Headers-http.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "049-Headers-http"
-            }
-          },
-          {
-            "id": "04c6f11cafbacfb0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/050-Seguridad-en-apps-RIA.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "050-Seguridad-en-apps-RIA"
-            }
-          },
-          {
-            "id": "8808dcd65929fe78",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/051-Resuemen-10.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "051-Resuemen-10"
-            }
-          },
-          {
-            "id": "c1ef8f390f113db4",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.11.7"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.11.7"
-            }
-          },
-          {
-            "id": "a4e70c44e918e2ec",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.11.7"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.11.7"
-            }
-          }
-        ],
-        "currentTab": 6,
-        "stacked": true
-      },
-      {
         "id": "d6ca77b11b8166f3",
         "type": "tabs",
         "children": [
@@ -165,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_02/mexingsof03_act2.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -180,10 +28,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "mexingsof03_act2"
+            }
+          },
+          {
+            "id": "36bdaa2dd2f2efc4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_02/mexingsof03_act2.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "mexingsof03_act2"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -240,8 +113,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 328.5,
-    "collapsed": true
+    "width": 328.5
   },
   "right": {
     "id": "a25b807ad639ff42",
@@ -350,17 +222,25 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "a4e70c44e918e2ec",
+  "active": "36bdaa2dd2f2efc4",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
-    "DSA/LeetCode/0682-Baseball-game.md",
-    "DSA/LeetCode/0155-Min-Stack.md",
-    "DSA/LeetCode/0020-valir parenthesis.md",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_02/mexingsof03_act2.docx",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_02/mexingsof03_act2.md",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_03/Attachments/mexingsof03_act3 1.jpeg",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_03/mexingsof03_act3.docx",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_03/mexingsof03_act3.md",
+    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Actividad-02/mexingsof07_act2.docx",
+    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Actividad-02/mexingsof07_act2.md",
     "README.md",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/051-Resuemen-10.md",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/050-Seguridad-en-apps-RIA.md",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/049-Headers-http.md",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/048-Firewall-app-web.md",
+    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-03/Test de penetración a la aplicación web BADSTORE.md",
+    "conflict-files-obsidian-git.md",
+    "DSA/LeetCode/0682-Baseball-game.md",
+    "DSA/LeetCode/0155-Min-Stack.md",
+    "DSA/LeetCode/0020-valir parenthesis.md",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/047-Resumen-9.md",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/046-Analisis-de-seguridad-Dast.md",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/045-Analisis-seguridad-estatico.md",
@@ -372,25 +252,16 @@
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/039-Owasp-top-ten-01.md",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/038-Principios-del-Desarrollo-Seguro.md",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/037-Resumen-07.md",
-    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-03/Test de penetración a la aplicación web BADSTORE.md",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/036-Autorizacion-recomendaciones.md",
-    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/035-Authorizacion.md",
-    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/034-Gestion-de-sessiones.md",
-    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/033-Resumen-06.md",
-    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/032-Ataques-y-recomendaciones.md",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Books/pildorapytec_nov2020_seguridad_TLS.pdf",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Books/Unconfirmed 435515.crdownload",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_03/mexingsof03_act3.docx",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Actividad-03/mexingsof07_act3.docx",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Actividad-03/Attachments/mexingsof07_act3 1.png",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Actividad-02/mexingsof07_act2.docx",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_03/Attachments/mexingsof03_act3 1.jpeg",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_03/Attachments/mexingsof03_act3.jpeg",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_03/Attachments",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-03/Test de penetración a la aplicación web BADSTORE.docx",
     "Dev_Challenges/Algos",
     "DSA/NeetCode",
-    "DSA/LeetCode",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-03/Attachments/Test de penetración a la aplicación web BADSTORE 4.png",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-03/Attachments/Test de penetración a la aplicación web BADSTORE 3.png",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-03/Attachments/Test de penetración a la aplicación web BADSTORE 2.png",
