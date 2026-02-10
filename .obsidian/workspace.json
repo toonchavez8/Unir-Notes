@@ -150,33 +150,9 @@
               "icon": "lucide-book-up",
               "title": "Release Notes 1.11.7"
             }
-          },
-          {
-            "id": "aa3b400647a8bd2b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
-            }
           }
         ],
-        "currentTab": 7,
+        "currentTab": 6,
         "stacked": true
       },
       {
@@ -374,7 +350,7 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "aa3b400647a8bd2b",
+  "active": "a4e70c44e918e2ec",
   "lastOpenFiles": [
     "conflict-files-obsidian-git.md",
     "DSA/LeetCode/0682-Baseball-game.md",
