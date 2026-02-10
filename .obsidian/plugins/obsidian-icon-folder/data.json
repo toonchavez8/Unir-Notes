@@ -34,8 +34,14 @@
     "debugMode": false,
     "useInternalPlugins": false
   },
-  "01-modam-softskills": "LiFolderArchive",
-  "02-programacion-python": "LiFolderCode",
+  "01-modam-softskills": {
+    "iconName": "LiFolderArchive",
+    "iconColor": "#ff4000"
+  },
+  "02-programacion-python": {
+    "iconName": "LiFolderCode",
+    "iconColor": "#ff5900"
+  },
   "Maestría-Ingeniería-de-Software": {
     "iconName": "LiSchool",
     "iconColor": "#6034fe"
