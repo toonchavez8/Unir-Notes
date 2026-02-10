@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "LiKeyboard",
-      "LiSquareDashedBottomCode",
-      "LiAsteriskSquare",
-      "LiSchool",
-      "LiMonitorSmartphone"
+      "LiSquareCode",
+      "LiCodepen",
+      "LiCode2",
+      "LiCodesandbox",
+      "LiKeyboard"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -88,5 +88,17 @@
   "Dev-Journel": {
     "iconName": "LiKeyboard",
     "iconColor": "#049a61"
+  },
+  "DSA": {
+    "iconName": "LiCodesandbox",
+    "iconColor": "#ffbc05"
+  },
+  "DSA/LeetCode": {
+    "iconName": "LiCodepen",
+    "iconColor": "#ffa200"
+  },
+  "DSA/NeetCode": {
+    "iconName": "LiSquareCode",
+    "iconColor": "#ffd500"
   }
 }
