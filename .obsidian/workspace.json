@@ -138,9 +138,21 @@
               "icon": "lucide-book-up",
               "title": "Release Notes 1.11.7"
             }
+          },
+          {
+            "id": "a4e70c44e918e2ec",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.11.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.11.7"
+            }
           }
         ],
-        "currentTab": 5,
+        "currentTab": 6,
         "stacked": true
       },
       {
@@ -320,14 +332,11 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "open-vscode:VSCode": false,
       "vscode-editor:Create Code File": false,
       "bases:Create new base": false,
-      "obisidian-note-linker:Note Linker": false,
-      "quick-tagger:Add tag to current note": false,
-      "quick-tagger:Remove tag from current note": false,
       "markdown-importer:Open format converter": false,
       "audio-recorder:Start/stop recording": false,
-      "whisper:Open recording controls": false,
       "code-files:Create Code File": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
@@ -341,7 +350,7 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "c1ef8f390f113db4",
+  "active": "a4e70c44e918e2ec",
   "lastOpenFiles": [
     "conflict-files-obsidian-git.md",
     "DSA/LeetCode/0682-Baseball-game.md",
