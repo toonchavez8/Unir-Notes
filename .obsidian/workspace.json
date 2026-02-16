@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "d6ca77b11b8166f3",
+        "id": "8d12ad24157f861c",
         "type": "tabs",
         "children": [
           {
-            "id": "86bf9bc9a306fe26",
+            "id": "e0130fa756255028",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_02/mexingsof03_act2.md",
+                "file": "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/052-Guia-Estudio-Microtests-Examen.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,35 +28,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "mexingsof03_act2"
-            }
-          },
-          {
-            "id": "36bdaa2dd2f2efc4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_02/mexingsof03_act2.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "mexingsof03_act2"
+              "title": "052-Guia-Estudio-Microtests-Examen"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -175,13 +150,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/016-Alcance-proceso de gestion.md",
+                "file": "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/052-Guia-Estudio-Microtests-Examen.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 016-Alcance-proceso de gestion"
+              "title": "Outline of 052-Guia-Estudio-Microtests-Examen"
             }
           },
           {
@@ -195,12 +170,11 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -222,10 +196,20 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "36bdaa2dd2f2efc4",
+  "active": "e0130fa756255028",
   "lastOpenFiles": [
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_02/mexingsof03_act2.docx",
+    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/052-Guia-Estudio-Microtests-Examen.pdf",
+    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Microtest_Ciberseguridad_Web.pdf",
+    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/052-Guia-Estudio-Microtests-Examen.md",
+    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/006-Politica-de-seguridad.md",
+    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/merge_microtests.py",
+    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/002-Amenazas-Riesgos-Ciberseguridad.md",
+    "Untitled.canvas",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_02/mexingsof03_act2.md",
+    "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/001-Ingenieria-de-software.md",
+    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Classes/01-06-2026-Ataques-al-Código.md",
+    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Microtest_Ciberseguridad_Web (1).pdf",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_02/mexingsof03_act2.docx",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_03/Attachments/mexingsof03_act3 1.jpeg",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_03/mexingsof03_act3.docx",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_03/mexingsof03_act3.md",
@@ -248,27 +232,18 @@
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/043-Resumen-8.md",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/042-Open-redirect-csrf-ssrf.md",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/041-Owasp-top-ten-3.md",
-    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/040-Owasp-top-ten-2.md",
-    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/039-Owasp-top-ten-01.md",
-    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/038-Principios-del-Desarrollo-Seguro.md",
-    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/037-Resumen-07.md",
-    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/036-Autorizacion-recomendaciones.md",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Books/pildorapytec_nov2020_seguridad_TLS.pdf",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Books/Unconfirmed 435515.crdownload",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Actividad-03/mexingsof07_act3.docx",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Actividad-03/Attachments/mexingsof07_act3 1.png",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_03/Attachments/mexingsof03_act3.jpeg",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_03/Attachments",
-    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-03/Test de penetración a la aplicación web BADSTORE.docx",
-    "Dev_Challenges/Algos",
-    "DSA/NeetCode",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-03/Attachments/Test de penetración a la aplicación web BADSTORE 4.png",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-03/Attachments/Test de penetración a la aplicación web BADSTORE 3.png",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-03/Attachments/Test de penetración a la aplicación web BADSTORE 2.png",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-03/Attachments/Test de penetración a la aplicación web BADSTORE 1.png",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-03/Attachments/Test de penetración a la aplicación web BADSTORE.png",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-03/Attachments/mexissi05_act3 4.png",
-    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-03/Attachments/mexissi05_act3 3.png",
-    "Untitled.canvas"
+    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-03/Attachments/mexissi05_act3 3.png"
   ]
 }
