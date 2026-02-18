@@ -162,3 +162,38 @@ Follow these rules strictly:
     
     
 ```
+
+## Prompt for NotebookLM Audio
+
+```text
+
+Quiero que generes **únicamente un audio educativo** utilizando **exclusivamente el libro que te proporcioné como fuente principal**.
+
+Instrucciones específicas:
+
+* Enfócate **solo en el Tema 1** del libro.
+* No utilices información externa ni conocimientos generales; **todo debe salir del material del libro**.
+* El audio debe tener un **tono educativo, claro y didáctico**, como si fuera una clase explicada por un profesor.
+* Explica el tema paso a paso y con profundidad.
+* Haz **mucho énfasis en el contenido del libro**, mencionando ideas clave.
+* Incluye **extractos o pequeñas citas textuales del material** cuando sea relevante.
+* Resume conceptos importantes, pero sin perder fidelidad al texto original.
+* Mantén una narrativa fluida, natural y fácil de entender.
+* Evita listas numeradas; debe sonar como una explicación hablada continua.
+
+**Estructura del audio:**
+
+1. Introducción breve mencionando que se explicará el Tema 1.
+2. Desarrollo profundo del tema con explicaciones claras y ejemplos si el libro los contiene.
+3. Inclusión de pequeñas citas textuales del libro integradas de forma natural.
+4. Conclusión breve reforzando las ideas principales.
+
+**Cierre obligatorio del audio:**
+Al finalizar, debes decir explícitamente una frase similar a:
+*"En el siguiente bloque revisaremos el Tema 2: [NOMBRE EXACTO DEL TEMA 2 SEGÚN EL LIBRO]."*
+
+El resultado final debe ser sin notas adicionales, sin introducciones fuera del contenido, y sin mencionar estas instrucciones.
+
+
+
+```

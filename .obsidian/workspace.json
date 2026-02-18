@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/052-Guia-Estudio-Microtests-Examen.md",
+                "file": "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Actividad-03/mexingsof07_act3.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,23 +28,70 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "052-Guia-Estudio-Microtests-Examen"
+              "title": "mexingsof07_act3"
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "c35c036e1d6c844d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2796763b7c7b8dfd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Actividad-03/Desarollo-seguro-Act-3-Miguel-Chavez.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Desarollo-seguro-Act-3-Miguel-Chavez"
+            }
+          }
+        ]
+      },
+      {
+        "id": "a66e508041d53e30",
+        "type": "tabs",
+        "children": [
           {
             "id": "a3f136c6fb632d84",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/books/Desarrollo Seguro de Software y Auditoría de la Ciberseguridad.pdf"
+                "file": "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Actividad-03/mexingsof07_act3.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "lucide-file-text",
-              "title": "Desarrollo Seguro de Software y Auditoría de la Ciberseguridad"
+              "icon": "lucide-file",
+              "title": "mexingsof07_act3"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -163,13 +210,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/books/Desarrollo Seguro de Software y Auditoría de la Ciberseguridad.pdf",
+                "file": "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Actividad-03/Desarollo-seguro-Act-3-Miguel-Chavez.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Desarrollo Seguro de Software y Auditoría de la Ciberseguridad"
+              "title": "Outline of Desarollo-seguro-Act-3-Miguel-Chavez"
             }
           },
           {
@@ -187,7 +234,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -209,11 +257,22 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "a3f136c6fb632d84",
+  "active": "2796763b7c7b8dfd",
   "lastOpenFiles": [
+    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Actividad-03/mexingsof07_act3.md",
+    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Actividad-03/Rubrica.md",
+    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Actividad-03/Guia_Paso_a_Paso_Auditoria_Actividad_03.md",
+    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Actividad-03/Desarollo-seguro-Act-3-Miguel-Chavez.md",
+    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/052-Guia-Estudio-Microtests-Examen.md",
+    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Actividad-03/mexingsof07_act3.docx",
+    "README.md",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_03/Guia_Actividad_03_Automatizacion_Pruebas.md",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_03/mexingsof03_act3.md",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_03/mexingsof03_act3.docx",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_03/Attachments/mexingsof03_act3 1.jpeg",
+    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/books/Desarrollo Seguro de Software y Auditoría de la Ciberseguridad.pdf",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/052-Guia-Estudio-Microtests-Examen.pdf",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Microtest_Ciberseguridad_Web.pdf",
-    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/052-Guia-Estudio-Microtests-Examen.md",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/006-Politica-de-seguridad.md",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/merge_microtests.py",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/002-Amenazas-Riesgos-Ciberseguridad.md",
@@ -223,12 +282,8 @@
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Classes/01-06-2026-Ataques-al-Código.md",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Microtest_Ciberseguridad_Web (1).pdf",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_02/mexingsof03_act2.docx",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_03/Attachments/mexingsof03_act3 1.jpeg",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_03/mexingsof03_act3.docx",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_03/mexingsof03_act3.md",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Actividad-02/mexingsof07_act2.docx",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Actividad-02/mexingsof07_act2.md",
-    "README.md",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/051-Resuemen-10.md",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/050-Seguridad-en-apps-RIA.md",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/049-Headers-http.md",
@@ -241,16 +296,9 @@
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/047-Resumen-9.md",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/046-Analisis-de-seguridad-Dast.md",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/045-Analisis-seguridad-estatico.md",
-    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/044-Analisis-de-app-web.md",
-    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/043-Resumen-8.md",
-    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/042-Open-redirect-csrf-ssrf.md",
-    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/041-Owasp-top-ten-3.md",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Books/pildorapytec_nov2020_seguridad_TLS.pdf",
-    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Books/Unconfirmed 435515.crdownload",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Actividad-03/mexingsof07_act3.docx",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Actividad-03/Attachments/mexingsof07_act3 1.png",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_03/Attachments/mexingsof03_act3.jpeg",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_03/Attachments",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-03/Attachments/Test de penetración a la aplicación web BADSTORE 4.png",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-03/Attachments/Test de penetración a la aplicación web BADSTORE 3.png",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-03/Attachments/Test de penetración a la aplicación web BADSTORE 2.png",
