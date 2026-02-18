@@ -30,8 +30,21 @@
               "icon": "lucide-file",
               "title": "052-Guia-Estudio-Microtests-Examen"
             }
+          },
+          {
+            "id": "a3f136c6fb632d84",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/books/Desarrollo Seguro de Software y Auditoría de la Ciberseguridad.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Desarrollo Seguro de Software y Auditoría de la Ciberseguridad"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -150,13 +163,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/052-Guia-Estudio-Microtests-Examen.md",
+                "file": "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/books/Desarrollo Seguro de Software y Auditoría de la Ciberseguridad.pdf",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 052-Guia-Estudio-Microtests-Examen"
+              "title": "Outline of Desarrollo Seguro de Software y Auditoría de la Ciberseguridad"
             }
           },
           {
@@ -196,7 +209,7 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "e0130fa756255028",
+  "active": "a3f136c6fb632d84",
   "lastOpenFiles": [
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/052-Guia-Estudio-Microtests-Examen.pdf",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Microtest_Ciberseguridad_Web.pdf",
