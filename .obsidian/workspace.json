@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "8d12ad24157f861c",
+        "id": "fdd1e31dcba05519",
         "type": "tabs",
         "children": [
           {
-            "id": "e0130fa756255028",
+            "id": "65b30b34f066b5eb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Actividad-03/mexingsof07_act3.md",
+                "file": "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_03/Guia_Actividad_03_Automatizacion_Pruebas.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,22 +28,22 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "mexingsof07_act3"
+              "title": "Guia_Actividad_03_Automatizacion_Pruebas"
             }
           }
         ]
       },
       {
-        "id": "c35c036e1d6c844d",
+        "id": "2408911fe802f04b",
         "type": "tabs",
         "children": [
           {
-            "id": "2796763b7c7b8dfd",
+            "id": "c6d481de40f94ad1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Actividad-03/Desarollo-seguro-Act-3-Miguel-Chavez.md",
+                "file": "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_03/mexingsof03_act3.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -58,37 +58,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Desarollo-seguro-Act-3-Miguel-Chavez"
-            }
-          }
-        ]
-      },
-      {
-        "id": "a66e508041d53e30",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "a3f136c6fb632d84",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Actividad-03/mexingsof07_act3.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "mexingsof07_act3"
+              "title": "mexingsof03_act3"
             }
           }
         ]
@@ -210,13 +180,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Actividad-03/Desarollo-seguro-Act-3-Miguel-Chavez.md",
+                "file": "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_03/Guia_Actividad_03_Automatizacion_Pruebas.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Desarollo-seguro-Act-3-Miguel-Chavez"
+              "title": "Outline of Guia_Actividad_03_Automatizacion_Pruebas"
             }
           },
           {
@@ -234,8 +204,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -257,19 +226,25 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "2796763b7c7b8dfd",
+  "active": "65b30b34f066b5eb",
   "lastOpenFiles": [
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_03/Guia_Actividad_03_Automatizacion_Pruebas.pdf",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_03/Guia_Actividad_03_Automatizacion_Pruebas.md",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_03/mexingsof03_act3.md",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_03/Attachments/mexingsof03_act3 1.jpeg",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/026-resumen-04.md",
+    "DSA/NeetCode/03-Static-Arrays.md",
+    "DSA/NeetCode/01-Ram.md",
+    "DSA/NeetCode/02-Arrays-Memory.md",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_03/01-Rubrica.md",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_03/mexingsof03_act3.docx",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Actividad-03/mexingsof07_act3.md",
+    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Actividad-03/Desarollo-seguro-Act-3-Miguel-Chavez.md",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Actividad-03/Rubrica.md",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Actividad-03/Guia_Paso_a_Paso_Auditoria_Actividad_03.md",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Actividad-03/Desarollo-seguro-Act-3-Miguel-Chavez.md",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/052-Guia-Estudio-Microtests-Examen.md",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Actividad-03/mexingsof07_act3.docx",
     "README.md",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_03/Guia_Actividad_03_Automatizacion_Pruebas.md",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_03/mexingsof03_act3.md",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_03/mexingsof03_act3.docx",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_03/Attachments/mexingsof03_act3 1.jpeg",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/books/Desarrollo Seguro de Software y Auditoría de la Ciberseguridad.pdf",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/052-Guia-Estudio-Microtests-Examen.pdf",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Microtest_Ciberseguridad_Web.pdf",
@@ -290,13 +265,6 @@
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/048-Firewall-app-web.md",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-03/Test de penetración a la aplicación web BADSTORE.md",
     "conflict-files-obsidian-git.md",
-    "DSA/LeetCode/0682-Baseball-game.md",
-    "DSA/LeetCode/0155-Min-Stack.md",
-    "DSA/LeetCode/0020-valir parenthesis.md",
-    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/047-Resumen-9.md",
-    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/046-Analisis-de-seguridad-Dast.md",
-    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/045-Analisis-seguridad-estatico.md",
-    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Books/pildorapytec_nov2020_seguridad_TLS.pdf",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Actividad-03/Attachments/mexingsof07_act3 1.png",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_03/Attachments/mexingsof03_act3.jpeg",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-03/Attachments/Test de penetración a la aplicación web BADSTORE 4.png",

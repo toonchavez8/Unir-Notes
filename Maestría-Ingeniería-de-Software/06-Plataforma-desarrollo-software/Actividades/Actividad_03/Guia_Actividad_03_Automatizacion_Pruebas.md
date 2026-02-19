@@ -1,4 +1,4 @@
-# Guía Profunda Paso a Paso — Actividad 3 Grupal
+# Guía Paso a Paso — Actividad 3
 
 ## 1) Propósito De Esta Guía
 
@@ -16,35 +16,25 @@ Objetivo general:
 
 ## 2) Estrategia Para Maximizar la Rúbrica
 
-### 2.1 Qué Evalúan Realmente
-
-La rúbrica premia tres cosas:
-
-1. **Automatización completa** (no parcial).
-2. **Evidencia de proceso y resultados** (capturas, reportes, scripts, ejecución).
-3. **Reflexión real** (aprendizaje y dificultades, no texto genérico).
-
-### 2.2 Principio De Trabajo
-
 Cada prueba debe poder trazarse de esta forma:
 
-**Requisito → Caso de prueba → Script automatizado → Ejecución → Resultado → Evidencia → Hallazgo (si aplica)**
+> [!attention]
+> **Requisito → Caso de prueba → Script automatizado → Ejecución → Resultado → Evidencia → Hallazgo (si aplica)**
 
 Si esa cadena existe para cada bloque, la memoria sale fuerte y defendible.
 
 ---
 
-## 3) Stack Recomendado (simple, Defendible Y eficaz)
+## 3) Stack Recomendado
 
-Puedes usar otras herramientas, pero esta combinación suele funcionar muy bien para evaluación académica:
+**Puedes usar otras herramientas**, pero Cada quien debe justificar el porque de cada herramienta:
 
-- **Aceptación (validación):** Cucumber (Gherkin) + Playwright.
+- **Aceptación (validación):** Cucumber (Gherkin) + Playwright. 
 - **API REST (sistema):** Postman + Newman.
 - **UI funcional:** Playwright.
 - **Carga:** k6.
-- **Gestión del trabajo:** GitHub Projects / Trello / Jira.
 
-### 3.1 Justificación Breve Para la Memoria
+### 3.1 Ejemplos De Justificación Breve Para El Ensayo
 
 - Cucumber facilita traducir criterios de negocio a escenarios entendibles por perfiles no técnicos.
 - Playwright da estabilidad en UI y buena evidencia visual (screenshots, video).
@@ -55,35 +45,18 @@ Puedes usar otras herramientas, pero esta combinación suele funcionar muy bien 
 
 ## 4) Plan De Ejecución Paso a Paso (orden recomendado)
 
-## Paso 0 — Organización Inicial Del Grupo
-
-1. Definir integrantes y roles.
-2. Crear tablero de trabajo con columnas: Pendiente / En progreso / En revisión / Hecho.
-3. Definir DoD (Definition of Done):
-   - Script automatizado funcionando.
-   - Evidencia de ejecución adjunta.
-   - Resultado documentado.
-4. Definir calendario interno (hitos semanales o por sesiones).
-
-**Entregable interno:** tablero activo + roles asignados + cronograma.
-
----
-
 ## Paso 1 — Preparación Del Entorno Reproducible
 
 1. Clonar repositorios:
-   - backend: spring-petclinic-rest
-   - frontend: spring-petclinic-angular
+	Accede al _back-end_ en el siguiente enlace:  
+	[https://github.com/spring-petclinic/spring-petclinic-rest](https://github.com/spring-petclinic/spring-petclinic-rest)
+
+	Accede al _front-end_ en el siguiente enlace:  
+	[https://github.com/spring-petclinic/spring-petclinic-angular](https://github.com/spring-petclinic/spring-petclinic-angular)
+
 2. Levantar backend.
 3. Levantar frontend.
 4. Verificar backend en Swagger y frontend en navegador.
-5. Guardar capturas iniciales del sistema funcionando.
-
-**Evidencias a guardar:**
-
-- Captura de backend levantado.
-- Captura de Swagger disponible.
-- Captura de frontend disponible.
 
 ---
 
@@ -203,23 +176,9 @@ Ejemplo:
 - Resumen de métricas.
 - Capturas/reportes de ejecución.
 
----
+## 5) División De Tareas Del Equipo
 
-## Paso 7 — Cierre Técnico Y Documentación
-
-1. Consolidar resultados de los cuatro bloques.
-2. Construir matriz de trazabilidad por criterio de rúbrica.
-3. Documentar hallazgos/bugs detectados.
-4. Redactar aprendizaje y reflexión crítica.
-5. Revisar ortografía y formato final.
-
----
-
-## 5) División De Tareas Del Equipo (modelo recomendado)
-
-> Ajusta según número de integrantes. Aquí va un modelo para 5 personas.
-
-## Rol 1 — Coordinación Y Calidad Documental
+## Rol 1 — Coordinación Y Calidad Documental - Fer
 
 Responsible de:
 
@@ -228,47 +187,45 @@ Responsible de:
 - Integrar memoria final y presentación.
 - Verificar cobertura completa de rúbrica.
 
-## Rol 2 — Aceptación (validación)
+## Rol 2 — Aceptación (validación) - Octavio
 
 Responsible de:
 
+- Justifican de uso de herramientas 
 - Historia/s de usuario.
 - Criterios de aceptación.
 - Escenarios Gherkin y automatización.
 - Evidencias y hallazgos de aceptación.
 
-## Rol 3 — API REST (sistema)
+## Rol 3 — API REST (sistema) - Maikal
 
 Responsible de:
 
+- Justifican de uso de herramientas 
+- Script para automatizar la ejecución de las pruebas
 - Diseño de colección Postman.
 - Flujo completo obligatorio de entidad.
 - Variables y aserciones.
 - Ejecución Newman y reporte.
 
-## Rol 4 — UI Funcional
+## Rol 4 — UI Funcional - Danny
 
 Responsible de:
 
-- Scripts Playwright/Cypress para formularios.
+- Justifican de uso de herramientas 
+- Scripts Playwright/Cypress/selenium/Vitest para formularios.
 - Casos positivos y negativos.
 - Evidencias visuals de ejecución.
 
-## Rol 5 — Carga Y Análisis De Rendimiento
+## Rol 5 — Carga Y Análisis De Rendimiento - Miguel
 
 Responsible de:
 
+- Justifican de uso de herramientas 
 - Diseño de escenario k6.
 - Umbrales y métricas.
 - Ejecución e interpretación técnica.
 - Recomendaciones de mejora.
-
-### 5.1 Dinámica De Trabajo Recomendada
-
-- Reunión de arranque (60–90 min).
-- Daily corta (10–15 min).
-- Demo interna cada 2 días.
-- Revisión cruzada entre pares antes de cerrar cada bloque.
 
 ---
 
@@ -322,41 +279,13 @@ Checklist:
 
 Checklist:
 
-- [ ] Reflexión auténtica individual/grupal.
+- [ ] Reflexión individual/grupal.
 - [ ] Qué fue positivo, qué costó y cómo se resolvió.
 - [ ] Qué mejorarían en un siguiente ciclo.
 
-## Criterio 7 — Ortografía
-
-Checklist:
-
-- [ ] Revisión ortográfica final.
-- [ ] Revisión de acentuación y estilo.
-
 ---
 
-## 7) Estructura Mínima De Evidencias (recomendada)
-
-Carpeta de evidencias sugerida:
-
-- evidencias/
-  - 01-entorno/
-  - 02-aceptacion/
-  - 03-api-rest/
-  - 04-ui-funcional/
-  - 05-carga/
-  - 06-hallazgos/
-  - 07-presentacion/
-
-Cada bloque debe incluir:
-
-- Script/fuente.
-- Captura de ejecución.
-- Resultado resumido (1 página o tabla).
-
----
-
-## 8) Plantilla Para la Memoria Técnica (esqueleto final)
+## 7) Plantilla Para la Memoria Técnica (esqueleto final)
 
 ## Portada
 
@@ -442,7 +371,7 @@ Cada bloque debe incluir:
 
 ---
 
-## 9) Plantilla De Tabla De Trazabilidad (lista Para copiar)
+## 8) Plantilla De Tabla De Trazabilidad (lista Para copiar)
 
 | Criterio rúbrica | Objetivo | Prueba automatizada | Evidencia | Resultado | Hallazgo |
 |---|---|---|---|---|---|
@@ -453,22 +382,23 @@ Cada bloque debe incluir:
 
 ---
 
-## 10) Guion Breve Para Presentación (máx. 10 diapositivas)
+## 9) Guion Breve Para Presentación (máx. 10 diapositivas)
 
-1. Objetivo y alcance.
-2. Plataformas elegidas y por qué.
-3. Flujo de aceptación automatizado.
-4. Flujo API REST completo.
-5. Flujo UI funcional.
-6. Escenario de carga y umbrales.
-7. Resultados clave.
-8. Bugs/hallazgos detectados.
-9. Aprendizajes y dificultades.
-10. Conclusiones y mejoras futuras.
+1. Titulo
+2. Objetivo y alcance.
+3. Plataformas elegidas y por qué.
+4. Flujo de aceptación automatizado.
+5. Flujo API REST completo.
+6. Flujo UI funcional.
+7. Escenario de carga y umbrales.
+8. Resultados clave.
+9. Bugs/hallazgos detectados.
+10. Aprendizajes y dificultades.
+11. Conclusiones y mejoras futuras.
 
 ---
 
-## 11) Checklist Final De Entrega
+## 10) Checklist Final De Entrega
 
 - [ ] Memoria técnica completa (máx. 25 páginas, formato solicitado).
 - [ ] Evidencias de proceso y resultados para los 4 bloques.
@@ -481,11 +411,7 @@ Cada bloque debe incluir:
 
 ## 12) Consejo Final Para Nota Alta
 
-No os quedéis en “la prueba pasó”. El valor académico está en:
-
 - justificar decisiones,
 - demostrar trazabilidad,
 - analizar resultados,
 - y reflexionar sobre el aprendizaje con criterio técnico.
-
-Si hacéis eso, estaréis bien posicionados para alcanzar la puntuación máxima de la rúbrica.
