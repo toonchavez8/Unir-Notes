@@ -50,6 +50,58 @@ Se tendrá que elaborar un plan de auditoría para la siguiente infraestructura 
 
 ![mexingsof07_act3](<Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Actividad-03/Attachments/mexingsof07_act3%201.png>)
 
+**Lectura profunda del esquema**
+
+- Se distinguen **tres dominios principales**: `Internet/exterior`, `DMZ`, y `red interna`.
+- La red interna está dividida en dos VLAN:
+    - **VLAN SERVIDORES** (arriba): agrupa servicios corporativos y de backend.
+    - **VLAN USUARIOS** (abajo): estaciones de trabajo, periféricos, dispositivos móviles y Wi-Fi.
+- Entre Internet y red interna aparece una **DMZ de dos capas**, delimitada por dos controles tipo firewall (uno hacia fuera y otro hacia dentro), lo que sugiere arquitectura de defensa en profundidad.
+
+**Cómo está organizado el esquema lógico**
+
+- **Borde externo**: router de salida y conectividad hacia Internet; también se muestra acceso remoto (líneas punteadas con portátil/satélite), que sugiere VPN o enlaces externos.
+- **Perímetro**: firewall externo filtra tráfico entrante/saliente antes de llegar a la DMZ.
+- **DMZ (zona intermedia)**:
+    - Aloja servicios expuestos o de tránsito (probables proxy, servicios web públicos, control de tráfico, inspección).
+    - Incluye dispositivos de seguridad/monitorización (iconos que sugieren IDS/IPS o balanceo/inspección).
+- **Firewall interno**: separa la DMZ de la LAN interna para evitar movimiento lateral directo.
+- **LAN interna segmentada**:
+    - VLAN de servidores para cargas críticas.
+    - VLAN de usuarios con equipos finales y red inalámbrica.
+    - Elementos de conectividad y control internos (switching/routing, appliances de seguridad).
+
+**Flujos de comunicación implícitos**
+
+- Flujo típico: `Internet -> Router -> Firewall externo -> DMZ -> Firewall interno -> VLAN internas`.
+- Tráfico de usuarios internos hacia servicios públicos probablemente sale por el mismo perímetro, con controles intermedios.
+- Accesos remotos entran por borde y deben atravesar controles antes de tocar recursos internos.
+
+**Qué evidencia el diseño**
+
+- **Fortalezas**:
+    - Segmentación por zonas de confianza.
+    - Double barrera perimetral alrededor de la DMZ.
+    - Separación lógica entre usuarios y servidores.
+- **Debilidades señaladas en la propia imagen**:
+    - Texto “**No tráfico cifrado, gran volumen**” sugiere riesgo de confidencialidad y/o inspección insuficiente en red interna.
+    - Texto “**Ataques exteriores, identificar problemas de configuración**” indica que el principal vector esperado es externo y muy dependiente de hardening/configuración.
+    - Presencia de servicios históricamente sensibles (por ejemplo, FTP/DNS/correo en este tipo de diagrams) amplía superficie de ataque si no están reforzados.
+
+**Interpretación de seguridad del esquema lógico**
+
+- Es una arquitectura clásica de empresa con **modelo por capas** y **zonas de confianza decreciente**.
+- El control real no depende solo del dibujo, sino de políticas concretas:
+    - reglas de firewall entre zonas,
+    - cifrado del tráfico interno y remoto,
+    - segmentación efectiva entre VLAN,
+    - monitoreo de eventos en DMZ y accesos remotos.
+- En términos de auditoría, el diagrama sugiere revisar primero:
+    1. perímetro y DMZ,
+    2. acceso remoto,
+    3. segmentación lateral entre VLAN,
+    4. cifrado y trazabilidad en red interna.
+
 ---
 
 ## Pautas De Elaboración

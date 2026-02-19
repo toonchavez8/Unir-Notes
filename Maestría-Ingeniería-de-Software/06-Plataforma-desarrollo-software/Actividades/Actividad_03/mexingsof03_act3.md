@@ -1,4 +1,4 @@
-# Actividad 3: Automatización De Pruebas De Aceptación, Funcionales, De Sistema Y De Carga
+# Actividad 3: Automatización De Pruebas De Aceptación, Funcionales, De Sistema Y De Carga Grupal
 
 ---
 
