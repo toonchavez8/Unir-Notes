@@ -54,45 +54,9 @@
               "icon": "lucide-file",
               "title": "mexingsof03_act2"
             }
-          },
-          {
-            "id": "ae4dc441af521913",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Microtest_Ciberseguridad_Web.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Microtest_Ciberseguridad_Web"
-            }
-          },
-          {
-            "id": "72c3bca7405b099b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -258,7 +222,7 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "72c3bca7405b099b",
+  "active": "36bdaa2dd2f2efc4",
   "lastOpenFiles": [
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Microtest_Ciberseguridad_Web.pdf",
     "conflict-files-obsidian-git.md",
