@@ -21,6 +21,198 @@ Esta guía está alineada con los apartados solicitados en la actividad:
 - Evaluación de riesgos del proyecto
 - Entregables del proyecto
 
+```mermaid
+flowchart TD
+
+  
+
+%% =========================
+
+%% INTERNET / EXTERNAL
+
+%% =========================
+
+  
+
+subgraph Extnlccess[External Access]
+
+    Internet((Internet))
+
+    Satellite((Satellite info
+
+    en transito))
+
+    RemoteUser((Client
+
+    Remote Laptop))
+
+    ExternalAttacks[[Ataques Exteriores]]
+
+end
+
+  
+  
+  
+
+Internet --- Satellite
+
+Satellite --- RemoteUser
+
+Internet --- ExternalAttacks
+
+  
+
+%% =========================
+
+%% EDGE ROUTER
+
+%% =========================
+
+Router((Edge Router))
+
+Internet --> Router
+
+  
+
+%% =========================
+
+%% PERIMETER FIREWALLS
+
+%% =========================
+
+FW1[Firewall Externo]
+
+FW2[Firewall Interno]
+
+  
+
+Router --> FW1
+
+FW1 --> LAN_DMZ
+
+LAN_DMZ --> FW2
+
+  
+
+%% =========================
+
+%% DMZ
+
+%% =========================
+
+subgraph LAN_DMZ [LAN DMZ]
+
+    MailServer[Mail Server]
+
+    FTPServer[FTP Server]
+
+    WebServer[Web Server]
+
+    DNSServer[DNS Server]
+
+    IDS[IDS 1]
+
+    Proxy[Reverse Proxy]
+
+end
+
+  
+
+%% =========================
+
+%% CORE NETWORK
+
+%% =========================
+
+FW2 --> CoreSwitch[Core Switch]
+
+  
+
+%% =========================
+
+%% VLAN SERVIDORES
+
+%% =========================
+
+subgraph VLAN_Servidores [VLAN Servidores]
+
+    DBServer[Database Server]
+
+     WebServer[Web Server]
+
+      WebServer[Active Directory]
+
+      WebServer[Mail Server]
+
+      WebServer[IDS Host]
+
+      WebServer[IDS 2]
+
+    FileServer[File Server]
+
+    AuthServer[Auth / AD Server]
+
+    BackupServer[Backup Server]
+
+end
+
+  
+
+CoreSwitch --> VLAN_Servidores
+
+  
+
+%% =========================
+
+%% VLAN USUARIOS
+
+%% =========================
+
+subgraph VLAN_Usuarios [VLAN Usuarios]
+
+    PC1[PC Usuario 1]
+
+    PC2[PC Usuario 2]
+
+    Printer1[Printer]
+
+    Printer2[Printer]
+
+    Mobile[Mobile Device]
+
+    Laptop[Laptop]
+
+    tablets
+
+    IDS3["IDS 3"]
+
+    HDD
+
+    Docs
+
+    Floppy
+
+    ing["Ingeria social"]
+
+end
+
+  
+
+CoreSwitch --> VLAN_Usuarios
+
+  
+
+%% =========================
+
+%% NOTES
+
+%% =========================
+
+VLAN_Usuarios -. No tráfico cifrado / alto volumen .- VLAN_Servidores
+
+ExternalAttacks -. Intentos de acceso .-> Router
+```
+
 ## 2. Estrategia General Para Maximizar la Rúbrica
 
 Antes de redactar, aplica estas tres reglas:
