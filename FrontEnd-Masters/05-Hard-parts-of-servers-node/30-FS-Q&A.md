@@ -49,11 +49,11 @@ Node.js needs a flexible, low-level format to handle incoming data from files, n
 
 ### 2.2 Buffers Vs Strings Vs JSON
 
-|Format|Description|When Used|
-|---|---|---|
-|Buffer|Raw binary data (0s and 1s)|Default incoming data in Node.js|
-|String|Human-readable text|After calling `.toString()`|
-|JSON Object|Structured JavaScript data|After `JSON.parse()`|
+| Format      | Description                 | When Used                        |
+| ----------- | --------------------------- | -------------------------------- |
+| Buffer      | Raw binary data (0s and 1s) | Default incoming data in Node.js |
+| String      | Human-readable **text**     | After calling `.toString()`      |
+| JSON Object | Structured JavaScript data  | After `JSON.parse()`             |
 
 **Important Insight:**  
 Data does **not** arrive as stringified JSON by default. Conversion is required.
