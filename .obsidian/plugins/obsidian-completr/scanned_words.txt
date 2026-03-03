@@ -6953,6 +6953,9 @@ Europea
 Exist
 Errors
 Explicitly
+Escrituras
+Especial
+Entero
 Historia
 Howard
 Habilidades
@@ -23779,6 +23782,7 @@ reutilizada
 represented
 removing
 receive
+restar
 la
 los
 las
@@ -30644,6 +30648,8 @@ sobrescriben
 sliced
 stringified
 stop
+signo
+sumar
 tiempo
 tiene
 tica
@@ -37364,6 +37370,9 @@ Sobrescribe
 Structured
 Shouldn
 Semantics
+Signo
+Sumas
+Signed
 Plat
 Pir
 Payne
@@ -40807,6 +40816,9 @@ Parsing
 Parameters
 Placeholders
 Prevent
+Pasa
+Precondici
+Postcondici
 Todo
 Thorndike
 Todos
@@ -48063,6 +48075,7 @@ args
 abstraction
 arrives
 again
+aproximado
 una
 un
 unas
@@ -51266,6 +51279,7 @@ uyF
 ulhp
 unwanted
 unreliability
+unsigned
 base
 biol
 bienestar
@@ -54398,6 +54412,7 @@ beyond
 bdG
 boWn
 bcw
+buffers
 emocional
 emociones
 en
@@ -58297,6 +58312,10 @@ escriba
 execute
 entirely
 excluded
+exceed
+excesivas
+escribirse
+enorme
 que
 quien
 quiere
@@ -72474,6 +72493,8 @@ cleaned
 chosen
 consciously
 consulting
+chequeo
+conversi
 Nic
 Necesidades
 No
@@ -75551,6 +75572,7 @@ NvNv
 NAX
 NgpV
 Normalizar
+Nulo
 maco
 motivar
 menes
@@ -82811,6 +82833,7 @@ Aceptan
 AddressSanitizer
 Accessing
 Arbitrary
+Aritm
 importancia
 inteligencia
 intelectivos
@@ -89982,6 +90005,7 @@ frontera
 fronteras
 failures
 falsy
+frecuentemente
 Utiliza
 Una
 Uno
@@ -93089,6 +93113,7 @@ UgxU
 UfAo
 Ujgq
 Uni
+Unsigned
 David
 Describe
 Developing
@@ -106105,6 +106130,7 @@ Maliciosos
 Metacaracter
 Metacaracteres
 Mutable
+Multiplicaciones
 Gardner
 Goleman
 Generan
@@ -118905,6 +118931,8 @@ Convenience
 Cleaned
 Comes
 Conditional
+Conversiones
+Corresponda
 vida
 viene
 va
@@ -125442,6 +125470,9 @@ Relevance
 Risks
 Rationale
 Reflects
+Rango
+Rangos
+Restas
 Bar
 Bisquerra
 Bajo
@@ -137775,6 +137806,7 @@ OIl
 OJNNJN
 Obligatorias
 Often
+Operar
 Vergüenza
 Valores
 Vision
