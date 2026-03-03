@@ -281,3 +281,21 @@ Especial atención a:
 ---
 
 ## MicroTest
+
+1. ¿Cuándo ocurre un ataque de integer overflow?
+    
+    - La respuesta: C. Un entero es usado para acceder a un búfer fuera de sus límites.
+        
+    - Justificación: Un integer overflow ocurre cuando el resultado de una operación aritmética exceed el rango que puede representar el tipo de dato entero, lo que conceptualmente implica que ya no hay espacio suficiente para almacenar correctamente ese valor y este se desborda o se trunca.
+        
+2. ¿Cuándo un ataque de integer overflow podría impactar en la seguridad de la memoria?
+    
+    - La respuesta: B. Si el entero es usado como el índice de un array.
+        
+    - Justificación: Si un entero que ha sufrido overflow se usa como índice de un arreglo, puede apuntar fuera de los límites del búfer, provocando accesos ilegales a memoria y comprometiendo la seguridad (lectura o escritura fuera de rango).
+        
+3. ¿Qué tipo de vulnerabilidad se comete en este código?
+    
+    - La respuesta: A. Integer overflows.
+        
+    - Justificación: El valor `nresp` controla el tamaño de la memoria asignada y el número de iteraciones del bucle. Si `nresp` es muy grande, la multiplicación `nresp * sizeof(char*)` puede causar un integer overflow, resultando en una asignación de memoria menor a la necesaria y posteriores escrituras fuera de los límites.
