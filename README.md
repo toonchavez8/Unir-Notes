@@ -78,8 +78,8 @@ Te voy a pasar un micro examen, quiero que solo respondas con la pregunta respue
 
 no incluyas divisdores de ---
 
-1.la pregunta
-	- La respuesta: 
+1. la pregunta
+	- La respuesta: [ la letra y aqui va todo la respuesta selecionadnda no solo el valor]
 	- Justifacion:
 	  
 ```
