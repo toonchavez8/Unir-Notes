@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "fdd1e31dcba05519",
+        "id": "3664b9033fedb867",
         "type": "tabs",
-        "dimension": 64.30656934306569,
+        "dimension": 72.35202492211839,
         "children": [
           {
-            "id": "33e05885457884b1",
+            "id": "36bdaa2dd2f2efc4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/031-Fundamentos-conceptos-auditoria.md",
+                "file": "FrontEnd-Masters/07-Rust/01-Introduction.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -29,16 +29,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "031-Fundamentos-conceptos-auditoria"
+              "title": "01-Introduction"
             }
           },
           {
-            "id": "f0e238b8df590cb5",
+            "id": "78ee232cbe9c17a7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/033-Tipos-y-clases-auditoria.md",
+                "file": "FrontEnd-Masters/07-Rust/02-Strings.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -53,16 +53,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "033-Tipos-y-clases-auditoria"
+              "title": "02-Strings"
             }
           },
           {
-            "id": "0542be3c10cfd70c",
+            "id": "36c8ec20343ab0c1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/034-Para-que sirve-una-auditoria.md",
+                "file": "FrontEnd-Masters/07-Rust/03-Floats-Mutability.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -77,16 +77,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "034-Para-que sirve-una-auditoria"
+              "title": "03-Floats-Mutability"
             }
           },
           {
-            "id": "55bb4fa389b39910",
+            "id": "44e264ca753ec301",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/035-Funciones-y-objetivos.md",
+                "file": "FrontEnd-Masters/07-Rust/04-Rust-Q-A.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -101,16 +101,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "035-Funciones-y-objetivos"
+              "title": "04-Rust-Q-A"
             }
           },
           {
-            "id": "1373588b01c70b4e",
+            "id": "9ca2855650f2d2cd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/036-processo-de-auditoria.md",
+                "file": "FrontEnd-Masters/07-Rust/05-Numeric-Types.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -125,16 +125,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "036-processo-de-auditoria"
+              "title": "05-Numeric-Types"
             }
           },
           {
-            "id": "69ae14048749a887",
+            "id": "6cd4f751d9534fbf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/037-Ventajas-y-inconvenientes-de-las-auditorias.md",
+                "file": "FrontEnd-Masters/07-Rust/06-Integers.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -149,49 +149,25 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "037-Ventajas-y-inconvenientes-de-las-auditorias"
-            }
-          },
-          {
-            "id": "e4032adacb9ab113",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/038-Resumen-6.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "038-Resumen-6"
+              "title": "06-Integers"
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       },
       {
-        "id": "2408911fe802f04b",
+        "id": "d6ca77b11b8166f3",
         "type": "tabs",
-        "dimension": 35.693430656934304,
+        "dimension": 27.647975077881622,
         "children": [
           {
-            "id": "c6d481de40f94ad1",
+            "id": "86bf9bc9a306fe26",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "README.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -328,13 +304,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_03/Guia-paso.md",
+                "file": "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/016-Alcance-proceso de gestion.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Guia-paso"
+              "title": "Outline of 016-Alcance-proceso de gestion"
             }
           },
           {
@@ -348,7 +324,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -375,47 +351,47 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "e4032adacb9ab113",
+  "active": "6cd4f751d9534fbf",
   "lastOpenFiles": [
     "README.md",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/038-Resumen-6.md",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/037-Ventajas-y-inconvenientes-de-las-auditorias.md",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/036-processo-de-auditoria.md",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/035-Funciones-y-objetivos.md",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/034-Para-que sirve-una-auditoria.md",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/033-Tipos-y-clases-auditoria.md",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/031-Fundamentos-conceptos-auditoria.md",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/030-Intro-a-los-sistemas-de-informacion.md",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/029-Resumen-5.md",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/028-programas-privilegiados.md",
+    "FrontEnd-Masters/07-Rust/06-Integers.md",
+    "FrontEnd-Masters/07-Rust/05-Numeric-Types.md",
+    "FrontEnd-Masters/07-Rust/04-Rust-Q-A.md",
+    "FrontEnd-Masters/07-Rust/03-Floats-Mutability.md",
+    "FrontEnd-Masters/07-Rust/02-Strings.md",
+    "FrontEnd-Masters/07-Rust/01-Introduction.md",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_02/mexingsof03_act2.md",
+    "FrontEnd-Masters/07-Rust",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/027-Privacidad-y-confidencialidad.md",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/026-Errores-y-excepciones.md",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/025-Integer-Overflow.md",
+    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/024-Resumen-4.md",
+    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/023-Buffer-overflow.md",
+    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/022-Manejo-entrada-de-datos.md",
+    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/021-Practicas-de-code-segura.md",
+    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/011-Requisitos-de-seguridad.md",
     "FrontEnd-Masters/05-Hard-parts-of-servers-node/35-Checking-the-callback-queue.md",
     "FrontEnd-Masters/05-Hard-parts-of-servers-node/34-Processing-data-in-batches.md",
     "FrontEnd-Masters/05-Hard-parts-of-servers-node/33-Setting-up-stream.md",
     "FrontEnd-Masters/05-Hard-parts-of-servers-node/32-Node-streams-overview.md",
     "FrontEnd-Masters/05-Hard-parts-of-servers-node/31-Intro-node-streams.md",
-    "FrontEnd-Masters/05-Hard-parts-of-servers-node/30-FS-Q&A.md",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/023-Buffer-overflow.md",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/022-Manejo-entrada-de-datos.md",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/021-Practicas-de-code-segura.md",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/020-Resumen-03.md",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/011-Requisitos-de-seguridad.md",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/024-Resumen-4.md",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Actividad-03/mexingsof07_act3.docx",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Actividad-03/Attachments/mexingsof07_act3 1.png",
+    "conflict-files-obsidian-git.md",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_03/Guia_Actividad_03_Automatizacion_Pruebas.pdf",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_03/Guia_Actividad_03_Automatizacion_Pruebas.md",
+    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Actividad-03/Guia_Paso_a_Paso_Auditoria_Actividad_03.md",
+    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Actividad-03/Desarollo-seguro-Act-3-Miguel-Chavez.md",
+    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Microtest_Ciberseguridad_Web.pdf",
+    "Untitled.canvas",
+    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/merge_microtests.py",
+    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/052-Guia-Estudio-Microtests-Examen.pdf",
+    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/052-Guia-Estudio-Microtests-Examen.md",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_02/mexingsof03_act2.docx",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_03/Attachments/mexingsof03_act3 1.jpeg",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_03/mexingsof03_act3.docx",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/books/Desarrollo Seguro de Software y Auditoría de la Ciberseguridad.pdf",
-    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/052-Guia-Estudio-Microtests-Examen.pdf",
-    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Microtest_Ciberseguridad_Web.pdf",
-    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/merge_microtests.py",
-    "Untitled.canvas",
-    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Microtest_Ciberseguridad_Web (1).pdf",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_02/mexingsof03_act2.docx",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Actividad-02/mexingsof07_act2.docx",
+    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Books/pildorapytec_nov2020_seguridad_TLS.pdf",
+    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Books/Unconfirmed 435515.crdownload",
+    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Actividad-03/Attachments/mexingsof07_act3 1.png",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_03/Attachments/mexingsof03_act3.jpeg",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-03/Attachments/Test de penetración a la aplicación web BADSTORE 4.png",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-03/Attachments/Test de penetración a la aplicación web BADSTORE 3.png",
