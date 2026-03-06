@@ -151,9 +151,33 @@
               "icon": "lucide-file",
               "title": "06-Integers"
             }
+          },
+          {
+            "id": "e2f6dfadf323978a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       },
       {
         "id": "d6ca77b11b8166f3",
@@ -350,10 +374,11 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "6cd4f751d9534fbf",
+  "active": "e2f6dfadf323978a",
   "lastOpenFiles": [
-    "README.md",
     "FrontEnd-Masters/07-Rust/06-Integers.md",
+    "conflict-files-obsidian-git.md",
+    "README.md",
     "FrontEnd-Masters/07-Rust/05-Numeric-Types.md",
     "FrontEnd-Masters/07-Rust/04-Rust-Q-A.md",
     "FrontEnd-Masters/07-Rust/03-Floats-Mutability.md",
@@ -374,7 +399,6 @@
     "FrontEnd-Masters/05-Hard-parts-of-servers-node/33-Setting-up-stream.md",
     "FrontEnd-Masters/05-Hard-parts-of-servers-node/32-Node-streams-overview.md",
     "FrontEnd-Masters/05-Hard-parts-of-servers-node/31-Intro-node-streams.md",
-    "conflict-files-obsidian-git.md",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_03/Guia_Actividad_03_Automatizacion_Pruebas.pdf",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_03/Guia_Actividad_03_Automatizacion_Pruebas.md",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Actividad-03/Guia_Paso_a_Paso_Auditoria_Actividad_03.md",
