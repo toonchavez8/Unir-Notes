@@ -3475,6 +3475,7 @@ Independiente
 Ineficientes
 Influencias
 ISACA
+Inversiones
 Emocional
 Edward
 Expone
@@ -34125,6 +34126,7 @@ terremotos
 tributarios
 temperatura
 tensiones
+tomarse
 Siglo
 Self
 Se
@@ -37551,6 +37553,7 @@ Sanciones
 Salvaguarda
 Suficientes
 Sustantivas
+Segmentar
 Plat
 Pir
 Payne
@@ -72821,6 +72824,7 @@ confidenciales
 cuestionados
 cuestionan
 costosas
+competentes
 Nic
 Necesidades
 No
@@ -106556,6 +106560,7 @@ Meaning
 Manage
 Moves
 Movilidad
+Mitigan
 Gardner
 Goleman
 Generan
@@ -119428,6 +119433,8 @@ Competentes
 Custodia
 Conflictos
 Cybersecurity
+Corporativo
+Credibilidad
 vida
 viene
 va
@@ -125990,6 +125997,7 @@ Revisados
 Rigor
 Realizada
 Rutinas
+Reto
 Bar
 Bisquerra
 Bajo
