@@ -151,33 +151,9 @@
               "icon": "lucide-file",
               "title": "06-Integers"
             }
-          },
-          {
-            "id": "e2f6dfadf323978a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
-            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       },
       {
         "id": "d6ca77b11b8166f3",
@@ -374,11 +350,11 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "e2f6dfadf323978a",
+  "active": "6cd4f751d9534fbf",
   "lastOpenFiles": [
+    "README.md",
     "FrontEnd-Masters/07-Rust/06-Integers.md",
     "conflict-files-obsidian-git.md",
-    "README.md",
     "FrontEnd-Masters/07-Rust/05-Numeric-Types.md",
     "FrontEnd-Masters/07-Rust/04-Rust-Q-A.md",
     "FrontEnd-Masters/07-Rust/03-Floats-Mutability.md",
