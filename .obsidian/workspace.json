@@ -81,36 +81,12 @@
             }
           },
           {
-            "id": "313d62a46244c5ff",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
-            }
-          },
-          {
             "id": "5a410deb61c6d3f7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Untitled.md",
+                "file": "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/053-Auditoria-de-operacions.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -125,11 +101,155 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "053-Auditoria-de-operacions"
+            }
+          },
+          {
+            "id": "b47346a2aae9918e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/054-Auditorías-técnicas-de-seguridad.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "054-Auditorías-técnicas-de-seguridad"
+            }
+          },
+          {
+            "id": "e3300c36c444f59a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/056-Auditoria-del-acceso-logico.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "056-Auditoria-del-acceso-logico"
+            }
+          },
+          {
+            "id": "ffe517ba1cf90d2e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/057-Resumen-9.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "057-Resumen-9"
+            }
+          },
+          {
+            "id": "85c4275371e97564",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/058-Auditorias-de-cumplimiento.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "058-Auditorias-de-cumplimiento"
+            }
+          },
+          {
+            "id": "e8454478883efd61",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/059-Metodologias-de-auditorias-de-seguridad.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "059-Metodologias-de-auditorias-de-seguridad"
+            }
+          },
+          {
+            "id": "80aa8c05e93f3835",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/microtests_unificados.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "microtests_unificados"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 9
       },
       {
         "id": "2408911fe802f04b",
@@ -217,8 +337,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 328.5,
-    "collapsed": true
+    "width": 328.5
   },
   "right": {
     "id": "a25b807ad639ff42",
@@ -327,8 +446,20 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "313d62a46244c5ff",
+  "active": "80aa8c05e93f3835",
   "lastOpenFiles": [
+    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/merge_microtests.py",
+    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/microtests_unificados.md",
+    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/060-Resumen-10.md",
+    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/059-Metodologias-de-auditorias-de-seguridad.md",
+    "README.md",
+    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/051-Auditorias.md",
+    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/050-Resumen-8.md",
+    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/058-Auditorias-de-cumplimiento.md",
+    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/057-Resumen-9.md",
+    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/056-Auditoria-del-acceso-logico.md",
+    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/054-Auditorías-técnicas-de-seguridad.md",
+    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/053-Auditoria-de-operacions.md",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/052-Auditorias-de-sistemas.md",
     "conflict-files-obsidian-git.md",
     "FrontEnd-Masters/07-Rust/15-memory.md",
@@ -340,21 +471,9 @@
     "FrontEnd-Masters/07-Rust/09-Primatives-recap-QnA.md",
     "FrontEnd-Masters/07-Rust/08-Statements-and-Expressions-QnA.md",
     "FrontEnd-Masters/07-Rust/07-Booleans-Conditionals-Statements-expresions.md",
-    "README.md",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/051-Auditorias.md",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/050-Resumen-8.md",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/049-Comuniacion.md",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/048-Evidencia.md",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/047-Objetivos-de-la-auditoria.md",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/046-Herramientas-y-tecnicas.md",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/045-Planificacion-de-la-auditoria.md",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/044-Metodologia-de-auditoria.md",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/043-Estandares-de-auditoria.md",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/042-Resumen-7.md",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/041-Regla-de-oro.md",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/040-Classificacion-de-los-controles.md",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/039-Gestion-funcion-de-auditoria.md",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/038-Resumen-6s.md",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/attachments/Pasted image 20260306200130.png",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/attachments/Pasted image 20260306200127.png",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/attachments/Pasted image 20260306200108.png",
@@ -367,7 +486,6 @@
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/books/Desarrollo Seguro de Software y Auditoría de la Ciberseguridad.pdf",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/052-Guia-Estudio-Microtests-Examen.pdf",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Microtest_Ciberseguridad_Web.pdf",
-    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/merge_microtests.py",
     "Untitled.canvas",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Microtest_Ciberseguridad_Web (1).pdf",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_02/mexingsof03_act2.docx",
