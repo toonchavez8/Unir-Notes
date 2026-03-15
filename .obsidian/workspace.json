@@ -9,228 +9,12 @@
         "dimension": 64.30656934306569,
         "children": [
           {
-            "id": "ddfb4a128fafe5f7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/050-Resumen-8.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "050-Resumen-8"
-            }
-          },
-          {
-            "id": "fc02da48620ad9c9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/051-Auditorias.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "051-Auditorias"
-            }
-          },
-          {
-            "id": "13e3ac9f42c790bc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/052-Auditorias-de-sistemas.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "052-Auditorias-de-sistemas"
-            }
-          },
-          {
-            "id": "5a410deb61c6d3f7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/053-Auditoria-de-operacions.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "053-Auditoria-de-operacions"
-            }
-          },
-          {
-            "id": "b47346a2aae9918e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/054-Auditorías-técnicas-de-seguridad.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "054-Auditorías-técnicas-de-seguridad"
-            }
-          },
-          {
-            "id": "e3300c36c444f59a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/056-Auditoria-del-acceso-logico.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "056-Auditoria-del-acceso-logico"
-            }
-          },
-          {
-            "id": "ffe517ba1cf90d2e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/057-Resumen-9.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "057-Resumen-9"
-            }
-          },
-          {
-            "id": "85c4275371e97564",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/058-Auditorias-de-cumplimiento.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "058-Auditorias-de-cumplimiento"
-            }
-          },
-          {
-            "id": "e8454478883efd61",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/059-Metodologias-de-auditorias-de-seguridad.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "059-Metodologias-de-auditorias-de-seguridad"
-            }
-          },
-          {
             "id": "80aa8c05e93f3835",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/microtests_unificados.md",
+                "file": "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/026-resumen-04.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -245,11 +29,333 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "microtests_unificados"
+              "title": "026-resumen-04"
+            }
+          },
+          {
+            "id": "896bd24eeac7e6c7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/027-Contexto-para-plataformas-en-java.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "027-Contexto-para-plataformas-en-java"
+            }
+          },
+          {
+            "id": "6df83b088a34f797",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/028-Valor-utildiad-de-java.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "028-Valor-utildiad-de-java"
+            }
+          },
+          {
+            "id": "b171a12130fd891a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/029-Plataformas-para-la-gestion.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "029-Plataformas-para-la-gestion"
+            }
+          },
+          {
+            "id": "7d3e817a77e73da7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/030-Plataformas-aceleradoras.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "030-Plataformas-aceleradoras"
+            }
+          },
+          {
+            "id": "7dee4b3da9e6f060",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/031-Plataformas-aceleradoras-spring.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "031-Plataformas-aceleradoras-spring"
+            }
+          },
+          {
+            "id": "e2bde9b35dc94645",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/032-Resumen-5.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "032-Resumen-5"
+            }
+          },
+          {
+            "id": "ac09efc6c3775a25",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/033-Contexto-de-plataformas-para-dessarollo-NET.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "033-Contexto-de-plataformas-para-dessarollo-NET"
+            }
+          },
+          {
+            "id": "5138058a230254d3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/034-Valor-utilidad-de-implementaciones-NET.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "034-Valor-utilidad-de-implementaciones-NET"
+            }
+          },
+          {
+            "id": "a48e702816d7c6d2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/035-Entornos-de-desarollo-integrados.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "035-Entornos-de-desarollo-integrados"
+            }
+          },
+          {
+            "id": "6a21b4e8fd1d6686",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/036-Entorno-Visual-studio-NET.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "036-Entorno-Visual-studio-NET"
+            }
+          },
+          {
+            "id": "58eac7b1e6f106d3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/037-Plataformas-Gestion-de-paquetes.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "037-Plataformas-Gestion-de-paquetes"
+            }
+          },
+          {
+            "id": "e64e06096aa7bd88",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/038-Plataformas-aceleradoras.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "038-Plataformas-aceleradoras"
+            }
+          },
+          {
+            "id": "d1436c8bbbb19bca",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/039-Resumen-6.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "039-Resumen-6"
+            }
+          },
+          {
+            "id": "704435baf541a088",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 13
       },
       {
         "id": "2408911fe802f04b",
@@ -337,7 +443,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 328.5
+    "width": 315.5,
+    "collapsed": true
   },
   "right": {
     "id": "a25b807ad639ff42",
@@ -446,34 +553,35 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "80aa8c05e93f3835",
+  "active": "d1436c8bbbb19bca",
   "lastOpenFiles": [
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/merge_microtests.py",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/microtests_unificados.md",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/060-Resumen-10.md",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/059-Metodologias-de-auditorias-de-seguridad.md",
     "README.md",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/051-Auditorias.md",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/050-Resumen-8.md",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/039-Resumen-6.md",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/038-Plataformas-aceleradoras.md",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/037-Plataformas-Gestion-de-paquetes.md",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/036-Entorno-Visual-studio-NET.md",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/035-Entornos-de-desarollo-integrados.md",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/034-Valor-utilidad-de-implementaciones-NET.md",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/033-Contexto-de-plataformas-para-dessarollo-NET.md",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/032-Resumen-5.md",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/031-Plataformas-aceleradoras-spring.md",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/030-Plataformas-aceleradoras.md",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/029-Plataformas-para-la-gestion.md",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/028-Valor-utildiad-de-java.md",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/029-Enorno-de-desarollo.md",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/027-Contexto-para-plataformas-en-java.md",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/026-resumen-04.md",
+    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/microtests_unificados.md",
+    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/059-Metodologias-de-auditorias-de-seguridad.md",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/058-Auditorias-de-cumplimiento.md",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/057-Resumen-9.md",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/056-Auditoria-del-acceso-logico.md",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/054-Auditorías-técnicas-de-seguridad.md",
+    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/merge_microtests.py",
+    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/060-Resumen-10.md",
+    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/051-Auditorias.md",
+    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/050-Resumen-8.md",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/053-Auditoria-de-operacions.md",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/052-Auditorias-de-sistemas.md",
-    "conflict-files-obsidian-git.md",
-    "FrontEnd-Masters/07-Rust/15-memory.md",
-    "FrontEnd-Masters/07-Rust/14-Arrays.md",
-    "FrontEnd-Masters/07-Rust/13-Structs.md",
-    "FrontEnd-Masters/07-Rust/12-tuples.md",
-    "FrontEnd-Masters/07-Rust/11-Primatives-solution.md",
-    "FrontEnd-Masters/07-Rust/10-Primatives-Exercise.md",
-    "FrontEnd-Masters/07-Rust/09-Primatives-recap-QnA.md",
-    "FrontEnd-Masters/07-Rust/08-Statements-and-Expressions-QnA.md",
-    "FrontEnd-Masters/07-Rust/07-Booleans-Conditionals-Statements-expresions.md",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/049-Comuniacion.md",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/048-Evidencia.md",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/047-Objetivos-de-la-auditoria.md",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/attachments/Pasted image 20260306200130.png",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/attachments/Pasted image 20260306200127.png",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/attachments/Pasted image 20260306200108.png",
