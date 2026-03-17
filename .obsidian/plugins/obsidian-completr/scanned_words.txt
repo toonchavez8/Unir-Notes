@@ -17015,6 +17015,7 @@ Licenciamiento
 Lisp
 Lombok
 Ligero
+Learning
 hace
 habilidad
 humano
@@ -34334,6 +34335,7 @@ televisi
 testabilidad
 toString
 tome
+testeado
 Siglo
 Self
 Se
@@ -68885,6 +68887,7 @@ provocaba
 packages
 publicarlos
 publican
+paneles
 clave
 coment
 capacidad
@@ -80088,6 +80091,7 @@ motores
 manifest
 moverse
 mediciones
+multiprop
 Arist
 Abraham
 Adem
@@ -83768,6 +83772,7 @@ ARchive
 Accessible
 Analizadas
 Acoplamiento
+Amplia
 importancia
 inteligencia
 intelectivos
@@ -87728,6 +87733,7 @@ incompatibilidades
 interoperabilidad
 instalarlos
 inspecciones
+inaccessible
 formaci
 factores
 fortalezas
@@ -142347,6 +142353,7 @@ Voice
 Verificador
 Verifier
 Verificaciones
+Variedad
 yo
 ya
 you
