@@ -367,9 +367,33 @@
               "icon": "lucide-file",
               "title": "15-memory"
             }
+          },
+          {
+            "id": "e94635237c3481e0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
+            }
           }
         ],
-        "currentTab": 14
+        "currentTab": 15
       },
       {
         "id": "d6ca77b11b8166f3",
@@ -566,8 +590,24 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "95b5dc4a1bc1e435",
+  "active": "e94635237c3481e0",
   "lastOpenFiles": [
+    "FrontEnd-Masters/07-Rust/15-memory.md",
+    "conflict-files-obsidian-git.md",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/039-Resumen-6.md",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/038-Plataformas-aceleradoras.md",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/037-Plataformas-Gestion-de-paquetes.md",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/036-Entorno-Visual-studio-NET.md",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/035-Entornos-de-desarollo-integrados.md",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/034-Valor-utilidad-de-implementaciones-NET.md",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/033-Contexto-de-plataformas-para-dessarollo-NET.md",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/032-Resumen-5.md",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/031-Plataformas-aceleradoras-spring.md",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/030-Plataformas-aceleradoras.md",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/029-Plataformas-para-la-gestion.md",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/029-Enorno-de-desarollo.md",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/028-Valor-utildiad-de-java.md",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/027-Contexto-para-plataformas-en-java.md",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/microtests_unificados.md",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/merge_microtests.py",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/attachments/Pasted image 20260306200130.png",
@@ -582,22 +622,6 @@
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/053-Auditoria-de-operacions.md",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/052-Auditorias-de-sistemas.md",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/051-Auditorias.md",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/050-Resumen-8.md",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/049-Comuniacion.md",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/048-Evidencia.md",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/047-Objetivos-de-la-auditoria.md",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/046-Herramientas-y-tecnicas.md",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/045-Planificacion-de-la-auditoria.md",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/044-Metodologia-de-auditoria.md",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/043-Estandares-de-auditoria.md",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/042-Resumen-7.md",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/041-Regla-de-oro.md",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/040-Classificacion-de-los-controles.md",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/039-Gestion-funcion-de-auditoria.md",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/038-Resumen-6s.md",
-    "FrontEnd-Masters/07-Rust/14-Arrays.md",
-    "FrontEnd-Masters/07-Rust/15-memory.md",
-    "README.md",
     "FrontEnd-Masters/07-Rust",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_03/Guia_Actividad_03_Automatizacion_Pruebas.pdf",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Microtest_Ciberseguridad_Web.pdf",

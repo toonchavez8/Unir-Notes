@@ -109,9 +109,6 @@ Quiero que actúes como un asistente académico experto en la materia del transc
 
 11: Agrega addicionalmente un espacio para MicroTest que sea un H2 vacia
 
-if the transcript is in English then create the notes in english
-El transcript es el siguiente:
-
 ```
 
 ## Prompt for Notes from Educative
@@ -136,6 +133,7 @@ Do not include extraneous commentary. If the source is not in English, keep note
 ```
 
 FrontEnd master
+
 ```text
 Act as an academic study assistant with expertise in the subject of the transcript I provide. Your task is to transform the transcript into structured study notes.
 
