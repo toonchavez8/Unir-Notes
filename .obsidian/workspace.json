@@ -367,33 +367,9 @@
               "icon": "lucide-file",
               "title": "15-memory"
             }
-          },
-          {
-            "id": "e94635237c3481e0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
-            }
           }
         ],
-        "currentTab": 15
+        "currentTab": 14
       },
       {
         "id": "d6ca77b11b8166f3",
@@ -590,10 +566,10 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "e94635237c3481e0",
+  "active": "95b5dc4a1bc1e435",
   "lastOpenFiles": [
-    "FrontEnd-Masters/07-Rust/15-memory.md",
     "conflict-files-obsidian-git.md",
+    "FrontEnd-Masters/07-Rust/15-memory.md",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/039-Resumen-6.md",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/038-Plataformas-aceleradoras.md",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/037-Plataformas-Gestion-de-paquetes.md",
