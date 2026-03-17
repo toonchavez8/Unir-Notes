@@ -103,9 +103,33 @@
               "icon": "lucide-file",
               "title": "042-Modelado-y-descripcion-de-servicios-1"
             }
+          },
+          {
+            "id": "004e19327270183d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       },
       {
         "id": "d6ca77b11b8166f3",
@@ -303,10 +327,11 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "07255bcf95eee538",
+  "active": "004e19327270183d",
   "lastOpenFiles": [
-    "README.md",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/042-Modelado-y-descripcion-de-servicios-1.md",
+    "conflict-files-obsidian-git.md",
+    "README.md",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/041-Valor-y-Utilidad-de-las-Plataformas.md",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/040-contexto-de-plataformas.md",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/039-Resumen-6.md",
@@ -327,7 +352,6 @@
     "FrontEnd-Masters/07-Rust/02-Strings.md",
     "FrontEnd-Masters/07-Rust/01-Introduction.md",
     "FrontEnd-Masters/07-Rust/15-memory.md",
-    "conflict-files-obsidian-git.md",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/038-Plataformas-aceleradoras.md",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/037-Plataformas-Gestion-de-paquetes.md",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/036-Entorno-Visual-studio-NET.md",
