@@ -103,33 +103,9 @@
               "icon": "lucide-file",
               "title": "042-Modelado-y-descripcion-de-servicios-1"
             }
-          },
-          {
-            "id": "004e19327270183d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       },
       {
         "id": "d6ca77b11b8166f3",
@@ -327,10 +303,10 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "004e19327270183d",
+  "active": "07255bcf95eee538",
   "lastOpenFiles": [
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/042-Modelado-y-descripcion-de-servicios-1.md",
     "conflict-files-obsidian-git.md",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/042-Modelado-y-descripcion-de-servicios-1.md",
     "README.md",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/041-Valor-y-Utilidad-de-las-Plataformas.md",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/040-contexto-de-plataformas.md",
