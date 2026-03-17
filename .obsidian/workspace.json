@@ -6,351 +6,15 @@
       {
         "id": "3664b9033fedb867",
         "type": "tabs",
-        "dimension": 72.35202492211837,
+        "dimension": 67.75844421699078,
         "children": [
-          {
-            "id": "36bdaa2dd2f2efc4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "FrontEnd-Masters/07-Rust/01-Introduction.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "01-Introduction"
-            }
-          },
-          {
-            "id": "78ee232cbe9c17a7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "FrontEnd-Masters/07-Rust/02-Strings.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "02-Strings"
-            }
-          },
-          {
-            "id": "36c8ec20343ab0c1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "FrontEnd-Masters/07-Rust/03-Floats-Mutability.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "03-Floats-Mutability"
-            }
-          },
-          {
-            "id": "44e264ca753ec301",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "FrontEnd-Masters/07-Rust/04-Rust-Q-A.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "04-Rust-Q-A"
-            }
-          },
-          {
-            "id": "9ca2855650f2d2cd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "FrontEnd-Masters/07-Rust/05-Numeric-Types.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "05-Numeric-Types"
-            }
-          },
-          {
-            "id": "6cd4f751d9534fbf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "FrontEnd-Masters/07-Rust/06-Integers.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "06-Integers"
-            }
-          },
-          {
-            "id": "d0bfc046ade38677",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "FrontEnd-Masters/07-Rust/07-Booleans-Conditionals-Statements-expresions.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "07-Booleans-Conditionals-Statements-expresions"
-            }
-          },
-          {
-            "id": "2eec05b069d0c39b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "FrontEnd-Masters/07-Rust/08-Statements-and-Expressions-QnA.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "08-Statements-and-Expressions-QnA"
-            }
-          },
-          {
-            "id": "90d5852e79b5e804",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "FrontEnd-Masters/07-Rust/09-Primatives-recap-QnA.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "09-Primatives-recap-QnA"
-            }
-          },
-          {
-            "id": "05876c3242a16903",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "FrontEnd-Masters/07-Rust/10-Primatives-Exercise.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "10-Primatives-Exercise"
-            }
-          },
-          {
-            "id": "44898cba601bd5e0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "FrontEnd-Masters/07-Rust/11-Primatives-solution.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "11-Primatives-solution"
-            }
-          },
-          {
-            "id": "8c27d5f304d8d875",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "FrontEnd-Masters/07-Rust/12-tuples.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "12-tuples"
-            }
-          },
-          {
-            "id": "f0a32fd74f560bdf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "FrontEnd-Masters/07-Rust/13-Structs.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "13-Structs"
-            }
-          },
-          {
-            "id": "e98f384cf4084ad7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "FrontEnd-Masters/07-Rust/14-Arrays.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "14-Arrays"
-            }
-          },
           {
             "id": "95b5dc4a1bc1e435",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FrontEnd-Masters/07-Rust/15-memory.md",
+                "file": "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/039-Resumen-6.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -365,16 +29,88 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "15-memory"
+              "title": "039-Resumen-6"
+            }
+          },
+          {
+            "id": "0617bcdaa21d75b2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/040-contexto-de-plataformas.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "040-contexto-de-plataformas"
+            }
+          },
+          {
+            "id": "767508890ec1051c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/041-Valor-y-Utilidad-de-las-Plataformas.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "041-Valor-y-Utilidad-de-las-Plataformas"
+            }
+          },
+          {
+            "id": "07255bcf95eee538",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/042-Modelado-y-descripcion-de-servicios-1.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "042-Modelado-y-descripcion-de-servicios-1"
             }
           }
         ],
-        "currentTab": 14
+        "currentTab": 3
       },
       {
         "id": "d6ca77b11b8166f3",
         "type": "tabs",
-        "dimension": 27.64797507788162,
+        "dimension": 32.24155578300921,
         "children": [
           {
             "id": "86bf9bc9a306fe26",
@@ -457,7 +193,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 328.5
+    "width": 328.5,
+    "collapsed": true
   },
   "right": {
     "id": "a25b807ad639ff42",
@@ -566,38 +303,38 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "95b5dc4a1bc1e435",
+  "active": "07255bcf95eee538",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
-    "FrontEnd-Masters/07-Rust/15-memory.md",
+    "README.md",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/042-Modelado-y-descripcion-de-servicios-1.md",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/041-Valor-y-Utilidad-de-las-Plataformas.md",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/040-contexto-de-plataformas.md",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/039-Resumen-6.md",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/012-Plataformas-applicaiton-lifecycle-management.md",
+    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/microtests_unificados.md",
+    "FrontEnd-Masters/07-Rust/14-Arrays.md",
+    "FrontEnd-Masters/07-Rust/13-Structs.md",
+    "FrontEnd-Masters/07-Rust/12-tuples.md",
+    "FrontEnd-Masters/07-Rust/11-Primatives-solution.md",
+    "FrontEnd-Masters/07-Rust/10-Primatives-Exercise.md",
+    "FrontEnd-Masters/07-Rust/09-Primatives-recap-QnA.md",
+    "FrontEnd-Masters/07-Rust/08-Statements-and-Expressions-QnA.md",
+    "FrontEnd-Masters/07-Rust/07-Booleans-Conditionals-Statements-expresions.md",
+    "FrontEnd-Masters/07-Rust/06-Integers.md",
+    "FrontEnd-Masters/07-Rust/05-Numeric-Types.md",
+    "FrontEnd-Masters/07-Rust/04-Rust-Q-A.md",
+    "FrontEnd-Masters/07-Rust/03-Floats-Mutability.md",
+    "FrontEnd-Masters/07-Rust/02-Strings.md",
+    "FrontEnd-Masters/07-Rust/01-Introduction.md",
+    "FrontEnd-Masters/07-Rust/15-memory.md",
+    "conflict-files-obsidian-git.md",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/038-Plataformas-aceleradoras.md",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/037-Plataformas-Gestion-de-paquetes.md",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/036-Entorno-Visual-studio-NET.md",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/035-Entornos-de-desarollo-integrados.md",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/034-Valor-utilidad-de-implementaciones-NET.md",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/033-Contexto-de-plataformas-para-dessarollo-NET.md",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/032-Resumen-5.md",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/031-Plataformas-aceleradoras-spring.md",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/030-Plataformas-aceleradoras.md",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/029-Plataformas-para-la-gestion.md",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/029-Enorno-de-desarollo.md",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/028-Valor-utildiad-de-java.md",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/027-Contexto-para-plataformas-en-java.md",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/microtests_unificados.md",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/merge_microtests.py",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/attachments/Pasted image 20260306200130.png",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/attachments/Pasted image 20260306200127.png",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/attachments/Pasted image 20260306200108.png",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/060-Resumen-10.md",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/059-Metodologias-de-auditorias-de-seguridad.md",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/058-Auditorias-de-cumplimiento.md",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/057-Resumen-9.md",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/056-Auditoria-del-acceso-logico.md",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/054-Auditorías-técnicas-de-seguridad.md",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/053-Auditoria-de-operacions.md",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/052-Auditorias-de-sistemas.md",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/051-Auditorias.md",
     "FrontEnd-Masters/07-Rust",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_03/Guia_Actividad_03_Automatizacion_Pruebas.pdf",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Microtest_Ciberseguridad_Web.pdf",
