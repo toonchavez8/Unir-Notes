@@ -91,7 +91,7 @@ Quiero que actúes como un asistente académico experto en la materia del transc
 
 2. Incluye **definiciones claras** de los conceptos mencionados, explicando su relevancia y contexto para que pueda aprender mejor.
 
-3. Si es necesario, incluye **MermaidJs** para ilustrar relaciones entre conceptos o jerarquías.
+3. Si es necesario, incluye **MermaidJs** para ilustrar relaciones entre conceptos o jerarquías. puedes incorporar cualquier tipo de diagrama de mermaid
 
 4. Si hay datos que se pueden organizar mejor en **tablas**, hazlo para facilitar la comprensión.
 
