@@ -84,24 +84,12 @@
             "id": "07255bcf95eee538",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/01-Classes/01-Presentacion-.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "file": "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Books/O1-Fundamentos-De-IA.pdf"
               },
-              "icon": "lucide-file",
-              "title": "01-Presentacion-"
+              "icon": "lucide-file-text",
+              "title": "O1-Fundamentos-De-IA"
             }
           }
         ],
@@ -302,10 +290,14 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "07255bcf95eee538",
+  "active": "b74e6b9aa2987edc",
   "lastOpenFiles": [
-    "README.md",
+    "Maestría-Ingeniería-de-Software/Calendario semestral.pdf",
+    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Books",
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/01-Classes/01-Presentacion-.md",
+    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Books/O1-Fundamentos-De-IA.pdf",
+    "01-AI-notes.md",
+    "README.md",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/042-Modelado-y-descripcion-de-servicios-1.md",
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/01-Classes",
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA",
@@ -330,8 +322,6 @@
     "FrontEnd-Masters/07-Rust/02-Strings.md",
     "FrontEnd-Masters/07-Rust/01-Introduction.md",
     "FrontEnd-Masters/07-Rust/15-memory.md",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/038-Plataformas-aceleradoras.md",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/037-Plataformas-Gestion-de-paquetes.md",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/merge_microtests.py",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/attachments/Pasted image 20260306200130.png",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/attachments/Pasted image 20260306200127.png",
@@ -342,9 +332,7 @@
     "Untitled.canvas",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/merge_microtests.py",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/052-Guia-Estudio-Microtests-Examen.pdf",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_02/mexingsof03_act2.docx",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_03/Attachments/mexingsof03_act3 1.jpeg",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_03/mexingsof03_act3.docx",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Actividad-03/Attachments/mexingsof07_act3 1.png",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_03/Attachments/mexingsof03_act3.jpeg",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-03/Attachments/Test de penetración a la aplicación web BADSTORE 4.png",
