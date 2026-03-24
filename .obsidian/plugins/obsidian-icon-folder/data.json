@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiBrain",
       "LiSquareCode",
       "LiCodepen",
       "LiCode2",
-      "LiCodesandbox",
-      "LiKeyboard"
+      "LiCodesandbox"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -106,5 +106,9 @@
   "DSA/NeetCode": {
     "iconName": "LiSquareCode",
     "iconColor": "#ffd500"
+  },
+  "Maestría-Ingeniería-de-Software/07-Fundamentos-IA": {
+    "iconName": "LiBrain",
+    "iconColor": "#6314b3"
   }
 }
