@@ -3567,6 +3567,8 @@ IVUVCO
 IUTFf
 Iqiw
 Ioc
+Implicaciones
+Iniciales
 Emocional
 Edward
 Expone
@@ -7180,6 +7182,12 @@ ERV
 Ednv
 ExifTool
 EndExifToolUpdate
+Etiquetas
+Estoc
+Encuentra
+Epsilon
+Etiqueta
+Etiquetados
 Historia
 Howard
 Habilidades
@@ -10292,6 +10300,7 @@ Hmt
 Hhl
 HuHm
 HCk
+Hasta
 definiciones
 de
 dem
@@ -14139,6 +14148,10 @@ dLy
 dEbm
 dViv
 dWeL
+discretos
+desarroll
+descuento
+discreto
 La
 Linea
 Las
@@ -24435,6 +24448,11 @@ rcie
 rerjz
 rys
 riaBQOnc
+relacione
+regresi
+recibiendo
+retroceder
+raros
 la
 los
 las
@@ -27655,6 +27673,8 @@ lzs
 lCqO
 lry
 lvX
+lineales
+laberinto
 sentimientos
 sugiere
 ser
@@ -34874,6 +34894,7 @@ tmaE
 tXb
 tRF
 ttfz
+tomada
 Siglo
 Self
 Se
@@ -38401,6 +38422,9 @@ SAru
 SYFr
 SDEMXY
 SJuB
+Spam
+Salud
+SARSA
 Plat
 Pir
 Payne
@@ -41962,6 +41986,10 @@ PeK
 PRF
 PXUYR
 PEw
+Predice
+Predecir
+Probabilidades
+Pseudoc
 Todo
 Thorndike
 Todos
@@ -45267,6 +45295,8 @@ TLX
 TzBX
 TFhq
 TjP
+Trabaja
+Tiende
 aprendizaje
 ala
 aspectos
@@ -49418,6 +49448,12 @@ aMvu
 aaei
 aRY
 azDY
+ampliarse
+aprende
+asistido
+alpha
+arbitrariamente
+aproxima
 una
 un
 unas
@@ -55891,6 +55927,8 @@ bbH
 bbPd
 bXAV
 bTK
+builders
+bancario
 emocional
 emociones
 en
@@ -59906,6 +59944,12 @@ erK
 ebVT
 ejKZ
 etoM
+entrena
+entrenar
+episodio
+epsilon
+exploratorio
+exploratorias
 que
 quien
 quiere
@@ -69965,6 +70009,9 @@ ptYo
 pUT
 pkzcG
 ppMQ
+ptimas
+policy
+predictoras
 clave
 coment
 capacidad
@@ -74450,6 +74497,9 @@ cDgY
 cDn
 cxgE
 cJS
+cuadr
+conservador
+computacional
 Nic
 Necesidades
 No
@@ -77605,6 +77655,7 @@ NpTl
 Nquv
 NIQSBN
 NhgN
+Ndepend
 maco
 motivar
 menes
@@ -81333,6 +81384,7 @@ mcsq
 mbh
 mRp
 mSAR
+memoriza
 Arist
 Abraham
 Adem
@@ -85073,6 +85125,12 @@ AeB
 AUxI
 AiqkTT
 AmGD
+Aprendan
+Agrupamiento
+Anomal
+Actualiza
+Aprende
+AlphaGo
 importancia
 inteligencia
 intelectivos
@@ -89104,6 +89162,11 @@ ipn
 itsu
 iPm
 iFglA
+impresiones
+inducci
+inestable
+inciertos
+inusuales
 formaci
 factores
 fortalezas
@@ -98974,6 +99037,10 @@ DFARg
 Ddal
 DdQ
 Dcch
+Deploy
+Determin
+Desaf
+Descubrir
 Wechsler
 Wayne
 WhatsApp
@@ -105330,6 +105397,7 @@ nlp
 nQN
 nXnN
 nCE
+neuronales
 Maslow
 Miedo
 Maria
@@ -108907,6 +108975,10 @@ MvUR
 MFkA
 McJk
 MqY
+Multihilo
+Mejoren
+Mucha
+Multiclase
 Gardner
 Goleman
 Generan
@@ -111978,6 +112050,10 @@ GHZM
 GzR
 GFIWRA
 GVy
+Generalicen
+Generaliza
+Greedy
+Generalizar
 Formula
 Feedback
 Francis
@@ -115277,6 +115353,7 @@ FFl
 FKPPBL
 FmMF
 FVAEQI
+Finanzas
 otras
 of
 on
@@ -118474,6 +118551,8 @@ ohVLlGL
 oLgzc
 oLa
 osj
+ocupada
+overfitting
 Crea
 Cociente
 Con
@@ -122099,6 +122178,9 @@ CHp
 Ciymq
 CNBIIY
 CRXIGT
+Clustering
+Complejo
+Convergencia
 vida
 viene
 va
@@ -128833,6 +128915,11 @@ RAwp
 Rhk
 RLcY
 RfZM
+Regresi
+Recall
+Refuerzo
+Recompensa
+Rob
 Bar
 Bisquerra
 Bajo
@@ -132061,6 +132148,7 @@ BDQ
 Buf
 BBRLG
 BeginExifToolUpdate
+Binaria
 Kama
 KPI
 Kurt
@@ -138332,6 +138420,10 @@ gXIXE
 gYn
 gHrC
 ger
+gestionarlas
+generalizar
+girar
+gamma
 Ofrecen
 Orientaci
 Ordena
@@ -141443,6 +141535,8 @@ OnXq
 OAfP
 OARNRH
 OJR
+Otter
+Octopus
 Vergüenza
 Valores
 Vision
@@ -156813,6 +156907,7 @@ JVw
 JSv
 JrP
 JLh
+Juegos
 xito
 xitos
 ximo

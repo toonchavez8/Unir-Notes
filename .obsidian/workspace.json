@@ -4,377 +4,8 @@
     "type": "split",
     "children": [
       {
-        "id": "fdd1e31dcba05519",
-        "type": "tabs",
-        "dimension": 64.30656934306569,
-        "children": [
-          {
-            "id": "80aa8c05e93f3835",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/026-resumen-04.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "026-resumen-04"
-            }
-          },
-          {
-            "id": "896bd24eeac7e6c7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/027-Contexto-para-plataformas-en-java.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "027-Contexto-para-plataformas-en-java"
-            }
-          },
-          {
-            "id": "6df83b088a34f797",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/028-Valor-utildiad-de-java.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "028-Valor-utildiad-de-java"
-            }
-          },
-          {
-            "id": "b171a12130fd891a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/029-Plataformas-para-la-gestion.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "029-Plataformas-para-la-gestion"
-            }
-          },
-          {
-            "id": "7d3e817a77e73da7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/030-Plataformas-aceleradoras.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "030-Plataformas-aceleradoras"
-            }
-          },
-          {
-            "id": "7dee4b3da9e6f060",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/031-Plataformas-aceleradoras-spring.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "031-Plataformas-aceleradoras-spring"
-            }
-          },
-          {
-            "id": "e2bde9b35dc94645",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/032-Resumen-5.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "032-Resumen-5"
-            }
-          },
-          {
-            "id": "ac09efc6c3775a25",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/033-Contexto-de-plataformas-para-dessarollo-NET.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "033-Contexto-de-plataformas-para-dessarollo-NET"
-            }
-          },
-          {
-            "id": "5138058a230254d3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/034-Valor-utilidad-de-implementaciones-NET.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "034-Valor-utilidad-de-implementaciones-NET"
-            }
-          },
-          {
-            "id": "a48e702816d7c6d2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/035-Entornos-de-desarollo-integrados.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "035-Entornos-de-desarollo-integrados"
-            }
-          },
-          {
-            "id": "6a21b4e8fd1d6686",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/036-Entorno-Visual-studio-NET.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "036-Entorno-Visual-studio-NET"
-            }
-          },
-          {
-            "id": "58eac7b1e6f106d3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/037-Plataformas-Gestion-de-paquetes.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "037-Plataformas-Gestion-de-paquetes"
-            }
-          },
-          {
-            "id": "e64e06096aa7bd88",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/038-Plataformas-aceleradoras.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "038-Plataformas-aceleradoras"
-            }
-          },
-          {
-            "id": "d1436c8bbbb19bca",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/039-Resumen-6.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "039-Resumen-6"
-            }
-          },
-          {
-            "id": "704435baf541a088",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Books/O1-Fundamentos-De-IA.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "O1-Fundamentos-De-IA"
-            }
-          },
-          {
-            "id": "93e5f337c6ddf9a7",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.12.7"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.12.7"
-            }
-          }
-        ],
-        "currentTab": 15
-      },
-      {
         "id": "2408911fe802f04b",
         "type": "tabs",
-        "dimension": 35.693430656934304,
         "children": [
           {
             "id": "c6d481de40f94ad1",
@@ -382,8 +13,111 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/01-Tema1-Introducción-al-aprendizaje automático.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "01-Tema1-Introducción-al-aprendizaje automático"
+            }
+          },
+          {
+            "id": "c423300cfb9770d3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/02-Tema1-Contexto-de-aprendizaje-automatico.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "02-Tema1-Contexto-de-aprendizaje-automatico"
+            }
+          },
+          {
+            "id": "4276082b5a3a84ec",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/03-Tema1-Supervisado-vs-No-Supervisado.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "03-Tema1-Supervisado-vs-No-Supervisado"
+            }
+          },
+          {
+            "id": "439611168adacc32",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "StudyGuides/011-Math-Learning-guide.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "011-Math-Learning-guide"
+            }
+          }
+        ],
+        "currentTab": 3
+      },
+      {
+        "id": "edcd3cafa97b4541",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fef7dbdebf6a9834",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "README.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -566,20 +300,20 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "93e5f337c6ddf9a7",
+  "active": "439611168adacc32",
   "lastOpenFiles": [
+    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/04-Tema1-Evaluacion-de-modelos-clasificacion.md",
+    "StudyGuides/011-Math-Learning-guide.md",
+    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/03-Tema1-Supervisado-vs-No-Supervisado.md",
+    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/02-Tema1-Contexto-de-aprendizaje-automatico.md",
+    "README.md",
+    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/attachments/Pasted image 20260324214428.png",
+    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/attachments/Pasted image 20260324214412.png",
+    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/attachments",
+    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/01-Tema1-Introducción-al-aprendizaje automático.md",
     "conflict-files-obsidian-git.md",
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Books/O1-Fundamentos-De-IA.pdf",
-    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/01-Classes/01-Presentacion-.md",
-    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Books",
-    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/01-Classes",
-    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/042-Modelado-y-descripcion-de-servicios-1.md",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/041-Valor-y-Utilidad-de-las-Plataformas.md",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/040-contexto-de-plataformas.md",
-    "01-AI-notes.md",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/039-Resumen-6.md",
-    "README.md",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/038-Plataformas-aceleradoras.md",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/037-Plataformas-Gestion-de-paquetes.md",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/036-Entorno-Visual-studio-NET.md",
@@ -591,12 +325,16 @@
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/030-Plataformas-aceleradoras.md",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/029-Plataformas-para-la-gestion.md",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/028-Valor-utildiad-de-java.md",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/029-Enorno-de-desarollo.md",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/027-Contexto-para-plataformas-en-java.md",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/026-resumen-04.md",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/microtests_unificados.md",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/059-Metodologias-de-auditorias-de-seguridad.md",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/058-Auditorias-de-cumplimiento.md",
+    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/01-Classes/01-Presentacion-.md",
+    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Books",
+    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/01-Classes",
+    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/042-Modelado-y-descripcion-de-servicios-1.md",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/041-Valor-y-Utilidad-de-las-Plataformas.md",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/040-contexto-de-plataformas.md",
+    "01-AI-notes.md",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/merge_microtests.py",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/attachments/Pasted image 20260306200130.png",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/attachments/Pasted image 20260306200127.png",
@@ -607,12 +345,9 @@
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_03/Guia_Actividad_03_Automatizacion_Pruebas.pdf",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_03/Attachments/mexingsof03_act3 1.jpeg",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_03/mexingsof03_act3.docx",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/books/Desarrollo Seguro de Software y Auditoría de la Ciberseguridad.pdf",
     "Untitled.canvas",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_03/Attachments/mexingsof03_act3.jpeg",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-03/Attachments/Test de penetración a la aplicación web BADSTORE 4.png",
-    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-03/Attachments/Test de penetración a la aplicación web BADSTORE 3.png",
-    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-03/Attachments/Test de penetración a la aplicación web BADSTORE 2.png",
-    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-03/Attachments/Test de penetración a la aplicación web BADSTORE 1.png"
+    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-03/Attachments/Test de penetración a la aplicación web BADSTORE 3.png"
   ]
 }

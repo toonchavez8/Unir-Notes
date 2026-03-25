@@ -107,9 +107,15 @@ Quiero que actúes como un asistente académico experto en la materia del transc
 
 10: No agregues Emojis, no es necesario mensionar el nombre del profesor
 
-11: Agrega addicionalmente un espacio para MicroTest que sea un H2 vacia
+11: En este caso estamos hablando de machine learning y inteligencia artificial, si mencionan un algortimo especifico  quiero que lo incluyas de la siguente manera
+$$
+Q(s, a) = Q(s, a) + α [ r + γ Q(s', a') - Q(s, a) ]
+$$
 
+no uses ese algoritmo es solo un ejemplo pero si usa los $$ en markdown y luego quiero que expliques que hace el algoritmo y como fucniona 
 ```
+
+11: Agrega addicionalmente un espacio para MicroTest que sea un H2 vacia
 
 ## Prompt for Notes from Educative
 
