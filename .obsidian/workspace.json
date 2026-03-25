@@ -348,14 +348,28 @@
             "id": "704435baf541a088",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "pdf",
+              "state": {
+                "file": "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Books/O1-Fundamentos-De-IA.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "O1-Fundamentos-De-IA"
+            }
+          },
+          {
+            "id": "93e5f337c6ddf9a7",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.12.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.12.7"
             }
           }
         ],
-        "currentTab": 14
+        "currentTab": 15
       },
       {
         "id": "2408911fe802f04b",
@@ -552,7 +566,7 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "704435baf541a088",
+  "active": "93e5f337c6ddf9a7",
   "lastOpenFiles": [
     "conflict-files-obsidian-git.md",
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Books/O1-Fundamentos-De-IA.pdf",
