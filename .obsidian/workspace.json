@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "StudyGuides/011-Math-Learning-guide.md",
+                "file": "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/01-Classes/02-Medicion-Aprendizaje.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,7 +100,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "011-Math-Learning-guide"
+              "title": "02-Medicion-Aprendizaje"
             }
           }
         ],
@@ -191,7 +191,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 315.5
+    "width": 315.5,
+    "collapsed": true
   },
   "right": {
     "id": "a25b807ad639ff42",
@@ -302,11 +303,12 @@
   },
   "active": "439611168adacc32",
   "lastOpenFiles": [
-    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/04-Tema1-Evaluacion-de-modelos-clasificacion.md",
+    "README.md",
+    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/01-Classes/02-Medicion-Aprendizaje.md",
     "StudyGuides/011-Math-Learning-guide.md",
+    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/04-Tema1-Evaluacion-de-modelos-clasificacion.md",
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/03-Tema1-Supervisado-vs-No-Supervisado.md",
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/02-Tema1-Contexto-de-aprendizaje-automatico.md",
-    "README.md",
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/attachments/Pasted image 20260324214428.png",
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/attachments/Pasted image 20260324214412.png",
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/attachments",
@@ -334,7 +336,6 @@
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/042-Modelado-y-descripcion-de-servicios-1.md",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/041-Valor-y-Utilidad-de-las-Plataformas.md",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/040-contexto-de-plataformas.md",
-    "01-AI-notes.md",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/merge_microtests.py",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/attachments/Pasted image 20260306200130.png",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/attachments/Pasted image 20260306200127.png",

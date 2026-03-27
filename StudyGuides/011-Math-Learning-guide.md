@@ -1,4 +1,4 @@
-
+: 
 ## 1. What You Actually Need to Learn (Minimal Math Path)
 
 ### 1.1 Core Math for Machine Learning
