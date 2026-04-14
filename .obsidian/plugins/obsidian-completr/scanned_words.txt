@@ -3572,6 +3572,10 @@ Iniciales
 Identifying
 Inner
 Interpretation
+Importance
+Ignoring
+Implications
+Impact
 Emocional
 Edward
 Expone
@@ -7191,6 +7195,8 @@ Encuentra
 Epsilon
 Etiqueta
 Etiquetados
+Expected
+Extensively
 Historia
 Howard
 Habilidades
@@ -14158,6 +14164,11 @@ discreto
 dominant
 dominates
 depends
+deeper
+decision
+demand
+demands
+device
 La
 Linea
 Las
@@ -17305,6 +17316,7 @@ LQHg
 Loicg
 LLPS
 Logarithmic
+Least
 hace
 habilidad
 humano
@@ -20534,6 +20546,8 @@ hsi
 hXH
 hwwZ
 hJx
+humans
+hypothetical
 referencia
 reconocer
 rmino
@@ -24461,6 +24475,11 @@ recibiendo
 retroceder
 raros
 retaining
+relevent
+rarely
+refactoring
+reliability
+realistic
 la
 los
 las
@@ -27684,6 +27703,7 @@ lvX
 lineales
 laberinto
 little
+languages
 sentimientos
 sugiere
 ser
@@ -31506,6 +31526,7 @@ simplifies
 searches
 slowly
 stated
+scenario
 tiempo
 tiene
 tica
@@ -34912,6 +34933,8 @@ tomada
 timings
 tied
 typical
+talked
+tested
 Siglo
 Self
 Se
@@ -38443,6 +38466,10 @@ Spam
 Salud
 SARSA
 Summing
+Shows
+Simplicity
+Scaling
+Slow
 Plat
 Pir
 Payne
@@ -42009,6 +42036,8 @@ Predecir
 Probabilidades
 Pseudoc
 Polynomial
+Predictable
+Premature
 Todo
 Thorndike
 Todos
@@ -45318,6 +45347,8 @@ Trabaja
 Tiende
 Tuples
 Though
+Transition
+Temporary
 aprendizaje
 ala
 aspectos
@@ -52748,6 +52779,7 @@ unev
 uDZ
 uUJ
 uÄ
+unrealistic
 base
 biol
 bienestar
@@ -59976,6 +60008,11 @@ exploratorio
 exploratorias
 explored
 exits
+evaluated
+effort
+emerge
+evaluates
+extreme
 que
 quien
 quiere
@@ -70039,6 +70076,8 @@ ptimas
 policy
 predictoras
 proportionally
+priorities
+premature
 clave
 coment
 capacidad
@@ -74537,6 +74576,10 @@ creation
 considers
 conquer
 classification
+codeblock
+competing
+concerns
+considerations
 Nic
 Necesidades
 No
@@ -81425,6 +81468,8 @@ memoriza
 measures
 multiply
 maximal
+matter
+maintainability
 Arist
 Abraham
 Adem
@@ -85173,6 +85218,8 @@ Aprende
 AlphaGo
 Average
 Appears
+Absolute
+Advantages
 importancia
 inteligencia
 intelectivos
@@ -89210,6 +89257,8 @@ inestable
 inciertos
 inusuales
 ignoring
+improvement
+inefficiency
 formaci
 factores
 fortalezas
@@ -92547,6 +92596,9 @@ fOcP
 fMA
 fwNi
 fastest
+factors
+favorable
+favor
 Utiliza
 Una
 Uno
@@ -95703,6 +95755,8 @@ UNVLJL
 UuR
 UNyY
 UlD
+Uncertain
+Unscalable
 David
 Describe
 Developing
@@ -99087,6 +99141,10 @@ Desaf
 Descubrir
 Determining
 Definitions
+Demonstrating
+Differentiates
+Decision
+Delay
 Wechsler
 Wayne
 WhatsApp
@@ -102251,6 +102309,7 @@ WwY
 WNQNBN
 WbB
 WhMY
+World
 no
 nos
 nuestro
@@ -109027,6 +109086,9 @@ Mejoren
 Mucha
 Multiclase
 Mathematical
+Maintainability
+Misleading
+Minimal
 Gardner
 Goleman
 Generan
@@ -115405,6 +115467,7 @@ FKPPBL
 FmMF
 FVAEQI
 Finanzas
+Fewer
 otras
 of
 on
@@ -118605,6 +118668,8 @@ osj
 ocupada
 overfitting
 observations
+optimized
+optimize
 Crea
 Cociente
 Con
@@ -122237,6 +122302,7 @@ Constant
 Comparative
 Complexities
 Choosing
+Constants
 vida
 viene
 va
@@ -128978,6 +129044,9 @@ Recompensa
 Rob
 Rather
 Replace
+Recommendation
+Reasons
+Requires
 Bar
 Bisquerra
 Bajo
@@ -141598,6 +141667,10 @@ OJR
 Otter
 Octopus
 Outer
+Offs
+Option
+Optimized
+Optimizing
 Vergüenza
 Valores
 Vision
@@ -153942,6 +154015,7 @@ wyQ
 wsLa
 wNMN
 wDg
+wasted
 Johnson
 James
 Johari

@@ -86,7 +86,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Khan-Acadamy/Statistics-probability/00-empy.md",
+                "file": "FrontEnd-Masters/02-Complete-intro-CompSci/002-Big-O-And-Algorithmic-Efficiencycod e.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -101,11 +101,83 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "00-empy"
+              "title": "002-Big-O-And-Algorithmic-Efficiencycod e"
+            }
+          },
+          {
+            "id": "8b328e6f3c0590c5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "FrontEnd-Masters/02-Complete-intro-CompSci/003-Why-use-big-O.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "003-Why-use-big-O"
+            }
+          },
+          {
+            "id": "f2e88e6311a286bb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "FrontEnd-Masters/02-Complete-intro-CompSci/004-Spatial-Complexity.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "004-Spatial-Complexity"
+            }
+          },
+          {
+            "id": "f5174473994938b7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "FrontEnd-Masters/02-Complete-intro-CompSci/005-Big-O-trade-offs.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "005-Big-O-trade-offs"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 6
       },
       {
         "id": "d6ca77b11b8166f3",
@@ -119,7 +191,7 @@
               "type": "markdown",
               "state": {
                 "file": "README.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -302,12 +374,18 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "07255bcf95eee538",
+  "active": "f5174473994938b7",
   "lastOpenFiles": [
-    "Khan-Acadamy/Linear-Algebra/00-empy.md",
-    "Khan-Acadamy/Statistics-probability/00-empy.md",
-    "Khan-Acadamy/Algebra-basics/00-empy.md",
+    "FrontEnd-Masters/02-Complete-intro-CompSci/Untitled.md",
+    "FrontEnd-Masters/02-Complete-intro-CompSci/005-Big-O-trade-offs.md",
+    "README.md",
+    "FrontEnd-Masters/02-Complete-intro-CompSci/004-Spatial-Complexity.md",
+    "FrontEnd-Masters/02-Complete-intro-CompSci/003-Why-use-big-O.md",
     "FrontEnd-Masters/02-Complete-intro-CompSci/002-Big-O-And-Algorithmic-Efficiencycod e.md",
+    "FrontEnd-Masters/05-Hard-parts-of-servers-node/35-Checking-the-callback-queue.md",
+    "Khan-Acadamy/Statistics-probability/00-empy.md",
+    "Khan-Acadamy/Linear-Algebra/00-empy.md",
+    "Khan-Acadamy/Algebra-basics/00-empy.md",
     "Khan-Acadamy/Statistics-probability",
     "Khan-Acadamy/Linear-Algebra",
     "Khan-Acadamy/Algebra-basics/Untitled",
@@ -329,7 +407,6 @@
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Books",
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/01-Classes/01-Presentacion-.md",
     "01-AI-notes.md",
-    "README.md",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/042-Modelado-y-descripcion-de-servicios-1.md",
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/01-Classes",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/040-contexto-de-plataformas.md",
@@ -337,11 +414,6 @@
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/012-Plataformas-applicaiton-lifecycle-management.md",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/microtests_unificados.md",
     "FrontEnd-Masters/07-Rust/14-Arrays.md",
-    "FrontEnd-Masters/07-Rust/13-Structs.md",
-    "FrontEnd-Masters/07-Rust/12-tuples.md",
-    "FrontEnd-Masters/07-Rust/11-Primatives-solution.md",
-    "FrontEnd-Masters/07-Rust/10-Primatives-Exercise.md",
-    "FrontEnd-Masters/07-Rust/09-Primatives-recap-QnA.md",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/attachments/Pasted image 20260306200130.png",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/attachments/Pasted image 20260306200127.png",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/attachments/Pasted image 20260306200108.png",
