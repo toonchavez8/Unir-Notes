@@ -14214,6 +14214,11 @@ descoger
 diremos
 dejaremos
 discreta
+dispersiones
+delta
+denominador
+disperso
+diagonals
 La
 Linea
 Las
@@ -31633,6 +31638,7 @@ sobreestimaci
 subestimaci
 supervisados
 subestima
+solapados
 tiempo
 tiene
 tica
@@ -49736,6 +49742,8 @@ andar
 aparede
 asegurad
 aciertos
+alejados
+ajustada
 una
 un
 unas
@@ -60307,6 +60315,7 @@ esforz
 equivoca
 enfermedades
 explicativo
+evaluando
 que
 quien
 quiere
@@ -70426,6 +70435,8 @@ preocupo
 predijo
 particiones
 penalizan
+promedio
+promedia
 clave
 coment
 capacidad
@@ -74967,6 +74978,8 @@ convencerles
 calculamos
 cojo
 clusters
+centroide
+cdot
 Nic
 Necesidades
 No
@@ -81904,6 +81917,7 @@ mortal
 mama
 muestras
 medicina
+midiendo
 Arist
 Abraham
 Adem
@@ -99618,6 +99632,7 @@ Davies
 Dispersi
 Dunn
 DBSCAN
+Delta
 Wechsler
 Wayne
 WhatsApp
@@ -105986,6 +106001,7 @@ npercaso
 nevamos
 notebooks
 ncer
+numerador
 Maslow
 Miedo
 Maria
@@ -122818,6 +122834,8 @@ Compactos
 Calinski
 Cruzada
 Centroides
+Compacidad
+Calcula
 vida
 viene
 va
