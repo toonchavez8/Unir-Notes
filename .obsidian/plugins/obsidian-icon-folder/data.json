@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiSchool2",
+      "🏛",
       "LiBrain",
       "LiSquareCode",
-      "LiCodepen",
-      "LiCode2",
-      "LiCodesandbox"
+      "LiCodepen"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -113,5 +113,9 @@
   "Maestría-Ingeniería-de-Software/07-Fundamentos-IA": {
     "iconName": "LiBrain",
     "iconColor": "#6314b3"
+  },
+  "Khan-Acadamy": {
+    "iconName": "LiSchool2",
+    "iconColor": "#ff9500"
   }
 }
