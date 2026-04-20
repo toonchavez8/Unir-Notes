@@ -3576,6 +3576,9 @@ Importance
 Ignoring
 Implications
 Impact
+IDon
+Irj
+IqwL
 Emocional
 Edward
 Expone
@@ -7197,6 +7200,7 @@ Etiqueta
 Etiquetados
 Expected
 Extensively
+EcoC
 Historia
 Howard
 Habilidades
@@ -14169,6 +14173,8 @@ decision
 demand
 demands
 device
+dKiA
+dblr
 La
 Linea
 Las
@@ -17317,6 +17323,7 @@ Loicg
 LLPS
 Logarithmic
 Least
+LeEAT
 hace
 habilidad
 humano
@@ -20548,6 +20555,10 @@ hwwZ
 hJx
 humans
 hypothetical
+hCxW
+hGm
+hJaJ
+hIAh
 referencia
 reconocer
 rmino
@@ -24480,6 +24491,8 @@ rarely
 refactoring
 reliability
 realistic
+rnK
+rHyT
 la
 los
 las
@@ -27704,6 +27717,7 @@ lineales
 laberinto
 little
 languages
+lBEJ
 sentimientos
 sugiere
 ser
@@ -31527,6 +31541,8 @@ searches
 slowly
 stated
 scenario
+sCEt
+sMp
 tiempo
 tiene
 tica
@@ -34935,6 +34951,7 @@ tied
 typical
 talked
 tested
+tVDB
 Siglo
 Self
 Se
@@ -38470,6 +38487,10 @@ Shows
 Simplicity
 Scaling
 Slow
+SwqC
+SyLy
+SWSOR
+SbGDVsk
 Plat
 Pir
 Payne
@@ -42038,6 +42059,8 @@ Pseudoc
 Polynomial
 Predictable
 Premature
+Pfby
+PMjPb
 Todo
 Thorndike
 Todos
@@ -45349,6 +45372,7 @@ Tuples
 Though
 Transition
 Temporary
+Tfz
 aprendizaje
 ala
 aspectos
@@ -49509,6 +49533,7 @@ aproxima
 abstracts
 away
 affects
+aJp
 una
 un
 unas
@@ -52780,6 +52805,10 @@ uDZ
 uUJ
 uÄ
 unrealistic
+uHPI
+uPd
+uzk
+ubB
 base
 biol
 bienestar
@@ -55985,6 +56014,8 @@ bXAV
 bTK
 builders
 bancario
+bAb
+bvT
 emocional
 emociones
 en
@@ -60013,6 +60044,10 @@ effort
 emerge
 evaluates
 extreme
+ehSm
+eXJ
+egH
+eZD
 que
 quien
 quiere
@@ -66066,6 +66101,7 @@ jnX
 jcDM
 jBz
 jtW
+jqj
 papel
 proceso
 pueden
@@ -70078,6 +70114,7 @@ predictoras
 proportionally
 priorities
 premature
+pFD
 clave
 coment
 capacidad
@@ -74580,6 +74617,9 @@ codeblock
 competing
 concerns
 considerations
+cRM
+cVC
+cgaL
 Nic
 Necesidades
 No
@@ -77736,6 +77776,8 @@ Nquv
 NIQSBN
 NhgN
 Ndepend
+NVj
+NDVQCC
 maco
 motivar
 menes
@@ -81470,6 +81512,10 @@ multiply
 maximal
 matter
 maintainability
+mvu
+muw
+mpV
+mTJl
 Arist
 Abraham
 Adem
@@ -85220,6 +85266,9 @@ Average
 Appears
 Absolute
 Advantages
+ACmP
+AXW
+AGRi
 importancia
 inteligencia
 intelectivos
@@ -89259,6 +89308,8 @@ inusuales
 ignoring
 improvement
 inefficiency
+iwWc
+imb
 formaci
 factores
 fortalezas
@@ -92599,6 +92650,9 @@ fastest
 factors
 favorable
 favor
+fggpA
+fJi
+fOxi
 Utiliza
 Una
 Uno
@@ -95757,6 +95811,7 @@ UNyY
 UlD
 Uncertain
 Unscalable
+UxFY
 David
 Describe
 Developing
@@ -99145,6 +99200,9 @@ Demonstrating
 Differentiates
 Decision
 Delay
+DVkl
+DqK
+DhV
 Wechsler
 Wayne
 WhatsApp
@@ -105504,6 +105562,7 @@ nXnN
 nCE
 neuronales
 negligible
+nGtI
 Maslow
 Miedo
 Maria
@@ -112167,6 +112226,9 @@ Generalizar
 Generating
 Growth
 Grows
+GCBt
+GpHm
+GkK
 Formula
 Feedback
 Francis
@@ -115468,6 +115530,7 @@ FmMF
 FVAEQI
 Finanzas
 Fewer
+FVs
 otras
 of
 on
@@ -118670,6 +118733,7 @@ overfitting
 observations
 optimized
 optimize
+oJx
 Crea
 Cociente
 Con
@@ -125462,6 +125526,7 @@ vih
 vbG
 vlu
 vAS
+vWD
 Reuven
 REA
 Re
@@ -129047,6 +129112,7 @@ Replace
 Recommendation
 Reasons
 Requires
+RdN
 Bar
 Bisquerra
 Bajo
@@ -132277,6 +132343,9 @@ BBRLG
 BeginExifToolUpdate
 Binaria
 Balanced
+BWOUBT
+BYDa
+Bpg
 Kama
 KPI
 Kurt
@@ -135382,6 +135451,9 @@ KpG
 KWiC
 KVVQ
 KUBZAI
+KjxG
+Kwe
+KqIebg
 gicos
 gica
 generan
@@ -138553,6 +138625,10 @@ generalizar
 girar
 gamma
 generally
+gvP
+gbvN
+gfn
+gch
 Ofrecen
 Orientaci
 Ordena
@@ -141671,6 +141747,7 @@ Offs
 Option
 Optimized
 Optimizing
+OYZo
 Vergüenza
 Valores
 Vision
@@ -144875,6 +144952,10 @@ VGUeL
 VHPWAA
 VMW
 VWWWWUWW
+VcgmLK
+VOb
+VJc
+Vco
 yo
 ya
 you
@@ -147877,6 +147958,10 @@ yHY
 yuZ
 yXW
 ydH
+yAS
+yfl
+yEo
+yoD
 Qui
 Qu
 Que
@@ -151022,6 +151107,12 @@ QEll
 QmrB
 QLWB
 Quadratic
+QFtu
+QsV
+QBZL
+QwU
+QfN
+Qonx
 will
 words
 workspace
@@ -154016,6 +154107,10 @@ wsLa
 wNMN
 wDg
 wasted
+wlC
+wBKk
+wgF
+wuF
 Johnson
 James
 Johari
@@ -157044,6 +157139,10 @@ JSv
 JrP
 JLh
 Juegos
+JUTU
+JIWJ
+JIVJ
+JVdB
 xito
 xitos
 ximo
@@ -163060,6 +163159,11 @@ zhr
 zdv
 zrs
 zKHhXH
+zeA
+znU
+zagP
+zÜa
+zRYz
 Yetton
 Yes
 You
@@ -166260,6 +166364,7 @@ YpYz
 Ywen
 Ypq
 YZHU
+YFbF
 Zen
 ZD
 Zs
@@ -169277,6 +169382,7 @@ ZxpZN
 ZjHQE
 ZCHi
 ZiVV
+ZNKk
 ktor
 knowledge
 keys
@@ -172443,6 +172549,8 @@ kpRw
 kBz
 kggg
 ksm
+kIZ
+kUT
 XOR
 XX
 XP
@@ -175514,6 +175622,8 @@ Xva
 Xuaq
 XGh
 XMAEES
+XVb
+Xhi
 Äy
 ÄP
 Äe
