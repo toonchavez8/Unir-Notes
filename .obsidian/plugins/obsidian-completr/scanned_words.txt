@@ -3575,6 +3575,8 @@ Imaginar
 Interpretabilidad
 Ingresos
 Introducir
+Ilimitadas
+Idioma
 Emocional
 Edward
 Expone
@@ -7202,6 +7204,9 @@ Experimentaci
 Edad
 Entrenar
 Elasticidad
+Enfermedades
+Ensamble
+Essentials
 Historia
 Howard
 Habilidades
@@ -10318,6 +10323,8 @@ Hasta
 Harbas
 Harabasz
 Hijos
+Hyper
+Hypervisor
 definiciones
 de
 dem
@@ -14220,6 +14227,7 @@ delta
 denominador
 disperso
 diagonals
+duran
 La
 Linea
 Las
@@ -24552,6 +24560,7 @@ recordad
 reger
 recopilas
 relevent
+regional
 la
 los
 las
@@ -27776,6 +27785,7 @@ lineales
 laberinto
 logaritmo
 lleg
+limpia
 sentimientos
 sugiere
 ser
@@ -35080,6 +35090,7 @@ tanta
 threshold
 train
 talked
+tecla
 Siglo
 Self
 Se
@@ -42214,6 +42225,9 @@ Porcentual
 Proporciones
 Pipeline
 Presente
+Predicho
+Penalizar
+Partici
 Todo
 Thorndike
 Todos
@@ -45530,6 +45544,7 @@ Trabajos
 Tienden
 TCO
 Transversal
+Tasa
 aprendizaje
 ala
 aspectos
@@ -70447,6 +70462,8 @@ particiones
 penalizan
 promedio
 promedia
+probabil
+presiona
 clave
 coment
 capacidad
@@ -74991,6 +75008,7 @@ clusters
 centroide
 cdot
 codeblock
+coeficiente
 Nic
 Necesidades
 No
@@ -89746,6 +89764,7 @@ impust
 incursas
 interpretable
 inmediatos
+ilimitada
 formaci
 factores
 fortalezas
@@ -99650,6 +99669,9 @@ DBSCAN
 Delta
 Directorio
 Directo
+Datacenter
+Disco
+Detallados
 Wechsler
 Wayne
 WhatsApp
@@ -129623,6 +129645,7 @@ Recordamos
 Ramon
 RMSE
 Representar
+Reinicio
 Bar
 Bisquerra
 Bajo
@@ -139146,6 +139169,7 @@ gasto
 ganancias
 guijaba
 gardener
+gradual
 Ofrecen
 Orientaci
 Ordena
@@ -142260,6 +142284,7 @@ OJR
 Otter
 Octopus
 Optimized
+Overfitting
 Vergüenza
 Valores
 Vision
@@ -145472,6 +145497,8 @@ Visualizaciones
 Virtualizaci
 Variantes
 Vol
+VirtualBox
+VMware
 yo
 ya
 you
