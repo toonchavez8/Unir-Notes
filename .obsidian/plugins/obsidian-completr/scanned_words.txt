@@ -7201,6 +7201,7 @@ Expresa
 Experimentaci
 Edad
 Entrenar
+Elasticidad
 Historia
 Howard
 Habilidades
@@ -38629,6 +38630,7 @@ Silhouette
 Support
 SVM
 Sobreestimaci
+Serverless
 Plat
 Pir
 Payne
@@ -42210,6 +42212,8 @@ Peor
 Penaliza
 Porcentual
 Proporciones
+Pipeline
+Presente
 Todo
 Thorndike
 Todos
@@ -45524,6 +45528,8 @@ Tienemos
 Teno
 Trabajos
 Tienden
+TCO
+Transversal
 aprendizaje
 ala
 aspectos
@@ -60318,6 +60324,8 @@ equivoca
 enfermedades
 explicativo
 evaluando
+especializar
+empaquetan
 que
 quien
 quiere
@@ -81921,6 +81929,7 @@ mama
 muestras
 medicina
 midiendo
+modificable
 Arist
 Abraham
 Adem
@@ -85682,6 +85691,9 @@ Absoluto
 Aleatorio
 Analog
 Aseguradora
+Active
+Arc
+Avanzados
 importancia
 inteligencia
 intelectivos
@@ -99636,6 +99648,8 @@ Dispersi
 Dunn
 DBSCAN
 Delta
+Directorio
+Directo
 Wechsler
 Wayne
 WhatsApp
@@ -112677,6 +112691,7 @@ Gisboving
 Generalizaci
 Gradual
 Gradient
+GPO
 Formula
 Feedback
 Francis
@@ -122839,6 +122854,9 @@ Cruzada
 Centroides
 Compacidad
 Calcula
+Computing
+CentOS
+Comparten
 vida
 viene
 va
@@ -132842,6 +132860,7 @@ Boosting
 BSCAN
 Binet
 Bouldin
+Balanceo
 Kama
 KPI
 Kurt
@@ -145450,6 +145469,9 @@ Vale
 Viendo
 Variabilidad
 Visualizaciones
+Virtualizaci
+Variantes
+Vol
 yo
 ya
 you
