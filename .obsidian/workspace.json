@@ -102,9 +102,33 @@
               "icon": "lucide-file",
               "title": "02-Medicion-Aprendizaje"
             }
+          },
+          {
+            "id": "a64e1638fbd83525",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       },
       {
         "id": "edcd3cafa97b4541",
@@ -300,17 +324,23 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "439611168adacc32",
+  "active": "a64e1638fbd83525",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/01-Classes/02-Medicion-Aprendizaje.md",
+    "conflict-files-obsidian-git.md",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Actividad-04-Articulos-y-Anexos/mexingsof14_act4_Artículo y anexos.docx",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Actividad-03-Pruebas-de-la-herramienta/mexingsof14_act3_Pruebas de la herramienta.docx",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Actividad-02-Metodologia-Arquitectura/mexingsof14_act2_Metodología y arquitectura.docx",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Actividad-01-Estado-del-Arte/mexingsof14_act1_Estado del arte.docx",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Actividad-04-Articulos-y-Anexos",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Actividad-03-Pruebas-de-la-herramienta",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Actividad-02-Metodologia-Arquitectura",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Actividad-01-Estado-del-Arte",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Programacion-semanal.pdf",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades",
     "Khan-Acadamy/Statistics-probability/00-empy.md",
     "Khan-Acadamy/Linear-Algebra/00-empy.md",
     "Khan-Acadamy/Algebra-basics/00-empy.md",
-    "Khan-Acadamy/Statistics-probability",
-    "Khan-Acadamy/Linear-Algebra",
-    "Khan-Acadamy/Algebra-basics",
-    "Khan-Acadamy",
     "FrontEnd-Masters/02-Complete-intro-CompSci/005-Big-O-trade-offs.md",
     "FrontEnd-Masters/02-Complete-intro-CompSci/004-Spatial-Complexity.md",
     "FrontEnd-Masters/02-Complete-intro-CompSci/003-Why-use-big-O.md",
@@ -321,9 +351,7 @@
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/02-Tema1-Contexto-de-aprendizaje-automatico.md",
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/attachments/Pasted image 20260324214428.png",
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/attachments/Pasted image 20260324214412.png",
-    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/attachments",
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/01-Tema1-Introducción-al-aprendizaje automático.md",
-    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Books/O1-Fundamentos-De-IA.pdf",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/039-Resumen-6.md",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/038-Plataformas-aceleradoras.md",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/037-Plataformas-Gestion-de-paquetes.md",
@@ -335,11 +363,6 @@
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/031-Plataformas-aceleradoras-spring.md",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/030-Plataformas-aceleradoras.md",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/029-Plataformas-para-la-gestion.md",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/028-Valor-utildiad-de-java.md",
-    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Books",
-    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/01-Classes",
-    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/merge_microtests.py",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/attachments/Pasted image 20260306200130.png",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/attachments/Pasted image 20260306200127.png",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/attachments/Pasted image 20260306200108.png",
