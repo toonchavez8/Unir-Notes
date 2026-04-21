@@ -113,9 +113,10 @@ Q(s, a) = Q(s, a) + α [ r + γ Q(s', a') - Q(s, a) ]
 $$
 
 no uses ese algoritmo es solo un ejemplo pero si usa los $$ en markdown y luego quiero que expliques que hace el algoritmo y como fucniona 
+
+12: Agrega addicionalmente un espacio para MicroTest que sea un H2 vacia
 ```
 
-11: Agrega addicionalmente un espacio para MicroTest que sea un H2 vacia
 
 ## Prompt for Notes from Educative
 
