@@ -102,9 +102,33 @@
               "icon": "lucide-file",
               "title": "03-Active-directory"
             }
+          },
+          {
+            "id": "a4db42fdc76b84ad",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/04-Gpo-windows-server.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "04-Gpo-windows-server"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       },
       {
         "id": "edcd3cafa97b4541",
@@ -301,10 +325,11 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "3f464b646d4add91",
+  "active": "a4db42fdc76b84ad",
   "lastOpenFiles": [
-    "README.md",
     "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/03-Active-directory.md",
+    "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/04-Gpo-windows-server.md",
+    "README.md",
     "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/02-Windows-server-instalaccion.md",
     "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/01-Introducion.md",
     "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/00-Presentacion.md",
@@ -340,7 +365,6 @@
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/035-Entornos-de-desarollo-integrados.md",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/034-Valor-utilidad-de-implementaciones-NET.md",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/033-Contexto-de-plataformas-para-dessarollo-NET.md",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/032-Resumen-5.md",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/attachments/Pasted image 20260306200130.png",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/attachments/Pasted image 20260306200127.png",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/attachments/Pasted image 20260306200108.png",

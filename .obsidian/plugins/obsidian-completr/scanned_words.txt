@@ -14228,6 +14228,7 @@ denominador
 disperso
 diagonals
 duran
+dit
 La
 Linea
 Las
@@ -24561,6 +24562,7 @@ reger
 recopilas
 relevent
 regional
+reinicio
 la
 los
 las
@@ -42228,6 +42230,7 @@ Presente
 Predicho
 Penalizar
 Partici
+Promoci
 Todo
 Thorndike
 Todos
@@ -49767,6 +49770,7 @@ asegurad
 aciertos
 alejados
 ajustada
+administra
 una
 un
 unas
@@ -56260,6 +56264,7 @@ barrio
 binarias
 balanceado
 benignos
+bosque
 emocional
 emociones
 en
@@ -75009,6 +75014,7 @@ centroide
 cdot
 codeblock
 coeficiente
+confianzas
 Nic
 Necesidades
 No
@@ -78172,6 +78178,7 @@ Negativa
 Notebook
 Nearest
 Neighbors
+NTDS
 maco
 motivar
 menes
@@ -81948,6 +81955,8 @@ muestras
 medicina
 midiendo
 modificable
+miempresa
+marzo
 Arist
 Abraham
 Adem
@@ -85712,6 +85721,7 @@ Aseguradora
 Active
 Arc
 Avanzados
+Administrativas
 importancia
 inteligencia
 intelectivos
@@ -99672,6 +99682,7 @@ Directo
 Datacenter
 Disco
 Detallados
+DSRM
 Wechsler
 Wayne
 WhatsApp
@@ -119233,6 +119244,7 @@ opinan
 optimizan
 outliers
 optimizarse
+orquestaci
 Crea
 Cociente
 Con
