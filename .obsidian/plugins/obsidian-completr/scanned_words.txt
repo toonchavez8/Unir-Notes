@@ -7207,6 +7207,7 @@ Elasticidad
 Enfermedades
 Ensamble
 Essentials
+Exclusiones
 Historia
 Howard
 Habilidades
@@ -10325,6 +10326,7 @@ Harabasz
 Hijos
 Hyper
 Hypervisor
+Heredarse
 definiciones
 de
 dem
@@ -14229,6 +14231,7 @@ disperso
 diagonals
 duran
 dit
+desinstalaci
 La
 Linea
 Las
@@ -17376,6 +17379,7 @@ LQHg
 Loicg
 LLPS
 Logico
+Lease
 hace
 habilidad
 humano
@@ -27788,6 +27792,8 @@ laberinto
 logaritmo
 lleg
 limpia
+logoff
+lease
 sentimientos
 sugiere
 ser
@@ -31653,6 +31659,9 @@ subestimaci
 supervisados
 subestima
 solapados
+subconjuntos
+segmentar
+sobrecargar
 tiempo
 tiene
 tica
@@ -38644,6 +38653,8 @@ Support
 SVM
 Sobreestimaci
 Serverless
+Sobrescribirse
+Soportan
 Plat
 Pir
 Payne
@@ -42231,6 +42242,8 @@ Predicho
 Penalizar
 Partici
 Promoci
+Predeterminadas
+Presentadores
 Todo
 Thorndike
 Todos
@@ -49771,6 +49784,7 @@ aciertos
 alejados
 ajustada
 administra
+apagado
 una
 un
 unas
@@ -53044,6 +53058,7 @@ uÄ
 university
 uncertainty
 umbrafijamos
+ubicar
 base
 biol
 bienestar
@@ -75015,6 +75030,9 @@ cdot
 codeblock
 coeficiente
 confianzas
+cargada
+concesi
+centralmente
 Nic
 Necesidades
 No
@@ -78179,6 +78197,8 @@ Notebook
 Nearest
 Neighbors
 NTDS
+Netflix
+NPAS
 maco
 motivar
 menes
@@ -81957,6 +81977,9 @@ midiendo
 modificable
 miempresa
 marzo
+masiva
+museos
+medianas
 Arist
 Abraham
 Adem
@@ -85722,6 +85745,8 @@ Active
 Arc
 Avanzados
 Administrativas
+Aplicarlas
+Afecta
 importancia
 inteligencia
 intelectivos
@@ -89775,6 +89800,8 @@ incursas
 interpretable
 inmediatos
 ilimitada
+instalen
+informativa
 formaci
 factores
 fortalezas
@@ -96288,6 +96315,7 @@ Unos
 Usarla
 Umbral
 Utilizados
+Ubicar
 David
 Describe
 Developing
@@ -99683,6 +99711,7 @@ Datacenter
 Disco
 Detallados
 DSRM
+Directiva
 Wechsler
 Wayne
 WhatsApp
@@ -109644,6 +109673,8 @@ Memorizar
 Machines
 Maligno
 Means
+Multimedia
+Monitor
 Gardner
 Goleman
 Generan
@@ -112725,6 +112756,7 @@ Generalizaci
 Gradual
 Gradient
 GPO
+GPMC
 Formula
 Feedback
 Francis
@@ -122891,6 +122923,8 @@ Calcula
 Computing
 CentOS
 Comparten
+Centralizada
+Configurado
 vida
 viene
 va
@@ -129658,6 +129692,7 @@ Ramon
 RMSE
 Representar
 Reinicio
+Radio
 Bar
 Bisquerra
 Bajo
@@ -132896,6 +132931,7 @@ BSCAN
 Binet
 Bouldin
 Balanceo
+Bloquearse
 Kama
 KPI
 Kurt
@@ -139182,6 +139218,7 @@ ganancias
 guijaba
 gardener
 gradual
+granular
 Ofrecen
 Orientaci
 Ordena
@@ -142297,6 +142334,9 @@ Otter
 Octopus
 Optimized
 Overfitting
+Organizativa
+OUs
+Organizativas
 Vergüenza
 Valores
 Vision
@@ -145511,6 +145551,8 @@ Variantes
 Vol
 VirtualBox
 VMware
+Vincularla
+Visor
 yo
 ya
 you

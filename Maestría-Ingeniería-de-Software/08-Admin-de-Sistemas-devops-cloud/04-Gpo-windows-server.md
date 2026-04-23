@@ -272,4 +272,25 @@ flowchart TD
 
 ---
 
-## MicroTest
+## MicroTest 1.3
+
+1. Con una directiva de grupo:
+    
+    - La respuesta: b. Puedo administrar la configuración de un AD DS.
+        
+    - Justifacion:  
+        Las directivas de grupo (GPO) están diseñadas para gestionar y configurar el entorno de Active Directory Domain Services (AD DS), permitiendo aplicar políticas de seguridad, configuraciones de sistema y restricciones tanto a usuarios como a equipos dentro del dominio.
+        
+2. Las directivas de grupo se aplican:
+    
+    - La respuesta: d. A usuarios y equipos.
+        
+    - Justifacion:  
+        Las GPO pueden aplicarse tanto a cuentas de usuario como a equipos dentro de Active Directory, lo que permite administrar configuraciones específicas según el contexto (usuario o máquina).
+        
+3. Los GPO se muestran en un contenedor denominado:
+    
+    - La respuesta: c. Objetos de directiva de grupo.
+        
+    - Justifacion:  
+        En Active Directory, los GPO se almacenan y administran dentro de un contenedor llamado “Objetos de directiva de grupo” (Group Policy Objects), donde se pueden crear, editar y vincular a dominios, sitios u unidades organizativas.
