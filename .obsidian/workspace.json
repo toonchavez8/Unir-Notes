@@ -4,16 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "2408911fe802f04b",
+        "id": "3664b9033fedb867",
         "type": "tabs",
+        "dimension": 67.75844421699078,
         "children": [
           {
-            "id": "439611168adacc32",
+            "id": "6c22c006a5ed0d6f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/00-Presentacion.md",
+                "file": "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/07-Entornos-Hibridos.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,16 +29,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "00-Presentacion"
+              "title": "07-Entornos-Hibridos"
             }
           },
           {
-            "id": "51fd64f876f8020b",
+            "id": "3206ed2a09c1080c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/01-Introducion.md",
+                "file": "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/08-Resumen-01.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,16 +53,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "01-Introducion"
+              "title": "08-Resumen-01"
             }
           },
           {
-            "id": "78d7a1f8b46c544d",
+            "id": "153cfa7c8cdf1cef",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/02-Windows-server-instalaccion.md",
+                "file": "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/09-Linux.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,16 +77,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "02-Windows-server-instalaccion"
+              "title": "09-Linux"
             }
           },
           {
-            "id": "3f464b646d4add91",
+            "id": "025da6886097c903",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/03-Active-directory.md",
+                "file": "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/10-Intro-Linux-cmds.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,16 +101,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "03-Active-directory"
+              "title": "10-Intro-Linux-cmds"
             }
           },
           {
-            "id": "a4db42fdc76b84ad",
+            "id": "65ccf38f89c3d7a2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/04-Gpo-windows-server.md",
+                "file": "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/11-Gestion-usarios-linux.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -124,16 +125,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "04-Gpo-windows-server"
+              "title": "11-Gestion-usarios-linux"
             }
           },
           {
-            "id": "d78a6cb8210fb86a",
+            "id": "ffb88558aee43d4e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/05-Servidor-web-servidor-archivos.md",
+                "file": "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/12-Procesos-Almacenamientos.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -148,16 +149,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "05-Servidor-web-servidor-archivos"
+              "title": "12-Procesos-Almacenamientos"
             }
           },
           {
-            "id": "e4223cee8123b925",
+            "id": "eb56e98d884126df",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/06-Infraestructura-de-red.md",
+                "file": "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/013-Admin-Redes-linux.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -172,18 +173,91 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "06-Infraestructura-de-red"
+              "title": "013-Admin-Redes-linux"
+            }
+          },
+          {
+            "id": "4709bda40599d268",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/014-Acceso-Ficheros-Linux.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "014-Acceso-Ficheros-Linux"
+            }
+          },
+          {
+            "id": "a4e30ceca76d99c7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/15-Resumen-2.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "15-Resumen-2"
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 8
       },
       {
-        "id": "edcd3cafa97b4541",
+        "id": "d6ca77b11b8166f3",
         "type": "tabs",
+        "dimension": 32.24155578300921,
         "children": [
           {
-            "id": "fef7dbdebf6a9834",
+            "id": "86bf9bc9a306fe26",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "README"
+            }
+          },
+          {
+            "id": "d951c4aba437a7d6",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -206,7 +280,8 @@
               "title": "README"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -263,7 +338,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 315.5,
+    "width": 289.5,
     "collapsed": true
   },
   "right": {
@@ -326,13 +401,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_03/Guia-paso.md",
+                "file": "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/016-Alcance-proceso de gestion.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Guia-paso"
+              "title": "Outline of 016-Alcance-proceso de gestion"
             }
           },
           {
@@ -346,7 +421,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -373,52 +448,52 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "e4223cee8123b925",
+  "active": "a4e30ceca76d99c7",
   "lastOpenFiles": [
     "README.md",
+    "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/15-Resumen-2.md",
+    "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Untitled.md",
+    "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/014-Acceso-Ficheros-Linux.md",
+    "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/013-Admin-Redes-linux.md",
+    "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/12-Procesos-Almacenamientos.md",
+    "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/11-Gestion-usarios-linux.md",
+    "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/10-Intro-Linux-cmds.md",
+    "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/09-Linux.md",
+    "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/08-Resumen-01.md",
+    "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/07-Entornos-Hibridos.md",
     "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/06-Infraestructura-de-red.md",
+    "FrontEnd-Masters/02-Complete-intro-CompSci/004-Spatial-Complexity.md",
+    "FrontEnd-Masters/02-Complete-intro-CompSci/003-Why-use-big-O.md",
+    "FrontEnd-Masters/02-Complete-intro-CompSci/002-Big-O-And-Algorithmic-Efficiencycod e.md",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/041-Valor-y-Utilidad-de-las-Plataformas.md",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/040-contexto-de-plataformas.md",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/039-Resumen-6.md",
+    "Maestría-Ingeniería-de-Software/Calendario semestral.pdf",
     "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/05-Servidor-web-servidor-archivos.md",
     "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/04-Gpo-windows-server.md",
     "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/03-Active-directory.md",
     "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/02-Windows-server-instalaccion.md",
     "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/01-Introducion.md",
     "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/00-Presentacion.md",
-    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/01-Classes/02-Medicion-Aprendizaje.md",
-    "conflict-files-obsidian-git.md",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Programacion-semanal.pdf",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Actividad-04-Articulos-y-Anexos/mexingsof14_act4_Artículo y anexos.docx",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Actividad-03-Pruebas-de-la-herramienta/mexingsof14_act3_Pruebas de la herramienta.docx",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Actividad-02-Metodologia-Arquitectura/mexingsof14_act2_Metodología y arquitectura.docx",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Actividad-01-Estado-del-Arte/mexingsof14_act1_Estado del arte.docx",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Actividad-05-Entrega-final-del-trabajo",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Actividad-04-Articulos-y-Anexos",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Actividad-03-Pruebas-de-la-herramienta",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Actividad-02-Metodologia-Arquitectura",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Actividad-01-Estado-del-Arte",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Programacion-semanal.pdf",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades",
-    "Khan-Acadamy/Statistics-probability/00-empy.md",
-    "Khan-Acadamy/Linear-Algebra/00-empy.md",
-    "Khan-Acadamy/Algebra-basics/00-empy.md",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Untitled.md",
     "FrontEnd-Masters/02-Complete-intro-CompSci/005-Big-O-trade-offs.md",
-    "FrontEnd-Masters/02-Complete-intro-CompSci/004-Spatial-Complexity.md",
-    "FrontEnd-Masters/02-Complete-intro-CompSci/003-Why-use-big-O.md",
-    "StudyGuides/011-Math-Learning-guide.md",
-    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/04-Tema1-Evaluacion-de-modelos-clasificacion.md",
-    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/03-Tema1-Supervisado-vs-No-Supervisado.md",
-    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/02-Tema1-Contexto-de-aprendizaje-automatico.md",
-    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/attachments/Pasted image 20260324214428.png",
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/attachments/Pasted image 20260324214412.png",
-    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/01-Tema1-Introducción-al-aprendizaje automático.md",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/039-Resumen-6.md",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/038-Plataformas-aceleradoras.md",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/037-Plataformas-Gestion-de-paquetes.md",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/036-Entorno-Visual-studio-NET.md",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/035-Entornos-de-desarollo-integrados.md",
+    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/attachments/Pasted image 20260324214428.png",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/attachments/Pasted image 20260306200130.png",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/attachments/Pasted image 20260306200127.png",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/attachments/Pasted image 20260306200108.png",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Actividad-03/Attachments/mexingsof07_act3 1.png",
-    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_03/Attachments/mexingsof03_act3 1.jpeg",
     "Untitled.canvas",
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_03/Attachments/mexingsof03_act3 1.jpeg",
+    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/Actividades/Actividad-03/Attachments/mexingsof07_act3 1.png",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_03/Attachments/mexingsof03_act3.jpeg",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-03/Attachments/Test de penetración a la aplicación web BADSTORE 4.png",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/Actividades/Actividad-03/Attachments/Test de penetración a la aplicación web BADSTORE 3.png"

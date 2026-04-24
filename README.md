@@ -114,8 +114,8 @@ $$
 
 no uses ese algoritmo es solo un ejemplo pero si usa los $$ en markdown y luego quiero que expliques que hace el algoritmo y como fucniona 
 
-12: Agrega addicionalmente un espacio para MicroTest que sea un H2 vacia
-al inicio de cada transcript va estarl el nombre quiero que si el nombre es como 01.04 que lo pongas el microtest se lo agregues como 1.4
+12: Agrega addicionalmente un espacio al final para MicroTest que sea un H2 vacia 
+al inicio de cada transcript va estarl el nombre quiero que si el nombre es como 01.04 que lo pongas el microtest se lo agregues como 1.4 como parte de el nombre de microtest al final
 ```
 
 ## Prompt for Notes from Educative
@@ -171,7 +171,7 @@ Follow these rules strictly:
  
 ```
 
-11. Include code blocks where code logic is mentioned in this transcript we are viewing Rust code
+1. Include code blocks where code logic is mentioned in this transcript we are viewing Rust code
 
 ## Prompt for NotebookLM Audio
 
