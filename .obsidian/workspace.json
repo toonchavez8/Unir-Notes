@@ -6,207 +6,15 @@
       {
         "id": "3664b9033fedb867",
         "type": "tabs",
-        "dimension": 67.75844421699078,
+        "dimension": 66.19217081850533,
         "children": [
-          {
-            "id": "6c22c006a5ed0d6f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/07-Entornos-Hibridos.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "07-Entornos-Hibridos"
-            }
-          },
-          {
-            "id": "3206ed2a09c1080c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/08-Resumen-01.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "08-Resumen-01"
-            }
-          },
-          {
-            "id": "153cfa7c8cdf1cef",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/09-Linux.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "09-Linux"
-            }
-          },
-          {
-            "id": "025da6886097c903",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/10-Intro-Linux-cmds.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "10-Intro-Linux-cmds"
-            }
-          },
-          {
-            "id": "65ccf38f89c3d7a2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/11-Gestion-usarios-linux.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "11-Gestion-usarios-linux"
-            }
-          },
-          {
-            "id": "ffb88558aee43d4e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/12-Procesos-Almacenamientos.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "12-Procesos-Almacenamientos"
-            }
-          },
-          {
-            "id": "eb56e98d884126df",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/013-Admin-Redes-linux.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "013-Admin-Redes-linux"
-            }
-          },
-          {
-            "id": "4709bda40599d268",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/014-Acceso-Ficheros-Linux.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "014-Acceso-Ficheros-Linux"
-            }
-          },
           {
             "id": "a4e30ceca76d99c7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/15-Resumen-2.md",
+                "file": "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/00-Presentacion.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -221,16 +29,88 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "15-Resumen-2"
+              "title": "00-Presentacion"
+            }
+          },
+          {
+            "id": "c2eb56bbb1d78415",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/01-UX-UI.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "01-UX-UI"
+            }
+          },
+          {
+            "id": "4daafc293d028ce6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/02-Diciplinas-UI-UX.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "02-Diciplinas-UI-UX"
+            }
+          },
+          {
+            "id": "4ba20825ea8e1904",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/03-Importancia-de-UX.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "03-Importancia-de-UX"
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 3
       },
       {
         "id": "d6ca77b11b8166f3",
         "type": "tabs",
-        "dimension": 32.24155578300921,
+        "dimension": 33.80782918149466,
         "children": [
           {
             "id": "86bf9bc9a306fe26",
@@ -338,8 +218,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 289.5,
-    "collapsed": true
+    "width": 289.5
   },
   "right": {
     "id": "a25b807ad639ff42",
@@ -448,11 +327,14 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "a4e30ceca76d99c7",
+  "active": "4ba20825ea8e1904",
   "lastOpenFiles": [
     "README.md",
+    "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/03-Importancia-de-UX.md",
+    "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/02-Diciplinas-UI-UX.md",
+    "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/01-UX-UI.md",
+    "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/00-Presentacion.md",
     "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/15-Resumen-2.md",
-    "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Untitled.md",
     "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/014-Acceso-Ficheros-Linux.md",
     "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/013-Admin-Redes-linux.md",
     "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/12-Procesos-Almacenamientos.md",
@@ -461,6 +343,7 @@
     "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/09-Linux.md",
     "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/08-Resumen-01.md",
     "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/07-Entornos-Hibridos.md",
+    "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Untitled.md",
     "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/06-Infraestructura-de-red.md",
     "FrontEnd-Masters/02-Complete-intro-CompSci/004-Spatial-Complexity.md",
     "FrontEnd-Masters/02-Complete-intro-CompSci/003-Why-use-big-O.md",
@@ -473,8 +356,6 @@
     "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/04-Gpo-windows-server.md",
     "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/03-Active-directory.md",
     "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/02-Windows-server-instalaccion.md",
-    "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/01-Introducion.md",
-    "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/00-Presentacion.md",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Programacion-semanal.pdf",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Actividad-04-Articulos-y-Anexos/mexingsof14_act4_Artículo y anexos.docx",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Actividad-03-Pruebas-de-la-herramienta/mexingsof14_act3_Pruebas de la herramienta.docx",
@@ -484,8 +365,6 @@
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Actividad-04-Articulos-y-Anexos",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Actividad-03-Pruebas-de-la-herramienta",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Actividad-02-Metodologia-Arquitectura",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Untitled.md",
-    "FrontEnd-Masters/02-Complete-intro-CompSci/005-Big-O-trade-offs.md",
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/attachments/Pasted image 20260324214412.png",
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/attachments/Pasted image 20260324214428.png",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/attachments/Pasted image 20260306200130.png",
