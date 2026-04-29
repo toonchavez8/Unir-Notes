@@ -174,33 +174,9 @@
               "icon": "lucide-file",
               "title": "06-Infraestructura-de-red"
             }
-          },
-          {
-            "id": "788a44047ca81722",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
-            }
           }
         ],
-        "currentTab": 7
+        "currentTab": 6
       },
       {
         "id": "edcd3cafa97b4541",
@@ -397,10 +373,10 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "788a44047ca81722",
+  "active": "e4223cee8123b925",
   "lastOpenFiles": [
-    "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/06-Infraestructura-de-red.md",
     "conflict-files-obsidian-git.md",
+    "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/06-Infraestructura-de-red.md",
     "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/03-Importancia-de-UX.md",
     "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/02-Diciplinas-UI-UX.md",
     "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/01-UX-UI.md",
