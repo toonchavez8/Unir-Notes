@@ -85,37 +85,124 @@ no incluyas divisdores de ---
 ```
 
 ```text
-Quiero que actúes como un asistente académico experto en la materia del transcript que te voy a pasar. Tu tarea es tomar este transcript y generar **notas de estudio**, siguiendo estas indicaciones:
+Quiero que actúes como un asistente académico experto en en el tema que de que se trata el transcript.
 
-1. Organiza las notas por **secciones y subtítulos** según los temas tratados en el transcript.
+Tu tarea es analizar el siguiente transcript (máximo 15 minutos) y generar **notas de estudio completas, profundas y fieles al contenido**, siguiendo estrictamente estas reglas:
 
-2. Incluye **definiciones claras** de los conceptos mencionados, explicando su relevancia y contexto para que pueda aprender mejor.
 
-3. Si es necesario, incluye **MermaidJs** para ilustrar relaciones entre conceptos o jerarquías. puedes incorporar cualquier tipo de diagrama de mermaid
+### 1. Cobertura total (CRÍTICO)
 
-4. Si hay datos que se pueden organizar mejor en **tablas**, hazlo para facilitar la comprensión.
+- **No omitas ningún concepto mencionado en el transcript**
+    
+- Antes de escribir las notas, identifica internamente **todos los temas, subtemas, conceptos, ejemplos y explicaciones**
+    
+- Asegúrate de que **cada uno aparezca en las notas**
+    
 
-5. Mantén las notas **claras, concisas y fáciles de revisar**, como si fueran apuntes de clase.
+### 2. Organización clara
 
-6. Si hay ejemplos de codigo en el transcript, inclúyelos y **explica paso a paso** cómo funcionan.
+- Divide las notas en:
+    
+    - Secciones principales
+        
+    - Subtítulos jerárquicos
+        
+- Sigue el orden lógico del transcript (cronológico si aplica)
 
-7. Agrega información adicional relevante de manera breve que ayude a profundizar en los conceptos.
+### 3. Definiciones profundas
 
-8. Al final, incluye un pequeño **resumen de los puntos clave** para repasar rápidamente.
+Para cada concepto:
 
-9: no respondas con nada que no sea las notas.
+- Define qué es
+    
+- Explica por qué es importante
+    
+- Explica en qué contexto se usa
+    
+- Si aplica, menciona ventajas/desventajas
 
-10: No agregues Emojis, no es necesario mensionar el nombre del profesor
+### 4. Explicación detallada (NO superficial)
 
-11: En este caso estamos hablando de machine learning y inteligencia artificial, si mencionan un algortimo especifico  quiero que lo incluyas de la siguente manera
+- No resumas, extrai lo mas que puedas del transcript incluso agrega mas informacion que define y aterrize lo del transcript si el transcript solo mensiona algo ligero.
+    
+- Expande las ideas como si fueran apuntes de clase bien explicados
+    
+- Si el transcript menciona algo rápido, tú debes **desarrollarlo más**
+  
+  - Si menciona un quote inclelo en su totalidad y si agrega debajo a que se refiere 
+
+### 5. Algoritmos (FORMATO OBLIGATORIO)
+
+Si se menciona un algoritmo:
+
+- Escríbelo en formato LaTeX usando $$
+
+
+Ejemplo:  
+$$  
+\text{(algoritmo aquí)}  
 $$
-Q(s, a) = Q(s, a) + α [ r + γ Q(s', a') - Q(s, a) ]
-$$
 
-no uses ese algoritmo es solo un ejemplo pero si usa los $$ en markdown y luego quiero que expliques que hace el algoritmo y como fucniona 
+Después:
 
-12: Agrega addicionalmente un espacio para MicroTest que sea un H2 vacia
-al inicio de cada transcript va estarl el nombre quiero que si el nombre es como 01.04 que lo pongas el microtest se lo agregues como 1.4
+- Explica cada variable
+    
+- Explica paso a paso cómo funciona
+    
+- Explica en qué casos se usa
+
+### 6. Código (si existe)
+
+- Incluye el código original
+    
+- Explica línea por línea qué hace
+    
+- Explica el objetivo del código
+
+### 7. Tablas (cuando ayuden)
+
+- Usa tablas para:
+    - Comparaciones 
+    - Resúmenes estructurados  
+    - Parámetros o características
+### 8. Diagramas (MermaidJS)
+
+- Incluye diagramas cuando ayuden a entender:
+    - Flujos
+    - Relación entre conceptos
+    - Arquitecturas
+### 9. Enriquecimiento (IMPORTANTE)
+
+- Agrega información adicional breve pero útil para:
+    - Aclarar conceptos 
+    - Conectar ideas 
+    - Mejorar comprensión  
+- No agregues relleno innecesario
+
+### 10. Estilo
+
+- Claro, estructurado y fácil de estudiar 
+- Sin emojis 
+- Sin mencionar profesores 
+- No agregues texto fuera de las notas
+
+
+### 11. Resumen final
+Incluye un resumen con:
+- Puntos clave
+- Ideas más importantes
+
+
+### 12. MicroTest
+
+Al final agrega:
+
+## MicroTest X.X
+
+(donde X.X corresponde al número del transcript, por ejemplo 01.04 → 1.4)
+
+(Solo el encabezado, sin contenido)
+
 ```
 
 ## Prompt for Notes from Educative
@@ -171,7 +258,7 @@ Follow these rules strictly:
  
 ```
 
-11. Include code blocks where code logic is mentioned in this transcript we are viewing Rust code
+1. Include code blocks where code logic is mentioned in this transcript we are viewing Rust code
 
 ## Prompt for NotebookLM Audio
 
