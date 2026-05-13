@@ -12,18 +12,17 @@ Big O provides a high-level view by ignoring non-essential details (constants, l
 
 ## Mathematical Foundation of Big O
 
-### Polynomial Example: 3x² + x + 1
+### Polynomial Example: 3x² + X + 1
 
 To illustrate how Big O works, consider the expression:
-
+$$
 3x² + x + 1
-
+$$
 Each part between plus signs is a _term_. When x becomes large:
 
 - 3x² dominates the total.
     
 - x and 1 contribute very little compared to x².
-    
 
 Therefore, the entire expression simplifies to:
 
@@ -36,7 +35,6 @@ O(x²), which we write in algorithmic notation as O(n²).
 - Ignore coefficients and lower-order terms.
     
 - Replace variable names (e.g., x) with n to indicate input size.
-    
 
 ---
 
@@ -49,7 +47,6 @@ In algorithms, n typically represents:
 - The length of an array
     
 - The number of elements to process
-    
 
 The scaling behavior of an algorithm depends on how many operations are tied to n.
 
@@ -62,7 +59,6 @@ A practical method:
 - Each loop generally contributes a factor of n.
     
 - Nested loops multiply complexities.
-    
 
 ---
 
@@ -77,7 +73,6 @@ Key observations:
 - Setup (variable creation and return) happens once → negligible.
     
 - The loop executes n times → dominant term.
-    
 
 Therefore:
 
@@ -92,7 +87,6 @@ A loop searches for a target value in an array. Even if the value is found early
 - Worst case: n operations (found at end)
     
 - Average case: n/2 operations
-    
 
 Big O considers the worst case → O(n).
 
@@ -107,7 +101,6 @@ Two nested loops:
 - Outer loop executes n times.
     
 - Inner loop executes n times per outer iteration.
-    
 
 Total operations: n × n = n²
 
@@ -118,7 +111,6 @@ This grows rapidly as input increases:
 - n = 10 → 100 operations
     
 - n = 500 → 250,000 operations
-    
 
 Nested loops → O(n²).
 
@@ -133,7 +125,6 @@ Accessing an array element by index does not depend on array length.
 - No loops
     
 - No scaling with input size
-    
 
 Therefore:
 
@@ -147,10 +138,10 @@ O(1)
 
 ```mermaid
 graph TD
-    A[Input Size n] --> B[O(1): Constant]
-    A --> C[O(n): Linear]
-    A --> D[O(n^2): Quadratic]
-    A --> E[O(log n): Logarithmic]
+    A[Input Size n] --> B["O(1): Constant"]
+    A --> C["O(n): Linear"]
+    A --> D["O(n^2): Quadratic"]
+    A --> E["O(log n): Logarithmic"]
 ```
 
 ### Growth Behavior Table
@@ -176,7 +167,6 @@ Algorithms may have different behaviors depending on input.
 - Worst case: maximal possible operations.
     
 - Average case: expected behavior for typical inputs.
-    
 
 Big O focuses on worst-case performance unless explicitly stated otherwise.
 
@@ -191,7 +181,6 @@ Appears when algorithms repeatedly divide the problem into smaller pieces. Thoug
 - Balanced tree operations
     
 - Divide-and-conquer algorithms like merge sort
-    
 
 Logarithmic growth increases very slowly even as n becomes large.
 
@@ -212,7 +201,6 @@ Logarithmic growth increases very slowly even as n becomes large.
 - Different Big O classes grow at significantly different rates.
     
 - Choosing the right algorithm often depends on balancing time complexity with practical constraints.
-    
 
 ---
 
