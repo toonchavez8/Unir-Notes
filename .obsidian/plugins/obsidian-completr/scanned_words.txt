@@ -3473,6 +3473,8 @@ Islands
 Implementation
 Item
 Images
+Interactivity
+Improvements
 Emocional
 Edward
 Expone
@@ -17502,6 +17504,10 @@ Longest
 Largest
 Learned
 LinkedIn
+Leyva
+Live
+Learnings
+Learning
 hace
 habilidad
 humano
@@ -24832,6 +24838,7 @@ restaurant
 responsiveness
 reloading
 reflects
+refactor
 la
 los
 las
@@ -32119,6 +32126,7 @@ swap
 separation
 styled
 strengthened
+sentence
 tiempo
 tiene
 tica
@@ -35696,6 +35704,7 @@ translating
 tourism
 tablet
 tone
+tabs
 Siglo
 Self
 Se
@@ -39110,6 +39119,7 @@ Stack
 Several
 Structuring
 Shorten
+Site
 Plat
 Pir
 Payne
@@ -42681,6 +42691,7 @@ Pedido
 Pupusas
 Precision
 Paying
+Portfolio
 Todo
 Thorndike
 Todos
@@ -46090,6 +46101,7 @@ Technology
 Tabbed
 Through
 Translating
+Tablet
 aprendizaje
 ala
 aspectos
@@ -56905,6 +56917,7 @@ backs
 bubble
 behaviors
 breakpoint
+breakpoints
 emocional
 emociones
 en
@@ -82552,6 +82565,7 @@ massfive
 matters
 mobile
 mindset
+modals
 Arist
 Abraham
 Adem
@@ -86260,6 +86274,8 @@ Alright
 Average
 Adapt
 Align
+Alejandra
+Assets
 importancia
 inteligencia
 intelectivos
@@ -90101,6 +90117,7 @@ incoming
 introduces
 interactivity
 intent
+images
 formaci
 factores
 fortalezas
@@ -100348,6 +100365,7 @@ Deletion
 Dictionaries
 Delivery
 Destination
+Deployment
 Wechsler
 Wayne
 WhatsApp
@@ -110403,6 +110421,7 @@ Match
 Maintain
 Managing
 Medium
+Mobile
 Gardner
 Goleman
 Generan
@@ -116796,6 +116815,7 @@ Fixed
 Finding
 Falsa
 Flexbox
+Frameworks
 otras
 of
 on
@@ -123602,6 +123622,7 @@ Confirm
 Cash
 Calle
 Crew
+Challenges
 vida
 viene
 va
@@ -130412,6 +130433,7 @@ Received
 Revuelta
 Responsive
 Rewrite
+Responsiveness
 Bar
 Bisquerra
 Bajo
@@ -133746,6 +133768,8 @@ Breaking
 Backtracking
 Breadth
 Below
+Brief
+Breakpoints
 Kama
 KPI
 Kurt
@@ -159815,6 +159839,7 @@ JavaScript
 Jones
 JetBrains
 JSON
+Journalist
 xito
 xitos
 ximo
