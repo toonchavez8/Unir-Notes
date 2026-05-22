@@ -8,36 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e832c3524b62a47c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Dev-Journel/Projects/01-Space-Tourism-Multi-Page.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "01-Space-Tourism-Multi-Page"
-            }
-          },
-          {
             "id": "9905e98198eb4df1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Classes/Class Transcript Notes.md",
+                "file": "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/Actividades/Actividad-01/mexdiux01_act1.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,11 +28,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Class Transcript Notes"
+              "title": "mexdiux01_act1"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -113,7 +88,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 346.5
+    "width": 346.5,
+    "collapsed": true
   },
   "right": {
     "id": "a25b807ad639ff42",
@@ -224,12 +200,17 @@
   },
   "active": "9905e98198eb4df1",
   "lastOpenFiles": [
-    "README.md",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Classes/Class Transcript Notes.md",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Classes/Class Transcript.md",
-    "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/Actividades/Actividad-01/mexdiux01_act1.md",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Classes",
     "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/Actividades/Actividad-01/mexdiux01_act1.docx",
+    "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/Actividades/Actividad-01/mexdiux01_act1.md",
+    "TMUX_DEVELOPER_GUIDE.md",
+    "VOICE_TERMINAL_WALKTHROUGH.md",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Classes/Class Transcript Notes.md",
+    "README.md",
+    "Untitled.canvas",
+    "01-AI-notes.md",
+    "Dev-Journel/Projects/01-Space-Tourism-Multi-Page.md",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Classes/Class Transcript.md",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Classes",
     "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-01/mexissi06_act1_individual.docx",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Actividad-01-Estado-del-Arte/mexingsof14_act1_Estado del arte.docx",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/rúbrica_TFM.pdf",
@@ -260,14 +241,8 @@
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/036-Autorizacion-recomendaciones.md",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/032-Ataques-y-recomendaciones.md",
     "FrontEnd-Masters/01-Last-Algorithim/18-Implementing-a-stack.md",
-    "FrontEnd-Masters/01-Last-Algorithim/07-Psudo-code-Binary-search.md",
-    "FrontEnd-Masters/05-Hard-parts-of-servers-node/33-Setting-up-stream.md",
-    "FrontEnd-Masters/01-Last-Algorithim/14-Linked-list-complexity.md",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/039-Gestion-funcion-de-auditoria.md",
-    "FrontEnd-Masters/01-Last-Algorithim/08-Implementing-Binary-Search.md",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_03/Attachments/mexingsof03_act3.jpeg",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_03/Attachments/mexingsof03_act3 1.jpeg",
-    "Untitled.canvas",
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/attachments/Pasted image 20260324214428.png",
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/attachments/Pasted image 20260324214412.png",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/attachments/Pasted image 20260306200130.png"
