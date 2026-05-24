@@ -103,12 +103,12 @@ El modelo presenta una evolución gradual mediante seis peldaños.
 ```mermaid
 flowchart TD
 
-A[1. UX inexistente]
-B[2. Usabilidad limitada]
-C[3. Defensores UX]
-D[4. UX frecuente]
-E[5. Proceso UX oficial]
-F[6. Cultura UX]
+A[UX inexistente]
+B[Usabilidad limitada]
+C[Defensores UX]
+D[UX frecuente]
+E[Proceso UX oficial]
+F[Cultura UX]
 
 A --> B
 B --> C
@@ -419,7 +419,7 @@ El proceso se repite constantemente para mejorar resultados.
 La iteración consiste en repetir ciclos:
 
 ```mermaid
-flowchart LR
+flowchart TD
 
 A[Investigar]
 B[Diseñar]
@@ -452,11 +452,11 @@ La empresa cuenta con especialistas:
 
 ## Ventajas
 
-|Ventajas|
-|---|
-|Mayor calidad|
-|Menos errores|
-|Productos consistentes|
+| Ventajas               |
+| ---------------------- |
+| Mayor calidad          |
+| Menos errores          |
+| Productos consistentes |
 
 ---
 
@@ -640,4 +640,28 @@ Las expectativas deben ajustarse a:
 4. La iteración es una característica de niveles avanzados.
     
 5. La cultura UX convierte los datos de usuarios en decisiones empresariales.
+
+## MicroTest 01.05
+
+1. En este peldaño el diseño de UX no está reconocido, se realiza un diseño centrado en el desarrollador y basado en asunciones e intuiciones:
     
+    - La respuesta: a. Primer peldaño
+        
+    - Justificación:  
+        El primer peldaño del modelo de madurez UX representa el nivel donde UX aún no está reconocido dentro de la organización. Las decisiones se toman desde la perspectiva del desarrollador y se basan principalmente en intuiciones, experiencias personales y suposiciones sin validación con usuarios.
+        
+2. En este peldaño el diseño sigue centrado en el desarrollador, pero ya existe una consciencia sobre la usabilidad y se aplican pautas y principios:
+    
+    - La respuesta: b. Segundo peldaño
+        
+    - Justificación:  
+        En el segundo peldaño la organización continúa enfocada principalmente en el desarrollador, pero empieza a reconocer la importancia de la usabilidad. Se incorporan principios, pautas y buenas prácticas de diseño para mejorar la experiencia.
+        
+3. Representa el ideal, la cultura UX, en la que las decisiones empresariales se basan en los resultados de la investigación UX y el seguimiento de métricas UX:
+    
+    - La respuesta: d. Sexto peldaño
+        
+    - Justificación:  
+        El sexto peldaño corresponde al nivel más alto de madurez UX, denominado cultura UX. En este nivel las decisiones organizacionales ya no se toman por intuición, sino mediante datos, investigación UX y seguimiento de métricas para mejorar continuamente los productos y servicios.
+
+## **Saber Mas**

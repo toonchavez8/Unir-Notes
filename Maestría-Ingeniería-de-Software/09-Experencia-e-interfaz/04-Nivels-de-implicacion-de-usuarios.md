@@ -737,3 +737,7 @@ C --> I[Co-diseño]
         
     - Justificación:  
         En el tema de analítica web se menciona que las métricas cuantitativas permiten obtener información útil sobre el comportamiento real de los usuarios dentro de una interfaz. Estas ayudan a conocer qué ocurre (clics, tiempo de permanencia, abandonos, conversiones), aunque normalmente no explican el porqué ocurre.
+
+### **Saber más**
+
+<iframe src="https://www.nngroup.com/articles/ux-maturity-model/" allow="fullscreen" allowfullscreen="" style="height:100%;width:100%; aspect-ratio: 16 / 9; "></iframe>

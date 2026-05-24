@@ -737,3 +737,24 @@ según el dispositivo utilizado.
 5. El comportamiento actual de los usuarios obliga a pensar en múltiples dispositivos.
 
 ## MicroTest 01.06
+
+1. Es cada una de las pantallas de un sitio web o de una app:
+    
+    - La respuesta: a. Página Web
+        
+    - Justificación:  
+        En el transcript se define una página web como cada una de las pantallas individuales que forman parte de un sitio web o una aplicación. Se menciona además que es un documento desarrollado principalmente en HTML y puede incorporar CSS, JavaScript, imágenes y otros recursos.
+        
+2. Es un conjunto de páginas que están estructuradas, organizadas bajo algún criterio, y enlazadas en un dominio:
+    
+    - La respuesta: c. Sitio Web
+        
+    - Justificación:  
+        Un sitio web se describe como un conjunto organizado de páginas web conectadas entre sí y agrupadas bajo un mismo dominio. Estas páginas siguen una estructura y un criterio determinado para facilitar la navegación y organización de la información.
+        
+3. Se trata de web estáticas, su objetivo (o, al menos, su objetivo principal) es ofrecer información al usuario:
+    
+    - La respuesta: c. Sitios web informativos
+        
+    - Justificación:  
+        Los sitios web informativos tienen como objetivo principal proporcionar información a los usuarios. Generalmente son sitios estáticos con poca interacción y suelen formar parte de estrategias de comunicación o marketing para mostrar productos, servicios o información institucional.

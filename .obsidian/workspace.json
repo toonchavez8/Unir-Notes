@@ -33,54 +33,6 @@
             }
           },
           {
-            "id": "005652d4f8c8505a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/04-Nivels-de-implicacion-de-usuarios.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "04-Nivels-de-implicacion-de-usuarios"
-            }
-          },
-          {
-            "id": "7f3df5be7d958652",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/05-Nivels-de-Madures.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "05-Nivels-de-Madures"
-            }
-          },
-          {
             "id": "aa3f057082cecc94",
             "type": "leaf",
             "state": {
@@ -103,9 +55,81 @@
               "icon": "lucide-file",
               "title": "06-El-Objeto-de-desino"
             }
+          },
+          {
+            "id": "e471355d52321a32",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/07-El-Objetivo-de-diseno-parte-2.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "07-El-Objetivo-de-diseno-parte-2"
+            }
+          },
+          {
+            "id": "2ea5e3d8255dde4b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/08-Resumen-01.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "08-Resumen-01"
+            }
+          },
+          {
+            "id": "ff1f8dac86986871",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/09-Factores-cognitivos-UX-parte-1.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "09-Factores-cognitivos-UX-parte-1"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       },
       {
         "id": "a5514a74f8170124",
@@ -303,12 +327,15 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "005652d4f8c8505a",
+  "active": "ff1f8dac86986871",
   "lastOpenFiles": [
-    "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/06-El-Objeto-de-desino.md",
-    "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/05-Nivels-de-Madures.md",
     "README.md",
+    "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/09-Factores-cognitivos-UX-parte-1.md",
+    "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/08-Resumen-01.md",
+    "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/07-El-Objetivo-de-diseno-parte-2.md",
+    "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/06-El-Objeto-de-desino.md",
     "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/04-Nivels-de-implicacion-de-usuarios.md",
+    "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/05-Nivels-de-Madures.md",
     "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/03-Importancia-de-UX.md",
     "TMUX_DEVELOPER_GUIDE.md",
     "01-AI-notes.md",
@@ -344,9 +371,6 @@
     "FrontEnd-Masters/01-Last-Algorithim/04-array-q-and-a.md",
     "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/042-Resumen-7.md",
     "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/034-Gestion-de-sessiones.md",
-    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/029-Kerberos.md",
-    "FrontEnd-Masters/01-Last-Algorithim/12-implementing-bubble-sort.md",
-    "Maestría-Ingeniería-de-Software/04-CiberSeguridad-web/030-Autenticación-OAUTH2-OPENID-CONNECT.md",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_03/Attachments/mexingsof03_act3.jpeg",
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_03/Attachments/mexingsof03_act3 1.jpeg",
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/attachments/Pasted image 20260324214428.png",
