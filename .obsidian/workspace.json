@@ -109,7 +109,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-01/mexissi06_act1_individual.md",
+                "file": "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-02/psuiadesoft01_act2.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -124,7 +124,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "mexissi06_act1_individual"
+              "title": "psuiadesoft01_act2"
             }
           }
         ],
@@ -296,7 +296,15 @@
   },
   "active": "ff1f8dac86986871",
   "lastOpenFiles": [
+    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-02/psuiadesoft01_act2.docx",
+    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-02/psuiadesoft01_act2.md",
+    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-01/psuiadesoft01_act1.docx",
+    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-01/psuiadesoft01_act1.md",
+    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-02",
+    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-01",
     "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-01/Guia-Act-1.md",
+    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades",
+    "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-01/mexissi06_act1_individual.md",
     "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-01/AWS-Academy-Learner-Lab.md",
     "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-01/attachments/{7E7217B0-4B1A-402E-929D-358D17630C03}.png",
     "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-01/attachments/{E901F4E7-001E-4880-9482-B9D5FEFB7959}.png",
@@ -310,12 +318,10 @@
     "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-01/attachments/{6562FC6A-9C6C-439F-B948-2A04CB68EBCE}.png",
     "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-01/attachments",
     "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-01/Untitled",
-    "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-01/mexissi06_act1_individual.md",
     "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-01/mexissi06_act1_individual.docx",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Idea-BillSplitter.md",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/guia.pdf",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/rúbrica_TFM.txt",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/guia.txt",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Classes/Class Transcript Notes.md",
     "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/09-Factores-cognitivos-UX-parte-1.md",
     "README.md",
@@ -328,19 +334,13 @@
     "TMUX_DEVELOPER_GUIDE.md",
     "01-AI-notes.md",
     "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/Actividades/Actividad-01/mexdiux01_act1.md",
-    "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/Actividades/Actividad-01/mexdiux01_act1.docx",
     "VOICE_TERMINAL_WALKTHROUGH.md",
     "Untitled.canvas",
     "Dev-Journel/Projects/01-Space-Tourism-Multi-Page.md",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Classes/Class Transcript.md",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Classes",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Actividad-01-Estado-del-Arte/mexingsof14_act1_Estado del arte.docx",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/rúbrica_TFM.pdf",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/plantilla.md",
     "Dev-Journel/Projects/02-Alejandra-leyva.md",
     "FrontEnd-Masters/01-Last-Algorithim/11-Bubble-sort.md",
-    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/043-Estandares-de-auditoria.md",
-    "FrontEnd-Masters/01-Last-Algorithim/15-Queue.md",
-    "FrontEnd-Masters/01-Last-Algorithim/06-Binary-search-algorithim.md"
+    "Maestría-Ingeniería-de-Software/05-Desarollo-Seguro-y-Auditoria/043-Estandares-de-auditoria.md"
   ]
 }

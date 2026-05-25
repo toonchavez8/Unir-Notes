@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "LiKeyboard",
-      "LiSquareDashedBottomCode",
-      "LiAsteriskSquare",
-      "LiSchool",
-      "LiMonitorSmartphone"
+      "LiPresentation",
+      "LiSquircle",
+      "LiAlignVerticalJustifyStart",
+      "LiRainbow",
+      "LiSchool2"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -88,5 +88,29 @@
   "Dev-Journel": {
     "iconName": "LiKeyboard",
     "iconColor": "#049a61"
+  },
+  "DSA": {
+    "iconName": "LiCodesandbox",
+    "iconColor": "#fa9e00"
+  },
+  "Khan-Acadamy": {
+    "iconName": "LiSchool2",
+    "iconColor": "#4bf93e"
+  },
+  "Maestría-Ingeniería-de-Software/07-Fundamentos-IA": {
+    "iconName": "LiRainbow",
+    "iconColor": "#ff38db"
+  },
+  "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud": {
+    "iconName": "LiAlignVerticalJustifyStart",
+    "iconColor": "#ff0a99"
+  },
+  "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz": {
+    "iconName": "LiSquircle",
+    "iconColor": "#ff004c"
+  },
+  "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion": {
+    "iconName": "LiPresentation",
+    "iconColor": "#ff3300"
   }
 }

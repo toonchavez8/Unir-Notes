@@ -3531,6 +3531,8 @@ Information
 Instance
 Interlineado
 Installing
+IMBg
+IAei
 Emocional
 Edward
 Expone
@@ -7103,6 +7105,12 @@ Elige
 Escritorio
 Empezar
 Endpoint
+EYB
+Edn
+Entrena
+Elbow
+Estad
+Entrenar
 Historia
 Howard
 Habilidades
@@ -10489,6 +10497,7 @@ HLhX
 HtN
 HcPQJZi
 HeidiSQL
+HkbJn
 definiciones
 de
 dem
@@ -14406,6 +14415,8 @@ descifrada
 docente
 dividirla
 determine
+dKiA
+descriptivo
 La
 Linea
 Las
@@ -17713,6 +17724,8 @@ Lupa
 Luego
 Lanzar
 Laboratorio
+LtoYq
+Logistic
 hace
 habilidad
 humano
@@ -21164,6 +21177,7 @@ hoW
 hmvv
 hUh
 hayas
+hnr
 referencia
 reconocer
 rmino
@@ -25146,6 +25160,8 @@ respeta
 rgenes
 rrafos
 realizaste
+reproducible
+rigurosa
 la
 los
 las
@@ -28570,6 +28586,7 @@ libreta
 laptop
 lados
 lograste
+lematizaci
 sentimientos
 sugiere
 ser
@@ -32544,6 +32561,13 @@ siga
 subir
 sepas
 seleccionaste
+supervisado
+segmentar
+segmentaci
+segmentacion
+stopwords
+supervisados
+score
 tiempo
 tiene
 tica
@@ -36169,6 +36193,8 @@ termines
 tardar
 tier
 tala
+taFH
+tzb
 Siglo
 Self
 Se
@@ -39662,6 +39688,14 @@ Services
 Sugerida
 Subir
 Sugerido
+SDY
+SQPgO
+Segmentaci
+Supervisado
+Silhouette
+Sports
+Science
+SVM
 Plat
 Pir
 Payne
@@ -43303,6 +43337,10 @@ Papelera
 Parciales
 PRaE
 Puerto
+Preprocesamiento
+Puntuaci
+Peso
+PLN
 Todo
 Thorndike
 Todos
@@ -46742,6 +46780,7 @@ TZm
 TEf
 ToLAX
 TvB
+Tokenizaci
 aprendizaje
 ala
 aspectos
@@ -54274,6 +54313,7 @@ universidad
 utilizarlas
 ubicar
 usaste
+uyIz
 base
 biol
 bienestar
@@ -57709,6 +57749,7 @@ bancaria
 basta
 bdP
 bMS
+bJtB
 emocional
 emociones
 en
@@ -61782,6 +61823,12 @@ entraste
 elegiste
 encontraste
 entr
+eKFR
+edad
+exploratorio
+exportados
+etiquetado
+embeddings
 que
 quien
 quiere
@@ -72385,6 +72432,9 @@ publicaste
 pegues
 publiqu
 prob
+preprocesamiento
+preentrenados
+pln
 clave
 coment
 capacidad
@@ -76820,6 +76870,14 @@ colocas
 consultaste
 consultado
 commandos
+consumo
+clusters
+comentado
+comprimido
+cruzada
+clasificados
+curvas
+clasificacion
 Nic
 Necesidades
 No
@@ -80084,6 +80142,9 @@ Ncqr
 NYNY
 Numeraci
 Narrativa
+Notebook
+Natural
+News
 maco
 motivar
 menes
@@ -83787,6 +83848,7 @@ montan
 montar
 mejorarse
 manejan
+mEj
 Arist
 Abraham
 Adem
@@ -87554,6 +87616,8 @@ Abre
 Amazon
 Agrega
 Asignatura
+Agglomerative
+Accuracy
 importancia
 inteligencia
 intelectivos
@@ -91465,6 +91529,8 @@ iATa
 intermedio
 identificaste
 identifiqu
+ingresos
+ipynb
 formaci
 factores
 fortalezas
@@ -94922,6 +94988,8 @@ fundamenta
 fuWTx
 fzis
 frases
+fhs
+fsotl
 Utiliza
 Una
 Uno
@@ -101810,6 +101878,9 @@ Despertar
 Dest
 DfuZ
 Descifra
+Dataset
+DBSCAN
+Discute
 Wechsler
 Wayne
 WhatsApp
@@ -105077,6 +105148,7 @@ WikiHow
 Webs
 Wlm
 WLKQz
+World
 no
 nos
 nuestro
@@ -108406,6 +108478,8 @@ naturalmente
 nua
 nxCW
 nxCMbd
+nxq
+nyx
 Maslow
 Miedo
 Maria
@@ -111952,6 +112026,8 @@ MySQL
 Marca
 Motor
 Manera
+Mall
+Means
 Gardner
 Goleman
 Generan
@@ -115092,6 +115168,8 @@ Generativa
 Gyw
 GZs
 GdB
+GOxW
+GloVe
 Formula
 Feedback
 Francis
@@ -118399,6 +118477,7 @@ Fondo
 Formatos
 FqU
 Faltas
+Forest
 otras
 of
 on
@@ -121739,6 +121818,7 @@ oRZ
 oviDZ
 obtuviste
 oraciones
+orientar
 Crea
 Cociente
 Con
@@ -125322,6 +125402,10 @@ Contrase
 Credenciales
 Conectividad
 Citar
+CAt
+Customers
+Clustering
+Carpeta
 vida
 viene
 va
@@ -128675,6 +128759,8 @@ vendor
 vxjh
 vQeq
 verificaciones
+vccd
+vectorial
 Reuven
 REA
 Re
@@ -132205,6 +132291,10 @@ Rgm
 RVyr
 Regresa
 Recomendada
+Regression
+Random
+Recall
+ROC
 Bar
 Bisquerra
 Bajo
@@ -135566,6 +135656,7 @@ BDx
 BkO
 BaW
 BGa
+Bayes
 Kama
 KPI
 Kurt
@@ -138771,6 +138862,7 @@ Keeps
 KZR
 KUoaSZ
 KPFTZ
+Kaggle
 gicos
 gica
 generan
@@ -142157,6 +142249,7 @@ gBYs
 gfqfd
 gol
 gjN
+gfS
 Ofrecen
 Orientaci
 Ordena
@@ -148727,6 +148820,8 @@ Vfrk
 VPC
 Vuelve
 Verse
+VtP
+Vec
 yo
 ya
 you
@@ -155307,6 +155402,7 @@ QtU
 Quiero
 QLWn
 QAYIi
+QMnu
 will
 words
 workspace
@@ -158500,6 +158596,8 @@ wikis
 webs
 wFTo
 wlb
+wqU
+wcMpv
 Johnson
 James
 Johari
@@ -161788,6 +161886,8 @@ JLIj
 Jakob
 Jalar
 Justifacion
+JfMC
+Jupyter
 xito
 xitos
 ximo
@@ -165023,6 +165123,7 @@ xNJ
 xUIA
 xpu
 xfuW
+xZLh
 zonas
 zona
 zero
@@ -168211,6 +168312,7 @@ ztCoX
 zTN
 zqe
 zOB
+zeiA
 Yetton
 Yes
 You
@@ -181337,6 +181439,7 @@ XqI
 XGJ
 Xgg
 XTNi
+XTqCgN
 Äy
 ÄP
 Äe
