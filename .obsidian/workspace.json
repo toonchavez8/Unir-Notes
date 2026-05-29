@@ -6,7 +6,6 @@
       {
         "id": "57e57c0768d43a0a",
         "type": "tabs",
-        "dimension": 66.22222222222223,
         "children": [
           {
             "id": "ff1f8dac86986871",
@@ -36,107 +35,14 @@
             "id": "a53f4c44b81b5d31",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/10- Factores-congnitivos-ux-part-2.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "10- Factores-congnitivos-ux-part-2"
-            }
-          },
-          {
-            "id": "42163c2a844a5c06",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/10-Factores-cognitivos-parte-3.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "10-Factores-cognitivos-parte-3"
-            }
-          },
-          {
-            "id": "40b985d58dbe3110",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/11-Aspectos-sociales.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "11-Aspectos-sociales"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ],
-        "currentTab": 3
-      },
-      {
-        "id": "079dcec761eecc7d",
-        "type": "tabs",
-        "dimension": 33.77777777777778,
-        "children": [
-          {
-            "id": "fafd69ad64e75221",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "README"
-            }
-          }
-        ]
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -189,12 +95,12 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 211.5,
-    "collapsed": true
+    "width": 211.5
   },
   "right": {
     "id": "a25b807ad639ff42",
@@ -303,12 +209,16 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "40b985d58dbe3110",
+  "active": "d761e580d368b878",
   "lastOpenFiles": [
+    "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/023-low-code-no-code-oss-demo.md",
+    "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/10- Factores-congnitivos-ux-part-2.md",
+    "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/classes/AGENTS.md",
+    "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/classes/Transcript.md",
+    "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/10-Factores-cognitivos-parte-3.md",
     "README.md",
     "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/11-Aspectos-sociales.md",
-    "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/10-Factores-cognitivos-parte-3.md",
-    "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/10- Factores-congnitivos-ux-part-2.md",
+    "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/classes",
     "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/Books/ideas_claves.pdf",
     "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/Books/Programacion Semanal.pdf",
     "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/Books/Unconfirmed 571862.crdownload",
@@ -334,7 +244,6 @@
     "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-01/attachments/{298E85AE-419C-4059-88E8-12C15CFDEE39}.png",
     "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-01/attachments/{6562FC6A-9C6C-439F-B948-2A04CB68EBCE} 1.png",
     "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-01/attachments/{6562FC6A-9C6C-439F-B948-2A04CB68EBCE}.png",
-    "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-01/attachments",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Idea-BillSplitter.md",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Classes/Class Transcript Notes.md",
     "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/08-Resumen-01.md",
@@ -348,9 +257,6 @@
     "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/Actividades/Actividad-01/mexdiux01_act1.md",
     "VOICE_TERMINAL_WALKTHROUGH.md",
     "Untitled.canvas",
-    "Dev-Journel/Projects/01-Space-Tourism-Multi-Page.md",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Classes/Class Transcript.md",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/plantilla.md",
-    "Dev-Journel/Projects/02-Alejandra-leyva.md"
+    "Dev-Journel/Projects/01-Space-Tourism-Multi-Page.md"
   ]
 }
