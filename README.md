@@ -201,7 +201,7 @@ Al final agrega:
 
 (donde X.X corresponde al número del transcript, por ejemplo 01.04 → 1.4)
 
-(Solo el encabezado, sin contenido)
+(Solo el encabezado de nivel h2, sin contenido)
 
 ```
 
