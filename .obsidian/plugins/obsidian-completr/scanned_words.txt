@@ -49684,6 +49684,7 @@ ador
 agrado
 agradables
 aburrido
+analizado
 una
 un
 unas
@@ -70308,6 +70309,7 @@ piensa
 pacientes
 peligrosa
 permit
+provocaron
 clave
 coment
 capacidad
@@ -85523,6 +85525,7 @@ Anticipar
 Atractivo
 Apariencia
 Afecta
+Alan
 importancia
 inteligencia
 intelectivos
@@ -119066,6 +119069,7 @@ orquestaci
 ordenado
 osas
 optimizado
+octubre
 Crea
 Cociente
 Con
