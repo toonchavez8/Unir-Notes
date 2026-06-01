@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "LiAppWindow",
+      "LiPresentation",
       "LiSquircle",
-      "LiMonitorCloud",
-      "LiSchool2",
-      "🏛"
+      "LiAlignVerticalJustifyStart",
+      "LiRainbow",
+      "LiSchool2"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -34,14 +34,8 @@
     "debugMode": false,
     "useInternalPlugins": false
   },
-  "01-modam-softskills": {
-    "iconName": "LiFolderArchive",
-    "iconColor": "#ff4000"
-  },
-  "02-programacion-python": {
-    "iconName": "LiFolderCode",
-    "iconColor": "#ff5900"
-  },
+  "01-modam-softskills": "LiFolderArchive",
+  "02-programacion-python": "LiFolderCode",
   "Maestría-Ingeniería-de-Software": {
     "iconName": "LiSchool",
     "iconColor": "#6034fe"
@@ -68,7 +62,7 @@
   },
   "StudyGuides": {
     "iconName": "LiBookOpenText",
-    "iconColor": "#ff643d"
+    "iconColor": "#d18f00"
   },
   "Epam": {
     "iconName": "LiAsteriskSquare",
@@ -100,34 +94,26 @@
   },
   "DSA": {
     "iconName": "LiCodesandbox",
-    "iconColor": "#ffbc05"
-  },
-  "DSA/LeetCode": {
-    "iconName": "LiCodepen",
-    "iconColor": "#ffa200"
-  },
-  "DSA/NeetCode": {
-    "iconName": "LiSquareCode",
-    "iconColor": "#ffd500"
-  },
-  "Maestría-Ingeniería-de-Software/07-Fundamentos-IA": {
-    "iconName": "LiBrain",
-    "iconColor": "#6314b3"
+    "iconColor": "#fa9e00"
   },
   "Khan-Acadamy": {
     "iconName": "LiSchool2",
-    "iconColor": "#ff9500"
+    "iconColor": "#4bf93e"
+  },
+  "Maestría-Ingeniería-de-Software/07-Fundamentos-IA": {
+    "iconName": "LiRainbow",
+    "iconColor": "#ff38db"
   },
   "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud": {
-    "iconName": "LiMonitorCloud",
-    "iconColor": "#ff1af7"
+    "iconName": "LiAlignVerticalJustifyStart",
+    "iconColor": "#ff0a99"
   },
   "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz": {
     "iconName": "LiSquircle",
-    "iconColor": "#ff5ce9"
+    "iconColor": "#ff004c"
   },
   "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion": {
-    "iconName": "LiAppWindow",
-    "iconColor": "#ff0066"
+    "iconName": "LiPresentation",
+    "iconColor": "#ff3300"
   }
 }

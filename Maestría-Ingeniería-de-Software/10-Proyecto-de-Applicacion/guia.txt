@@ -1,0 +1,479 @@
+FILE: guia.pdf
+PAGES: 15
+
+
+===== PAGE 1 =====
+ 
+Maestría en Ingeniería del 
+Software y Sistemas 
+Informáticos 
+Guía del Trabajo 
+
+===== PAGE 2 =====
+ 
+© Universidad Internacional de La Rioja (UNIR) 
+Índice 
+Guía del Trabajo 3 
+1. Qué es el trabajo por realizar 3 
+2. Qué necesitas saber antes de empezar 4 
+3. Las fases 5 
+4. Elaboración 7 
+5. Tu profesor de la asignatura 7 
+6. Actividades y entrega 9 
+7. El vídeo de presentación 12 
+8. Calificación 13 
+9. Entrega extraordinaria 14 
+10. Referencias bibliográficas 14 
+ 
+
+===== PAGE 3 =====
+Maestría en Ingeniería del Software y Sistemas Informáticos 
+Guía del trabajo 
+3 
+© Universidad Internacional de La Rioja (UNIR) 
+Guía del Trabajo 
+1. Qué es el trabajo por realizar 
+ 
+El trabajo es una asignatura más para obtener la titulación y supone la realización de 
+un trabajo inédito y original en el que aplicarás y  desarrollarás los conocimientos y 
+competencias adquiridas en las enseñanzas seguidas. Se realiza en la parte final del 
+plan de estudios, con carácter obligatorio y  una carga lectiva de 9 ECTS, donde se 
+tiene, al igual que en otras asignaturas, un profesor.  
+ 
+La calificación final  de la titulación  pondera como cualquier otra asignatura,  
+proporcionalmente a su carga de ECTS.  
+ 
+Es fundamental que leas esta guía con detalle y que consultes toda la 
+información que encontrarás en el aula virtual de la asignatura (en las 
+secciones Temas y Programación semanal). 
+ 
+Y, en particular, consulta: 
+ 
+ El Reglamento de UNIR. Contiene directrices generales sobre  definición, 
+realización, defensa, tramitación y calificación del trabajo. 
+ La rúbrica de evaluación que utilizará el profesor de la asignatura para valorar tu 
+trabajo y decidir su calificación final. 
+ La plantilla de elaboración, que deberás utilizar en todo momento para escribir y 
+desarrollar el resultado de esta asignatura.  
+ Las instrucciones para la elaboración de l trabajo. Contiene indicaciones para la 
+elaboración de la memoria que contendrá el resultado de tu trabajo. 
+ 
+La realización del trabajo de esta asignatura  exige un trabajo personal y colectivo 
+además de un esfuerzo constante, ya que la carga en créditos y las horas de trabajo 
+
+===== PAGE 4 =====
+Maestría en Ingeniería del Software y Sistemas Informáticos 
+Guía del trabajo 
+4 
+© Universidad Internacional de La Rioja (UNIR) 
+autónomo del estudiante se incrementan  frente a una asignatura normal al ser un 
+trabajo elaborado por ti de principio a fin. Es fundamental que cumplas con los 
+plazos de las entregas establecidos en  la programación semanal. De este modo 
+podrás ir mejoran do y corrigiendo errores  junto con tus compañeros según las 
+indicaciones y consejos de tu profesor. La planificación del trabajo desde el  primer 
+momento será un factor clave en la culminación con éxito de esta tarea.  
+ 
+¡No dejes todo para el último momento! 
+ 
+ 
+2. Qué necesitas saber antes de empezar  
+ 
+Desarrolla la teoría organizada por apartados. Ten en cuenta que el texto que 
+redactes servirá a los alumnos para estudiar la materia correspondiente, así que, en 
+la medida de lo posible, utiliza frases sencill as y fácilmente entendibles, evita los 
+rodeos lingüísticos, las expresiones redundantes, etc. Cuidado con hacer frases muy 
+largas, es preferible poner frases más bien cortas para una mejor comprensión del 
+que lo lee.  
+ 
+Para hacerse una idea, en periodismo se suele emplear de 15 a 20 palabras máximo 
+por frase y en la literatura puede ir hasta 30-40 palabras. Esto no es una obra literaria 
+ni un diario, es un trabajo académico, pero debe servir como referencia de lo que 
+debe tener de extensión una frase, aproximadamente, para una buena comprensión 
+por parte del lector. 
+ 
+Ya se ha mencionado el esfuerzo y dedicación que supone la elaboración de un  
+trabajo de estas características. Pero este esfuerzo será menor si dedicas un ti empo 
+a revisar cuáles son las herramientas y habilidades requeridas en este tipo de tarea. 
+Si no te sientes seguro de tus conocimientos sobre alguna de ellas, no te preocupes.  
+En el aula virtual vas a encontrar información y formación sobre estas competencias 
+del trabajo y transversales que te ayudarán a elaborar mejor tu trabajo final. 
+
+===== PAGE 5 =====
+Maestría en Ingeniería del Software y Sistemas Informáticos 
+Guía del trabajo 
+5 
+© Universidad Internacional de La Rioja (UNIR) 
+ 
+Te recomendamos que aproveches lo que dispones en la web de la asignatura para 
+hacer un ejercicio de reflexión sobre tus conocimientos y que utilices los medios que 
+ponemos a tu disposición en el aula virtual para comenzar el trabajo lo mejor 
+preparado posible. Recuerda que como en el resto de las asignaturas, las sesiones 
+puedes verlas en diferido.  
+ 
+ 
+3. Las fases  
+ 
+Para la realización de tu trabajo seguirás un flujo de trabajo organizado en varias 
+fases. Estas fases o etapas están pensadas para agrupar diferentes actividades 
+relacionadas entre sí, que te ayudarán a comprender el proceso general y a distribuir 
+tu trabajo y esfuerzos:  
+ 
+ Fase 1: creación del equipo de compañeros de trabajo y elección de la empresa u 
+organización de la que se va a hacer el trabajo. Cada grupo formado tiene libertad 
+para escoger la organización sobre la que hace el sistema de gestión de la calidad 
+y sobre qué otro sistema va a integrarlo al final. No tiene por qué ser una empresa 
+real ni utilizar nombres reales, el profesor va a evaluar vuestra forma de trabajar. 
+De todas formas, si la empresa es inventada, deberá ser coherente y realista. Una 
+vez iniciada la empresa y sector, no se puede cambiar a lo largo de su realización. 
+ 
+ Fase 2 : realización del trabajo. Se debe n redactar cada una de sus partes e ir 
+entregando en plazo cada una de sus evoluciones. Hay cinco entregas y la última 
+es la presentación del trabajo final, ya están programadas desde el inicio de la 
+asignatura. Es la fase más prolongada y deberéis trabajar en equipo, enviando a 
+vuestro profesor los avances que vayáis realizando.  Las cuatro entregas cubren 
+una gran parte del contenido de la memoria final , pero no todo . El documento 
+final de memoria deberá recoger todos los apartados. 
+ 
+
+===== PAGE 6 =====
+Maestría en Ingeniería del Software y Sistemas Informáticos 
+Guía del trabajo 
+6 
+© Universidad Internacional de La Rioja (UNIR) 
+ Fase 3: la última entrega se debe acompañar de un vídeo de hasta veinte minutos 
+donde los alumnos del grupo exponen lo fundamental de su trabajo. Es el apartado 
+final donde el profesor os evaluará el vídeo junto con el trabajo escrito. 
+ 
+Secuencia de entregas 
+ 
+En las cinco entregas se deberán ir entregando los siguientes aspectos de manera 
+aproximada: 
+ 
+ Entrega 1. Estado del arte: 
+• Descripción del desarrollo práctico y características. 
+• Estado del arte. 
+• Conclusiones del estado del arte. 
+• Listado de referencias. 
+ 
+ Entrega 2. Descripción de la metodología y arquitectura: 
+• Descripción de la metodología empleada. 
+• Definición de la arquitectura. 
+• Capa de persistencia. 
+• Diagramas UML. 
+ 
+ Entrega 3. Pruebas de la herramienta: 
+• Pruebas unitarias. 
+• Pruebas de integración. 
+• Usabilidad del software. 
+• Análisis de la ciberseguridad. 
+ 
+ Entrega 4. Artículo y anexos: 
+• Artículo. 
+• Anexo 1: puesta en marcha. 
+• Anexo 2: manual básico del usuario. 
+• Anexo 3: guía básica de mantenimiento. 
+
+===== PAGE 7 =====
+Maestría en Ingeniería del Software y Sistemas Informáticos 
+Guía del trabajo 
+7 
+© Universidad Internacional de La Rioja (UNIR) 
+ 
+ Entrega 5. Entrega final. 
+• Trabajo completo ya finalizado para ser evaluado. 
+ 
+ 
+4. Elaboración 
+ 
+Esta es la parte central del proceso y la más dilatada en el tiempo. En ella te ocuparás 
+de trabajar sobre el tema propuesto  con tus compañeros , realizando una 
+contribución acorde con los objetivos de la titulación y la carga de créditos asociada 
+a esta asignatura. Durante todo el período tendrás al profesor de la asignatura , que 
+revisará las entregas haciendo un seguimiento de vuestro progreso. El resultado de 
+vuestro trabajo quedará plasmado en un documento escrito, que será valorado por 
+dicho profesor. 
+ 
+En el aula virtual encontrarás una programación semanal y una serie de entregas y 
+plazos para las mismas. No pierdas de vista estas fechas y asegúrate de planificar tu 
+trabajo de manera que te permita realizar cada entrega con  los contenidos 
+requeridos. Es la mejor manera de garantizar un buen seguimiento  por parte de tu 
+profesor, asegurando que puedas llegar  con tus compañeros  al final con un  
+documento del trabajo terminado. 
+ 
+No pierdas de vista a lo largo de esta fase la rúbrica de evaluación que 
+utilizará la comisión evaluadora en la fase de defensa. La puedes consultar y 
+descargar en el aula virtual. 
+ 
+ 
+5. Tu profesor de la asignatura 
+ 
+
+===== PAGE 8 =====
+Maestría en Ingeniería del Software y Sistemas Informáticos 
+Guía del trabajo 
+8 
+© Universidad Internacional de La Rioja (UNIR) 
+Tu profesor, además de dar una serie de clases para todos los alumnos, será el 
+encargado de corregir los envíos que vayáis haciendo. Entre sus funciones está: 
+ 
+ Dirigirte y orientarte durante la realización del trabajo. Apóyate en él para 
+resolver las dudas que surjan sobre el contenido del trabajo. Ten en cuenta sus 
+comentarios a los borradores, pues estarán siempre orientados a mejorar la 
+calidad del trabajo y a preparar una evaluación positiva. 
+ Valorar el grado de avance y supervisar el proceso, velando por el cumplimiento 
+de los objetivos. Será el encargado de corregir las distintas entregas que realices 
+durante esta fase. Ten en cuenta que en esta asignatura las valoraciones de las  
+entregas no tienen repercusión directa en la calificación final del trabajo, que 
+dependerá de lo que se presente como trabajo final. Sin embargo, servirán para 
+corregir y orientar tu progreso. Lee detenidamente lo que se dice sobre las 
+entregas y su valoración en esta guía. 
+ Deberá valorar el documento completo  que recoge los resultados de vuestro 
+trabajo. Según su criterio y experiencia, dará la nota final de la asignatura entre el 
+trabajo escrito (70 %: 20 % formatos y 50 % contenido) y la exposición en el vídeo 
+(30 %). 
+ 
+Pero, por otro lado, hay que tener presente que: 
+ 
+ El profesor no es coautor del trabajo.  La contribución presentada es en última 
+instancia responsabilidad de los alumnos , ya que  es el elemento que te dará 
+acceso a culminar tus estudios. 
+ No proporciona fuentes ni referencias bibliográficas. 
+ No escribe ni corrige la expresión escrita ni las faltas de ortografía. 
+ No elabora los párrafos ni diseña gráficos o figuras. 
+ No revisa ni marca todos los fallos de citación que haya en el documento. Y no es 
+responsable del plagio, aunque no lo haya advertido a lo largo de la asignatura. 
+ 
+La comunicación con el profesor se realiza: 
+ 
+
+===== PAGE 9 =====
+Maestría en Ingeniería del Software y Sistemas Informáticos 
+Guía del trabajo 
+9 
+© Universidad Internacional de La Rioja (UNIR) 
+ En el momento del envío de las entregas . Tanto en el documento como en el 
+propio envío puedes incluir consultas y otra información que el profesor podrá 
+leer. También te ofrecerá retroalimentación en sus comentarios en la corrección 
+de las entregas. 
+ El correo interno del aula virtual.  Utiliza si empre el correo interno de la 
+plataforma para ponerte en contacto con tu director sobre asuntos relacionados 
+con el contenido del trabajo. No dudes en consultarle y avisarle por cualquier 
+problema que encuentres durante el proceso. Para consultas de caráct er 
+administrativo recuerda que siempre puedes recurrir a tu tutor. 
+ Las sesiones en directo. Tendrás varias y el calendario concreto de estas sesiones 
+lo fijará tu profesor. 
+ 
+ 
+6. Actividades y entrega 
+ 
+En el aula virtual encontrarás la programación semanal, es decir, una planificación 
+que marca diferentes hitos en el proceso de elaboración de tu trabajo. Revisa las 
+fechas de entrega de estas actividades y tenlas presentes en tu planificación personal, 
+para asegurarte de que llegas a tiempo de enviar cada una  de ellas. Es importante 
+que tengas en cuenta los siguientes aspectos: 
+ 
+ Temática: se busca aportar algo nuevo aprovechable por terceros mediante un 
+desarrollo práctico. No se trata de un trabajo únicamente de documentación, de 
+un estudio de un dominio o de un software rutinario. El grueso del proyecto reside 
+en el trabajo de campo, aplicando de primera mano las tecnologías y trabajando 
+en escenarios reales. El desarrollo debe incluir un uso avanzado y directo de 
+nuevas prácticas o tecnologías relacionadas c on la seguridad y la calidad el 
+software. 
+ 
+ Respeta los formatos y demás exigencias puestas en el trabajo: el trabajo deberá 
+comprender entre 80 a 120 páginas , sin contar portada, resumen e índices 
+
+===== PAGE 10 =====
+Maestría en Ingeniería del Software y Sistemas Informáticos 
+Guía del trabajo 
+10 
+© Universidad Internacional de La Rioja (UNIR) 
+iniciales. El no cumplimiento de los formatos y/o demás exigencias, aunque el 
+contenido sea correcto, puede ser motivo de no superación. 
+ 
+ Número de entregas: debes entregar cinco entregas que marcan distintos grados 
+de avance incremental. Finalmente, la quinta entrega ya no admitirá 
+modificaciones, ya que se entrega  el documento tal cual quedará para su 
+evaluación. No se admiten entregas adicionales, intermedias o extraordinarias y 
+todas las entregas deben realizarse a través de las actividades correspondientes 
+definidas en el campus virtual. Todas las entregas deberán entregarse dentro del 
+plazo temporal establecido. 
+ 
+ Importancia de las entregas : en caso de no realizar alguna entrega o que sea 
+calificada como no apta por el director, es posible que tu trabajo no pueda ser 
+aprobado en convocatoria ordinaria y debas trabajar más de cara a la convocatoria 
+extraordinaria. Las entregas están pensadas para valorar tu grado de avance y 
+compromiso con el trabajo, reflejando una dedicación acorde a la carga de 
+créditos de la asignatura y la adquisición de las com petencias requeridas. Si el 
+grado de avance es insuficiente en el plazo ordinario, puede que el visto bueno 
+para depositar no sea viable ni tan siquiera en el plazo extraordinario. 
+ 
+ Contenido de las entregas : en cada entrega debes ajustarte a los contenido s 
+esperados descritos en la programación semanal del aula virtual. Si por algún 
+motivo no realizas alguna de las entregas parciales, en la siguiente deberás 
+ponerte al día con el contenido no entregado, recuperando así el tiempo perdido. 
+Aunque el trabajo se divida en entregas parciales no debes perder de vista que es 
+un trabajo que debe tener coherencia en su conjunto. 
+ 
+ Originalidad de las entregas: tu trabajo debe ser inédito y original. No se admiten 
+contenidos previamente publicados o cuyo origen no est é adecuadamente 
+mencionado, citado y referenciado. Cada entrega se somete a revisión mediante 
+una herramienta que comprueba problemas de originalidad y sus resultados son 
+verificados por tu profesor, que en caso de detectar algún problema te avisará de 
+
+===== PAGE 11 =====
+Maestría en Ingeniería del Software y Sistemas Informáticos 
+Guía del trabajo 
+11 
+© Universidad Internacional de La Rioja (UNIR) 
+ello en la corrección de la entrega. El profesor únicamente informará del 
+problema; en estos casos, es el estudiante el que debe aportar las evidencias 
+necesarias para demostrar la autoría del trabajo. 
+ 
+ Revisión de las entregas : el profesor es el encargado de  revisar cada entrega y 
+corregirla, ofreciendo retroalimentación para afianzar o reorientar tu trabajo. Ten 
+en cuenta sus comentarios y aplícalos siempre en la siguiente entrega.  
+ 
+Los estudiantes de segunda matrícula que tengan su trabajo comenzado en un 
+período anterior deberán ajustarse a estas mismas entregas en cuanto a plazos y 
+contenidos esperados. En ningún caso se modificarán las  fechas ni el número de las 
+entregas establecidas. Además, en determinados casos, el  profesor podrá 
+recomendar a estos estudiantes el cambio total del lugar sobre el que se realiza el 
+sistema. 
+ 
+Recuerda que dispones en la plataforma de una plantilla que ya contiene los 
+formatos exigidos. 
+ 
+Copia de seguridad 
+ 
+Aunque no es habitual, se han producido  casos de estudiantes que en fechas 
+próximas a la entrega del trabajo han sufrido algún tipo de percance (borrado del 
+disco duro, virus informático, robo del ordenador, etc.) que ha provocado la pérdida 
+del documento de trabajo. 
+ 
+Para evitar este tipo de situaciones que supondrían la pérdida de la convocatoria por 
+la imposibilidad de entregar el trabajo en plazo, os recomendamos encarecidamente 
+que realicéis copias de seguridad del borrador con el que estéis trabajando.  
+ 
+Las fórmulas son diversas: disco du ro externo, lápiz USB, servicios en la nube, envío 
+a uno mismo por correo electrónico, etc. De esta manera, si se perdiera el original, 
+
+===== PAGE 12 =====
+Maestría en Ingeniería del Software y Sistemas Informáticos 
+Guía del trabajo 
+12 
+© Universidad Internacional de La Rioja (UNIR) 
+siempre tendremos la seguridad de poder retomar el trabajo desde la última versión 
+guardada. 
+ 
+ 
+7. El vídeo de presentación 
+ 
+La última entrega se debe acompañar de un vídeo de entre 15 a 20 minutos en total 
+(no deberá ni bajar ni superar dicho tiempo), en la que todos los alumnos del grupo 
+participen. E l mismo se deberá acompañar de diapositivas o imágenes junto a la 
+imagen del alumno que habla en ese momento. Todos los alumnos del grupo 
+deberán aparecer en el vídeo, en tiempos semejantes entre cada uno. 
+ 
+El vídeo deberá de contener los aspectos fundamen tales del trabajo, exponiendo 
+sucesivamente sus puntos principales y siguiendo el mismo hilo conductor. De esta 
+manera se comenzará con la presentación, identificación de los objetivos, requisitos 
+y todos los pasos realizados hasta llegar al productor final. 
+ 
+No se recomienda que sea un discurso leído de lo que aparezca en pantalla, 
+sin aportar nada más. No conviene llenar la pantalla con muchos datos o 
+texto, es mejor pocas cosas y preferentemente visual para que pueda 
+entenderse bien. 
+ 
+ Es importante que en todo momento muestres dominio del contenido , dejando 
+claro que la autoría del trabajo es tuya y que lo conoces a la perfección.  
+ Demuestra capacidad de síntesis y no intentes resumir todo el contenido. 
+Céntrate en los aspectos fundamentales  y aquellos que más quieras reforzar, 
+teniendo en cuenta el tiempo disponible. 
+ Recuerda que una parte de la rúbrica de evaluación se centra precisamente en 
+esta parte del proceso. Ten presentes los aspectos que valorará el profesor. 
+ 
+Al tratarse de un vídeo de un trabajo académico se deberá atender: 
+
+===== PAGE 13 =====
+Maestría en Ingeniería del Software y Sistemas Informáticos 
+Guía del trabajo 
+13 
+© Universidad Internacional de La Rioja (UNIR) 
+ 
+ Atuendo: acude con una presencia e indumentaria acordes con la importancia del 
+acto. Vístete de manera formal, aunque sencilla (tampoco es una boda) y evita en 
+todo caso la ropa de sport o demasiado informal. 
+ Lenguaje verbal: emplea un lenguaje adecuado, evitando lo coloquial, pero sin 
+caer en la pedantería. 
+ Lenguaje corporal: muéstrate relajado, pero seguro. Apóyate en la presentación 
+para reforzar las ideas clave, pero intenta no mostrar que estás leyendo o qu e 
+llevas un discurso aprendido de memoria. La presentación es útil como soporte 
+para recordar la estructura de la información, pero se espera que tú elabores el 
+discurso de manera natural, demostrando el dominio sobre el tema. 
+ Contacto visual: procura mantener el contacto visual con la cámara. 
+ 
+El vídeo debe llegar al menos al 50 % de puntuación (sacar al menos un cinco 
+de diez) para que haga media ponderada con el trabajo escrito. 
+ 
+ 
+8. Calificación  
+ 
+El profesor se apoyará en la  rúbrica de evaluación para unificar criterios con otros 
+profesores y decidir la calificación que merece el trabajo. En dicha valoración se tiene 
+en cuenta estructura (20 %), contenidos (50  %) y el vídeo (30 %). Recuerda que el  
+vídeo debe llegar a un cinco sobre diez para hacer aplicar la media ponderada. 
+ 
+Esta calificación se otorgará según una escala numérica de cero a diez, con expresión 
+de un decimal, a la que deberá añadirse su correspondiente calificación cualitativa: 
+ 
+ 0 - 4,9 Suspenso (SS). 
+ 5,0 - 6,9 Aprobado (AP). 
+ 7,0 - 8,9 Notable (NT). 
+ 9,0 - 10 Sobresaliente (SB). 
+
+===== PAGE 14 =====
+Maestría en Ingeniería del Software y Sistemas Informáticos 
+Guía del trabajo 
+14 
+© Universidad Internacional de La Rioja (UNIR) 
+ 
+En caso de que el trabajo sea propuesto para la mención de Matrícula de Honor por 
+el profesor, la Comisión Académica del Título decidirá la asignación de dicha mención. 
+ 
+ 
+9. Entrega extraordinaria 
+ 
+El plazo extraordinario supone una nueva oportunidad para completar o terminar de 
+mejorar algunos aspectos de tu trabajo. Es importante que tengas en cuenta que en 
+este tiempo no se puede realizar un trabajo completo  (esto no tendrí a sentido, 
+según la carga de créditos de la asignatura), sino que es una extensión de plazo para 
+finalizar aquellos aspectos que quedaron pendientes en el período ordinario y que 
+impidieron a tu director dar el visto bueno al depósito. Si el motivo de la n o 
+autorización en convocatoria ordinaria tiene que ver con la no originalidad del 
+trabajo, ten en cuenta que deberás realizar un esfuerzo considerable para la 
+modificación de este. 
+ 
+En convocatoria extraordinaria únicamente habrá una entrega más del trabaj o, ya 
+que no se trata de hacer el trabajo en dicho tiempo, sino de dar un poco más de 
+tiempo a aquellos que no lo finalizaran en plazo o de que el director considerara que 
+no estuviera correcto en ordinaria. 
+ 
+ 
+10. Referencias bibliográficas 
+ 
+Al final de l trabajo incluye un listado con las referencias completas de las citas que 
+has ido incorporando en el texto. Es importante que apoyes tus explicaciones con 
+unas referencias sólidas para dar fuerza a tu exposición.  
+ 
+
+===== PAGE 15 =====
+Maestría en Ingeniería del Software y Sistemas Informáticos 
+Guía del trabajo 
+15 
+© Universidad Internacional de La Rioja (UNIR) 
+Te facilitarán las pautas  bibliográficas de la normativa correspondiente a tu 
+titulación (APA) para que las referencias estén completas y se ajusten a lo que 
+necesitamos. Ten en cuenta que al final la s referencias  bibliográficas deben 
+exponerse por orden alfabético  (no en orden de aparición) y es recomendable 
+exponerlo con sangría francesa para una buena visualización. 

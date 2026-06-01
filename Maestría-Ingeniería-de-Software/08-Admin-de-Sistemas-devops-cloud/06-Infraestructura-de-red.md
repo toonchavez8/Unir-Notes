@@ -242,3 +242,24 @@ D --> E[Aplican políticas]
 ---
 
 ## MicroTest 1.6
+
+1. El servicio que reparte direcciones IP en Windows server es:
+    
+    - La respuesta: b. Role DHCP.
+        
+    - Justifacion:  
+        El servicio DHCP (Dynamic Host Configuration Protocol) es el encargado de asignar automáticamente direcciones IP a los dispositivos en la red, facilitando la administración y evitando configuraciones manuales.
+        
+2. ¿Qué fichero comprueba un Windows cliente antes de preguntar al DNS?
+    
+    - La respuesta: d. Hosts.
+        
+    - Justifacion:  
+        El sistema operativo Windows consulta primero el archivo "hosts", que permite resolver nombres de dominio de forma local antes de realizar una consulta a un servidor DNS.
+        
+3. Las contraseñas débiles…:
+    
+    - La respuesta: b. Facilitan a los posibles atacantes el acceso a su servidor.
+        
+    - Justifacion:  
+        Las contraseñas débiles son fáciles de descifrar mediante ataques como fuerza bruta o diccionario, lo que incrementa significativamente el riesgo de accesos no autorizados.
