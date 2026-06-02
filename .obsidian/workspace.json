@@ -61,6 +61,30 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/Guide-Dominus-Broker.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Guide-Dominus-Broker"
+            }
+          },
+          {
+            "id": "4ba20825ea8e1904",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/Guide-Dominus-Conceptos-Para-Juniors.md",
                 "mode": "source",
                 "source": false,
@@ -78,33 +102,9 @@
               "icon": "lucide-file",
               "title": "Guide-Dominus-Conceptos-Para-Juniors"
             }
-          },
-          {
-            "id": "4ba20825ea8e1904",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Actividad-01-Estado-del-Arte/Guia-Actividad-01-Estado-del-Arte.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Guia-Actividad-01-Estado-del-Arte"
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       },
       {
         "id": "f1430e3e455abf03",
@@ -288,14 +288,14 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "4daafc293d028ce6",
+  "active": "4ba20825ea8e1904",
   "lastOpenFiles": [
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Actividad-01-Estado-del-Arte/Guia-Actividad-01-Estado-del-Arte.md",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/Guide-Dominus-Broker.md",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/Guide-Dominus-Conceptos-Para-Juniors.md",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/Guide-Dominus-Pruebas-Paso-a-Paso.md",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/Guide-Dominus-Justificacion-Defensa.md",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Actividad-01-Estado-del-Arte/Actividad-01-Estado-del-Arte-Broker-Hibrido-gRPC-Redis.md",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Actividad-01-Estado-del-Arte/Guia-Actividad-01-Estado-del-Arte.md",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/Guide-Dominus-Conceptos-Para-Juniors.md",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/Guide-Dominus-Broker.md",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-sdk/doc/client-guide.md",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/Guide-Overview-Referance.md",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Actividad-01-Estado-del-Arte/mexingsof14_act1_Estado del arte.md",

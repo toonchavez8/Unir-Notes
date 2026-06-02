@@ -141,7 +141,7 @@ It does the following:
 2. Creates the logging/event adapter.
 3. Creates shutdown signal handling.
 4. Checks whether certificate files exist.
-5. Builds Prometheus and gRPC metrics collectors.
+5. Builds  and gRPC metrics collectors.
 6. Starts the REST monitor server.
 7. Starts the gRPC server.
 8. Prints runtime information.
