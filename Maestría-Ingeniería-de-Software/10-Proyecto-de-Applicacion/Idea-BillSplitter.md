@@ -247,3 +247,4 @@ sequenceDiagram
     Organizador->>Empleados: Compartir reporte
     Empleados->>App: Consultar cargos
 ```
+

@@ -91,9 +91,33 @@
               "icon": "lucide-file",
               "title": "TFM_v1"
             }
+          },
+          {
+            "id": "59fd075bf08c014a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       },
       {
         "id": "d6ca77b11b8166f3",
@@ -315,13 +339,15 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "4ba20825ea8e1904",
+  "active": "59fd075bf08c014a",
   "lastOpenFiles": [
-    "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/03-Importancia-de-UX.md",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/TFM_v1.docx",
+    "conflict-files-obsidian-git.md",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Actividad-01-Estado-del-Arte/mexingsof14_act1_Estado del arte.md",
+    "Dev-Journel/01-mcaseros.md",
+    "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/03-Importancia-de-UX.md",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance",
     "README.md",
-    "conflict-files-obsidian-git.md",
     "VOICE_TERMINAL_WALKTHROUGH.md",
     "TMUX_DEVELOPER_GUIDE.md",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/rúbrica_TFM.txt",
@@ -360,8 +386,6 @@
     "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-01/attachments/{C749A8E7-D846-4600-876A-A6850F965E1D}.png",
     "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-01/attachments/{7E7217B0-4B1A-402E-929D-358D17630C03}.png",
     "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-01/Guia-Act-1.md",
-    "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-01/AWS-Academy-Learner-Lab.md",
-    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-01/psuiadesoft01_act1.md",
     "Untitled.canvas"
   ]
 }
