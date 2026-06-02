@@ -6,7 +6,7 @@
       {
         "id": "2408911fe802f04b",
         "type": "tabs",
-        "dimension": 68.61111111111111,
+        "dimension": 68.70370370370371,
         "children": [
           {
             "id": "439611168adacc32",
@@ -156,21 +156,9 @@
             "id": "e4223cee8123b925",
             "type": "leaf",
             "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Programacion-semanal.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Programacion-semanal"
-            }
-          },
-          {
-            "id": "e8900b80ada38666",
-            "type": "leaf",
-            "state": {
               "type": "markdown",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Idea-BillSplitter.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -185,16 +173,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
+              "title": "Idea-BillSplitter"
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 6
       },
       {
         "id": "edcd3cafa97b4541",
         "type": "tabs",
-        "dimension": 31.38888888888889,
+        "dimension": 31.296296296296294,
         "children": [
           {
             "id": "fef7dbdebf6a9834",
@@ -386,18 +374,21 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "e8900b80ada38666",
+  "active": "e4223cee8123b925",
   "lastOpenFiles": [
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/guia.pdf",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/plantilla.md",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/plantilla.docx",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/~$antilla.docx",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Actividad-01-Estado-del-Arte/mexingsof14_act1_Estado del arte.md",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Actividad-01-Estado-del-Arte/mexingsof14_act1_Estado del arte.docx",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Programacion-semanal.pdf",
     "conflict-files-obsidian-git.md",
     "VOICE_TERMINAL_WALKTHROUGH.md",
     "TMUX_DEVELOPER_GUIDE.md",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/rúbrica_TFM.txt",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/rúbrica_TFM.pdf",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/plantilla.md",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/plantilla.docx",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/guia.txt",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/guia.pdf",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Idea-BillSplitter.md",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Classes/Class Transcript.md",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Classes/Class Transcript Notes.md",
@@ -410,9 +401,6 @@
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Attachments",
     "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/classes/Transcript.md",
     "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/classes/AGENTS.md",
-    "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/classes",
-    "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/Books/Programacion Semanal.pdf",
-    "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/Books/ideas_claves.pdf",
     "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/Actividades/Actividad-01/mexdiux01_act1.md",
     "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/11-Aspectos-sociales.md",
     "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/10-Factores-cognitivos-parte-3.md",
@@ -433,7 +421,6 @@
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-01/psuiadesoft01_act1.md",
     "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/06-Infraestructura-de-red.md",
     "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/03-Importancia-de-UX.md",
-    "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/02-Diciplinas-UI-UX.md",
     "Untitled.canvas"
   ]
 }
