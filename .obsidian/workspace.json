@@ -6,7 +6,6 @@
       {
         "id": "2408911fe802f04b",
         "type": "tabs",
-        "dimension": 68.70370370370371,
         "children": [
           {
             "id": "439611168adacc32",
@@ -158,7 +157,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dev-Journel/01-mcaseros.md",
+                "file": "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/Guide-Dominus-Pruebas-Paso-a-Paso.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -173,66 +172,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "01-mcaseros"
-            }
-          },
-          {
-            "id": "b3d38058a3e32e43",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
+              "title": "Guide-Dominus-Pruebas-Paso-a-Paso"
             }
           }
         ],
-        "currentTab": 7
-      },
-      {
-        "id": "edcd3cafa97b4541",
-        "type": "tabs",
-        "dimension": 31.296296296296294,
-        "children": [
-          {
-            "id": "fef7dbdebf6a9834",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "README"
-            }
-          }
-        ]
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -289,7 +233,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 315.5
+    "width": 315.5,
+    "collapsed": true
   },
   "right": {
     "id": "a25b807ad639ff42",
@@ -398,12 +343,44 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "b3d38058a3e32e43",
+  "active": "e4223cee8123b925",
   "lastOpenFiles": [
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-broker/go.sum",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-sdk/go.work",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-sdk/go.sum",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-sdk/go.mod",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-broker/go.work",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-broker/go.work.sum",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-proto-definition/proto/dominus.proto",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-proto-definition/proto/dominus-api.dsc",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-proto-definition/proto/buf.gen.yaml",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-proto-definition/proto/buf.yaml",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-proto-definition/proto",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-proto-definition/README.md",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-sdk/doc/server-guide.md",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-sdk/doc/security-and-metadata.md",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-sdk/doc/README.md",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-sdk/doc/overview.md",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-sdk/doc/operations.md",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-sdk/doc/client-guide.md",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-sdk/README.md",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-broker/doc/tradeoffs.md",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-broker/doc/testing.md",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-broker/doc/terraform.md",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-broker/doc/sqs-use-cases.md",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-broker/doc/redis.md",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-broker/doc/README.md",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-broker/doc/http-monitor.md",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-broker/doc/grpc-security.md",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-broker/doc/coverage.md",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-broker/doc/configuration.md",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-broker/doc/concurrency.md",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-broker/doc/broker-streaming.md",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-broker/README.md",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/Guide-Overview-Referance.md",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/Guide-Dominus-Broker.md",
     "Dev-Journel/01-mcaseros.md",
     "conflict-files-obsidian-git.md",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/clone-dominus-deps.sh",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/TFM_v1.md",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/Attachments/TFM_v1.png",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/Attachments/TFM_v1 8.png",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/Attachments/TFM_v1 9.png",
@@ -414,37 +391,6 @@
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/Attachments/TFM_v1 4.png",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/Attachments/TFM_v1 2.png",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/Attachments/TFM_v1 1.png",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/TFM_v1.docx",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/Guide-Dominus-Pruebas-Paso-a-Paso.md",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/Guide-Overview-Referance.md",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/Guide-Dominus-Conceptos-Para-Juniors.md",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/Guide-Dominus-Justificacion-Defensa.md",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/Guide-Dominus-Broker.md",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/Attachments",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Actividad-01-Estado-del-Arte/Guia-Actividad-01-Estado-del-Arte.md",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Actividad-01-Estado-del-Arte/Actividad-01-Estado-del-Arte-Broker-Hibrido-gRPC-Redis.md",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Idea-BillSplitter.md",
-    "Dev-Journel/asw-7125ad78-048c-4147-a0d3-fa7ead03cd53",
-    "Dev-Journel/asw-05588514-fe40-4945-9a88-ad2ad332425b",
-    "Dev-Journel/unp10296634781386432102.tmp",
-    "Dev-Journel/asw-7a69bf63-e8d4-4b16-9ca6-2c609ae73351",
-    "Dev-Journel/asw-00faed33-c370-4b45-a6f4-4265d344db70",
-    "Dev-Journel/unp5308997216806106309.tmp",
-    "Dev-Journel/01.md",
-    "Dev-Journel/01-.md",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/plantilla.md",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Actividad-01-Estado-del-Arte/mexingsof14_act1_Estado del arte.md",
-    "VOICE_TERMINAL_WALKTHROUGH.md",
-    "TMUX_DEVELOPER_GUIDE.md",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Classes/Class Transcript.md",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Classes/Class Transcript Notes.md",
-    "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/classes/Transcript.md",
-    "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/classes/AGENTS.md",
-    "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/Actividades/Actividad-01/mexdiux01_act1.md",
-    "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/11-Aspectos-sociales.md",
-    "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/10-Factores-cognitivos-parte-3.md",
-    "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/10- Factores-congnitivos-ux-part-2.md",
     "Untitled.canvas"
   ]
 }
