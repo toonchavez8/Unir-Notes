@@ -175,9 +175,33 @@
               "icon": "lucide-file",
               "title": "01-mcaseros"
             }
+          },
+          {
+            "id": "b3d38058a3e32e43",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
+            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       },
       {
         "id": "edcd3cafa97b4541",
@@ -374,10 +398,33 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "e4223cee8123b925",
+  "active": "b3d38058a3e32e43",
   "lastOpenFiles": [
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Idea-BillSplitter.md",
     "Dev-Journel/01-mcaseros.md",
+    "conflict-files-obsidian-git.md",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/clone-dominus-deps.sh",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/TFM_v1.md",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/Attachments/TFM_v1.png",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/Attachments/TFM_v1 8.png",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/Attachments/TFM_v1 9.png",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/Attachments/TFM_v1 5.png",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/Attachments/TFM_v1 7.png",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/Attachments/TFM_v1 6.png",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/Attachments/TFM_v1 3.png",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/Attachments/TFM_v1 4.png",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/Attachments/TFM_v1 2.png",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/Attachments/TFM_v1 1.png",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/TFM_v1.docx",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/Guide-Dominus-Pruebas-Paso-a-Paso.md",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/Guide-Overview-Referance.md",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/Guide-Dominus-Conceptos-Para-Juniors.md",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/Guide-Dominus-Justificacion-Defensa.md",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/Guide-Dominus-Broker.md",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/Attachments",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Actividad-01-Estado-del-Arte/Guia-Actividad-01-Estado-del-Arte.md",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Actividad-01-Estado-del-Arte/Actividad-01-Estado-del-Arte-Broker-Hibrido-gRPC-Redis.md",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Idea-BillSplitter.md",
     "Dev-Journel/asw-7125ad78-048c-4147-a0d3-fa7ead03cd53",
     "Dev-Journel/asw-05588514-fe40-4945-9a88-ad2ad332425b",
     "Dev-Journel/unp10296634781386432102.tmp",
@@ -386,41 +433,18 @@
     "Dev-Journel/unp5308997216806106309.tmp",
     "Dev-Journel/01.md",
     "Dev-Journel/01-.md",
-    "conflict-files-obsidian-git.md",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/guia.pdf",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/plantilla.md",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/plantilla.docx",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/~$antilla.docx",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Actividad-01-Estado-del-Arte/mexingsof14_act1_Estado del arte.md",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Actividad-01-Estado-del-Arte/mexingsof14_act1_Estado del arte.docx",
     "VOICE_TERMINAL_WALKTHROUGH.md",
     "TMUX_DEVELOPER_GUIDE.md",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Classes/Class Transcript.md",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Classes/Class Transcript Notes.md",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Attachments/plantilla.jpeg",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Attachments/plantilla.png",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Attachments/plantilla 2.jpeg",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Attachments/plantilla 1.png",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Attachments/plantilla 1.jpeg",
     "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/classes/Transcript.md",
     "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/classes/AGENTS.md",
     "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/Actividades/Actividad-01/mexdiux01_act1.md",
     "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/11-Aspectos-sociales.md",
     "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/10-Factores-cognitivos-parte-3.md",
     "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/10- Factores-congnitivos-ux-part-2.md",
-    "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/09-Factores-cognitivos-UX-parte-1.md",
-    "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/08-Resumen-01.md",
-    "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/07-El-Objetivo-de-diseno-parte-2.md",
-    "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/06-El-Objeto-de-desino.md",
-    "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/05-Nivels-de-Madures.md",
-    "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/04-Nivels-de-implicacion-de-usuarios.md",
-    "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-01/mexissi06_act1_individual.md",
-    "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-01/attachments/{E901F4E7-001E-4880-9482-B9D5FEFB7959}.png",
-    "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-01/attachments/{DA94BB11-1482-4A8C-B37E-8C3981F6CC0F}.png",
-    "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-01/attachments/{C749A8E7-D846-4600-876A-A6850F965E1D}.png",
-    "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-01/attachments/{91B20463-5A13-4A71-AC57-033B6A4C3118}.png",
-    "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-01/attachments/{7E7217B0-4B1A-402E-929D-358D17630C03}.png",
-    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-02/psuiadesoft01_act2.md",
     "Untitled.canvas"
   ]
 }
