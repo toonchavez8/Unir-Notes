@@ -62,10 +62,10 @@ That keeps the protocol as a separate source of truth.
 
 The broker exposes two network surfaces:
 
-| Surface | Technology | Main purpose |
-|---|---|---|
-| gRPC server | `google.golang.org/grpc` | Broker streaming and SQS-style APIs |
-| REST/HTTP monitor | `fasthttp` | Health and metrics endpoints |
+| Surface           | Technology               | Main purpose                        |
+| ----------------- | ------------------------ | ----------------------------------- |
+| gRPC server       | `google.golang.org/grpc` | Broker streaming and SQS-style APIs |
+| REST/HTTP monitor | `fasthttp`               | Health and metrics endpoints        |
 
 The gRPC surface is the product.
 The HTTP surface is operational support.
@@ -76,21 +76,21 @@ This distinction matters because clients should use gRPC for application behavio
 
 Important paths:
 
-| Path | Purpose |
-|---|---|
-| `cmd/api/` | Executable entry point |
-| `config/` | Typed configuration model and validation |
-| `internal/bootstraps/` | Runtime composition root |
-| `internal/domain/` | Entity and port definitions |
-| `internal/application/` | Broker and SQS use cases |
-| `internal/infrastructure/` | gRPC, Redis, HTTP, logging, constants |
-| `doc/` | Technical implementation documentation |
-| `tests/` | Unit-style and integration tests |
-| `mocks/` | Generated mocks for interfaces |
-| `terraform/` | Local infrastructure stack |
-| `env/` | Development and production config examples |
-| `Makefile.ps1` | Windows automation for test/build/terraform tasks |
-| `Dockerfile` | Container image definition |
+| Path                       | Purpose                                           |
+| -------------------------- | ------------------------------------------------- |
+| `cmd/api/`                 | Executable entry point                            |
+| `config/`                  | Typed configuration model and validation          |
+| `internal/bootstraps/`     | Runtime composition root                          |
+| `internal/domain/`         | Entity and port definitions                       |
+| `internal/application/`    | Broker and SQS use cases                          |
+| `internal/infrastructure/` | gRPC, Redis, HTTP, logging, constants             |
+| `doc/`                     | Technical implementation documentation            |
+| `tests/`                   | Unit-style and integration tests                  |
+| `mocks/`                   | Generated mocks for interfaces                    |
+| `terraform/`               | Local infrastructure stack                        |
+| `env/`                     | Development and production config examples        |
+| `Makefile.ps1`             | Windows automation for test/build/terraform tasks |
+| `Dockerfile`               | Container image definition                        |
 
 The layout follows a clean/hexagonal style.
 The inner code defines what the system needs, while infrastructure code provides concrete implementations.
@@ -99,12 +99,12 @@ The inner code defines what the system needs, while infrastructure code provides
 
 The broker has four main layers:
 
-| Layer | Folder | Responsibility |
-|---|---|---|
-| Entry/composition | `cmd`, `internal/bootstraps` | Start the app and wire concrete dependencies |
-| Domain | `internal/domain` | Define entities and repository interfaces |
-| Application | `internal/application/usecases` | Orchestrate broker and queue behavior |
-| Infrastructure | `internal/infrastructure` | Implement gRPC, Redis, HTTP, logging, middleware |
+| Layer             | Folder                          | Responsibility                                   |
+| ----------------- | ------------------------------- | ------------------------------------------------ |
+| Entry/composition | `cmd`, `internal/bootstraps`    | Start the app and wire concrete dependencies     |
+| Domain            | `internal/domain`               | Define entities and repository interfaces        |
+| Application       | `internal/application/usecases` | Orchestrate broker and queue behavior            |
+| Infrastructure    | `internal/infrastructure`       | Implement gRPC, Redis, HTTP, logging, middleware |
 
 The important idea is dependency direction.
 
