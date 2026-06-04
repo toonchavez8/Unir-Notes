@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "3664b9033fedb867",
+        "id": "2408911fe802f04b",
         "type": "tabs",
         "children": [
           {
-            "id": "a4e30ceca76d99c7",
+            "id": "439611168adacc32",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/00-Presentacion.md",
+                "file": "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/00-Presentacion.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -32,12 +32,12 @@
             }
           },
           {
-            "id": "c2eb56bbb1d78415",
+            "id": "51fd64f876f8020b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/01-UX-UI.md",
+                "file": "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/01-Introducion.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,16 +52,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "01-UX-UI"
+              "title": "01-Introducion"
             }
           },
           {
-            "id": "4daafc293d028ce6",
+            "id": "78d7a1f8b46c544d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/Guide-Dominus-Broker.md",
+                "file": "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/02-Windows-server-instalaccion.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,16 +76,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Guide-Dominus-Broker"
+              "title": "02-Windows-server-instalaccion"
             }
           },
           {
-            "id": "4ba20825ea8e1904",
+            "id": "3f464b646d4add91",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Coursera/Amazon-Jr-Software-Dev/01-Intro-software-development/001-Program-Overview.md",
+                "file": "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/03-Active-directory.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,16 +100,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "001-Program-Overview"
+              "title": "03-Active-directory"
             }
           },
           {
-            "id": "82796448ac6c87c8",
+            "id": "a4db42fdc76b84ad",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Coursera/Amazon-Jr-Software-Dev/01-Intro-software-development/002-Intro-to-software-development.md",
+                "file": "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/04-Gpo-windows-server.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -124,16 +124,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "002-Intro-to-software-development"
+              "title": "04-Gpo-windows-server"
             }
           },
           {
-            "id": "c6806b3f9c3798fe",
+            "id": "d78a6cb8210fb86a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Coursera/Amazon-Jr-Software-Dev/01-Intro-software-development/003-Project-Preview.md",
+                "file": "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/05-Servidor-web-servidor-archivos.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -148,16 +148,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "003-Project-Preview"
+              "title": "05-Servidor-web-servidor-archivos"
             }
           },
           {
-            "id": "1b9ee3b6d3850f37",
+            "id": "e4223cee8123b925",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Coursera/Amazon-Jr-Software-Dev/01-Intro-software-development/004-Course-Syllabus.md",
+                "file": "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/Guide-Dominus-Pruebas-Paso-a-Paso.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -172,59 +172,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "004-Course-Syllabus"
-            }
-          },
-          {
-            "id": "8792ba76ba712d1e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Coursera/Amazon-Jr-Software-Dev/01-Intro-software-development/005-The-Role-of-a-Developer.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "005-The-Role-of-a-Developer"
-            }
-          },
-          {
-            "id": "3e0e095be6eee0ce",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Coursera/Amazon-Jr-Software-Dev/01-Intro-software-development/006-Areas-of-Expertise.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "006-Areas-of-Expertise"
+              "title": "Guide-Dominus-Pruebas-Paso-a-Paso"
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -281,7 +233,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 268.5
+    "width": 315.5,
+    "collapsed": true
   },
   "right": {
     "id": "a25b807ad639ff42",
@@ -343,13 +296,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/016-Alcance-proceso de gestion.md",
+                "file": "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_03/Guia-paso.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 016-Alcance-proceso de gestion"
+              "title": "Outline of Guia-paso"
             }
           },
           {
@@ -363,7 +316,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -390,54 +343,54 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "3e0e095be6eee0ce",
+  "active": "e4223cee8123b925",
   "lastOpenFiles": [
-    "README.md",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-broker/terraform/terraform.tfstate",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-broker/coverage.out",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/zsh.exe.stackdump",
     "Coursera/Amazon-Jr-Software-Dev/01-Intro-software-development/006-Areas-of-Expertise.md",
     "Coursera/Amazon-Jr-Software-Dev/01-Intro-software-development/005-The-Role-of-a-Developer.md",
-    "Coursera/Amazon-Jr-Software-Dev/01-Intro-software-development/004-Course-Syllabus.md",
     "Coursera/Amazon-Jr-Software-Dev/01-Intro-software-development/003-Project-Preview.md",
+    "Coursera/Amazon-Jr-Software-Dev/01-Intro-software-development/004-Course-Syllabus.md",
     "Coursera/Amazon-Jr-Software-Dev/01-Intro-software-development/002-Intro-to-software-development.md",
     "Coursera/Amazon-Jr-Software-Dev/01-Intro-software-development/001-Program-Overview.md",
-    "Templates/Project Template.md",
-    "Coursera/Amazon-Jr-Software-Dev",
-    "Coursera/Untitled.md",
     "Coursera/Amazon-Jr-Software-Dev/01-Intro-software-development",
-    "VOICE_TERMINAL_WALKTHROUGH.md",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/Guide-Dominus-Broker.md",
+    "Coursera/Amazon-Jr-Software-Dev",
     "Coursera",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/zsh.exe.stackdump",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/TFM_v1.docx",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/Guide-Dominus-Conceptos-Para-Juniors.md",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Actividad-01-Estado-del-Arte/Guia-Actividad-01-Estado-del-Arte.md",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/Guide-Dominus-Pruebas-Paso-a-Paso.md",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/Guide-Dominus-Justificacion-Defensa.md",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Actividad-01-Estado-del-Arte/Actividad-01-Estado-del-Arte-Broker-Hibrido-gRPC-Redis.md",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-sdk/doc/client-guide.md",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/Guide-Overview-Referance.md",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Actividad-01-Estado-del-Arte/mexingsof14_act1_Estado del arte.md",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-broker/cmd/api/main.go",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-broker/cmd/api",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-broker/cmd",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-broker/mocks/mock_usecases_sqs.go",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-broker/mocks/mock_repositories_broker.go",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-broker/go.sum",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-sdk/go.work",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-sdk/go.sum",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-sdk/go.mod",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-broker/go.work",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-proto-definition/README.md",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-sdk/doc/server-guide.md",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-sdk/doc/security-and-metadata.md",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-sdk/doc/overview.md",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-sdk/doc/README.md",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-sdk/doc/overview.md",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-sdk/doc/operations.md",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-sdk/doc/client-guide.md",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-sdk/README.md",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/Attachments/TFM_v1 9.png",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-broker/doc/tradeoffs.md",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-broker/doc/testing.md",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-broker/doc/terraform.md",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-broker/doc/sqs-use-cases.md",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-broker/doc/redis.md",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-broker/doc/README.md",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-broker/doc/http-monitor.md",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-broker/doc/grpc-security.md",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-broker/doc/coverage.md",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-broker/doc/configuration.md",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-broker/doc/concurrency.md",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/Attachments/TFM_v1.png",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/Attachments/TFM_v1 8.png",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/Attachments/TFM_v1 9.png",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/Attachments/TFM_v1 5.png",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/Attachments/TFM_v1 7.png",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/Attachments/TFM_v1 6.png",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/Attachments/TFM_v1 5.png",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/Attachments/TFM_v1 4.png",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/Attachments/TFM_v1 3.png",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/Attachments/TFM_v1 4.png",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/Attachments/TFM_v1 2.png",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/Attachments/TFM_v1 1.png",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/Attachments/TFM_v1.png",
     "Untitled.canvas"
   ]
 }

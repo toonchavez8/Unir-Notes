@@ -423,7 +423,7 @@ Sustituye `<MESSAGE_ID>` por el valor que regreso `Consumer`.
 grpcurl -plaintext \
   -H "x-api-key: dominus-api-key-1233464687" \
   -H "idempotency-header: ack-001" \
-  -d "{\"workerId\":\"worker-1\",\"groupId\":\"consumer-group\",\"messageId\":\"<MESSAGE_ID>\"}" \
+  -d "{\"workerId\":\"worker-1\",\"groupId\":\"consumer-group\",\"messageId\":\"1780546797614-0\"}" \
   localhost:5000 dominus.SqsAPI/Ack
 ```
 
