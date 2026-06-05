@@ -4,179 +4,194 @@
     "type": "split",
     "children": [
       {
-        "id": "2408911fe802f04b",
-        "type": "tabs",
+        "id": "d690f7851bea0180",
+        "type": "split",
         "children": [
           {
-            "id": "439611168adacc32",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/00-Presentacion.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
+            "id": "749bda64dd724b9e",
+            "type": "tabs",
+            "dimension": 65.78538102643857,
+            "children": [
+              {
+                "id": "71b2d015a64a1973",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Coursera/Amazon-Jr-Software-Dev/01-Intro-software-development/006-Areas-of-Expertise.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "icon": "lucide-file",
+                  "title": "006-Areas-of-Expertise"
                 }
               },
-              "icon": "lucide-file",
-              "title": "00-Presentacion"
-            }
+              {
+                "id": "08f4de47afa1b8d7",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Coursera/Amazon-Jr-Software-Dev/01-Intro-software-development/007-Dev-roles.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "icon": "lucide-file",
+                  "title": "007-Dev-roles"
+                }
+              },
+              {
+                "id": "97935fd4b6742fa0",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Coursera/Amazon-Jr-Software-Dev/01-Intro-software-development/008-Programming-langs.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "icon": "lucide-file",
+                  "title": "008-Programming-langs"
+                }
+              },
+              {
+                "id": "75e63e7061cb6ad6",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Coursera/Amazon-Jr-Software-Dev/01-Intro-software-development/009-Activity-First-Java-program.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "icon": "lucide-file",
+                  "title": "009-Activity-First-Java-program"
+                }
+              },
+              {
+                "id": "614be8301d29be48",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Coursera/Amazon-Jr-Software-Dev/01-Intro-software-development/010-Effective-online-learning.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "icon": "lucide-file",
+                  "title": "010-Effective-online-learning"
+                }
+              },
+              {
+                "id": "45a9c5f0ef153945",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Coursera/Amazon-Jr-Software-Dev/01-Intro-software-development/11-Knowledge-check.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "icon": "lucide-file",
+                  "title": "11-Knowledge-check"
+                }
+              }
+            ],
+            "currentTab": 5
           },
           {
-            "id": "51fd64f876f8020b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/01-Introducion.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
+            "id": "7892042c198a5504",
+            "type": "tabs",
+            "dimension": 34.21461897356143,
+            "children": [
+              {
+                "id": "e4223cee8123b925",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "README.md",
+                    "mode": "preview",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "icon": "lucide-file",
+                  "title": "README"
                 }
-              },
-              "icon": "lucide-file",
-              "title": "01-Introducion"
-            }
-          },
-          {
-            "id": "78d7a1f8b46c544d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/02-Windows-server-instalaccion.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "02-Windows-server-instalaccion"
-            }
-          },
-          {
-            "id": "3f464b646d4add91",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/03-Active-directory.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "03-Active-directory"
-            }
-          },
-          {
-            "id": "a4db42fdc76b84ad",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/04-Gpo-windows-server.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "04-Gpo-windows-server"
-            }
-          },
-          {
-            "id": "d78a6cb8210fb86a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/05-Servidor-web-servidor-archivos.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "05-Servidor-web-servidor-archivos"
-            }
-          },
-          {
-            "id": "e4223cee8123b925",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "StudyGuides/json.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "json"
-            }
+              }
+            ]
           }
         ],
-        "currentTab": 6
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -233,7 +248,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 315.5
+    "width": 315.5,
+    "collapsed": true
   },
   "right": {
     "id": "a25b807ad639ff42",
@@ -342,14 +358,26 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "e4223cee8123b925",
+  "active": "45a9c5f0ef153945",
   "lastOpenFiles": [
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/Guide-Dominus-Pruebas-Paso-a-Paso.md",
+    "Coursera/Amazon-Jr-Software-Dev/01-Intro-software-development/010-Effective-online-learning.md",
+    "Coursera/Amazon-Jr-Software-Dev/01-Intro-software-development/11-Knowledge-check.md",
+    "Coursera/Amazon-Jr-Software-Dev/01-Intro-software-development/009-Activity-First-Java-program.md",
+    "Coursera/Amazon-Jr-Software-Dev/01-Intro-software-development/008-Programming-langs.md",
+    "Coursera/Amazon-Jr-Software-Dev/01-Intro-software-development/007-Dev-roles.md",
+    "README.md",
+    "Coursera/Amazon-Jr-Software-Dev/01-Intro-software-development/006-Areas-of-Expertise.md",
+    "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/00-Presentacion.md",
+    "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/01-Introducion.md",
+    "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/02-Windows-server-instalaccion.md",
+    "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/03-Active-directory.md",
+    "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/04-Gpo-windows-server.md",
+    "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/05-Servidor-web-servidor-archivos.md",
     "StudyGuides/json.md",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/Guide-Dominus-Pruebas-Paso-a-Paso.md",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-broker/terraform/terraform.tfstate",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-broker/coverage.out",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/zsh.exe.stackdump",
-    "Coursera/Amazon-Jr-Software-Dev/01-Intro-software-development/006-Areas-of-Expertise.md",
     "Coursera/Amazon-Jr-Software-Dev/01-Intro-software-development/005-The-Role-of-a-Developer.md",
     "Coursera/Amazon-Jr-Software-Dev/01-Intro-software-development/003-Project-Preview.md",
     "Coursera/Amazon-Jr-Software-Dev/01-Intro-software-development/004-Course-Syllabus.md",
@@ -368,18 +396,6 @@
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-sdk/doc/README.md",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-sdk/doc/overview.md",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-sdk/doc/operations.md",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-sdk/doc/client-guide.md",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-sdk/README.md",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-broker/doc/tradeoffs.md",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-broker/doc/testing.md",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-broker/doc/terraform.md",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-broker/doc/sqs-use-cases.md",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-broker/doc/redis.md",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-broker/doc/README.md",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-broker/doc/http-monitor.md",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-broker/doc/grpc-security.md",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-broker/doc/coverage.md",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-broker/doc/configuration.md",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/Attachments/TFM_v1.png",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/Attachments/TFM_v1 8.png",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/Attachments/TFM_v1 9.png",
