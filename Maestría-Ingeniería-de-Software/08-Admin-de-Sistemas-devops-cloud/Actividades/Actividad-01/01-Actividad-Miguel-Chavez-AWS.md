@@ -11,9 +11,9 @@
 
 Esta actividad tiene como propósito practicar el uso inicial de Amazon Web Services mediante AWS Academy. El trabajo se desarrolla a partir de tres ejercicios principales: desplegar una página web en una instancia EC2 con Linux, publicar un juego en una instancia EC2 con Windows Server y crear una base de datos MySQL en Amazon RDS para conectarse a ella desde una herramienta externa.
 
-Amazon EC2, cuyo nombre completo es Elastic Compute Cloud, permite crear servidores virtuales dentro de AWS. En esta actividad lo utilicé como el espacio donde corren las aplicaciones web. En términos prácticos, EC2 funciona como una computadora en la nube que se configura de acuerdo con el sistema operativo, la capacidad de cómputo, las reglas de seguridad y el tipo de acceso que se necesita.
+De acuerdo con Amazon Web Services (s. f.-g), una instancia de EC2 es un servidor virtual en la nube de AWS, donde se puede instalar y configurar el sistema operativo y las aplicaciones que se ejecutarán. En esta actividad utilicé EC2 como el espacio donde corren las aplicaciones web. En términos prácticos, EC2 funciona como una computadora en la nube que se configura de acuerdo con el sistema operativo, la capacidad de cómputo, las reglas de seguridad y el tipo de acceso que se necesita.
 
-Amazon RDS, por su parte, es un servicio administrado de bases de datos relacionales. Su nombre completo es Relational Database Service. Este servicio permite trabajar con motores como MySQL, PostgreSQL o MariaDB sin tener que instalar manualmente todo el servidor de base de datos. En la actividad se utilizó MySQL para crear una base de datos, conectarse de forma remota y validar que los cambios se reflejaran correctamente.
+Amazon RDS, por su parte, es un servicio administrado de bases de datos relacionales. En la documentación de Amazon RDS se muestra que el servicio permite crear instancias de base de datos MySQL y conectarse a ellas mediante un endpoint y un puerto específico (Amazon Web Services, s. f.-e). En la actividad se utilizó MySQL para crear una base de datos, conectarse de forma remota y validar que los cambios se reflejaran correctamente.
 
 El entorno de AWS Academy fue importante porque permitió trabajar con servicios reales de AWS dentro de un laboratorio controlado. El presupuesto disponible de 50 USD y el límite de tiempo activo del laboratorio ayudan a practicar sin dejar recursos encendidos de forma indefinida. A partir de este entorno pude reforzar conceptos de nube pública, servidores virtuales, grupos de seguridad, acceso remoto y conectividad entre servicios.
 
@@ -41,7 +41,7 @@ Al entrar al panel del LMS, que corresponde al Learning Management System, selec
 
 Después ingresé a la Consola de administración de AWS mediante el enlace **AWS**. La sesión se abrió con una cuenta temporal, válida durante el tiempo activo del laboratorio. Este punto es importante porque todo el trabajo realizado depende de que el temporizador siga activo y de que los recursos se mantengan dentro del presupuesto asignado.
 
-Dentro de la consola validé que la región de trabajo fuera `us-east-1`, correspondiente a **US East (N. Virginia)**. Una región de AWS es una ubicación geográfica donde AWS tiene centros de datos, y cada región cuenta con una o más zonas de disponibilidad. Para esta actividad mantuve los recursos en la misma región con el fin de evitar confusiones de ubicación entre EC2, RDS y los grupos de seguridad.
+Dentro de la consola validé que la región de trabajo fuera `us-east-1`, correspondiente a **US East (N. Virginia)**. Las regiones de AWS permiten crear recursos en ubicaciones geográficas específicas, y la elección de región puede relacionarse con disponibilidad de servicios, cercanía a usuarios y requisitos de operación (Amazon Web Services, s. f.-a). Para esta actividad mantuve los recursos en la misma región con el fin de evitar confusiones de ubicación entre EC2, RDS y los grupos de seguridad.
 
 **Figura 2**  
 *Consola principal de AWS con la región `us-east-1` seleccionada.*  
@@ -51,7 +51,7 @@ Desde la consola exploré los servicios disponibles para la actividad. Me enfoqu
 
 ## Implementación de la página web en Linux
 
-Para cumplir el primer objetivo, regresé al servicio EC2 y seleccioné la opción **Launch instance**. La instancia fue nombrada `ec2-linux-act1`. Como sistema operativo elegí Amazon Linux y seleccioné una instancia de tamaño pequeño, tipo micro, porque era suficiente para el ejercicio y ayudaba a mantener bajo el consumo del laboratorio.
+Para cumplir el primer objetivo, regresé al servicio EC2 y seleccioné la opción **Launch instance**. Este flujo coincide con el proceso básico de lanzamiento de instancias descrito por Amazon Web Services (s. f.-g), donde se selecciona la AMI, el tipo de instancia, el par de claves y la configuración de red. La instancia fue nombrada `ec2-linux-act1`. Como sistema operativo elegí Amazon Linux y seleccioné una instancia de tamaño pequeño, tipo micro, porque era suficiente para el ejercicio y ayudaba a mantener bajo el consumo del laboratorio.
 
 **Figura 3**  
 *Configuración inicial de la instancia Linux en EC2.*  
@@ -59,7 +59,7 @@ Para cumplir el primer objetivo, regresé al servicio EC2 y seleccioné la opci�
 
 Durante la creación de la instancia definí un par de llaves, o **key pair**, para poder conectarme por SSH. Descargué el archivo `.pem` y lo nombré de forma similar a la instancia para mantener orden y facilitar su identificación. Este archivo es importante porque permite autenticar la conexión remota desde la terminal.
 
-Después de lanzar la instancia, configuré las reglas del grupo de seguridad. Un grupo de seguridad en AWS funciona como un firewall virtual que define qué tráfico puede entrar o salir de una instancia. Para este caso agregué tres reglas principales:
+Después de lanzar la instancia, configuré las reglas del grupo de seguridad. Amazon Web Services (s. f.-f) explica que los grupos de seguridad funcionan como firewalls para las instancias asociadas, ya que controlan el tráfico entrante y saliente a nivel de instancia. Para este caso agregué tres reglas principales:
 
 - **SSH**, por el puerto `22`, limitado a mi dirección IP.
 - **HTTP**, por el puerto `80`, abierto al público para visualizar la página.
@@ -71,7 +71,7 @@ Después de lanzar la instancia, configuré las reglas del grupo de seguridad. U
 
 La regla de SSH la limité a mi IP por seguridad, ya que ese puerto permite administrar la instancia desde la terminal. Las reglas de HTTP y HTTPS se dejaron públicas porque la intención era que el sitio pudiera visualizarse desde el navegador.
 
-AWS ofrece distintas formas de conexión a una instancia EC2. En este caso utilicé EC2 Instance Connect y también conexión por SSH desde la terminal.
+AWS ofrece distintas formas de conexión a una instancia EC2. En este caso utilicé EC2 Instance Connect y también conexión por SSH desde la terminal. La documentación de EC2 Instance Connect indica que una instancia Linux puede conectarse desde la consola de Amazon EC2, desde AWS CLI o mediante un cliente SSH (Amazon Web Services, s. f.-b).
 
 Para conectarme mediante EC2 Instance Connect seguí este flujo:
 
@@ -152,13 +152,13 @@ Las reglas principales fueron las siguientes:
 
 Después de lanzar la instancia, AWS tardó alrededor de 10 a 15 minutos en dejarla completamente lista. Este tiempo de espera fue parte del proceso de inicialización de Windows Server.
 
-Para conectarme, utilicé la opción de conexión por RDP desde la consola de EC2. Primero generé la contraseña de administrador usando el archivo `ec2-windows-act1.pem`. Después descargué el archivo `.rdp`, lo abrí con la aplicación de Escritorio remoto e ingresé con el usuario administrador y la contraseña generada por AWS.
+Para conectarme, utilicé la opción de conexión por RDP desde la consola de EC2. Amazon Web Services (s. f.-c) indica que para conectarse a una instancia Windows mediante RDP se debe recuperar la contraseña inicial del administrador y permitir tráfico RDP entrante desde la IP autorizada. En mi caso, primero generé la contraseña de administrador usando el archivo `ec2-windows-act1.pem`. Después descargué el archivo `.rdp`, lo abrí con la aplicación de Escritorio remoto e ingresé con el usuario administrador y la contraseña generada por AWS.
 
 **Figura 8**  
 *Conexión por RDP a la instancia Windows Server.*  
 [Insertar captura aquí]
 
-Una vez dentro del servidor, instalé IIS, que es el servidor web de Windows. Lo hice desde la interfaz gráfica mediante **Server Manager**, siguiendo este flujo:
+Una vez dentro del servidor, instalé IIS, que es el servidor web de Windows. Microsoft Learn documenta la instalación del rol **Web Server (IIS)** desde **Server Manager** mediante el asistente de roles del servidor (Oliver, 2020). Lo hice desde la interfaz gráfica siguiendo este flujo:
 
 1. Abrir **Server Manager**.
 2. Seleccionar **Add roles and features**.
@@ -209,7 +209,7 @@ Este objetivo aumentó un poco la complejidad por el uso de RDP, la generación 
 
 El tercer objetivo fue crear una base de datos MySQL en Amazon RDS y conectarme a ella desde una herramienta externa. En mi caso utilicé MySQL Workbench para realizar la conexión y ejecutar pruebas.
 
-Para iniciar, entré al servicio **Aurora and RDS** desde la consola de AWS y seleccioné la opción para crear una base de datos. AWS permite trabajar con distintos motores de bases de datos, pero para esta actividad seleccioné **MySQL**.
+Para iniciar, entré al servicio **Aurora and RDS** desde la consola de AWS y seleccioné la opción para crear una base de datos. El procedimiento de Amazon RDS para MySQL contempla la creación de la instancia, la revisión del endpoint y el uso del puerto de conexión correspondiente (Amazon Web Services, s. f.-e). AWS permite trabajar con distintos motores de bases de datos, pero para esta actividad seleccioné **MySQL**.
 
 **Figura 11**  
 *Selección del motor MySQL para la base de datos en Amazon RDS.*  
@@ -223,9 +223,9 @@ Al inicio no tenía visible la opción para crear la base de datos como pública
 *Configuración de acceso público en la instancia RDS.*  
 [Insertar captura aquí]
 
-Después revisé el grupo de seguridad asociado a la base de datos. Agregué una regla de entrada de tipo **MySQL/Aurora**, que utiliza el puerto `3306`, y limité el origen a mi IP. Esta configuración permite conectarme desde mi equipo local sin exponer el puerto a cualquier dirección.
+Después revisé el grupo de seguridad asociado a la base de datos. En RDS, los grupos de seguridad controlan qué direcciones IP y puertos pueden conectarse a una instancia de base de datos (Amazon Web Services, s. f.-d). Agregué una regla de entrada de tipo **MySQL/Aurora**, que utiliza el puerto `3306`, y limité el origen a mi IP. Esta configuración permite conectarme desde mi equipo local sin exponer el puerto a cualquier dirección.
 
-La configuración de conexión usada en MySQL Workbench fue la siguiente:
+La configuración de conexión usada en MySQL Workbench fue la siguiente. Este tipo de conexión corresponde al método estándar TCP/IP, donde se define el host, el puerto y las credenciales de acceso al servidor MySQL (Oracle, s. f.):
 
 - **Hostname:** endpoint de la instancia RDS.
 - **Port:** `3306`.
@@ -293,4 +293,20 @@ En general, AWS puede sentirse abrumador por la cantidad de opciones disponibles
 
 # Referencias
 
-[Pendiente de integrar en la segunda pasada.]
+Amazon Web Services. (s. f.-a). *AWS Regions*. AWS Documentation. Recuperado el 7 de junio de 2026, de https://docs.aws.amazon.com/global-infrastructure/latest/regions/aws-regions.html
+
+Amazon Web Services. (s. f.-b). *Conectarse a la instancia de Linux con EC2 Instance Connect*. AWS Documentation. Recuperado el 7 de junio de 2026, de https://docs.aws.amazon.com/es_es/AWSEC2/latest/UserGuide/ec2-instance-connect-methods.html
+
+Amazon Web Services. (s. f.-c). *Conexión a la instancia de Windows mediante un cliente RDP*. AWS Documentation. Recuperado el 7 de junio de 2026, de https://docs.aws.amazon.com/es_es/AWSEC2/latest/UserGuide/connect-rdp.html
+
+Amazon Web Services. (s. f.-d). *Control de acceso con grupos de seguridad*. AWS Documentation. Recuperado el 7 de junio de 2026, de https://docs.aws.amazon.com/es_es/AmazonRDS/latest/UserGuide/Overview.RDSSecurityGroups.html
+
+Amazon Web Services. (s. f.-e). *Creación de una instancia de base de datos MySQL y conexión a ella*. AWS Documentation. Recuperado el 7 de junio de 2026, de https://docs.aws.amazon.com/es_es/AmazonRDS/latest/UserGuide/CHAP_GettingStarted.CreatingConnecting.MySQL.html
+
+Amazon Web Services. (s. f.-f). *Cree un grupo de seguridad para su instancia de Amazon EC2*. AWS Documentation. Recuperado el 7 de junio de 2026, de https://docs.aws.amazon.com/es_es/AWSEC2/latest/UserGuide/creating-security-group.html
+
+Amazon Web Services. (s. f.-g). *Introducción a Amazon EC2*. AWS Documentation. Recuperado el 7 de junio de 2026, de https://docs.aws.amazon.com/es_es/AWSEC2/latest/UserGuide/EC2_GetStarted.html
+
+Oliver, W. (2020, 9 de mayo). *Installing the Web Server Role*. Microsoft Learn. https://learn.microsoft.com/en-us/iis/web-hosting/web-server-for-shared-hosting/installing-the-web-server-role
+
+Oracle. (s. f.). *MySQL Workbench Manual: 5.3.1 Standard TCP/IP Connection Method*. MySQL. Recuperado el 7 de junio de 2026, de https://dev.mysql.com/doc/workbench/en/wb-mysql-connections-methods-standard.html
