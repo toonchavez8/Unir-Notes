@@ -1,104 +1,111 @@
-# 1. Portada
+# Introducción a AWS: Consola AWS, servicios EC2 y RDS
 
-La portada puede incluir:
+**Universidad:** UNIR  
+**Asignatura:** MODAM Administración de Sistemas, Virtualización, Cloud Computing y DevOps  
+**Actividad:** Introducción a AWS. Consola AWS, servicios EC2 y RDS  
+**Estudiante:** Miguel de Jesús Chávez Barragán  
+**Docente:** Carlos Martín Martínez Ferráez  
+**Fecha:** 06-08-2026  
 
-- Unir
-- MODAM Administración de Sistemas, Virtualización, Cloud Computing y DevOps
-- Actividad: Introducción a AWS. Consola AWS, Servicios EC2 y RDS
-- Miguel de Jesus Chavez Barragan
-- CARLOS MARTIN MARTINEZ FERRAEZ
-- 06-08-2026
+# Introducción
 
-# 2. Introducción
+Esta actividad tiene como propósito practicar el uso inicial de Amazon Web Services mediante AWS Academy. El trabajo se desarrolla a partir de tres ejercicios principales: desplegar una página web en una instancia EC2 con Linux, publicar un juego en una instancia EC2 con Windows Server y crear una base de datos MySQL en Amazon RDS para conectarse a ella desde una herramienta externa.
 
-Esta actividad se trata de probar y usar los servicios de aws atraves de AWS Acadamey. El processo de implmentacion y despliegue de una pagina en un Contenedor EC 2 en linux, el como implementar una pagina en un contenedor EC 2 version windows , y por ultimo usando RDS despliguar una Base de datos y hacer modificaciones a la base de datos. 
+Amazon EC2, cuyo nombre completo es Elastic Compute Cloud, permite crear servidores virtuales dentro de AWS. En esta actividad lo utilicé como el espacio donde corren las aplicaciones web. En términos prácticos, EC2 funciona como una computadora en la nube que se configura de acuerdo con el sistema operativo, la capacidad de cómputo, las reglas de seguridad y el tipo de acceso que se necesita.
 
-De esta manejera podriamos adquieri conocimiento de como usar EC2 y RDS. Pero EC2 que es? Ec 2 es donde corre las applicciones o paginas. Es un Servicio que te perminte crear servidores vertuales en AWS, EC 2 Signigica Elastic Compute Cloud. Termina siendo como una computadora en la nube que rentas. Y RDS es donde viven tus datos. RDS es un servicio administrado de bases de datos. Siginca que es Relational Database Services. Maneja bases de daots que son relacionales como MySQL PostgreSQL MariaDB para nombrar ualguno sin tener que instalar o administrar el servidor de dabese de datos manuelmante. 
+Amazon RDS, por su parte, es un servicio administrado de bases de datos relacionales. Su nombre completo es Relational Database Service. Este servicio permite trabajar con motores como MySQL, PostgreSQL o MariaDB sin tener que instalar manualmente todo el servidor de base de datos. En la actividad se utilizó MySQL para crear una base de datos, conectarse de forma remota y validar que los cambios se reflejaran correctamente.
 
-Aprendemos atraves de la cursada y AWS Academy las bases y podemos aprovechando AWS Acadamey que nos da la herramienta con un servicio de 50 drls topado a 4 horas concurrentes activos de servicio para poder realizar la actividad y lograr nuestros objetivos.
+El entorno de AWS Academy fue importante porque permitió trabajar con servicios reales de AWS dentro de un laboratorio controlado. El presupuesto disponible de 50 USD y el límite de tiempo activo del laboratorio ayudan a practicar sin dejar recursos encendidos de forma indefinida. A partir de este entorno pude reforzar conceptos de nube pública, servidores virtuales, grupos de seguridad, acceso remoto y conectividad entre servicios.
 
-# 3. Objetivos
+# Objetivos
 
-Tomando en cuenta Nuesto objetivo general que es aplicar conocimientos básicos de nube pública mediante el uso de AWS Academy, EC2 y RDS podemos atterizar los 3 objetivos especificos que tenemos para realizar.
+El objetivo general de la actividad es aplicar conocimientos básicos de nube pública mediante el uso de AWS Academy, Amazon EC2 y Amazon RDS.
 
-- crear una instancia Linux y desplieguar una pagina estilo Netflix
-- Crear una instancia Windows y publicar un juego.
-- Crear una base de datos en RDS de mysql conectarmente remotamente y realizar modificaciones. 
+Los objetivos específicos son los siguientes:
 
-# 4. Desarrollo De la Actividad
+- Crear una instancia Linux en EC2 y desplegar una página web estilo Netflix.
+- Crear una instancia Windows Server en EC2 y publicar un juego web.
+- Crear una base de datos MySQL en Amazon RDS, conectarse remotamente y realizar modificaciones para comprobar su funcionamiento.
 
-Esos objetivos solo se pueden lograr una ves entrando a la plataforma de AWS Accadamy
+# Desarrollo de la actividad
 
-## 4.1 Exploración De AWS Academy Y Consola
+## Exploración de AWS Academy y la consola de AWS
 
-Aws Accadmy es un servicio dado pro Amazon para ayudar estudiantes de la nube como practicar en su entorno real sin precuparnos de riesgos de costos por temas de dinero y instancias ifnivitamente activas.
+Para iniciar la actividad fue necesario ingresar a la plataforma de AWS Academy. Este entorno está diseñado para que estudiantes puedan practicar con servicios de nube en un ambiente real, pero con controles de presupuesto y tiempo. Esto reduce el riesgo de generar costos elevados por dejar instancias activas o por crear recursos sin seguimiento.
 
-La plataforma cunado ingresas de da la bienvendida con muchas explaicion y aviso de conocominetos technicos para mostrate como mejor aprovechar la isntancia que esta por darte. Esta instancia se llama laboratiro. Para llegar a eso el sistema de motiva altamente que pases por su sistema de LMS
+Al entrar al panel del LMS, que corresponde al Learning Management System, seleccioné el laboratorio de aprendizaje asignado. Desde ahí inicié el laboratorio con la opción **Start Lab**. Después de unos minutos, el ícono del círculo ubicado junto al enlace de AWS cambió a color verde, lo cual indicó que el laboratorio ya estaba listo para usarse.
 
-En el panel del LMS (**Learning Management System**, Sistema de administración de aprendizaje), elija el laboratorio de aprendizaje al que quiera acceder. Una ves que lo elignaas de va aparecer la opcioon de arrancar el labc **Start Lab (Comenzar laboratorio)**
+**Figura 1**  
+*Panel de AWS Academy con el laboratorio iniciado.*  
+[Insertar captura aquí]
 
-Cuando el ícono del círculo en el lado derecho del enlace de AWS en la esquina superior izquierda aparece en verde, el entorno del laboratorio está listo para usarse.
+Después ingresé a la Consola de administración de AWS mediante el enlace **AWS**. La sesión se abrió con una cuenta temporal, válida durante el tiempo activo del laboratorio. Este punto es importante porque todo el trabajo realizado depende de que el temporizador siga activo y de que los recursos se mantengan dentro del presupuesto asignado.
 
-Para iniciar la Consola de administración de AWS en una pestaña nueva, elija el enlace de **AWS**.
+Dentro de la consola validé que la región de trabajo fuera `us-east-1`, correspondiente a **US East (N. Virginia)**. Una región de AWS es una ubicación geográfica donde AWS tiene centros de datos, y cada región cuenta con una o más zonas de disponibilidad. Para esta actividad mantuve los recursos en la misma región con el fin de evitar confusiones de ubicación entre EC2, RDS y los grupos de seguridad.
 
-Se inicia sesión en la consola con una cuenta de AWS temporal que podrá usar durante el tiempo que el temporizador de la sesión del laboratorio esté activo.
+**Figura 2**  
+*Consola principal de AWS con la región `us-east-1` seleccionada.*  
+[Insertar captura aquí]
 
-El sistema guardará el trabajo cuando determine la sesión o caduque el temporizador de esta. El sistema tambien nos avisa del tiempo disponbile para usar el Laborotario activo y Su presupuesto de **50 USD** para la plataforma de AWS es suficiente para la mayoría de los proyectos académicos, siempre y cuando se mantenga dentro de las pautas del presupuesto.
+Desde la consola exploré los servicios disponibles para la actividad. Me enfoqué principalmente en EC2 y RDS, ya que eran los servicios requeridos para desplegar las aplicaciones web y crear la base de datos.
 
-Una ves ya dentro de la consoala principal de aws podemos valdiar Que es nuestrio REGION que fue us-east-1. Una region Una **Región de AWS** es una ubicación geográfica donde AWS tiene centros de datos.
+## Implementación de la página web en Linux
 
-Cada región contiene una o más **Zonas de Disponibilidad (Availability Zones)**.
+Para cumplir el primer objetivo, regresé al servicio EC2 y seleccioné la opción **Launch instance**. La instancia fue nombrada `ec2-linux-act1`. Como sistema operativo elegí Amazon Linux y seleccioné una instancia de tamaño pequeño, tipo micro, porque era suficiente para el ejercicio y ayudaba a mantener bajo el consumo del laboratorio.
 
-Ejemplos de regiones;
+**Figura 3**  
+*Configuración inicial de la instancia Linux en EC2.*  
+[Insertar captura aquí]
 
-- US East (N. Virginia) (`us-east-1`)
-- US West (Oregon) (`us-west-2`)
-- South America (São Paulo)
+Durante la creación de la instancia definí un par de llaves, o **key pair**, para poder conectarme por SSH. Descargué el archivo `.pem` y lo nombré de forma similar a la instancia para mantener orden y facilitar su identificación. Este archivo es importante porque permite autenticar la conexión remota desde la terminal.
 
-De ahi me fui explorando para validar que acceso tenemos a la nube en este caso valid 3 servicios VPS, ec 2 y rds. 
+Después de lanzar la instancia, configuré las reglas del grupo de seguridad. Un grupo de seguridad en AWS funciona como un firewall virtual que define qué tráfico puede entrar o salir de una instancia. Para este caso agregué tres reglas principales:
 
-## 4.2 Implementación De la Web En Linux
+- **SSH**, por el puerto `22`, limitado a mi dirección IP.
+- **HTTP**, por el puerto `80`, abierto al público para visualizar la página.
+- **HTTPS**, por el puerto `443`, abierto al público como parte de la configuración web.
 
-Para logar nuesto primer objetivo de desplguear en un contenedor de linux nuestra pagina lo primero que hice fue regresar al panel de ec 2 y le di Launch instance.
+**Figura 4**  
+*Reglas de entrada configuradas en el grupo de seguridad de la instancia Linux.*  
+[Insertar captura aquí]
 
-Con esto me fui configurando la instancia de linux, primero la nombre `ec2-linux-act1` de ahi elije que fuera de Amazon Linux en version micro. Porque micro porque es la que no nos deberia de generar un costo por el uso y si si muy pequeño.
+La regla de SSH la limité a mi IP por seguridad, ya que ese puerto permite administrar la instancia desde la terminal. Las reglas de HTTP y HTTPS se dejaron públicas porque la intención era que el sitio pudiera visualizarse desde el navegador.
 
-De ahi definmos que queriamos una llave o `key pair` la descargue y la nombre igual que la instancia para maryor seguridad y encotnrabilidad. Esto me entrego un archivo `.pem` de ahi le di launch instance. 
+AWS ofrece distintas formas de conexión a una instancia EC2. En este caso utilicé EC2 Instance Connect y también conexión por SSH desde la terminal.
 
-Se creo la instancia pero todavia me faltaba generar las reglas de segudiad para que me permitiera conectarme. Aqui entre a las opcioens de grupo de seguridad. Un gurpo de seguridad es como Aws define que tipos y niveles de acceso pueden tener ciertos conciones atraves de ips y puertos. Esto nos brinde seguridad porque nos facilitre limitar quien entra y quien saca information. 
+Para conectarme mediante EC2 Instance Connect seguí este flujo:
 
-Aplique 3 reglas. Reglas de ssh, https y de http. Ssh iba al puerto 22 mientras que https al 443 y por ultimo http al puerto 80. Sssh lo deje fijado a mi ip para mayo segureidad dado que con espo podria manejar y controlar desde la terminal. Y las otras dos las de de publcias porque la intencion es liberar es puertos para usarios pudieran ingresar a ver el contenido de la pagina.
+1. Seleccioné la instancia.
+2. Hice clic en **Connect**.
+3. Entré a la pestaña **EC2 Instance Connect**.
+4. Presioné nuevamente **Connect**.
 
-Listo. Ya tenemos puertos abiertos para ssh pero que h acemos con eso. Puedes aws nos permite tener 3 formas de conectarnos al instancia. De la cual yo determine usando 2. 
+Para la conexión desde mi terminal utilicé el archivo `.pem` y el DNS público de la instancia:
 
-Desde instance connect se puede
-
-1. Haz clic en `Connect`.
-
-2. Entra a la pestaña `EC2 Instance Connect`.
-
-3. Haz clic en `Connect`.
-
-Por mi terminal 
-
-Use SSH a la url de la instanca con el siguente commando con la clave `.pem`. 
-
-```Python
+```bash
 chmod 400 "ec2-linux-act1.pem"
 ssh -i "ec2-linux-act1.pem" ec2-user@ec2-98-86-108-89.compute-1.amazonaws.com
 ```
 
-Estando dentro de la terminal de la instancia ejcute los siguentes commandos 
+Una vez dentro de la instancia, instalé y habilité Apache con los siguientes comandos:
 
-```Python
-sudo dnf install -y httpd wget unzip  
-sudo systemctl enable httpd  
+```bash
+sudo dnf install -y httpd wget unzip
+sudo systemctl enable httpd
 sudo systemctl start httpd
 ```
 
-Consto lo que me permite es tener Apache instalado y ejecutandose para despliegar manualmente el zip de Netflix
+Estos comandos instalan el servidor web Apache, lo configuran para iniciar automáticamente y lo ejecutan en la instancia. Después validé el estado del servicio:
 
-Para eso corri los siguentes commandos
+```bash
+sudo systemctl status httpd
+```
+
+**Figura 5**  
+*Servicio Apache activo en la instancia Linux.*  
+[Insertar captura aquí]
+
+Posteriormente descargué el archivo comprimido de la página estilo Netflix y lo descomprimí en una carpeta temporal:
 
 ```bash
 mkdir -p ~/sitio-netflix
@@ -107,143 +114,141 @@ wget https://s3.eu-west-1.amazonaws.com/www.profesantos.cloud/Netflix.zip
 unzip Netflix.zip
 ```
 
-Verificamos que este funcioando el apache 
+Después de validar con `ls` que los archivos se descomprimieron correctamente, los copié al directorio público de Apache:
 
 ```bash
-sudo systemctl status httpd
-```
-
-Despues los valid para ver que estaban bien descompremidos con ls y al validar que si lo copie todos los archivos a `var/www/html`
-
-```Python
 sudo cp -r ./* /var/www/html/
 ```
 
-Y probamos el sitio regresando a la consola de nuestra instancia.
+Finalmente, regresé a la consola de AWS, copié la dirección IPv4 pública de la instancia y probé el sitio desde el navegador:
 
-Copiamos el public IPv4 address de la instancia y nos dio respuesta en mi navegador
-
-```Python
+```text
 http://98.86.108.89/
 ```
 
-- cómo creaste la instancia,
-- qué sistema operativo elegiste,
-- qué puertos abriste,
-- cómo te conectaste,
-- cómo instalaste Apache o Nginx,
-- cómo publicaste la web.
+**Figura 6**  
+*Página web estilo Netflix publicada desde la instancia Linux.*  
+[Insertar captura aquí]
 
-Con esto lo que me queda claro es que existe una gran diferencia entre ip public y la ip prvidada que te otroga aws, y es que la ip publica con los permismos de seguridad correctamente implementados de va permetir ingresar desde donde sea pero la ip privada no. La ip previdada solo dentrro de la red de aws y eso genero un poco de fricion al iniciar con este objetivo. 
+Durante este ejercicio me quedó más clara la diferencia entre una IP pública y una IP privada. La IP pública permite acceder a la instancia desde Internet cuando el grupo de seguridad lo autoriza. La IP privada se utiliza dentro de la red interna de AWS. Al inicio esto generó algo de fricción, porque una parte importante del acceso dependía de entender qué dirección debía usarse y qué puerto debía estar abierto.
 
-Y r ealmente mucho tiene que ver con la configuracion que hicimos con el grupo de seguridad. Dado que fu nciona como un firewal virtual de la instancia, esta se encarga de proteger si los puertos no estan autorizados para recibir el trafcio. Por eso para conectarnos remotamente via ssh abrimos el puerto 22 y para tener acceso a ver la pagina via http o https abrimos el peurto 80/443 que por lo general suelen set Standardization. Los misos configuraciones de acceso me funcionaron en su mayoria para el siguente objetivo.
+También reforcé la importancia de los grupos de seguridad. Si el puerto `22` no está permitido, la conexión por SSH falla. Si el puerto `80` no está abierto, el navegador no puede acceder al sitio web. En esta parte se nota que el despliegue requiere instalar Apache y permitir el tráfico correcto hacia la instancia.
 
-## 4.3 Implementación De la Web En Windows
+## Implementación de la página web en Windows Server
 
-Debes explicar:
+El segundo objetivo consistió en crear una instancia Windows Server para desplegar un juego web. Para hacerlo regresé a EC2 y seleccioné nuevamente **Launch instance**. Nombré la instancia `ec2-windows-act1` y elegí una imagen de Windows Server. También seleccioné una instancia pequeña para mantener controlado el consumo del laboratorio.
 
-- cómo creaste la instancia,
-- cómo obtuviste la contraseña,
-- cómo te conectaste por RDP,
-- cómo instalaste IIS,
-- cómo copiaste la web a `wwwroot`.
-El Objetivo de implementacion en una instancia web cambia bastante. Para despliegar un juego de ladrios nuevamente iniciamos el processo de launch instance. Esta instancia la nombraos ec 2-windows-act 1 y escogimos la imagen de windows server y para evitar costos tambien nos fuimos por una instancia pequeno.
+**Figura 7**  
+*Configuración inicial de la instancia Windows Server en EC2.*  
+[Insertar captura aquí]
 
-Aqui a diferencia de la instancia de linux no entramos directamente desde los grupos de seguridad sino en la misma ventana de cconfigucacion activamos los 3 checkboxes que de manera effectiva logra lo mismo. Vamos abrir el trafico de puerto 443 via https y http via el puerto 80 con origin de cualquier lugar y la diferencia grande aqui es que vamos acccepar el RDP que remote desktop via mi ip unicamente para especificar y limitar el acceso.
+En esta instancia la configuración de acceso fue distinta porque el sistema operativo se administra principalmente mediante escritorio remoto. Durante la configuración habilité el tráfico HTTP y HTTPS, y también habilité RDP. El puerto de RDP es `3389`, y lo limité a mi IP para reducir riesgos de acceso externo.
 
-Al lanzar tardamos mas para ingresar pero despues deunis 10 - 15 minutos ya quedo status acctivo nuestra instancia. 
+Las reglas principales fueron las siguientes:
 
-Para conectarnos al set un windows server podemo sentrar por session o RDP o una consola, yo opte por RDP. De aqui genere mi contrana desde mi `ec2-windows-act1.pem` file que nos da la clave para ingresar. Desde la pagina de acceso podemos descargar un archjivo .rdp que nos va abrir el remote desktop app. 
+- **HTTP**, por el puerto `80`, abierto al público.
+- **HTTPS**, por el puerto `443`, abierto al público.
+- **RDP**, por el puerto `3389`, limitado a mi dirección IP.
 
-Al iniciar la session con nuestro usario que definimos mondamos la contrana que nos brindo aws. Y con eso estamos en una maquina virtual de window sservers.
+Después de lanzar la instancia, AWS tardó alrededor de 10 a 15 minutos en dejarla completamente lista. Este tiempo de espera fue parte del proceso de inicialización de Windows Server.
 
-Al istar dentro tenemos dos formars de instalr el IIS que es el windows web server, lo podemos hacer desde el server manager. Para eso segui estas instructones
+Para conectarme, utilicé la opción de conexión por RDP desde la consola de EC2. Primero generé la contraseña de administrador usando el archivo `ec2-windows-act1.pem`. Después descargué el archivo `.rdp`, lo abrí con la aplicación de Escritorio remoto e ingresé con el usuario administrador y la contraseña generada por AWS.
 
-1. Abre `Server Manager`.
-2. Haz clic en `Add roles and features`.
-3. Elige `Role-based or feature-based installation`.
-4. Selecciona el servidor actual.
-5. Marca `Web Server (IIS)`.
-6. Haz clic en `Add Features`.
-7. Continúa con `Next` hasta llegar a `Install`.
+**Figura 8**  
+*Conexión por RDP a la instancia Windows Server.*  
+[Insertar captura aquí]
 
-Tambien se pudo haber realizdo la instalaccion del windows server usadno el siguente commando de PowerShell
+Una vez dentro del servidor, instalé IIS, que es el servidor web de Windows. Lo hice desde la interfaz gráfica mediante **Server Manager**, siguiendo este flujo:
 
-```bash
+1. Abrir **Server Manager**.
+2. Seleccionar **Add roles and features**.
+3. Elegir **Role-based or feature-based installation**.
+4. Seleccionar el servidor actual.
+5. Marcar **Web Server (IIS)**.
+6. Agregar las características solicitadas.
+7. Avanzar con **Next** hasta llegar a **Install**.
+
+**Figura 9**  
+*Instalación del rol Web Server (IIS) en Windows Server.*  
+[Insertar captura aquí]
+
+También es posible instalar IIS desde PowerShell ejecutado como administrador:
+
+```powershell
 Install-WindowsFeature -Name Web-Server -IncludeManagementTools
 ```
 
-Pero solo corriendo powhersell como admin
+Después descargué el juego de Breakout desde PowerShell y lo descomprimí en la carpeta de descargas del usuario:
 
-Despues aprovechando powhersell abierto podemos importar el juego de breakout
-
-```bash
+```powershell
 Invoke-WebRequest -Uri "https://sanvalero-static-webs.s3.eu-west-1.amazonaws.com/breakout.zip" -OutFile "$env:USERPROFILE\Downloads\breakout.zip"
 Expand-Archive -LiteralPath "$env:USERPROFILE\Downloads\breakout.zip" -DestinationPath "$env:USERPROFILE\Downloads\breakout" -Force
-
 ```
 
-Esto lo que va hacer es descargar nuestro comprimido de breakout y luego descomprimirlo y meterlo dentro neustra carpeta descargas
+Para que IIS pudiera servir el juego, copié los archivos al directorio público `wwwroot`:
 
-Y luego debemos de meter el resultado de nuestra carpeta de donde la va servir nuestro servidor mediande el commando de copiar de la terminarl 
-
-```Python
+```powershell
+Copy-Item -Path "$env:USERPROFILE\Downloads\breakout\*" -Destination "C:\inetpub\wwwroot" -Recurse -Force
 ```
 
-Con esto luego nos podemos regresar a nuesto ec 2 para sacar la ip de nuestra instancia publica que en este caso nos arrojo http://54.162.96.197/ y podemos revisar que estaria arriba nuestra pagina.
+Después regresé a la consola de EC2, copié la IP pública de la instancia y validé el acceso desde el navegador:
 
- En este caso via windows me fui por actuar mas manual algunas cosas dado a la alta predominio de la interfas grafica que tiene para ver el flujo. Y en su mayoria puedo decir que es mas sensillo el proceso de por linea de commandos. 
+```text
+http://54.162.96.197/
+```
 
-Varacias veces tuve que validar la documentacion de windows para validar que el processo que estaba siguendo era correcto dado a la multiples opciones que tenemos gracias a la ampliabilidad que tiene el window server. 
+**Figura 10**  
+*Juego Breakout publicado desde IIS en la instancia Windows Server.*  
+[Insertar captura aquí]
 
-Este objetivo incremento en complejidad por usar la interfas grafica pero la siguente la falta de hizo que fuera la mas senscilla.
+En esta parte el proceso fue más manual por el uso de la interfaz gráfica de Windows Server. Aunque PowerShell permite automatizar varias tareas, decidí usar la interfaz para revisar el flujo de instalación del rol de IIS y entender mejor dónde se configura cada elemento. La experiencia fue más visual, pero también tuvo más pasos que la instalación de Apache en Linux.
 
-## 4.4 Implementación De MySQL En AWS RDS
+Este objetivo aumentó un poco la complejidad por el uso de RDP, la generación de contraseña y la instalación de IIS. Aun así, la lógica general fue parecida a la instancia Linux: crear el servidor, abrir los puertos necesarios, instalar el servicio web, copiar los archivos al directorio público y validar el acceso desde el navegador.
 
-Debes explicar:
+## Implementación de MySQL en Amazon RDS
 
-- cómo creaste la base de datos,
-- qué motor seleccionaste,
-- si el acceso fue público o privado,
-- cómo configuraste seguridad,
-- cómo te conectaste desde HeidiSQL,
-- qué prueba realizaste para confirmar que funciona.
+El tercer objetivo fue crear una base de datos MySQL en Amazon RDS y conectarme a ella desde una herramienta externa. En mi caso utilicé MySQL Workbench para realizar la conexión y ejecutar pruebas.
 
-Por ultimo nuestor ultimo objetivo es crear un base de datos mysql en aws rds y connectartno mediante una herramienta externna, para esta yo elijge conectarme a traves de MySQL workbench.
+Para iniciar, entré al servicio **Aurora and RDS** desde la consola de AWS y seleccioné la opción para crear una base de datos. AWS permite trabajar con distintos motores de bases de datos, pero para esta actividad seleccioné **MySQL**.
 
-Para realizar la implementacion de una base de datos de mysql la estategia era atraves de Aurora and RDS dde ahi selecione la opcion de crear con configucacion completa. AWS nos permite trabajar con varios tipos de motroes de base de datos pero nosotros selecionamos mysql
+**Figura 11**  
+*Selección del motor MySQL para la base de datos en Amazon RDS.*  
+[Insertar captura aquí]
 
-Venian dos opciones de configuracion y me fui por Easy Create para realizar along mas rapido lo cual nos permitio avansar mas rapido. Nombramos la instancia como RDS-mysql-act 1 y usamos admin de nombre del usaruario. Cree una contrasena segura y la registre en la aws. 
+En la configuración utilicé la opción **Easy Create** para avanzar de forma más directa. Nombré la instancia `RDS-mysql-act1`, definí el usuario administrador como `admin` y generé una contraseña segura. También configuré la base de datos con una instancia pequeña y almacenamiento de 20 GB, suficiente para las pruebas de la actividad.
 
-Aqui intente porque no tenia la opcion de registrar la base de dato como publica pero al final despues de leer la documentacion me di cuenta que podriamos registarlo despues. Por end determine el processo de creacion de nuestro entrono de RDS en una db micro con 20 gb.
+Al inicio no tenía visible la opción para crear la base de datos como pública. Después de revisar la configuración disponible, decidí crear el entorno y modificar después la conectividad. Una vez creada la instancia de RDS, entré a la opción **Modify**, busqué el apartado de conectividad y activé la opción **Publicly accessible**.
 
-Para hacer que la base de datos de RDS fuera accessible publciacment para poder integrarlo con mysql workbench ingrese a la la isntancia y me fui a la opcion de modificar.
+**Figura 12**  
+*Configuración de acceso público en la instancia RDS.*  
+[Insertar captura aquí]
 
-En modificar buscque la opcioon de conectividad y entoncre la opcion de accesso publiclo y le active que sea de publicly accessible. Con esto guarde y valid que cual fue mi modificacion. Despues fui nuevamente a terabjar con el grupo de seguridad para confirmar los niveles de acceso tenia esta instancia.
+Después revisé el grupo de seguridad asociado a la base de datos. Agregué una regla de entrada de tipo **MySQL/Aurora**, que utiliza el puerto `3306`, y limité el origen a mi IP. Esta configuración permite conectarme desde mi equipo local sin exponer el puerto a cualquier dirección.
 
-Selecione el gurpo de al ir a editar creamos una nueva regla que fuera de tipo mysql/aurora con la intencion de abrir el puerto 3306 y habilite que mi ip para mayor seguirdad que tuviera acesso. Valid que tipo de trafico y de ahi me fui a revisar las endpoints y que en seguridad ya estaba como publicamente accessible. 
+La configuración de conexión usada en MySQL Workbench fue la siguiente:
 
-Use ese endpoint que nos dio como el host name el puerto 
+- **Hostname:** endpoint de la instancia RDS.
+- **Port:** `3306`.
+- **Username:** usuario administrador de la base de datos.
+- **Password:** contraseña configurada para RDS.
 
-- **Hostname**: Your RDS endpoint
-- **Port**: 3306 (or your custom port)
-- **Username**: Your database username
-- **Password**: Your database password
-Con eso realize la coneccion y funciono
+**Figura 13**  
+*Conexión exitosa desde MySQL Workbench hacia Amazon RDS.*  
+[Insertar captura aquí]
 
-Desde MySQL workbench empeze a realizar purebas. 
+Para validar la conexión ejecuté primero una consulta para listar las bases de datos:
 
 ```sql
 SHOW DATABASES;
 ```
 
-Primero para ver que bases de datos tenia luego crea otra nueva 
+Después creé una base de datos nueva:
 
 ```sql
 CREATE DATABASE actividad1db;
 ```
 
-Y luego probar una tabla:
+Luego creé una tabla de prueba e inserté un registro:
 
 ```sql
 USE actividad1db;
@@ -258,22 +263,34 @@ INSERT INTO prueba (nombre) VALUES ('Miguel');
 SELECT * FROM prueba;
 ```
 
-Y como vi que se crear quise valdiar que se estaban haciendo los cambiso directamente denrtro de aws entocnes para esto me regrese a la consola y en la consola active el cloudshell que es otra de las 3 opciones que nos da aws para conecarnaros. 
+**Figura 14**  
+*Creación de la base de datos, tabla y registro de prueba en MySQL Workbench.*  
+[Insertar captura aquí]
 
-De ahi corriendo la terminarl ingrese mi cotnraena y me dio acceso nuevament confirmado que funciona. Al ingresar el mismo commando que pusimos anteirormente de Show Databases, nos muestra la nueva base dead datos llamada `actividad1db` que creamos localmente. Y al revisar la tabla que creamos podemos ver con exito nuestra entrada dentro de la paltgaforma de aws, dandondes certeza de que esta correctamente integrado. 
+Para confirmar que los cambios estaban aplicados en la base de datos remota, regresé a la consola de AWS y utilicé CloudShell como otra forma de conexión. Desde ahí ingresé nuevamente con las credenciales de la base de datos y ejecuté consultas para validar que `actividad1db` existiera y que la tabla tuviera el registro insertado.
 
-## 6. Conclusiones
+```sql
+SHOW DATABASES;
+USE actividad1db;
+SELECT * FROM prueba;
+```
 
-Al terminar podemos decir que correctamente completamos los objetivos. Termiamos con dos instancias de ec2, una de linux con una pagina web de netflix montada, y otra de windows que fue un processo mas manual pero que tenemos una pagina de un juego. Por otro lado de RDS tenemos una base de datos con salida publica a una ip configurdada correctamente que localmente en mi maquina pude modificar. 
+**Figura 15**  
+*Validación de la base de datos desde AWS CloudShell.*  
+[Insertar captura aquí]
 
-En general en todas neustras instancias pudimos abrirar puertos 22 para coenxcion remotas de ssh y para el instance connect. El puerto 80 para recibir peticiones mediante http y en la isntancia windows se abrio el puerto 3389 para conecion de escritorio remoto. En pueto 443 para salidas https que realmente no fue indepensable y por ultimo un puerto para mysql.
+Este ejercicio fue útil para entender mejor la relación entre el endpoint de RDS, el puerto `3306`, el grupo de seguridad y la herramienta cliente. En mi caso, el principal punto de revisión fue asegurar que la base de datos estuviera marcada como públicamente accesible y que el grupo de seguridad permitiera conexiones desde mi IP.
 
-En proyectos pasados el trabjo de grupo de seguriadad se me habia complicado mucho pero con el repaso y leyendo la documentacion tiempo logre comprendolo mas y como es un control de trafico de entrada y salida. Cada cuando me tope con una falla de conexcion siempre era que no habia correctamente liberado o activado el puerto para que fuera de aws recibiera la conecion. 
+# Conclusiones
 
-En mi caso para RDS que me quise conectar mas de una red publica para aws conectar atraves de los endpoints que liberan aws no fue mayor tema de como menscione validar que tuvieramos el grupo adecuado y fue rapido el prceso de modifcarlo dentro de mysql workbench. 
+Al finalizar la actividad se cumplieron los tres objetivos planteados. Se creó una instancia EC2 con Linux y se publicó una página web estilo Netflix mediante Apache. También se creó una instancia EC2 con Windows Server, se instaló IIS y se publicó un juego web. Finalmente, se creó una base de datos MySQL en Amazon RDS, se habilitó el acceso necesario y se realizaron pruebas desde MySQL Workbench y CloudShell.
 
-En general senti que es muy abrumador todas las opcioens que nos permite aws de usar pero una ves que te enfoques en una sola es muchismo mas facil digerir el desplgie y awmaon con todos sus herramientes falito mucho los deplieges.
+El trabajo me ayudó a comprender mejor la importancia de los grupos de seguridad. En cada servicio, los problemas de conexión estuvieron relacionados con puertos, direcciones IP o permisos de acceso. Para Linux fue necesario abrir el puerto `22` para SSH y el puerto `80` para HTTP. Para Windows Server fue necesario habilitar el puerto `3389` para RDP. Para RDS fue indispensable permitir el puerto `3306` desde mi IP.
 
-# 7. Referencias
+También pude distinguir con más claridad la función de cada servicio. EC2 se utilizó para ejecutar servidores web y publicar contenido. RDS se utilizó para administrar una base de datos relacional sin instalar manualmente MySQL en una máquina virtual. Esta separación ayuda a entender cómo se organizan los componentes de una arquitectura básica en la nube.
 
-Aquí colocas las fuentes que consultaste, en formato APA.
+En general, AWS puede sentirse abrumador por la cantidad de opciones disponibles. Sin embargo, al enfocarme en un servicio y en un objetivo concreto, el proceso fue más fácil de digerir. La práctica con AWS Academy permitió trabajar con servicios reales, cometer errores controlados y corregir configuraciones hasta lograr que cada recurso funcionara correctamente.
+
+# Referencias
+
+[Pendiente de integrar en la segunda pasada.]
