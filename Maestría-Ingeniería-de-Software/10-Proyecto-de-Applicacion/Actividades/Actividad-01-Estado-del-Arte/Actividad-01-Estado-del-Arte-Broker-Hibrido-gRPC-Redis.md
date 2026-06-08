@@ -20,16 +20,16 @@ La propuesta no busca reemplazar plataformas industriales como Kafka, RabbitMQ, 
 
 El desarrollo practico contemplara, como minimo, los siguientes elementos:
 
-- Un contrato de comunicacion definido con Protocol Buffers.
-- Un servidor broker implementado en Go.
-- Servicios gRPC para comunicacion en tiempo real y operaciones tipo cola.
-- Integracion con Redis Streams para persistencia temporal de mensajes.
-- Control basico de idempotencia mediante claves temporales.
-- Mecanismo de confirmacion de consumo o acknowledgement.
-- SDK o capa cliente para simplificar el uso del broker.
+- Un contrato de comunicacion que esta definido por Protocol Buffers.
+- Un servidor broker implementado en Go para la cuestion de rapidez.
+- Servicios gRPC con comunicacion en tiempo real y operaciones de tipo cola.
+- Integracion con Redis Streams para la persistencia temporal de mensajes.
+- Control basico de idempotencia mediante el uso claves temporales.
+- Mecanismo de confirmacion para el  consumo y  acknowledgement.
+- SDK como capa cliente para simplificar el uso del broker.
 - Observabilidad basica mediante logs, metricas y endpoints de salud.
-- Pruebas unitarias, de integracion y pruebas de comportamiento bajo escenarios representativos.
-- Arquitectura desacoplada basada en puertos y adaptadores.
+- Pruebas unitarias, de integracion y pruebas de comportamiento.
+- Arquitectura separada por puertos y adaptadores.
 
 ## 3. Caracteristicas previstas del sistema
 

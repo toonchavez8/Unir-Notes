@@ -8,12 +8,12 @@ Máster Universitario en Ingeniería de Software y Sistemas
 
 Diseño e implementación de un Broker de mensajería híbrido para arquitecturas orientadas a eventos en tiempo real.
 
-|   |   |
-|---|---|
-|Trabajo fin de estudio presentado por:|Maikel Barrios Insua|
-|Tipo de trabajo:|Trabajo de fin de Máster|
-|Director/a:||
-|Fecha:||
+|                                        |                          |
+| -------------------------------------- | ------------------------ |
+| Trabajo fin de estudio presentado por: | Maikel Barrios Insua     |
+| Tipo de trabajo:                       | Trabajo de fin de Máster |
+| Director/a:                            |                          |
+| Fecha:                                 |                          |
 
 Resumen
 
