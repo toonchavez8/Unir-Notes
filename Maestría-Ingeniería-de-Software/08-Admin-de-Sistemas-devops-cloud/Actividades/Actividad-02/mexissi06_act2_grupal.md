@@ -1,0 +1,36 @@
+Despliegue de un aplicativo en alta disponibilidad en nube pública con redes públicas y privadas (grupal)
+
+Objetivos
+
+El objetivo de esta actividad es desarrollar los conocimientos obtenidos a través de los temas dedicados a nube pública.
+
+Pautas de elaboración
+
+Vamos a crear una arquitectura de un aplicativo en alta disponibilidad en nube pública. El aplicativo puede set un Wordpress u otro aplicativo que el estudiante conozca o un aplicativo trabajado en otras asignaturas del máster.
+
+Para ello, deberemos desplegar nuestro aplicativo en nube pública con ayuda de la cuenta de AWS Academy.
+
+Los requisitos serán los siguientes:
+
+- Creación de una red (VPC) con direccionamiento privado con seis subredes, con salida a Internet, tanto las redes privadas como públicas.
+- Creación de un frontend en red privada expuesto a Internet a través de un balanceador.
+- Creación de un grupo de autoescalado para el frontend del aplicativo si se despliega en EC2. (Opcional: se puede sustituir las EC2 por un almacenamiento S3 para el frontend).
+- Creación de una base de datos en alta disponibilidad en subredes privadas separadas del frontend.
+
+NOTA:
+
+La arquitectura de cada estudiante puede set diferente, pudiendo usar arquitecturas de dos capas o tres capas. En este caso solo la parte de presentación estará en subred pública y el resto en subredes privadas.
+
+Extensión y formato
+
+La entrega consistirá en un informe en un archivo PDF con un máximo de veinte páginas, para dejar constancia de todo lo realizado. Formato del PDF: fuente Calibri, tamaño 11 e interlineado 1,5 líneas).
+
+Rúbrica
+
+| Criterio                                                                     | Nivel 0                                                                                                                                               | Nivel 1                                                                                                                                                                                                   | Nivel 2                                                                                                                                                                                                           | Nivel 3                                                                                                                                                                |
+| ---------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Criterio 1: Creación del entorno de red con subredes públicas y privadas** | No se ha creado ningún entorno de red de trabajo. **(0 puntos)**                                                                                      | Se ha creado la red, pero no se han creado bien las redes públicas y privadas. **(0.5 puntos)**                                                                                                           | Se han creado bien las subredes públicas y privadas, pero no tienen salida a Internet. **(0.75 puntos)**                                                                                                          | Se ha creado el VPC, las subredes asociadas, se modifican las tablas de rutas y se crean las salidas a Internet. **(1 punto)**                                         |
+| **Criterio 2: Despliegue HA del Frontend**                                   | No se despliega nada. **(0 puntos)**                                                                                                                  | Se despliega parcialmente el frontend. **(1.5 puntos)**                                                                                                                                                   | Se despliega el frontend, pero no se crea el balanceador ni el grupo de autoescalado. **(2.25 puntos)**                                                                                                           | Se despliega el frontend con el balanceador y el grupo de autoescalado, y funciona todo correctamente. **(3 puntos)**                                                  |
+| **Criterio 3: Despliegue HA del Backend**                                    | No se sabe utilizar el servicio de AWS RDS. **(0 puntos)**                                                                                            | Se sabe utilizar el servicio de AWS RDS, pero las bases de datos que se montan no son funcionales. **(1.5 puntos)**                                                                                       | Se crea una base de datos y funciona con el aplicativo, pero no se implementa la alta disponibilidad. **(2.25 puntos)**                                                                                           | Se crea el clúster de base de datos en red privada y funciona correctamente, incluida la salida a Internet. **(3 puntos)**                                             |
+| **Criterio 4: Redacción, formato y citación**                                | No utilize normativa APA para citar y referenciar fuentes de consulta. Documento sin formato, aspecto descuidado y lenguaje coloquial. **(0 puntos)** | Cumple parcialmente con la normativa APA. El trabajo tiene formato en gran parte homogéneo. Incluye algunas expresiones coloquiales, pero no impiden la comprensión general del trabajo. **(1.5 puntos)** | Cumple con la normativa APA. Trabajo con formato y sin errores, pero podría mejorarse el estilo o la redacción. Se adecua parcialmente la manera de expresión habitual de un trabajo académico. **(2.25 puntos)** | Cumple con la normativa APA. Formato y estilo de redacción elegantes y sin errores. Se adecua a la manera de expresión habitual en el ámbito académico. **(3 puntos)** |
+| **Criterio 5: Ortografía**                                                   | Penalización de **-0.25 puntos** por cada cinco faltas de acentuación.                                                                                | Penalización de **-0.10 puntos** por cada falta de ortografía.                                                                                                                                            | —                                                                                                                                                                                                                 | —                                                                                                                                                                      |
