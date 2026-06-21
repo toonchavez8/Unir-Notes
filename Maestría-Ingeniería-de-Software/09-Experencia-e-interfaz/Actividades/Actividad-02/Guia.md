@@ -1,4 +1,4 @@
-# Guia paso a paso - Actividad 2: Metodologias y elementos del proceso de diseno UX
+ # Guia paso a paso - Actividad 2: Metodologias y elementos del proceso de diseno UX
 
 ## 1. Objetivo de la actividad
 
