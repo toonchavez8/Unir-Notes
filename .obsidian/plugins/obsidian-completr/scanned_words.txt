@@ -17852,6 +17852,7 @@ Ligera
 Luis
 Laura
 Logotipo
+Logo
 hace
 habilidad
 humano
@@ -25275,6 +25276,9 @@ recurrente
 revisarlos
 rcuros
 relacionanso
+recorridos
+reconocible
+registren
 la
 los
 las
@@ -51350,6 +51354,8 @@ abra
 aproximadas
 apoyando
 applicacion
+aprenda
+alumnos
 una
 un
 unas
@@ -62250,6 +62256,8 @@ estress
 experenica
 explroar
 exprencia
+exploradores
+emergentes
 que
 quien
 quiere
@@ -72659,6 +72667,7 @@ principlaes
 persnas
 primte
 prgreso
+proponemos
 clave
 coment
 capacidad
@@ -77453,6 +77462,9 @@ confiales
 cntenido
 cmerciales
 contenid
+copiarse
+cuentan
+colocarlos
 Nic
 Necesidades
 No
@@ -122661,6 +122673,8 @@ oscuro
 opcions
 objtivo
 organiada
+observan
+observados
 Crea
 Cociente
 Con
