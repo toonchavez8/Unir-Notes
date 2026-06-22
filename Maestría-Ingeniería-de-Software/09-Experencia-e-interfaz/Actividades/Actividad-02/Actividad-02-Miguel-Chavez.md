@@ -81,7 +81,7 @@ El alcance inicial contempla una versión de la plataforma con las siguientes se
 - Sección de rutas de aprendizaje por tema.
 - Sección de recursos educativos.
 - Sección de tendencias tecnológicas.
-- Marketplace de productos y servicios.
+- **Marketplace de productos y servicios.**
 - Perfil de usuario con favoritos, historial y preferencias.
 - Pantalla de detalle para recursos, cursos, productos o proveedores.
 - Formulario de contacto o solicitud de información.
