@@ -377,8 +377,6 @@ Este flujo permite que un proveedor publique o presente sus servicios ante usuar
 
 ## 8. Wireframes
 
-Los wireframes deben mostrar la estructura principal de la interfaz. No necesitan tener diseño visual final, pero sí deben representar la jerarquía de información, navegación y acciones principales del usuario.
-
 ### 8.1 Pantalla De Inicio
 
 **Objetivo de la pantalla:** presentar la plataforma, permitir búsqueda rápida y mostrar categorías principales.
@@ -442,7 +440,15 @@ Los wireframes deben mostrar la estructura principal de la interfaz. No necesita
 
 ### 8.5 Pantalla De Perfil De Usuario
 
-**Objetivo de la pantalla:**  Mostrar el usario, su
+**Objetivo de la pantalla:** Mostrar el usuario y habilitar sus settings de configuración también le permite ver su progreso y todas sus recursos tanto como guardados como en progreso y una sección de actividad.
+
+**Elementos principales:**
+
+- Botón de editar perfil
+- Sección de Mis Recursos guardados
+- Sección de Recomendado para ti
+- Sección de Actividad 
+- Tarjetas seleccionables al contenido 
 
 ![[Low-Wireframe_ Perfil - UNIR Dev.png]]
 
@@ -470,7 +476,7 @@ Los wireframes deben mostrar la estructura principal de la interfaz. No necesita
 
 La propuesta se enfoca en una experiencia simple, ordenada y orientada a la búsqueda de información tecnológica. La arquitectura de información permite separar recursos educativos, tendencias y servicios comerciales, evitando que el usuario se pierda entre contenidos de distinta naturaleza.
 
-El uso de tarjetas, filtros y buscador global facilita la exploración. Además, la opción de favoritos aporta valor para estudiantes y profesionistas que desean guardar recursos para consultarlos después.
+El uso de tarjetas, filtros y buscador global facilita la exploración. Además, la opción de guardar recurso aporta valor para estudiantes y profesionistas que desean guardar recursos para consultarlos después.
 
 La referencia de Microsoft Learn ayuda a justificar la organización por rutas, temas y módulos, mientras que UNIR Dev adapta esa lógica a un contexto que también incluye marketplace y proveedores tecnológicos.
 
@@ -479,9 +485,6 @@ La referencia de Microsoft Learn ayuda a justificar la organización por rutas, 
 El diseño propuesto para UNIR Dev responde a las necesidades de sus principales públicos: estudiantes, profesionistas de TI y proveedores tecnológicos. La interfaz se organiza mediante una arquitectura clara, una navegación sencilla y pantallas principales que permiten buscar, filtrar, consultar, guardar y contactar.
 
 Microsoft Learn sirve como referencia para comprender cómo una plataforma tecnológica puede organizar contenidos de aprendizaje y guiar al usuario mediante rutas, módulos y categorías. A partir de ese análisis, UNIR Dev puede proponer una experiencia propia enfocada en recursos educativos, tendencias tecnológicas y servicios especializados.
-
-> [!TODO]
-> Antes de entregar, integra los wireframes visuals finales y revisa que la portada tenga docente y fecha de entrega.
 
 ## 11. Referencias
 
