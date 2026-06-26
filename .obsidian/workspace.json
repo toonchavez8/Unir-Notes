@@ -6,6 +6,7 @@
       {
         "id": "749bda64dd724b9e",
         "type": "tabs",
+        "dimension": 38.58974358974359,
         "children": [
           {
             "id": "56acb1598de70194",
@@ -73,6 +74,7 @@
       {
         "id": "ee0ad31fcc55dbb3",
         "type": "tabs",
+        "dimension": 61.410256410256416,
         "children": [
           {
             "id": "e29ae44304e74048",
@@ -104,7 +106,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/Actividades/Actividad-02/Untitled.md",
+                "file": "Dev_Challenges/03-Web-scraping-rust-learners-guide.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -119,7 +121,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "03-Web-scraping-rust-learners-guide"
             }
           }
         ],
@@ -289,11 +291,17 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "e4721988af3498d5",
+  "active": "52ed081b1b5f5dd4",
   "lastOpenFiles": [
+    "Dev_Challenges/Unsplash-Collection-rust-nextjs16-guide.md",
+    "Dev_Challenges/03-Web-scrapping.md",
+    "Dev_Challenges/03-Web-scraping-rust-learners-guide.md",
+    "Dev_Challenges/01-Authentication-Microservice-with-TypeORM.md",
+    "Dev_Challenges/02-Fem-Typing-Speed-Test.md",
+    "Dev_Challenges/Ai-chatbot-whatapp.md",
     "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/Actividades/Actividad-02/Untitled.md",
-    "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/Actividades/Actividad-02/attachments/Pasted image 20260624122520.png",
     "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/Actividades/Actividad-02/Caso de analisis.md",
+    "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/Actividades/Actividad-02/attachments/Pasted image 20260624122520.png",
     "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/Actividades/Actividad-02/mexdiux01_act2-new.md",
     "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/Actividades/Actividad-02/attachments/Wireframe_ Ruta de Aprendisaje- UNIR Dev.png",
     "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/Actividades/Actividad-02/attachments/Wireframe_ Resultados - UNIR Dev.png",
@@ -324,14 +332,9 @@
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Actividad-02-Metodologia-Arquitectura/mexingsof14_act2_Metodología y arquitectura.md",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Actividad-01-Estado-del-Arte/Untitled.md",
     "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/Actividades/Actividad-03/mexdiux01_act3_grupal-Danny.md",
-    "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/Actividades/Actividad-03/Rubrica.md",
-    "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-02-grupal/Rubrica.md",
     "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-02-grupal/mexissi06_act2_grupal.docx",
     "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-02-grupal",
-    "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-02/02-Documento-entrega-y-plan-equipo.md",
-    "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-02/mexissi06_act2_grupal.md",
     "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-02/mexissi06_act2_grupal.docx",
-    "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-02/01-Guia.md",
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-01/psuiadesoft01_act1.docx",
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-01/figuras",
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-02/figuras",
