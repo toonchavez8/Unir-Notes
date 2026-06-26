@@ -252,16 +252,6 @@
               "icon": "lucide-list",
               "title": "Outline of Guia-paso"
             }
-          },
-          {
-            "id": "40fa87d1b8198c6a",
-            "type": "leaf",
-            "state": {
-              "type": "mermaid-toolbar-view",
-              "state": {},
-              "icon": "lucide-ghost",
-              "title": "mermaid-toolbar-view"
-            }
           }
         ],
         "currentTab": 3
@@ -288,7 +278,8 @@
       "mermaid-tools:Open Mermaid Toolbar": false,
       "omnisearch:Omnisearch": false,
       "open-vscode:VSCode": false,
-      "vscode-editor:Create Code File": false
+      "vscode-editor:Create Code File": false,
+      "open-in-zed:Open vault in Zed": false
     }
   },
   "active": "52ed081b1b5f5dd4",

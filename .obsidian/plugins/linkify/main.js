@@ -87,25 +87,30 @@ var DEFAULT_SETTINGS = {
   ]
 };
 var DEFAULT_NEW_RULE = {
-  regexp: "g\\/([a-zA-Z.-]*)",
-  link: "http://google.com/search?q=$1",
+  regexp: "",
+  link: "",
   cssclass: ""
 };
 function createViewPlugin(rule) {
-  let decorator = new import_view.MatchDecorator({
-    regexp: new RegExp(rule.regexp, "g"),
-    decoration: import_view.Decoration.mark({
-      class: `cm-link linkified ${rule.cssclass}`
-    })
-  });
-  return import_view.ViewPlugin.define((view) => ({
-    decorations: decorator.createDeco(view),
-    update(u) {
-      this.decorations = decorator.updateDeco(u, this.decorations);
-    }
-  }), {
-    decorations: (v) => v.decorations
-  });
+  try {
+    let decorator = new import_view.MatchDecorator({
+      regexp: new RegExp(rule.regexp, "g"),
+      decoration: import_view.Decoration.mark({
+        class: `cm-link linkified ${rule.cssclass}`
+      })
+    });
+    return import_view.ViewPlugin.define((view) => ({
+      decorations: decorator.createDeco(view),
+      update(u) {
+        this.decorations = decorator.updateDeco(u, this.decorations);
+      }
+    }), {
+      decorations: (v) => v.decorations
+    });
+  } catch (e) {
+    console.warn(`Linkify: Skipping invalid regexp "${rule.regexp}":`, e.message);
+    return null;
+  }
 }
 var Linkify = class extends import_obsidian.Plugin {
   constructor() {
@@ -135,7 +140,8 @@ var Linkify = class extends import_obsidian.Plugin {
     });
   }
   refreshExtensions() {
-    this.viewPlugins.splice(0, this.viewPlugins.length, ...this.settings.rules.map(createViewPlugin));
+    const plugins = this.settings.rules.map(createViewPlugin).filter((p) => p !== null);
+    this.viewPlugins.splice(0, this.viewPlugins.length, ...plugins);
     this.app.workspace.updateOptions();
   }
   openLink(evt) {
@@ -153,14 +159,19 @@ var Linkify = class extends import_obsidian.Plugin {
   }
   matchRule(text) {
     for (let rule of this.settings.rules) {
-      let regexp = new RegExp(rule.regexp);
-      let m = text.match(regexp);
-      if (m != null) {
-        return {
-          match: m,
-          link: m[0].replace(regexp, rule.link),
-          cssclass: rule.cssclass
-        };
+      try {
+        let regexp = new RegExp(rule.regexp);
+        let m = text.match(regexp);
+        if (m != null) {
+          return {
+            match: m,
+            link: m[0].replace(regexp, rule.link),
+            cssclass: rule.cssclass
+          };
+        }
+      } catch (e) {
+        console.warn(`Linkify: Skipping invalid regexp "${rule.regexp}":`, e.message);
+        continue;
       }
     }
     return null;
@@ -240,11 +251,72 @@ var LinkifySettingTab = class extends import_obsidian.PluginSettingTab {
         }));
       });
     }
-    new import_obsidian.Setting(containerEl).addButton((button) => button.setButtonText("Add New Link").onClick(() => __async(this, null, function* () {
+    const addBtnRow = containerEl.createDiv({
+      attr: { style: "margin-top: 16px;" }
+    });
+    const addBtn = addBtnRow.createEl("button", {
+      text: "Add New Link"
+    });
+    addBtn.addEventListener("click", () => __async(this, null, function* () {
       this.plugin.settings.rules.push(__spreadValues({}, DEFAULT_NEW_RULE));
       yield this.plugin.saveSettings();
       this.display();
-    })));
+    }));
+    containerEl.createEl("hr");
+    const buttonRow = containerEl.createDiv({
+      attr: { style: "display: flex; gap: 8px;" }
+    });
+    const exportBtn = buttonRow.createEl("button", {
+      text: "Export Rules"
+    });
+    exportBtn.addEventListener("click", () => {
+      const json = JSON.stringify({ rules: this.plugin.settings.rules }, null, 2);
+      const blob = new Blob([json], { type: "application/json" });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement("a");
+      a.href = url;
+      a.download = "linkify-rules.json";
+      a.click();
+      URL.revokeObjectURL(url);
+    });
+    const importBtn = buttonRow.createEl("button", {
+      text: "Import Rules"
+    });
+    importBtn.addEventListener("click", () => {
+      const input = document.createElement("input");
+      input.type = "file";
+      input.accept = ".json";
+      input.onchange = () => __async(this, null, function* () {
+        var _a;
+        const file = (_a = input.files) == null ? void 0 : _a[0];
+        if (!file)
+          return;
+        try {
+          const text = yield file.text();
+          const data = JSON.parse(text);
+          const rules = Array.isArray(data) ? data : Array.isArray(data == null ? void 0 : data.rules) ? data.rules : null;
+          if (!rules) {
+            throw new Error('Invalid format: expected a JSON object with a "rules" array or a JSON array of rules.');
+          }
+          for (const rule of rules) {
+            if (typeof rule !== "object" || rule === null || typeof rule.regexp !== "string" || typeof rule.link !== "string") {
+              throw new Error('Invalid rule: each rule must have "regexp" and "link" string fields.');
+            }
+          }
+          const validRules = rules.map((r) => ({
+            regexp: r.regexp,
+            link: r.link,
+            cssclass: r.cssclass || ""
+          }));
+          this.plugin.settings.rules.push(...validRules);
+          yield this.plugin.saveSettings();
+          this.display();
+        } catch (e) {
+          new import_obsidian.Notice(`Failed to import rules: ${e.message}`);
+        }
+      });
+      input.click();
+    });
   }
   hide() {
     this.plugin.refreshExtensions();
