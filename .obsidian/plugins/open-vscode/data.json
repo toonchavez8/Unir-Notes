@@ -1,0 +1,9 @@
+{
+  "ribbonIcon": true,
+  "ribbonCommandUsesCode": true,
+  "showFileContextMenuItem": true,
+  "executeTemplate": "zed \"{{vaultpath}}\" \"{{vaultpath}}/{{filepath}}\"",
+  "urlProtocol": "zed",
+  "openFile": true,
+  "workspacePath": "{{vaultpath}}"
+}
