@@ -14,6 +14,7 @@
   "obsidian-git",
   "obsidian-icon-folder",
   "hyperlink-remover",
+  "linkify",
   "links",
   "obsidian-linter",
   "obsidian-list-callouts",
@@ -21,11 +22,12 @@
   "mermaid-helper",
   "note-refactor-obsidian",
   "omnisearch",
+  "open-vscode",
   "obsidian-pandoc-reference-list",
   "obsidian-pandoc",
   "url-into-selection",
   "tabout",
   "vscode-editor",
-  "open-in-zed",
-  "linkify"
+  "obsidian-zotero-desktop-connector",
+  "csv-obsidian"
 ]

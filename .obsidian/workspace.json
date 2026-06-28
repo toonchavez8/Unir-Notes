@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "2a70a29bb21a7747",
+        "id": "2583d4007b4259f6",
         "type": "tabs",
         "children": [
           {
-            "id": "e4e6ca3253082efe",
+            "id": "f68960e4cb1033a0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-02-grupal/01-Guia.md",
+                "file": "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-01/psuiadesoft01_act1.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,110 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "01-Guia"
+              "title": "psuiadesoft01_act1"
+            }
+          },
+          {
+            "id": "5b4d319f7ba4ce82",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-01/guia_paso_a_paso_act1.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "guia_paso_a_paso_act1"
+            }
+          },
+          {
+            "id": "2a679f6e241c2df1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-01/Untitled.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Untitled"
+            }
+          }
+        ],
+        "currentTab": 2
+      },
+      {
+        "id": "4d675f7ac0d7d8df",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6cc7db45522f9099",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-01/informe.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "informe"
+            }
+          },
+          {
+            "id": "bb5e3218bba40412",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-01/notas_analisis.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "notas_analisis"
             }
           }
         ]
@@ -160,16 +263,6 @@
             }
           },
           {
-            "id": "40fa87d1b8198c6a",
-            "type": "leaf",
-            "state": {
-              "type": "mermaid-toolbar-view",
-              "state": {},
-              "icon": "trident-custom",
-              "title": "Mermaid Toolbar"
-            }
-          },
-          {
             "id": "a2e15f7737ce2707",
             "type": "leaf",
             "state": {
@@ -180,7 +273,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -204,57 +297,57 @@
       "obsidian-git:Open Git source control": false,
       "callout-manager:Insert Callout": false,
       "omnisearch:Omnisearch": false,
-      "mermaid-tools:Open Mermaid Toolbar": false
+      "mermaid-tools:Open Mermaid Toolbar": false,
+      "open-vscode:VS Code": false
     }
   },
-  "active": "e4e6ca3253082efe",
+  "active": "6cc7db45522f9099",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
+    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-01/notas_analisis.md",
+    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-01/Untitled.md",
+    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-01/guia_paso_a_paso_act1.md",
+    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-01/psuiadesoft01_act1.md",
+    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-01/segmentacion_clientes_genero/output_16_0.png",
+    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-01/informe.md",
+    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-01/explicacion_detallada_segmentacion_clientes_genero.md",
+    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-01/segmentacion_clientes_genero/output_23_0.png",
+    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-01/explicacion_detallada_segmentacion_clientes.md",
+    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-01/segmentacion_clientes_genero/output_19_0.png",
+    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-01/segmentacion_clientes_genero/output_20_0.png",
+    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-01/segmentacion_clientes_genero/segmentacion_clientes_genero.md",
+    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-01/segmentacion_clientes_genero/output_31_0.png",
+    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-01/segmentacion_clientes_genero/output_27_0.png",
+    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-01/segmentacion_clientes_genero/output_13_0.png",
+    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-01/segmentacion_clientes_genero/output_12_0.png",
+    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-01/segmentacion_clientes_genero/output_11_1.png",
+    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-01/segmentacion_clientes_genero/output_10_1.png",
+    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-01/segmentacion_clientes_genero",
+    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-01/figuras_genero/comparacion_algoritmos_genero.csv",
+    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-01/figuras_genero/resumen_agg_con_genero.csv",
+    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-01/figuras_genero/resumen_agg_sin_genero.csv",
+    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-01/figuras_genero/resumen_kmeans_con_genero.csv",
+    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-01/figuras_genero/resumen_kmeans_sin_genero.csv",
+    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-01/figuras_genero",
+    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-01/segmentacion_clientes_genero.ipynb",
+    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-01/figuras/resumen_clusters_agg.csv",
+    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-01/segmentacion_clientes.ipynb",
     "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-02-grupal/01-Guia.md",
+    "conflict-files-obsidian-git.md",
     "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-02-grupal/02-Documento-entrega-y-plan-equipo.md",
     "Dev_Challenges/03-Web-scrapping.md",
     "Dev_Challenges/Ai-chatbot-whatapp.md",
     "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/Actividades/Actividad-02/Actividad-02-Miguel-Chavez.md",
-    "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/Actividades/Actividad-02/attachments/Pasted image 20260624122520.png",
     "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/Actividades/Actividad-02/Untitled.md",
     "Dev_Challenges/Unsplash-Collection-rust-nextjs16-guide.md",
     "Dev_Challenges/03-Web-scraping-rust-learners-guide.md",
     "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/Actividades/Actividad-02/mexdiux01_act2-new.md",
-    "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/Actividades/Actividad-02/Actividad-02-Miguel-Chavez.docx",
-    "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/Actividades/Actividad-02/attachments/~ireframe_ Registro de Estudiante - UNIR Dev.tmp",
     "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/Actividades/Actividad-02/Caso de analisis.md",
-    "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/Actividades/Actividad-02/attachments/Low-Wireframe_ Marketplace - Exploración.png",
-    "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/Actividades/Actividad-02/attachments/Wireframe_ Marketplace - Exploración.png",
-    "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/Actividades/Actividad-02/attachments/Low-Wireframe_ Publicar Servicio.png",
-    "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/Actividades/Actividad-02/attachments/Wireframe_ Publicar Servicio.png",
-    "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/Actividades/Actividad-02/attachments/Low-Wireframe_ Inicio - UNIR Dev.png",
-    "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/Actividades/Actividad-02/attachments/Persona_ Proveedor Tecnológico.png",
-    "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/Actividades/Actividad-02/attachments/Persona_ Profesionista De TI.png",
-    "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/Actividades/Actividad-02/attachments/Persona_ Estudiante.png",
-    "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/Actividades/Actividad-02/attachments/Low-Wireframe_ Registro de Estudiante - UNIR Dev.png",
-    "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/Actividades/Actividad-02/mexdiux01_act2-new.docx",
-    "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/Actividades/Actividad-02/attachments",
     "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/Actividades/Actividad-02/Guia.md",
     "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-02-grupal/mexissi06_act2_grupal.md",
-    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-02/requirements.txt",
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-02/notas_analisis.md",
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-02/informe.md",
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-02/guia_paso_a_paso_act2.md",
-    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-02/clasificacion_noticias_pln.ipynb",
-    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-01/segmentacion_clientes.ipynb",
-    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-01/requirements.txt",
-    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-01/notas_analisis.md",
-    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-01/informe.md",
-    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-01/guia_paso_a_paso_act1.md",
-    "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/Actividades/Actividad-02/mexdiux01_act2.docx",
     "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/Actividades/Actividad-02/mexdiux01_act2.md",
-    "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/Actividades/Actividad-02/mexdiux01_act2 1.docx",
-    "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-02-grupal/mexissi06_act2_grupal-Miguel.md",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Actividad-02-Metodologia-Arquitectura/mexingsof14_act2_Metodología y arquitectura.md",
-    "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-02-grupal/Rubrica.md",
-    "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/Actividades/Actividad-03/mexdiux01_act3_grupal-Danny.md",
-    "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/Actividades/Actividad-03/Rubrica.md",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Actividad-01-Estado-del-Arte/Actividad-01-Estado-del-Arte-Broker-Hibrido-gRPC-Redis-Unificado.md",
     "Untitled.canvas"
   ]
 }
