@@ -106,7 +106,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dev_Challenges/03-Web-scraping-rust-learners-guide.md",
+                "file": "Dev-Journel/Projects/00-template.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -121,7 +121,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "03-Web-scraping-rust-learners-guide"
+              "title": "00-template"
             }
           }
         ],
@@ -277,23 +277,25 @@
       "obsidian-git:Open Git source control": false,
       "mermaid-tools:Open Mermaid Toolbar": false,
       "omnisearch:Omnisearch": false,
-      "open-vscode:VSCode": false,
       "vscode-editor:Create Code File": false,
       "open-in-zed:Open vault in Zed": false
     }
   },
   "active": "52ed081b1b5f5dd4",
   "lastOpenFiles": [
+    "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/Actividades/Actividad-02/mexdiux01_act2-new.md",
+    "Dev-Journel/Projects/00-template.md",
+    "Dev-Journel/Projects/02-Alejandra-leyva.md",
+    "Dev-Journel/01-mcaseros.md",
+    "Dev_Challenges/01-Authentication-Microservice-with-TypeORM.md",
+    "Dev_Challenges/03-Web-scraping-rust-learners-guide.md",
     "Dev_Challenges/Unsplash-Collection-rust-nextjs16-guide.md",
     "Dev_Challenges/03-Web-scrapping.md",
-    "Dev_Challenges/03-Web-scraping-rust-learners-guide.md",
-    "Dev_Challenges/01-Authentication-Microservice-with-TypeORM.md",
     "Dev_Challenges/02-Fem-Typing-Speed-Test.md",
     "Dev_Challenges/Ai-chatbot-whatapp.md",
     "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/Actividades/Actividad-02/Untitled.md",
     "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/Actividades/Actividad-02/Caso de analisis.md",
     "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/Actividades/Actividad-02/attachments/Pasted image 20260624122520.png",
-    "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/Actividades/Actividad-02/mexdiux01_act2-new.md",
     "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/Actividades/Actividad-02/attachments/Wireframe_ Ruta de Aprendisaje- UNIR Dev.png",
     "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/Actividades/Actividad-02/attachments/Wireframe_ Resultados - UNIR Dev.png",
     "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/Actividades/Actividad-02/attachments/Wireframe_ Registro de Estudiante - UNIR Dev.png",
@@ -320,9 +322,6 @@
     "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-02-grupal/01-Guia.md",
     "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-02-grupal/mexissi06_act2_grupal-Miguel.md",
     "conflict-files-obsidian-git.md",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Actividad-02-Metodologia-Arquitectura/mexingsof14_act2_Metodología y arquitectura.md",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Actividad-01-Estado-del-Arte/Untitled.md",
-    "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/Actividades/Actividad-03/mexdiux01_act3_grupal-Danny.md",
     "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-02-grupal/mexissi06_act2_grupal.docx",
     "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-02-grupal",
     "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-02/mexissi06_act2_grupal.docx",

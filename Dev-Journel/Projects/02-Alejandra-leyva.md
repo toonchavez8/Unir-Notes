@@ -1,57 +1,98 @@
-# Alejandra Leyva Journalist Portfolio Site
+# How I Built a Bilingual Portfolio for a Photojournalist Without Turning Every New Page Into a Dev Task
 
+**Project:** Alejandra Leyva Journalist Portfolio  
 **Type:** Client  
-**Source:** FoodLovers – Alejandra Leyva  
 **Repository:** [https://github.com/toonchavez8/alejandra-leyva-portfolio](https://github.com/toonchavez8/alejandra-leyva-portfolio)  
 **Live Site:** [https://alejandra-leyva.com/](https://alejandra-leyva.com/)
 
----
+Alejandra Leyva needed a portfolio that could do two things well: present photography with enough visual restraint to let the work speak, and let new stories go live without needing a developer every time.
 
-## Overview
+That sounds straightforward until you add bilingual content, dynamic project pages, contact protection, and image-heavy layouts that still need to behave on mobile.
 
-A portfolio website for photojournalist **Alejandra Leyva** designed to showcase her projects and published work. The site allows the client to create and manage new project pages through a CMS and supports bilingual content in both English (`eng`) and Spanish (`esp`).
+## The Problem: A Portfolio Should Not Be a Bottleneck
 
----
+For a journalist and photojournalist, the site is not a static brochure. It is an active archive of published work, ongoing projects, and professional identity.
 
-## Objectives
+That meant the project could not rely on hard-coded pages or a content model that only made sense to a developer. The client needed to create and update work independently on the fly, switch between English and Spanish, and keep the presentation polished across devices.
 
-- Design the portfolio using **Figma**
-    
-- Build a fully responsive site connected to a CMS
-    
-- Support local language switching (English / Spanish)
+The job was not just to build a website. The job was to build a publishing system that still felt like a portfolio.
 
----
+## Why I Chose Next.js and Prismic
 
-## Tech Stack
+I built the site with **Next.js**, **Tailwind CSS**, and **Prismic**.
 
-- Figma
-    
-- Next.js, Tailwind CSS
-    
-- Prismic IO (Headless CMS)
-    
-- Deployed via Vercel
+That stack made sense for the shape of the problem:
 
----
+- **Next.js** handled routing, rendering, and performance well for a content-driven site.
+- **Prismic** gave the client a manageable way to create and organize content without touching code.
+- **Tailwind CSS** made it easier to build a responsive layout system around photography, where spacing and image behavior matter more than decorative UI.
 
-## Features & Implementation
+The important architectural decision was to treat the site as a **headless CMS application**, not a collection of fixed pages.
 
-### Structure & Architecture
+Content lives in Prismic. The frontend reads those documents, maps them into components, and renders pages dynamically. That keeps presentation and content management separate, which is exactly what this kind of client workflow needs.
 
-The portfolio is built as a **Next.js application integrated with Prismic CMS**, where routing and page rendering are driven by dynamic content models rather than hard-coded pages. Content is authored in the Prismic dashboard and fetched via API, then mapped to React components and page templates on the frontend.
+## How the Site Handles New Projects Without New Routes
 
-This setup enables a flexible content architecture in which pages and sections can be reorganized directly from Prismic without requiring code changes. Dynamic routes (such as `[uid]/page.tsx`) are generated at build time or on demand based on Prismic document UIDs. The overall layout and routing logic live in the `app` directory, with a central layout file managing global structure and nested page files handling individual content views.
+One of the core requirements was that new portfolio pages should not require a code deploy or manual route creation.
 
-Architecturally, the project follows a **headless CMS pattern**, decoupling content management from presentation. This allows the client to control site content and structure independently while I focus on UI, routing, and performance. Next.js provides static generation and server-side rendering, which are well suited for a portfolio site, while Prismic’s Slice Machine and custom types enable modular, reusable content blocks.
+So instead of building a page per project, I used dynamic routing driven by Prismic document UIDs. In practice, that means the client creates content in the CMS, and the frontend resolves it through a shared page template.
 
-This combination supports scalability and ease of maintenance, allowing new pages and sections to be added entirely through Prismic without modifying frontend routes—an essential requirement for the client.
+The result is a structure where:
 
----
+- page content is managed in Prismic
+- page rendering is handled by reusable React components
+- routes are generated from content, not manually maintained
 
-### Interactivity
+That gave the site room to grow without turning every new case study into engineering work.
 
-For interactivity, the site includes a **server-side API endpoint using Nodemailer** to handle contact form submissions. When a user submits an inquiry, an email is sent to the client using predefined mail options.
+## Building Bilingual Content Without Making Routing Weird
+
+Supporting both English and Spanish was not just a matter of translating strings.
+
+The harder problem was making language selection behave consistently across browser settings, navigation, reloads, and CMS content. If that logic gets sloppy, bilingual sites start feeling broken fast.
+
+I solved that by introducing a language provider that coordinates three things:
+
+- the user's browser language
+- session storage
+- route-level behavior inside the app
+
+This kept language selection stable while still allowing the interface to respond to user preference.
+
+```ts
+export const LanguageProvider = ({ children }: { children: ReactNode }) => {
+	const [lang, setLangState] = useState("es-mx");
+	const router = useRouter();
+	const pathname = usePathname();
+
+	useEffect(() => {
+		if (typeof window !== "undefined") {
+			const savedLang = sessionStorage.getItem("lang");
+
+			if (savedLang) {
+				setLangState(savedLang);
+			} else {
+				const browserLang = navigator.language;
+				const normalizedLang =
+					browserLang.toLowerCase() === "en-us" ? "en-us" : "es-mx";
+
+				setLangState(normalizedLang);
+				sessionStorage.setItem("lang", normalizedLang);
+			}
+		}
+	}, []);
+};
+```
+
+There are cleaner-looking solutions on paper, but this approach matched the actual behavior the site needed.
+
+## Contact Forms Are Useful. Public Email Addresses Are Also Spam Magnets
+
+The portfolio needed a contact flow, but publishing a plain email address on a public site is an invitation to scraper bots.
+
+I handled that in two layers.
+
+First, the form submits through a server-side API route using **Nodemailer**, which sends the message to the client's inbox without exposing mail credentials in the frontend.
 
 ```ts
 const mailOptions = {
@@ -62,7 +103,7 @@ const mailOptions = {
 };
 
 try {
-	const info = await transporter.sendMail(mailOptions);
+	await transporter.sendMail(mailOptions);
 	return new Response(JSON.stringify({ success: true }), { status: 200 });
 } catch (error: unknown) {
 	if (error instanceof Error) {
@@ -70,35 +111,26 @@ try {
 			JSON.stringify({ success: false, error: error.message }),
 			{ status: 500 }
 		);
-	} else {
-		return new Response(
-			JSON.stringify({ success: false, error: "An unknown error occurred." }),
-			{ status: 500 }
-		);
 	}
+
+	return new Response(
+		JSON.stringify({ success: false, error: "An unknown error occurred." }),
+		{ status: 500 }
+	);
 }
 ```
 
-This works in tandem with the contact component, which **obfuscates the client’s email address** and only decrypts it when the user actively clicks. This prevents email scraping by bots and helps reduce spam, as requested by the client.
+Second, for direct email interaction on the frontend, I obfuscated the address and only decoded it when the user clicked.
 
 ```ts
-/**
- * Encrypt email address with a simple obfuscation method.
- */
 const obfuscateEmail = (email: string): string => {
-	return btoa(email); // Base64 encode the email
+	return btoa(email);
 };
 
-/**
- * Decrypt the obfuscated email address.
- */
 const deobfuscateEmail = (encodedEmail: string): string => {
-	return atob(encodedEmail); // Base64 decode the email
+	return atob(encodedEmail);
 };
 
-/**
- * Component for "Contact" Slices.
- */
 const Contact = ({ slice }: ContactProps): JSX.Element => {
 	const encryptedEmail = obfuscateEmail(slice.primary.email || "");
 
@@ -109,237 +141,54 @@ const Contact = ({ slice }: ContactProps): JSX.Element => {
 };
 ```
 
----
+No, Base64 is not real security. That is not the point. The point is reducing low-effort scraping while keeping the interaction simple for real users.
 
-### Layout & Responsiveness
+## Designing for Photography Means Designing for Restraint
 
-The layout is built using **Tailwind CSS with Flexbox and Grid**, following a mobile-first approach. Breakpoints are carefully applied to ensure consistent typography, spacing, and image presentation across devices. Image-heavy sections are optimized for responsiveness and usability, particularly for photography-focused content.
+A photography portfolio can fall apart when the layout tries too hard.
 
----
+I used a mobile-first responsive system with **Flexbox** and **Grid** in Tailwind, keeping the emphasis on image presentation, spacing, and readable typography rather than decorative components. The site also uses **yet-another-react-lightbox** so galleries can display high-quality images without forcing awkward navigation patterns.
 
-## Responsive Strategy
+That mattered because photography-heavy pages have different failure modes than typical marketing sites. If images crop badly, spacing collapses, or the gallery experience feels clumsy, the work itself looks worse.
 
-- **Mobile-first:** Yes
-    
-- **Breakpoints:** Mobile / Tablet / Desktop
-    
-- **Assets:** Uses `yet-another-react-lightbox` to support high-quality image galleries
+## The Main Trade-Offs
 
----
+This setup solved the client's workflow problem, but it came with trade-offs.
 
-## Challenges & Solutions
+Using a headless CMS adds flexibility, but it also means language behavior, content modeling, and rendering logic need tighter coordination. You get editorial freedom, but you pay for it in architectural discipline.
 
-- **Challenge:** Implementing language context correctly across routes when using a headless CMS. Managing language overrides between browser settings, routing, and Prismic content required careful handling.
-    
-- **Solution:** Introduced a language provider that syncs browser language detection, session storage, and route handling. This ensured consistent language behavior across navigation and page reloads.
+The email obfuscation approach is another example. It is not meant to stop a determined attacker. It is meant to reduce casual scraping without adding friction for the client or the audience.
 
-```ts
-export const LanguageProvider = ({ children }: { children: ReactNode }) => {
-	const [lang, setLangState] = useState("es-mx"); // Default language
-	const router = useRouter();
-	const pathname = usePathname();
+Those were acceptable trade-offs for this project because the priorities were autonomy, maintainability, and a clean presentation layer.
 
-	useEffect(() => {
-		if (typeof window !== "undefined") {
-			const savedLang = sessionStorage.getItem("lang");
-			if (savedLang) {
-				setLangState(savedLang);
-			} else {
-				const browserLang = navigator.language;
-				const normalizedLang =
-					browserLang.toLowerCase() === "en-us" ? "en-us" : "es-mx";
-				setLangState(normalizedLang);
-				sessionStorage.setItem("lang", normalizedLang);
-			}
-		}
-	}, []);
-};
-```
+## What I Learned From the Build
+
+Three things stood out during this project.
+
+First, bilingual support gets complicated as soon as content, routing, and browser preferences all need to agree. That logic deserves explicit handling early, not patchwork fixes later.
+
+Second, content-managed portfolios are much better long-term when the route structure is designed around reusable templates instead of one-off pages.
+
+Third, image-heavy sites benefit from technical restraint. The frontend should support the work, not compete with it.
+
+## What I Would Improve Next
+
+The next round of improvements would focus on performance around galleries and image-heavy views.
+
+Image preloading, smarter caching, and tighter optimization for large media sets would improve perceived speed, especially on slower connections and mobile devices.
+
+## Final Result
+
+The finished site gives Alejandra a portfolio that is visually focused, bilingual, responsive, and easier to maintain without developer intervention.
+
+That was the real goal from the start. Not just shipping a nice-looking site, but removing the friction between publishing work and presenting it well.
 
 ---
 
-## Key Learnings
+## Meta Title
 
-1. Implementing bilingual (English / Spanish) content with dynamic routing using Prismic
-    
-2. Securing contact information by encrypting emails and decrypting only on user interaction, combined with server-side email handling via Nodemailer
-    
-3. Integrating a lightbox solution to support high-quality photography galleries
+How I Built a Bilingual Portfolio for Photojournalist Alejandra Leyva
 
----
+## Meta Description
 
-## Notes / Improvements
-
-- Image preloading or caching could further improve performance and perceived load times, especially for gallery-heavy pages.# Alejandra Leyva Journalist Portfolio Site
-
-**Type:** Client  
-**Source:** FoodLovers – Alejandra Leyva  
-**Repository:** [https://github.com/toonchavez8/alejandra-leyva-portfolio](https://github.com/toonchavez8/alejandra-leyva-portfolio)  
-**Live Site:** [https://alejandra-leyva.com/](https://alejandra-leyva.com/)
-
----
-
-## Overview
-
-A portfolio website for photojournalist **Alejandra Leyva** designed to showcase her projects and published work. The site allows the client to create and manage new project pages through a CMS and supports bilingual content in both English (`eng`) and Spanish (`esp`).
-
----
-
-## Objectives
-
-- Design the portfolio using **Figma**
-    
-- Build a fully responsive site connected to a CMS
-    
-- Support local language switching (English / Spanish)
-
----
-
-## Tech Stack
-
-- Figma
-    
-- Next.js, Tailwind CSS
-    
-- Prismic IO (Headless CMS)
-    
-- Deployed via Vercel
-
----
-
-## Features & Implementation
-
-### Structure & Architecture
-
-The portfolio is built as a **Next.js application integrated with Prismic CMS**, where routing and page rendering are driven by dynamic content models rather than hard-coded pages. Content is authored in the Prismic dashboard and fetched via API, then mapped to React components and page templates on the frontend.
-
-This setup enables a flexible content architecture in which pages and sections can be reorganized directly from Prismic without requiring code changes. Dynamic routes (such as `[uid]/page.tsx`) are generated at build time or on demand based on Prismic document UIDs. The overall layout and routing logic live in the `app` directory, with a central layout file managing global structure and nested page files handling individual content views.
-
-Architecturally, the project follows a **headless CMS pattern**, decoupling content management from presentation. This allows the client to control site content and structure independently while I focus on UI, routing, and performance. Next.js provides static generation and server-side rendering, which are well suited for a portfolio site, while Prismic’s Slice Machine and custom types enable modular, reusable content blocks.
-
-This combination supports scalability and ease of maintenance, allowing new pages and sections to be added entirely through Prismic without modifying frontend routes—an essential requirement for the client.
-
----
-
-### Interactivity
-
-For interactivity, the site includes a **server-side API endpoint using Nodemailer** to handle contact form submissions. When a user submits an inquiry, an email is sent to the client using predefined mail options.
-
-```ts
-const mailOptions = {
-	from: email,
-	to: process.env.EMAIL_TO,
-	subject: `Nuevo mensaje de ${name}`,
-	text: `Message from ${name} (${email}):\n\n${message}`,
-};
-
-try {
-	const info = await transporter.sendMail(mailOptions);
-	return new Response(JSON.stringify({ success: true }), { status: 200 });
-} catch (error: unknown) {
-	if (error instanceof Error) {
-		return new Response(
-			JSON.stringify({ success: false, error: error.message }),
-			{ status: 500 }
-		);
-	} else {
-		return new Response(
-			JSON.stringify({ success: false, error: "An unknown error occurred." }),
-			{ status: 500 }
-		);
-	}
-}
-```
-
-This works in tandem with the contact component, which **obfuscates the client’s email address** and only decrypts it when the user actively clicks. This prevents email scraping by bots and helps reduce spam, as requested by the client.
-
-```ts
-/**
- * Encrypt email address with a simple obfuscation method.
- */
-const obfuscateEmail = (email: string): string => {
-	return btoa(email); // Base64 encode the email
-};
-
-/**
- * Decrypt the obfuscated email address.
- */
-const deobfuscateEmail = (encodedEmail: string): string => {
-	return atob(encodedEmail); // Base64 decode the email
-};
-
-/**
- * Component for "Contact" Slices.
- */
-const Contact = ({ slice }: ContactProps): JSX.Element => {
-	const encryptedEmail = obfuscateEmail(slice.primary.email || "");
-
-	const handleEmailClick = () => {
-		const email = deobfuscateEmail(encryptedEmail);
-		window.location.href = `mailto:${email}`;
-	};
-};
-```
-
----
-
-### Layout & Responsiveness
-
-The layout is built using **Tailwind CSS with Flexbox and Grid**, following a mobile-first approach. Breakpoints are carefully applied to ensure consistent typography, spacing, and image presentation across devices. Image-heavy sections are optimized for responsiveness and usability, particularly for photography-focused content.
-
----
-
-## Responsive Strategy
-
-- **Mobile-first:** Yes
-    
-- **Breakpoints:** Mobile / Tablet / Desktop
-    
-- **Assets:** Uses `yet-another-react-lightbox` to support high-quality image galleries
-
----
-
-## Challenges & Solutions
-
-- **Challenge:** Implementing language context correctly across routes when using a headless CMS. Managing language overrides between browser settings, routing, and Prismic content required careful handling.
-    
-- **Solution:** Introduced a language provider that syncs browser language detection, session storage, and route handling. This ensured consistent language behavior across navigation and page reloads.
-
-```ts
-export const LanguageProvider = ({ children }: { children: ReactNode }) => {
-	const [lang, setLangState] = useState("es-mx"); // Default language
-	const router = useRouter();
-	const pathname = usePathname();
-
-	useEffect(() => {
-		if (typeof window !== "undefined") {
-			const savedLang = sessionStorage.getItem("lang");
-			if (savedLang) {
-				setLangState(savedLang);
-			} else {
-				const browserLang = navigator.language;
-				const normalizedLang =
-					browserLang.toLowerCase() === "en-us" ? "en-us" : "es-mx";
-				setLangState(normalizedLang);
-				sessionStorage.setItem("lang", normalizedLang);
-			}
-		}
-	}, []);
-};
-```
-
----
-
-## Key Learnings
-
-1. Implementing bilingual (English / Spanish) content with dynamic routing using Prismic
-    
-2. Securing contact information by encrypting emails and decrypting only on user interaction, combined with server-side email handling via Nodemailer
-    
-3. Integrating a lightbox solution to support high-quality photography galleries
-
----
-
-## Notes / Improvements
-
-- Image preloading or caching could further improve performance and perceived load times, especially for gallery-heavy pages.
+A case study on building Alejandra Leyva's bilingual journalism portfolio with Next.js, Prismic, responsive galleries, and CMS-driven project pages.
