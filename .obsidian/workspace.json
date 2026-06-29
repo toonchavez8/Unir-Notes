@@ -6,7 +6,6 @@
       {
         "id": "ca5327cef764fdbf",
         "type": "tabs",
-        "dimension": 33.06233062330624,
         "children": [
           {
             "id": "e31fed4da41b94cd",
@@ -82,37 +81,6 @@
           }
         ],
         "currentTab": 1
-      },
-      {
-        "id": "659ac1613a10e628",
-        "type": "tabs",
-        "dimension": 66.93766937669376,
-        "children": [
-          {
-            "id": "0ea8a8348dbd4e4c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-02/informe.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "informe"
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -279,10 +247,10 @@
       "open-vscode:VS Code": false
     }
   },
-  "active": "0ea8a8348dbd4e4c",
+  "active": "c0392c9fca3d567a",
   "lastOpenFiles": [
-    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-02/guia_paso_a_paso_act2.md",
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-02/informe.md",
+    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-02/guia_paso_a_paso_act2.md",
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-02/analisis_profundo_clasificacion_noticias_pln.md",
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-02/figuras/distribucion_clases_test.png",
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-02/notas_analisis.md",
