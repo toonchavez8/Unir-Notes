@@ -1,0 +1,5 @@
+Metodo,Numero_clusters,Silhouette,Observacion
+K-Means sin género,6,0.428,Referencia base
+K-Means con género,10,0.421,Valida el impacto del género
+Agglomerative sin género,6,0.42,Referencia jerárquica base
+Agglomerative con género,10,0.418,Jerárquico con variable de género

@@ -7,6 +7,7 @@ Esta guía está pensada para ayudarte a resolver la actividad de forma sólida 
 
 ---
 
+
 ## 1. Qué te están pidiendo realmente
 
 La actividad no te pide solo entrenar un modelo. Te pide demostrar que entiendes un flujo completo de **Machine Learning aplicado a texto**:
@@ -384,7 +385,7 @@ Crear un entorno virtual para aislar dependencias.
 ### Comandos
 
 ```powershell
-python -m venv .venv
+`python -m venv .venv
 .\.venv\Scripts\Activate.ps1
 python --version
 ```
@@ -701,9 +702,6 @@ Esto responde directamente a la parte del enunciado que pide estadísticas de di
 - si las clases están balanceadas o no,
 - si hay textos muy cortos o muy largos,
 - si hay nulos o anomalías.
-
----
-
 ## Paso 12. Crear una función de limpieza de texto
 
 ### Qué debes hacer
