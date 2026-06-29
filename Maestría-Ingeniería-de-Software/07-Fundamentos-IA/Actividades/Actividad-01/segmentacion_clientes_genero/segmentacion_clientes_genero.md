@@ -341,7 +341,7 @@ plt.show()
 
 
     
-![png](output_12_0.png)
+![png](Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-01/segmentacion_clientes_genero/output_12_0.png)
     
 
 
@@ -354,7 +354,7 @@ plt.show()
 
 
     
-![png](output_13_0.png)
+![png](Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-01/segmentacion_clientes_genero/output_13_0.png)
     
 
 
@@ -536,7 +536,7 @@ plt.show()
 
 
     
-![png](output_19_0.png)
+![png](Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-01/segmentacion_clientes_genero/output_19_0.png)
     
 
 
@@ -552,7 +552,7 @@ plt.show()
 
 
     
-![png](output_20_0.png)
+![png](Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-01/segmentacion_clientes_genero/output_20_0.png)
     
 
 
@@ -658,7 +658,7 @@ plt.show()
 
 
     
-![png](output_23_0.png)
+![png](Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-01/segmentacion_clientes_genero/output_23_0.png)
     
 
 

@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-02/guia_paso_a_paso_act2.md",
+                "file": "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-01/guia_paso_a_paso_act1.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "guia_paso_a_paso_act2"
+              "title": "guia_paso_a_paso_act1"
             }
           },
           {
@@ -228,7 +228,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "open-vscode:VSCode": false,
       "vscode-editor:Create Code File": false,
       "bases:Create new base": false,
       "markdown-importer:Open format converter": false,
@@ -247,41 +246,41 @@
       "open-vscode:VS Code": false
     }
   },
-  "active": "c0392c9fca3d567a",
+  "active": "b74e6b9aa2987edc",
   "lastOpenFiles": [
-    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-02/informe.md",
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-02/guia_paso_a_paso_act2.md",
+    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-01/Entrega",
+    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-02/Entrega",
+    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-02/Entrega/informe.md",
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-02/analisis_profundo_clasificacion_noticias_pln.md",
-    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-02/figuras/distribucion_clases_test.png",
-    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-02/notas_analisis.md",
+    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-02/Entrega/figuras/distribucion_clases_test.png",
+    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-02/Entrega/notas_analisis.md",
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-02/markdown-export/clasificacion_noticias_pln.md",
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-02/markdown-export/output_35_1.png",
-    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-02/figuras/matriz_confusion_linearsvc_normalizada.png",
-    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-02/figuras/distribucion_clases_train.png",
+    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-02/Entrega/figuras/matriz_confusion_linearsvc_normalizada.png",
+    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-02/Entrega/figuras/distribucion_clases_train.png",
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-02/markdown-export/output_35_0.png",
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-02/markdown-export/output_16_0.png",
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-02/markdown-export/output_15_0.png",
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-02/markdown-export/clasificacion_noticias_pln.zip",
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-02/markdown-export",
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-02/clasificacion_noticias_pln.zip",
-    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-02/ejemplos_errores.csv",
-    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-02/figuras/matriz_confusion_linearsvc.png",
-    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-02/figuras/distribucion_clases.png",
+    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-02/Entrega/ejemplos_errores.csv",
+    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-02/Entrega/figuras/matriz_confusion_linearsvc.png",
+    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-02/Entrega/figuras/distribucion_clases.png",
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-02/resumen_experimentos.md",
-    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-02/metricas_modelos.csv",
-    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-02/figuras",
+    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-02/Entrega/metricas_modelos.csv",
+    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-02/Entrega/figuras",
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-02/ag-news-classificacion/train.csv",
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-02/ag-news-classificacion/test.csv",
-    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-02/ag-news-classificacion",
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-02/psuiadesoft01_act2.md",
-    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-02/train.csv",
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-01/explicacion_detallada_segmentacion_clientes.md",
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-01/Untitled.md",
-    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-01/informe.md",
+    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-01/Entrega/informe.md",
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-01/psuiadesoft01_act1.md",
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-01/attachments/Pasted image 20260628180655.png",
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-01/guia_paso_a_paso_act1.md",
-    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-01/notas_analisis.md",
+    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-01/Entrega/notas_analisis.md",
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-01/explicacion_detallada_segmentacion_clientes_genero.md",
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-01/segmentacion_clientes_genero/segmentacion_clientes_genero.md",
     "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-02-grupal/01-Guia.md",

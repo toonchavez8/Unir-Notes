@@ -540,7 +540,7 @@ Muestra el gráfico.
 
 ### Imagen generada
 
-![Ingreso anual vs puntuación de gasto](output_12_0.png)
+![Ingreso anual vs puntuación de gasto](Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-01/Entrega/figuras/output_12_0.png)
 
 ### Interpretación de la imagen
 
@@ -586,7 +586,7 @@ Muestra la figura.
 
 ### Imagen generada
 
-![Pairplot de variables numéricas](output_13_0.png)
+![Pairplot de variables numéricas](Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-01/Entrega/figuras/output_13_0.png)
 
 ### Interpretación de la imagen
 
@@ -896,7 +896,7 @@ Muestra la gráfica.
 
 ### Imagen generada
 
-![Método del codo](output_19_0.png)
+![Método del codo](Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-01/Entrega/figuras/output_19_0.png)
 
 ### Interpretación de la imagen
 
@@ -957,7 +957,7 @@ Muestra la gráfica.
 
 ### Imagen generada
 
-![Silhouette Score por número de clusters](output_20_0.png)
+![Silhouette Score por número de clusters](Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-01/Entrega/figuras/output_20_0.png)
 
 ### Interpretación de la imagen
 
@@ -1123,7 +1123,7 @@ Muestra la imagen.
 
 ### Imagen generada
 
-![Clusters obtenidos con K-Means](output_23_0.png)
+![Clusters obtenidos con K-Means](Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-01/Entrega/figuras/output_23_0.png)
 
 ### Interpretación de la imagen
 

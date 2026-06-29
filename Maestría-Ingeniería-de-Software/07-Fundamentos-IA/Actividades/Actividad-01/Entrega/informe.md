@@ -117,7 +117,7 @@ La edad promedio es 38.85 anos. La distribución va de clientes jovenes a client
 **Figura 1**  
 Histogramas de variables numericas
 
-![Figura 1. Histogramas de variables numericas](figuras/histogramas_variables.png)
+![Figura 1. Histogramas de variables numericas](histogramas_variables.png)
 
 El histograma de edad muestra a los clientes Desde 18 años de edad hasta los 70 años se nota una inconcentración Importante más en edadas jóvenes y adultas tempranas Especialmente entre los 20 y 40 años. 
 
@@ -128,7 +128,7 @@ Por último El histograma de El puntuaje De gasto Muestra valores repetidos De t
 **Figura 2**  
 Boxplots de variables numericas
 
-![Figura 2. Boxplots de variables numericas](figuras/boxplots_variables.png)
+![Figura 2. Boxplots de variables numericas](boxplots_variables.png)
 
 El boxplot De edad muestra Una mediana acerca de los 36 años aunque la caja cubre aproximadamente de los finales de los 20 acerca de los 49 años No notamos una valor esa típicos aquí.
 
@@ -141,7 +141,7 @@ Los boxplots muestran clientes con valores extremos, sobre todo en ingreso y gas
 **Figura 3**  
 Dispersión entre ingreso annual y puntuación de gasto
 
-![Figura 3. Ingreso anual vs puntuacion de gasto](figuras/scatter_ingreso_gasto.png)
+![Figura 3. Ingreso anual vs puntuacion de gasto](scatter_ingreso_gasto.png)
 
 Este gráfico de dispersión es 1 de los más importantes del análisis dado que muestra claramente que los clientes no están distribuidos como una nube completamente aleatoria sino hay zonas que podemos reconocer 
 
@@ -156,7 +156,7 @@ Son justamente las candidatas naturales para los clusters, Por ejemplo podemos v
 **Figura 4**  
 Pairplot de variables numericas
 
-![Figura 4. Pairplot de variables numericas](figuras/pairplot_variables.png)
+![Figura 4. Pairplot de variables numericas](pairplot_variables.png)
 
 El pairplot permite revisar relaciones entre todas las variables numéricas al mismo tiempo.
 
@@ -253,12 +253,12 @@ El mejor silhouette se obtuvo con `k=6`, pero escogi en el notebook `k=5` por in
 **Figura 6**  
 Metodo del code
 
-![Figura 5. Metodo del codo](figuras/elbow_method.png)
+![Figura 5. Metodo del codo](elbow_method.png)
 
 **Figura 7**  
 Silhouette score por numero de clusters
 
-![Figura 6. Silhouette score por numero de clusters](figuras/silhouette_scores.png)
+![Figura 6. Silhouette score por numero de clusters](silhouette_scores.png)
 
 ### 6.3 Entrenamiento Del Modelo
 
@@ -272,7 +272,7 @@ La configuracion final fue estable y reproducible. El modelo asigna a cada clien
 
 Clusters obtenidos con K-Means
 
-![Figura 7. Clusters obtenidos con K-Means](figuras/kmeans_clusters.png)
+![Figura 7. Clusters obtenidos con K-Means](kmeans_clusters.png)
 
 **Tabla 4**  
 Resumen de clusters K-Means
@@ -310,7 +310,7 @@ Se empleo `n_clusters=5` para mantener una comparacion directa con el modelo K-M
 **Figura 8**  
 Clusters obtenidos con Agglomerative Clustering
 
-![Figura 8. Clusters obtenidos con Agglomerative Clustering](figuras/agglomerative_clusters.png)
+![Figura 8. Clusters obtenidos con Agglomerative Clustering](agglomerative_clusters.png)
 
 El resultado cuantitativo fue:
 
