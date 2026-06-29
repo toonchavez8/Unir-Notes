@@ -1,262 +1,348 @@
-# Informe - Actividad 2
+# Clasificacion De Noticias Mediante Procesamiento De Lenguaje Natural
 
-## Clasificación de noticias mediante procesamiento de lenguaje natural
+Nombre del estudiante:  
+Matricula:  
+Asignatura: Fundamentos de inteligencia artificial  
+Institucion:  
+Docente:  
+Fecha:  
 
-## Datos del estudiante
-- Nombre:
-- Matrícula:
-- Asignatura:
-- Fecha:
+## 1. Introduccion
 
----
+La clasificacion automatica de texto consiste en asignar una etiqueta a un documento a partir de su contenido. En este trabajo, cada documento es una noticia periodistica y la etiqueta corresponde a una categoria tematica. Este tipo de problema es comun en procesamiento de lenguaje natural, area que estudia metodos computacionales para analizar y representar lenguaje humano (Bird et al., 2009).
 
-## 1. Introducción
+El problema no se resuelve directamente con texto crudo. Los modelos supervisados necesitan variables numericas. Por eso, el flujo de trabajo transforma cada noticia en una representacion vectorial antes de entrenar los modelos. En este caso se uso TF-IDF, sigla de term frequency-inverse document frequency. TF-IDF asigna peso a una palabra segun su frecuencia en un documento y segun que tan comun o rara es en el conjunto completo de documentos (Manning et al., 2008; Salton & Buckley, 1988).
 
-En esta actividad se desarrolla un sistema de clasificación automática de noticias mediante técnicas de procesamiento de lenguaje natural y aprendizaje supervisado. El objetivo general es construir modelos capaces de asignar una categoría temática a artículos periodísticos a partir de su contenido textual.
+El objetivo de la actividad fue desarrollar y comparar varios modelos supervisados capaces de clasificar noticias de AG News en cuatro categorias. La comparacion se realizo con metricas de accuracy, precision, recall y F1-score, ademas de validacion cruzada, matriz de confusion y analysis de errores.
 
-La clasificación de texto es un problema central en inteligencia artificial aplicada al lenguaje, ya que permite organizar información, automatizar flujos documentales y mejorar sistemas de recomendación, búsqueda y análisis de contenido. Para ello, en este trabajo se emplea un dataset etiquetado de noticias periodísticas y se sigue un flujo completo que incluye exploración de datos, preprocesamiento del texto, representación vectorial, entrenamiento de modelos, evaluación de métricas y análisis de errores.
+## 2. Metodo
 
----
+### 2.1 Dataset
 
-## 2. Objetivo
+Se utilizo el dataset AG News Classification, indicado en la actividad como fuente de datos. Este conjunto contiene noticias clasificadas en cuatro categorias: World, Sports, Business y Science/Technology. AG News tambien ha sido usado como referencia en trabajos de clasificacion de texto, por ejemplo en la evaluacion de redes convolucionales a nivel de character de Zhang et al. (2015).
 
-Desarrollar y comparar varios modelos supervisados para clasificar noticias en categorías temáticas, aplicando técnicas de preprocesamiento de texto, vectorización y evaluación rigurosa del rendimiento.
+Tabla 1
 
----
+Categorias del problema
 
-## 3. Descripción del dataset
+| Etiqueta | Clase usada en el notebook | Descripcion breve |
+|---:|---|---|
+| 1 | World | Noticias internacionales y politica global. |
+| 2 | Sports | Noticias deportivas. |
+| 3 | Business | Economia, empresas, mercado y finanzas. |
+| 4 | Sci/Tech | Ciencia, tecnologia, productos y desarrollo tecnico. |
 
-### 3.1 Fuente de datos
-- Dataset:
-- Fuente:
-- URL:
-- Fecha de descarga:
+El dataset se recibio separado en dos archivos: `train.csv` y `test.csv`. El primero se uso para entrenar los modelos y el segundo para evaluar el rendimiento final.
 
-### 3.2 Estructura del dataset
-- Archivos utilizados:
-- Número de registros en entrenamiento:
-- Número de registros en prueba:
-- Número de clases:
-- Columnas incluidas:
+Tabla 2
 
-### 3.3 Categorías del problema
+Estructura del dataset
 
-Describe aquí las clases presentes en el dataset, por ejemplo:
+| Conjunto | Registros | Columnas originales | Uso |
+|---|---:|---|---|
+| Entrenamiento | 120000 | `Class Index`, `Title`, `Description` | Ajuste de TF-IDF y entrenamiento de modelos. |
+| Prueba | 7600 | `Class Index`, `Title`, `Description` | Evaluacion final del rendimiento. |
 
-- `World`
-- `Sports`
-- `Business`
-- `Science/Technology`
+No se detectaron valores nulos en las columnas originales. Aun asi, al construir la columna textual se uso `fillna("")` para evitar errores si el dataset cambiara en otra version.
 
-### 3.4 Observaciones iniciales
+### Construccion Del Texto De Entrada
 
-Incluye una descripción general del dataset, su escala, utilidad y pertinencia para el problema de clasificación.
+El texto de entrada se construyo uniendo el titulo y la descripción de cada noticia:
 
----
+```python
+train_df["text"] = train_df[TEXT_COL_1].fillna("") + " " + train_df[TEXT_COL_2].fillna("")
+test_df["text"] = test_df[TEXT_COL_1].fillna("") + " " + test_df[TEXT_COL_2].fillna("")
+```
 
-## 4. Análisis exploratorio del conjunto de datos
+Esta decision fue dado a que el titulo suele container la idea central y la descripción agrega contexto. Usar ambos campos aumenta la information disponible para el vectorizador.
 
-### 4.1 Carga y visualización de una muestra
+Tambien se agrego un mapa de clases para que las tablas y graficas fueran legibles:
 
-Explica brevemente cómo se cargaron los archivos y qué columnas de texto se utilizaron.
+```python
+CLASS_NAMES = {
+    1: "World",
+    2: "Sports",
+    3: "Business",
+    4: "Sci/Tech"
+}
+CLASS_ORDER = [CLASS_NAMES[label] for label in sorted(CLASS_NAMES)]
+```
 
-### 4.2 Distribución por clase
+### Analysis Exploratorio
 
-Presenta una tabla o gráfica con la cantidad de noticias por categoría y comenta si el dataset está balanceado.
+El primer punto revisado fue el balance de clases. El balance es importante porque un conjunto desbalanceado puede hacer que la accuracy parezca buena aunque el modelo ignore clases minoritarias.
 
-### 4.3 Longitud de los textos
+Tabla 3
 
-Resume observaciones sobre la longitud de las noticias y su posible impacto en la clasificación.
+Distribucion por clase
 
-### 4.4 Valores nulos y duplicados
+| Clase | Entrenamiento | Prueba |
+|---|---:|---:|
+| World | 30000 | 1900 |
+| Sports | 30000 | 1900 |
+| Business | 30000 | 1900 |
+| Sci/Tech | 30000 | 1900 |
 
-Explica si se detectaron problemas de calidad de datos y cómo se manejaron.
+Figura 1
 
-### 4.5 Interpretación del análisis exploratorio
+Distribucion de noticias por clase en entrenamiento
 
-Redacta una síntesis técnica de lo observado antes del preprocesamiento.
+![Distribucion de noticias por clase en entrenamiento](markdown-export/output_15_0.png)
 
----
+Nota. La figura muestra que las cuatro clases tienen 30000 ejemplos en entrenamiento.
 
-## 5. Preprocesamiento del texto
+Figura 2
 
-### 5.1 Construcción del texto de entrada
+Distribucion de noticias por clase en prueba
 
-Explica si se utilizó solo el título, solo la descripción o una combinación de ambos.
+![[distribucion_clases_test.png]]
 
-### 5.2 Normalización
+Nota. La figura muestra 1900 noticias por clase en el conjunto de prueba.
 
-Describe las transformaciones aplicadas, por ejemplo:
+Tambien se reviso la longitud del texto combinado. La longitud media fue casi igual entre entrenamiento y prueba, lo cual sugiere que ambos conjuntos tienen formatos comparables.
 
-- conversión a minúsculas,
-- eliminación de caracteres especiales,
-- eliminación de números o símbolos,
-- limpieza general.
+Tabla 4
 
-### 5.3 Tokenización
+Longitud del texto combinado
 
-Explica en qué consistió la tokenización y por qué fue necesaria.
+| Estadistico | Entrenamiento | Prueba |
+|---|---:|---:|
+| Media | 236.46 | 235.29 |
+| Desviacion estandar | 66.53 | 65.30 |
+| Mediana | 232 | 231 |
+| Maximo | 1012 | 892 |
 
-### 5.4 Eliminación de stopwords
+### Preprocesamiento Del Texto
 
-Justifica si se eliminaron y por qué.
+El preprocesamiento preparo el texto para convertirlo en variables numericas. Primero se convirtio todo a minusculas. Despues se eliminaron caracteres no alfabeticos, se separo el texto en tokens, se quitaron stopwords y se aplico lematizacion.
 
-### 5.5 Lematización
+Un token es una unidad minima de procesamiento textual, normalmente una palabra o signo separado por el tokenizador. La tokenizacion es necesaria porque muchas tecnicas de PLN operan sobre unidades discretas del texto (Bird et al., 2009). Las stopwords son palabras muy frecuentes, como articulos o preposiciones, que pueden aportar poco al tema de una noticia. La lematizacion reduce una palabra a una forma base, por ejemplo plural a singular o variantes flexionadas a una forma comun.
 
-Describe el proceso de lematización aplicado y su utilidad en este contexto.
+El codigo usado fue:
 
-### 5.6 Resultado del preprocesamiento
+```python
+stop_words = set(stopwords.words("english"))
+lemmatizer = WordNetLemmatizer()
 
-Muestra ejemplos breves de texto antes y después del preprocesamiento.
+def clean_text(text):
+    text = str(text).lower()
+    text = re.sub(r"[^a-zA-Z\s]", " ", text)
+    tokens = word_tokenize(text)
+    tokens = [token for token in tokens if token not in stop_words and len(token) > 2]
+    tokens = [lemmatizer.lemmatize(token) for token in tokens]
+    return " ".join(tokens)
+```
 
----
+El resultado de esta function es una version mas compacta del texto. Por ejemplo, una noticia sobre mercados y petroleo queda reducida a terminos como `oil`, `economy`, `stock`, `outlook` y `reuters`. La limpieza ayuda a reducir ruido, aunque tambien tiene una limitacion: al eliminar numeros se pueden perder senales utiles en noticias financieras o tecnologicas, como porcentajes, años, versiones de productos o precios.
 
-## 6. Representación vectorial del texto
+### Representacion Vectorial
 
-### 6.1 Método seleccionado
+Los modelos supervisados de scikit-learn no entrenan directamente sobre cadenas de texto. Primero se require convertir cada noticia en un vector numerico. Para esto se uso TF-IDF.
 
-Indica el método usado para representar el texto, por ejemplo:
+TF-IDF combina dos ideas. La frecuencia de termino mide cuantas veces aparece una palabra en un documento. La frecuencia inversa de documento reduce el peso de palabras que aparecen en demasiados documentos, porque suelen set menos distintivas (Manning et al., 2008). Este enfoque ha sido clasico en recuperacion de information y clasificacion de texto (Salton & Buckley, 1988).
 
-- TF-IDF
-- embeddings
+La configuracion fue:
 
-### 6.2 Justificación de la elección
+```python
+tfidf = TfidfVectorizer(
+    max_features=20000,
+    ngram_range=(1, 2),
+    min_df=3,
+    max_df=0.95
+)
+```
 
-Explica por qué ese método fue adecuado para esta actividad.
+Tabla 5
 
-### 6.3 Configuración
+Parametros de TF-IDF
 
-Incluye parámetros relevantes como:
+| Parametro | Valor | Function |
+|---|---:|---|
+| `max_features` | 20000 | Limita el vocabulario para controlar memoria y ruido. |
+| `ngram_range` | `(1, 2)` | Usa palabras individuales y pares de palabras. |
+| `min_df` | 3 | Descarta terminos presentes en menos de tres documentos. |
+| `max_df` | 0.95 | Descarta terminos presentes en mas del 95% de documentos. |
 
-- número máximo de características,
-- n-gramas,
-- filtros por frecuencia.
+Un n-grama es una secuencia de n elementos consecutivos. En este caso, unigrama significa una palabra individual y bigrama significa una secuencia de dos palabras. Los bigramas ayudan a capturar expresiones como `stock market` o `world cup`.
 
-### 6.4 Comentario técnico
+Despues de vectorizar, las matrices quedaron asi:
 
-Explica brevemente por qué un modelo supervisado necesita una representación numérica del texto.
+Tabla 6
 
----
+Dimensions de las matrices TF-IDF
 
-## 7. Entrenamiento de modelos supervisados
+| Matriz | Forma |
+|---|---|
+| `X_train_tfidf` | `(120000, 20000)` |
+| `X_test_tfidf` | `(7600, 20000)` |
 
-### 7.1 Modelos seleccionados
+### Modelos Supervisados
 
-Lista los modelos utilizados, por ejemplo:
+Se entrenaron tres modelos con la misma representacion TF-IDF:
 
-- Naive Bayes
-- Logistic Regression
-- LinearSVC
+1. `MultinomialNB`.
+2. `LogisticRegression`.
+3. `LinearSVC`.
 
-### 7.2 Justificación de selección
+Naive Bayes funciona como una linea base rapida para texto. Regression logistica es un modelo lineal usado con frecuencia cuando las variables son pesos numericos. LinearSVC implementa una maquina de vectors de soporte lineal; las maquinas de vectors de soporte buscan separar clases mediante margenes amplios, idea introducida formalmente por Cortes y Vapnik (1995). La implementacion se realizo con scikit-learn, una biblioteca de aprendizaje automatico documentada por Pedregosa et al. (2011).
 
-Explica por qué esos modelos son adecuados para clasificación de texto.
+La evaluacion incluyo validacion cruzada. En este contexto, validacion cruzada significa dividir el conjunto de entrenamiento en particiones, entrenar varias veces y medir si el rendimiento se mantiene estable. Se uso `Pipeline` para que TF-IDF se ajustara dentro de cada fold y no filtrara information.
 
-### 7.3 División de entrenamiento y prueba
+## Resultados
 
-Describe cómo se definieron los conjuntos de entrenamiento y prueba.
+### Metricas Globales
 
-### 7.4 Validación cruzada
+Se calcularon accuracy, precision, recall y F1-score. Accuracy mide la proporcion total de aciertos. Precision mide que proporcion de las predicciones positivas de una clase fueron correctas. Recall mide que proporcion de los casos reales de una clase fueron recuperados. F1-score combina precision y recall en una sola medida, util cuando interesa equilibrar ambos tipos de error.
 
-Explica cómo se aplicó la validación cruzada y por qué es importante.
+Tabla 7
 
----
+Metricas en conjunto de prueba
 
-## 8. Evaluación del rendimiento
+| Modelo | Accuracy | Precision | Recall | F1-score |
+|---|---:|---:|---:|---:|
+| Naive Bayes | 0.900263 | 0.899927 | 0.900263 | 0.899832 |
+| Logistic Regression | 0.913684 | 0.913537 | 0.913684 | 0.913513 |
+| LinearSVC | 0.918289 | 0.918251 | 0.918289 | 0.918199 |
 
-### 8.1 Métricas utilizadas
+LinearSVC fue el mejor modelo en el conjunto de prueba. Su ventaja sobre Logistic Regression fue pequeña, pero aparece que fue la mejor en todas las metricas.
 
-Describe brevemente:
+### Reporte Por Clase
 
-- Accuracy
-- Precision
-- Recall
-- F1-score
+El mejor modelo se eligio automaticamente a partir del F1-score:
 
-### 8.2 Resultados por modelo
+```python
+predictions = {
+    "Naive Bayes": nb_pred,
+    "Logistic Regression": lr_pred,
+    "LinearSVC": svm_pred,
+}
 
-Incluye una tabla comparativa con las métricas obtenidas por cada modelo.
+best_model_name = results_df.sort_values("f1_score", ascending=False).iloc[0]["modelo"]
+best_pred = predictions[best_model_name]
+```
 
-### 8.3 Classification report
+Tabla 8
 
-Resume el comportamiento por clase del modelo más fuerte.
+Reporte por clase para LinearSVC
 
-### 8.4 Matriz de confusión
+| Clase | Precision | Recall | F1-score | Support |
+|---|---:|---:|---:|---:|
+| World | 0.93 | 0.91 | 0.92 | 1900 |
+| Sports | 0.96 | 0.98 | 0.97 | 1900 |
+| Business | 0.88 | 0.89 | 0.88 | 1900 |
+| Sci/Tech | 0.90 | 0.90 | 0.90 | 1900 |
 
-Incluye la matriz de confusión del modelo final y comenta cuáles clases se confundieron con más frecuencia.
+Sports fue la clase con mejor resultado, con recall de 0.98 y F1-score de 0.97. Business fue la clase mas dificil, con F1-score de 0.88.
 
----
+### Matriz De Confusion
 
-## 9. Análisis de errores
+La matriz de confusion muestra como se distribuyen los aciertos y errores entre clases. Cada fila corresponde a la clase real y cada columna a la clase predicha.
 
-Presenta ejemplos de noticias mal clasificadas y analiza posibles causas, por ejemplo:
+Figura 3
 
-- ambigüedad temática,
-- vocabulario compartido entre categorías,
-- textos cortos,
-- insuficiencia del preprocesamiento clásico.
+Matriz de confusion de LinearSVC
 
----
+![Matriz de confusion de LinearSVC](markdown-export/output_35_0.png)
 
-## 10. Comparación y selección del modelo final
+Nota. Los valores de la diagonal son aciertos. Los valores fuera de la diagonal son errores.
 
-### 10.1 Comparación global
+Tabla 9
 
-Analiza:
+Matriz de confusion con conteos
 
-- rendimiento cuantitativo,
-- consistencia en validación cruzada,
-- simplicidad,
-- interpretabilidad,
-- costo computacional.
+| Clase real | World | Sports | Business | Sci/Tech | Aciertos |
+|---|---:|---:|---:|---:|---:|
+| World | 1726 | 53 | 79 | 42 | 1726 |
+| Sports | 17 | 1861 | 12 | 10 | 1861 |
+| Business | 56 | 13 | 1684 | 147 | 1684 |
+| Sci/Tech | 48 | 11 | 133 | 1708 | 1708 |
 
-### 10.2 Modelo seleccionado
+El modelo acerto 6979 de 7600 noticias. La mayor confusion se dio entre Business y Sci/Tech: 147 noticias de Business fueron clasificadas como Sci/Tech, y 133 noticias de Sci/Tech fueron clasificadas como Business.
 
-Indica cuál fue el modelo final elegido.
+Figura 4
 
-### 10.3 Justificación técnica
+Matriz de confusion normalizada de LinearSVC
 
-Explica claramente por qué fue seleccionado por encima de los demás.
+![Matriz de confusion normalizada de LinearSVC](markdown-export/output_35_1.png)
 
----
+Nota. La matriz normalizada muestra proporciones por clase real. Por eso facilita comparar el recall entre clases.
 
-## 11. Limitaciones del trabajo
+La matriz normalizada confirma que Sports fue la categoria mas estable. Business y Sci/Tech quedaron cerca, pero concentran la mayor parte de las confusiones relevantes.
 
-Describe limitaciones como:
+### Validacion Cruzada
 
-- pérdida de contexto semántico con TF-IDF,
-- ausencia de modelos profundos,
-- dependencia del preprocesamiento clásico,
-- clases potencialmente cercanas entre sí.
+Tabla 10
 
----
+Validacion cruzada con F1 ponderado
 
-## 12. Mejoras futuras
+| Modelo | CV F1 promedio | Desviacion estandar |
+|---|---:|---:|
+| Naive Bayes | 0.897162 | 0.008342 |
+| Logistic Regression | 0.903738 | 0.007320 |
+| LinearSVC | 0.897629 | 0.008769 |
 
-Propón mejoras posibles, por ejemplo:
+Este resultado es importante. LinearSVC fue mejor en el conjunto de prueba, pero Logistic Regression obtuvo el mejor F1 promedio en validacion cruzada. Por eso, la seleccion final no debe presentarse como una victoria absoluta de LinearSVC. La diferencia real es mas matizada.
 
-- ajuste de hiperparámetros,
-- uso de embeddings preentrenados,
-- uso de transformers como BERT,
-- mayor análisis interpretativo de errores.
+## Analysis De Errores
 
----
+El notebook genero una tabla de errores con texto original, texto limpio, clase real y clase predicha. Mantener el texto original fue util porque permite entender mejor la noticia. El texto limpio muestra que recibio el modelo, pero el texto original muestra el contexto.
 
-## 13. Conclusiones
+Tabla 11
 
-Redacta una conclusión final integrando:
+Ejemplos de errores de clasificacion
 
-- lo realizado,
-- los principales resultados,
-- el modelo con mejor desempeño,
-- el valor práctico de la solución,
-- las limitaciones y proyección futura.
+| Caso | Clase real | Clase predicha | Lectura |
+|---|---|---|---|
+| HP, servidores y ganancias | Sci/Tech | Business | Tecnologia descrita con vocabulario financiero. |
+| Google IPO | Sci/Tech | Business | Google apunta a tecnologia, pero IPO apunta a negocios. |
+| Chavez, Venezuela y mercado petrolero | World | Business | Politica internacional mezclada con petroleo y mercado. |
+| Intel y television de alta definicion | Business | Sci/Tech | Empresa y producto tecnologico en la misma noticia. |
+| Juegos olimpicos India/UAE | Sports | World | Deporte con fuerte contexto geografico. |
 
----
+El patron principal esta en la frontera Business/Sci-Tech. Esto no parece un error trivial del modelo. Varias noticias mezclan empresa, mercado, producto y tecnologia. En esos casos, incluso una lectura humana puede depender del criterio editorial usado por el dataset.
 
-## 14. Referencias
+## Seleccion Del Modelo Final
 
-- Dataset utilizado:
-- Documentación consultada:
-- Librerías empleadas:
+El modelo final seleccionado fue LinearSVC.
 
+La razon principal es su rendimiento en el conjunto de prueba: accuracy de 0.9183 y F1-score ponderado de 0.9182. Tambien mostro una diagonal fuerte en la matriz de confusion y un comportamiento razonable en todas las clases.
+
+Quien seria una segunda opción seria Logistic Regression. En validación cruzada, este modelo obtuvo el mejor F1 promedio. Por eso, Logistic Regression seria una opcion defendible si el criterio principal fuera estabilidad interna. En esta actividad se eligio LinearSVC porque el conjunto de prueba separado funciono como evaluacion final.
+
+## Limitaciones
+
+El trabajo tiene algunas limitaciones. Primero, la limpieza elimina numeros, lo cual puede quitar information util en noticias de negocios y tecnologia. Segundo, TF-IDF representa documentos por pesos de terminos, pero no entiende significado contextual. Dos noticias con palabras parecidas pueden recibir vectors parecidos aunque el sentido editorial sea distinto. Tercero, no se ajustaron hiperparametros de manera exhaustiva. Por ultimo, no se probaron embeddings ni modelos basados en transformers.
+
+Un embedding es una representacion densa de una palabra o documento en un espacio vectorial, donde palabras semanticamente cercanas tienden a quedar cerca entre si (Mikolov et al., 2013). Un transformer es una arquitectura de aprendizaje profundo basada en mecanismos de atencion, disenada para modelar relaciones entre elementos de una secuencia sin depender de recurrencia (Vaswani et al., 2017). Ambas alternativas podrian capturar relaciones semanticas mas complejas que TF-IDF.
+
+## Mejoras Futuras
+
+Para mejorar el flujo, convendria probar una limpieza menos agresiva que conserve numeros, porcentajes y simbolos financieros. Tambien seria util ajustar hiperparametros de Logistic Regression y LinearSVC, sobre todo el parametro `C`. Otra mejora seria comparar TF-IDF con embeddings preentrenados o modelos transformer. Finalmente, se podria guardar el modelo final con `joblib` para reutilizarlo sin volver a entrenar.
+
+## Conclusiones
+
+El flujo implementado cumple con los requisitos de la actividad. Se realizo exploracion del dataset, preprocesamiento textual, representacion vectorial, entrenamiento de tres modelos, validacion cruzada, calculo de metricas, matriz de confusion y analysis de errores.
+
+El dataset esta balanceado, lo que facilita una comparacion justa entre modelos. LinearSVC fue el mejor modelo en el conjunto de prueba, con accuracy de 0.9183 y F1-score ponderado de 0.9182. Sports fue la clase mas facil de clasificar, mientras que Business y Sci/Tech concentraron la mayor confusion.
+
+La lectura final debe set cuidadosa: LinearSVC gana en prueba, pero Logistic Regression muestra mejor F1 promedio en validacion cruzada. En terminos practicos, LinearSVC es una buena seleccion final para esta entrega, siempre que se reconozca que la diferencia con Logistic Regression es reducida.
+
+## Referencias
+
+Anand, A. (s. f.). *AG News classification dataset*. Kaggle. https://www.kaggle.com/datasets/amananandrai/ag-news-classification-dataset
+
+Bird, S., Klein, E., & Loper, E. (2009). *Natural language processing with Python*. O'Reilly Media. https://www.nltk.org/book/
+
+Cortes, C., & Vapnik, V. (1995). Support-vector networks. *Machine Learning, 20*, 273-297. https://doi.org/10.1007/BF00994018
+
+Manning, C. D., Raghavan, P., & Schutze, H. (2008). *Introduction to information retrieval*. Cambridge University Press. https://nlp.stanford.edu/IR-book/
+
+Mikolov, T., Chen, K., Corrado, G., & Dean, J. (2013). *Efficient estimation of word representations in vector space*. arXiv. https://arxiv.org/abs/1301.3781
+
+Pedregosa, F., Varoquaux, G., Gramfort, A., Michel, V., Thirion, B., Grisel, O., Blondel, M., Prettenhofer, P., Weiss, R., Dubourg, V., Vanderplas, J., Passos, A., Cournapeau, D., Brucher, M., Perrot, M., & Duchesnay, E. (2011). Scikit-learn: Machine learning in Python. *Journal of Machine Learning Research, 12*, 2825-2830. https://jmlr.org/papers/v12/pedregosa11a.html
+
+Salton, G., & Buckley, C. (1988). Term-weighting approaches in automatic text retrieval. *Information Processing & Management, 24*(5), 513-523. https://doi.org/10.1016/0306-4573(88)90021-0
+
+Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A. N., Kaiser, L., & Polosukhin, I. (2017). Attention is all you need. *Advances in Neural Information Processing Systems, 30*. https://arxiv.org/abs/1706.03762
+
+Zhang, X., Zhao, J., & LeCun, Y. (2015). Character-level convolutional networks for text classification. *Advances in Neural Information Processing Systems, 28*. https://arxiv.org/abs/1509.01626
