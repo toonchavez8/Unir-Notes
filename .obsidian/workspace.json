@@ -11,12 +11,24 @@
             "id": "56acb1598de70194",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-02/Entrega/Actividad 2. Clasificación De Noticias Mediante Procesamiento De Lenguaje Natural.pdf"
+                "file": "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-02-grupal/01-Guia.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "lucide-file-text",
-              "title": "Actividad 2. Clasificación De Noticias Mediante Procesamiento De Lenguaje Natural"
+              "icon": "lucide-file",
+              "title": "01-Guia"
             }
           },
           {
@@ -181,6 +193,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "open-vscode:VS Code": false,
       "bases:Create new base": false,
       "markdown-importer:Open format converter": false,
       "audio-recorder:Start/stop recording": false,
@@ -195,18 +208,22 @@
       "obsidian-git:Open Git source control": false,
       "mermaid-tools:Open Mermaid Toolbar": false,
       "omnisearch:Omnisearch": false,
-      "vscode-editor:Create Code File": false,
-      "open-in-zed:Open vault in Zed": false
+      "vscode-editor:Create Code File": false
     }
   },
   "active": "56acb1598de70194",
   "lastOpenFiles": [
+    "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-02-grupal/mexissi06_act2_grupal.docx",
+    "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-02-grupal/mexissi06_act2_grupal.md",
+    "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-02-grupal/mexissi06_act2_grupal-Miguel.md",
+    "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-02-grupal/01-Guia.md",
+    "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-02-grupal/02-Documento-entrega-y-plan-equipo.md",
+    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-02/Entrega/Actividad 2. Clasificación De Noticias Mediante Procesamiento De Lenguaje Natural.pdf",
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-02/psuiadesoft01_act2.docx",
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-02/Entrega/Actividad 2. Clasificación De Noticias Mediante Procesamiento De Lenguaje Natural.zip",
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-02/Entrega/metricas_modelos.zip",
     "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/Actividades/Actividad-02/mexdiux01_act2-new.docx",
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-01/psuiadesoft01_act1.docx",
-    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-02/Entrega/Actividad 2. Clasificación De Noticias Mediante Procesamiento De Lenguaje Natural.pdf",
     "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/Actividades/Actividad-02/Caso de analisis.md",
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-01/Entrega/segmentacion_clientes.zip",
     "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/Actividades/Actividad-02/mexdiux01_act2-new.md",
@@ -218,7 +235,6 @@
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-01/Entrega/notas_analisis.md",
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-01/informe.md",
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-02/Entrega/informe.md",
-    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-02/Entrega/informe.odt",
     "Dev-Journel/Projects/00-template.md",
     "conflict-files-obsidian-git.md",
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-02/markdown-export/output_35_1.png",
@@ -243,10 +259,6 @@
     "Dev_Challenges/02-Fem-Typing-Speed-Test.md",
     "Dev_Challenges/Ai-chatbot-whatapp.md",
     "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/Actividades/Actividad-02/Untitled.md",
-    "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/Actividades/Actividad-02/Actividad-02-Miguel-Chavez.md",
-    "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/Actividades/Actividad-02/mexdiux01_act2-new-guia.md",
-    "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/Actividades/Actividad-02/Guia.md",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Actividad-01-Estado-del-Arte/Actividad-01-Estado-del-Arte-Broker-Hibrido-gRPC-Redis-Unificado.md",
     "Untitled.canvas"
   ]
 }

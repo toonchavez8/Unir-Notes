@@ -4,7 +4,6 @@
 
 Este documento define como debe estructurarse el informe final de la actividad grupal y como se debe dividir el trabajo entre los integrantes del equipo. Se toma como base el enunciado y la rubrica de `mexissi06_act2_grupal.md`, junto con la guia tecnica de implementacion definida en `01-Guia.md`.
 
-La entrega final no debe ser solamente una guia de pasos. Debe ser un informe academico que demuestre que el equipo diseno, implemento, valido y documento una arquitectura de alta disponibilidad en AWS Academy.
 
 ## 2. Documento final que se debe entregar
 
