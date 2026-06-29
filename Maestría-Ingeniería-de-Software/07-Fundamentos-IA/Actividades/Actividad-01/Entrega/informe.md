@@ -278,12 +278,12 @@ Clusters obtenidos con K-Means
 Resumen de clusters K-Means
 
 | Cluster | Edad media | Ingreso medio (k$) | Gasto medio | Tamaño |
-|---:|---:|---:|---:|---:|
-| 0 | 46.25 | 26.75 | 18.35 | 20 |
-| 1 | 25.19 | 41.09 | 62.24 | 54 |
-| 2 | 32.88 | 86.10 | 81.53 | 40 |
-| 3 | 39.87 | 86.10 | 19.36 | 39 |
-| 4 | 55.64 | 54.38 | 48.85 | 47 |
+| ------: | ---------: | -----------------: | ----------: | -----: |
+|       0 |      46.25 |              26.75 |       18.35 |     20 |
+|       1 |      25.19 |              41.09 |       62.24 |     54 |
+|       2 |      32.88 |              86.10 |       81.53 |     40 |
+|       3 |      39.87 |              86.10 |       19.36 |     39 |
+|       4 |      55.64 |              54.38 |       48.85 |     47 |
 
 ### 6.5 Interpretacion De Los Clusters
 
@@ -314,10 +314,10 @@ Clusters obtenidos con Agglomerative Clustering
 
 El resultado cuantitativo fue:
 
-| Metodo | Numero de clusters | Silhouette |
-|---|---:|---:|
-| K-Means | 5 | 0.416643 |
-| Agglomerative Clustering | 5 | 0.390028 |
+| Metodo                   | Numero de clusters | Silhouette |
+| ------------------------ | -----------------: | ---------: |
+| K-Means                  |                  5 |   0.416643 |
+| Agglomerative Clustering |                  5 |   0.390028 |
 
 ### 7.4 Interpretacion De Resultados
 
