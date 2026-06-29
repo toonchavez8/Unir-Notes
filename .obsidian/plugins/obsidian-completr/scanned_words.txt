@@ -7388,6 +7388,8 @@ EmCjlo
 ERX
 EDDDTn
 Exploratorio
+Estadistica
+Excluidas
 Historia
 Howard
 Habilidades
@@ -14678,6 +14680,11 @@ dhp
 dejarlo
 defenderse
 desempeno
+densidades
+delimita
+deciicon
+decicon
+diferencial
 La
 Linea
 Las
@@ -21235,6 +21242,7 @@ hFdd
 hee
 hgR
 hFtu
+homogeneos
 referencia
 reconocer
 rmino
@@ -25367,6 +25375,9 @@ resumentes
 rIAf
 ryII
 realizo
+relato
+repartidas
+representando
 la
 los
 las
@@ -28683,6 +28694,8 @@ leerla
 lsi
 lip
 lqHe
+leerse
+ltimas
 sentimientos
 sugiere
 ser
@@ -32728,6 +32741,10 @@ senal
 simetricos
 significaria
 sHIIQ
+siguio
+supero
+superpuestos
+segmentation
 tiempo
 tiene
 tica
@@ -36300,6 +36317,7 @@ transformacion
 tiende
 tamanos
 tVLw
+trivial
 Siglo
 Self
 Se
@@ -40016,6 +40034,9 @@ StandardScaler
 Scatterplot
 Sade
 Segmentacion
+Segmentos
+Scikit
+Seleccionado
 Plat
 Pir
 Payne
@@ -43717,6 +43738,11 @@ Pagina
 Puntuacion
 Proporcion
 Parametros
+Prettenhofer
+Passos
+Perrot
+Pedregosa
+Pandas
 Todo
 Thorndike
 Todos
@@ -47109,6 +47135,8 @@ TLR
 Tecnica
 Transformacion
 TMDn
+Tercero
+Thirion
 aprendizaje
 ala
 aspectos
@@ -51534,6 +51562,16 @@ automatico
 apiladas
 aSu
 anos
+analitica
+atipicos
+aplico
+ajusto
+agruparlos
+aparecia
+apuntacion
+atribuidada
+ato
+activaciones
 una
 un
 unas
@@ -54887,6 +54925,8 @@ utmG
 ukS
 uqsC
 uQQQ
+utilizo
+unicos
 base
 biol
 bienestar
@@ -62481,6 +62521,16 @@ eCBB
 exclusion
 escalan
 economica
+estandarizarlas
+estadistico
+eliminaron
+eligieron
+excluyo
+entreno
+etiquetar
+estanda
+edadas
+escogi
 que
 quien
 quiere
@@ -68638,6 +68688,7 @@ jQq
 jqs
 jBV
 jZLLL
+justamente
 papel
 proceso
 pueden
@@ -72930,6 +72981,17 @@ pdSZe
 puuU
 pXnnnr
 practicos
+priorizacion
+propension
+poblacion
+probaron
+pura
+pedregosa
+practicamente
+pauta
+proviende
+puntuaje
+pajo
 clave
 coment
 capacidad
@@ -77773,6 +77835,12 @@ creacion
 caida
 compradas
 campanas
+concentro
+cercania
+campana
+comparados
+customers
+correlaciona
 Nic
 Necesidades
 No
@@ -84915,6 +84983,9 @@ metodologica
 mixtas
 mMF
 mkzn
+mostro
+mue
+mostramos
 Arist
 Abraham
 Adem
@@ -88795,6 +88866,7 @@ ALd
 ArOp
 AkQ
 Aplicacion
+Atipicos
 importancia
 inteligencia
 intelectivos
@@ -92992,6 +93064,10 @@ interpretacion
 iExe
 iBrj
 iyAn
+irregulares
+interpretativa
+inconcentraci
+incentivar
 formaci
 factores
 fortalezas
@@ -96440,6 +96516,7 @@ fragmentada
 faciles
 fFzu
 fidelizacion
+fragmenta
 Utiliza
 Una
 Uno
@@ -103159,6 +103236,11 @@ DDDDd
 DTj
 DDDDT
 DIDATx
+Desviacion
+Deteccion
+Dubourg
+Duchesnay
+Descriptiva
 Wechsler
 Wayne
 WhatsApp
@@ -106381,6 +106463,8 @@ WHY
 WZLx
 Wagg
 WDKKK
+Weiss
+Waskom
 no
 nos
 nuestro
@@ -109639,6 +109723,7 @@ numericas
 numerica
 nTp
 nWG
+notamos
 Maslow
 Miedo
 Mentoring
@@ -113332,6 +113417,10 @@ MrL
 Mevv
 MHe
 MFp
+Matricula
+Minimo
+Maximo
+Michel
 Gardner
 Goleman
 Generan
@@ -116469,6 +116558,8 @@ Genre
 Genero
 GXX
 Gbv
+Gramfort
+Grisel
 Formula
 Feedback
 Francis
@@ -119855,6 +119946,7 @@ FIGURES
 FDDD
 FHNn
 Faltan
+Futuras
 otras
 of
 on
@@ -126940,6 +127032,9 @@ Calculo
 Comparacion
 Cnj
 CHLL
+Cournapeau
+Cuantitativa
+Cualitativa
 vida
 viene
 va
@@ -130209,6 +130304,7 @@ valer
 vbWR
 vwQ
 variacion
+visualizacion
 Reuven
 REA
 Re
@@ -133897,6 +133993,7 @@ RangeIndex
 Recomendacion
 RNd
 RUjK
+Responden
 Bar
 Bisquerra
 Bajo
@@ -137202,6 +137299,10 @@ Boxplot
 BASE
 Brrr
 Bij
+Blondel
+Brucher
+Block
+Bastante
 Kama
 KPI
 Kurt
@@ -143625,6 +143726,8 @@ gBRq
 gGg
 geB
 gSq
+geometria
+generalizacion
 Ofrecen
 Orientaci
 Ordena
@@ -146797,6 +146900,8 @@ OeY
 Observacion
 OdeeY
 OacY
+Optimo
+Obtenidos
 Vergüenza
 Valores
 Vision
@@ -150057,6 +150162,9 @@ VTqG
 Visualizacion
 Vkw
 VDFFF
+Valido
+Varoquaux
+Vanderplas
 yo
 ya
 you
@@ -156313,6 +156421,7 @@ QfE
 QXXh
 QBCC
 QRRR
+Queda
 will
 words
 workspace
