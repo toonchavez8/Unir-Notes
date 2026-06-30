@@ -105,16 +105,18 @@ flowchart TB
 
 ### 3.4 Cómo Se Mueve El Tráfico
 
-Cuando un usuario abre el sitio, usa el DNS público del ALB. El ALB está en las subredes públicas y recibe tráfico HTTP por el puerto 80. Después envía la petición a una de las instancias EC2 del Target Group.
+La idea es que Cuando un usuario abre el sitio, usa el DNS público del AWS Application Load Balancer o ALB. El ALB está en las subredes públicas y recibe tráfico HTTP por el puerto 80. Después envía la petición a una de las instancias EC2 del Target Group.
 
 Las EC2 están en subredes privadas. No tienen IP pública y no se abren al mundo. Esto reduce la superficie de exposición: si alguien intenta entrar por SSH o por una IP directa, no debería poder hacerlo.
 
-WordPress se conecta a RDS por el puerto 3306. La regla importante aquí es que RDS no acepta tráfico desde Internet, ni desde cualquier IP de la VPC. Solo acepta conexiones cuyo origen sea el Security Group de la aplicación.
+WordPress se conecta a RDS por el puerto 3306. La regla importante aquí es que RDS no acepta tráfico desde Internet, ni desde cualquier IP de la VPC. Solo acepta conexiones donde su origen sea el Security Group de la aplicación.
 
 El Auto Scaling Group mantiene dos instancias. Si una falla, el grupo crea otra. No hay que prometer una recuperación perfecta en segundos, pero sí se puede demostrar que AWS detecta la instancia dañada y la reemplaza.
 
-RDS Multi-AZ mantiene una copia standby en otra zona de disponibilidad. Si AWS Academy no permite activar Multi-AZ por permisos o costo, no se debe inventar la evidencia. Se documenta la restricción y se muestra que el DB Subnet Group sí está preparado con dos subredes privadas en AZ distintas.
+RDS Multi-AZ mantiene una copia standby en otra zona de disponibilidad. Si AWS Academy no permite activar Multi-AZ por permisos o costo, tendríamos que ajustar esto pero Se documenta la restricción y se muestra que el DB Subnet Group sí está preparado con dos subredes privadas en AZ distintas.
 
+
+![[Cloud_Archecture_Act_2.drawio.svg]]
 ### 3.5 Trazabilidad Con El Enunciado
 
 | Requisito del enunciado | Cómo lo cubre esta guía | Evidencia recomendada |
@@ -129,16 +131,16 @@ RDS Multi-AZ mantiene una copia standby en otra zona de disponibilidad. Si AWS A
 
 El tiempo de AWS Academy se va rápido. Este orden evita perder tiempo creando recursos que después no pueden conectarse.
 
-| Tiempo | Trabajo | Resultado esperado |
-|---:|---|---|
+|      Tiempo | Trabajo                                                 | Resultado esperado                                       |
+| ----------: | ------------------------------------------------------- | -------------------------------------------------------- |
 | 0:00 - 0:15 | Iniciar el laboratorio, elegir región y definir nombres | Todos trabajan en la misma región y con el mismo prefijo |
-| 0:15 - 0:55 | Crear VPC, subredes, IGW, NAT Gateway y rutas | La red queda lista antes de crear servidores |
-| 0:55 - 1:20 | Crear Security Groups y DB Subnet Group | La seguridad queda definida antes de RDS y EC2 |
-| 1:20 - 2:00 | Crear RDS MySQL | La base queda lista y se copia el endpoint |
-| 2:00 - 2:35 | Crear Launch Template | WordPress queda automatizado con `user data` |
-| 2:35 - 3:10 | Crear Target Group, ALB y ASG | El frontend queda publicado por el balanceador |
-| 3:10 - 3:35 | Validar funcionamiento | Se revisan targets, WordPress, RDS y recuperación |
-| 3:35 - 4:00 | Tomar evidencias y limpiar si aplica | El equipo tiene material para el PDF |
+| 0:15 - 0:55 | Crear VPC, subredes, IGW, NAT Gateway y rutas           | La red queda lista antes de crear servidores             |
+| 0:55 - 1:20 | Crear Security Groups y DB Subnet Group                 | La seguridad queda definida antes de RDS y EC2           |
+| 1:20 - 2:00 | Crear RDS MySQL                                         | La base queda lista y se copia el endpoint               |
+| 2:00 - 2:35 | Crear Launch Template                                   | WordPress queda automatizado con `user data`             |
+| 2:35 - 3:10 | Crear Target Group, ALB y ASG                           | El frontend queda publicado por el balanceador           |
+| 3:10 - 3:35 | Validar funcionamiento                                  | Se revisan targets, WordPress, RDS y recuperación        |
+| 3:35 - 4:00 | Tomar evidencias y limpiar                              | El equipo tiene material para el PDF                     |
 
 ## 5. Antes De Empezar
 
