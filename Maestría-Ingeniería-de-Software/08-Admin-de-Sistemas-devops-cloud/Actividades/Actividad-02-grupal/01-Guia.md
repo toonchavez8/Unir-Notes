@@ -115,8 +115,10 @@ El Auto Scaling Group mantiene dos instancias. Si una falla, el grupo crea otra.
 
 RDS Multi-AZ mantiene una copia standby en otra zona de disponibilidad. Si AWS Academy no permite activar Multi-AZ por permisos o costo, tendríamos que ajustar esto pero Se documenta la restricción y se muestra que el DB Subnet Group sí está preparado con dos subredes privadas en AZ distintas.
 
-
 ![[Cloud_Archecture_Act_2.drawio.svg]]
+
+Necesito validar en RDS si tenemos Réplicas Y tenemos las replicas ya va a funcionar la entrega sino otra opción que tenemos Es hacer un espejo de las bases de datos
+
 ### 3.5 Trazabilidad Con El Enunciado
 
 | Requisito del enunciado | Cómo lo cubre esta guía | Evidencia recomendada |
@@ -160,8 +162,8 @@ Esto parece básico, pero evita un problema común: cada integrante crea recurso
 
 ### 5.2 Nombres Sugeridos
 
-| Recurso            | Nombre sugerido                |
-| ------------------ | ------------------------------ |
+| Recurso            | Nombre sugerido              |
+| ------------------ | ---------------------------- |
 | VPC                | `act2-F1011-vpc`             |
 | Internet Gateway   | `act2-F1011-igw`             |
 | NAT A              | `act2-F1011-nat-a`           |
@@ -227,6 +229,7 @@ Qué revisar:
 Evidencia:
 
 - Captura de la VPC con su CIDR.
+![[Pasted image 20260630204742.png]]
 
 ### Paso 3. Crear Las Seis Subredes
 
@@ -242,6 +245,29 @@ Por qué se hace:
 
 Las subredes separan responsabilidades. Las públicas reciben components que necesitan entrada o salida directa a Internet. Las privadas alojan la aplicación y la base de datos. Usar dos AZ permite mostrar alta disponibilidad.
 
+|   # | Nombre de la subred        | Tipo                     | Availability Zone | IPv 4 VPC CIDR | IPv 4 Subnet CIDR | Recursos que alojará                      | Auto-assign Public IPv 4 |
+| --: | -------------------------- | ------------------------ | ----------------- | -------------- | ----------------- | ----------------------------------------- | ------------------------ |
+|   1 | `act2-F1011-public-a`      | Pública                  | `us-east-1a`      | `10.0.0.0/16`  | `10.0.1.0/24`     | Application Load Balancer y NAT Gateway A | Sí                       |
+|   2 | `act2-F1011-public-b`      | Pública                  | `us-east-1b`      | `10.0.0.0/16`  | `10.0.2.0/24`     | Application Load Balancer y NAT Gateway B | Sí                       |
+|   3 | `act2-F1011-app-private-a` | Privada de aplicación    | `us-east-1a`      | `10.0.0.0/16`  | `10.0.11.0/24`    | Instancia EC 2 de WordPress (AZ A)        | No                       |
+|   4 | `act2-F1011-app-private-b` | Privada de aplicación    | `us-east-1b`      | `10.0.0.0/16`  | `10.0.12.0/24`    | Instancia EC 2 de WordPress (AZ B)        | No                       |
+|   5 | `act2-F1011-db-private-a`  | Privada de base de datos | `us-east-1a`      | `10.0.0.0/16`  | `10.0.21.0/24`    | Amazon RDS MySQL (Principal o Standby)    | No                       |
+|   6 | `act2-F1011-db-private-b`  | Privada de base de datos | `us-east-1b`      | `10.0.0.0/16`  | `10.0.22.0/24`    | Amazon RDS MySQL (Standby o Principal)    | No                       |
+
+Una vez creada La subred lo que debemos hacer es ir y donde dice subnet
+
+![[Pasted image 20260630210430.png]]
+
+Selecionar las publicas e ir a edit subnet settings
+
+![[Pasted image 20260630210457.png]]
+
+Activar el boton de auto assign ip public access
+
+![[Pasted image 20260630210539.png]]
+
+![[Pasted image 20260630210641.png]]
+
 Qué revisar:
 
 - Hay exactamente seis subredes de la práctica.
@@ -254,6 +280,11 @@ Qué revisar:
 Evidencia:
 
 - Captura de la lista de subredes con nombre, CIDR y AZ.
+![[Pasted image 20260630210803.png]]
+
+Si funciono todo bien debemos de tener una db-private, app-private, public red tanto para east 1 a y east 1 b
+
+![[Pasted image 20260630211014.png]]
 
 ### Paso 4. Crear El Internet Gateway
 
@@ -265,6 +296,12 @@ Qué hacer:
 4. Seleccionarlo.
 5. Usar `Actions > Attach to VPC`.
 6. Asociarlo a `act2-F1011-vpc`.
+
+![[Pasted image 20260630211200.png]]
+
+![[Pasted image 20260630211215.png]]
+
+![[Pasted image 20260630211226.png]]
 
 Por qué se hace:
 
@@ -278,6 +315,7 @@ Qué revisar:
 Evidencia:
 
 - Captura del IGW asociado a la VPC.
+![[Pasted image 20260630211226.png]]
 
 ### Paso 5. Crear Los NAT Gateway
 
@@ -289,6 +327,28 @@ Qué hacer:
 4. Crear `act2-F1011-nat-b` en `public-b`.
 5. Asignar otra Elastic IP.
 6. Esperar a que ambos queden en estado `Available`.
+
+| Setting               | Value                                 |
+| --------------------- | ------------------------------------- |
+| Name                  | `act2-F1011-nat-a`                    |
+| Availability mode     | **Zonal**                             |
+| Connectivity type     | **Public**                            |
+| Public subnet         | `act2-F1011-public-a` (`10.0.1.0/24`) |
+| Elastic IP allocation | **Automatic**                         |
+| Tags                  | `Name = act2-F1011-nat-a`             |
+
+![[Pasted image 20260630212116.png]]
+
+| Setting               | Value                                 |
+| --------------------- | ------------------------------------- |
+| Name                  | `act2-F1011-nat-b`                    |
+| Availability mode     | **Zonal**                             |
+| Connectivity type     | **Public**                            |
+| Public subnet         | `act2-F1011-public-b` (`10.0.2.0/24`) |
+| Elastic IP allocation | **Automatic**                         |
+| Tags                  | `Name = act2-F1011-nat-b`             |
+
+![[Pasted image 20260630212258.png]]
 
 Por qué se hace:
 
@@ -304,105 +364,358 @@ Qué revisar:
 
 Evidencia:
 
+![[Pasted image 20260630212507.png]]
+
 - Captura de los NAT Gateway.
 - Captura de las Elastic IP asociadas, si se ve en la consola.
 
 ### Paso 6. Crear Tablas De Rutas
 
-Qué hacer:
-
-Crear una tabla pública:
-
-1. Nombre: `act2-F1011-rt-public`.
-2. Asociar `public-a` y `public-b`.
-3. Agregar ruta `0.0.0.0/0` hacia `act2-F1011-igw`.
-
-Crear una tabla privada para AZ A:
-
-1. Nombre: `act2-F1011-rt-private-a`.
-2. Asociar `app-private-a`.
-3. Asociar `db-private-a` si el equipo decide cumplir literalmente la salida a Internet de todas las subredes privadas.
-4. Agregar ruta `0.0.0.0/0` hacia `act2-F1011-nat-a`.
-
-Crear una tabla privada para AZ B:
-
-1. Nombre: `act2-F1011-rt-private-b`.
-2. Asociar `app-private-b`.
-3. Asociar `db-private-b` si el equipo decide cumplir literalmente la salida a Internet de todas las subredes privadas.
-4. Agregar ruta `0.0.0.0/0` hacia `act2-F1011-nat-b`.
-
-Por qué se hace:
-
-Las rutas definen por dónde sale el tráfico. Las subredes públicas salen por el IGW. Las privadas salen por NAT. Así las EC2 privadas pueden instalar software, pero no quedan expuestas con IP pública.
-
-La base de datos RDS normalmente no necesita salida a Internet. Aun así, el enunciado pide salida a Internet en redes privadas. Para cubrirlo de forma literal, se pueden asociar las subredes de base de datos a las tablas privadas con NAT. RDS seguirá sin estar público si `Public access` está en `No` y el Security Group solo permite MySQL desde la app.
-
-Qué revisar:
-
-- La tabla pública tiene `0.0.0.0/0` hacia IGW.
-- Las tablas privadas tienen `0.0.0.0/0` hacia el NAT de su AZ.
-- Las subredes públicas no están asociadas a tablas privadas.
-- Las subredes privadas no están asociadas a la tabla pública.
-
-Evidencia:
-
-- Captura de la tabla pública.
-- Captura de cada tabla privada.
-- Captura de asociaciones de subredes.
-
-### Paso 7. Crear Security Groups
+### Paso 6. Crear Las Tablas De Rutas
 
 Qué hacer:
 
-Crear `act2-F1011-sg-alb`:
+#### Parte A. Crear la Tabla De Rutas Pública
+
+1. Ir a `VPC > Route tables`.
+2. Seleccionar `Create route table`.
+3. Configurar los siguientes valores:
+
+| Campo | Valor                    |
+| ----- | ------------------------ |
+| Name  | `act 2-F 1011-rt-public` |
+| VPC   | `act 2-F 1011-vpc`       |
+
+1. Hacer clic en **Create route table**.
+
+---
+
+#### Parte B. Crear la Tabla De Rutas Privada Para la AZ A
+
+1. Seleccionar `Create route table`.
+2. Configurar:
+
+| Campo | Valor                       |
+| ----- | --------------------------- |
+| Name  | `act 2-F 1011-rt-private-a` |
+| VPC   | `act 2-F 1011-vpc`          |
+
+1. Hacer clic en **Create route table**.
+
+---
+
+#### Parte C. Crear la Tabla De Rutas Privada Para la AZ B
+
+1. Seleccionar `Create route table`.
+2. Configurar:
+
+| Campo | Valor |
+|--------|-------|
+| Name | `act 2-F 1011-rt-private-b` |
+| VPC | `act 2-F 1011-vpc` |
+
+![[Pasted image 20260630212959.png]]
+
+1. Hacer clic en **Create route table**.
+
+---
+
+## Configurar la Tabla Pública
+
+1. Ir a `VPC > Route tables`.
+2. Abrir `act 2-F 1011-rt-public`.
+3. Seleccionar la pestaña **Routes**.
+4. Hacer clic en **Edit routes**.
+5. Seleccionar **Add route**.
+
+Agregar la siguiente ruta:
+
+| Destination | Target                                |
+| ----------- | ------------------------------------- |
+| `0.0.0.0/0` | `act 2-F 1011-igw` (Internet Gateway) |
+
+![[Pasted image 20260630213303.png]]
+
+1. Guardar los cambios.
+
+---
+
+## Asociar Las Subredes Públicas
+
+1. Permanecer dentro de `act 2-F 1011-rt-public`.
+2. Abrir la pestaña **Subnet associations**.
+3. Seleccionar **Edit subnet associations**.
+
+   ![[Pasted image 20260630213358.png]]
+
+4. Marcar:
+
+- `act 2-F 1011-public-a`
+- `act 2-F 1011-public-b`
+
+1. Guardar los cambios.
+![[Pasted image 20260630213334.png]]
+---
+
+## Configurar la Tabla Privada De la AZ A
+
+1. Abrir `act 2-F 1011-rt-private-a`.
+2. Ir a **Routes**.
+3. Seleccionar **Edit routes**.
+4. Agregar:
+![[Pasted image 20260630213531.png]]
+
+| Destination | Target               |
+| ----------- | -------------------- |
+| `0.0.0.0/0` | `act 2-F 1011-nat-a` |
+
+![[Pasted image 20260630213512.png]]
+
+1. Guardar los cambios.
+
+---
+
+## Asociar Las Subredes Privadas De la AZ A
+
+1. Ir a **Subnet associations**.
+2. Seleccionar **Edit subnet associations**.
+3. Marcar:
+
+- `act 2-F 1011-app-private-a`
+- `act 2-F 1011-db-private-a`
+
+1. Guardar.
+![[Pasted image 20260630213644.png]]
+
+![[Pasted image 20260630213659.png]]
+
+---
+
+## Configurar la Tabla Privada De la AZ B
+
+1. Abrir `act 2-F 1011-rt-private-b`.
+2. Ir a **Routes**.
+3. Seleccionar **Edit routes**.
+4. Agregar:
+
+| Destination | Target |
+|-------------|--------|
+| `0.0.0.0/0` | `act 2-F 1011-nat-b` |
+
+![[Pasted image 20260630213723.png]]
+
+1. Guardar.
+
+---
+
+## Asociar Las Subredes Privadas De la AZ B
+
+1. Ir a **Subnet associations**.
+2. Seleccionar **Edit subnet associations**.
+3. Marcar:
+
+- `act 2-F 1011-app-private-b`
+- `act 2-F 1011-db-private-b`
+
+1. Guardar.
+
+![[Pasted image 20260630213751.png]]
+
+![[Pasted image 20260630213804.png]]
+---
+
+### Por Qué Se Hace
+
+Las tablas de rutas determinan cómo sale el tráfico de cada subred.
+
+- La tabla pública envía el tráfico de Internet al Internet Gateway.
+- La tabla privada de la AZ A envía el tráfico saliente al NAT Gateway A.
+- La tabla privada de la AZ B envía el tráfico saliente al NAT Gateway B.
+
+De esta manera, las instancias EC 2 de las subredes privadas pueden descargar actualizaciones y paquetes sin estar expuestas directamente a Internet, mientras que el Application Load Balancer permanece como el único punto de entrada público.
+
+### Qué Revisar
+
+- Existen tres tablas de rutas.
+- `act 2-F 1011-rt-public` tiene la ruta `0.0.0.0/0` hacia el Internet Gateway.
+- `act 2-F 1011-rt-private-a` tiene la ruta `0.0.0.0/0` hacia `act 2-F 1011-nat-a`.
+- `act 2-F 1011-rt-private-b` tiene la ruta `0.0.0.0/0` hacia `act 2-F 1011-nat-b`.
+- Las subredes públicas están asociadas únicamente a la tabla pública.
+- Las subredes privadas de la AZ A están asociadas únicamente a `act 2-F 1011-rt-private-a`.
+- Las subredes privadas de la AZ B están asociadas únicamente a `act 2-F 1011-rt-private-b`.
+
+### Evidencia
+
+Tomar las siguientes capturas:
+
+- Lista de las tres Route Tables.
+- Rutas de `act 2-F 1011-rt-public`.
+- Rutas de `act 2-F 1011-rt-private-a`.
+- Rutas de `act 2-F 1011-rt-private-b`.
+- Asociaciones de subredes de cada Route Table.
+
+![[Pasted image 20260630213858.png]]
+
+### Paso 7. Crear Los Security Groups
+
+Qué hacer:
+
+Los Security Groups actúan como un firewall virtual para los recursos dentro de la VPC. En esta práctica se crearán tres grupos de seguridad: uno para el Application Load Balancer, otro para las instancias EC 2 de WordPress y otro para la base de datos RDS.
+
+Todos los Security Groups deberán crearse dentro de la VPC `act 2-F 1011-vpc`.
+
+---
+
+## Parte A. Crear El Security Group Del Application Load Balancer
+
+1. Ir a `VPC > Security groups`.
+2. Seleccionar **Create security group**.
+3. Completar la información con los siguientes valores:
+
+| Campo               | Valor                                            |
+| ------------------- | ------------------------------------------------ |
+| Security group name | `act 2-F 1011-sg-alb`                            |
+| Description         | Security Group para el Application Load Balancer |
+| VPC                 | `act 2-F 1011-vpc`                               |
+
+En **Inbound rules**, seleccionar **Add rule** y configurar:
 
 | Tipo | Protocolo | Puerto | Origen |
-|---|---|---:|---|
+|------|-----------|--------:|--------|
 | HTTP | TCP | 80 | `0.0.0.0/0` |
 
-Crear `act2-F1011-sg-app`:
+No es necesario agregar reglas adicionales.
+
+En **Outbound rules**, dejar la configuración predeterminada que permite todo el tráfico saliente.
+
+Finalmente, seleccionar **Create security group**.
+
+![[Pasted image 20260630215451.png]]
+
+---
+
+## Parte B. Crear El Security Group De la Aplicación
+
+1. Permanecer en `VPC > Security groups`.
+2. Seleccionar **Create security group**.
+3. Configurar los siguientes valores:
+
+| Campo               | Valor                                                |
+| ------------------- | ---------------------------------------------------- |
+| Security group name | `act 2-F 1011-sg-app`                                |
+| Description         | Security Group para las instancias EC 2 de WordPress |
+| VPC                 | `act 2-F 1011-vpc`                                   |
+
+![[Pasted image 20260630214753.png]]
+
+En **Inbound rules**, agregar una regla con la siguiente configuración:
 
 | Tipo | Protocolo | Puerto | Origen |
-|---|---|---:|---|
-| HTTP | TCP | 80 | `act2-F1011-sg-alb` |
+|------|-----------|--------:|--------|
+| HTTP | TCP | 80 | `act 2-F 1011-sg-alb` |
 
-Crear `act2-F1011-sg-db`:
+En lugar de escribir una dirección IP, seleccionar como origen el Security Group `act 2-F 1011-sg-alb`.
+
+Esto permitirá que únicamente el Application Load Balancer pueda enviar tráfico HTTP a las instancias EC 2.
+
+En **Outbound rules**, mantener la configuración predeterminada.
+
+Seleccionar **Create security group**.
+
+---
+
+## Parte C. Crear El Security Group De la Base De Datos
+
+1. Ir nuevamente a **Create security group**.
+2. Completar la información siguiente:
+
+| Campo               | Valor                                |
+| ------------------- | ------------------------------------ |
+| Security group name | `act 2-F 1011-sg-db`                 |
+| Description         | Security Group para Amazon RDS MySQL |
+| VPC                 | `act 2-F 1011-vpc`                   |
+
+En **Inbound rules**, agregar la siguiente regla:
 
 | Tipo | Protocolo | Puerto | Origen |
-|---|---|---:|---|
-| MySQL/Aurora | TCP | 3306 | `act2-F1011-sg-app` |
+|------|-----------|--------:|--------|
+| MySQL/Aurora | TCP | 3306 | `act 2-F 1011-sg-app` |
 
-Dejar la salida permitida por defecto en los tres Security Groups.
+Seleccionar como origen el Security Group `act 2-F 1011-sg-app`.
 
-Por qué se hace:
+Con esta configuración únicamente las instancias EC 2 podrán conectarse a la base de datos.
 
-Los Security Groups controlan quién puede hablar con quién. Esta práctica debe demostrar una cadena simple:
+![[Pasted image 20260630215000.png]]
 
-- Internet entra al ALB por HTTP.
-- El ALB entra a EC2 por HTTP.
-- EC2 entra a RDS por MySQL.
-- Nadie entra directo a RDS desde Internet.
-- Nadie entra directo a EC2 desde Internet.
+En **Outbound rules**, conservar la configuración predeterminada.
 
-No abrir SSH a Internet. Para esta práctica no hace falta si el `user data` instala WordPress correctamente. Abrir SSH a `0.0.0.0/0` puede bajar la calidad de la evidencia de seguridad.
+Seleccionar **Create security group**.
 
-Qué revisar:
+---
 
-- `sg-app` no acepta HTTP desde `0.0.0.0/0`, solo desde `sg-alb`.
-- `sg-db` no acepta MySQL desde `0.0.0.0/0`, solo desde `sg-app`.
-- No hay regla SSH abierta a Internet.
+### Resumen De Los Tres Security Groups
 
-Evidencia:
+| Security Group        | Recurso protegido            | Permite tráfico desde                  |
+| --------------------- | ---------------------------- | -------------------------------------- |
+| `act 2-F 1011-sg-alb` | Application Load Balancer    | Internet (`0.0.0.0/0`) por HTTP        |
+| `act 2-F 1011-sg-app` | Instancias EC 2 de WordPress | `act 2-F 1011-sg-alb` por HTTP         |
+| `act 2-F 1011-sg-db`  | Amazon RDS MySQL             | `act 2-F 1011-sg-app` por MySQL (3306) |
 
-- Capturas de reglas inbound de los tres Security Groups.
+![[Pasted image 20260630215717.png]]
+
+---
+
+### Por Qué Se Hace
+
+Los Security Groups permiten controlar qué recursos pueden comunicarse entre sí dentro de la arquitectura.
+
+La comunicación queda organizada de la siguiente manera:
+
+- El usuario accede al sitio web mediante Internet.
+- El Application Load Balancer recibe las solicitudes HTTP.
+- El ALB reenvía el tráfico únicamente a las instancias EC 2.
+- Las instancias EC 2 son las únicas autorizadas para conectarse a la base de datos.
+- La base de datos nunca acepta conexiones directas desde Internet.
+
+Esta separación reduce la superficie de ataque y sigue el principio de mínimo privilegio, permitiendo únicamente las comunicaciones necesarias para el funcionamiento de la aplicación.
+
+No es necesario habilitar SSH (`22`) hacia Internet. Durante esta práctica la instalación de WordPress se realizará mediante el script de `user data`, por lo que no será necesario conectarse manualmente a las instancias EC 2.
+
+---
+
+### Qué Revisar
+
+Antes de continuar, verificar que:
+
+- Existen exactamente tres Security Groups personalizados.
+- Todos pertenecen a la VPC `act 2-F 1011-vpc`.
+- `act 2-F 1011-sg-alb` permite HTTP (`80`) desde `0.0.0.0/0`.
+- `act 2-F 1011-sg-app` solo permite HTTP (`80`) desde `act 2-F 1011-sg-alb`.
+- `act 2-F 1011-sg-db` solo permite MySQL (`3306`) desde `act 2-F 1011-sg-app`.
+- Ningún Security Group tiene reglas SSH (`22`) abiertas a `0.0.0.0/0`.
+- Las reglas de salida permanecen con la configuración predeterminada.
+
+---
+
+### Evidencia
+
+Tomar las siguientes capturas:
+
+- Lista de los tres Security Groups.
+- Reglas **Inbound** de `act 2-F 1011-sg-alb`.
+- Reglas **Inbound** de `act 2-F 1011-sg-app`.
+- Reglas **Inbound** de `act 2-F 1011-sg-db`.
+
+Estas capturas permitirán demostrar que la comunicación entre el balanceador, las instancias EC 2 y la base de datos está correctamente restringida antes de crear el resto de los recursos.
 
 ### Paso 8. Crear El DB Subnet Group
 
 Qué hacer:
 
 1. Ir a `RDS > Subnet groups > Create DB subnet group`.
-2. Nombre: `act2-F1011-db-subnet-group`.
-3. Seleccionar la VPC `act2-F1011-vpc`.
+   ![[Pasted image 20260630215813.png]]
+2. Nombre: `act 2-F 1011-db-subnet-group`.
+3. Seleccionar la VPC `act 2-F 1011-vpc`.
 4. Seleccionar las dos zonas de disponibilidad usadas.
 5. Seleccionar `db-private-a` y `db-private-b`.
 6. Crear el grupo.
@@ -420,6 +733,9 @@ Qué revisar:
 Evidencia:
 
 - Captura del DB Subnet Group con subredes y AZ.
+![[Pasted image 20260630220016.png]]
+
+![[Pasted image 20260630220220.png]]
 
 ### Paso 9. Crear RDS MySQL
 
@@ -429,42 +745,180 @@ Qué hacer:
 2. Método: `Standard create`.
 3. Motor: `MySQL`.
 4. Template: `Free tier` si está disponible. Si no permite Multi-AZ, usar `Dev/Test`.
-5. DB instance identifier: `act2-F1011-mysql`.
-6. Master username: `wpadmin`.
-7. Password: usar la contraseña acordada por el equipo.
-8. Clase: `db.t3.micro`, `db.t4g.micro` o la menor permitida por AWS Academy.
-9. Storage: tamaño mínimo permitido.
-10. Multi-AZ: activar `Create a standby instance` o `Multi-AZ DB instance deployment` si la consola lo permite.
-11. VPC: `act2-F1011-vpc`.
-12. DB Subnet Group: `act2-F1011-db-subnet-group`.
-13. Public access: `No`.
-14. Security Group: `act2-F1011-sg-db`.
-15. Database authentication: contraseña.
-16. Initial database name: `wordpress`.
-17. Crear la base de datos.
-18. Esperar a que quede en `Available`.
-19. Copiar el endpoint de RDS sin el puerto.
+5. engine version: default
+6. DB instance identifier: `act2-F1011-mysql`.
+7. Master username: `wpadmin`. ``
+8. Credentials management: Self Managers
+9. Password: `hVcsDqgUAj4QQ7`
+10. En additional credential settings: Password authentication *Authenticates using database passwords..*
+11. Clase: `db.t3.micro`, `db.t4g.micro` o la menor permitida por AWS Academy.
+	1. ![[Pasted image 20260630220930.png]]
+12. Storage: tamaño mínimo permitido. - 20 gb
+13. Compute resource: dont connect to ec2
+14. VPC: `act2-F1011-vpc`.
+15. DB Subnet Group: `act2-F1011-db-subnet-group`.
+16. Public access: `No`.
+17. Security Group: `act2-F1011-sg-db`.
+18. Casi todo lo demas en default
+19. En Additional configuration- database name: `wordpress`.
+20. Crear la base de datos.
+> [!warning] 
+> Your request to create DB instance act 2-F 1011-mysql didn't work. User: arn:aws:sts::374510835749:assumed-role/voclabs/user 5144319=Chavez_Barragan is not authorized to perform: rds:CreateDBInstance on resource:
+1. Esperar a que quede en `Available`.
+2. Copiar el endpoint de RDS sin el puerto.
+![[Pasted image 20260630221939.png]]
 
-Por qué se hace:
+> [!warning]
+> AWS Academy no otorga el permiso `rds:CreateDBInstance`, por lo que no es possible crear una instancia de Amazon RDS. Para continuar con el laboratorio sin modificar la arquitectura general, se implementará un servidor MySQL sobre una instancia EC 2 ubicada en la subred privada de base de datos. De esta manera, ambas instancias de WordPress continuarán compartiendo la misma base de datos.
 
-WordPress necesita una base de datos para guardar usuarios, entradas y configuración. RDS evita instalar MySQL manualmente en EC2 y permite mostrar una base de datos administrada en subredes privadas.
+### Paso 9. Crear Una Base De Datos Amazon RDS MySQL
 
-El punto más importante para la rúbrica es que RDS esté en red privada y funcione con la aplicación. Multi-AZ suma la parte de alta disponibilidad. Si AWS Academy no deja usar Multi-AZ, el informe debe decirlo con claridad y mostrar la configuración más cercana: DB Subnet Group en dos AZ, RDS privado y conexión funcional desde WordPress.
+> [!note]
+> Debido a las restricciones de AWS Academy, se utilizará la configuración **Easy Create**, ya que reduce la cantidad de parámetros y utilize valores compatibles con el entorno del laboratorio. Si durante la creación aparece un error de permisos (`rds:CreateDBInstance`), documentar la limitación en el informe y continuar con el resto de la práctica.
 
-Qué revisar:
+### Qué Hacer
 
-- Estado `Available`.
-- `Publicly accessible: No`.
-- Security Group correcto.
-- DB Subnet Group correcto.
-- Multi-AZ habilitado, si el laboratorio lo permite.
-- Endpoint copiado correctamente.
+#### Parte A. Iniciar la Creación De la Base De Datos
 
-Evidencia:
+1. Ir a `RDS > Databases`.
+2. Seleccionar **Create database**.
+3. Elegir el método Full configuration.
 
-- Captura general de RDS.
-- Captura de conectividad y seguridad.
-- Captura de Multi-AZ o nota de limitación si no está disponible.
+---
+
+#### Parte B. Configurar la Instancia
+
+Si hicieron todo lo anteirior te deja crear la micro con los datos de la dev-test
+
+Completar los siguientes valores:
+
+| Campo                  | Valor              |
+| ---------------------- | ------------------ |
+| Engine type            | MySQL              |
+| DB Instance Identifier | `act2-F1011-mysql` |
+| Master Username        | `wpadmin`          |
+| Master Password        | `hVcsDqgUAj4QQ7`   |
+
+La consola utilizará automáticamente una configuración compatible con el entorno de AWS Academy.
+
+---
+
+#### Parte C. Configurar la Conectividad
+
+En la sección **Connectivity**, verificar que los valores sean los siguientes:
+
+| Campo | Valor |
+|--------|-------|
+| Compute resource | Don't connect to an EC 2 compute resource |
+| VPC | `act 2-F 1011-vpc` |
+| DB Subnet Group | `act 2-F 1011-db-subnet-group` |
+| Public Access | **No** |
+| VPC Security Group | Existing |
+| Existing Security Group | `act 2-F 1011-sg-db` |
+
+Si la consola crea un Security Group automáticamente, reemplazarlo por `act 2-F 1011-sg-db`.
+
+---
+
+#### Parte D. Configuración Adicional
+
+Expandir **Additional configuration** y completar:
+
+| Campo | Valor |
+|--------|-------|
+| Initial database name | `wordpress` |
+
+Dejar el resto de las opciones con la configuración predeterminada.
+
+---
+
+#### Parte E. Crear la Base De Datos
+
+1. Revisar la configuración.
+2. Seleccionar **Create database**.
+3. Esperar a que el estado cambie de **Creating** a **Available**.
+
+![[Pasted image 20260630222625.png]]
+
+![[Pasted image 20260630223226.png]]
+
+---
+
+#### Parte F. Obtener El Endpoint
+
+Una vez que la instancia se encuentre disponible:
+
+1. Abrir la base de datos.
+2. Ir a la pestaña **Connectivity & security**.
+3. Copiar el valor de **Endpoint**.
+
+Ejemplo:
+
+```text
+act2-f1011-mysql.cfourkusdjyw.us-east-1.rds.amazonaws.com
+```
+
+No copiar el puerto (`3306`), únicamente el nombre del host.
+
+![[Pasted image 20260630223308.png]]
+
+---
+
+### Configuración Esperada
+
+| Parámetro | Valor |
+|-----------|-------|
+| Engine | MySQL |
+| Creation method | Easy Create |
+| Deployment | Single-AZ |
+| DB Identifier | `act 2-F 1011-mysql` |
+| Master Username | `wpadmin` |
+| Database Name | `wordpress` |
+| VPC | `act 2-F 1011-vpc` |
+| DB Subnet Group | `act 2-F 1011-db-subnet-group` |
+| Public Access | No |
+| Security Group | `act 2-F 1011-sg-db` |
+
+---
+
+### Por Qué Se Hace
+
+Amazon RDS proporciona un servicio administrado para MySQL, eliminando la necesidad de instalar y administrar el motor de base de datos en una instancia EC 2.
+
+La base de datos se implementa dentro de las subredes privadas definidas previamente, evitando el acceso directo desde Internet. Las únicas instancias autorizadas para conectarse son aquellas que utilizan el Security Group `act 2-F 1011-sg-app`, mientras que el acceso a la base de datos está restringido mediante `act 2-F 1011-sg-db`.
+
+Esta arquitectura permite que las dos instancias de WordPress creadas por el Auto Scaling Group compartan la misma base de datos, manteniendo la información sincronizada independientemente de cuál instancia atienda la solicitud del usuario.
+
+---
+
+### Qué Revisar
+
+Antes de continuar, verificar que:
+
+- La instancia RDS se encuentra en estado **Available**.
+- El motor corresponde a **MySQL**.
+- El identificador es `act 2-F 1011-mysql`.
+- La base de datos pertenece a la VPC `act 2-F 1011-vpc`.
+- El DB Subnet Group es `act 2-F 1011-db-subnet-group`.
+- La opción **Public access** está configurada en **No**.
+- El Security Group asociado es `act 2-F 1011-sg-db`.
+- Se copió correctamente el Endpoint para utilizarlo durante la instalación de WordPress.
+![[Pasted image 20260630223821.png]]
+
+---
+
+### Evidencia
+
+Tomar las siguientes capturas:
+
+- Lista de bases de datos RDS.
+- Pantalla de detalles de la instancia mostrando el estado **Available**.
+- Sección **Connectivity & security**, donde se observe:
+  - Endpoint
+  - VPC
+  - DB Subnet Group
+  - Public Access = No
+  - Security Group asociado
 
 ### Paso 10. Crear El Launch Template
 
@@ -472,36 +926,83 @@ Qué hacer:
 
 1. Ir a `EC2 > Launch Templates > Create launch template`.
 2. Nombre: `act2-F1011-lt-wordpress`.
-3. AMI: Amazon Linux 2023.
+3. Application and OS Images (Amazon Machine Image): Amazon Linux 2023.
 4. Tipo de instancia: `t3.micro` o `t2.micro`, según disponibilidad.
 5. Key pair: `Proceed without a key pair`.
 6. No seleccionar subred en el template.
 7. Security Group: `act2-F1011-sg-app`.
+	1. ![[Pasted image 20260630224101.png]]
 8. En `Advanced details > User data`, pegar el script siguiente y reemplazar los valores de RDS.
+
+Si seguiste la guía, entonces:
+
+**Database name**
+
+```Python
+wordpress
+```
+
+**Username**
+
+```Python
+wpadmin
+```
+
+**Password**
+
+```Python
+hVcsDqgUAj4QQ7
+```
+
+**Endpoint**
+
+Será algo parecido a:
+
+```Python
+act2-f1011-mysql.abc123xyz.us-east-1.rds.amazonaws.com
+```
+
+*(El tuyo será diferente.)*
 
 ```bash
 #!/bin/bash
+
+# Actualizar el sistema
 dnf update -y
+
+# Instalar Apache, PHP y dependencias necesarias para WordPress
 dnf install -y httpd php php-mysqli php-json php-gd php-mbstring wget tar
+
+# Habilitar e iniciar Apache
 systemctl enable --now httpd
 
+# Descargar WordPress
 cd /tmp
 wget https://wordpress.org/latest.tar.gz
 tar -xzf latest.tar.gz
+
+# Copiar WordPress al directorio web
 cp -r wordpress/* /var/www/html/
+
+# Configurar permisos
 chown -R apache:apache /var/www/html
 chmod -R 755 /var/www/html
 
+# Crear el archivo de configuración
 cp /var/www/html/wp-config-sample.php /var/www/html/wp-config.php
+
+# Configurar la conexión a la base de datos
 sed -i "s/database_name_here/wordpress/" /var/www/html/wp-config.php
 sed -i "s/username_here/wpadmin/" /var/www/html/wp-config.php
-sed -i "s/password_here/REEMPLAZAR_PASSWORD_RDS/" /var/www/html/wp-config.php
+sed -i "s/password_here/hVcsDqgUAj4QQ7/" /var/www/html/wp-config.php
 sed -i "s/localhost/REEMPLAZAR_ENDPOINT_RDS/" /var/www/html/wp-config.php
 
-cat > /var/www/html/health.html <<'EOF'
+# Crear archivo para el Health Check del Load Balancer
+cat > /var/www/html/health.html <<EOF
 ok
 EOF
 
+# Reiniciar Apache
 systemctl restart httpd
 ```
 
@@ -523,9 +1024,15 @@ Evidencia:
 - Captura del Launch Template.
 - Captura parcial del `user data`, ocultando la contraseña si aparece.
 
+![[Pasted image 20260630224945.png]]
+
+![[Pasted image 20260630224905.png]]
+
 ### Paso 11. Crear El Target Group
 
 Qué hacer:
+
+![[Pasted image 20260630225020.png]]
 
 1. Ir a `EC2 > Target Groups > Create target group`.
 2. Tipo: `Instances`.
@@ -535,6 +1042,10 @@ Qué hacer:
 6. VPC: `act2-F1011-vpc`.
 7. Health check path: `/health.html`.
 8. Crear el Target Group sin registrar instancias manualmente.
+![[Pasted image 20260630225140.png]]
+![[Pasted image 20260630225202.png]]
+
+![[Pasted image 20260630225302.png]]
 
 Por qué se hace:
 
@@ -549,20 +1060,26 @@ Qué revisar:
 Evidencia:
 
 - Captura del Target Group y su health check.
+![[Pasted image 20260630225325.png]]
 
 ### Paso 12. Crear El Application Load Balancer
 
 Qué hacer:
+
+![[Pasted image 20260630225411.png]]
 
 1. Ir a `EC2 > Load Balancers > Create load balancer`.
 2. Seleccionar `Application Load Balancer`.
 3. Nombre: `act2-F1011-alb`.
 4. Scheme: `Internet-facing`.
 5. IP address type: IPv4.
+	1. ![[Pasted image 20260630225551.png]]
 6. VPC: `act2-F1011-vpc`.
 7. Seleccionar `public-a` y `public-b`.
+	1. ![[Pasted image 20260630225537.png]]
 8. Security Group: `act2-F1011-sg-alb`.
 9. Listener HTTP 80: reenviar a `act2-F1011-tg-wordpress`.
+	1. ![[Pasted image 20260630225621.png]]
 10. Crear el ALB.
 
 Por qué se hace:
@@ -581,6 +1098,9 @@ Evidencia:
 - Captura del ALB.
 - Captura del listener.
 - Captura del DNS del ALB.
+![[Pasted image 20260630225647.png]]
+
+![[Pasted image 20260630225706.png]]
 
 ### Paso 13. Crear El Auto Scaling Group
 
@@ -588,17 +1108,25 @@ Qué hacer:
 
 1. Ir a `EC2 > Auto Scaling Groups > Create Auto Scaling group`.
 2. Nombre: `act2-F1011-asg-wordpress`.
+	1. ![[Pasted image 20260630225850.png]]
 3. Launch Template: `act2-F1011-lt-wordpress`.
+	1. ![[Pasted image 20260630225905.png]]
 4. VPC: `act2-F1011-vpc`.
 5. Subredes: `app-private-a` y `app-private-b`.
+	1. ![[Pasted image 20260630225950.png]]
 6. Asociar al Load Balancer existente.
 7. Target Group: `act2-F1011-tg-wordpress`.
+	1. ![[Pasted image 20260630230035.png]]
 8. Health checks: habilitar ELB health checks.
+	1. ![[Pasted image 20260630230100.png]]
 9. Desired capacity: 2.
 10. Minimum capacity: 2.
 11. Maximum capacity: 4.
 12. Política de escalado: CPU promedio de 60 %, si el laboratorio lo permite.
-13. Crear el Auto Scaling Group.
+	1. ![[Pasted image 20260630230155.png]]
+13. Skip to review 
+	1. ![[Pasted image 20260630230236.png]]
+14. Crear el Auto Scaling Group.
 
 Por qué se hace:
 
@@ -616,32 +1144,129 @@ Evidencia:
 - Captura del ASG.
 - Captura de instancias creadas.
 - Captura del Target Group con targets `Healthy`.
+![[Pasted image 20260630230443.png]]
+ ![[Pasted image 20260630230422.png]]
+
+![[Pasted image 20260630230306.png]]
+
+![[Pasted image 20260630230405.png]]
+
+![[Pasted image 20260630230723.png]]
 
 ### Paso 14. Validar WordPress
 
-Qué hacer:
+### Qué Hacer
 
-1. Abrir el DNS del ALB en el navegador.
-2. Esperar unos minutos si aparece error 503 o si los targets siguen `initial`.
-3. Completar la instalación inicial de WordPress.
-4. Crear una publicación de prueba llamada `Prueba alta disponibilidad`.
-5. Recargar el sitio varias veces.
+#### Parte A. Obtener El DNS Del Application Load Balancer
 
-Por qué se hace:
+1. Ir a `EC2 > Load Balancers`.
+2. Seleccionar el Application Load Balancer `act2-F1011-alb`.
+3. En la pestaña **Description**, localizar el campo **DNS name**.
 
-Esta prueba demuestra que el flujo completo funciona: usuario, ALB, EC2, WordPress y RDS. Si WordPress permite crear una publicación, entonces la aplicación pudo escribir en la base de datos.
+Se verá similar a:
 
-Qué revisar:
+```text
+act2-f1011-alb-123456789.us-east-1.elb.amazonaws.com
+```
 
-- El sitio carga por el DNS del ALB.
-- No se usa una IP pública de EC2.
-- La publicación se guarda correctamente.
+1. Copiar el valor completo del **DNS name**.
+2. Abrir una nueva pestaña del navegador y pegar el DNS utilizando `http://`.
 
-Evidencia:
+Ejemplo:
 
-- Captura del DNS del ALB en el navegador.
-- Captura de WordPress funcionando.
-- Captura de la publicación de prueba.
+```text
+http://act2-f1011-alb-123456789.us-east-1.elb.amazonaws.com
+```
+
+> No utilizar `https://`, ya que durante esta práctica el Load Balancer únicamente tiene configurado el listener HTTP en el puerto 80.
+
+![[Pasted image 20260630231215.png]]
+---
+
+#### Parte B. Verificar El Estado Del Load Balancer
+
+Antes de abrir el sitio, confirmar que el balanceador ya puede enviar tráfico a las instancias.
+
+1. Ir a `EC2 > Target Groups`.
+2. Seleccionar `act2-F1011-tg-wordpress`.
+3. Abrir la pestaña **Targets**.
+4. Verificar que las dos instancias aparezcan con el estado **Healthy**.
+
+Si todavía aparecen como **Initial** o **Unhealthy**, esperar algunos minutos mientras termina de ejecutarse el `user data` de las instancias.
+
+Si el navegador muestra un error **503 Service Unavailable**, normalmente significa que el Target Group todavía no tiene instancias saludables.
+
+![[Pasted image 20260630231302.png]]
+
+![[Pasted image 20260630231331.png]]
+
+---
+
+#### Parte C. Completar la Instalación De WordPress
+
+Una vez que el sitio cargue correctamente:
+
+1. Seleccionar el idioma.
+2. Completar la información solicitada por WordPress.
+3. Crear el usuario administrador.
+4. Finalizar la instalación.
+5. Iniciar sesión en el panel de administración.
+
+Site Title: `Act-2-f1011 Load Balancer`
+
+Username: `admin`
+
+Password: `Vu5WFwN58wwNeO1SUi`
+
+Your Email: `Email@.amigl`
+
+---
+
+#### Parte D. Validar Que WordPress Funciona
+
+1. Crear una publicación llamada **Prueba alta disponibilidad**.
+2. Escribir un pequeño texto.
+3. Publicar la entrada.
+4. Abrir el sitio público.
+5. Recargar la página varias veces para comprobar que continúa funcionando correctamente.
+![[Pasted image 20260630232736.png]]
+---
+
+### Por Qué Se Hace
+
+Esta prueba demuestra que toda la arquitectura funciona correctamente.
+
+El recorrido completo de la solicitud es:
+
+```Python
+Usuario
+      ↓
+Application Load Balancer
+      ↓
+Instancia EC2
+      ↓
+Amazon RDS MySQL
+```
+
+Si WordPress permite instalarse y guardar una publicación, significa que:
+
+- El ALB está recibiendo tráfico desde Internet.
+- El Target Group está enviando tráfico a las EC2.
+- Las instancias EC2 ejecutaron correctamente el script de instalación.
+- WordPress puede conectarse a Amazon RDS.
+- La base de datos está almacenando la información correctamente.
+
+---
+
+### Evidencia
+
+Tomar las siguientes capturas:
+
+- Pantalla de detalles del Application Load Balancer mostrando el campo **DNS name**.
+- Navegador abierto utilizando el DNS del ALB.
+- WordPress funcionando correctamente.
+- Publicación **Prueba alta disponibilidad** creada.
+- Target Group mostrando las dos instancias con estado **Healthy**.
 
 ### Paso 15. Crear Una Página En WordPress
 
@@ -681,7 +1306,8 @@ Evidencia:
 - Captura del editor de WordPress con la página publicada.
 - Captura de la página abierta desde el DNS del ALB.
 - Captura de la URL visible en el navegador.
-
+![[Pasted image 20260630233025.png]]
+![[Pasted image 20260630232958.png]]
 Nota:
 
 No es necesario cambiar los enlaces permanentes de WordPress. Si WordPress muestra una URL con `?page_id=123`, usar esa URL. Es suficiente para la práctica y evita errores de Apache con permalinks personalizados.
@@ -692,11 +1318,22 @@ Qué hacer:
 
 1. Ir a `EC2 > Instances`.
 2. Identificar una instancia creada por el ASG.
+   ![[Pasted image 20260630233143.png]]
 3. Detener una instancia.
+   ![[Pasted image 20260630233204.png]]
 4. Revisar el Target Group.
+   ![[Pasted image 20260630233240.png]]
+   
 5. Revisar el Auto Scaling Group.
 6. Confirmar que AWS crea una instancia nueva.
+   ![[Pasted image 20260630233503.png]]
+   ![[Pasted image 20260630233517.png]]
+   ![[Pasted image 20260630233740.png]]
+   ![[Pasted image 20260630233830.png]]
+   ![[Pasted image 20260701001412.png]]
+
 7. Confirmar que el sitio sigue respondiendo desde el DNS del ALB.
+   ![[Pasted image 20260630233316.png]]
 
 Por qué se hace:
 
