@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-02/analisis_profundo_clasificacion_noticias_pln.md",
+                "file": "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-02-grupal/mexissi06_act2_grupal.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "analisis_profundo_clasificacion_noticias_pln"
+              "title": "mexissi06_act2_grupal"
             }
           },
           {
@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-02-grupal/01-Guia.md",
+                "file": "Dev_Challenges/03-Web-scrapping.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,21 +52,40 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "01-Guia"
-            }
-          },
-          {
-            "id": "21afe650f03bd12c",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "title": "03-Web-scrapping"
             }
           }
-        ],
-        "currentTab": 1
+        ]
+      },
+      {
+        "id": "246b9da6cde0158f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "40e8d8947800d081",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-02-grupal/02-Documento-entrega-y-plan-equipo.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "02-Documento-entrega-y-plan-equipo"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -123,7 +142,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 400.5
+    "width": 295.5
   },
   "right": {
     "id": "a25b807ad639ff42",
@@ -232,54 +251,53 @@
       "open-vscode:VS Code": false
     }
   },
-  "active": "c0392c9fca3d567a",
+  "active": "e31fed4da41b94cd",
   "lastOpenFiles": [
-    "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-02-grupal/attachments/Cloud_Archecture_Act_2.drawio.svg",
-    "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-02-grupal/attachments",
+    "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-02-grupal/02-Documento-entrega-y-plan-equipo.md",
     "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-02-grupal/01-Guia.md",
+    "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-02-grupal/mexissi06_act2_grupal.md",
+    "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-02-grupal/mexissi06_act2_grupal.docx",
+    "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-02-grupal/mexissi06_act2_grupal-Miguel.md",
+    "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-02-grupal/01-Guia.pdf",
+    "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-02-grupal/attachments/Pasted image 20260630233830.png",
+    "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-02-grupal/attachments/Pasted image 20260630233740.png",
+    "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-02-grupal/attachments/Pasted image 20260630233517.png",
+    "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-02-grupal/attachments/Pasted image 20260630233503.png",
+    "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-02-grupal/attachments/Pasted image 20260630233316.png",
+    "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-02-grupal/attachments/Pasted image 20260630233240.png",
+    "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-02-grupal/attachments/Pasted image 20260630233204.png",
+    "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-02-grupal/attachments/Pasted image 20260630233143.png",
+    "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-02-grupal/attachments/Pasted image 20260630233025.png",
+    "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-02-grupal/attachments/Pasted image 20260630232958.png",
+    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-02/analisis_profundo_clasificacion_noticias_pln.md",
+    "Dev_Challenges/03-Web-scrapping.md",
+    "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-02-grupal/attachments",
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-01/guia_paso_a_paso_act1.md",
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-02/guia_paso_a_paso_act2.md",
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-01/Entrega",
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-02/Entrega",
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-02/Entrega/informe.md",
-    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-02/analisis_profundo_clasificacion_noticias_pln.md",
-    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-02/Entrega/figuras/distribucion_clases_test.png",
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-02/Entrega/notas_analisis.md",
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-02/markdown-export/clasificacion_noticias_pln.md",
-    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-02/markdown-export/output_35_1.png",
-    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-02/Entrega/figuras/matriz_confusion_linearsvc_normalizada.png",
-    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-02/Entrega/figuras/distribucion_clases_train.png",
-    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-02/markdown-export/output_35_0.png",
-    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-02/markdown-export/output_16_0.png",
-    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-02/markdown-export/output_15_0.png",
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-02/markdown-export/clasificacion_noticias_pln.zip",
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-02/markdown-export",
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-02/clasificacion_noticias_pln.zip",
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-02/Entrega/ejemplos_errores.csv",
-    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-02/Entrega/figuras/matriz_confusion_linearsvc.png",
-    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-02/Entrega/figuras/distribucion_clases.png",
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-02/resumen_experimentos.md",
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-02/Entrega/metricas_modelos.csv",
-    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-02/Entrega/figuras",
-    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-02/ag-news-classificacion/train.csv",
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-02/psuiadesoft01_act2.md",
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-01/explicacion_detallada_segmentacion_clientes.md",
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-01/Untitled.md",
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-01/Entrega/informe.md",
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-01/psuiadesoft01_act1.md",
-    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-01/attachments/Pasted image 20260628180655.png",
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-01/Entrega/notas_analisis.md",
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-01/explicacion_detallada_segmentacion_clientes_genero.md",
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-01/segmentacion_clientes_genero/segmentacion_clientes_genero.md",
     "conflict-files-obsidian-git.md",
-    "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-02-grupal/02-Documento-entrega-y-plan-equipo.md",
-    "Dev_Challenges/03-Web-scrapping.md",
     "Dev_Challenges/Ai-chatbot-whatapp.md",
     "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/Actividades/Actividad-02/Actividad-02-Miguel-Chavez.md",
     "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/Actividades/Actividad-02/Untitled.md",
     "Dev_Challenges/Unsplash-Collection-rust-nextjs16-guide.md",
-    "Dev_Challenges/03-Web-scraping-rust-learners-guide.md",
-    "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/Actividades/Actividad-02/mexdiux01_act2-new.md",
     "Untitled.canvas"
   ]
 }

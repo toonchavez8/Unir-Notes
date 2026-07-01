@@ -11,19 +11,19 @@ La entrega debe ser un PDF de maximo 20 paginas, con fuente Calibri 11 e interli
 
 ### 2.1 Estructura recomendada del PDF
 
-| Seccion | Paginas sugeridas | Contenido esperado |
-|---|---:|---|
-| Portada | 1 | Nombre de la universidad, asignatura, actividad, integrantes, fecha y titulo del proyecto. |
-| Resumen ejecutivo | 1 | Explicacion breve del objetivo, la aplicacion desplegada y los servicios AWS usados. |
-| Requisitos de la actividad | 1 | Relacion directa entre la rubrica y la arquitectura implementada. |
-| Arquitectura propuesta | 2 | Diagrama de red, descripcion de capas, VPC, subredes, rutas y componentes. |
-| Justificacion tecnica | 2 | Por que se usa ALB, Auto Scaling, EC2 privadas, NAT Gateway y RDS Multi-AZ. |
-| Implementacion en AWS Academy | 5 | Pasos ejecutados con capturas: VPC, subredes, rutas, Security Groups, RDS, ALB, ASG y WordPress. |
-| Validacion de funcionamiento | 2 | Evidencias de targets saludables, WordPress funcionando, RDS privado y prueba de recuperacion. |
-| Trabajo grupal y replicacion | 2 | Distribucion de tareas y evidencia de que cada participante intento replicar la guia. |
-| Riesgos, limitaciones y decisiones | 1 | Restricciones de AWS Academy, decisiones tomadas y mitigaciones aplicadas. |
-| Conclusiones | 1 | Resultado obtenido y aprendizaje sobre alta disponibilidad en nube publica. |
-| Referencias | 1 | Fuentes AWS y documentacion consultada en formato APA. |
+| Seccion                            | Paginas sugeridas | Contenido esperado                                                                               |
+| ---------------------------------- | ----------------: | ------------------------------------------------------------------------------------------------ |
+| Portada                            |                 1 | Nombre de la universidad, asignatura, actividad, integrantes, fecha y titulo del proyecto.       |
+| Resumen ejecutivo                  |                 1 | Explicacion breve del objetivo, la aplicacion desplegada y los servicios AWS usados.             |
+| Requisitos de la actividad         |                 1 | Relacion directa entre la rubrica y la arquitectura implementada.                                |
+| Arquitectura propuesta             |                 2 | Diagrama de red, descripcion de capas, VPC, subredes, rutas y componentes.                       |
+| Justificacion tecnica              |                 2 | Por que se usa ALB, Auto Scaling, EC2 privadas, NAT Gateway y RDS Multi-AZ.                      |
+| Implementacion en AWS Academy      |                 5 | Pasos ejecutados con capturas: VPC, subredes, rutas, Security Groups, RDS, ALB, ASG y WordPress. |
+| Validacion de funcionamiento       |                 2 | Evidencias de targets saludables, WordPress funcionando, RDS privado y prueba de recuperacion.   |
+| Trabajo grupal y replicacion       |                 2 | Distribucion de tareas y evidencia de que cada participante intento replicar la guia.            |
+| Riesgos, limitaciones y decisiones |                 1 | Restricciones de AWS Academy, decisiones tomadas y mitigaciones aplicadas.                       |
+| Conclusiones                       |                 1 | Resultado obtenido y aprendizaje sobre alta disponibilidad en nube publica.                      |
+| Referencias                        |                 1 | Fuentes AWS y documentacion consultada en formato APA.                                           |
 
 ## 3. Enfoque recomendado para el informe
 
