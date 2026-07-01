@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-02-grupal/01-Guia.md",
+                "file": "Dev-Journel/Projects/03-AWS-Academy-WordPress-High-Availability.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "01-Guia"
+              "title": "03-AWS-Academy-WordPress-High-Availability"
             }
           },
           {
@@ -43,8 +43,7 @@
               "title": "psuiadesoft01_act2"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -101,8 +100,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 315.5,
-    "collapsed": true
+    "width": 315.5
   },
   "right": {
     "id": "a25b807ad639ff42",
@@ -201,34 +199,35 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "becfa5e289439666",
+  "active": "56acb1598de70194",
   "lastOpenFiles": [
+    "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-02-grupal/01-Guia.md",
+    "Dev-Journel/Projects/03-AWS-Academy-WordPress-High-Availability.md",
+    "Dev-Journel/Projects/images/aws-asg-recovery-targets.png",
+    "Dev-Journel/Projects/images/aws-wordpress-alb-page.png",
+    "Dev-Journel/Projects/images/aws-target-group-healthy.png",
+    "Dev-Journel/Projects/images/aws-rds-private-connectivity.png",
+    "Dev-Journel/Projects/images/aws-security-groups.png",
+    "Dev-Journel/Projects/images/aws-network-resource-map.png",
+    "Dev-Journel/Projects/images/aws-academy-wordpress-architecture.svg",
+    "Dev-Journel/Projects/images",
+    "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-02-grupal/attachments/Pasted image 20260630230443.png",
+    "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-02-grupal/attachments/Pasted image 20260630225325.png",
+    "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-02-grupal/attachments/Pasted image 20260630215717.png",
+    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-02/psuiadesoft01_act2.docx",
     "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-02-grupal/01-Guia.pdf",
     "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-02-grupal/mexissi06_act2_grupal.docx",
     "conflict-files-obsidian-git.md",
-    "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-02-grupal/01-Guia.md",
-    "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-02-grupal/attachments/Pasted image 20260701001412.png",
-    "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-02-grupal/attachments/Pasted image 20260701001359.png",
-    "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-02-grupal/attachments/Pasted image 20260630233830.png",
-    "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-02-grupal/attachments/Pasted image 20260630233740.png",
-    "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-02-grupal/attachments/Pasted image 20260630233517.png",
-    "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-02-grupal/attachments/Pasted image 20260630233503.png",
-    "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-02-grupal/attachments/Pasted image 20260630233316.png",
-    "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-02-grupal/attachments/Pasted image 20260630233240.png",
-    "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-02-grupal/attachments/Pasted image 20260630233204.png",
-    "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-02-grupal/attachments/Pasted image 20260630233143.png",
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-01/psuiadesoft01_act1.docx",
     "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-02-grupal/attachments",
     "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-02-grupal/mexissi06_act2_grupal.md",
     "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-02-grupal/mexissi06_act2_grupal-Miguel.md",
     "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-02-grupal/02-Documento-entrega-y-plan-equipo.md",
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-02/Entrega/Actividad 2. Clasificación De Noticias Mediante Procesamiento De Lenguaje Natural.pdf",
-    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-02/psuiadesoft01_act2.docx",
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-02/Entrega/Actividad 2. Clasificación De Noticias Mediante Procesamiento De Lenguaje Natural.zip",
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-02/Entrega/metricas_modelos.zip",
     "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/Actividades/Actividad-02/mexdiux01_act2-new.docx",
     "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/Actividades/Actividad-02/Caso de analisis.md",
-    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-01/Entrega/segmentacion_clientes.zip",
     "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/Actividades/Actividad-02/mexdiux01_act2-new.md",
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-01/Entrega/informe.md",
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-01/notas_analisis.md",
