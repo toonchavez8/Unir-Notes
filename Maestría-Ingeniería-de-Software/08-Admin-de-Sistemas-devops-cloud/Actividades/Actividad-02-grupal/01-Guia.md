@@ -1330,6 +1330,8 @@ Qué hacer:
    ![[Pasted image 20260630233517.png]]
    ![[Pasted image 20260630233740.png]]
    ![[Pasted image 20260630233830.png]]
+   ![[Pasted image 20260701001412.png]]
+
 7. Confirmar que el sitio sigue respondiendo desde el DNS del ALB.
    ![[Pasted image 20260630233316.png]]
 
