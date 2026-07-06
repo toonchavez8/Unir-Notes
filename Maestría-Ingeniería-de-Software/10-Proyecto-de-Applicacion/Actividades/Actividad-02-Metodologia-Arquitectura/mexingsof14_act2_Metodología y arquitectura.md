@@ -30,3 +30,10 @@ La entrega consistirá en un documento que recoja el contenido anteriormente des
 |Capa de persistencia|Se incluyen un diagrama de la capa de persistencia escogida|2|20 %|
 |Diagrams UML|El documento incluye, al menos, ocho diagrams dentro de la metodología UML|3|30 %|
 |||**10**|**100 %**|
+ en "Actividades\Actividad-02-Metodologia-Arquitectura\mexingsof14_act2_Metodología y arquitectura.md"
+    menciona que debemos de hacer diagramas de UML para eso vamos usar varios dipos de diagrams con Mermaid
+  sirve
+    esos dragrams y que nos aportan espero vero como minimo 10 diagrams y por lo menos 4 tipos que aporten
+    mucho explicando distinos tipos featuers y flujos de lo que viene en el software, tambien puedes revisar
+    el Referance\TFM_v1.md que es solo de referencia usa $human-writing en formato apa 7 ahoprita sin
+    referencias para que te ayude con los diagras usa $mermaid-diagrams no pares para nada
