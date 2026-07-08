@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dev_Challenges/03-Web-scraping-rust-learners-guide.md",
+                "file": "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-02-grupal/Actividad 2. Despliegue de un app en redes publicas y privadas.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "03-Web-scraping-rust-learners-guide"
+              "title": "Actividad 2. Despliegue de un app en redes publicas y privadas"
             }
           }
         ]
@@ -189,8 +189,10 @@
   },
   "active": "becfa5e289439666",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
+    "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-02-grupal/Actividad 2. Despliegue de un app en redes publicas y privadas.docx",
+    "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-02-grupal/Actividad 2. Despliegue de un app en redes publicas y privadas.md",
     "Dev_Challenges/03-Web-scraping-rust-learners-guide.md",
+    "conflict-files-obsidian-git.md",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Actividad-02-Metodologia-Arquitectura/diagramas-uml-dominus-broker.md",
     "Dev_Challenges/02-Fem-Typing-Speed-Test.md",
     "Dev_Challenges/01-Authentication-Microservice-with-TypeORM.md",
@@ -221,7 +223,6 @@
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-02/Entrega/Actividad 2. Clasificación De Noticias Mediante Procesamiento De Lenguaje Natural.pdf",
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-02/Entrega/Actividad 2. Clasificación De Noticias Mediante Procesamiento De Lenguaje Natural.zip",
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-02/Entrega/metricas_modelos.zip",
-    "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/Actividades/Actividad-02/mexdiux01_act2-new.docx",
     "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/Actividades/Actividad-02/Caso de analisis.md",
     "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/Actividades/Actividad-02/mexdiux01_act2-new.md",
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-01/Entrega/informe.md",
@@ -233,8 +234,6 @@
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-02/markdown-export/clasificacion_noticias_pln.md",
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-01/segmentacion_clientes_genero/segmentacion_clientes_genero.md",
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-02/Entrega/notas_analisis.md",
-    "Dev-Journel/Projects/02-Alejandra-leyva.md",
-    "Dev-Journel/01-mcaseros.md",
     "Untitled.canvas"
   ]
 }
