@@ -4,19 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "246b9da6cde0158f",
+        "id": "749bda64dd724b9e",
         "type": "tabs",
         "children": [
           {
-            "id": "40e8d8947800d081",
+            "id": "becfa5e289439666",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Maestría-Ingeniería-de-Software/Calendario semestral.pdf"
+                "file": "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-02-grupal/Actividad 2. Despliegue de un app en redes publicas y privadas.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "lucide-file-text",
-              "title": "Calendario semestral"
+              "icon": "lucide-file",
+              "title": "Actividad 2. Despliegue de un app en redes publicas y privadas"
             }
           }
         ]
@@ -76,7 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 295.5
+    "width": 255.5
   },
   "right": {
     "id": "a25b807ad639ff42",
@@ -146,19 +158,9 @@
               "icon": "lucide-list",
               "title": "Outline of Guia-paso"
             }
-          },
-          {
-            "id": "a2e15f7737ce2707",
-            "type": "leaf",
-            "state": {
-              "type": "git-history-view",
-              "state": {},
-              "icon": "history",
-              "title": "History"
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -167,71 +169,71 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "vscode-editor:Create Code File": false,
+      "open-vscode:VS Code": false,
       "bases:Create new base": false,
       "markdown-importer:Open format converter": false,
       "audio-recorder:Start/stop recording": false,
-      "code-files:Create Code File": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-git:Open Git source control": false,
       "callout-manager:Insert Callout": false,
-      "omnisearch:Omnisearch": false,
+      "code-files:Create Code File": false,
+      "obsidian-git:Open Git source control": false,
       "mermaid-tools:Open Mermaid Toolbar": false,
-      "open-vscode:VS Code": false
+      "omnisearch:Omnisearch": false,
+      "vscode-editor:Create Code File": false
     }
   },
-  "active": "40e8d8947800d081",
+  "active": "becfa5e289439666",
   "lastOpenFiles": [
-    "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-02-grupal/01-Guia.md",
-    "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-02-grupal/Actividad 2. Despliegue de un app en redes publicas y privadas.md",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Actividad-02-Metodologia-Arquitectura/mexingsof14_act2_Metodología y arquitectura.docx",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Actividad-02-Metodologia-Arquitectura/diagramas-uml-dominus-broker.md",
-    "Dev_Challenges/03-Web-scrapping.md",
-    "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-02-grupal/attachments/Cloud_Archecture_Act_2.drawio.svg",
-    "conflict-files-obsidian-git.md",
     "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-02-grupal/Actividad 2. Despliegue de un app en redes publicas y privadas.docx",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Actividad-02-Metodologia-Arquitectura/mexingsof14_act2_Metodología y arquitectura.md",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/Guide-Dominus-Pruebas-Paso-a-Paso.md",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/Guide-Dominus-Justificacion-Defensa.md",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/TFM_v1.docx",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/TFM_v1.md",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/plantilla.docx",
-    "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-02-grupal/02-Documento-entrega-y-plan-equipo.md",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/plantilla.md",
-    "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-02-grupal/01-Guia.pdf",
-    "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-02-grupal/Rubrica.md",
-    "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-02-grupal/mexissi06_act2_grupal.docx",
-    "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-02-grupal/mexissi06_act2_grupal-Miguel.md",
+    "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-02-grupal/Actividad 2. Despliegue de un app en redes publicas y privadas.md",
+    "Dev_Challenges/03-Web-scraping-rust-learners-guide.md",
+    "conflict-files-obsidian-git.md",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Actividad-02-Metodologia-Arquitectura/diagramas-uml-dominus-broker.md",
+    "Dev_Challenges/02-Fem-Typing-Speed-Test.md",
+    "Dev_Challenges/01-Authentication-Microservice-with-TypeORM.md",
+    "Dev_Challenges/Unsplash-Collection-rust-nextjs16-guide.md",
+    "Dev-Journel/Projects/03-AWS-Academy-WordPress-High-Availability.md",
+    "Dev_Challenges/03-Web-scrapping.md",
+    "Dev-Journel/Projects/Analysis.md",
+    "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-02-grupal/01-Guia.md",
+    "Dev-Journel/Projects/images/aws-asg-recovery-targets.png",
     "Dev-Journel/Projects/images/aws-wordpress-alb-page.png",
-    "Dev-Journel/Projects/images/aws-network-resource-map.png",
+    "Dev-Journel/Projects/images/aws-target-group-healthy.png",
     "Dev-Journel/Projects/images/aws-rds-private-connectivity.png",
     "Dev-Journel/Projects/images/aws-security-groups.png",
-    "Dev-Journel/Projects/images/aws-target-group-healthy.png",
-    "Dev-Journel/Projects/images/aws-asg-recovery-targets.png",
+    "Dev-Journel/Projects/images/aws-network-resource-map.png",
     "Dev-Journel/Projects/images/aws-academy-wordpress-architecture.svg",
     "Dev-Journel/Projects/images",
-    "Dev-Journel/Projects/03-AWS-Academy-WordPress-High-Availability.md",
-    "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-02-grupal/attachments/Pasted image 20260701001412.png",
-    "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-02-grupal/attachments/Pasted image 20260701001359.png",
-    "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-02-grupal/mexissi06_act2_grupal.md",
-    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-02/analisis_profundo_clasificacion_noticias_pln.md",
+    "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-02-grupal/attachments/Pasted image 20260630230443.png",
+    "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-02-grupal/attachments/Pasted image 20260630225325.png",
+    "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-02-grupal/attachments/Pasted image 20260630215717.png",
+    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-02/psuiadesoft01_act2.docx",
+    "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-02-grupal/01-Guia.pdf",
+    "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-02-grupal/mexissi06_act2_grupal.docx",
+    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-01/psuiadesoft01_act1.docx",
     "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-02-grupal/attachments",
-    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-01/guia_paso_a_paso_act1.md",
-    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-02/guia_paso_a_paso_act2.md",
-    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-01/Entrega",
-    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-02/Entrega",
+    "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-02-grupal/mexissi06_act2_grupal.md",
+    "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-02-grupal/mexissi06_act2_grupal-Miguel.md",
+    "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-02-grupal/02-Documento-entrega-y-plan-equipo.md",
+    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-02/Entrega/Actividad 2. Clasificación De Noticias Mediante Procesamiento De Lenguaje Natural.pdf",
+    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-02/Entrega/Actividad 2. Clasificación De Noticias Mediante Procesamiento De Lenguaje Natural.zip",
+    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-02/Entrega/metricas_modelos.zip",
+    "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/Actividades/Actividad-02/Caso de analisis.md",
+    "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/Actividades/Actividad-02/mexdiux01_act2-new.md",
+    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-01/Entrega/informe.md",
+    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-01/notas_analisis.md",
+    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-01/Entrega/notas_analisis.md",
+    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-01/informe.md",
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-02/Entrega/informe.md",
-    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-02/Entrega/notas_analisis.md",
+    "Dev-Journel/Projects/00-template.md",
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-02/markdown-export/clasificacion_noticias_pln.md",
-    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-02/resumen_experimentos.md",
-    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-02/psuiadesoft01_act2.md",
-    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-01/explicacion_detallada_segmentacion_clientes.md",
-    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-01/Untitled.md",
+    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-01/segmentacion_clientes_genero/segmentacion_clientes_genero.md",
+    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-02/Entrega/notas_analisis.md",
     "Untitled.canvas"
   ]
 }
