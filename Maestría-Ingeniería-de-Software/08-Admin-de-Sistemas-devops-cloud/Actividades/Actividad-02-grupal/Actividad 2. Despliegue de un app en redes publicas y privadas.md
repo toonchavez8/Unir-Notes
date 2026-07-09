@@ -53,7 +53,7 @@ Actividad 2. Despliegue de un aplicativo en alta disponibilidad en nube pública
 
 [**7. Referencias 12**](#_xopawc99zimy)
 
-## Introducción
+# 1. Introducción
 
 La actividad tiene como finalidad diseñar y desplegar una arquitectura de alta disponibilidad en una nube pública utilizando los servicios disponibles en AWS Academy. A diferencia de un despliegue básico en una sola instancia, esta práctica integra diversos componentes para representar un entorno más cercano a una arquitectura productiva.
 
@@ -74,31 +74,33 @@ En conjunto, la actividad permite aplicar conceptos de redes en la nube, subrede
 
 **Descripción de la actividad**
 
-Crear una arquitectura de un aplicativo en alta disponibilidad en nube pública. El aplicativo puede ser un Wordpress u otro aplicativo conocido por el equipo o un aplicativo trabajado en otras asignaturas del máster.
+Crear una arquitectura de un aplicativo en alta disponibilidad en nube pública. El aplicativo puede ser WordPress u otro aplicativo conocido por el equipo o un aplicativo trabajado en otras asignaturas del máster.
 
 Para ello, deberemos desplegar nuestro aplicativo en nube pública con ayuda de la cuenta de AWS Academy.
 
-## Arquitectura propuesta
+# 2. Arquitectura propuesta
 
-La idea es que cuando un usuario abre el sitio, usa el DNS público del AWS Application Load Balancer o ALB. El ALB está en las subredes públicas y recibe tráfico HTTP por el puerto 80. Después envía la petición a una de las instancias EC2 del Target Group.
+La arquitectura propuesta despliega WordPress en una VPC propia, con una separación clara entre la capa pública, la capa de aplicación y la capa de datos. Según Amazon Web Services (s. f.-a), una arquitectura con subredes privadas y NAT permite que los servidores internos salgan a Internet para actualizaciones o instalación de paquetes, sin quedar expuestos directamente a conexiones entrantes desde Internet.
 
-Las EC2 están en subredes privadas. No tienen IP pública y no se abren al mundo. Esto reduce la superficie de exposición: si alguien intenta entrar por SSH o por una IP directa, no debería poder hacerlo.
+El usuario accede al sitio mediante el DNS público del Application Load Balancer (ALB). El ALB se ubica en las subredes públicas y recibe tráfico HTTP por el puerto 80. Después envía cada petición al Target Group asociado a las instancias EC2 que ejecutan WordPress. De esta forma, el balanceador es el único punto de entrada público de la aplicación.
 
-WordPress se conecta a RDS por el puerto 3306. La regla más importante aquí es que RDS no acepta tráfico desde Internet, ni desde cualquier IP de la VPC. Solo acepta conexiones donde su origen sea el Security Group de la aplicación.
+Las instancias EC2 se alojan en subredes privadas de aplicación. No tienen IP pública y no reciben tráfico directamente desde Internet. Su Security Group solo permite HTTP desde el Security Group del ALB. Esta decisión reduce la superficie de exposición y deja a las EC2 como una capa interna, accesible solo a través del balanceador.
 
-El Auto Scaling Group mantiene dos instancias. Si falla, el grupo crea otra. No hay que prometer una recuperación perfecta en segundos, pero sí se puede demostrar que AWS detecta la instancia dañada y la reemplaza.
+La base de datos MySQL queda en subredes privadas de base de datos mediante Amazon RDS. WordPress se conecta a MySQL por el puerto 3306, pero RDS no acepta tráfico desde Internet ni desde cualquier recurso de la VPC; solo permite conexiones cuyo origen sea el Security Group de la aplicación. Amazon Web Services (s. f.-d) indica que una instancia de RDS dentro de una VPC puede controlar su acceso mediante subredes y grupos de seguridad, que es justamente el modelo aplicado en esta práctica.
 
-RDS Multi-AZ mantiene una copia standby en otra zona de disponibilidad. Si AWS Academy no permite activar Multi-AZ por permisos o costo, tendríamos que ajustar esto pero se muestra que el DB Subnet Group sí está preparado con dos subredes privadas en AZ distintas.
+El Auto Scaling Group mantiene dos instancias de WordPress en subredes privadas de aplicación. Si una instancia se detiene o queda en estado no saludable, el ASG crea otra usando el Launch Template. No se promete recuperación instantánea, pero sí se demuestra que la arquitectura no depende de una sola instancia EC2.
 
-## Implementación en AWS Academy - todos
+Para la base de datos, el diseño contempla RDS MySQL en subredes privadas y un DB Subnet Group con subredes en dos zonas de disponibilidad. AWS describe Multi-AZ como un despliegue donde RDS mantiene una instancia standby en otra zona para mejorar disponibilidad ante fallos (Amazon Web Services, s. f.-c). En el laboratorio de AWS Academy esta opción puede estar limitada por permisos o costo; por eso se documenta la restricción y se conserva el diseño preparado para dos zonas de disponibilidad.
 
-### Crear VPC, subredes, IGW, NAT Gateway y rutas - fer
+# 3. Implementación en AWS Academy - Todos
 
-### Crear Security Groups y DB Subnet Group
+## 3.1. Crear VPC, subredes, IGW, NAT Gateway y rutas - Fer
+
+## 3.2. Crear Security Groups y DB Subnet Group
 
 Para controlar la comunicación entre los componentes de la arquitectura se crearon grupos de seguridad específicos para cada capa del aplicativo. Estos grupos de seguridad funcionan como firewalls virtuales y permiten definir qué tráfico puede entrar o salir de cada recurso dentro de la VPC.
 
-En esta práctica se definieron tres grupos de seguridad principales: uno para el Application Load Balancer y uno para las instancias EC2. Esta separación permite aplicar el principio de mínimo privilegio, ya que cada componente solo acepta el tráfico necesario para cumplir su función dentro de la arquitectura.
+En esta práctica se definieron tres grupos de seguridad principales: uno para el Application Load Balancer, uno para las instancias EC2 y uno para la base de datos MySQL. Esta separación permite aplicar el principio de mínimo privilegio, ya que cada componente solo acepta el tráfico necesario para cumplir su función dentro de la arquitectura.
 
 Figura X. Lista de Security Groups creados para la arquitectura.
 
@@ -122,106 +124,125 @@ El DB Subnet Group se configuró únicamente con subredes privadas, separadas de
 
 Con esta configuración, el flujo de comunicación queda limitado de forma controlada: los usuarios acceden al Application Load Balancer, el balanceador envía las solicitudes a las instancias EC2 privadas y estas instancias son las únicas autorizadas para conectarse a la base de datos MySQL.
 
-### Crear RDS MySQL
+## 3.3. Crear RDS MySQL
 
-Amazon nos ofrece contenedor para crear bases de datos Entrando al La función RDS se seleccionó data veces y creamos una base de datos Utilizamos el método creación estándar con el motor mysql Dado que estamos bajo un plan gratuito utilizamos el Tear gratuito Intentamos utilizando el motor dev/test. Se creó el método la instancia el identificador destinamos una contraseña seleccionamos un t 3 micro Bajamos el monto de espacio a 20 GB Y le pedimos que no se conectara a un ec dos todavía.
+Para la capa de datos se utilizó Amazon RDS con motor MySQL. RDS permite crear una base de datos administrada sin instalar manualmente MySQL en una instancia EC2. Según Amazon Web Services (s. f.-d), cuando una instancia de base de datos se despliega dentro de una VPC, se puede controlar en qué subredes queda disponible y qué recursos pueden conectarse a ella mediante Security Groups.
 
-Asignamos la base de datos a nuestro DPC Previamente nombrado en este ejemplo Y la activamos el multi AZ. Y le dimos crear una base de datos y nos topamos con nuestra primera pared.
+El proceso inició desde `RDS > Databases > Create database`, usando el método de creación estándar y el motor MySQL. Se eligió una configuración de laboratorio, con una instancia pequeña compatible con el entorno de AWS Academy, almacenamiento reducido a 20 GB y la base inicial llamada `wordpress`. En la sección de conectividad se seleccionó la VPC creada para la práctica, el DB Subnet Group de las subredes privadas de base de datos y el Security Group destinado a MySQL.
 
-La pared fue que no tenemos permisos para crear una instancia de base de datos que sea de Multizona.
+También se revisó la opción Multi-AZ. La arquitectura ideal tendría RDS con una instancia standby en otra zona de disponibilidad, ya que AWS documenta que Multi-AZ mejora la disponibilidad de la base de datos ante mantenimiento o fallos de infraestructura (Amazon Web Services, s. f.-c). Sin embargo, en AWS Academy esta opción puede no estar disponible por restricciones del laboratorio. Por esa razón, se deja documentado que el DB Subnet Group sí quedó preparado con dos subredes privadas en zonas distintas, aunque la activación de Multi-AZ depende de los permisos del entorno.
 
-AWS Academy no otorga el permiso rds:CreateDBInstance, por lo que no es posible crear una instancia de Amazon RDS. Para continuar con el laboratorio sin modificar la arquitectura general, se implementará un servidor MySQL sobre una instancia EC2 ubicada en la subred privada de base de datos. De esta manera, ambas instancias de WordPress continuarán compartiendo la misma base de datos.
+La instancia de RDS se configuró con `Publicly accessible: No`. Esta opción es importante porque evita que la base de datos tenga exposición directa a Internet. La comunicación queda limitada al tráfico MySQL por el puerto 3306 desde el Security Group de las instancias EC2 de WordPress. Con esto, aunque el sitio sea público por medio del ALB, la base de datos permanece en una capa privada.
 
-Regresamos nuevamente al proceso de creación utilizamos una base de datos de desarrollo prueba Micro Volvemos a configurar la la conectividad validamos los campos de Resource la BPC le asignamos la DB Subnet Grupo previamente designada le le limitamos el acceso público y validamos de que el grupo de seguridad ya estaba previamente existido y era el que habíamos creado De ahí le dimos una configuración adicional donde le dijimos que la base de datos inicial se iba a llamar WordPress para este ejemplo y nuevamente le damos crear base de datos.
+Una vez creada la base de datos, se copió el endpoint de RDS sin incluir el puerto `:3306`. Ese endpoint se utilizó después en el `user data` del Launch Template para que WordPress pudiera conectarse a MySQL durante su instalación. La validación funcional se realiza cuando WordPress carga desde el DNS del ALB y permite guardar contenido, porque eso confirma que las EC2 están llegando correctamente a la base de datos privada.
 
-Y se y se logra la creación de la base de datos correctamente vamos a la parte de la instancia para ver cuál es y nos para sacar la URL ya aquí ya no era necesario copiar el puerto porque pues solamente íbamos a utilizar nombre al host.
+En caso de que AWS Academy niegue la creación de RDS o alguna configuración avanzada, la alternativa documentada consiste en mantener el mismo diseño lógico y desplegar MySQL en una EC2 privada de base de datos. No es la opción principal, porque exige administrar el motor manualmente, pero conserva la separación entre frontend y datos.
 
-Y con esto la base de datos implementa dentro de nuestras subredes privadas que definimos previamente evitando el acceso directo desde el Internet las únicas instancias autorizadas para conectarse son aquellas que utilizan el grupo de seguridad mientras que el acceso a la base de datos está restringida mediante a nuestra conexión de los grupos de seguridad de la base de datos.
+## 3.4. Launch Templates, Target Groups - Maikel
 
-Esta arquitectura permite que por lo menos tengamos cualquier instancia está apuntando a esta Base de datos. Con la URL luego lo pasamos al launch template.
-
-### Launch Templates, Target Groups - Maikel
-
-#### 3.4.1 Launch Template para EC2
+### 3.4.1 Launch Template para EC2
 
 Un **Launch Template** en AWS es un recurso que encapsula la configuración necesaria para lanzar instancias EC2 de manera estandarizada y reproducible.
 
-Su significado y utilidad en este proyecto son:
+En este proyecto se usó para definir la configuración base de las instancias que ejecutan WordPress. Incluye la AMI, el tipo de instancia, el Security Group de la aplicación y el script de inicialización o `user data`. De acuerdo con Amazon Web Services (s. f.-e), los Launch Templates permiten guardar parámetros de lanzamiento y reutilizarlos al crear instancias EC2 o grupos de Auto Scaling.
 
-- **Definición centralizada de configuración**: Incluye AMI, tipo de instancia, claves SSH, roles IAM, scripts de inicialización (_user data_), y etiquetas.
-- **Reutilización y consistencia**: Permite que todas las instancias del grupo de autoescalado (ASG) se creen con la misma configuración, evitando errores manuales.
-- **Versionado**: Se pueden mantener diferentes versiones del template para evolucionar la infraestructura sin perder trazabilidad.
-- **Escalado automático**: El ASG consume el Launch Template para crear nuevas instancias EC2 cuando la carga aumenta, garantizando que todas tengan la misma configuración de WordPress.
+El `user data` instala Apache, PHP y WordPress, crea el archivo de configuración y apunta la aplicación al endpoint de RDS. Esto evita instalar manualmente cada servidor y reduce errores cuando el ASG reemplaza una instancia. También se evita fijar una subred dentro del Launch Template, porque las subredes correctas se asignan después en el Auto Scaling Group.
 
-En este despliegue, el Launch Template asegura que cada instancia EC2 del frontend de WordPress se levante con la misma configuración, reforzando la estabilidad y la reproducibilidad.
+La ventaja principal es la consistencia: cada EC2 creada por el ASG queda con la misma configuración de frontend y con la misma conexión a la base de datos.
 
-#### 3.4.2 Target Groups
-
-### 
+### 3.4.2 Target Groups
 
 Un **Target Group** es el recurso que define a qué destinos (instancias, IPs o Lambdas) enviará tráfico el balanceador de carga (ALB/NLB).
 
-Su significado y utilidad en este proyecto son:
+En esta práctica el Target Group se configuró para instancias EC2, protocolo HTTP y puerto 80. No se registraron instancias manualmente, porque esa tarea la realiza el Auto Scaling Group al crear o reemplazar servidores. El health check se configuró sobre una ruta simple, como `/health.html`, para que el balanceador pueda saber qué instancias están listas para recibir tráfico.
 
-- **Enrutamiento del tráfico**: El ALB recibe las peticiones desde Internet y las distribuye a los targets registrados en el grupo (en este caso, las instancias EC2 con WordPress en subred privada).
-- **Tipos de target**:
-    - instance: registra directamente instancias EC2.
-    - ip: registra direcciones IP privadas (común en ECS con modo awsvpc).
-    - lambda: invoca funciones Lambda.
-- **Health checks**: El Target Group define cómo verificar que los targets están sanos (por ejemplo, comprobando /wp-login.php o /health), y solo envía tráfico a instancias saludables.
-- **Escalabilidad y resiliencia**: Al integrarse con el ASG, las nuevas instancias EC2 se registran automáticamente en el Target Group, garantizando que el balanceador siempre tenga destinos disponibles.
+Según Amazon Web Services (s. f.-f), Elastic Load Balancing usa health checks para enviar solicitudes solo a destinos disponibles. Por eso el Target Group no es solo una lista de servidores; también es el punto donde se valida si una instancia puede participar en el balanceo.
 
-En este despliegue, el Target Group es clave porque el **WordPress nunca está expuesto directamente a Internet**: el ALB recibe las peticiones y las distribuye a las instancias EC2 privadas registradas en el grupo.
+En este despliegue, el Target Group permite que WordPress no esté expuesto directamente a Internet. El ALB recibe las peticiones públicas y las distribuye únicamente a las EC2 privadas que están registradas y saludables.
 
-#### 3.4.3 Conexión entre ambos
+### 3.4.3 Conexión entre ambos
 
 El **Launch Template** define cómo se crean las instancias EC2.
 
 - El **Auto Scaling Group (ASG)** usa ese Launch Template para levantar instancias según la demanda.
 - El **Target Group** registra esas instancias y el **ALB** distribuye el tráfico hacia ellas.
 
-Así se logra una arquitectura modular: configuración estandarizada (Launch Template), escalado automático (ASG), y distribución segura del tráfico (Target Group + ALB).
+Así se logra una arquitectura ordenada: el Launch Template define la configuración, el ASG mantiene la cantidad de instancias y el Target Group conecta esas instancias con el ALB.
 
-### ALB y ASG - Danny
+## 3.5. ALB y ASG - Danny
 
-## Validación de funcionamiento - Fer
+El Application Load Balancer se creó como balanceador público de tipo `Internet-facing`, ubicado en las dos subredes públicas de la VPC. Su listener HTTP en el puerto 80 reenvía el tráfico hacia el Target Group de WordPress. Según Amazon Web Services (s. f.-b), Elastic Load Balancing distribuye el tráfico entrante entre varios destinos, lo que permite mejorar disponibilidad y tolerancia a fallos en una aplicación.
 
-## Riesgos, limitaciones y decisiones
+El Security Group del ALB permite tráfico HTTP desde Internet, usando `0.0.0.0/0` como origen. Esta apertura solo aplica al balanceador, no a las instancias EC2. Las EC2 permanecen en subredes privadas y aceptan tráfico HTTP únicamente desde el Security Group del ALB.
 
-## Riesgos
+Después se creó el Auto Scaling Group asociado al Launch Template `act2-F1011-lt-wordpress`. El ASG se configuró en las subredes privadas de aplicación, con capacidad deseada de 2 instancias, mínimo 2 y máximo 4. También se conectó al Target Group `act2-F1011-tg-wordpress`, para que las instancias nuevas se registren automáticamente y puedan recibir tráfico cuando pasen el health check.
 
-**Disponibilidad limitada**: Al no poder usar multi-AZ en la capa gratuita de AWS Academy, la base de datos queda en una sola zona de disponibilidad. Esto implica riesgo de caída total si esa zona sufre una interrupción.
+Amazon Web Services (s. f.-g) indica que un Auto Scaling Group puede integrarse con un balanceador de carga para registrar instancias nuevas y retirar las que dejan de estar saludables. En la práctica, esto permite demostrar recuperación ante fallo: si una instancia se detiene, el ASG crea otra con el Launch Template y el ALB continúa enviando solicitudes solo a los targets saludables.
 
-**Escalabilidad restringida**: El autoescalado puede estar limitado por cuotas de la cuenta educativa, lo que reduce la capacidad de absorber picos de tráfico.
+La validación esperada es que el Target Group muestre las dos instancias en estado `Healthy` y que WordPress cargue desde el DNS público del ALB. Esta prueba confirma que el flujo completo funciona: usuario, ALB, Target Group, EC2 privadas y RDS MySQL.
 
-**Seguridad del balanceador**: Aunque el aplicativo está protegido en subred privada, el balanceador sí está expuesto a Internet. Si no se configuran reglas de seguridad y WAF, puede ser un vector de ataque.
+# 4. Validación de funcionamiento - Fer
 
-**Dependencia de servicios gestionados**: Si se usa RDS o ELB, hay riesgo de sobrecostos al migrar a una cuenta comercial, ya que la capa gratuita oculta parte del costo real.
+# 5. Riesgos, limitaciones y decisiones
 
-**Inconsistencia entre los diferentes aplicativos:** Al no poderse usar las réplicas de RDS, es preciso para mantener la alta disponibilidad usar un sistema de sincronización entre las instancias para mantener coherencia en los datos almacenados. Por la complejidad que requiere, no se puso en práctica este sistema de consistencia.
+## 5.1. Riesgos
 
-## Limitaciones
+**Disponibilidad limitada**: si AWS Academy no permite activar Multi-AZ en RDS, la base de datos queda sin standby administrado en otra zona de disponibilidad. En ese caso, una falla de la zona donde está RDS afectaría a toda la aplicación.
 
-**Restricciones de AWS Academy**: No se permite multi-AZ en RDS ni balanceadores avanzados, lo que limita la arquitectura de alta disponibilidad real.
+**Escalabilidad restringida**: el autoescalado depende de las cuotas de la cuenta educativa. Aunque el ASG tenga máximo 4 instancias, el laboratorio puede limitar recursos, tipos de instancia o capacidad disponible.
 
-**Recursos reducidos**: CPU, memoria y almacenamiento son mínimos, lo que afecta el rendimiento de WordPress bajo carga.
+**Seguridad del balanceador**: el ALB sí está expuesto a Internet. Si se migrara a producción, habría que agregar HTTPS, certificados, reglas más estrictas y posiblemente AWS WAF. En esta práctica se usó HTTP para simplificar la validación.
 
-**Sin soporte empresarial**: La capa gratuita no incluye soporte técnico avanzado, lo que obliga al equipo a resolver incidencias por sí mismo.
+**Dependencia de servicios gestionados**: RDS, ALB, NAT Gateway y Auto Scaling simplifican la operación, pero en una cuenta comercial generan costos. Esta actividad se hizo en AWS Academy, por lo que no refleja por completo el costo de operación real.
 
-**Persistencia de datos**: Si se usa S3 para frontend estático, la capa gratuita puede no cubrir escenarios de replicación o versionado.
+**Archivos locales de WordPress**: las publicaciones se guardan en RDS, pero los archivos subidos a `wp-content/uploads` quedan en el disco local de cada EC2. Para esta práctica se validó con contenido de texto. En producción haría falta EFS o S3 para compartir archivos entre instancias.
 
-## Decisiones
+## 5.2. Limitaciones
 
-**Uso de una sola AZ**: Se decidió crear dos zonas de disponibilidad y replicar el aplicativo más la base de datos asociada a cada uno, usar un balanceador con un patrón que valide la existencia de estos servicios, en caso de que uno se pierda el tráfico se enruta totalmente al siguiente.
+**Restricciones de AWS Academy**: algunas opciones pueden no estar disponibles, especialmente Multi-AZ en RDS, cuotas de EC2 o configuraciones avanzadas del balanceador. Por eso se documenta lo implementado y se aclara qué quedaría pendiente en una cuenta sin esas restricciones.
 
-**Balanceador de carga**: Se optó por un balanceador de carga de tipo aplicación, ubicar los aplicativos en un segmento de red privada de cada az y asignar el balanceador a un segmento de red público, así este comunica todo el tráfico de internet al aplicativo WordPress..
+**Recursos reducidos**: las instancias pequeñas y el almacenamiento mínimo sirven para demostrar la arquitectura, pero no para una carga real de usuarios.
 
-**Base de datos**: Se desplegó en subred privada con backups automáticos, como medida de mitigación ante fallos.
+**Sin HTTPS**: el ALB se configuró con HTTP en el puerto 80. Para producción se requeriría HTTPS con un certificado de AWS Certificate Manager y un listener en el puerto 443.
 
-**WordPress en EC2 vs. S3**: Se eligió EC2 para mayor control y realismo, aunque se reconoce que S3 con CloudFront sería más eficiente para contenido estático.
+**Persistencia de archivos**: WordPress en varias EC2 necesita almacenamiento compartido para medios. Esta práctica se concentró en demostrar balanceo, autoescalado y conexión a RDS, no en resolver la sincronización de archivos.
 
-**Documentación de mejoras futuras**: Se deja constancia de que en un entorno productivo se añadirían WAF, CloudFront y multi-AZ en la capa de serialización para cumplir con alta disponibilidad real.
+**Alta disponibilidad parcial**: el frontend sí queda distribuido en dos subredes privadas y protegido por ASG. La base de datos queda preparada para dos AZ mediante DB Subnet Group, pero la alta disponibilidad real de RDS depende de poder activar Multi-AZ.
 
-## Conclusiones - Danny
+## 5.3. Decisiones
 
-## Referencias
+**Uso de dos zonas de disponibilidad**: se trabajó con dos AZ para separar subredes públicas, privadas de aplicación y privadas de base de datos. Esto permite que el ALB y el ASG distribuyan las instancias de WordPress y que RDS quede preparado para Multi-AZ.
+
+**Application Load Balancer**: se eligió ALB porque la aplicación usa HTTP y porque permite integrar listeners, Target Groups y health checks. El ALB queda en subredes públicas y las EC2 quedan en subredes privadas.
+
+**Base de datos privada**: se eligió RDS MySQL en subredes privadas, con `Publicly accessible: No`, porque WordPress necesita una base relacional y no debe conectarse desde Internet.
+
+**WordPress en EC2**: se usó EC2 en lugar de S3 porque WordPress requiere ejecución de PHP y conexión a MySQL. S3 serviría para contenido estático, pero no para esta aplicación sin rediseñar el modelo.
+
+**Launch Template y ASG**: se decidió automatizar la creación de instancias con Launch Template y mantener dos instancias mediante ASG. Así se evita depender de servidores creados manualmente.
+
+**Mejoras futuras**: en un entorno productivo se añadirían HTTPS, WAF, backups revisados, monitoreo, EFS o S3 para archivos de WordPress y Multi-AZ en RDS si la cuenta lo permite.
+
+# 6. Conclusión
+
+La práctica permitió construir una arquitectura de WordPress más cercana a un despliegue real que a una instalación en una sola máquina. El acceso público quedó concentrado en el Application Load Balancer, mientras que las instancias EC2 y la base de datos permanecieron en subredes privadas. Esta separación ayuda a reducir exposición y deja más claro el flujo de tráfico: Internet entra por el ALB, el ALB distribuye a WordPress y WordPress consulta MySQL en la capa de datos.
+
+El uso del Launch Template y del Auto Scaling Group fue importante porque permitió crear instancias repetibles y mantener dos servidores de aplicación. La prueba de reemplazo de una instancia demuestra que la capa de frontend puede recuperarse sin intervención manual directa, aunque dentro de los límites del laboratorio.
+
+La principal limitación estuvo en la alta disponibilidad de la base de datos. El diseño considera RDS MySQL en subredes privadas y preparado para Multi-AZ, pero AWS Academy puede restringir esa opción. Por eso la conclusión no es que se logró una alta disponibilidad completa de producción, sino que se implementó una arquitectura funcional, segmentada y preparada para crecer. En una cuenta productiva, el siguiente paso sería activar Multi-AZ en RDS, agregar HTTPS, almacenamiento compartido para archivos de WordPress y controles adicionales de seguridad.
+
+# 7. Referencias
+
+Amazon Web Services. (s. f.-a). *Example: VPC with servers in private subnets and NAT*. AWS Documentation. https://docs.aws.amazon.com/vpc/latest/userguide/vpc-example-private-subnets-nat.html
+
+Amazon Web Services. (s. f.-b). *What is Elastic Load Balancing?* AWS Documentation. https://docs.aws.amazon.com/elasticloadbalancing/latest/userguide/what-is-load-balancing.html
+
+Amazon Web Services. (s. f.-c). *Multi-AZ DB instance deployments for Amazon RDS*. AWS Documentation. https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Concepts.MultiAZSingleStandby.html
+
+Amazon Web Services. (s. f.-d). *Working with a DB instance in a VPC*. AWS Documentation. https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_VPC.WorkingWithRDSInstanceinaVPC.html
+
+Amazon Web Services. (s. f.-e). *Launch an instance from a launch template*. AWS Documentation. https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-launch-templates.html
+
+Amazon Web Services. (s. f.-f). *Health checks for your target groups*. AWS Documentation. https://docs.aws.amazon.com/elasticloadbalancing/latest/application/target-group-health-checks.html
+
+Amazon Web Services. (s. f.-g). *Use Elastic Load Balancing to distribute incoming application traffic in your Auto Scaling group*. AWS Documentation. https://docs.aws.amazon.com/autoscaling/ec2/userguide/autoscaling-load-balancer.html
