@@ -6,7 +6,7 @@
       {
         "id": "246b9da6cde0158f",
         "type": "tabs",
-        "dimension": 40.69620253164557,
+        "dimension": 65.3184165232358,
         "children": [
           {
             "id": "40e8d8947800d081",
@@ -37,7 +37,7 @@
       {
         "id": "c7d2fdc09307384a",
         "type": "tabs",
-        "dimension": 59.30379746835443,
+        "dimension": 34.6815834767642,
         "children": [
           {
             "id": "c207e71074ffdba2",
@@ -213,17 +213,20 @@
       "callout-manager:Insert Callout": false,
       "omnisearch:Omnisearch": false,
       "mermaid-tools:Open Mermaid Toolbar": false,
-      "open-vscode:VS Code": false
+      "open-vscode:VS Code": false,
+      "open-in-zed:Open vault in Zed": false
     }
   },
   "active": "40e8d8947800d081",
   "lastOpenFiles": [
+    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Books/repair_answer_encoding.ps1",
+    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Books/apply_study_guide_answers.ps1",
+    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/GUIA 30 PREGUANTAS.md",
+    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Books/O1-Fundamentos-De-IA-preguntas-test.md",
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Books/O1-Fundamentos-De-IA.pdf",
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Books/O1-Fundamentos-De-IA.md",
-    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Books/O1-Fundamentos-De-IA-preguntas-test.md",
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Books/__pycache__/convert_pdf_tests.cpython-313.pyc",
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Books/__pycache__",
-    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/GUIA 30 PREGUANTAS.md",
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Books/convert_pdf_tests.py",
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Books/O1-Fundamentos-De-IA.raw.txt",
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/GUIA 30 PREGUANTAS.docx",
@@ -238,7 +241,6 @@
     "Dev_Challenges/03-Web-scrapping.md",
     "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-02-grupal/attachments/Cloud_Archecture_Act_2.drawio.svg",
     "conflict-files-obsidian-git.md",
-    "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-02-grupal/Actividad 2. Despliegue de un app en redes publicas y privadas.docx",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Actividad-02-Metodologia-Arquitectura/mexingsof14_act2_Metodología y arquitectura.md",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/Guide-Dominus-Pruebas-Paso-a-Paso.md",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/Guide-Dominus-Justificacion-Defensa.md",
