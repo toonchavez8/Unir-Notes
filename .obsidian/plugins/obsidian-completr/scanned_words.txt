@@ -7663,6 +7663,7 @@ Exhaustividad
 Explanations
 Education
 Egyed
+Explicador
 Historia
 Howard
 Habilidades
@@ -15345,6 +15346,7 @@ definibles
 dropout
 diagnosticadas
 describa
+dilemmas
 La
 Linea
 Las
@@ -42075,6 +42077,7 @@ Springer
 Shafiq
 Spark
 Subentrenamiento
+Sentimientos
 Plat
 Pir
 Payne
@@ -45975,6 +45978,9 @@ Paszke
 Picus
 Peterson
 Plotly
+Procesados
+Preentrenado
+Pass
 Todo
 Thorndike
 Todos
@@ -49541,6 +49547,8 @@ Tensorboard
 TensorBoard
 Tibshirani
 Tableau
+Tengan
+Tokenizador
 aprendizaje
 ala
 aspectos
@@ -54248,6 +54256,7 @@ adici
 alcanzados
 agnostic
 arted
+admissible
 una
 un
 unas
@@ -65756,6 +65765,8 @@ estrecha
 explicador
 explainer
 exclusivas
+eJemplo
+eNtrenamiento
 que
 quien
 quiere
@@ -81891,6 +81902,7 @@ conviertan
 criticar
 calculando
 capturados
+cOmo
 Nic
 Necesidades
 No
@@ -85263,6 +85275,7 @@ Numpy
 Numerical
 Notebooks
 NeuralNet
+Neuronal
 maco
 motivar
 menes
@@ -97804,6 +97817,7 @@ interferir
 indicio
 iloc
 inference
+interpolator
 formaci
 factores
 fortalezas
@@ -108486,6 +108500,7 @@ Diccionario
 Downey
 Dash
 Dorn
+Desambiguar
 Wechsler
 Wayne
 WhatsApp
@@ -122410,6 +122425,8 @@ GPU
 Grafos
 Gommers
 Gross
+Ghoul
+Gram
 Formula
 Feedback
 Francis
@@ -125936,6 +125953,7 @@ Flask
 Fern
 Forward
 Friedman
+Feedforward
 otras
 of
 on
@@ -133374,6 +133392,8 @@ Chintala
 Chollet
 Concadena
 Clasificador
+Conjuntos
+Caracteres
 vida
 viene
 va
@@ -136811,6 +136831,8 @@ viviendas
 valiosa
 valoren
 voltear
+vice
+versa
 Reuven
 REA
 Re
@@ -140667,6 +140689,9 @@ Reddy
 Reentrenar
 Rapidez
 Ruido
+Recurrentes
+Representativas
+Remover
 Bar
 Bisquerra
 Bajo
@@ -144130,6 +144155,7 @@ Berg
 Brett
 Brownlee
 Backward
+Bibliogr
 Kama
 KPI
 Kurt
@@ -154124,6 +154150,8 @@ Optimizado
 Obermeyer
 OSDI
 Oliphant
+Oraciones
+Optimizador
 Vergüenza
 Valores
 Vision
@@ -157533,6 +157561,7 @@ Vasserman
 Virtanen
 VanderPlas
 VEfliea
+Verdaderas
 yo
 ya
 you

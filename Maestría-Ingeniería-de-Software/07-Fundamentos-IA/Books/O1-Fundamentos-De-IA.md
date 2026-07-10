@@ -1099,8 +1099,7 @@ librería SciKit-Learn de Python:
 
 from sklearn.ensemble import IsolationForest
 
-#
-3Selección De Características
+# Selección De Características
 
 features = ["Response Time", "CPU Usage", "Memory Usage", "Error Rate"]
 

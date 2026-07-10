@@ -1,8 +1,8 @@
-# Preguntas de test
+# Preguntas De Test
 
 ## Tema 1
 
-1. ¿Qué impulsó la investigación y avance en el aprendizaje automático?
+1. ¿Qué impulsó la investigación y advance en el aprendizaje automático?
    - A. La búsqueda de inteligencia avanzada en computación.
    - B. La resolución de problemas de predicción complejos.
    - C. El diseño de asistentes virtuales.
@@ -56,67 +56,67 @@
    - C. Un conjunto de datos no etiquetados listos para el entrenamiento.
    - D. La capacidad de un modelo de predecir un resultado.
 
-10. Si entrenamos un clasificador para detectar el SPAM y queremos un modelo que maximice la detección de este, entonces debemos optimizar: (spam-positive, no spam-negative)
+10. Si entrenamos un clasificador para detectar el SPAM y queremos un modelo que maximize la detección de este, entonces debemos optimizar: (spam-positive, no spam-negative)
    - A. La tasa de TP (true positive).
    - B. La tasa de FP (false positive).
    - C. La tasa de TN (true negative).
    - D. La tasa de FN (false negative).
 
-11. Si entrenamos un clasificador para detectar el SPAM y queremos un modelo que minimice la clasificación de correos legítimos como SPAM debemos: ( spam- negative, no spam-positive)
+1. Si entrenamos un clasificador para detectar el SPAM y queremos un modelo que minimice la clasificación de correos legítimos como SPAM debemos: ( spam- negative, no spam-positive)
    - A. Maximizar la tasa de TP (true positive).
    - B. Minimizar la tasa de FP (false positive).
    - C. Maximizar la tasa de TN (true negative).
    - D. Minimizar la tasa de FN (false negative).
 
-12. La precisión de un modelo nos indica:
+2. La precisión de un modelo nos indica:
    - A. Cuántas veces está en lo cierto cuando el modelo predice la clase positiva.
    - B. La proporción entre el número de predicciones correctas y el número total de predicciones.
    - C. La ratio de los ejemplos positivos correctamente clasificados.
    - D. La proporción de los ejemplos negativos correctamente clasificados.
 
-13. La especificidad de un modelo nos indica:
+3. La especificidad de un modelo nos indica:
    - A. Cuántas veces está en lo cierto cuando el modelo predice la clase positiva.
    - B. La proporción entre el número de predicciones correctas y el número total de predicciones.
    - C. La ratio de los ejemplos positivos correctamente clasificados.
    - D. La proporción de los ejemplos negativos correctamente clasificados.
 
-14. Una curva ROC nos permite:
+4. Una curva ROC nos permite:
    - A. Hallar el mejor umbral para determinar cuándo un dato pertenece a una u otra categoría.
    - B. Medir la precisión de un modelo de clasificación multiclase.
    - C. Hallar el coeficiente AUC de un modelo de regresión.
    - D. Clasificar los resultados del modelo con base en la matriz de confusión.
 
-15. ¿Cuál es una característica del MSE?
+5. ¿Cuál es una característica del MSE?
    - A. Es especialmente útil cuando se trabaja con variables que tienen valores muy dispersos.
    - B. Nos permite ver si nuestro modelo subestima sistemáticamente (más error negativo) o sobreestima.
    - C. Penaliza fuertemente los errores grandes debido a su naturaleza cuadrática.
    - D. Ninguna de las anteriores es correcta.
 
-16. Las métricas para los algoritmos de agrupamiento:
+6. Las métricas para los algoritmos de agrupamiento:
    - A. Se basan en medir la distancia entre los puntos de un grupo y los del clúster más cercano.
    - B. Se basan en medir la similitud de los puntos dentro de un mismo grupo y la separación entre distintos clústeres.
    - C. Se basan en medir la distancia mínima entre distintos grupos y la máxima dentro de un mismo clúster.
    - D. Todas las anteriores son correctas.
 
-17. El aprendizaje automático puede beneficiar en el proceso de desarrollo software mediante:
+7. El aprendizaje automático puede beneficiar en el proceso de desarrollo software mediante:
    - A. La generación automática de código con chatbots o asistentes (por ejemplo, ChatGPT).
    - B. La generación automática de código para pruebas de software.
-   - C. El diseño automático de los diagramas UML.
+   - C. El diseño automático de los diagrams UML.
    - D. La redacción automática de los manuales de usuario.
 
-18. Cuando se habla de sesgo y discriminación en el aprendizaje automático se hace referencia a:
+8. Cuando se habla de sesgo y discriminación en el aprendizaje automático se hace referencia a:
    - A. Los sesgos que tienen los desarrolladores que escriben código.
-   - B. Los sesgos que pueden contener los conjuntos de datos empleados en el entrenamiento.
+   - B. Los sesgos que pueden container los conjuntos de datos empleados en el entrenamiento.
    - C. La inyección de código en los modelos que los haga discriminatorios.
    - D. Las decisiones discriminatorias dentro del equipo de desarrollo.
 
-19. ¿Cuál es una característica del MPE?
+9. ¿Cuál es una característica del MPE?
    - A. Es especialmente útil cuando se trabaja con variables que tienen valores muy dispersos.
    - B. Nos permite ver si nuestro modelo subestima sistemáticamente (más error negativo) o sobreestima.
    - C. Penaliza fuertemente los errores grandes debido a su naturaleza cuadrática.
    - D. Ninguna de las anteriores es correcta.
 
-20. ¿Cuál es una característica del RMSLE?
+10. ¿Cuál es una característica del RMSLE?
    - A. Es especialmente útil cuando se trabaja con variables que tienen valores muy dispersos.
    - B. Nos permite ver si nuestro modelo subestima sistemáticamente (más error negativo) o sobreestima.
    - C. Penaliza fuertemente los errores grandes debido a su naturaleza cuadrática.
@@ -124,7 +124,7 @@
 
 ## Tema 2
 
-1. ¿Cuál de las siguientes funciones se utiliza para calcular la salida de una neurona artificial?
+1. ¿Cuál de las siguientes funciones se utilize para calcular la salida de una neurona artificial?
    - A. Función coseno.
    - B. Función signo.
    - C. Función logarítmica.
@@ -184,61 +184,61 @@
    - C. Una función que introduce la no linealidad en el modelo.
    - D. Una técnica de optimización.
 
-11. ¿Qué tipo de función de activación es la función sigmoide?
+1. ¿Qué tipo de función de activación es la función sigmoide?
    - A. Lineal.
    - B. No lineal.
    - C. Exponencial.
    - D. Logarítmica.
 
-12. ¿En qué consisten las redes prealimentadas (feedforward)?
+2. ¿En qué consistent las redes prealimentadas (feedforward)?
    - A. En tener conexiones que forman bucles.
    - B. En procesar secuencias temporales de datos.
    - C. En tener conexiones unidireccionales de las entradas a las salidas.
    - D. En utilizar autoencoders.
 
-13. ¿Cuál es la ventaja principal de las redes convolucionales sobre las redes tradicionales?
+3. ¿Cuál es la ventaja principal de las redes convolucionales sobre las redes tradicionales?
    - A. Tienen menos capas.
    - B. Requieren menos datos para entrenar.
    - C. Pueden captar características espaciales y jerárquicas.
    - D. No necesitan función de activación.
 
-14. ¿Cuál es una de las características principales de las redes de Hopfield?
+4. ¿Cuál es una de las características principales de las redes de Hopfield?
    - A. Son redes recurrentes con salidas que alimentan las entradas.
    - B. Utilizan retropropagación para ajustar los pesos.
    - C. Se utilizan principalmente para tareas de clasificación.
    - D. Tienen una estructura jerárquica.
 
-15. ¿Qué define la capacidad de una red de Hopfield para almacenar memorias?
+5. ¿Qué define la capacidad de una red de Hopfield para almacenar memorias?
    - A. El número de capas ocultas.
    - B. La cantidad de patrones de entrada.
    - C. El tamaño de la red (número de neuronas).
    - D. La tasa de aprendizaje.
 
-16. ¿Cuál de las siguientes afirmaciones sobre las redes autoasociativas es incorrecta?
+6. ¿Cuál de las siguientes afirmaciones sobre las redes autoasociativas es incorrecta?
    - A. Pueden recordar patrones completos a partir de fragmentos de estos.
    - B. Se basan en el principio de autoaprendizaje.
    - C. Necesitan grandes conjuntos de datos para entrenarse.
    - D. Son utilizadas para tareas de memoria asociativa.
 
-17. ¿Qué técnica se utiliza frecuentemente para ajustar los pesos en las redes neuronales?
+7. ¿Qué técnica se utilize frecuentemente para ajustar los pesos en las redes neuronales?
    - A. Algoritmo genético.
    - B. Algoritmo de optimización de enjambre de partículas.
    - C. Retropropagación del error.
-   - D. Análisis de componentes principales.
+   - D. Análisis de components principales.
 
-18. ¿Qué característica de las redes convolucionales les permite procesar imágenes de manera eficiente?
+8. ¿Qué característica de las redes convolucionales les permite procesar imágenes de manera eficiente?
    - A. La función sigmoide.
    - B. El uso de capas de pooling.
    - C. La estructura completamente conectada.
    - D. La tasa de aprendizaje variable.
 
-19. ¿Cuál es la función principal de las redes neuronales recurrentes (RNN)?
+9. ¿Cuál es la función principal de las redes neuronales recurrentes (RNN)?
    - A. Procesar datos de entrada en lotes.
    - B. Captar dependencias temporales en secuencias de datos.
    - C. Realizar clasificación de imágenes.
    - D. Reducir la dimensionalidad de datos.
 
-20. ¿Qué es una red generativa adversarial (GAN)?
+10. ¿Qué es una red generativa adversarial (GAN)?
    - A. Un tipo de red que clasifica los datos en múltiples categorías.
    - B. Un tipo de red que genera datos nuevos a partir de datos existentes mediante dos redes que compiten.
    - C. Un tipo de red que realiza tareas de segmentación de imágenes.
@@ -288,7 +288,7 @@
    - C. Lematización.
    - D. Derivación.
 
-8. ¿Qué técnica se utiliza para manejar palabras como ‘tmb’ en textos informales?
+8. ¿Qué técnica se utilize para manejar palabras como ‘tmb’ en textos informales?
    - A. Derivación.
    - B. Eliminación de stopwords.
    - C. Expansión de contracciones.
@@ -306,61 +306,61 @@
    - C. Calcular estadísticas matemáticas.
    - D. Mejorar la calidad del audio.
 
-11. ¿Qué problema resuelve la normalización en NLP?
+1. ¿Qué problema resuelve la normalización en NLP?
    - A. Elimina caracteres innecesarios y estandariza el texto.
    - B. Aumenta el tamaño del texto.
    - C. Traduce textos automáticamente.
    - D. Analiza la estructura gramatical del texto.
 
-12. ¿Qué técnica se utiliza para agrupar palabras con significados similares?
+2. ¿Qué técnica se utilize para agrupar palabras con significados similares?
    - A. Tokenización.
    - B. Lematización.
    - C. Conversión a minúsculas.
    - D. Expansión de contracciones.
 
-13. ¿Qué método se emplea para dividir un texto en oraciones?
+3. ¿Qué método se emplea para dividir un texto en oraciones?
    - A. Tokenización por palabras.
    - B. Tokenización por frases.
    - C. Tokenización por caracteres.
    - D. Tokenización por n-gramas.
 
-14. ¿Qué técnica se aplica para reducir las palabras a su raíz común?
+4. ¿Qué técnica se aplica para reducir las palabras a su raíz común?
    - A. Derivación.
    - B. Lematización.
    - C. Normalización.
    - D. Tokenización.
 
-15. ¿Cuál es el principal desafío de aplicar modelos de NLP en idiomas diferentes al inglés?
+5. ¿Cuál es el principal desafío de aplicar modelos de NLP en idiomas diferentes al inglés?
    - A. La falta de tokenización.
    - B. La falta de caracteres especiales.
    - C. La falta de acentos y otros caracteres en el inglés.
    - D. La falta de palabras comunes.
 
-16. ¿Qué técnica de tokenización es más adecuada para el análisis de spam?
+6. ¿Qué técnica de tokenización es más adecuada para el análisis de spam?
    - A. Tokenización por caracteres.
    - B. Tokenización por n-gramas.
    - C. Tokenización por palabras.
    - D. Tokenización por frases.
 
-17. ¿Cuál es el principal objetivo del etiquetado morfosintáctico en NLP?
+7. ¿Cuál es el principal objetivo del etiquetado morfosintáctico en NLP?
    - A. Traducir textos automáticamente.
    - B. Eliminar stopwords.
    - C. Reducir el tamaño de los datos.
    - D. Asignar etiquetas gramaticales a cada palabra.
 
-18. ¿Qué factor es crítico al aplicar técnicas NLP a múltiples idiomas?
+8. ¿Qué factor es crítico al aplicar técnicas NLP a múltiples idiomas?
    - A. Las diferencias gramaticales y semánticas entre idiomas.
    - B. El tamaño del vocabulario.
    - C. El número de palabras.
    - D. La longitud de las oraciones.
 
-19. ¿Cuál es el propósito principal de eliminar stopwords en el NLP?
+9. ¿Cuál es el propósito principal de eliminar stopwords en el NLP?
    - A. Reducir el ruido en el análisis de texto.
    - B. Aumentar la precisión del etiquetado POS.
    - C. Incrementar la longitud del texto.
    - D. Mejorar la corrección ortográfica.
 
-20. ¿Qué técnica se usa para identificar el contexto semántico en un corpus?
+10. ¿Qué técnica se usa para identificar el contexto semántico en un corpus?
    - A. Tokenización.
    - B. Análisis sintáctico.
    - C. Modelos de lenguaje.
@@ -399,12 +399,12 @@
    - D. Equidad.
 
 6. ¿Qué implica el principio de beneficencia en la IA?
-   - A. Que la IA debe ser utilizada para promover el bienestar y minimizar los riesgos.
-   - B. Que los sistemas de IA deben ser siempre abiertos y accesibles al público.
+   - A. Que la IA debe set utilizada para promover el bienestar y minimizar los riesgos.
+   - B. Que los sistemas de IA deben set siempre abiertos y accesibles al público.
    - C. Que los desarrolladores no deben rendir cuentas por sus acciones.
    - D. Que la IA no debe involucrar ninguna forma de automatización.
 
-7. ¿Cuál de las siguientes estrategias se utiliza para mitigar los sesgos en los modelos de IA?
+7. ¿Cuál de las siguientes estrategias se utilize para mitigar los sesgos en los modelos de IA?
    - A. Uso exclusivo de datos históricos.
    - B. Entrenamiento con datos desbalanceados.
    - C. Auditoría de algoritmos.
@@ -428,61 +428,61 @@
    - C. Redes neuronales.
    - D. Eliminación de características.
 
-11. ¿Cuál es uno de los principales riesgos de la falta de transparencia en los algoritmos de IA?
+1. ¿Cuál es uno de los principales riesgos de la falta de transparencia en los algoritmos de IA?
    - A. Aumento de la eficiencia del sistema.
    - B. Menor costo de desarrollo.
    - C. Desconfianza pública y falta de rendición de cuentas.
    - D. Incremento en la capacidad de predicción.
 
-12. ¿Qué objetivo persigue la implementación de principios éticos en la IA?
+2. ¿Qué objetivo persigue la implementación de principios éticos en la IA?
    - A. Maximizar los beneficios comerciales.
    - B. Asegurar que la IA se desarrolle de manera justa y segura.
    - C. Acelerar la adopción de la IA en todas las industrias.
    - D. Reducir la cantidad de datos necesarios para entrenar modelos.
 
-13. ¿Qué estrategia se recomienda para mejorar la equidad en los sistemas de IA?
+3. ¿Qué estrategia se recomienda para mejorar la equidad en los sistemas de IA?
    - A. Utilizar solo datos recientes.
    - B. Entrenar el modelo con datos variados y representativos.
    - C. Evitar el uso de datos sensibles.
    - D. Aumentar la complejidad del modelo.
 
-14. ¿Qué principio ético en la IA está directamente relacionado con la protección de los datos personales?
+4. ¿Qué principio ético en la IA está directamente relacionado con la protección de los datos personales?
    - A. Equidad.
    - B. Beneficencia.
    - C. Privacidad.
    - D. Transparencia.
 
-15. ¿Cuál es el rol de la explicabilidad en la ética de la IA?
+5. ¿Cuál es el rol de la explicabilidad en la ética de la IA?
    - A. Hacer que la IA sea más eficiente.
    - B. Permitir que los usuarios entiendan y confíen en las decisiones de la IA.
    - C. Aumentar la velocidad de procesamiento.
    - D. Reducir los costos de implementación.
 
-16. ¿Cuál es un desafío común en la implementación de principios éticos en la IA?
+6. ¿Cuál es un desafío común en la implementación de principios éticos en la IA?
    - A. Falta de datos.
    - B. Dificultad para definir y medir principios, como la equidad y la transparencia.
    - C. Alta velocidad de procesamiento.
    - D. Uso de algoritmos complejos.
 
-17. ¿Cuál de los siguientes es un enfoque para mitigar el sesgo en modelos de IA?
+7. ¿Cuál de los siguientes es un enfoque para mitigar el sesgo en modelos de IA?
    - A. Aumentar la cantidad de datos sesgados.
    - B. Eliminar todas las variables sensibles del modelo.
    - C. Incorporar técnicas de fairness durante el entrenamiento del modelo.
    - D. Evitar la supervisión humana en el entrenamiento.
 
-18. ¿Qué es un modelo de caja negra en el contexto de la IA?
+8. ¿Qué es un modelo de caja negra en el contexto de la IA?
    - A. Un modelo cuya estructura y funcionamiento es completamente transparente.
    - B. Un sistema de IA cuya toma de decisiones es opaca y difícil de interpretar.
    - C. Un algoritmo que es más rápido, pero menos preciso.
    - D. Un sistema de IA utilizado exclusivamente para propósitos de investigación.
 
-19. ¿Cuál es uno de los objetivos principales de la ética en la IA?
+9. ¿Cuál es uno de los objetivos principales de la ética en la IA?
    - A. Maximizar el rendimiento técnico.
    - B. Asegurar que los sistemas de IA respeten los derechos humanos.
    - C. Incrementar la cantidad de datos recolectados.
    - D. Reducir los costos de desarrollo de la IA.
 
-20. ¿Cuál de las siguientes opciones es un reto para la ética de la IA en aplicaciones militares?
+10. ¿Cuál de las siguientes opciones es un reto para la ética de la IA en aplicaciones militares?
    - A. La mejora de la precisión en el campo de batalla.
    - B. La autonomía de las decisiones tomadas por sistemas de armas basados en IA.
    - C. El aumento de la velocidad en la toma de decisiones.
@@ -496,7 +496,7 @@
    - C. Posee una amplia gama de bibliotecas especializadas.
    - D. Es un lenguaje orientado a la web.
 
-2. ¿Qué estructura de datos en Python se utiliza para almacenar datos en pares clave-valor?
+2. ¿Qué estructura de datos en Python se utilize para almacenar datos en pares clave-valor?
    - A. Lista.
    - B. Tupla.
    - C. Conjunto.
@@ -538,7 +538,7 @@
    - C. Facilidad de depuración con grafos dinámicos.
    - D. Mayor soporte de dispositivos móviles.
 
-9. ¿Qué biblioteca se utiliza para manipular y analizar datos en Python?
+9. ¿Qué biblioteca se utilize para manipular y analizar datos en Python?
    - A. NumPy.
    - B. Pandas.
    - C. Matplotlib.
@@ -550,61 +550,61 @@
    - C. TorchScript.
    - D. Optimización de hardware.
 
-11. ¿Cuál es la función de la biblioteca Scikit-learn?
+1. ¿Cuál es la función de la biblioteca Scikit-learn?
    - A. Visualizar datos.
    - B. Manejar arrays multidimensionales.
    - C. Automatizar tareas repetitivas.
    - D. Proveer herramientas de aprendizaje automático.
 
-12. ¿Qué función de TensorFlow facilita la construcción de redes neuronales de manera más simple?
+2. ¿Qué función de TensorFlow facilita la construcción de redes neuronales de manera más simple?
    - A. TFX.
    - B. Keras.
    - C. PyTorch.
    - D. Matplotlib.
 
-13. ¿Qué estructura de control en Python permite iterar sobre elementos de una lista?
+3. ¿Qué estructura de control en Python permite iterar sobre elementos de una lista?
    - A. if-else .
    - B. for-loop .
    - C. while-loop .
    - D. switch-case .
 
-14. ¿Qué paradigma de programación utiliza PyTorch para construir modelos de IA?
+4. ¿Qué paradigma de programación utilize PyTorch para construir modelos de IA?
    - A. Programación estructurada.
    - B. Programación orientada a objetos.
    - C. Programación procedural.
    - D. Programación funcional.
 
-15. ¿Qué librería de Python es especialmente útil para cálculos numéricos?
+5. ¿Qué librería de Python es especialmente útil para cálculos numéricos?
    - A. Pandas.
    - B. NumPy.
    - C. Seaborn.
    - D. Keras.
 
-16. ¿Qué función tiene `optimizer.step()` en PyTorch?
+6. ¿Qué función tiene `optimizer.step()` en PyTorch?
    - A. Define la arquitectura del modelo.
    - B. Calcula el gradiente.
    - C. Actualiza los parámetros del modelo.
    - D. Inicializa el modelo.
 
-17. ¿Qué herramienta de TensorFlow es parte de su ecosistema completo para machine learning?
+7. ¿Qué herramienta de TensorFlow es parte de su ecosistema completo para machine learning?
    - A. TorchScript.
    - B. Autograd.
    - C. TFX.
    - D. PyTorch.
 
-18. ¿Qué hace el método `sum` en Python cuando se aplica a una lista?
+8. ¿Qué hace el método `sum` en Python cuando se aplica a una lista?
    - A. Suma todos los elementos de la lista.
    - B. Concadena los elementos de la lista.
    - C. Ordena los elementos de la lista.
    - D. Elimina duplicados de la lista.
 
-19. ¿Qué biblioteca de Python proporciona soporte para arrays multidimensionales?
+9. ¿Qué biblioteca de Python proporciona soporte para arrays multidimensionales?
    - A. Seaborn.
    - B. Pandas.
    - C. Matplotlib.
    - D. NumPy.
 
-20. ¿Qué hace el método `dropna()` en Pandas?
+10. ¿Qué hace el método `dropna()` en Pandas?
    - A. Añade valores nulos a un dataframe.
    - B. Elimina filas con valores nulos en un dataframe.
    - C. Llena valores nulos en un dataframe.
@@ -672,61 +672,61 @@
    - C. Validación cruzada.
    - D. Normalización de datos.
 
-11. ¿Qué herramienta se menciona para la gestión de proyectos y tareas en un equipo de desarrollo?
+1. ¿Qué herramienta se menciona para la gestión de proyectos y tareas en un equipo de desarrollo?
    - A. GitHub.
    - B. Trello.
    - C. Jira.
    - D. Confluence.
 
-12. ¿Cuál es el objetivo de la evaluación del modelo en un proyecto de IA?
+2. ¿Cuál es el objetivo de la evaluación del modelo en un proyecto de IA?
    - A. Verificar la exactitud del modelo en datos de prueba.
    - B. Probar todos los posibles modelos existentes.
    - C. Implementar el modelo en producción.
    - D. Recolectar más datos para mejorar el modelo.
 
-13. ¿Qué opción describe una práctica incorrecta en la implementación de modelos de IA?
+3. ¿Qué opción describe una práctica incorrecta en la implementación de modelos de IA?
    - A. Evaluar el modelo en datos no vistos.
    - B. Usar frameworks, como TensorFlow o PyTorch.
    - C. Entrenar el modelo sin pruebas de evaluación.
    - D. Implementar redes neuronales simples para tareas de clasificación.
 
-14. ¿Qué es esencial para el éxito en la implementación de modelos de IA en aplicaciones del mundo real?
+4. ¿Qué es esencial para el éxito en la implementación de modelos de IA en aplicaciones del mundo real?
    - A. Precisión y eficiencia del modelo.
    - B. Rapidez en el desarrollo del código.
    - C. Uso de librerías exclusivas de Python.
    - D. Evitar la colaboración en equipo.
 
-15. ¿Qué se recomienda hacer en caso de que un modelo de IA no funcione correctamente con nuevos datos?
+5. ¿Qué se recomienda hacer en caso de que un modelo de IA no funcione correctamente con nuevos datos?
    - A. Desplegar el modelo tal como está.
    - B. Realizar ajustes y optimización.
    - C. Cambiar el lenguaje de programación.
    - D. Ignorar los nuevos datos.
 
-16. ¿Qué técnica se menciona como parte del proceso de ajuste y optimización de un modelo?
+6. ¿Qué técnica se menciona como parte del proceso de ajuste y optimización de un modelo?
    - A. Selección de algoritmos.
    - B. Data augmentation.
    - C. Uso de técnicas de regularización.
    - D. Diseño de interfaces gráficas.
 
-17. ¿Qué problema común en modelos de deep learning puede ser mitigado por la capa dropout ?
+7. ¿Qué problema común en modelos de deep learning puede set mitigado por la capa dropout ?
    - A. Subentrenamiento.
    - B. Overfitting.
    - C. Subestimación de parámetros.
    - D. Ruido en los datos.
 
-18. ¿Qué fase sigue al entrenamiento del modelo en el desarrollo de proyectos de IA?
+8. ¿Qué fase sigue al entrenamiento del modelo en el desarrollo de proyectos de IA?
    - A. Recolección de más datos.
    - B. Evaluación del modelo.
    - C. Despliegue del modelo.
    - D. Documentación del proceso.
 
-19. ¿Cuál es una característica clave de la implementación de modelos en PyTorch?
+9. ¿Cuál es una característica clave de la implementación de modelos en PyTorch?
    - A. Simplicidad del proceso.
    - B. Control detallado sobre el entrenamiento.
    - C. Uso limitado en la industria.
-   - D. Requiere menos datos que TensorFlow.
+   - D. Require menos datos que TensorFlow.
 
-20. ¿Qué se debe hacer para mejorar la robustez de un modelo de IA?
+10. ¿Qué se debe hacer para mejorar la robustez de un modelo de IA?
    - A. Cambiar el framework.
    - B. Utilizar un optimizador con menor tasa de aprendizaje.
    - C. Recolectar más datos.

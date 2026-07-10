@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Books/O1-Fundamentos-De-IA.md",
+                "file": "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Books/O1-Fundamentos-De-IA-preguntas-test.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -29,7 +29,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "O1-Fundamentos-De-IA"
+              "title": "O1-Fundamentos-De-IA-preguntas-test"
             }
           }
         ]
@@ -170,13 +170,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Books/O1-Fundamentos-De-IA.md",
+                "file": "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Books/O1-Fundamentos-De-IA-preguntas-test.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of O1-Fundamentos-De-IA"
+              "title": "Outline of O1-Fundamentos-De-IA-preguntas-test"
             }
           },
           {
@@ -218,9 +218,9 @@
   },
   "active": "40e8d8947800d081",
   "lastOpenFiles": [
-    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Books/O1-Fundamentos-De-IA-preguntas-test.md",
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Books/O1-Fundamentos-De-IA.pdf",
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Books/O1-Fundamentos-De-IA.md",
+    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Books/O1-Fundamentos-De-IA-preguntas-test.md",
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Books/__pycache__/convert_pdf_tests.cpython-313.pyc",
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Books/__pycache__",
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/GUIA 30 PREGUANTAS.md",
