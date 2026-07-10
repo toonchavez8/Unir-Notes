@@ -12,29 +12,10 @@
             "id": "40e8d8947800d081",
             "type": "leaf",
             "state": {
-              "type": "docx-view",
-              "state": {
-                "file": "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/GUIA 30 PREGUANTAS.docx"
-              },
-              "icon": "lucide-file",
-              "title": "GUIA 30 PREGUANTAS"
-            }
-          }
-        ]
-      },
-      {
-        "id": "c7d2fdc09307384a",
-        "type": "tabs",
-        "dimension": 59.30379746835443,
-        "children": [
-          {
-            "id": "c207e71074ffdba2",
-            "type": "leaf",
-            "state": {
               "type": "markdown",
               "state": {
-                "file": "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/GUIA 30 PREGUANTAS.md",
-                "mode": "preview",
+                "file": "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Books/O1-Fundamentos-De-IA.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -48,7 +29,26 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "GUIA 30 PREGUANTAS"
+              "title": "O1-Fundamentos-De-IA"
+            }
+          }
+        ]
+      },
+      {
+        "id": "c7d2fdc09307384a",
+        "type": "tabs",
+        "dimension": 59.30379746835443,
+        "children": [
+          {
+            "id": "c207e71074ffdba2",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Books/O1-Fundamentos-De-IA.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "O1-Fundamentos-De-IA"
             }
           }
         ]
@@ -108,8 +108,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 295.5,
-    "collapsed": true
+    "width": 414.5
   },
   "right": {
     "id": "a25b807ad639ff42",
@@ -171,13 +170,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/GUIA 30 PREGUANTAS.md",
+                "file": "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Books/O1-Fundamentos-De-IA.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of GUIA 30 PREGUANTAS"
+              "title": "Outline of O1-Fundamentos-De-IA"
             }
           },
           {
@@ -186,8 +185,8 @@
             "state": {
               "type": "git-history-view",
               "state": {},
-              "icon": "history",
-              "title": "History"
+              "icon": "lucide-ghost",
+              "title": "git-history-view"
             }
           }
         ],
@@ -217,10 +216,17 @@
       "open-vscode:VS Code": false
     }
   },
-  "active": "c207e71074ffdba2",
+  "active": "40e8d8947800d081",
   "lastOpenFiles": [
-    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/GUIA 30 PREGUANTAS.docx",
+    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Books/O1-Fundamentos-De-IA-preguntas-test.md",
+    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Books/O1-Fundamentos-De-IA.pdf",
+    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Books/O1-Fundamentos-De-IA.md",
+    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Books/__pycache__/convert_pdf_tests.cpython-313.pyc",
+    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Books/__pycache__",
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/GUIA 30 PREGUANTAS.md",
+    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Books/convert_pdf_tests.py",
+    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Books/O1-Fundamentos-De-IA.raw.txt",
+    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/GUIA 30 PREGUANTAS.docx",
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/03-Tema1-Supervisado-vs-No-Supervisado.md",
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/GUIA 30 PREGUANTAS (1).docx",
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/04-Tema1-Evaluacion-de-modelos-clasificacion.md",
@@ -236,14 +242,10 @@
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Actividad-02-Metodologia-Arquitectura/mexingsof14_act2_Metodología y arquitectura.md",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/Guide-Dominus-Pruebas-Paso-a-Paso.md",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/Guide-Dominus-Justificacion-Defensa.md",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/TFM_v1.docx",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/TFM_v1.md",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/plantilla.docx",
     "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-02-grupal/02-Documento-entrega-y-plan-equipo.md",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/plantilla.md",
-    "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-02-grupal/01-Guia.pdf",
     "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-02-grupal/Rubrica.md",
-    "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-02-grupal/mexissi06_act2_grupal.docx",
     "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-02-grupal/mexissi06_act2_grupal-Miguel.md",
     "Dev-Journel/Projects/images/aws-wordpress-alb-page.png",
     "Dev-Journel/Projects/images/aws-network-resource-map.png",
@@ -252,7 +254,6 @@
     "Dev-Journel/Projects/images/aws-target-group-healthy.png",
     "Dev-Journel/Projects/images/aws-asg-recovery-targets.png",
     "Dev-Journel/Projects/images/aws-academy-wordpress-architecture.svg",
-    "Dev-Journel/Projects/images",
     "Dev-Journel/Projects/03-AWS-Academy-WordPress-High-Availability.md",
     "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-02-grupal/attachments/Pasted image 20260701001412.png",
     "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-02-grupal/attachments/Pasted image 20260701001359.png",
@@ -262,8 +263,6 @@
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-02/guia_paso_a_paso_act2.md",
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-02/Entrega/informe.md",
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-02/Entrega/notas_analisis.md",
-    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-02/markdown-export/clasificacion_noticias_pln.md",
-    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-02/resumen_experimentos.md",
     "Untitled.canvas"
   ]
 }
