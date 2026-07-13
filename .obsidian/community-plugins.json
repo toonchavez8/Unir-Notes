@@ -29,5 +29,7 @@
   "tabout",
   "vscode-editor",
   "obsidian-zotero-desktop-connector",
-  "csv-obsidian"
+  "csv-obsidian",
+  "anything-as-md",
+  "open-in-zed"
 ]
