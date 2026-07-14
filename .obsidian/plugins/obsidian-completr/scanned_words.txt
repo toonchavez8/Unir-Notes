@@ -7664,6 +7664,7 @@ Explanations
 Education
 Egyed
 Explicador
+Evw
 Historia
 Howard
 Habilidades
@@ -15347,6 +15348,13 @@ dropout
 diagnosticadas
 describa
 dilemmas
+descart
+desigual
+desbalances
+dinamicos
+dipos
+dragrams
+distinos
 La
 Linea
 Las
@@ -18745,6 +18753,7 @@ Lerer
 Llena
 LIME
 LimeTabularExplainer
+Lowercasing
 hace
 habilidad
 humano
@@ -26613,6 +26622,10 @@ reentrenamiento
 ruidosos
 regularization
 regularizers
+rindan
+regularizar
+regularizacion
+recoleccion
 la
 los
 las
@@ -30091,6 +30104,7 @@ lntXdGZC
 lobos
 lime
 literature
+limpiarlos
 sentimientos
 sugiere
 ser
@@ -34399,6 +34413,7 @@ sobreajustado
 subajuste
 simetr
 stages
+sPr
 tiempo
 tiene
 tica
@@ -49549,6 +49564,7 @@ Tibshirani
 Tableau
 Tengan
 Tokenizador
+TmOh
 aprendizaje
 ala
 aspectos
@@ -54257,6 +54273,10 @@ alcanzados
 agnostic
 arted
 admissible
+adjetivo
+abreviaturas
+aej
+ayJr
 una
 un
 unas
@@ -61210,6 +61230,7 @@ bicicleta
 bias
 biased
 boring
+biolog
 emocional
 emociones
 en
@@ -65767,6 +65788,12 @@ explainer
 exclusivas
 eJemplo
 eNtrenamiento
+estabilizarse
+estandarizando
+experimentacion
+estructurarlos
+explicito
+espero
 que
 quien
 quiere
@@ -68862,6 +68889,7 @@ qsfegwcgwovh
 qpcW
 quebrantos
 quyY
+quZ
 juegan
 json
 justo
@@ -76755,6 +76783,11 @@ procedural
 perceptrones
 proba
 preprocesados
+propagan
+produzcan
+perjudicaba
+parametros
+preparacion
 clave
 coment
 capacidad
@@ -81903,6 +81936,11 @@ criticar
 calculando
 capturados
 cOmo
+calcularse
+comprimen
+confluyen
+ciencias
+colaboracion
 Nic
 Necesidades
 No
@@ -85276,6 +85314,7 @@ Numerical
 Notebooks
 NeuralNet
 Neuronal
+NhQd
 maco
 motivar
 menes
@@ -89403,6 +89442,9 @@ momentum
 muestren
 mining
 mitigado
+minimizarse
+modele
+manipulacion
 Arist
 Abraham
 Adem
@@ -93417,6 +93459,7 @@ Adam
 Autograd
 Abadi
 Abbasi
+Aimm
 importancia
 inteligencia
 intelectivos
@@ -97818,6 +97861,7 @@ indicio
 iloc
 inference
 interpolator
+iIRFa
 formaci
 factores
 fortalezas
@@ -101475,6 +101519,10 @@ ficticio
 filtered
 flask
 fpr
+featuers
+fDH
+fhsF
+fTj
 Utiliza
 Una
 Uno
@@ -129413,6 +129461,10 @@ optim
 optimizadas
 ofrezca
 optimizers
+oracionales
+operacionalizar
+optimizables
+optimizacion
 Crea
 Cociente
 Con
@@ -136833,6 +136885,7 @@ valoren
 voltear
 vice
 versa
+vero
 Reuven
 REA
 Re
@@ -140692,6 +140745,7 @@ Ruido
 Recurrentes
 Representativas
 Remover
+RLJ
 Bar
 Bisquerra
 Bajo
@@ -147447,6 +147501,7 @@ Kirchner
 Kannan
 Kern
 Kerkwijk
+KwG
 gicos
 gica
 generan
@@ -150857,6 +150912,7 @@ gramatica
 gasolina
 gender
 grad
+geXke
 Ofrecen
 Orientaci
 Ordena
@@ -154152,6 +154208,7 @@ OSDI
 Oliphant
 Oraciones
 Optimizador
+OwJ
 Vergüenza
 Valores
 Vision
@@ -164056,6 +164113,7 @@ QyIiBkPSJNMTIgMTZIOHY
 QzIiBkPSJNMiAyaDJ
 Qing
 Qiu
+QvR
 will
 words
 workspace
@@ -167246,6 +167304,8 @@ wsd
 women
 war
 washing
+wNSm
+wBp
 Johnson
 James
 Johari
@@ -180150,6 +180210,7 @@ YTsJPHBhdGggY
 YOLO
 Yang
 York
+YmuA
 Zen
 ZD
 Zs
@@ -183350,6 +183411,8 @@ Zaldivar
 Zarsky
 Zubo
 ZeroDivisionError
+ZJYA
+ZAiY
 ktor
 knowledge
 keys
@@ -186667,6 +186730,7 @@ kPAK
 keras
 kasa
 knowing
+kmJq
 XOR
 XX
 XP

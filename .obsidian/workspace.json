@@ -12,24 +12,12 @@
             "id": "40e8d8947800d081",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "docx-view",
               "state": {
-                "file": "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Books/O1-Fundamentos-De-IA-preguntas-test.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "file": "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/plantilla.docx"
               },
               "icon": "lucide-file",
-              "title": "O1-Fundamentos-De-IA-preguntas-test"
+              "title": "plantilla"
             }
           }
         ]
@@ -170,13 +158,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Books/O1-Fundamentos-De-IA-preguntas-test.md",
+                "file": "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/plantilla.docx",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of O1-Fundamentos-De-IA-preguntas-test"
+              "title": "Outline of plantilla"
             }
           },
           {
@@ -219,29 +207,28 @@
   },
   "active": "40e8d8947800d081",
   "lastOpenFiles": [
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Actividad-02-Metodologia-Arquitectura/mexingsof14_act2_Metodología y arquitectura.md",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Actividad-02-Metodologia-Arquitectura/diagramas-uml-dominus-broker.md",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Actividad-02-Metodologia-Arquitectura/mexingsof14_act2_Metodología y arquitectura.docx",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Actividad-04-Articulos-y-Anexos/mexingsof14_act4_Artículo y anexos.docx",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Actividad-03-Pruebas-de-la-herramienta/mexingsof14_act3_Pruebas de la herramienta.docx",
+    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Books/O1-Fundamentos-De-IA-preguntas-test.md",
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Books/repair_answer_encoding.ps1",
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Books/apply_study_guide_answers.ps1",
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/GUIA 30 PREGUANTAS.md",
-    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Books/O1-Fundamentos-De-IA-preguntas-test.md",
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Books/O1-Fundamentos-De-IA.pdf",
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Books/O1-Fundamentos-De-IA.md",
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Books/__pycache__/convert_pdf_tests.cpython-313.pyc",
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Books/__pycache__",
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Books/convert_pdf_tests.py",
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Books/O1-Fundamentos-De-IA.raw.txt",
-    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/GUIA 30 PREGUANTAS.docx",
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/03-Tema1-Supervisado-vs-No-Supervisado.md",
-    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/GUIA 30 PREGUANTAS (1).docx",
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/04-Tema1-Evaluacion-de-modelos-clasificacion.md",
-    "Maestría-Ingeniería-de-Software/Calendario semestral.pdf",
     "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-02-grupal/01-Guia.md",
     "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-02-grupal/Actividad 2. Despliegue de un app en redes publicas y privadas.md",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Actividad-02-Metodologia-Arquitectura/mexingsof14_act2_Metodología y arquitectura.docx",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Actividad-02-Metodologia-Arquitectura/diagramas-uml-dominus-broker.md",
     "Dev_Challenges/03-Web-scrapping.md",
     "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-02-grupal/attachments/Cloud_Archecture_Act_2.drawio.svg",
     "conflict-files-obsidian-git.md",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Actividad-02-Metodologia-Arquitectura/mexingsof14_act2_Metodología y arquitectura.md",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/Guide-Dominus-Pruebas-Paso-a-Paso.md",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/Guide-Dominus-Justificacion-Defensa.md",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/TFM_v1.md",
