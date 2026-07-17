@@ -3835,6 +3835,9 @@ ImIpXaOvkbkWlAFixYYPw
 IWYnoEbhffjhh
 IGARhGoMoAgc
 IzUsMjIG
+IIMT
+Infer
+Implementable
 Emocional
 Edward
 Expone
@@ -7689,7 +7692,6 @@ Educativo
 Educativas
 ERD
 Entrando
-<<<<<<< HEAD
 Expected
 EDDx
 Eqqq
@@ -7758,7 +7760,6 @@ ESEiIzetMRPaBGSKiFEYyFbdu
 EgJzprB
 EcmejB
 EuXTo
-=======
 EcY
 Extended
 Evaluarlo
@@ -7787,6 +7788,11 @@ Education
 Egyed
 Explicador
 Evw
+Expect
+Exclude
+Enforcing
+<<<<<<< HEAD
+=======
 >>>>>>> origin/main
 Historia
 Howard
@@ -11183,6 +11189,8 @@ HRrVIXJ
 HXemikb
 HxYsXkSFDBnVLyPWxRK
 Htc
+Half
+Homepage
 definiciones
 de
 dem
@@ -15470,7 +15478,6 @@ dimos
 designada
 dijimos
 despleg
-<<<<<<< HEAD
 distribuyan
 digit
 dEww
@@ -15608,7 +15615,6 @@ dilWrVqmMipAs
 dKLXsHh
 dPFa
 djatMxHZD
-=======
 dlYfU
 dotar
 discernir
@@ -15689,7 +15695,22 @@ dinamicos
 dipos
 dragrams
 distinos
->>>>>>> origin/main
+dicts
+delete
+difficulty
+dictionary
+deserializing
+derive
+deeply
+door
+desktops
+dialog
+debounced
+downloading
+demos
+dumping
+deliberately
+disciplined
 La
 Linea
 Las
@@ -19064,7 +19085,6 @@ LogUrl
 Logra
 Lambdas
 Lambda
-<<<<<<< HEAD
 Later
 LVYYI
 Lwwwpp
@@ -19137,7 +19157,6 @@ LMkQGMnKvUqVK
 LDKtsnFX
 LDDz
 LBhw
-=======
 Laboratory
 Letters
 Lopez
@@ -19163,7 +19182,7 @@ Llena
 LIME
 LimeTabularExplainer
 Lowercasing
->>>>>>> origin/main
+Loose
 hace
 habilidad
 humano
@@ -22683,6 +22702,16 @@ hwgT
 hXTtSKZjz
 hMw
 hMpCjPQwlLBmdIwbrhivISwErXsGTuZHSrdG
+hoisting
+hones
+hotkeys
+half
+hit
+homepage
+hide
+historical
+hero
+hint
 referencia
 reconocer
 rmino
@@ -27002,7 +27031,6 @@ revisables
 rlokwfpb
 rcnyxkf
 realismo
-<<<<<<< HEAD
 revis
 reutilizarlos
 retirar
@@ -27084,7 +27112,6 @@ rQqmTD
 rNTVvK
 rTETJHwMiIg
 rotation
-=======
 regularizaci
 retroalimenta
 realimentaci
@@ -27165,7 +27192,26 @@ rindan
 regularizar
 regularizacion
 recoleccion
->>>>>>> origin/main
+rusty
+recommends
+reports
+redirection
+reread
+rewatch
+reinforce
+reshape
+reducing
+refining
+reload
+realistic
+reordering
+rendering
+refetch
+removes
+rust
+rejection
+rework
+recommendation
 la
 los
 las
@@ -30601,7 +30647,6 @@ leaf
 ligeras
 llevadas
 limitamos
-<<<<<<< HEAD
 lengths
 leaves
 lockfile
@@ -30676,7 +30721,6 @@ lUmhdFCurqkNkuCI
 lMpihdlRy
 lmlRtS
 lKHPBHZxbXMJDDIkiVLrI
-=======
 luchen
 llevarlos
 lejan
@@ -30721,7 +30765,9 @@ lobos
 lime
 literature
 limpiarlos
->>>>>>> origin/main
+liner
+labeled
+linkable
 sentimientos
 sugiere
 ser
@@ -34953,7 +34999,6 @@ seleccionaron
 seleccionamos
 sanos
 sobrecostos
-<<<<<<< HEAD
 spiral
 sense
 seeing
@@ -35031,7 +35076,6 @@ slp
 sNkmlAYkqCFhnpJgGRKQk
 syHjMravXu
 sfV
-=======
 specificity
 stemming
 sustantivo
@@ -35110,7 +35154,35 @@ subajuste
 simetr
 stages
 sPr
->>>>>>> origin/main
+strongest
+statistics
+succinctly
+shebang
+servlets
+servlet
+sums
+suggestions
+suggested
+schemas
+specifically
+setting
+sites
+skip
+skeletons
+stability
+slightly
+searches
+slug
+slide
+shells
+shadows
+suggestion
+subtle
+sans
+serif
+snapshotted
+scaffold
+shareable
 tiempo
 tiene
 tica
@@ -38902,6 +38974,21 @@ ttLr
 tVLdbH
 tjyXZs
 tXMmTMn
+takeaways
+targeted
+tends
+typical
+tricks
+trick
+treats
+toolbox
+tailored
+turns
+translated
+turning
+toast
+toasts
+tradeoffs
 Siglo
 Self
 Se
@@ -42852,6 +42939,15 @@ SCRwzZsyoJkUcMGCA
 SWJNNhSupqpAjZEgkgJIMjWSJLdTsSeEidTmKtjyXSbSeF
 SGSMi
 Series
+Sliding
+Serializing
+Sometimes
+Smart
+Scrolling
+Scroll
+SQLx
+Serde
+Supabase
 Plat
 Pir
 Payne
@@ -46796,6 +46892,11 @@ PcWLF
 PLyUsskkJHsz
 PdNIFJjcZsWbqr
 PJk
+Pick
+Props
+Perfect
+PowerToys
+Portfolio
 Todo
 Thorndike
 Todos
@@ -50331,7 +50432,6 @@ Tls
 Testear
 Telemetr
 Tear
-<<<<<<< HEAD
 TbeNrURQ
 TBr
 TRRRXXx
@@ -50404,7 +50504,6 @@ TQUemTNnVo
 TbWx
 TZgwAYMGDVKZmQoVKph
 TDNW
-=======
 TensorFlow
 Tokenizar
 TutorialesProgramaci
@@ -50439,7 +50538,15 @@ Tableau
 Tengan
 Tokenizador
 TmOh
->>>>>>> origin/main
+Topics
+TraversyMedia
+Trick
+Typescript
+Tailwind
+TanStack
+Tokio
+Those
+Typography
 aprendizaje
 ala
 aspectos
@@ -55051,7 +55158,6 @@ activamos
 awsvpc
 absorber
 aplicativos
-<<<<<<< HEAD
 arranques
 aligned
 accepting
@@ -55176,7 +55282,6 @@ aZEaVAcoBPnTq
 aIiDRKanpkqPj
 aqIyHBBtFixbF
 aNBADU
-=======
 agrupado
 autoencoder
 ajusten
@@ -55278,7 +55383,20 @@ adjetivo
 abreviaturas
 aej
 ayJr
->>>>>>> origin/main
+advice
+accepts
+appeared
+applying
+articulate
+anchors
+affects
+autocompletion
+assignable
+accesses
+assumes
+alive
+accent
+attribution
 una
 un
 unas
@@ -58859,6 +58977,12 @@ uDFkiya
 uFpCUzShQfDKUpTpJ
 uKpmV
 uLmQ
+uncertain
+unwind
+unpin
+unreasonably
+uniqueness
+upgrades
 base
 biol
 bienestar
@@ -62316,7 +62440,6 @@ balanceadores
 brinda
 backbone
 bqzty
-<<<<<<< HEAD
 borrowed
 broke
 bqtt
@@ -62450,7 +62573,6 @@ bPny
 btxQI
 bGmefPmKqsjP
 bUW
-=======
 beneficencia
 beneficiosos
 beneficiar
@@ -62467,7 +62589,13 @@ bias
 biased
 boring
 biolog
->>>>>>> origin/main
+boost
+behave
+branded
+becoming
+browse
+binaries
+borders
 emocional
 emociones
 en
@@ -66936,7 +67064,6 @@ envio
 estabilizar
 evolucione
 enruta
-<<<<<<< HEAD
 ekii
 eOfW
 exz
@@ -67075,7 +67202,6 @@ etiQESUwhQpUgQFCxbE
 ePHj
 erXxd
 evSoqsGSbrZGjRqpwnVbtyER
-=======
 eILA
 eKuTw
 espaciales
@@ -67171,7 +67297,17 @@ experimentacion
 estructurarlos
 explicito
 espero
->>>>>>> origin/main
+exchanged
+essentials
+edition
+exception
+excluding
+exposing
+extracts
+expressive
+extremely
+elevation
+emphasize
 que
 quien
 quiere
@@ -70264,7 +70400,6 @@ qAugnqGZZXWyfMn
 quorum
 queuing
 qsfegwcgwovh
-<<<<<<< HEAD
 qwW
 qcqq
 qBUUU
@@ -70347,12 +70482,10 @@ qZcuW
 qtOS
 qcNhLISFeWTGwpP
 qsCHBEUFKS
-=======
 qpcW
 quebrantos
 quyY
 quZ
->>>>>>> origin/main
 juegan
 json
 justo
@@ -73730,6 +73863,7 @@ jZkOyRaVKlUKe
 jWmYiSP
 jQGQ
 jzWEBEREZHmMSAiIiIizWNARERERJrHgIiIiIg
+judgment
 papel
 proceso
 pueden
@@ -78235,7 +78369,6 @@ pqkv
 pKBj
 psnF
 predictions
-<<<<<<< HEAD
 pdevWqSxFdLKjkJ
 ppWrdurXacQ
 pUyZMqmaIEv
@@ -78298,7 +78431,6 @@ pwQoMDDQukwOqdKXJUGvZrqJx
 pIdw
 pmI
 phxSYj
-=======
 procedural
 perceptrones
 proba
@@ -78308,7 +78440,28 @@ produzcan
 perjudicaba
 parametros
 preparacion
->>>>>>> origin/main
+pick
+palindromes
+performed
+piping
+passive
+playlists
+preference
+printouts
+preparation
+particularly
+pagination
+paginated
+polished
+positioning
+polish
+published
+photos
+persist
+presses
+preview
+prevention
+proxying
 clave
 coment
 capacidad
@@ -83368,7 +83521,6 @@ conectara
 compartiendo
 copi
 conect
-<<<<<<< HEAD
 concentr
 concentrado
 cRM
@@ -83517,7 +83669,6 @@ cwbr
 czH
 cHV
 crWfrNuS
-=======
 codificador
 comprimiendo
 convoluci
@@ -83595,7 +83746,24 @@ comprimen
 confluyen
 ciencias
 colaboracion
->>>>>>> origin/main
+combinatorics
+counting
+combinations
+concentrate
+cheatsheet
+cements
+clip
+corner
+conditional
+cornerstone
+cancel
+curation
+curated
+compliant
+came
+chips
+cleanest
+customization
 Nic
 Necesidades
 No
@@ -86946,7 +87114,6 @@ NgO
 Nuestro
 Nativo
 Notificacion
-<<<<<<< HEAD
 NgII
 NyyyNN
 NOR
@@ -87019,7 +87186,6 @@ NABM
 NEj
 NGjcffuXZUFkQyUFDCb
 NgyLpFlu
-=======
 Neuronales
 Nasteski
 Negnevitsky
@@ -87044,7 +87210,9 @@ Notebooks
 NeuralNet
 Neuronal
 NhQd
->>>>>>> origin/main
+Navigation
+Neon
+Nice
 maco
 motivar
 menes
@@ -91127,7 +91295,6 @@ migrara
 misunderstand
 mxd
 mIs
-<<<<<<< HEAD
 mgii
 myFl
 maBBBT
@@ -91199,7 +91366,6 @@ mcnzHj
 mWlQkz
 mdZZSUG
 mzZ
-=======
 mayoritarias
 morfosint
 memorice
@@ -91251,7 +91417,12 @@ mitigado
 minimizarse
 modele
 manipulacion
->>>>>>> origin/main
+mostly
+marking
+mutation
+masonry
+mutations
+muted
 Arist
 Abraham
 Adem
@@ -95231,7 +95402,6 @@ ARAG
 Alumnado
 Agregacion
 Asignamos
-<<<<<<< HEAD
 ACmP
 AvGb
 Abbb
@@ -95276,7 +95446,6 @@ AIimYJAHit
 AMzRER
 AaIiKNksJfmUX
 AAAAAASUVORK
-=======
 Adjusted
 ARI
 Autoencoders
@@ -95313,7 +95482,10 @@ Autograd
 Abadi
 Abbasi
 Aimm
->>>>>>> origin/main
+Allocate
+Autocomplete
+Adapting
+Axum
 importancia
 inteligencia
 intelectivos
@@ -99652,7 +99824,6 @@ interferencias
 investigacion
 idnm
 integr
-<<<<<<< HEAD
 inici
 iniciaron
 indexing
@@ -99713,7 +99884,6 @@ iGQxDI
 ilhSQ
 ihXrlxm
 iYZGBkZZul
-=======
 intra
 interdisciplinaria
 induce
@@ -99778,7 +99948,19 @@ iloc
 inference
 interpolator
 iIRFa
->>>>>>> origin/main
+importance
+idempotent
+internalize
+inspects
+infer
+ignored
+installation
+inserts
+isolate
+islands
+invalidation
+implementable
+improvement
 formaci
 factores
 fortalezas
@@ -103407,7 +103589,6 @@ federaci
 fundamentalmente
 fagas
 fmxqfydyt
-<<<<<<< HEAD
 fggpA
 filled
 fsE
@@ -103572,7 +103753,6 @@ fqwCEunaksyIZDjk
 fhXUSVefLetMRPaDGSKiFEK
 fbe
 fdfd
-=======
 fracci
 feedforward
 formular
@@ -103606,7 +103786,11 @@ featuers
 fDH
 fhsF
 fTj
->>>>>>> origin/main
+frequencies
+freeCodeCamp
+finish
+fetches
+feels
 Utiliza
 Una
 Uno
@@ -107036,6 +107220,9 @@ UBJZyzTEDmchS
 UXbt
 ULFlSZYTkOTt
 UBcRyv
+Union
+Utility
+Unsplash
 David
 Describe
 Developing
@@ -110733,6 +110920,7 @@ DGdno
 DRYsNZESZZBkkW
 DJkI
 DlwCB
+Drills
 Wechsler
 Wayne
 WhatsApp
@@ -117652,6 +117840,12 @@ nVXKiZKlWMHqwIo
 nTpmbt
 norm
 normalize
+navigate
+nonsense
+narrow
+nearby
+normalizes
+nothing
 Maslow
 Miedo
 Mentoring
@@ -121562,6 +121756,11 @@ MXiqnKlSvra
 MyvYF
 MDQYMGDdRFV
 MGDb
+MCQs
+Minutes
+Mapped
+Maximize
+Monorepo
 Gardner
 Goleman
 Generan
@@ -124874,6 +125073,11 @@ GIqqSmJWCSHVD
 GYlMp
 GQLhoD
 GaRBlJwwQ
+GeeksforGeeks
+Glassdoor
+Generics
+Generating
+GIFs
 Formula
 Feedback
 Francis
@@ -128432,6 +128636,10 @@ FZhmznyZNHdelIN
 FiNL
 Fnhvewb
 FOnk
+FreeCodeCamp
+Filtering
+Framing
+Frameboard
 otras
 of
 on
@@ -131870,7 +132078,6 @@ onion
 opuestos
 offsets
 orquestacion
-<<<<<<< HEAD
 oJx
 oWdT
 oVUU
@@ -131925,7 +132132,6 @@ oekO
 oakcF
 oYPHjxQ
 oRChQqpx
-=======
 oraciones
 opaca
 optimizaciones
@@ -131951,7 +132157,10 @@ oracionales
 operacionalizar
 optimizables
 optimizacion
->>>>>>> origin/main
+older
+obstacle
+offer
+optimistic
 Crea
 Cociente
 Con
@@ -135965,6 +136174,12 @@ ChwMTp
 CeffIKJEyeq
 COtluEnDJ
 CYII
+Candidate
+Compute
+Close
+Cancel
+Correctly
+Curation
 vida
 viene
 va
@@ -139381,7 +139596,6 @@ versionables
 versiona
 vqhkqqnfxopv
 validamos
-<<<<<<< HEAD
 vWD
 virtualizamos
 vttloo
@@ -139489,7 +139703,6 @@ vHirkR
 vBI
 vjjWEewrVmzBjVr
 vkMiESiMhjZKj
-=======
 verificarlo
 verifique
 visualizations
@@ -139514,7 +139727,8 @@ voltear
 vice
 versa
 vero
->>>>>>> origin/main
+visit
+visibly
 Reuven
 REA
 Re
@@ -143341,7 +143555,6 @@ RedisConfig
 RestConfig
 RunApp
 Regresamos
-<<<<<<< HEAD
 Refactor
 Rendezvous
 RaaaTTTlllRRR
@@ -143420,7 +143633,6 @@ RJTTWEBElI
 RHJAoZjkorQSUMqMxDLHkwQ
 REKVa
 REduj
-=======
 RMSLE
 Rand
 Rosenblatt
@@ -143455,7 +143667,12 @@ Recurrentes
 Representativas
 Remover
 RLJ
->>>>>>> origin/main
+RESTMCQ
+Reddit
+Rewrites
+ReturnTypes
+Reqwest
+Render
 Bar
 Bisquerra
 Bajo
@@ -146950,6 +147167,7 @@ BEVkks
 BmnTYlXQYycklGQBn
 BwsOreSZs
 BkRERESkeQyIiIiISPMYEBEREZHmMSAiIiIizWNARERERJrHgIiIiIigdf
+Book
 Kama
 KPI
 Kurt
@@ -150229,7 +150447,6 @@ KoxpS
 Kunce
 KRaft
 KeyFile
-<<<<<<< HEAD
 KjxG
 KUUUss
 KJJT
@@ -150302,7 +150519,6 @@ KsLpm
 KACoqFDh
 KlGiRIy
 KXldCfAkg
-=======
 Keras
 Kumar
 Karpathy
@@ -150316,7 +150532,8 @@ Kannan
 Kern
 Kerkwijk
 KwG
->>>>>>> origin/main
+Know
+Keys
 gicos
 gica
 generan
@@ -153711,7 +153928,6 @@ gRPCServer
 garantizado
 grpc
 guardado
-<<<<<<< HEAD
 ggsbBH
 gNdddMM
 gpX
@@ -153768,7 +153984,6 @@ glkj
 gnOXummOQK
 gckBWronpX
 gSHzNERHZMLlBapkwZs
-=======
 generativa
 gama
 grafos
@@ -153786,7 +154001,10 @@ gasolina
 gender
 grad
 geXke
->>>>>>> origin/main
+glance
+generics
+guesswork
+gallery
 Ofrecen
 Orientaci
 Ordena
@@ -157072,7 +157290,6 @@ Orquestaci
 Orquestar
 Obtenido
 Oniel
-<<<<<<< HEAD
 ONMw
 OTUU
 Okz
@@ -157162,7 +157379,6 @@ OZkugKZEVqCT
 OHhkdSrQkTJGAMiIiIi
 OTqhYsSIKFy
 OzsrEaEGUj
-=======
 Outliers
 OpenWebinars
 Ozair
@@ -157174,7 +157390,6 @@ Oliphant
 Oraciones
 Optimizador
 OwJ
->>>>>>> origin/main
 Vergüenza
 Valores
 Vision
@@ -160647,6 +160862,8 @@ VyRrJMAh
 VSePHmwadMm
 Vocs
 VeYhu
+Validating
+Vimium
 yo
 ya
 you
@@ -163916,6 +164133,7 @@ yPB
 yOBCezZs
 ycFeghdD
 yZMnjSOzLJHRWtJGnleKqYXMOySjsgy
+yank
 Qui
 Qu
 Que
@@ -167223,7 +167441,6 @@ QSK
 QjU
 QyIiBkPSJNMTIgMTZIOHY
 QzIiBkPSJNMiAyaDJ
-<<<<<<< HEAD
 QApj
 QYYYQQ
 QVVNJJ
@@ -167285,11 +167502,10 @@ QMeOHfH
 QcGREQpbJSZJdEzKIaDfvQCYiHBjNwMj
 QgkzXmy
 QEkoyUBm
-=======
 Qing
 Qiu
 QvR
->>>>>>> origin/main
+Quickly
 will
 words
 workspace
@@ -170476,7 +170692,6 @@ wJsP
 whiteSpace
 wIDhoMjB
 weight
-<<<<<<< HEAD
 wlC
 wBKk
 wgF
@@ -170532,14 +170747,14 @@ wNJNk
 wZcoUXLt
 wcqXL
 woULxmX
-=======
 wsd
 women
 war
 washing
 wNSm
 wBp
->>>>>>> origin/main
+worthy
+whitespace
 Johnson
 James
 Johari
@@ -173781,6 +173996,7 @@ JQGqTNMh
 JDJPMUEREZMCAiohTdbSNz
 Jfv
 JENSYdnVJ
+June
 xito
 xitos
 ximo
@@ -183627,7 +183843,6 @@ YmVm
 YGLAd
 YTsJLnN
 YTsJPHBhdGggY
-<<<<<<< HEAD
 YFbF
 YYYEEEn
 YysD
@@ -183706,12 +183921,10 @@ YqQAsMDLTa
 YDLJ
 YrmUmQYQEKxJIyKg
 YoaJIyVAktFjMlpMMlsyHF
-=======
 YOLO
 Yang
 York
 YmuA
->>>>>>> origin/main
 Zen
 ZD
 Zs
@@ -186903,7 +187116,6 @@ ZRH
 ZmlsbDojNjY
 ZpbGw
 Zookeeper
-<<<<<<< HEAD
 Zpppff
 ZvD
 ZdhhH
@@ -186989,7 +187201,6 @@ ZRa
 ZJCAdPFI
 ZMgQtG
 ZNGmSqtmxRuputm
-=======
 Zhou
 Zabalza
 Zheng
@@ -187001,7 +187212,7 @@ Zubo
 ZeroDivisionError
 ZJYA
 ZAiY
->>>>>>> origin/main
+Zustand
 ktor
 knowledge
 keys
@@ -190315,7 +190526,6 @@ kBcV
 kjml
 kIluTBZ
 kqnhydxqapuu
-<<<<<<< HEAD
 kkkU
 kjjzxx
 kiiqww
@@ -190390,13 +190600,11 @@ kzmuDCRrJIXkkydPVhkc
 kcvR
 kgZfSrXKpSAU
 kPSGqzpCvMQIZsS
-=======
 kPAK
 keras
 kasa
 knowing
 kmJq
->>>>>>> origin/main
 XOR
 XX
 XP
