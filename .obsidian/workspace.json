@@ -35,10 +35,24 @@
             "id": "a53f4c44b81b5d31",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Khan-Acadamy/Statistics-probability/00-empy.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "00-empy"
             }
           }
         ],
@@ -95,8 +109,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -209,7 +222,7 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "d761e580d368b878",
+  "active": "b74e6b9aa2987edc",
   "lastOpenFiles": [
     "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/023-low-code-no-code-oss-demo.md",
     "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/10- Factores-congnitivos-ux-part-2.md",
