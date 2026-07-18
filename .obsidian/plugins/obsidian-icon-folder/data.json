@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiMaximize",
+      "LiAudioWaveform",
       "LiPresentation",
       "LiSquircle",
-      "LiAlignVerticalJustifyStart",
-      "LiRainbow",
-      "LiSchool2"
+      "LiAlignVerticalJustifyStart"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -115,5 +115,13 @@
   "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion": {
     "iconName": "LiPresentation",
     "iconColor": "#ff3300"
+  },
+  "Coursera": {
+    "iconName": "LiAudioWaveform",
+    "iconColor": "#4360d6"
+  },
+  "Coursera/Amazon-Jr-Software-Dev": {
+    "iconName": "LiMaximize",
+    "iconColor": "#f0a524"
   }
 }

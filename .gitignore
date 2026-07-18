@@ -7,3 +7,4 @@ Ref_homework/*
 node_modules/
 # Ignore all node_modules directories
 .DS_Store
+/Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-01/Act-1-Env/

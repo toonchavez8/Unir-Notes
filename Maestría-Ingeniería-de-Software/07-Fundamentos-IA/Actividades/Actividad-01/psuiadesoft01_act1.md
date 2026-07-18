@@ -13,7 +13,7 @@ Conjunto de datos: este _dataset_ contiene 200 registros de clientes con variabl
     - Análisis descriptivo de las variables.
     - Identificación de posibles valores atípicos.
 2. **Preprocesamiento**
-    - Limpieza de datos.
+	    - Limpieza de datos.
     - Escalado de variables numéricas.
     - Selección de variables relevantes para el _clustering_.
 3. **Aplicación de técnicas de _clustering_**
