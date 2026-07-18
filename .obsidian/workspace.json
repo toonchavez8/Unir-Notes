@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Khan-Acadamy/Statistics-probability/00-empy.md",
+                "file": "Dev-Journel/Dev-bytes/01-Clockwork-sprial.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "00-empy"
+              "title": "01-Clockwork-sprial"
             }
           }
         ],
@@ -224,8 +224,8 @@
   },
   "active": "a53f4c44b81b5d31",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
     "Khan-Acadamy/Statistics-probability/00-empy.md",
+    "conflict-files-obsidian-git.md",
     "Dev-Journel/Dev-bytes/01-Clockwork-sprial.md",
     "Dev-Journel/Dev-bytes",
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Books/__pycache__/convert_pdf_tests.cpython-313.pyc",
