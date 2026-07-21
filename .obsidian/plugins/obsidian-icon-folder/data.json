@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiSpool",
       "LiMaximize",
       "LiAudioWaveform",
       "LiPresentation",
-      "LiSquircle",
-      "LiAlignVerticalJustifyStart"
+      "LiSquircle"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -123,5 +123,9 @@
   "Coursera/Amazon-Jr-Software-Dev": {
     "iconName": "LiMaximize",
     "iconColor": "#f0a524"
+  },
+  "Scrimba": {
+    "iconName": "LiSpool",
+    "iconColor": "#9e35e3"
   }
 }
