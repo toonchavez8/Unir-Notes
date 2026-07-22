@@ -7806,6 +7806,8 @@ EmwQ
 EfAk
 EeD
 EUA
+Expressions
+Experienced
 <<<<<<< HEAD
 =======
 >>>>>>> origin/main
@@ -15746,6 +15748,10 @@ dLJJd
 dSEN
 dOw
 durar
+deriving
+duplicated
+dramatically
+dependent
 La
 Linea
 Las
@@ -19230,6 +19236,7 @@ Lcxq
 Lvk
 Lde
 Lik
+Lesson
 hace
 habilidad
 humano
@@ -22766,6 +22773,7 @@ hStW
 hyH
 hwj
 hkHX
+hardcoding
 referencia
 reconocer
 rmino
@@ -27275,6 +27283,9 @@ rVS
 retrasar
 retrasase
 retrase
+reinforced
+remembering
+reassignment
 la
 los
 las
@@ -35267,6 +35278,7 @@ sdG
 sVt
 ssW
 sZR
+shorthand
 tiempo
 tiene
 tica
@@ -39089,6 +39101,8 @@ tJN
 tsusY
 tRzu
 tezW
+totals
+transitioned
 Siglo
 Self
 Se
@@ -43059,6 +43073,9 @@ Swz
 ShO
 SUUU
 SEMANAS
+Subtraction
+Shopping
+Sensor
 Plat
 Pir
 Payne
@@ -47011,6 +47028,9 @@ Portfolio
 PEB
 PvJaS
 PXV
+Pagination
+Primitive
+Precedence
 Todo
 Thorndike
 Todos
@@ -50672,6 +50692,8 @@ TSqO
 TUG
 Tjos
 TAREA
+Today
+Taxes
 aprendizaje
 ala
 aspectos
@@ -55532,6 +55554,8 @@ aEf
 aqt
 acabar
 asignas
+almost
+accumulators
 una
 un
 unas
@@ -59131,6 +59155,7 @@ uOJ
 uYCY
 uIj
 ufiP
+underpin
 base
 biol
 bienestar
@@ -62756,6 +62781,7 @@ bRp
 bWGc
 bHcv
 bEx
+briefly
 emocional
 emociones
 en
@@ -67475,6 +67501,8 @@ elJE
 ebj
 eQDj
 eMqs
+everywhere
+encouraging
 que
 quien
 quiere
@@ -70662,6 +70690,7 @@ qpgY
 qoT
 qIG
 qmR
+quirks
 juegan
 json
 justo
@@ -78655,6 +78684,10 @@ pRJK
 pxd
 pjHI
 prRd
+participate
+prefers
+precedence
+principle
 clave
 coment
 capacidad
@@ -83966,6 +83999,12 @@ cIhKj
 cGh
 cTx
 colisi
+calculated
+cart
+cents
+communicates
+counters
+clearer
 Nic
 Necesidades
 No
@@ -91646,6 +91685,8 @@ mgef
 mautQN
 mTe
 mdT
+mathematical
+money
 Arist
 Abraham
 Adem
@@ -95720,6 +95761,8 @@ AMW
 AuTvPyJ
 ARPA
 ASIGNADO
+Addition
+Analytics
 importancia
 inteligencia
 intelectivos
@@ -100200,6 +100243,7 @@ iTo
 itm
 ijf
 iSxKx
+inconsistencies
 formaci
 factores
 fortalezas
@@ -104035,6 +104079,9 @@ fXIM
 fpoF
 fCLZ
 fBq
+floating
+famous
+financial
 Utiliza
 Una
 Uno
@@ -111180,6 +111227,10 @@ DlD
 Dgq
 DEPENDENCIA
 DURACI
+Derived
+Dive
+Discounts
+Descriptive
 Wechsler
 Wayne
 WhatsApp
@@ -118125,6 +118176,7 @@ naq
 niDI
 nXPXQ
 npAg
+naturally
 Maslow
 Miedo
 Mentoring
@@ -122050,6 +122102,7 @@ MBs
 Mvx
 MMgU
 MIfDaJ
+Multiplication
 Gardner
 Goleman
 Generan
@@ -136498,6 +136551,9 @@ CLpK
 CfYv
 CzQAx
 CSj
+Calculations
+Coercion
+Compound
 vida
 viene
 va
@@ -144006,6 +144062,7 @@ RlXV
 RBYj
 RlM
 RECURSO
+Rather
 Bar
 Bisquerra
 Bajo
@@ -147512,6 +147569,7 @@ BVD
 BQTT
 BYxI
 BKYw
+Beyond
 Kama
 KPI
 Kurt
@@ -154361,6 +154419,7 @@ gzdzI
 gaZA
 gvO
 gCNyr
+game
 Ofrecen
 Orientaci
 Ordena
