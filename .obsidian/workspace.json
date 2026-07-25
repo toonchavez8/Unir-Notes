@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "35d2bcdac596f9c0",
+        "id": "246b9da6cde0158f",
         "type": "tabs",
-        "dimension": 71.06986899563319,
+        "dimension": 65.3184165232358,
         "children": [
           {
-            "id": "bc78cbd0e522dcc7",
+            "id": "40e8d8947800d081",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Scrimba/Javascript fundamentals/01-Variables.md",
+                "file": "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Books/O1-Fundamentos-De-IA-preguntas-test.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -29,63 +29,26 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "01-Variables"
-            }
-          },
-          {
-            "id": "bc79d45fba2406f1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Scrimba/Javascript fundamentals/02-JavaScript-Arithmetic.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "02-JavaScript-Arithmetic"
+              "title": "O1-Fundamentos-De-IA-preguntas-test"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
-        "id": "cfe0657b8bca6336",
+        "id": "c7d2fdc09307384a",
         "type": "tabs",
-        "dimension": 28.930131004366807,
+        "dimension": 34.6815834767642,
         "children": [
           {
-            "id": "925180f11cd5367e",
+            "id": "c207e71074ffdba2",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Scrimba/00-Study-prompts.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "file": "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Books/O1-Fundamentos-De-IA.pdf"
               },
-              "icon": "lucide-file",
-              "title": "00-Study-prompts"
+              "icon": "lucide-file-text",
+              "title": "O1-Fundamentos-De-IA"
             }
           }
         ]
@@ -145,7 +108,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 255.5
+    "width": 414.5
   },
   "right": {
     "id": "a25b807ad639ff42",
@@ -207,13 +170,23 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_03/Guia-paso.md",
+                "file": "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Books/O1-Fundamentos-De-IA-preguntas-test.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Guia-paso"
+              "title": "Outline of O1-Fundamentos-De-IA-preguntas-test"
+            }
+          },
+          {
+            "id": "a2e15f7737ce2707",
+            "type": "leaf",
+            "state": {
+              "type": "git-history-view",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "git-history-view"
             }
           }
         ],
@@ -221,78 +194,77 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
-      "open-in-zed:Open vault in Zed": false,
-      "open-vscode:VS Code": false,
+      "vscode-editor:Create Code File": false,
       "bases:Create new base": false,
       "markdown-importer:Open format converter": false,
       "audio-recorder:Start/stop recording": false,
+      "code-files:Create Code File": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "callout-manager:Insert Callout": false,
-      "code-files:Create Code File": false,
       "obsidian-git:Open Git source control": false,
-      "mermaid-tools:Open Mermaid Toolbar": false,
+      "callout-manager:Insert Callout": false,
       "omnisearch:Omnisearch": false,
-      "vscode-editor:Create Code File": false
+      "mermaid-tools:Open Mermaid Toolbar": false,
+      "open-vscode:VS Code": false,
+      "open-in-zed:Open vault in Zed": false
     }
   },
-  "active": "bc79d45fba2406f1",
+  "active": "40e8d8947800d081",
   "lastOpenFiles": [
-    "Scrimba/00-Study-prompts.md",
-    "Scrimba/Javascript fundamentals/02-JavaScript-Arithmetic.md",
-    "Scrimba/Javascript fundamentals/01-Variables.md",
-    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/Actividades/Actividad 1/mexdigete06t4actauto1.md",
-    "Scrimba/Javascript fundamentals",
-    "Scrimba",
-    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/Actividades/Actividad 1/mexdigete06t4actauto1.docx",
-    "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/Books/01 ACTA DE CONSTITUCION QUAD.pdf",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Idea-BillSplitter.md",
-    "Dev-Journel/Dev-bytes/01-Clockwork-sprial.md",
-    "Dev_Challenges/Unsplash-Collection-rust-nextjs16-guide.md",
-    "Dev_Challenges/01-Authentication-Microservice-with-TypeORM.md",
-    "Dev_Challenges/Algos/Untitled.md",
-    "StudyGuides/008-vim-hotkeys.md",
-    "StudyGuides/009-Advanced-Typescript.md",
-    "StudyGuides/010-IBM-Front-end-web-study-guide.md",
-    "StudyGuides/Interview Questions and Answers.md",
-    "StudyGuides/011-Math-Learning-guide.md",
-    "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-03/mexxisi06_act3_autocorregible.md",
-    "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-03/mexxisi06_act3_autocorregible.docx",
-    "conflict-files-obsidian-git.md",
-    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-02/Entrega/Actividad 2. Clasificación De Noticias Mediante Procesamiento De Lenguaje Natural.pdf",
-    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-01/Entrega/informe.md",
-    "Dev-Journel/Dev-bytes",
+    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Books/repair_answer_encoding.ps1",
+    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Books/apply_study_guide_answers.ps1",
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/GUIA 30 PREGUANTAS.md",
-    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/GUIA 30 PREGUANTAS.docx",
-    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Books/convert_pdf_tests.py",
-    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Books/__pycache__/convert_pdf_tests.cpython-313.pyc",
-    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Books/O1-Fundamentos-De-IA.md",
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Books/O1-Fundamentos-De-IA-preguntas-test.md",
+    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Books/O1-Fundamentos-De-IA.pdf",
+    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Books/O1-Fundamentos-De-IA.md",
+    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Books/__pycache__/convert_pdf_tests.cpython-313.pyc",
+    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Books/__pycache__",
+    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Books/convert_pdf_tests.py",
+    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Books/O1-Fundamentos-De-IA.raw.txt",
+    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/GUIA 30 PREGUANTAS.docx",
+    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/03-Tema1-Supervisado-vs-No-Supervisado.md",
+    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/GUIA 30 PREGUANTAS (1).docx",
+    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/04-Tema1-Evaluacion-de-modelos-clasificacion.md",
+    "Maestría-Ingeniería-de-Software/Calendario semestral.pdf",
+    "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-02-grupal/01-Guia.md",
     "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-02-grupal/Actividad 2. Despliegue de un app en redes publicas y privadas.md",
-    "Dev_Challenges/03-Web-scraping-rust-learners-guide.md",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Actividad-02-Metodologia-Arquitectura/mexingsof14_act2_Metodología y arquitectura.docx",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Actividad-02-Metodologia-Arquitectura/diagramas-uml-dominus-broker.md",
-    "Dev_Challenges/02-Fem-Typing-Speed-Test.md",
-    "Dev-Journel/Projects/03-AWS-Academy-WordPress-High-Availability.md",
     "Dev_Challenges/03-Web-scrapping.md",
-    "Dev-Journel/Projects/images/aws-asg-recovery-targets.png",
+    "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-02-grupal/attachments/Cloud_Archecture_Act_2.drawio.svg",
+    "conflict-files-obsidian-git.md",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Actividad-02-Metodologia-Arquitectura/mexingsof14_act2_Metodología y arquitectura.md",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/Guide-Dominus-Pruebas-Paso-a-Paso.md",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/Guide-Dominus-Justificacion-Defensa.md",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/TFM_v1.md",
+    "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-02-grupal/02-Documento-entrega-y-plan-equipo.md",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/plantilla.md",
+    "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-02-grupal/Rubrica.md",
+    "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-02-grupal/mexissi06_act2_grupal-Miguel.md",
     "Dev-Journel/Projects/images/aws-wordpress-alb-page.png",
-    "Dev-Journel/Projects/images/aws-target-group-healthy.png",
+    "Dev-Journel/Projects/images/aws-network-resource-map.png",
     "Dev-Journel/Projects/images/aws-rds-private-connectivity.png",
     "Dev-Journel/Projects/images/aws-security-groups.png",
-    "Dev-Journel/Projects/images/aws-network-resource-map.png",
+    "Dev-Journel/Projects/images/aws-target-group-healthy.png",
+    "Dev-Journel/Projects/images/aws-asg-recovery-targets.png",
     "Dev-Journel/Projects/images/aws-academy-wordpress-architecture.svg",
-    "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-02-grupal/attachments/Pasted image 20260630230443.png",
-    "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-02-grupal/attachments/Pasted image 20260630225325.png",
-    "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-02-grupal/attachments/Pasted image 20260630215717.png",
+    "Dev-Journel/Projects/03-AWS-Academy-WordPress-High-Availability.md",
+    "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-02-grupal/attachments/Pasted image 20260701001412.png",
+    "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-02-grupal/attachments/Pasted image 20260701001359.png",
+    "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-02-grupal/mexissi06_act2_grupal.md",
+    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-02/analisis_profundo_clasificacion_noticias_pln.md",
+    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-01/guia_paso_a_paso_act1.md",
+    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-02/guia_paso_a_paso_act2.md",
+    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-02/Entrega/informe.md",
+    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-02/Entrega/notas_analisis.md",
     "Untitled.canvas"
   ]
 }
