@@ -4,88 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "35d2bcdac596f9c0",
-        "type": "tabs",
-        "dimension": 71.06986899563319,
-        "children": [
-          {
-            "id": "bc78cbd0e522dcc7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Scrimba/Javascript fundamentals/01-Variables.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "01-Variables"
-            }
-          },
-          {
-            "id": "bc79d45fba2406f1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Scrimba/Javascript fundamentals/02-JavaScript-Arithmetic.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "02-JavaScript-Arithmetic"
-            }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
         "id": "cfe0657b8bca6336",
         "type": "tabs",
-        "dimension": 28.930131004366807,
         "children": [
           {
             "id": "925180f11cd5367e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "epub",
               "state": {
-                "file": "Scrimba/00-Study-prompts.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "file": "Books/The Rust Programming Language.epub"
               },
-              "icon": "lucide-file",
-              "title": "00-Study-prompts"
+              "icon": "doc-epub",
+              "title": "The Rust Programming Language"
             }
           }
         ]
@@ -247,10 +178,13 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "bc79d45fba2406f1",
+  "active": "925180f11cd5367e",
   "lastOpenFiles": [
-    "Scrimba/00-Study-prompts.md",
+    "conflict-files-obsidian-git.md",
     "Scrimba/Javascript fundamentals/02-JavaScript-Arithmetic.md",
+    "Books/The Rust Programming Language.epub",
+    "Books",
+    "Scrimba/00-Study-prompts.md",
     "Scrimba/Javascript fundamentals/01-Variables.md",
     "Maestría-Ingeniería-de-Software/01-Direcion-y-Gestion-de-Software/Actividades/Actividad 1/mexdigete06t4actauto1.md",
     "Scrimba/Javascript fundamentals",
@@ -269,14 +203,11 @@
     "StudyGuides/011-Math-Learning-guide.md",
     "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-03/mexxisi06_act3_autocorregible.md",
     "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-03/mexxisi06_act3_autocorregible.docx",
-    "conflict-files-obsidian-git.md",
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-02/Entrega/Actividad 2. Clasificación De Noticias Mediante Procesamiento De Lenguaje Natural.pdf",
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Actividades/Actividad-01/Entrega/informe.md",
     "Dev-Journel/Dev-bytes",
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/GUIA 30 PREGUANTAS.md",
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/GUIA 30 PREGUANTAS.docx",
-    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Books/convert_pdf_tests.py",
-    "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Books/__pycache__/convert_pdf_tests.cpython-313.pyc",
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Books/O1-Fundamentos-De-IA.md",
     "Maestría-Ingeniería-de-Software/07-Fundamentos-IA/Books/O1-Fundamentos-De-IA-preguntas-test.md",
     "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-02-grupal/Actividad 2. Despliegue de un app en redes publicas y privadas.md",
@@ -284,7 +215,6 @@
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Actividad-02-Metodologia-Arquitectura/diagramas-uml-dominus-broker.md",
     "Dev_Challenges/02-Fem-Typing-Speed-Test.md",
     "Dev-Journel/Projects/03-AWS-Academy-WordPress-High-Availability.md",
-    "Dev_Challenges/03-Web-scrapping.md",
     "Dev-Journel/Projects/images/aws-asg-recovery-targets.png",
     "Dev-Journel/Projects/images/aws-wordpress-alb-page.png",
     "Dev-Journel/Projects/images/aws-target-group-healthy.png",
