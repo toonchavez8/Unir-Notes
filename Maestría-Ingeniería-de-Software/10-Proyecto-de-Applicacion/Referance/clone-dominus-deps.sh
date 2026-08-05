@@ -19,6 +19,7 @@ clone_or_update() {
 
 clone_or_update "https://github.com/unir-broker-tfm/dominus-broker.git" "dominus-broker"
 clone_or_update "https://github.com/unir-broker-tfm/dominus-sdk.git" "dominus-sdk"
+clone_or_update "https://github.com/unir-broker-tfm/consumer-example.git" "consumer-example"
 clone_or_update "https://github.com/unir-broker-tfm/dominus-proto-definition.git" "dominus-proto-definition"
 
 echo "Done."
