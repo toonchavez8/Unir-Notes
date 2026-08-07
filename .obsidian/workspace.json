@@ -30,33 +30,8 @@
               "icon": "lucide-file",
               "title": "09-Factores-cognitivos-UX-parte-1"
             }
-          },
-          {
-            "id": "2a93ea8e4e733580",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -225,10 +200,10 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "2a93ea8e4e733580",
+  "active": "ff1f8dac86986871",
   "lastOpenFiles": [
-    "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/09-Factores-cognitivos-UX-parte-1.md",
     "conflict-files-obsidian-git.md",
+    "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/09-Factores-cognitivos-UX-parte-1.md",
     "Dev-Journel/Dev-bytes/01-Clockwork-sprial.md",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/consumer-example",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Actividad-03-Pruebas-de-la-herramienta/mexingsof14_act3_Pruebas de la herramienta.md",
