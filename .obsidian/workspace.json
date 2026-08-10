@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/19-Postulados-tendendicas-parte-1.md",
+                "file": "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Actividad-03-Pruebas-de-la-herramienta/guia-intensiva-analisis-ciberseguridad-dominus.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "19-Postulados-tendendicas-parte-1"
+              "title": "guia-intensiva-analisis-ciberseguridad-dominus"
             }
           }
         ]
@@ -90,7 +90,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 211.5
+    "width": 211.5,
+    "collapsed": true
   },
   "right": {
     "id": "a25b807ad639ff42",
@@ -202,6 +203,7 @@
   },
   "active": "ff1f8dac86986871",
   "lastOpenFiles": [
+    "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/19-Postulados-tendendicas-parte-1.md",
     "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/09-Factores-cognitivos-UX-parte-1.md",
     "conflict-files-obsidian-git.md",
     "Dev-Journel/Dev-bytes/01-Clockwork-sprial.md",
@@ -209,7 +211,6 @@
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Actividad-03-Pruebas-de-la-herramienta/mexingsof14_act3_Pruebas de la herramienta.md",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Actividad-03-Pruebas-de-la-herramienta/guia-intensiva-analisis-ciberseguridad-dominus.md",
     "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/Untitled.md",
-    "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/19-Postulados-tendendicas-parte-1.md",
     "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/18-Resumen-3.md",
     "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/17-Entregables-UX.md",
     "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/16-Disciplinas-processo-de-diseño-ux.md",
