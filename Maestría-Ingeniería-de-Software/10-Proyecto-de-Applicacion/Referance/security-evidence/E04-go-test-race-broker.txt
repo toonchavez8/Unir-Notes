@@ -1,0 +1,42 @@
+?   	dominus-broker/cmd/api	[no test files]
+?   	dominus-broker/config	[no test files]
+?   	dominus-broker/internal/application/dto	[no test files]
+?   	dominus-broker/internal/application/usecases/ack	[no test files]
+?   	dominus-broker/internal/application/usecases/consumer	[no test files]
+?   	dominus-broker/internal/application/usecases/producer	[no test files]
+?   	dominus-broker/internal/application/usecases/stream_bidirectional	[no test files]
+?   	dominus-broker/internal/application/usecases/stream_client	[no test files]
+?   	dominus-broker/internal/application/usecases/stream_server	[no test files]
+?   	dominus-broker/internal/bootstraps	[no test files]
+?   	dominus-broker/internal/domain/entities	[no test files]
+?   	dominus-broker/internal/domain/repositories	[no test files]
+?   	dominus-broker/internal/infrastructure/enum	[no test files]
+?   	dominus-broker/internal/infrastructure/event	[no test files]
+?   	dominus-broker/internal/infrastructure/fasthttp/inbound	[no test files]
+?   	dominus-broker/internal/infrastructure/fasthttp/middlewares	[no test files]
+?   	dominus-broker/internal/infrastructure/grpc/inbound	[no test files]
+?   	dominus-broker/internal/infrastructure/grpc/mappers	[no test files]
+?   	dominus-broker/internal/infrastructure/grpc/middlewares	[no test files]
+?   	dominus-broker/internal/infrastructure/grpc/outbound	[no test files]
+?   	dominus-broker/internal/infrastructure/redis/cchecker	[no test files]
+?   	dominus-broker/internal/infrastructure/redis/cmemory	[no test files]
+?   	dominus-broker/mocks	[no test files]
+ok  	dominus-broker/tests/integration/broker_sqs_flow_test	1.877s
+ok  	dominus-broker/tests/integration/broker_stream_flow_test	2.134s
+ok  	dominus-broker/tests/units/application/use_cases/ack_test	1.262s
+ok  	dominus-broker/tests/units/application/use_cases/consumer_test	1.269s
+ok  	dominus-broker/tests/units/application/use_cases/producer_test	1.173s
+ok  	dominus-broker/tests/units/application/use_cases/stream_bidirectional_test	1.244s
+ok  	dominus-broker/tests/units/application/use_cases/stream_client_test	1.122s
+ok  	dominus-broker/tests/units/application/use_cases/stream_server_test	1.123s
+ok  	dominus-broker/tests/units/domain/entities_test	1.069s
+ok  	dominus-broker/tests/units/infrastructure/event_test	1.074s
+ok  	dominus-broker/tests/units/infrastructure/fasthttp/inbound_test	1.100s
+ok  	dominus-broker/tests/units/infrastructure/fasthttp/middleware_test	1.079s
+ok  	dominus-broker/tests/units/infrastructure/fasthttp/monitor_test	1.101s
+ok  	dominus-broker/tests/units/infrastructure/grpc/inbound_test	21.933s
+ok  	dominus-broker/tests/units/infrastructure/grpc/mappers_test	1.148s
+ok  	dominus-broker/tests/units/infrastructure/grpc/middleware_test	1.169s
+ok  	dominus-broker/tests/units/infrastructure/grpc/outbound_test	1.216s
+ok  	dominus-broker/tests/units/infrastructure/redis/cchecker_test	1.262s
+ok  	dominus-broker/tests/units/infrastructure/redis/cmemory_test	1.429s

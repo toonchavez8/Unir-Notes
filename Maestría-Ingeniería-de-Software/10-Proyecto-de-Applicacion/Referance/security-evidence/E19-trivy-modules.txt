@@ -1,0 +1,28 @@
+2026-08-09T21:14:09-06:00	INFO	[misconfig] Misconfiguration scanning is enabled
+2026-08-09T21:14:09-06:00	INFO	[checks-client] Using existing checks from cache	path="C:\\Users\\toonc\\AppData\\Local\\trivy\\policy\\content"
+2026-08-09T21:14:10-06:00	INFO	[terraform scanner] Scanning root module	file_path="container"
+2026-08-09T21:14:10-06:00	WARN	[terraform parser] Variable values were not found in the environment or variable files. Evaluating may not work correctly.	module="root" variables="container_healcheck, container_image, container_name, container_network_name, container_ports"
+2026-08-09T21:14:10-06:00	INFO	[terraform scanner] Scanning root module	file_path="image"
+2026-08-09T21:14:10-06:00	INFO	[terraform scanner] Scanning root module	file_path="network"
+2026-08-09T21:14:10-06:00	WARN	[terraform parser] Variable values were not found in the environment or variable files. Evaluating may not work correctly.	module="root" variables="network_driver, network_name"
+2026-08-09T21:14:10-06:00	INFO	[terraform scanner] Scanning root module	file_path="volume"
+2026-08-09T21:14:10-06:00	WARN	[terraform parser] Variable values were not found in the environment or variable files. Evaluating may not work correctly.	module="root" variables="volume_driver, volume_name"
+2026-08-09T21:14:10-06:00	INFO	Detected config files	num=4
+
+Report Summary
+
+┌───────────┬───────────┬───────────────────┐
+│  Target   │   Type    │ Misconfigurations │
+├───────────┼───────────┼───────────────────┤
+│ container │ terraform │         0         │
+├───────────┼───────────┼───────────────────┤
+│ image     │ terraform │         0         │
+├───────────┼───────────┼───────────────────┤
+│ network   │ terraform │         0         │
+├───────────┼───────────┼───────────────────┤
+│ volume    │ terraform │         0         │
+└───────────┴───────────┴───────────────────┘
+Legend:
+- '-': Not scanned
+- '0': Clean (no security findings detected)
+

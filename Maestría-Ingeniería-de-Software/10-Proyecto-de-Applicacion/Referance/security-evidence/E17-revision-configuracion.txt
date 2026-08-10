@@ -1,0 +1,95 @@
+env/env.local.json:4:        "api_token": "dominus-api-key-1233464687"
+env/env.local.json:8:        "api_token": "dominus_example_@10102024KeyServerToken",
+env/env.local.json:16:    "redis_config": {
+env/env.local.json:21:        "password": "dominus",
+env/env.local.json:22:        "tls": false,
+env/env.prod.json:4:        "api_token": "dominus-api-key-1233464687"
+env/env.prod.json:8:        "api_token": "dominus_example_@10102024KeyServerToken",
+env/env.prod.json:16:    "redis_config": {
+env/env.prod.json:20:        "host": "redis",
+env/env.prod.json:21:        "password": "dominus",
+env/env.prod.json:22:        "tls": false,
+env/template.json:4:        "api_token": ""
+env/template.json:8:        "api_token": "",
+env/template.json:16:    "redis_config": {
+env/template.json:21:        "password": "dominus",
+env/template.json:22:        "tls": false,
+terraform/dev/dominus/main.tf:8:  github_token = var.dominus_github_token
+terraform/dev/dominus/variables.tf:51:  default = ["CMD", "wget", "-qO-", "--header", "x-api-key: dominus_example_@10102024KeyServerToken", "http://127.0.0.1:8000/health"]
+terraform/dev/dominus/variables.tf:54:variable "dominus_github_token" {
+terraform/dev/grafana/variables.tf:32:    "GF_SECURITY_ADMIN_PASSWORD=admin",
+terraform/dev/grafana/variables.tf:38:  description = "KEY=value strings for the container (Grafana: GF_*). Use tfvars; marked sensitive for passwords."
+terraform/dev/redis/Dockerfile:1:FROM redis:7.2-alpine
+terraform/dev/redis/Dockerfile:3:COPY redis.conf /usr/local/etc/redis/redis.conf
+terraform/dev/redis/Dockerfile:5:CMD ["redis-server", "/usr/local/etc/redis/redis.conf"]
+terraform/dev/redis/main.tf:2:module "redis_image" {
+terraform/dev/redis/main.tf:5:  image = var.redis_image_name
+terraform/dev/redis/main.tf:10:module "redis_container" {
+terraform/dev/redis/main.tf:13:  container_image        = module.redis_image.image_id
+terraform/dev/redis/main.tf:14:  container_name         = var.redis_container_name
+terraform/dev/redis/main.tf:15:  container_network_name = var.redis_network_name
+terraform/dev/redis/main.tf:16:  container_ports        = var.redis_container_ports
+terraform/dev/redis/main.tf:18:  container_conmands     = var.redis_container_conmand
+terraform/dev/redis/main.tf:19:  container_healcheck    = var.redis_container_healcheck
+terraform/dev/redis/main.tf:23:      host_path      = abspath("${path.module}/${var.redis_path}")
+terraform/dev/redis/main.tf:24:      container_path = "/usr/local/etc/redis/redis.conf"
+terraform/dev/redis/main.tf:31:      volume_name    = module.redis_volume.volume_name
+terraform/dev/redis/main.tf:39:module "redis_volume" {
+terraform/dev/redis/main.tf:42:  volume_name   = var.redis_volume_name
+terraform/dev/redis/main.tf:43:  volume_driver = var.redis_volume_driver
+terraform/dev/redis/outputs.tf:1:output "redis_image_id" {
+terraform/dev/redis/outputs.tf:2:  value = module.redis_image.image_id
+terraform/dev/redis/outputs.tf:5:output "redis_container_ports" {
+terraform/dev/redis/outputs.tf:6:  value = jsonencode(var.redis_container_ports)
+terraform/dev/redis/outputs.tf:9:output "redis_container_name" {
+terraform/dev/redis/outputs.tf:10:  value = module.redis_container.container_name
+terraform/dev/redis/variables.tf:2:variable "redis_image_name" {
+terraform/dev/redis/variables.tf:4:  default = "redis-dev:local"
+terraform/dev/redis/variables.tf:7:variable "redis_container_name" {
+terraform/dev/redis/variables.tf:9:  default = "redis"
+terraform/dev/redis/variables.tf:12:variable "redis_volume_name" {
+terraform/dev/redis/variables.tf:14:  default = "redis_data"
+terraform/dev/redis/variables.tf:17:variable "redis_volume_driver" {
+terraform/dev/redis/variables.tf:22:variable "redis_container_ports" {
+terraform/dev/redis/variables.tf:29:variable "redis_network_name" {
+terraform/dev/redis/variables.tf:33:variable "redis_container_conmand" {
+terraform/dev/redis/variables.tf:35:  default = ["redis-server", "/usr/local/etc/redis/redis.conf"]
+terraform/dev/redis/variables.tf:38:variable "redis_path" {
+terraform/dev/redis/variables.tf:40:  default = "./redis.conf"
+terraform/dev/redis/variables.tf:43:variable "redis_container_healcheck" {
+terraform/dev/redis/variables.tf:45:  default = ["CMD", "redis-cli", "-p", "6379", "ping"]
+terraform/dev/sidecar/nginx.conf:45:            proxy_set_header x-api-key "dominus_example_@10102024KeyServerToken";
+terraform/main.tf:17:  dominus_github_token               = var.dominus_server_token
+terraform/main.tf:19:  depends_on = [module.redis_server]
+terraform/main.tf:40:module "redis_server" {
+terraform/main.tf:41:  source = "./dev/redis"
+terraform/main.tf:43:  redis_network_name    = module.network.network_name
+terraform/main.tf:44:  redis_container_ports = var.redis_server_container_ports
+terraform/modules/image/main.tf:13:        GITHUB_TOKEN = var.github_token != null && var.github_token != "" ? var.github_token : ""
+terraform/modules/image/variables.tf:26:variable "github_token" {
+terraform/outputs.tf:31:// ==== Redis ==== //
+terraform/outputs.tf:32:output "redis_container_name" {
+terraform/outputs.tf:33:  value = module.redis_server.redis_container_name
+terraform/outputs.tf:36:output "redis_image_id" {
+terraform/outputs.tf:37:  value = module.redis_server.redis_image_id
+terraform/outputs.tf:40:output "redis_container_ports" {
+terraform/outputs.tf:41:  value = jsondecode(module.redis_server.redis_container_ports)
+terraform/variables.tf:22:variable "dominus_server_token" {
+terraform/variables.tf:34:// ==== Redis ==== //
+terraform/variables.tf:35:variable "redis_server_container_ports" {
+config/config.go:12:	ApiToken string `json:"api_token" mapstructure:"api_token"`
+config/config.go:17:	ApiToken     string `json:"api_token" mapstructure:"api_token"`
+config/config.go:27:type RedisConfig struct {
+config/config.go:33:	Password      string `json:"password" mapstructure:"password"`
+config/config.go:37:	Tls           bool   `json:"tls" mapstructure:"tls"`
+config/config.go:49:	RedisConfig RedisConfig `json:"redis_config" mapstructure:"redis_config"`
+config/config.go:71:	if err := cf.validateRedis(); err != nil {
+config/config.go:80:func (c *Config) validateRedis() error {
+config/config.go:81:	if c.RedisConfig.Host == "" {
+config/config.go:82:		return fmt.Errorf("RedisConfig.Host empty")
+config/config.go:84:	if c.RedisConfig.Port == 0 {
+config/config.go:85:		return fmt.Errorf("RedisConfig.Port empty")
+config/config.go:94:	if c.GrpcConfig.ApiToken == "" {
+config/config.go:95:		return fmt.Errorf("GrpcConfig.ApiToken empty")
+config/config.go:104:	if c.RestConfig.ApiToken == "" {
+config/config.go:105:		return fmt.Errorf("RestConfig.ApiToken empty")

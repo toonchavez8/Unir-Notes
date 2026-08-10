@@ -1,0 +1,57 @@
+2026-08-09T21:13:58-06:00	INFO	[misconfig] Misconfiguration scanning is enabled
+2026-08-09T21:13:58-06:00	INFO	[checks-client] Using existing checks from cache	path="C:\\Users\\toonc\\AppData\\Local\\trivy\\policy\\content"
+2026-08-09T21:13:59-06:00	INFO	[terraform scanner] Scanning root module	file_path="dominus"
+2026-08-09T21:13:59-06:00	WARN	[terraform parser] Variable values were not found in the environment or variable files. Evaluating may not work correctly.	module="root" variables="dominus_container_ports, dominus_file, dominus_github_token, dominus_network_name"
+2026-08-09T21:13:59-06:00	INFO	[terraform scanner] Scanning root module	file_path="grafana"
+2026-08-09T21:13:59-06:00	WARN	[terraform parser] Variable values were not found in the environment or variable files. Evaluating may not work correctly.	module="root" variables="grafana_container_ports, grafana_network_name"
+2026-08-09T21:13:59-06:00	INFO	[terraform scanner] Scanning root module	file_path="prometheus"
+2026-08-09T21:13:59-06:00	WARN	[terraform parser] Variable values were not found in the environment or variable files. Evaluating may not work correctly.	module="root" variables="prometheus_network_name"
+2026-08-09T21:13:59-06:00	INFO	[terraform scanner] Scanning root module	file_path="redis"
+2026-08-09T21:13:59-06:00	WARN	[terraform parser] Variable values were not found in the environment or variable files. Evaluating may not work correctly.	module="root" variables="redis_container_ports, redis_network_name"
+2026-08-09T21:13:59-06:00	INFO	[terraform scanner] Scanning root module	file_path="sidecar"
+2026-08-09T21:13:59-06:00	WARN	[terraform parser] Variable values were not found in the environment or variable files. Evaluating may not work correctly.	module="root" variables="sidecar_container_ports, sidecar_network_name"
+2026-08-09T21:13:59-06:00	INFO	Detected config files	num=6
+
+Report Summary
+
+┌──────────────────┬────────────┬───────────────────┐
+│      Target      │    Type    │ Misconfigurations │
+├──────────────────┼────────────┼───────────────────┤
+│ dominus          │ terraform  │         0         │
+├──────────────────┼────────────┼───────────────────┤
+│ grafana          │ terraform  │         0         │
+├──────────────────┼────────────┼───────────────────┤
+│ prometheus       │ terraform  │         0         │
+├──────────────────┼────────────┼───────────────────┤
+│ redis            │ terraform  │         0         │
+├──────────────────┼────────────┼───────────────────┤
+│ redis/Dockerfile │ dockerfile │         2         │
+├──────────────────┼────────────┼───────────────────┤
+│ sidecar          │ terraform  │         0         │
+└──────────────────┴────────────┴───────────────────┘
+Legend:
+- '-': Not scanned
+- '0': Clean (no security findings detected)
+
+
+redis/Dockerfile (dockerfile)
+=============================
+Tests: 27 (SUCCESSES: 25, FAILURES: 2)
+Failures: 2 (UNKNOWN: 0, LOW: 1, MEDIUM: 0, HIGH: 1, CRITICAL: 0)
+
+DS-0002 (HIGH): Specify at least 1 USER command in Dockerfile with non-root user as argument
+════════════════════════════════════════
+Running containers with 'root' user can lead to a container escape situation. It is a best practice to run containers as non-root users, which can be done by adding a 'USER' statement to the Dockerfile.
+
+See https://avd.aquasec.com/misconfig/ds-0002
+────────────────────────────────────────
+
+
+DS-0026 (LOW): Add HEALTHCHECK instruction in your Dockerfile
+════════════════════════════════════════
+You should add HEALTHCHECK instruction in your docker container images to perform the health check on running containers.
+
+See https://avd.aquasec.com/misconfig/ds-0026
+────────────────────────────────────────
+
+

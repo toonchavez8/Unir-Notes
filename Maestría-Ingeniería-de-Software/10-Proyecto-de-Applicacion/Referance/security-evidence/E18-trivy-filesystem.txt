@@ -1,0 +1,119 @@
+2026-08-09T21:06:28-06:00	INFO	[vuln] Vulnerability scanning is enabled
+2026-08-09T21:06:28-06:00	INFO	[misconfig] Misconfiguration scanning is enabled
+2026-08-09T21:06:28-06:00	INFO	[checks-client] Using existing checks from cache	path="C:\\Users\\toonc\\AppData\\Local\\trivy\\policy\\content"
+2026-08-09T21:06:30-06:00	INFO	[secret] Secret scanning is enabled
+2026-08-09T21:06:30-06:00	INFO	[secret] If your scanning is slow, please try '--scanners vuln,misconfig' to disable secret scanning
+2026-08-09T21:06:30-06:00	INFO	[secret] Please see https://trivy.dev/docs/v0.73/guide/scanner/secret#recommendation for faster secret detection
+2026-08-09T21:06:33-06:00	INFO	[terraform scanner] Scanning root module	file_path="terraform"
+2026-08-09T21:06:33-06:00	WARN	[terraform parser] Variable values were not found in the environment or variable files. Evaluating may not work correctly.	module="root" variables="dominus_server_container_cpu, dominus_server_container_memory, dominus_server_container_ports, dominus_server_file, dominus_server_token, grafana_server_container_ports, network_driver, network_name, prometheus_server_container_ports, redis_server_container_ports, sidecar_server_container_ports"
+2026-08-09T21:06:33-06:00	INFO	Number of language-specific files	num=1
+2026-08-09T21:06:33-06:00	INFO	[gomod] Detecting vulnerabilities...
+2026-08-09T21:06:33-06:00	INFO	Detected config files	num=3
+2026-08-09T21:06:33-06:00	WARN	Using severities from other vendors for some vulnerabilities. Read https://trivy.dev/docs/v0.73/guide/scanner/vulnerability#severity-selection for details.
+
+Report Summary
+
+┌────────────────────────────────┬────────────┬─────────────────┬─────────┬───────────────────┐
+│             Target             │    Type    │ Vulnerabilities │ Secrets │ Misconfigurations │
+├────────────────────────────────┼────────────┼─────────────────┼─────────┼───────────────────┤
+│ go.mod                         │   gomod    │       11        │    -    │         -         │
+├────────────────────────────────┼────────────┼─────────────────┼─────────┼───────────────────┤
+│ Dockerfile                     │ dockerfile │        -        │    -    │         1         │
+├────────────────────────────────┼────────────┼─────────────────┼─────────┼───────────────────┤
+│ terraform                      │ terraform  │        -        │    -    │         0         │
+├────────────────────────────────┼────────────┼─────────────────┼─────────┼───────────────────┤
+│ terraform/dev/redis/Dockerfile │ dockerfile │        -        │    -    │         2         │
+└────────────────────────────────┴────────────┴─────────────────┴─────────┴───────────────────┘
+Legend:
+- '-': Not scanned
+- '0': Clean (no security findings detected)
+
+
+go.mod (gomod)
+==============
+Total: 11 (UNKNOWN: 2, LOW: 0, MEDIUM: 3, HIGH: 6, CRITICAL: 0)
+
+┌────────────────────────┬─────────────────────┬──────────┬────────┬───────────────────┬───────────────┬──────────────────────────────────────────────────────────────┐
+│        Library         │    Vulnerability    │ Severity │ Status │ Installed Version │ Fixed Version │                            Title                             │
+├────────────────────────┼─────────────────────┼──────────┼────────┼───────────────────┼───────────────┼──────────────────────────────────────────────────────────────┤
+│ golang.org/x/net       │ CVE-2026-25681      │ HIGH     │ fixed  │ v0.52.0           │ 0.55.0        │ golang.org/x/net/html: golang.org/x/net/html: Arbitrary code │
+│                        │                     │          │        │                   │               │ execution via Cross-Site Scripting                           │
+│                        │                     │          │        │                   │               │ https://avd.aquasec.com/nvd/cve-2026-25681                   │
+│                        ├─────────────────────┤          │        │                   │               ├──────────────────────────────────────────────────────────────┤
+│                        │ CVE-2026-27136      │          │        │                   │               │ golang.org/x/net/html: golang: golang.org/x/net/html:        │
+│                        │                     │          │        │                   │               │ Cross-Site Scripting via HTML parsing bypass                 │
+│                        │                     │          │        │                   │               │ https://avd.aquasec.com/nvd/cve-2026-27136                   │
+│                        ├─────────────────────┤          │        │                   ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                        │ CVE-2026-33814      │          │        │                   │ 0.53.0        │ net/http/internal/http2: golang: golang.org/x/net: Go        │
+│                        │                     │          │        │                   │               │ HTTP/2: Denial of Service via malformed                      │
+│                        │                     │          │        │                   │               │ SETTINGS_MAX_FRAME_SIZE frame...                             │
+│                        │                     │          │        │                   │               │ https://avd.aquasec.com/nvd/cve-2026-33814                   │
+│                        ├─────────────────────┤          │        │                   ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                        │ CVE-2026-39821      │          │        │                   │ 0.55.0        │ golang.org/x/net/idna: golang: net/http:                     │
+│                        │                     │          │        │                   │               │ golang.org/x/net/idna: Privilege escalation via incorrect    │
+│                        │                     │          │        │                   │               │ Punycode label processing                                    │
+│                        │                     │          │        │                   │               │ https://avd.aquasec.com/nvd/cve-2026-39821                   │
+│                        ├─────────────────────┼──────────┤        │                   │               ├──────────────────────────────────────────────────────────────┤
+│                        │ CVE-2026-25680      │ MEDIUM   │        │                   │               │ golang.org/x/net/html: golang.org/x/net/html: Denial of      │
+│                        │                     │          │        │                   │               │ Service due to excessive HTML parsing                        │
+│                        │                     │          │        │                   │               │ https://avd.aquasec.com/nvd/cve-2026-25680                   │
+│                        ├─────────────────────┤          │        │                   │               ├──────────────────────────────────────────────────────────────┤
+│                        │ CVE-2026-42502      │          │        │                   │               │ golang.org/x/net/html: golang: golang.org/x/net/html:        │
+│                        │                     │          │        │                   │               │ Cross-Site Scripting via unexpected HTML tree rendering      │
+│                        │                     │          │        │                   │               │ https://avd.aquasec.com/nvd/cve-2026-42502                   │
+│                        ├─────────────────────┤          │        │                   │               ├──────────────────────────────────────────────────────────────┤
+│                        │ CVE-2026-42506      │          │        │                   │               │ golang.org/x/net/html: golang.org/x/net/html: Cross-Site     │
+│                        │                     │          │        │                   │               │ Scripting (XSS) via arbitrary HTML parsing                   │
+│                        │                     │          │        │                   │               │ https://avd.aquasec.com/nvd/cve-2026-42506                   │
+│                        ├─────────────────────┼──────────┤        │                   ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                        │ CVE-2026-46600      │ UNKNOWN  │        │                   │ 0.56.0        │ Parsing an invalid SVCB or HTTPS RR can panic when the       │
+│                        │                     │          │        │                   │               │ size...                                                      │
+│                        │                     │          │        │                   │               │ https://avd.aquasec.com/nvd/cve-2026-46600                   │
+├────────────────────────┼─────────────────────┤          │        ├───────────────────┼───────────────┼──────────────────────────────────────────────────────────────┤
+│ golang.org/x/sys       │ CVE-2026-39824      │          │        │ v0.42.0           │ 0.44.0        │ Invoking integer overflow in NewNTUnicodeString in           │
+│                        │                     │          │        │                   │               │ golang.org/x/sys/windows                                     │
+│                        │                     │          │        │                   │               │ https://avd.aquasec.com/nvd/cve-2026-39824                   │
+├────────────────────────┼─────────────────────┼──────────┤        ├───────────────────┼───────────────┼──────────────────────────────────────────────────────────────┤
+│ golang.org/x/text      │ CVE-2026-56852      │ HIGH     │        │ v0.35.0           │ 0.39.0        │ golang.org/x/text: golang.org/x/text: Denial of Service via  │
+│                        │                     │          │        │                   │               │ invalid UTF-8 input                                          │
+│                        │                     │          │        │                   │               │ https://avd.aquasec.com/nvd/cve-2026-56852                   │
+├────────────────────────┼─────────────────────┤          │        ├───────────────────┼───────────────┼──────────────────────────────────────────────────────────────┤
+│ google.golang.org/grpc │ GHSA-hrxh-6v49-42gf │          │        │ v1.79.3           │ 1.82.1        │ gRPC-Go: xDS RBAC and HTTP/2 Vulnerabilities                 │
+│                        │                     │          │        │                   │               │ https://github.com/advisories/GHSA-hrxh-6v49-42gf            │
+└────────────────────────┴─────────────────────┴──────────┴────────┴───────────────────┴───────────────┴──────────────────────────────────────────────────────────────┘
+
+Dockerfile (dockerfile)
+=======================
+Tests: 27 (SUCCESSES: 26, FAILURES: 1)
+Failures: 1 (UNKNOWN: 0, LOW: 1, MEDIUM: 0, HIGH: 0, CRITICAL: 0)
+
+DS-0026 (LOW): Add HEALTHCHECK instruction in your Dockerfile
+════════════════════════════════════════
+You should add HEALTHCHECK instruction in your docker container images to perform the health check on running containers.
+
+See https://avd.aquasec.com/misconfig/ds-0026
+────────────────────────────────────────
+
+
+
+terraform/dev/redis/Dockerfile (dockerfile)
+===========================================
+Tests: 27 (SUCCESSES: 25, FAILURES: 2)
+Failures: 2 (UNKNOWN: 0, LOW: 1, MEDIUM: 0, HIGH: 1, CRITICAL: 0)
+
+DS-0002 (HIGH): Specify at least 1 USER command in Dockerfile with non-root user as argument
+════════════════════════════════════════
+Running containers with 'root' user can lead to a container escape situation. It is a best practice to run containers as non-root users, which can be done by adding a 'USER' statement to the Dockerfile.
+
+See https://avd.aquasec.com/misconfig/ds-0002
+────────────────────────────────────────
+
+
+DS-0026 (LOW): Add HEALTHCHECK instruction in your Dockerfile
+════════════════════════════════════════
+You should add HEALTHCHECK instruction in your docker container images to perform the health check on running containers.
+
+See https://avd.aquasec.com/misconfig/ds-0026
+────────────────────────────────────────
+
+

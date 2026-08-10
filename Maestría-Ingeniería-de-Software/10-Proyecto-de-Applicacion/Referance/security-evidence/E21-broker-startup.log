@@ -1,0 +1,13 @@
+MODE=prod
+✅ Config file found
+panic: WRONGPASS invalid username-password pair or user is disabled.
+
+goroutine 1 [running]:
+dominus-broker/internal/infrastructure/redis/cchecker.NewCheckerClient(0x18eb, 0x1, {0x29e9f0f82660?, 0x2?}, {0x29e9f0f82670, 0x7}, 0xe0?, {0x29e9f0f82688, 0x7}, 0xa)
+	/app/internal/infrastructure/redis/cchecker/outbound.go:46 +0x2bb
+dominus-broker/internal/bootstraps.gRPCServer(0x29e9f1210240, {0x1113878, 0x29e9f1239860}, {0x110f4c0, 0x29e9f1123a10?}, {0x110f4c0, 0x29e9f1123a40?}, {0x110f4c0, 0x29e9f1123a70?}, 0x29e9f1023b30, ...)
+	/app/internal/bootstraps/bootstraps.go:60 +0xb5
+dominus-broker/internal/bootstraps.RunApp(0x29e9f0f82530, 0x29e9f0f82531, {0x10f6b74, 0x352})
+	/app/internal/bootstraps/bootstraps.go:274 +0x4cd
+main.main()
+	/app/cmd/api/main.go:46 +0x6e

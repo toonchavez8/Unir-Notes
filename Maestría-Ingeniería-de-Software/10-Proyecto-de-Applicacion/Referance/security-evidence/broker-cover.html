@@ -1,0 +1,3403 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>api: Go Coverage Report</title>
+		<style>
+			body {
+				background: black;
+				color: rgb(80, 80, 80);
+			}
+			body, pre, #legend span {
+				font-family: Menlo, monospace;
+				font-weight: bold;
+			}
+			#topbar {
+				background: black;
+				position: fixed;
+				top: 0; left: 0; right: 0;
+				height: 42px;
+				border-bottom: 1px solid rgb(80, 80, 80);
+			}
+			#content {
+				margin-top: 50px;
+			}
+			#nav, #legend {
+				float: left;
+				margin-left: 10px;
+			}
+			#legend {
+				margin-top: 12px;
+			}
+			#nav {
+				margin-top: 10px;
+			}
+			#legend span {
+				margin: 0 5px;
+			}
+			.cov0 { color: rgb(192, 0, 0) }
+.cov1 { color: rgb(128, 128, 128) }
+.cov2 { color: rgb(116, 140, 131) }
+.cov3 { color: rgb(104, 152, 134) }
+.cov4 { color: rgb(92, 164, 137) }
+.cov5 { color: rgb(80, 176, 140) }
+.cov6 { color: rgb(68, 188, 143) }
+.cov7 { color: rgb(56, 200, 146) }
+.cov8 { color: rgb(44, 212, 149) }
+.cov9 { color: rgb(32, 224, 152) }
+.cov10 { color: rgb(20, 236, 155) }
+
+		</style>
+	</head>
+	<body>
+		<div id="topbar">
+			<div id="nav">
+				<select id="files">
+				
+				<option value="file0">dominus-broker/cmd/api/main.go (0.0%)</option>
+				
+				<option value="file1">dominus-broker/config/config.go (0.0%)</option>
+				
+				<option value="file2">dominus-broker/internal/application/usecases/ack/ack_service.go (0.0%)</option>
+				
+				<option value="file3">dominus-broker/internal/application/usecases/ack/factory.go (0.0%)</option>
+				
+				<option value="file4">dominus-broker/internal/application/usecases/consumer/consumer_service.go (0.0%)</option>
+				
+				<option value="file5">dominus-broker/internal/application/usecases/consumer/factory.go (0.0%)</option>
+				
+				<option value="file6">dominus-broker/internal/application/usecases/producer/factory.go (0.0%)</option>
+				
+				<option value="file7">dominus-broker/internal/application/usecases/producer/producer_service.go (0.0%)</option>
+				
+				<option value="file8">dominus-broker/internal/application/usecases/stream_bidirectional/factory.go (0.0%)</option>
+				
+				<option value="file9">dominus-broker/internal/application/usecases/stream_bidirectional/stream_bidirectional_service.go (0.0%)</option>
+				
+				<option value="file10">dominus-broker/internal/application/usecases/stream_client/factory.go (0.0%)</option>
+				
+				<option value="file11">dominus-broker/internal/application/usecases/stream_client/stream_client_service.go (0.0%)</option>
+				
+				<option value="file12">dominus-broker/internal/application/usecases/stream_server/factory.go (0.0%)</option>
+				
+				<option value="file13">dominus-broker/internal/application/usecases/stream_server/stream_server_service.go (0.0%)</option>
+				
+				<option value="file14">dominus-broker/internal/bootstraps/bootstraps.go (0.0%)</option>
+				
+				<option value="file15">dominus-broker/internal/domain/entities/message.go (0.0%)</option>
+				
+				<option value="file16">dominus-broker/internal/infrastructure/event/event.go (0.0%)</option>
+				
+				<option value="file17">dominus-broker/internal/infrastructure/fasthttp/inbound/monitor_api.go (0.0%)</option>
+				
+				<option value="file18">dominus-broker/internal/infrastructure/fasthttp/middlewares/api_middleware.go (0.0%)</option>
+				
+				<option value="file19">dominus-broker/internal/infrastructure/fasthttp/middlewares/host_allowed.go (0.0%)</option>
+				
+				<option value="file20">dominus-broker/internal/infrastructure/fasthttp/middlewares/middlewares.go (0.0%)</option>
+				
+				<option value="file21">dominus-broker/internal/infrastructure/grpc/inbound/broker_sqs.go (0.0%)</option>
+				
+				<option value="file22">dominus-broker/internal/infrastructure/grpc/inbound/broker_stream.go (0.0%)</option>
+				
+				<option value="file23">dominus-broker/internal/infrastructure/grpc/mappers/mappers.go (0.0%)</option>
+				
+				<option value="file24">dominus-broker/internal/infrastructure/grpc/middlewares/interceptors.go (0.0%)</option>
+				
+				<option value="file25">dominus-broker/internal/infrastructure/grpc/middlewares/middlewares.go (0.0%)</option>
+				
+				<option value="file26">dominus-broker/internal/infrastructure/grpc/outbound/client_stream.go (0.0%)</option>
+				
+				<option value="file27">dominus-broker/internal/infrastructure/redis/cchecker/outbound.go (0.0%)</option>
+				
+				<option value="file28">dominus-broker/internal/infrastructure/redis/cmemory/outbound.go (0.0%)</option>
+				
+				<option value="file29">dominus-broker/mocks/mock_dto_ack.go (0.0%)</option>
+				
+				<option value="file30">dominus-broker/mocks/mock_dto_consumer.go (0.0%)</option>
+				
+				<option value="file31">dominus-broker/mocks/mock_dto_producer.go (0.0%)</option>
+				
+				<option value="file32">dominus-broker/mocks/mock_dto_stream_bidirectional.go (0.0%)</option>
+				
+				<option value="file33">dominus-broker/mocks/mock_dto_stream_client.go (0.0%)</option>
+				
+				<option value="file34">dominus-broker/mocks/mock_dto_stream_server.go (0.0%)</option>
+				
+				<option value="file35">dominus-broker/mocks/mock_infrastructure_event.go (0.0%)</option>
+				
+				<option value="file36">dominus-broker/mocks/mock_repositories_broker.go (0.0%)</option>
+				
+				<option value="file37">dominus-broker/mocks/mock_repositories_sqs.go (0.0%)</option>
+				
+				<option value="file38">dominus-broker/mocks/mock_usecases_ack.go (0.0%)</option>
+				
+				<option value="file39">dominus-broker/mocks/mock_usecases_consumer.go (0.0%)</option>
+				
+				<option value="file40">dominus-broker/mocks/mock_usecases_producer.go (0.0%)</option>
+				
+				<option value="file41">dominus-broker/mocks/mock_usecases_stream_bidirectional.go (0.0%)</option>
+				
+				<option value="file42">dominus-broker/mocks/mock_usecases_stream_client.go (0.0%)</option>
+				
+				<option value="file43">dominus-broker/mocks/mock_usecases_stream_server.go (0.0%)</option>
+				
+				</select>
+			</div>
+			<div id="legend">
+				<span>not tracked</span>
+			
+				<span class="cov0">not covered</span>
+				<span class="cov8">covered</span>
+			
+			</div>
+		</div>
+		<div id="content">
+		
+		<pre class="file" id="file0" style="display: none">package main
+
+import (
+        "dominus-broker/internal/bootstraps"
+
+        "flag"
+        "fmt"
+        "os"
+)
+
+var (
+        mode       *bool
+        showBanner *bool
+        banner     = `
+==========================================================
+██████    ██████  ███     ██ ██ ███    ██ ██    ██ ███████
+██   ██  ██    ██ ████  ████ ██ ████   ██ ██    ██ ██
+██   ██  ██    ██ ██ ████ ██ ██ ██ ██  ██ ██    ██ ███████
+██   ██  ██    ██ ██  ██  ██ ██ ██  ██ ██ ██    ██      ██
+██████    ██████  ██      ██ ██ ██   ████  ██████  ███████
+==========================================================
+
+👉 Github: https://github.com/MBI-88
+🔧 Press CTRL+C to terminate the server
+
+dominus server is running on`
+)
+
+// catches inital variables
+func init() <span class="cov0" title="0">{
+        mode = flag.Bool("prod", false, "set operation mode")
+        showBanner = flag.Bool("banner", true, "show banner")
+
+        flag.Usage = func() </span><span class="cov0" title="0">{
+                info := "[*] ***dominus-broker*** [*]\n"
+                info += "mode: boolean\n"
+                info += "banner: boolean\n"
+                fmt.Fprintf(os.Stderr, "%s\n", info)
+                flag.PrintDefaults()
+        }</span>
+}
+
+func main() <span class="cov0" title="0">{
+        //Receives commands from cli
+        flag.Parse()
+        bootstraps.RunApp(mode, showBanner, banner)
+}</span>
+</pre>
+		
+		<pre class="file" id="file1" style="display: none">package config
+
+import (
+        "fmt"
+        "strings"
+
+        "github.com/spf13/viper"
+)
+
+type GrpcConfig struct {
+        Port     int64  `json:"port" mapstructure:"port"`
+        ApiToken string `json:"api_token" mapstructure:"api_token"`
+}
+
+type RestConfig struct {
+        Port         int64  `json:"port" mapstructure:"port"`
+        ApiToken     string `json:"api_token" mapstructure:"api_token"`
+        AllowOrigins string `json:"allow_origins" mapstructure:"allow_origins"`
+}
+
+type CertConfig struct {
+        KeyFile   string `json:"key_file" mapstructure:"key_file"`
+        SslCaCert string `json:"ssl_ca_cert" mapstructure:"ssl_ca_cert"`
+        SslCert   string `json:"ssl_cert" mapstructure:"ssl_cert"`
+}
+
+type RedisConfig struct {
+        Port          int64  `json:"port" mapstructure:"port"`
+        MemoryDB      int    `json:"memory_db" mapstructure:"memory_db"`
+        CheckerDB     int    `json:"checker_db" mapstructure:"checker_db"`
+        IdemPotencyEx int    `json:"idem_potency_ex" mapstructure:"idem_potency_ex"`
+        Host          string `json:"host" mapstructure:"host"`
+        Password      string `json:"password" mapstructure:"password"`
+        Username      string `json:"username" mapstructure:"username"`
+        StreamID      string `json:"stream_id" mapstructure:"stream_id"`
+        GroupID       string `json:"group_id" mapstructure:"group_id"`
+        Tls           bool   `json:"tls" mapstructure:"tls"`
+}
+
+type LogConfig struct {
+        LogMode string `json:"log_mode" mapstructure:"log_mode"`
+        LogUrl  string `json:"log_url" mapstructure:"log_url"`
+}
+
+type Config struct {
+        GrpcConfig  GrpcConfig  `json:"grpc_config" mapstructure:"grpc_config"`
+        RestConfig  RestConfig  `json:"rest_config" mapstructure:"rest_config"`
+        CertConfig  CertConfig  `json:"cert_config" mapstructure:"cert_config"`
+        RedisConfig RedisConfig `json:"redis_config" mapstructure:"redis_config"`
+        LogConfig   LogConfig   `json:"log_config" mapstructure:"infra_config"`
+}
+
+func NewConfig() *Config <span class="cov0" title="0">{
+        var cf Config
+
+        viper.SetConfigType("json")
+        viper.AutomaticEnv()
+        raw := viper.GetString("APP_CONFIG")
+        if raw == "" </span><span class="cov0" title="0">{
+                panic("APP_CONFIG is empty or not set")</span>
+        }
+        <span class="cov0" title="0">if err := viper.ReadConfig(strings.NewReader(raw)); err != nil </span><span class="cov0" title="0">{
+                panic(err)</span>
+        }
+        <span class="cov0" title="0">if err := viper.Unmarshal(&amp;cf); err != nil </span><span class="cov0" title="0">{
+                panic(err)</span>
+        }
+        <span class="cov0" title="0">if err := cf.validateGrpcConfig(); err != nil </span><span class="cov0" title="0">{
+                panic(err)</span>
+        }
+        <span class="cov0" title="0">if err := cf.validateRedis(); err != nil </span><span class="cov0" title="0">{
+                panic(err)</span>
+        }
+        <span class="cov0" title="0">if err := cf.validateRestConfig(); err != nil </span><span class="cov0" title="0">{
+                panic(err)</span>
+        }
+        <span class="cov0" title="0">return &amp;cf</span>
+}
+
+func (c *Config) validateRedis() error <span class="cov0" title="0">{
+        if c.RedisConfig.Host == "" </span><span class="cov0" title="0">{
+                return fmt.Errorf("RedisConfig.Host empty")
+        }</span>
+        <span class="cov0" title="0">if c.RedisConfig.Port == 0 </span><span class="cov0" title="0">{
+                return fmt.Errorf("RedisConfig.Port empty")
+        }</span>
+        <span class="cov0" title="0">return nil</span>
+}
+
+func (c *Config) validateGrpcConfig() error <span class="cov0" title="0">{
+        if c.GrpcConfig.Port == 0 </span><span class="cov0" title="0">{
+                return fmt.Errorf("GrpcConfig.GrpcPort empty")
+        }</span>
+        <span class="cov0" title="0">if c.GrpcConfig.ApiToken == "" </span><span class="cov0" title="0">{
+                return fmt.Errorf("GrpcConfig.ApiToken empty")
+        }</span>
+        <span class="cov0" title="0">return nil</span>
+}
+
+func (c *Config) validateRestConfig() error <span class="cov0" title="0">{
+        if c.RestConfig.Port == 0 </span><span class="cov0" title="0">{
+                return fmt.Errorf("RestConfig.Port empty")
+        }</span>
+        <span class="cov0" title="0">if c.RestConfig.ApiToken == "" </span><span class="cov0" title="0">{
+                return fmt.Errorf("RestConfig.ApiToken empty")
+        }</span>
+        <span class="cov0" title="0">if c.RestConfig.AllowOrigins == "" </span><span class="cov0" title="0">{
+                return fmt.Errorf("RestConfig.AllowOrigins empty")
+        }</span>
+        <span class="cov0" title="0">return nil</span>
+}
+</pre>
+		
+		<pre class="file" id="file2" style="display: none">package ack
+
+import (
+        "context"
+        "dominus-broker/internal/domain/entities"
+        "fmt"
+)
+
+func (a *ackUseCase) Ack(ctx context.Context, ms AskDto) error <span class="cov0" title="0">{
+        qs := entities.NewMessage()
+        if !qs.SetMessageId(ms.GetMessageId()) </span><span class="cov0" title="0">{
+                return fmt.Errorf("ack.Ack invalid messageId")
+        }</span>
+        <span class="cov0" title="0">return a.client.AckMessage(ctx, ms.GetMessageId(), ms.GetGroupId())</span>
+}
+</pre>
+		
+		<pre class="file" id="file3" style="display: none">package ack
+
+import (
+        "context"
+        "dominus-broker/internal/domain/repositories"
+)
+
+type AckUseCase interface {
+        Ack(ctx context.Context, ms AskDto) error
+}
+
+type ackUseCase struct {
+        client repositories.MemoryClient
+}
+
+func New(client repositories.MemoryClient) AckUseCase <span class="cov0" title="0">{
+
+        return &amp;ackUseCase{client: client}
+}</span>
+</pre>
+		
+		<pre class="file" id="file4" style="display: none">package consumer
+
+import (
+        "context"
+        "dominus-broker/internal/domain/entities"
+)
+
+func (c *consumerUseCase) Consumer(ctx context.Context, ms ConsumerDto) (*entities.Message, error) <span class="cov0" title="0">{
+        return c.client.GetMessage(ctx, ms.GetWorkerId(), ms.GetGroupId())
+}</span>
+</pre>
+		
+		<pre class="file" id="file5" style="display: none">package consumer
+
+import (
+        "context"
+        "dominus-broker/internal/domain/entities"
+        "dominus-broker/internal/domain/repositories"
+)
+
+type ConsumerUseCase interface {
+        Consumer(ctx context.Context, ms ConsumerDto) (*entities.Message, error)
+}
+
+type consumerUseCase struct {
+        client repositories.MemoryClient
+}
+
+func New(client repositories.MemoryClient) ConsumerUseCase <span class="cov0" title="0">{
+        return &amp;consumerUseCase{client: client}
+}</span>
+</pre>
+		
+		<pre class="file" id="file6" style="display: none">package producer
+
+import (
+        "context"
+        "dominus-broker/internal/domain/repositories"
+)
+
+type ProducerUseCase interface {
+        Producer(ctx context.Context, ms ProducerDto) error
+}
+
+type producerUseCase struct {
+        client repositories.MemoryClient
+}
+
+func New(client repositories.MemoryClient) ProducerUseCase <span class="cov0" title="0">{
+        return &amp;producerUseCase{client: client}
+}</span>
+</pre>
+		
+		<pre class="file" id="file7" style="display: none">package producer
+
+import (
+        "context"
+        "dominus-broker/internal/domain/entities"
+        "fmt"
+)
+
+func (p *producerUseCase) Producer(ctx context.Context, ms ProducerDto) error <span class="cov0" title="0">{
+        payload := ms.GetPayload()
+        if len(payload) == 0 </span><span class="cov0" title="0">{
+                return fmt.Errorf("producer.Producer empty payload")
+        }</span>
+        <span class="cov0" title="0">q := entities.NewMessageWithID(payload)
+        return p.client.SendMessage(ctx, q)</span>
+}
+</pre>
+		
+		<pre class="file" id="file8" style="display: none">package streambidirectional
+
+import "dominus-broker/internal/domain/repositories"
+
+type StreamBidirectionalUseCase interface {
+        StreamBidirectional(st BrokerBidirectionalDto) error
+}
+
+type streamBidirectionalUseCase struct {
+        client repositories.BrokerClient
+}
+
+func New(client repositories.BrokerClient) StreamBidirectionalUseCase <span class="cov0" title="0">{
+        return &amp;streamBidirectionalUseCase{client: client}
+}</span>
+</pre>
+		
+		<pre class="file" id="file9" style="display: none">package streambidirectional
+
+import (
+        "context"
+
+        "fmt"
+)
+
+func (s *streamBidirectionalUseCase) StreamBidirectional(stream BrokerBidirectionalDto) error <span class="cov0" title="0">{
+        closed := make(chan struct{})
+        ctx, cancel := context.WithCancel(stream.Context())
+        defer cancel()
+        req, err := stream.Recv()
+        if err != nil </span><span class="cov0" title="0">{
+                return fmt.Errorf("streambidirectional.StreamBidirectional %s", err)
+        }</span>
+        <span class="cov0" title="0">subscribers := req.GetSubscribers()
+        if len(subscribers) == 0 </span><span class="cov0" title="0">{
+                return fmt.Errorf("streambidirectional.StreamBidirectional subscribers not found")
+        }</span>
+        <span class="cov0" title="0">total := len(subscribers)
+        streamProv := make(chan []byte)
+        streamSub := make(chan []byte, total+int(total*2/3))
+
+        go s.client.BidirectionalStream(subscribers, streamProv, streamSub, closed, ctx)
+        streamProv &lt;- req.GetPayload()
+
+        //Receives from provider
+        go func() </span><span class="cov0" title="0">{
+                for </span><span class="cov0" title="0">{
+                        req, err := stream.Recv()
+                        if err != nil </span><span class="cov0" title="0">{
+                                close(streamProv)
+                                return
+                        }</span>
+                        <span class="cov0" title="0">streamProv &lt;- req.GetPayload()</span>
+                }
+        }()
+
+        //Receives from subscribers
+        <span class="cov0" title="0">for </span><span class="cov0" title="0">{
+                select </span>{
+                case payload, ok := &lt;-streamSub:<span class="cov0" title="0">
+                        if ok </span><span class="cov0" title="0">{
+                                if err := stream.Send(payload); err != nil </span><span class="cov0" title="0">{
+                                        cancel()
+                                }</span>
+                        }
+                case &lt;-closed:<span class="cov0" title="0">
+                        close(streamSub)
+                        close(closed)
+                        return fmt.Errorf("streambidirectional.StreamBidirectional connection closed")</span>
+                }
+        }
+}
+</pre>
+		
+		<pre class="file" id="file10" style="display: none">package streamclient
+
+import "dominus-broker/internal/domain/repositories"
+
+type StreamClientUseCase interface {
+        StreamClient(st BrokerClientDto) error
+}
+
+type streamClientUseCase struct {
+        client repositories.BrokerClient
+}
+
+func New(client repositories.BrokerClient) StreamClientUseCase <span class="cov0" title="0">{
+        return &amp;streamClientUseCase{client: client}
+}</span>
+</pre>
+		
+		<pre class="file" id="file11" style="display: none">package streamclient
+
+import (
+        "context"
+
+        "fmt"
+)
+
+func (s *streamClientUseCase) StreamClient(st BrokerClientDto) error <span class="cov0" title="0">{
+        ctx, cancel := context.WithCancel(st.Context())
+        defer cancel()
+        stream := make(chan []byte)
+        req, err := st.Recv()
+        if err != nil </span><span class="cov0" title="0">{
+                return err
+        }</span>
+        <span class="cov0" title="0">subscribers := req.GetSubscribers()
+        if len(subscribers) == 0 </span><span class="cov0" title="0">{
+                return fmt.Errorf("streamclient.StreamClient subscribers not found")
+        }</span>
+
+        <span class="cov0" title="0">go s.client.ClientStream(subscribers, stream, ctx)
+
+        stream &lt;- req.GetPayload()
+        for </span><span class="cov0" title="0">{
+                req, err := st.Recv()
+                if err != nil </span><span class="cov0" title="0">{
+                        close(stream)
+                        cancel()
+                        return err
+                }</span>
+                <span class="cov0" title="0">stream &lt;- req.GetPayload()</span>
+        }
+}
+</pre>
+		
+		<pre class="file" id="file12" style="display: none">package streamserver
+
+import "dominus-broker/internal/domain/repositories"
+
+type StreamServerUseCase interface {
+        StreamServer(req BrokerRequestDto, st BrokerServerDto) error
+}
+
+type streamServerUseCase struct {
+        client repositories.BrokerClient
+}
+
+func New(client repositories.BrokerClient) StreamServerUseCase <span class="cov0" title="0">{
+        return &amp;streamServerUseCase{client: client}
+}</span>
+</pre>
+		
+		<pre class="file" id="file13" style="display: none">package streamserver
+
+import (
+        "context"
+
+        "fmt"
+)
+
+func (s *streamServerUseCase) StreamServer(req BrokerRequestDto, st BrokerServerDto) error <span class="cov0" title="0">{
+        ctx, cancel := context.WithCancel(st.Context())
+        defer cancel()
+        subscribers := req.GetSubscribers()
+        if len(subscribers) == 0 </span><span class="cov0" title="0">{
+                return fmt.Errorf("streamserver.StreamServer subscribers not found")
+        }</span>
+        <span class="cov0" title="0">total := len(subscribers)
+        stream := make(chan []byte, total+int(total*2/3))
+        closed := make(chan struct{})
+        initialRequest := req.GetPayload()
+
+        go s.client.ServerStream(subscribers, initialRequest, stream, ctx, closed)
+
+        for </span><span class="cov0" title="0">{
+                select </span>{
+                case body, ok := &lt;-stream:<span class="cov0" title="0">
+                        if ok </span><span class="cov0" title="0">{
+                                if err := st.Send(body); err != nil </span><span class="cov0" title="0">{
+                                        cancel()
+                                }</span>
+                        }
+                case &lt;-closed:<span class="cov0" title="0">
+                        close(closed)
+                        close(stream)
+                        return fmt.Errorf("streamserver.StreamServer connection closed")</span>
+                }
+        }
+}
+</pre>
+		
+		<pre class="file" id="file14" style="display: none">package bootstraps
+
+import (
+        "context"
+        "dominus-broker/config"
+
+        "dominus-broker/internal/application/usecases/ack"
+        "dominus-broker/internal/application/usecases/consumer"
+        "dominus-broker/internal/application/usecases/producer"
+        streambidirectional "dominus-broker/internal/application/usecases/stream_bidirectional"
+        streamclient "dominus-broker/internal/application/usecases/stream_client"
+        streamserver "dominus-broker/internal/application/usecases/stream_server"
+        "dominus-broker/internal/infrastructure/enum"
+
+        "dominus-broker/internal/infrastructure/event"
+        fi "dominus-broker/internal/infrastructure/fasthttp/inbound"
+        fm "dominus-broker/internal/infrastructure/fasthttp/middlewares"
+        gi "dominus-broker/internal/infrastructure/grpc/inbound"
+        gm "dominus-broker/internal/infrastructure/grpc/middlewares"
+        gt "dominus-broker/internal/infrastructure/grpc/outbound"
+        "dominus-broker/internal/infrastructure/redis/cchecker"
+        "dominus-broker/internal/infrastructure/redis/cmemory"
+
+        "fmt"
+        "log"
+        "net"
+        "os"
+        "os/signal"
+        "syscall"
+
+        "github.com/fasthttp/router"
+        grpcmetrics "github.com/grpc-ecosystem/go-grpc-middleware/providers/prometheus"
+        "github.com/grpc-ecosystem/go-grpc-middleware/v2/interceptors/auth"
+        "github.com/grpc-ecosystem/go-grpc-middleware/v2/interceptors/logging"
+        "github.com/prometheus/client_golang/prometheus"
+        "github.com/valyala/fasthttp"
+        "go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc"
+        "google.golang.org/grpc"
+        "google.golang.org/grpc/credentials"
+        "google.golang.org/grpc/credentials/insecure"
+        "google.golang.org/grpc/encoding/gzip"
+        "google.golang.org/grpc/reflection"
+)
+
+func gRPCServer(
+        cf *config.Config,
+        logs event.Event,
+        errC,
+        errK,
+        errCa error,
+        cancel context.CancelFunc,
+        metricserver *grpcmetrics.ServerMetrics,
+        metricclient *grpcmetrics.ClientMetrics,
+) *grpc.Server <span class="cov0" title="0">{
+        var (
+                optsS []grpc.ServerOption
+                optsD []grpc.DialOption
+        )
+
+        checker := cchecker.NewCheckerClient(
+                cf.RedisConfig.Port,
+                cf.RedisConfig.CheckerDB,
+                cf.RedisConfig.Host,
+                cf.RedisConfig.Password,
+                cf.RedisConfig.Tls,
+                cf.RedisConfig.Username,
+                cf.RedisConfig.IdemPotencyEx,
+        )
+
+        midGs := gm.NewMiddleware(cf.GrpcConfig.ApiToken, logs, checker)
+        midGc := gm.NewInterceptor(cf.GrpcConfig.ApiToken, logs)
+
+        if errC == nil &amp;&amp; errK == nil &amp;&amp; errCa == nil </span><span class="cov0" title="0">{
+                credsS, err := credentials.NewServerTLSFromFile(cf.CertConfig.SslCert, cf.CertConfig.KeyFile)
+                if err != nil </span><span class="cov0" title="0">{
+                        cancel()
+                        panic(err)</span>
+                }
+                <span class="cov0" title="0">optsS = append(optsS, grpc.Creds(credsS))
+
+                credsD, err := credentials.NewClientTLSFromFile(cf.CertConfig.SslCaCert, enum.DOMAIN)
+                if err != nil </span><span class="cov0" title="0">{
+                        cancel()
+                        panic(err)</span>
+                }
+                <span class="cov0" title="0">optsD = append(optsD, grpc.WithTransportCredentials(credsD))</span>
+        } else<span class="cov0" title="0"> {
+                optsD = append(optsD, grpc.WithTransportCredentials(insecure.NewCredentials()))
+        }</span>
+
+        <span class="cov0" title="0">optsS = append(optsS,
+                grpc.StatsHandler(otelgrpc.NewServerHandler()),
+                grpc.ChainUnaryInterceptor(
+                        auth.UnaryServerInterceptor(midGs.ApiToken),
+                        auth.UnaryServerInterceptor(midGs.IdemPotency),
+                        metricserver.UnaryServerInterceptor(),
+                        logging.UnaryServerInterceptor(midGs.LogErrors()),
+                ),
+                grpc.ChainStreamInterceptor(
+                        auth.StreamServerInterceptor(midGs.ApiToken),
+                        metricserver.StreamServerInterceptor(),
+                        logging.StreamServerInterceptor(midGs.LogErrors()),
+                ),
+        )
+
+        optsD = append(optsD,
+                grpc.WithStatsHandler(otelgrpc.NewClientHandler()),
+                grpc.WithUnaryInterceptor(metricclient.UnaryClientInterceptor()),
+                grpc.WithStreamInterceptor(metricclient.StreamClientInterceptor()),
+                grpc.WithUnaryInterceptor(midGc.UnaryAuthInterceptor),
+                grpc.WithStreamInterceptor(midGc.StreamAuthInterceptor),
+                grpc.WithDefaultCallOptions(grpc.UseCompressor(gzip.Name)),
+                grpc.WithDefaultServiceConfig(enum.ROUTER_CLIENT),
+        )
+
+        // Clients
+        bclient := gt.NewGrpClient(optsD, logs)
+        qclient := cmemory.NewMemoryClient(
+                cf.RedisConfig.Port,
+                cf.RedisConfig.MemoryDB,
+                cf.RedisConfig.Host,
+                cf.RedisConfig.Password,
+                cf.RedisConfig.Tls,
+                cf.RedisConfig.Username,
+                cf.RedisConfig.StreamID,
+        )
+
+        // Interactors
+        bidirectionalUseCase := streambidirectional.New(bclient)
+        clientUsecase := streamclient.New(bclient)
+        serverUsecase := streamserver.New(bclient)
+
+        ackUseCase := ack.New(qclient)
+        consumerUseCase := consumer.New(qclient)
+        producerUseCase := producer.New(qclient)
+
+        // Create group if not exist
+        if err := qclient.Group(cf.RedisConfig.GroupID); err != nil </span><span class="cov0" title="0">{
+                logs.WriteLog(context.Background(), enum.ERROR, "qclient.Group", err.Error())
+        }</span>
+
+        // Server
+        <span class="cov0" title="0">server := grpc.NewServer(optsS...)
+
+        // Register APIs
+        gi.NewBrokerStream(
+                server,
+                clientUsecase,
+                serverUsecase,
+                bidirectionalUseCase,
+                logs,
+        )
+        gi.NewBrokerSqs(
+                server,
+                producerUseCase,
+                consumerUseCase,
+                ackUseCase,
+                logs,
+        )
+
+        // Reflecting server
+        reflection.Register(server)
+
+        // Listener
+        listener, err := net.Listen("tcp", fmt.Sprintf("0.0.0.0:%d", cf.GrpcConfig.Port))
+        if err != nil </span><span class="cov0" title="0">{
+                logs.WriteLog(context.Background(), enum.ERROR, "net.Listen", err.Error())
+                return nil
+        }</span>
+        <span class="cov0" title="0">go func(sr *grpc.Server, list net.Listener, cancel context.CancelFunc) </span><span class="cov0" title="0">{
+                log.Fatal(sr.Serve(list))
+                cancel()
+        }</span>(server, listener, cancel)
+
+        <span class="cov0" title="0">return server</span>
+}
+
+func restServer(
+        reg *prometheus.Registry,
+        cf *config.Config,
+        logs event.Event,
+        cancel context.CancelFunc,
+        errC error,
+        errK error,
+) *fasthttp.Server <span class="cov0" title="0">{
+        midF := fm.NewMiddleware()
+        apiToken := fm.NewMiddlewareApiToken(cf.RestConfig.ApiToken, logs)
+        allowedOrings := fm.NewMiddlewareHost(cf.RestConfig.AllowOrigins, logs)
+
+        midF.AddMiddleware(apiToken, allowedOrings)
+        router := router.New()
+
+        // API
+        fi.NewMonitorAPI(router, reg, logs)
+
+        r := fasthttp.Server{
+                Handler:                      midF.Middlewares(router.Handler),
+                Name:                         enum.PROJECT_NAME,
+                MaxRequestBodySize:           100,
+                ReduceMemoryUsage:            true,
+                DisablePreParseMultipartForm: true,
+                KeepHijackedConns:            true,
+                CloseOnShutdown:              true,
+                StreamRequestBody:            true,
+        }
+
+        if errC == nil &amp;&amp; errK == nil </span><span class="cov0" title="0">{
+                go func(port int64, cert, key string, cancel context.CancelFunc) </span><span class="cov0" title="0">{
+                        log.Fatal(r.ListenAndServeTLS(fmt.Sprintf("0.0.0.0:%d", port), cert, key))
+                        cancel()
+                }</span>(cf.RestConfig.Port, cf.CertConfig.SslCert, cf.CertConfig.KeyFile, cancel)
+        } else<span class="cov0" title="0"> {
+                go func(port int64, cancel context.CancelFunc) </span><span class="cov0" title="0">{
+                        log.Fatal(r.ListenAndServe(fmt.Sprintf("0.0.0.0:%d", port)))
+                        cancel()
+                }</span>(cf.RestConfig.Port, cancel)
+        }
+
+        <span class="cov0" title="0">return &amp;r</span>
+}
+
+func monitoring() (*prometheus.Registry, *grpcmetrics.ServerMetrics, *grpcmetrics.ClientMetrics) <span class="cov0" title="0">{
+        metricserver := grpcmetrics.NewServerMetrics(
+                grpcmetrics.WithServerCounterOptions(grpcmetrics.WithConstLabels(prometheus.Labels{})),
+                grpcmetrics.WithServerHandlingTimeHistogram(grpcmetrics.WithHistogramOpts(&amp;prometheus.HistogramOpts{})),
+        )
+        metricclient := grpcmetrics.NewClientMetrics(
+                grpcmetrics.WithClientCounterOptions(grpcmetrics.WithConstLabels(prometheus.Labels{})),
+                grpcmetrics.WithClientHandlingTimeHistogram(grpcmetrics.WithHistogramOpts(&amp;prometheus.HistogramOpts{})),
+                grpcmetrics.WithClientStreamRecvHistogram(grpcmetrics.WithHistogramOpts(&amp;prometheus.HistogramOpts{})),
+        )
+
+        reg := prometheus.NewRegistry()
+        reg.MustRegister(metricserver, metricclient)
+
+        return reg, metricserver, metricclient
+}</span>
+
+func RunApp(mode, showBanner *bool, banner string) <span class="cov0" title="0">{
+        //Instances
+        cf := config.NewConfig()
+
+        lgs := event.NewEvent(cf.LogConfig.LogMode, cf.LogConfig.LogUrl, *mode)
+
+        // Signals
+        st := make(chan os.Signal, 1)
+        signal.Notify(st, os.Interrupt, syscall.SIGTERM)
+        defer signal.Stop(st)
+
+        //context
+        ctx, cancel := context.WithCancel(context.Background())
+        defer cancel()
+
+        _, errC := os.Stat(cf.CertConfig.SslCert)
+        _, errK := os.Stat(cf.CertConfig.KeyFile)
+        _, errCa := os.Stat(cf.CertConfig.SslCaCert)
+
+        //**************************************
+        //***********Monitoring*****************
+        //**************************************
+
+        reg, metricserver, metricclient := monitoring()
+
+        //**************************************
+        //***********Rest Server****************
+        //**************************************
+
+        r := restServer(reg, cf, lgs, cancel, errC, errK)
+
+        //********************************
+        //*********Grpc server************
+        //********************************
+
+        srG := gRPCServer(cf, lgs, errC, errK, errCa, cancel, metricserver, metricclient)
+        if srG == nil </span><span class="cov0" title="0">{
+                panic("GRPC server error")</span>
+        }
+
+        //*********************************
+        //**********Banner*****************
+        //*********************************
+
+        <span class="cov0" title="0">if errC == nil &amp;&amp; errK == nil </span><span class="cov0" title="0">{
+                if *showBanner </span><span class="cov0" title="0">{
+                        fmt.Printf("%s Rest: https://0.0.0.0:%d 🚀  Grpc: 0.0.0.0:%d 🚀\n", banner, cf.RestConfig.Port, cf.GrpcConfig.Port)
+                }</span> else<span class="cov0" title="0"> {
+                        fmt.Printf("Rest: https://0.0.0.0:%d 🚀  Grpc: 0.0.0.0:%d 🚀\n", cf.RestConfig.Port, cf.GrpcConfig.Port)
+                }</span>
+        } else<span class="cov0" title="0"> {
+                if *showBanner </span><span class="cov0" title="0">{
+                        fmt.Printf("%s Rest: http://0.0.0.0:%d 🚀  Grpc: 0.0.0.0:%d 🚀\n", banner, cf.RestConfig.Port, cf.GrpcConfig.Port)
+                }</span> else<span class="cov0" title="0"> {
+                        fmt.Printf("Rest: http://0.0.0.0:%d 🚀  Grpc: 0.0.0.0:%d 🚀\n", cf.RestConfig.Port, cf.GrpcConfig.Port)
+                }</span>
+        }
+
+        //*********************************
+        //*********Shutdown servers********
+        //*********************************
+
+        // Wait for a signal
+        <span class="cov0" title="0">select </span>{
+        case err := &lt;-st:<span class="cov0" title="0">
+                log.Fatalln(err)</span>
+        case &lt;-ctx.Done():<span class="cov0" title="0">
+                log.Fatalln("[-] Context closed")</span>
+        }
+
+        <span class="cov0" title="0">if err := r.Shutdown(); err != nil </span><span class="cov0" title="0">{
+                log.Fatal(err)
+        }</span>
+        <span class="cov0" title="0">srG.GracefulStop()
+        close(st)</span>
+}
+</pre>
+		
+		<pre class="file" id="file15" style="display: none">package entities
+
+import (
+        "fmt"
+        "strconv"
+        "strings"
+        "time"
+)
+
+type Message struct {
+        Message   []byte
+        MessageId string
+        CreatedAt time.Time
+}
+
+func NewMessageWithID(message []byte) *Message <span class="cov0" title="0">{
+        return &amp;Message{
+                Message:   message,
+                MessageId: fmt.Sprintf("%d-0", time.Now().UnixMilli()),
+                CreatedAt: time.Now(),
+        }
+}</span>
+
+func NewMessage() *Message <span class="cov0" title="0">{
+        return new(Message)
+}</span>
+
+func (q *Message) SetMessage(data []byte) <span class="cov0" title="0">{
+        q.Message = data
+}</span>
+func (q *Message) GetMessage() []byte <span class="cov0" title="0">{
+        return q.Message
+}</span>
+
+func (q *Message) SetMessageId(id string) bool <span class="cov0" title="0">{
+        if !q.checkValidFormatID(id) </span><span class="cov0" title="0">{
+                return false
+        }</span>
+        <span class="cov0" title="0">q.MessageId = id
+        return true</span>
+}
+
+func (q *Message) GetMessageId() string <span class="cov0" title="0">{
+        return q.MessageId
+}</span>
+
+func (q *Message) GetCreatedAt() time.Time <span class="cov0" title="0">{
+        return q.CreatedAt
+}</span>
+func (q *Message) SetCreateAt(date time.Time) <span class="cov0" title="0">{
+        q.CreatedAt = date
+}</span>
+
+func (q *Message) checkValidFormatID(id string) bool <span class="cov0" title="0">{
+        tem := strings.Split(id, "-")
+        if len(tem) != 2 </span><span class="cov0" title="0">{
+                return false
+        }</span>
+        <span class="cov0" title="0">_, err1 := strconv.ParseUint(tem[0], 10, 64)
+        _, err2 := strconv.ParseUint(tem[1], 10, 64)
+        return err1 == nil &amp;&amp; err2 == nil</span>
+}
+</pre>
+		
+		<pre class="file" id="file16" style="display: none">package event
+
+import (
+        "context"
+        "dominus-broker/internal/infrastructure/enum"
+        "fmt"
+        "log/slog"
+        "os"
+
+        "github.com/google/uuid"
+        jsoniter "github.com/json-iterator/go"
+)
+
+type Event interface {
+        WriteLog(ctx context.Context, level, op, dsc string)
+        CheckID(ctx context.Context) context.Context
+}
+
+type log struct {
+        lg     *slog.Logger
+        mode   string // feature flag, selecting log type, cmd, client (send to other place)
+        url    string // feature flag, url to send logs
+        devMod bool
+}
+
+func NewEvent(mode, url string, devMode bool) Event <span class="cov0" title="0">{
+        handler := slog.NewJSONHandler(os.Stdout, &amp;slog.HandlerOptions{
+                Level: slog.LevelError | slog.LevelDebug | slog.LevelInfo,
+        })
+
+        return &amp;log{
+                mode:   mode,
+                url:    url,
+                devMod: !devMode,
+                lg:     slog.New(handler),
+        }
+}</span>
+
+func (l *log) WriteLog(ctx context.Context, level, op, dsc string) <span class="cov0" title="0">{
+        var id string
+
+        temp := ctx.Value(enum.ID)
+        if temp == nil </span><span class="cov0" title="0">{
+                id = ""
+        }</span> else<span class="cov0" title="0"> {
+                id = temp.(string)
+        }</span>
+        <span class="cov0" title="0">message, err := jsoniter.Marshal(&amp;Logs{
+                ID:          id,
+                Description: dsc,
+                Op:          op,
+        })
+        if err != nil </span><span class="cov0" title="0">{
+                return
+        }</span>
+
+        <span class="cov0" title="0">l.typeLog(level, message)</span>
+}
+
+func (l *log) CheckID(ctx context.Context) context.Context <span class="cov0" title="0">{
+        id := ctx.Value(enum.ID)
+        if id == nil </span><span class="cov0" title="0">{
+                id = uuid.NewString()
+                ctx = context.WithValue(ctx, enum.ID, id)
+        }</span>
+        <span class="cov0" title="0">return ctx</span>
+}
+
+func (l *log) typeLog(level string, message []byte) <span class="cov0" title="0">{
+        switch l.mode </span>{
+        case enum.LOGCLIENT:<span class="cov0" title="0">
+                l.clientLog(level, message)</span>
+        default:<span class="cov0" title="0">
+                l.cmdLog(level, message)</span>
+        }
+}
+
+func (l *log) clientLog(level string, message []byte) {<span class="cov0" title="0">
+}</span>
+
+func (l *log) cmdLog(level string, message []byte) <span class="cov0" title="0">{
+        switch level </span>{
+        case enum.INFO:<span class="cov0" title="0">
+                if l.devMod </span><span class="cov0" title="0">{
+                        l.lg.Info(fmt.Sprintf("LOG: %s\n", message))
+                }</span>
+        case enum.DEBUG:<span class="cov0" title="0">
+                if l.devMod </span><span class="cov0" title="0">{
+                        l.lg.Debug(fmt.Sprintf("LOG: %s\n", message))
+                }</span>
+        case enum.WARN:<span class="cov0" title="0">
+                if l.devMod </span><span class="cov0" title="0">{
+                        l.lg.Warn(fmt.Sprintf("LOG: %s\n", message))
+                }</span>
+        default:<span class="cov0" title="0">
+                l.lg.Error(fmt.Sprintf("LOG: %s\n", message))</span>
+        }
+}
+</pre>
+		
+		<pre class="file" id="file17" style="display: none">package inbound
+
+import (
+        "dominus-broker/internal/infrastructure/enum"
+        "dominus-broker/internal/infrastructure/event"
+        "net/http"
+
+        "github.com/fasthttp/router"
+        "github.com/prometheus/client_golang/prometheus"
+        "github.com/prometheus/client_golang/prometheus/promhttp"
+        "github.com/shirou/gopsutil/cpu"
+        "github.com/shirou/gopsutil/mem"
+        "github.com/valyala/fasthttp"
+)
+
+var (
+        cpumetrics = prometheus.NewGaugeVec(prometheus.GaugeOpts{
+                Name: "cpu_usage_percentage",
+                Help: "Current cpu usage in percentage",
+        }, []string{"cpu_used"})
+        memorymetrics = prometheus.NewGaugeVec(prometheus.GaugeOpts{
+                Name: "memory_usage_percentage",
+                Help: "Current memory usage in percentage",
+        }, []string{"mem_used"})
+)
+
+type adapter struct {
+        ctx *fasthttp.RequestCtx
+}
+
+func (a *adapter) Header() http.Header <span class="cov0" title="0">{
+        return http.Header{}
+}</span>
+
+func (a *adapter) Write(data []byte) (int, error) <span class="cov0" title="0">{
+        return a.ctx.Write(data)
+}</span>
+
+func (a *adapter) WriteHeader(status int) <span class="cov0" title="0">{
+        a.ctx.SetStatusCode(status)
+}</span>
+
+type monitor struct {
+        router *router.Router
+        opts   promhttp.HandlerOpts
+        reg    *prometheus.Registry
+        log    event.Event
+}
+
+func NewMonitorAPI(r *router.Router, reg *prometheus.Registry, log event.Event) <span class="cov0" title="0">{
+        reg.MustRegister(cpumetrics, memorymetrics)
+        m := &amp;monitor{
+                router: r,
+                reg:    reg,
+                opts:   promhttp.HandlerOpts{EnableOpenMetrics: true, DisableCompression: true},
+                log:    log,
+        }
+        m.path()
+}</span>
+
+func (m *monitor) convertToHTTP(ctx *fasthttp.RequestCtx) (*http.Request, error) <span class="cov0" title="0">{
+        req := &amp;http.Request{
+                Method: string(ctx.Method()),
+                Header: make(http.Header),
+        }
+        for k, v := range ctx.Request.Header.All() </span><span class="cov0" title="0">{
+                req.Header.Set(string(k), string(v))
+        }</span>
+        <span class="cov0" title="0">return req, nil</span>
+}
+
+func (m *monitor) collectMetrics() <span class="cov0" title="0">{
+        cpuPercent, err := cpu.Percent(0, false)
+        if err == nil </span><span class="cov0" title="0">{
+                cpumetrics.WithLabelValues("cpu_used").Set(cpuPercent[0])
+        }</span>
+        <span class="cov0" title="0">mem, err := mem.VirtualMemory()
+        if err == nil </span><span class="cov0" title="0">{
+                memorymetrics.WithLabelValues("mem_used").Set(mem.UsedPercent)
+        }</span>
+}
+
+func (m *monitor) getMetrics(ctx *fasthttp.RequestCtx) <span class="cov0" title="0">{
+        handler := promhttp.HandlerFor(m.reg, m.opts)
+        resp := &amp;adapter{ctx}
+        req, err := m.convertToHTTP(ctx)
+        if err != nil </span><span class="cov0" title="0">{
+                ctx.Error("Error converting request", fasthttp.StatusNotAcceptable)
+                return
+        }</span>
+        <span class="cov0" title="0">m.collectMetrics()
+        handler.ServeHTTP(resp, req)</span>
+}
+
+func (*monitor) getHealthCheck(ctx *fasthttp.RequestCtx) <span class="cov0" title="0">{
+        ctx.Response.Header.Set("Content-Type", enum.CONTENT_TYPE_TEXT)
+        ctx.Response.Header.SetStatusCode(fasthttp.StatusOK)
+        ctx.Response.SetBody([]byte("Health ok"))
+}</span>
+
+func (m *monitor) path() <span class="cov0" title="0">{
+        m.router.GET("/metrics", m.getMetrics)
+        m.router.GET("/health", m.getHealthCheck)
+}</span>
+</pre>
+		
+		<pre class="file" id="file18" style="display: none">package middlewares
+
+import (
+        "crypto/sha256"
+        "crypto/subtle"
+        "dominus-broker/internal/infrastructure/enum"
+        "dominus-broker/internal/infrastructure/event"
+        "fmt"
+
+        "strings"
+
+        "github.com/valyala/fasthttp"
+)
+
+type apMiddleware struct {
+        token []byte
+        log   event.Event
+}
+
+func NewMiddlewareApiToken(t string, log event.Event) Middlewares <span class="cov0" title="0">{
+        return &amp;apMiddleware{
+                token: []byte(t),
+                log:   log,
+        }
+}</span>
+
+func (a *apMiddleware) CheckMiddleware(ctx *fasthttp.RequestCtx) error <span class="cov0" title="0">{
+        if t, ok := a.log.CheckID(ctx).(*fasthttp.RequestCtx); ok </span><span class="cov0" title="0">{
+                ctx = t
+        }</span>
+        <span class="cov0" title="0">path := string(ctx.RequestURI())
+        if strings.HasPrefix(path, "/swagger") </span><span class="cov0" title="0">{
+                return nil
+        }</span>
+        <span class="cov0" title="0">token := ctx.Request.Header.Peek(enum.X_API_KEY)
+        hashedToken := sha256.Sum256(token)
+        hashedKey := sha256.Sum256(a.token)
+        if subtle.ConstantTimeCompare(hashedKey[:], hashedToken[:]) == 0 </span><span class="cov0" title="0">{
+                a.log.WriteLog(ctx, enum.ERROR, "apMiddleware.CheckMiddleware", enum.MATCH_TOKEN)
+                return fmt.Errorf(enum.MATCH_TOKEN)
+        }</span>
+        <span class="cov0" title="0">return nil</span>
+}
+</pre>
+		
+		<pre class="file" id="file19" style="display: none">package middlewares
+
+import (
+        "dominus-broker/internal/infrastructure/enum"
+        "dominus-broker/internal/infrastructure/event"
+        "fmt"
+        "net"
+
+        "github.com/valyala/fasthttp"
+)
+
+type hostAllowed struct {
+        cidr string
+        log  event.Event
+}
+
+func NewMiddlewareHost(c string, log event.Event) Middlewares <span class="cov0" title="0">{
+        return &amp;hostAllowed{
+                cidr: c,
+                log:  log,
+        }
+}</span>
+
+func (h *hostAllowed) CheckMiddleware(ctx *fasthttp.RequestCtx) error <span class="cov0" title="0">{
+        _, allowNet, err := net.ParseCIDR(h.cidr)
+        if err != nil </span><span class="cov0" title="0">{
+                h.log.WriteLog(ctx, enum.ERROR, "hostAllowed.CheckMiddleware", enum.NO_HOST_ALLOW)
+                return fmt.Errorf(enum.NO_HOST_ALLOW)
+        }</span>
+        <span class="cov0" title="0">if !allowNet.Contains(ctx.RemoteIP()) </span><span class="cov0" title="0">{
+                h.log.WriteLog(ctx, enum.ERROR, "hostAllowed.CheckMiddleware", enum.NO_HOST_ALLOW)
+                return fmt.Errorf(enum.NO_HOST_ALLOW)
+        }</span>
+        <span class="cov0" title="0">return nil</span>
+}
+</pre>
+		
+		<pre class="file" id="file20" style="display: none">package middlewares
+
+import (
+        "dominus-broker/internal/infrastructure/enum"
+
+        "github.com/valyala/fasthttp"
+)
+
+type Middleware interface {
+        Middlewares(handler fasthttp.RequestHandler) fasthttp.RequestHandler
+        AddMiddleware(mid ...Middlewares)
+}
+
+type Middlewares interface {
+        CheckMiddleware(ctx *fasthttp.RequestCtx) error
+}
+
+type middleware struct {
+        mids []Middlewares
+}
+
+func NewMiddleware() Middleware <span class="cov0" title="0">{
+        return &amp;middleware{
+                mids: []Middlewares{},
+        }
+}</span>
+
+func (m *middleware) AddMiddleware(mid ...Middlewares) <span class="cov0" title="0">{
+        m.mids = append(m.mids, mid...)
+}</span>
+
+func (m *middleware) Middlewares(handler fasthttp.RequestHandler) fasthttp.RequestHandler <span class="cov0" title="0">{
+        return func(ctx *fasthttp.RequestCtx) </span><span class="cov0" title="0">{
+                for _, mid := range m.mids </span><span class="cov0" title="0">{
+                        if err := mid.CheckMiddleware(ctx); err != nil </span><span class="cov0" title="0">{
+                                ctx.Response.Header.SetStatusCode(fasthttp.StatusForbidden)
+                                ctx.Response.Header.SetContentType(enum.CONTENT_TYPE_TEXT)
+                                ctx.Response.SetBodyString(err.Error())
+                                return
+                        }</span>
+                }
+                <span class="cov0" title="0">handler(ctx)</span>
+        }
+}
+</pre>
+		
+		<pre class="file" id="file21" style="display: none">package inbound
+
+import (
+        "context"
+        "dominus-broker/internal/application/usecases/ack"
+        "dominus-broker/internal/application/usecases/consumer"
+        "dominus-broker/internal/application/usecases/producer"
+        "dominus-broker/internal/infrastructure/enum"
+        "dominus-broker/internal/infrastructure/event"
+
+        pb "github.com/MBI-88/dominus-proto-definition/dominus"
+        "google.golang.org/grpc"
+        "google.golang.org/grpc/codes"
+        "google.golang.org/grpc/status"
+        "google.golang.org/protobuf/types/known/timestamppb"
+)
+
+type brokerSqs struct {
+        pb.UnimplementedSqsAPIServer
+        p   producer.ProducerUseCase
+        c   consumer.ConsumerUseCase
+        a   ack.AckUseCase
+        log event.Event
+}
+
+func NewBrokerSqs(
+        server *grpc.Server,
+        p producer.ProducerUseCase,
+        c consumer.ConsumerUseCase,
+        a ack.AckUseCase,
+        log event.Event,
+) <span class="cov0" title="0">{
+        gsrv := &amp;brokerSqs{
+                p:   p,
+                c:   c,
+                a:   a,
+                log: log,
+        }
+        pb.RegisterSqsAPIServer(server, gsrv)
+}</span>
+
+// Receives simple messages from client
+func (s *brokerSqs) Producer(ctx context.Context, ms *pb.ProducerRequest) (*pb.ProducerResponse, error) <span class="cov0" title="0">{
+        s.log.WriteLog(ctx, enum.DEBUG, "inbound.Producer", enum.REQUEST_OK)
+
+        if len(ms.GetPayload()) == 0 </span><span class="cov0" title="0">{
+                s.log.WriteLog(ctx, enum.ERROR, "inbound.Producer.GetPayload", enum.INVALID_PAYLOAD)
+                return nil, status.Error(codes.OutOfRange, enum.INVALID_PAYLOAD)
+        }</span>
+
+        <span class="cov0" title="0">if err := s.p.Producer(ctx, ms); err != nil </span><span class="cov0" title="0">{
+                s.log.WriteLog(ctx, enum.ERROR, "inbound.Producer.Producer", err.Error())
+                return nil, status.Error(codes.Aborted, err.Error())
+        }</span>
+
+        <span class="cov0" title="0">return &amp;pb.ProducerResponse{Status: 0}, nil</span>
+}
+
+func (s *brokerSqs) Consumer(ctx context.Context, ms *pb.ConsumerRequest) (*pb.ConsumerResponse, error) <span class="cov0" title="0">{
+        s.log.WriteLog(ctx, enum.DEBUG, "inbound.Consumer", enum.REQUEST_OK)
+
+        if ms.GetGroupId() == "" </span><span class="cov0" title="0">{
+                s.log.WriteLog(ctx, enum.ERROR, "inbound.Consumer.GetGroupId", enum.GROUP_ID)
+                return nil, status.Error(codes.NotFound, enum.GROUP_ID)
+        }</span>
+
+        <span class="cov0" title="0">if ms.GetWorkerId() == "" </span><span class="cov0" title="0">{
+                s.log.WriteLog(ctx, enum.ERROR, "inbound.Consumer.GetWorkerId", enum.WORKER_ID)
+                return nil, status.Error(codes.NotFound, enum.WORKER_ID)
+        }</span>
+
+        <span class="cov0" title="0">response, err := s.c.Consumer(ctx, ms)
+        if err != nil </span><span class="cov0" title="0">{
+                s.log.WriteLog(ctx, enum.ERROR, "inbound.Consumer.Consumer", err.Error())
+                return nil, status.Error(codes.Aborted, err.Error())
+        }</span>
+
+        <span class="cov0" title="0">return &amp;pb.ConsumerResponse{
+                MessageId: response.GetMessageId(),
+                Message:   response.GetMessage(),
+                Date:      timestamppb.New(response.GetCreatedAt()),
+        }, nil</span>
+}
+
+func (s *brokerSqs) Ack(ctx context.Context, ms *pb.ConsumerRequest) (*pb.ConsumerResponse, error) <span class="cov0" title="0">{
+        s.log.WriteLog(ctx, enum.DEBUG, "inbound.Ack", enum.REQUEST_OK)
+
+        if ms.GetMessageId() == "" </span><span class="cov0" title="0">{
+                s.log.WriteLog(ctx, enum.ERROR, "inbound.Ack.GetMessageId", enum.INVALID_ID)
+                return nil, status.Error(codes.NotFound, enum.INVALID_ID)
+        }</span>
+
+        <span class="cov0" title="0">if ms.GetGroupId() == "" </span><span class="cov0" title="0">{
+                s.log.WriteLog(ctx, enum.ERROR, "inbound.Ack.GetGroupId", enum.GROUP_ID)
+                return nil, status.Error(codes.NotFound, enum.GROUP_ID)
+        }</span>
+
+        <span class="cov0" title="0">if ms.GetWorkerId() == "" </span><span class="cov0" title="0">{
+                s.log.WriteLog(ctx, enum.ERROR, "inbound.Ack.GetWorkerId", enum.WORKER_ID)
+                return nil, status.Error(codes.NotFound, enum.WORKER_ID)
+        }</span>
+
+        <span class="cov0" title="0">if err := s.a.Ack(ctx, ms); err != nil </span><span class="cov0" title="0">{
+                s.log.WriteLog(ctx, enum.ERROR, "inbound.Ack.Ack", err.Error())
+                return nil, status.Error(codes.Aborted, err.Error())
+        }</span>
+
+        <span class="cov0" title="0">return &amp;pb.ConsumerResponse{
+                MessageId: ms.GetMessageId(),
+                Date:      timestamppb.Now(),
+        }, nil</span>
+}
+</pre>
+		
+		<pre class="file" id="file22" style="display: none">package inbound
+
+import (
+        streambidirectional "dominus-broker/internal/application/usecases/stream_bidirectional"
+        streamclient "dominus-broker/internal/application/usecases/stream_client"
+        streamserver "dominus-broker/internal/application/usecases/stream_server"
+        "dominus-broker/internal/infrastructure/enum"
+        "dominus-broker/internal/infrastructure/event"
+        "dominus-broker/internal/infrastructure/grpc/mappers"
+        "fmt"
+        "io"
+
+        pb "github.com/MBI-88/dominus-proto-definition/dominus"
+
+        "google.golang.org/grpc"
+        "google.golang.org/grpc/codes"
+        "google.golang.org/grpc/status"
+)
+
+type brokerStream struct {
+        pb.UnimplementedBrokerAPIServer
+        c   streamclient.StreamClientUseCase
+        s   streamserver.StreamServerUseCase
+        b   streambidirectional.StreamBidirectionalUseCase
+        log event.Event
+}
+
+func NewBrokerStream(
+        server *grpc.Server,
+        c streamclient.StreamClientUseCase,
+        s streamserver.StreamServerUseCase,
+        b streambidirectional.StreamBidirectionalUseCase,
+        log event.Event,
+) <span class="cov0" title="0">{
+        gsrv := &amp;brokerStream{
+                c:   c,
+                s:   s,
+                b:   b,
+                log: log,
+        }
+        pb.RegisterBrokerAPIServer(server, gsrv)
+}</span>
+
+// Receives array messages from client
+func (s *brokerStream) ClientStream(stream pb.BrokerAPI_ClientStreamServer) error <span class="cov0" title="0">{
+        s.log.WriteLog(stream.Context(), enum.DEBUG, "inbound.ClientStream", enum.REQUEST_OK)
+        ctx := mappers.NewClientStreamContext(stream)
+        err := s.c.StreamClient(ctx)
+
+        if err == io.EOF </span><span class="cov0" title="0">{
+                s.log.WriteLog(stream.Context(), enum.DEBUG, "inbound.ClientStream.EOF", err.Error())
+                return stream.SendAndClose(&amp;pb.StreamResponseMessage{
+                        Status: int64(codes.OK),
+                })
+        }</span>
+
+        <span class="cov0" title="0">if err != nil </span><span class="cov0" title="0">{
+                s.log.WriteLog(stream.Context(), enum.ERROR, "inbound.ClientStream.StreamClient", err.Error())
+                return status.Error(codes.Aborted, err.Error())
+        }</span>
+
+        <span class="cov0" title="0">return stream.SendAndClose(&amp;pb.StreamResponseMessage{
+                Status: int64(codes.OK),
+        })</span>
+}
+
+// Sends array messages to client
+func (s *brokerStream) ServerStream(ms *pb.StreamRequestMessage, stream pb.BrokerAPI_ServerStreamServer) error <span class="cov0" title="0">{
+        s.log.WriteLog(stream.Context(), enum.DEBUG, "inbound.ServerStream", enum.REQUEST_OK)
+        ctx := mappers.NewServerStreamContext(stream)
+        return status.Error(codes.Aborted, fmt.Sprintf("%s", s.s.StreamServer(ms, ctx)))
+}</span>
+
+// Receives and sends messages from server to client
+func (s *brokerStream) BidirectionalStream(stream pb.BrokerAPI_BidirectionalStreamServer) error <span class="cov0" title="0">{
+        s.log.WriteLog(stream.Context(), enum.DEBUG, "inbound.BidirectionalStream", enum.REQUEST_OK)
+        ctx := mappers.NewBiStreamConn(stream)
+        return status.Error(codes.Aborted, fmt.Sprintf("%s", s.b.StreamBidirectional(ctx)))
+}</span>
+</pre>
+		
+		<pre class="file" id="file23" style="display: none">package mappers
+
+import (
+        "context"
+        "dominus-broker/internal/application/dto"
+        streambidirectional "dominus-broker/internal/application/usecases/stream_bidirectional"
+        streamclient "dominus-broker/internal/application/usecases/stream_client"
+        streamserver "dominus-broker/internal/application/usecases/stream_server"
+
+        pb "github.com/MBI-88/dominus-proto-definition/dominus"
+)
+
+type grpcBiContextStream struct {
+        sr pb.BrokerAPI_BidirectionalStreamServer
+}
+
+func NewBiStreamConn(sr pb.BrokerAPI_BidirectionalStreamServer) streambidirectional.BrokerBidirectionalDto <span class="cov0" title="0">{
+        return &amp;grpcBiContextStream{
+                sr: sr,
+        }
+}</span>
+
+func (g *grpcBiContextStream) Recv() (dto.BrokerRequestDto, error) <span class="cov0" title="0">{
+        return g.sr.Recv()
+}</span>
+
+func (g *grpcBiContextStream) Send(msg []byte) error <span class="cov0" title="0">{
+        return g.sr.Send(&amp;pb.StreamResponseMessage{
+                Payload: msg,
+                Status:  0,
+        })
+}</span>
+
+func (g *grpcBiContextStream) Context() context.Context <span class="cov0" title="0">{
+        return g.sr.Context()
+}</span>
+
+type grpcContextClientStream struct {
+        sr pb.BrokerAPI_ClientStreamServer
+}
+
+func NewClientStreamContext(sr pb.BrokerAPI_ClientStreamServer) streamclient.BrokerClientDto <span class="cov0" title="0">{
+        return &amp;grpcContextClientStream{
+                sr: sr,
+        }
+}</span>
+
+func (g *grpcContextClientStream) Recv() (dto.BrokerRequestDto, error) <span class="cov0" title="0">{
+        return g.sr.Recv()
+}</span>
+
+func (g *grpcContextClientStream) Context() context.Context <span class="cov0" title="0">{
+        return g.sr.Context()
+}</span>
+
+type grpcContextServerStream struct {
+        sr pb.BrokerAPI_ServerStreamServer
+}
+
+func NewServerStreamContext(sr pb.BrokerAPI_ServerStreamServer) streamserver.BrokerServerDto <span class="cov0" title="0">{
+        return &amp;grpcContextServerStream{
+                sr: sr,
+        }
+}</span>
+
+func (g *grpcContextServerStream) Send(payload []byte) error <span class="cov0" title="0">{
+        return g.sr.Send(&amp;pb.StreamResponseMessage{
+                Payload: payload,
+                Status:  0,
+        })
+}</span>
+
+func (g *grpcContextServerStream) Context() context.Context <span class="cov0" title="0">{
+        return g.sr.Context()
+}</span>
+</pre>
+		
+		<pre class="file" id="file24" style="display: none">package middlewares
+
+import (
+        "context"
+        "dominus-broker/internal/infrastructure/enum"
+        "dominus-broker/internal/infrastructure/event"
+
+        "google.golang.org/grpc"
+        "google.golang.org/grpc/metadata"
+)
+
+type Interceptor interface {
+        StreamAuthInterceptor(ctx context.Context, desc *grpc.StreamDesc, cc *grpc.ClientConn, method string,
+                streamer grpc.Streamer, opts ...grpc.CallOption) (grpc.ClientStream, error)
+        UnaryAuthInterceptor(ctx context.Context, method string, req, reply any, cc *grpc.ClientConn,
+                invoker grpc.UnaryInvoker, opts ...grpc.CallOption) error
+}
+
+type interceptor struct {
+        apiToken string
+        log      event.Event
+}
+
+func NewInterceptor(token string, log event.Event) Interceptor <span class="cov0" title="0">{
+        return &amp;interceptor{
+                apiToken: token,
+                log:      log,
+        }
+}</span>
+
+func (i *interceptor) UnaryAuthInterceptor(ctx context.Context, method string, req, reply any, cc *grpc.ClientConn,
+        invoker grpc.UnaryInvoker, opts ...grpc.CallOption) error <span class="cov0" title="0">{
+        ctx = metadata.AppendToOutgoingContext(ctx, enum.X_API_KEY, i.apiToken)
+        i.log.WriteLog(ctx, enum.DEBUG, "interceptor.UnaryAuthInterceptor", enum.DEBUG_DESCRIPTION)
+        return invoker(ctx, method, req, reply, cc, opts...)
+}</span>
+
+func (i *interceptor) StreamAuthInterceptor(ctx context.Context, desc *grpc.StreamDesc, cc *grpc.ClientConn, method string,
+        streamer grpc.Streamer, opts ...grpc.CallOption) (grpc.ClientStream, error) <span class="cov0" title="0">{
+        ctx = metadata.AppendToOutgoingContext(ctx, enum.X_API_KEY, i.apiToken)
+        s, err := streamer(ctx, desc, cc, method, opts...)
+        i.log.WriteLog(ctx, enum.DEBUG, "interceptor.StreamAuthInterceptor", enum.DEBUG_DESCRIPTION)
+        if err != nil </span><span class="cov0" title="0">{
+                i.log.WriteLog(ctx, enum.ERROR, "interceptor.StreamAuthInterceptor", err.Error())
+                return nil, err
+        }</span>
+        <span class="cov0" title="0">return s, nil</span>
+}
+</pre>
+		
+		<pre class="file" id="file25" style="display: none">package middlewares
+
+import (
+        "context"
+        "crypto/sha256"
+        "crypto/subtle"
+        "dominus-broker/internal/domain/repositories"
+        "dominus-broker/internal/infrastructure/enum"
+        "dominus-broker/internal/infrastructure/event"
+        "fmt"
+
+        "github.com/grpc-ecosystem/go-grpc-middleware/v2/interceptors/logging"
+        "google.golang.org/grpc"
+        "google.golang.org/grpc/codes"
+        "google.golang.org/grpc/metadata"
+        "google.golang.org/grpc/status"
+)
+
+type Middleware interface {
+        ApiToken(ctx context.Context) (context.Context, error)
+        LogErrors() logging.Logger
+        UnaryLog(ctx context.Context, req any, info *grpc.UnaryServerInfo, handler grpc.UnaryHandler) (any, error)
+        StreamLog(srv any, ss grpc.ServerStream, info *grpc.StreamServerInfo, handler grpc.StreamHandler) error
+        IdemPotency(ctx context.Context) (context.Context, error)
+}
+
+type middlewares struct {
+        token []byte
+        logs  event.Event
+        ch    repositories.CheckerClient
+}
+
+func NewMiddleware(t string, lg event.Event, checker repositories.CheckerClient) Middleware <span class="cov0" title="0">{
+        return &amp;middlewares{
+                token: []byte(t),
+                logs:  lg,
+                ch:    checker,
+        }
+}</span>
+
+func (m *middlewares) ApiToken(ctx context.Context) (context.Context, error) <span class="cov0" title="0">{
+        ctx = m.logs.CheckID(ctx)
+        md, ok := metadata.FromIncomingContext(ctx)
+        if !ok </span><span class="cov0" title="0">{
+                m.logs.WriteLog(ctx, enum.ERROR, "middlewares.ApiToken", enum.NOT_FOUND)
+                return nil, status.Errorf(codes.DataLoss, enum.NOT_FOUND)
+        }</span>
+        <span class="cov0" title="0">token := md.Get(enum.X_API_KEY)[0]
+        hashedTokenRecived := sha256.Sum256([]byte(token))
+        hashedKey := sha256.Sum256(m.token)
+        if subtle.ConstantTimeCompare(hashedTokenRecived[:], hashedKey[:]) == 0 </span><span class="cov0" title="0">{
+                m.logs.WriteLog(ctx, enum.ERROR, "middlewares.ApiToken", enum.MATCH_TOKEN)
+                return nil, status.Errorf(codes.Unauthenticated, enum.MATCH_TOKEN)
+        }</span>
+        <span class="cov0" title="0">return ctx, nil</span>
+}
+
+func (m *middlewares) UnaryLog(ctx context.Context, req any, info *grpc.UnaryServerInfo, handler grpc.UnaryHandler) (any, error) <span class="cov0" title="0">{
+        m.logs.WriteLog(ctx, enum.DEBUG, fmt.Sprintf("middlewares.%s", info.FullMethod), enum.DEBUG_DESCRIPTION)
+        return handler(ctx, req)
+}</span>
+
+func (m *middlewares) StreamLog(srv any, ss grpc.ServerStream, info *grpc.StreamServerInfo, handler grpc.StreamHandler) error <span class="cov0" title="0">{
+        m.logs.WriteLog(ss.Context(), enum.DEBUG, fmt.Sprintf("middlewares.%s", info.FullMethod), enum.DEBUG_DESCRIPTION)
+        return handler(srv, ss)
+}</span>
+
+func (m *middlewares) LogErrors() logging.Logger <span class="cov0" title="0">{
+        return logging.LoggerFunc(func(ctx context.Context, level logging.Level, msg string, fields ...any) </span><span class="cov0" title="0">{
+                var l string
+                switch level </span>{
+                case logging.LevelDebug:<span class="cov0" title="0">
+                        l = enum.DEBUG</span>
+                case logging.LevelInfo:<span class="cov0" title="0">
+                        l = enum.INFO</span>
+                case logging.LevelWarn:<span class="cov0" title="0">
+                        l = enum.WARN</span>
+                default:<span class="cov0" title="0">
+                        l = enum.ERROR</span>
+
+                }
+                <span class="cov0" title="0">go m.logs.WriteLog(ctx, l, "LogErrors", msg)</span>
+        })
+}
+
+func (m *middlewares) IdemPotency(ctx context.Context) (context.Context, error) <span class="cov0" title="0">{
+        md, ok := metadata.FromIncomingContext(ctx)
+        m.logs.WriteLog(ctx, enum.DEBUG, "middlewares.IdemPotency", enum.DEBUG_DESCRIPTION)
+
+        if !ok </span><span class="cov0" title="0">{
+                m.logs.WriteLog(ctx, enum.ERROR, "middlewares.IdemPotency.FromIncomingContext", enum.NOT_FOUND)
+                return nil, status.Errorf(codes.DataLoss, enum.NOT_FOUND)
+        }</span>
+
+        <span class="cov0" title="0">keys := md.Get(enum.IDEM_POTENCY_HEADER)
+        if len(keys) == 0 </span><span class="cov0" title="0">{
+                m.logs.WriteLog(ctx, enum.ERROR, "middlewares.IdemPotency.Get", enum.IDEM_POTENCY_NOT_FOUND)
+                return nil, status.Error(codes.DataLoss, enum.IDEM_POTENCY_NOT_FOUND)
+        }</span>
+
+        <span class="cov0" title="0">if ok := m.ch.CheckConsumer(ctx, keys[0]); ok </span><span class="cov0" title="0">{
+                m.logs.WriteLog(ctx, enum.INFO, "middlewares.IdemPotency.CheckConsumer", enum.RATE_LIMIT_REACHED)
+                return nil, status.Error(codes.Aborted, enum.RATE_LIMIT_REACHED)
+        }</span>
+
+        <span class="cov0" title="0">go func(key string) </span><span class="cov0" title="0">{
+                if err := m.ch.SaveConsumer(ctx, key); err != nil </span><span class="cov0" title="0">{
+                        m.logs.WriteLog(ctx, enum.ERROR, "middlewares.IdemPotency.SaveConsumer", err.Error())
+                }</span>
+        }(keys[0])
+
+        <span class="cov0" title="0">return ctx, nil</span>
+}
+</pre>
+		
+		<pre class="file" id="file26" style="display: none">package outbound
+
+import (
+        "context"
+        "dominus-broker/internal/domain/repositories"
+        "dominus-broker/internal/infrastructure/enum"
+        "dominus-broker/internal/infrastructure/event"
+        "io"
+        "sync"
+        "time"
+
+        pb "github.com/MBI-88/dominus-proto-definition/dominus"
+
+        "google.golang.org/grpc"
+)
+
+type clientStream struct {
+        opts []grpc.DialOption
+        lgs  event.Event
+}
+
+func NewGrpClient(opts []grpc.DialOption, lgs event.Event) repositories.BrokerClient <span class="cov0" title="0">{
+        return &amp;clientStream{
+                opts: opts,
+                lgs:  lgs,
+        }
+}</span>
+
+func (g *clientStream) ClientStream(urls []string, msg &lt;-chan []byte, ctx context.Context) <span class="cov0" title="0">{
+        arrayDoQuery := make([]func([]byte), 0, len(urls))
+        lock := new(sync.Mutex)
+
+        connect := func(url string) (pb.BrokerAPI_ClientStreamClient, error) </span><span class="cov0" title="0">{
+                conn, err := grpc.NewClient(url, g.opts...)
+                if err != nil </span><span class="cov0" title="0">{
+                        return nil, err
+                }</span>
+                <span class="cov0" title="0">c := pb.NewBrokerAPIClient(conn)
+                return c.ClientStream(ctx)</span>
+        }
+        <span class="cov0" title="0">doQuery := func(url string) func([]byte) </span><span class="cov0" title="0">{
+                stream, errConn := connect(url)
+                return func(payload []byte) </span><span class="cov0" title="0">{
+                        g.lgs.WriteLog(ctx, enum.DEBUG, "outbound.ClientStream.doQuery", enum.DEBUG_DESCRIPTION)
+                        lock.Lock()
+                        err := errConn
+                        lock.Unlock()
+                        if err == nil </span><span class="cov0" title="0">{
+                                lock.Lock()
+                                err := stream.Send(&amp;pb.StreamRequestMessage{
+                                        Subscribers: nil,
+                                        Payload:     payload})
+                                lock.Unlock()
+                                if err != nil </span><span class="cov0" title="0">{
+                                        g.lgs.WriteLog(ctx, enum.ERROR, "outbound.ClientStream.Send", err.Error())
+                                        lock.Lock()
+                                        errConn = err
+                                        lock.Unlock()
+                                }</span>
+                        } else<span class="cov0" title="0"> {
+                                temp, err := connect(url)
+                                if err == nil </span><span class="cov0" title="0">{
+                                        lock.Lock()
+                                        stream, errConn = temp, err
+                                        lock.Unlock()
+                                }</span>
+                        }
+                }
+        }
+
+        <span class="cov0" title="0">for _, url := range urls </span><span class="cov0" title="0">{
+                cls := doQuery(url)
+                arrayDoQuery = append(arrayDoQuery, cls)
+        }</span>
+
+        <span class="cov0" title="0">for m := range msg </span><span class="cov0" title="0">{
+                for _, cls := range arrayDoQuery </span><span class="cov0" title="0">{
+                        go cls(m)
+                }</span>
+        }
+}
+
+func (g *clientStream) ServerStream(urls []string, initalMsg []byte, msg chan&lt;- []byte, ctx context.Context, tx chan&lt;- struct{}) <span class="cov0" title="0">{
+        var workerWG sync.WaitGroup
+        workerWG.Add(len(urls))
+
+        connect := func(url string) (pb.BrokerAPI_ServerStreamClient, error) </span><span class="cov0" title="0">{
+                conn, err := grpc.NewClient(url, g.opts...)
+                if err != nil </span><span class="cov0" title="0">{
+                        return nil, err
+                }</span>
+                <span class="cov0" title="0">client := pb.NewBrokerAPIClient(conn)
+                reqMsg := &amp;pb.StreamRequestMessage{
+                        Subscribers: nil,
+                        Payload:     initalMsg,
+                }
+                return client.ServerStream(ctx, reqMsg)</span>
+        }
+
+        <span class="cov0" title="0">for _, url := range urls </span><span class="cov0" title="0">{
+                go func(url string) </span><span class="cov0" title="0">{
+                        defer workerWG.Done()
+                </span>connectLabel:
+                        <span class="cov0" title="0">stream, err := connect(url)
+                        if err == nil </span><span class="cov0" title="0">{
+                                for </span><span class="cov0" title="0">{
+                                        resp, err := stream.Recv()
+                                        if err == io.EOF </span><span class="cov0" title="0">{
+                                                g.lgs.WriteLog(ctx, enum.DEBUG, "outbound.ServerStream.Recv", enum.DEBUG_DESCRIPTION)
+                                                return
+                                        }</span> else<span class="cov0" title="0"> if err != io.EOF &amp;&amp; err != nil </span><span class="cov0" title="0">{
+                                                g.lgs.WriteLog(ctx, enum.ERROR, "outbound.ServerStream.EOF", err.Error())
+                                                goto connectLabel</span>
+                                        } else<span class="cov0" title="0"> {
+                                                msg &lt;- resp.GetPayload()
+                                        }</span>
+                                }
+                        } else<span class="cov0" title="0"> {
+                                retry := time.NewTicker(5 * time.Millisecond) // retrying
+                                for </span><span class="cov0" title="0">{
+                                        select </span>{
+                                        case &lt;-ctx.Done():<span class="cov0" title="0">
+                                                retry.Stop()
+                                                return</span>
+                                        case &lt;-retry.C:<span class="cov0" title="0">
+                                                retry.Stop()
+                                                goto connectLabel</span>
+                                        }
+                                }
+                        }
+                }(url)
+        }
+
+        <span class="cov0" title="0">workerWG.Wait()
+        if tx != nil </span><span class="cov0" title="0">{
+                tx &lt;- struct{}{}
+        }</span>
+
+}
+
+func (g *clientStream) BidirectionalStream(urls []string, provMsg &lt;-chan []byte, subMsg chan&lt;- []byte, tx chan&lt;- struct{}, ctx context.Context) <span class="cov0" title="0">{
+        lock := new(sync.Mutex)
+        type endpoint struct {
+                url    string
+                stream pb.BrokerAPI_BidirectionalStreamClient
+                err    error
+        }
+
+        connect := func(url string) (pb.BrokerAPI_BidirectionalStreamClient, error) </span><span class="cov0" title="0">{
+                conn, err := grpc.NewClient(url, g.opts...)
+                if err != nil </span><span class="cov0" title="0">{
+                        return nil, err
+                }</span>
+                <span class="cov0" title="0">c := pb.NewBrokerAPIClient(conn)
+                return c.BidirectionalStream(ctx)</span>
+        }
+
+        <span class="cov0" title="0">total := len(urls)
+        arrayDoQuery := make([]func([]byte), 0, total)
+        var workerWG sync.WaitGroup
+        workerWG.Add(total)
+
+        for _, u := range urls </span><span class="cov0" title="0">{
+                stream, err := connect(u)
+                ep := &amp;endpoint{url: u, stream: stream, err: err}
+
+                cls := func(payload []byte) </span><span class="cov0" title="0">{
+                        g.lgs.WriteLog(ctx, enum.DEBUG, "outbound.BidirectionalStream.doQuery", enum.DEBUG_DESCRIPTION)
+                        lock.Lock()
+                        st := ep.stream
+                        e := ep.err
+                        lock.Unlock()
+                        if e == nil &amp;&amp; st != nil </span><span class="cov0" title="0">{
+                                serr := st.Send(&amp;pb.StreamRequestMessage{
+                                        Subscribers: nil,
+                                        Payload:     payload,
+                                })
+                                if serr != nil </span><span class="cov0" title="0">{
+                                        g.lgs.WriteLog(ctx, enum.ERROR, "outbound.BidirectionalStream.doQuery", serr.Error())
+                                        lock.Lock()
+                                        ep.err = serr
+                                        lock.Unlock()
+                                }</span>
+                        } else<span class="cov0" title="0"> {
+                                temp, cerr := connect(u)
+                                if cerr == nil </span><span class="cov0" title="0">{
+                                        lock.Lock()
+                                        ep.stream, ep.err = temp, nil
+                                        lock.Unlock()
+                                }</span>
+                        }
+                }
+                <span class="cov0" title="0">arrayDoQuery = append(arrayDoQuery, cls)
+
+                go func(ep *endpoint) </span><span class="cov0" title="0">{
+                        defer workerWG.Done()
+
+                </span>connectLabel:
+                        <span class="cov0" title="0">g.lgs.WriteLog(ctx, enum.DEBUG, "outbound.BidirectionalStream.Connect", enum.DEBUG_DESCRIPTION)
+                        lock.Lock()
+                        e := ep.err
+                        st := ep.stream
+                        lock.Unlock()
+
+                        if e != nil || st == nil </span><span class="cov0" title="0">{
+                                retry := time.NewTicker(5 * time.Millisecond)
+                                for </span><span class="cov0" title="0">{
+                                        select </span>{
+                                        case &lt;-ctx.Done():<span class="cov0" title="0">
+                                                retry.Stop()
+                                                return</span>
+                                        case &lt;-retry.C:<span class="cov0" title="0">
+                                                retry.Stop()
+                                                temp, cerr := connect(ep.url)
+                                                if cerr == nil </span><span class="cov0" title="0">{
+                                                        lock.Lock()
+                                                        ep.stream, ep.err = temp, nil
+                                                        lock.Unlock()
+                                                }</span>
+                                                <span class="cov0" title="0">goto connectLabel</span>
+                                        }
+                                }
+                        }
+
+                        <span class="cov0" title="0">for </span><span class="cov0" title="0">{
+                                resp, rerr := st.Recv()
+                                if rerr == io.EOF </span><span class="cov0" title="0">{
+                                        g.lgs.WriteLog(ctx, enum.DEBUG, "outbound.BidirectionalStream.Recv", enum.DEBUG_DESCRIPTION)
+                                        return
+                                }</span>
+                                <span class="cov0" title="0">if rerr != nil &amp;&amp; rerr != io.EOF </span><span class="cov0" title="0">{
+                                        if ctx.Err() != nil </span><span class="cov0" title="0">{
+                                                g.lgs.WriteLog(ctx, enum.ERROR, "outbound.BidirectionalStream.ctx", ctx.Err().Error())
+                                                return
+                                        }</span>
+                                        <span class="cov0" title="0">lock.Lock()
+                                        ep.err = rerr
+                                        lock.Unlock()
+                                        goto connectLabel</span>
+                                }
+                                <span class="cov0" title="0">select </span>{
+                                case &lt;-ctx.Done():<span class="cov0" title="0">
+                                        return</span>
+                                case subMsg &lt;- resp.GetPayload():<span class="cov0" title="0"></span>
+                                }
+                        }
+                }(ep)
+        }
+
+        <span class="cov0" title="0">for msg := range provMsg </span><span class="cov0" title="0">{
+                for _, cls := range arrayDoQuery </span><span class="cov0" title="0">{
+                        go cls(msg)
+                }</span>
+        }
+
+        <span class="cov0" title="0">workerWG.Wait()
+        if tx != nil </span><span class="cov0" title="0">{
+                tx &lt;- struct{}{}
+        }</span>
+}
+</pre>
+		
+		<pre class="file" id="file27" style="display: none">package cchecker
+
+import (
+        "context"
+        "crypto/tls"
+        "dominus-broker/internal/domain/repositories"
+        "dominus-broker/internal/infrastructure/enum"
+        "fmt"
+        "time"
+
+        "github.com/redis/go-redis/v9"
+)
+
+type checker struct {
+        rdb *redis.Client
+        exp int
+}
+
+func NewCheckerClient(
+        Port int64,
+        Db int,
+        Host string,
+        Password string,
+        Tls bool,
+        Username string,
+        ExpirationTime int,
+) repositories.CheckerClient <span class="cov0" title="0">{
+
+        var cfTls *tls.Config
+
+        if Tls </span><span class="cov0" title="0">{
+                cfTls = &amp;tls.Config{
+                        MinVersion: tls.VersionTLS12,
+                }
+        }</span>
+
+        <span class="cov0" title="0">client := redis.NewClient(&amp;redis.Options{
+                DB:        Db,
+                Addr:      fmt.Sprintf("%s:%d", Host, Port),
+                Password:  Password,
+                TLSConfig: cfTls,
+                Username:  Username,
+        })
+
+        if _, err := client.Ping(context.Background()).Result(); err != nil </span><span class="cov0" title="0">{
+                panic(err)</span>
+        }
+        <span class="cov0" title="0">return &amp;checker{
+                rdb: client,
+                exp: ExpirationTime,
+        }</span>
+}
+
+func (c *checker) SaveConsumer(ctx context.Context, key string) error <span class="cov0" title="0">{
+        if _, err := c.rdb.SetArgs(ctx, fmt.Sprintf("%s:%s", enum.IDEM_POTENCY_TAG, key), "", redis.SetArgs{
+                Mode: "NX",
+                TTL:  time.Duration(c.exp) * time.Second,
+        }).Result(); err != nil </span><span class="cov0" title="0">{
+                return fmt.Errorf("checker.SaveConsumer %s", err)
+        }</span>
+        <span class="cov0" title="0">return nil</span>
+}
+
+func (c *checker) CheckConsumer(ctx context.Context, key string) bool <span class="cov0" title="0">{
+        result, err := c.rdb.Exists(ctx, fmt.Sprintf("%s:%s", enum.IDEM_POTENCY_TAG, key)).Result()
+        if err != nil </span><span class="cov0" title="0">{
+                return false
+        }</span>
+        <span class="cov0" title="0">if result == 1 </span><span class="cov0" title="0">{
+                return true
+        }</span>
+        <span class="cov0" title="0">return false</span>
+}
+</pre>
+		
+		<pre class="file" id="file28" style="display: none">package cmemory
+
+import (
+        "context"
+        "crypto/tls"
+        "dominus-broker/internal/domain/entities"
+        "dominus-broker/internal/domain/repositories"
+        "dominus-broker/internal/infrastructure/enum"
+        "fmt"
+        "time"
+
+        jsoniter "github.com/json-iterator/go"
+        "github.com/redis/go-redis/v9"
+)
+
+type memory struct {
+        rdb      *redis.Client
+        streamID string
+}
+
+func NewMemoryClient(
+        Port int64,
+        Db int,
+        Host string,
+        Password string,
+        Tls bool,
+        Username string,
+        StreamID string,
+) repositories.MemoryClient <span class="cov0" title="0">{
+
+        var cfTls *tls.Config
+
+        if Tls </span><span class="cov0" title="0">{
+                cfTls = &amp;tls.Config{
+                        MinVersion: tls.VersionTLS12,
+                }
+        }</span>
+
+        <span class="cov0" title="0">client := redis.NewClient(&amp;redis.Options{
+                DB:        Db,
+                Addr:      fmt.Sprintf("%s:%d", Host, Port),
+                Password:  Password,
+                TLSConfig: cfTls,
+                Username:  Username,
+        })
+
+        if _, err := client.Ping(context.Background()).Result(); err != nil </span><span class="cov0" title="0">{
+                panic(err)</span>
+        }
+        <span class="cov0" title="0">return &amp;memory{
+                rdb:      client,
+                streamID: StreamID,
+        }</span>
+}
+
+func (m *memory) SendMessage(ctx context.Context, q *entities.Message) error <span class="cov0" title="0">{
+        data, err := jsoniter.Marshal(&amp;MessageDto{
+                Message:   q.GetMessage(),
+                MessageId: q.GetMessageId(),
+                CreatedAt: q.GetCreatedAt(),
+        })
+        if err != nil </span><span class="cov0" title="0">{
+                return err
+        }</span>
+        <span class="cov0" title="0">if _, err := m.rdb.XAdd(ctx, &amp;redis.XAddArgs{
+                Stream: m.streamID,
+                Values: map[string]any{
+                        enum.PAYLOAD: data,
+                },
+                ID: q.GetMessageId(),
+        }).Result(); err != nil </span><span class="cov0" title="0">{
+                return fmt.Errorf("cmemory.SendMessage %s", err)
+        }</span>
+        <span class="cov0" title="0">return nil</span>
+}
+
+func (m *memory) AckMessage(ctx context.Context, messageId, groupId string) error <span class="cov0" title="0">{
+        if err := m.rdb.XAck(ctx, m.streamID, groupId, messageId).Err(); err != nil </span><span class="cov0" title="0">{
+                return fmt.Errorf("cmemory.AckMessage %s", err)
+        }</span>
+        <span class="cov0" title="0">return nil</span>
+}
+
+func (m *memory) GetMessage(ctx context.Context, workerId, groupId string) (*entities.Message, error) <span class="cov0" title="0">{
+        response, err := m.rdb.XReadGroup(ctx, &amp;redis.XReadGroupArgs{
+                Group:    groupId,
+                Consumer: workerId,
+                Streams:  []string{m.streamID, "&gt;"},
+                Block:    100 * time.Millisecond,
+                Count:    1,
+        }).Result()
+
+        if err != nil </span><span class="cov0" title="0">{
+                return nil, fmt.Errorf("cmemory.GetMessage %s", err)
+        }</span>
+
+        <span class="cov0" title="0">streamMsg := response[0].Messages[0]
+        message := streamMsg.Values[enum.PAYLOAD].(string)
+
+        var data MessageDto
+        if err := jsoniter.Unmarshal([]byte(message), &amp;data); err != nil </span><span class="cov0" title="0">{
+                return nil, fmt.Errorf("cmemory.GetMessage %s", err)
+        }</span>
+
+        <span class="cov0" title="0">entity := entities.NewMessage()
+        if !entity.SetMessageId(data.MessageId) </span><span class="cov0" title="0">{
+                return nil, fmt.Errorf("cmemory.invalid messageID format")
+        }</span>
+
+        <span class="cov0" title="0">entity.SetCreateAt(data.CreatedAt)
+        entity.SetMessage(data.Message)
+        return entity, nil</span>
+}
+
+func (m *memory) Group(groupId string) error <span class="cov0" title="0">{
+        return m.rdb.XGroupCreateMkStream(context.Background(), m.streamID, groupId, enum.START_FROM_NEW_MESSAGE).Err()
+}</span>
+</pre>
+		
+		<pre class="file" id="file29" style="display: none">// Code generated by MockGen. DO NOT EDIT.
+// Source: .\internal\application\usecases\ack\dto.go
+//
+// Generated by this command:
+//
+//        mockgen -source=.\internal\application\usecases\ack\dto.go -destination=.\mocks\mock_dto_ack.go -package=mocks
+//
+
+// Package mocks is a generated GoMock package.
+package mocks
+
+import (
+        reflect "reflect"
+
+        gomock "go.uber.org/mock/gomock"
+)
+
+// MockAskDto is a mock of AskDto interface.
+type MockAskDto struct {
+        ctrl     *gomock.Controller
+        recorder *MockAskDtoMockRecorder
+        isgomock struct{}
+}
+
+// MockAskDtoMockRecorder is the mock recorder for MockAskDto.
+type MockAskDtoMockRecorder struct {
+        mock *MockAskDto
+}
+
+// NewMockAskDto creates a new mock instance.
+func NewMockAskDto(ctrl *gomock.Controller) *MockAskDto <span class="cov0" title="0">{
+        mock := &amp;MockAskDto{ctrl: ctrl}
+        mock.recorder = &amp;MockAskDtoMockRecorder{mock}
+        return mock
+}</span>
+
+// EXPECT returns an object that allows the caller to indicate expected use.
+func (m *MockAskDto) EXPECT() *MockAskDtoMockRecorder <span class="cov0" title="0">{
+        return m.recorder
+}</span>
+
+// GetGroupId mocks base method.
+func (m *MockAskDto) GetGroupId() string <span class="cov0" title="0">{
+        m.ctrl.T.Helper()
+        ret := m.ctrl.Call(m, "GetGroupId")
+        ret0, _ := ret[0].(string)
+        return ret0
+}</span>
+
+// GetGroupId indicates an expected call of GetGroupId.
+func (mr *MockAskDtoMockRecorder) GetGroupId() *gomock.Call <span class="cov0" title="0">{
+        mr.mock.ctrl.T.Helper()
+        return mr.mock.ctrl.RecordCallWithMethodType(mr.mock, "GetGroupId", reflect.TypeOf((*MockAskDto)(nil).GetGroupId))
+}</span>
+
+// GetMessageId mocks base method.
+func (m *MockAskDto) GetMessageId() string <span class="cov0" title="0">{
+        m.ctrl.T.Helper()
+        ret := m.ctrl.Call(m, "GetMessageId")
+        ret0, _ := ret[0].(string)
+        return ret0
+}</span>
+
+// GetMessageId indicates an expected call of GetMessageId.
+func (mr *MockAskDtoMockRecorder) GetMessageId() *gomock.Call <span class="cov0" title="0">{
+        mr.mock.ctrl.T.Helper()
+        return mr.mock.ctrl.RecordCallWithMethodType(mr.mock, "GetMessageId", reflect.TypeOf((*MockAskDto)(nil).GetMessageId))
+}</span>
+
+// GetWorkerId mocks base method.
+func (m *MockAskDto) GetWorkerId() string <span class="cov0" title="0">{
+        m.ctrl.T.Helper()
+        ret := m.ctrl.Call(m, "GetWorkerId")
+        ret0, _ := ret[0].(string)
+        return ret0
+}</span>
+
+// GetWorkerId indicates an expected call of GetWorkerId.
+func (mr *MockAskDtoMockRecorder) GetWorkerId() *gomock.Call <span class="cov0" title="0">{
+        mr.mock.ctrl.T.Helper()
+        return mr.mock.ctrl.RecordCallWithMethodType(mr.mock, "GetWorkerId", reflect.TypeOf((*MockAskDto)(nil).GetWorkerId))
+}</span>
+</pre>
+		
+		<pre class="file" id="file30" style="display: none">// Code generated by MockGen. DO NOT EDIT.
+// Source: .\internal\application\usecases\consumer\dto.go
+//
+// Generated by this command:
+//
+//        mockgen -source=.\internal\application\usecases\consumer\dto.go -destination=.\mocks\mock_dto_consumer.go -package=mocks
+//
+
+// Package mocks is a generated GoMock package.
+package mocks
+
+import (
+        reflect "reflect"
+
+        gomock "go.uber.org/mock/gomock"
+)
+
+// MockConsumerDto is a mock of ConsumerDto interface.
+type MockConsumerDto struct {
+        ctrl     *gomock.Controller
+        recorder *MockConsumerDtoMockRecorder
+        isgomock struct{}
+}
+
+// MockConsumerDtoMockRecorder is the mock recorder for MockConsumerDto.
+type MockConsumerDtoMockRecorder struct {
+        mock *MockConsumerDto
+}
+
+// NewMockConsumerDto creates a new mock instance.
+func NewMockConsumerDto(ctrl *gomock.Controller) *MockConsumerDto <span class="cov0" title="0">{
+        mock := &amp;MockConsumerDto{ctrl: ctrl}
+        mock.recorder = &amp;MockConsumerDtoMockRecorder{mock}
+        return mock
+}</span>
+
+// EXPECT returns an object that allows the caller to indicate expected use.
+func (m *MockConsumerDto) EXPECT() *MockConsumerDtoMockRecorder <span class="cov0" title="0">{
+        return m.recorder
+}</span>
+
+// GetGroupId mocks base method.
+func (m *MockConsumerDto) GetGroupId() string <span class="cov0" title="0">{
+        m.ctrl.T.Helper()
+        ret := m.ctrl.Call(m, "GetGroupId")
+        ret0, _ := ret[0].(string)
+        return ret0
+}</span>
+
+// GetGroupId indicates an expected call of GetGroupId.
+func (mr *MockConsumerDtoMockRecorder) GetGroupId() *gomock.Call <span class="cov0" title="0">{
+        mr.mock.ctrl.T.Helper()
+        return mr.mock.ctrl.RecordCallWithMethodType(mr.mock, "GetGroupId", reflect.TypeOf((*MockConsumerDto)(nil).GetGroupId))
+}</span>
+
+// GetMessageId mocks base method.
+func (m *MockConsumerDto) GetMessageId() string <span class="cov0" title="0">{
+        m.ctrl.T.Helper()
+        ret := m.ctrl.Call(m, "GetMessageId")
+        ret0, _ := ret[0].(string)
+        return ret0
+}</span>
+
+// GetMessageId indicates an expected call of GetMessageId.
+func (mr *MockConsumerDtoMockRecorder) GetMessageId() *gomock.Call <span class="cov0" title="0">{
+        mr.mock.ctrl.T.Helper()
+        return mr.mock.ctrl.RecordCallWithMethodType(mr.mock, "GetMessageId", reflect.TypeOf((*MockConsumerDto)(nil).GetMessageId))
+}</span>
+
+// GetWorkerId mocks base method.
+func (m *MockConsumerDto) GetWorkerId() string <span class="cov0" title="0">{
+        m.ctrl.T.Helper()
+        ret := m.ctrl.Call(m, "GetWorkerId")
+        ret0, _ := ret[0].(string)
+        return ret0
+}</span>
+
+// GetWorkerId indicates an expected call of GetWorkerId.
+func (mr *MockConsumerDtoMockRecorder) GetWorkerId() *gomock.Call <span class="cov0" title="0">{
+        mr.mock.ctrl.T.Helper()
+        return mr.mock.ctrl.RecordCallWithMethodType(mr.mock, "GetWorkerId", reflect.TypeOf((*MockConsumerDto)(nil).GetWorkerId))
+}</span>
+</pre>
+		
+		<pre class="file" id="file31" style="display: none">// Code generated by MockGen. DO NOT EDIT.
+// Source: .\internal\application\usecases\producer\dto.go
+//
+// Generated by this command:
+//
+//        mockgen -source=.\internal\application\usecases\producer\dto.go -destination=.\mocks\mock_dto_producer.go -package=mocks
+//
+
+// Package mocks is a generated GoMock package.
+package mocks
+
+import (
+        reflect "reflect"
+
+        gomock "go.uber.org/mock/gomock"
+)
+
+// MockProducerDto is a mock of ProducerDto interface.
+type MockProducerDto struct {
+        ctrl     *gomock.Controller
+        recorder *MockProducerDtoMockRecorder
+        isgomock struct{}
+}
+
+// MockProducerDtoMockRecorder is the mock recorder for MockProducerDto.
+type MockProducerDtoMockRecorder struct {
+        mock *MockProducerDto
+}
+
+// NewMockProducerDto creates a new mock instance.
+func NewMockProducerDto(ctrl *gomock.Controller) *MockProducerDto <span class="cov0" title="0">{
+        mock := &amp;MockProducerDto{ctrl: ctrl}
+        mock.recorder = &amp;MockProducerDtoMockRecorder{mock}
+        return mock
+}</span>
+
+// EXPECT returns an object that allows the caller to indicate expected use.
+func (m *MockProducerDto) EXPECT() *MockProducerDtoMockRecorder <span class="cov0" title="0">{
+        return m.recorder
+}</span>
+
+// GetPayload mocks base method.
+func (m *MockProducerDto) GetPayload() []byte <span class="cov0" title="0">{
+        m.ctrl.T.Helper()
+        ret := m.ctrl.Call(m, "GetPayload")
+        ret0, _ := ret[0].([]byte)
+        return ret0
+}</span>
+
+// GetPayload indicates an expected call of GetPayload.
+func (mr *MockProducerDtoMockRecorder) GetPayload() *gomock.Call <span class="cov0" title="0">{
+        mr.mock.ctrl.T.Helper()
+        return mr.mock.ctrl.RecordCallWithMethodType(mr.mock, "GetPayload", reflect.TypeOf((*MockProducerDto)(nil).GetPayload))
+}</span>
+</pre>
+		
+		<pre class="file" id="file32" style="display: none">// Code generated by MockGen. DO NOT EDIT.
+// Source: .\internal\application\usecases\stream_bidirectional\dto.go
+//
+// Generated by this command:
+//
+//        mockgen -source=.\internal\application\usecases\stream_bidirectional\dto.go -destination=.\mocks\mock_dto_stream_bidirectional.go -package=mocks
+//
+
+// Package mocks is a generated GoMock package.
+package mocks
+
+import (
+        context "context"
+        dto "dominus-broker/internal/application/dto"
+        reflect "reflect"
+
+        gomock "go.uber.org/mock/gomock"
+)
+
+// MockBrokerBidirectionalDto is a mock of BrokerBidirectionalDto interface.
+type MockBrokerBidirectionalDto struct {
+        ctrl     *gomock.Controller
+        recorder *MockBrokerBidirectionalDtoMockRecorder
+        isgomock struct{}
+}
+
+// MockBrokerBidirectionalDtoMockRecorder is the mock recorder for MockBrokerBidirectionalDto.
+type MockBrokerBidirectionalDtoMockRecorder struct {
+        mock *MockBrokerBidirectionalDto
+}
+
+// NewMockBrokerBidirectionalDto creates a new mock instance.
+func NewMockBrokerBidirectionalDto(ctrl *gomock.Controller) *MockBrokerBidirectionalDto <span class="cov0" title="0">{
+        mock := &amp;MockBrokerBidirectionalDto{ctrl: ctrl}
+        mock.recorder = &amp;MockBrokerBidirectionalDtoMockRecorder{mock}
+        return mock
+}</span>
+
+// EXPECT returns an object that allows the caller to indicate expected use.
+func (m *MockBrokerBidirectionalDto) EXPECT() *MockBrokerBidirectionalDtoMockRecorder <span class="cov0" title="0">{
+        return m.recorder
+}</span>
+
+// Context mocks base method.
+func (m *MockBrokerBidirectionalDto) Context() context.Context <span class="cov0" title="0">{
+        m.ctrl.T.Helper()
+        ret := m.ctrl.Call(m, "Context")
+        ret0, _ := ret[0].(context.Context)
+        return ret0
+}</span>
+
+// Context indicates an expected call of Context.
+func (mr *MockBrokerBidirectionalDtoMockRecorder) Context() *gomock.Call <span class="cov0" title="0">{
+        mr.mock.ctrl.T.Helper()
+        return mr.mock.ctrl.RecordCallWithMethodType(mr.mock, "Context", reflect.TypeOf((*MockBrokerBidirectionalDto)(nil).Context))
+}</span>
+
+// Recv mocks base method.
+func (m *MockBrokerBidirectionalDto) Recv() (dto.BrokerRequestDto, error) <span class="cov0" title="0">{
+        m.ctrl.T.Helper()
+        ret := m.ctrl.Call(m, "Recv")
+        ret0, _ := ret[0].(dto.BrokerRequestDto)
+        ret1, _ := ret[1].(error)
+        return ret0, ret1
+}</span>
+
+// Recv indicates an expected call of Recv.
+func (mr *MockBrokerBidirectionalDtoMockRecorder) Recv() *gomock.Call <span class="cov0" title="0">{
+        mr.mock.ctrl.T.Helper()
+        return mr.mock.ctrl.RecordCallWithMethodType(mr.mock, "Recv", reflect.TypeOf((*MockBrokerBidirectionalDto)(nil).Recv))
+}</span>
+
+// Send mocks base method.
+func (m *MockBrokerBidirectionalDto) Send(msg []byte) error <span class="cov0" title="0">{
+        m.ctrl.T.Helper()
+        ret := m.ctrl.Call(m, "Send", msg)
+        ret0, _ := ret[0].(error)
+        return ret0
+}</span>
+
+// Send indicates an expected call of Send.
+func (mr *MockBrokerBidirectionalDtoMockRecorder) Send(msg any) *gomock.Call <span class="cov0" title="0">{
+        mr.mock.ctrl.T.Helper()
+        return mr.mock.ctrl.RecordCallWithMethodType(mr.mock, "Send", reflect.TypeOf((*MockBrokerBidirectionalDto)(nil).Send), msg)
+}</span>
+</pre>
+		
+		<pre class="file" id="file33" style="display: none">// Code generated by MockGen. DO NOT EDIT.
+// Source: .\internal\application\usecases\stream_client\dto.go
+//
+// Generated by this command:
+//
+//        mockgen -source=.\internal\application\usecases\stream_client\dto.go -destination=.\mocks\mock_dto_stream_client.go -package=mocks
+//
+
+// Package mocks is a generated GoMock package.
+package mocks
+
+import (
+        context "context"
+        dto "dominus-broker/internal/application/dto"
+        reflect "reflect"
+
+        gomock "go.uber.org/mock/gomock"
+)
+
+// MockBrokerClientDto is a mock of BrokerClientDto interface.
+type MockBrokerClientDto struct {
+        ctrl     *gomock.Controller
+        recorder *MockBrokerClientDtoMockRecorder
+        isgomock struct{}
+}
+
+// MockBrokerClientDtoMockRecorder is the mock recorder for MockBrokerClientDto.
+type MockBrokerClientDtoMockRecorder struct {
+        mock *MockBrokerClientDto
+}
+
+// NewMockBrokerClientDto creates a new mock instance.
+func NewMockBrokerClientDto(ctrl *gomock.Controller) *MockBrokerClientDto <span class="cov0" title="0">{
+        mock := &amp;MockBrokerClientDto{ctrl: ctrl}
+        mock.recorder = &amp;MockBrokerClientDtoMockRecorder{mock}
+        return mock
+}</span>
+
+// EXPECT returns an object that allows the caller to indicate expected use.
+func (m *MockBrokerClientDto) EXPECT() *MockBrokerClientDtoMockRecorder <span class="cov0" title="0">{
+        return m.recorder
+}</span>
+
+// Context mocks base method.
+func (m *MockBrokerClientDto) Context() context.Context <span class="cov0" title="0">{
+        m.ctrl.T.Helper()
+        ret := m.ctrl.Call(m, "Context")
+        ret0, _ := ret[0].(context.Context)
+        return ret0
+}</span>
+
+// Context indicates an expected call of Context.
+func (mr *MockBrokerClientDtoMockRecorder) Context() *gomock.Call <span class="cov0" title="0">{
+        mr.mock.ctrl.T.Helper()
+        return mr.mock.ctrl.RecordCallWithMethodType(mr.mock, "Context", reflect.TypeOf((*MockBrokerClientDto)(nil).Context))
+}</span>
+
+// Recv mocks base method.
+func (m *MockBrokerClientDto) Recv() (dto.BrokerRequestDto, error) <span class="cov0" title="0">{
+        m.ctrl.T.Helper()
+        ret := m.ctrl.Call(m, "Recv")
+        ret0, _ := ret[0].(dto.BrokerRequestDto)
+        ret1, _ := ret[1].(error)
+        return ret0, ret1
+}</span>
+
+// Recv indicates an expected call of Recv.
+func (mr *MockBrokerClientDtoMockRecorder) Recv() *gomock.Call <span class="cov0" title="0">{
+        mr.mock.ctrl.T.Helper()
+        return mr.mock.ctrl.RecordCallWithMethodType(mr.mock, "Recv", reflect.TypeOf((*MockBrokerClientDto)(nil).Recv))
+}</span>
+</pre>
+		
+		<pre class="file" id="file34" style="display: none">// Code generated by MockGen. DO NOT EDIT.
+// Source: .\internal\application\usecases\stream_server\dto.go
+//
+// Generated by this command:
+//
+//        mockgen -source=.\internal\application\usecases\stream_server\dto.go -destination=.\mocks\mock_dto_stream_server.go -package=mocks
+//
+
+// Package mocks is a generated GoMock package.
+package mocks
+
+import (
+        context "context"
+        reflect "reflect"
+
+        gomock "go.uber.org/mock/gomock"
+)
+
+// MockBrokerRequestDto is a mock of BrokerRequestDto interface.
+type MockBrokerRequestDto struct {
+        ctrl     *gomock.Controller
+        recorder *MockBrokerRequestDtoMockRecorder
+        isgomock struct{}
+}
+
+// MockBrokerRequestDtoMockRecorder is the mock recorder for MockBrokerRequestDto.
+type MockBrokerRequestDtoMockRecorder struct {
+        mock *MockBrokerRequestDto
+}
+
+// NewMockBrokerRequestDto creates a new mock instance.
+func NewMockBrokerRequestDto(ctrl *gomock.Controller) *MockBrokerRequestDto <span class="cov0" title="0">{
+        mock := &amp;MockBrokerRequestDto{ctrl: ctrl}
+        mock.recorder = &amp;MockBrokerRequestDtoMockRecorder{mock}
+        return mock
+}</span>
+
+// EXPECT returns an object that allows the caller to indicate expected use.
+func (m *MockBrokerRequestDto) EXPECT() *MockBrokerRequestDtoMockRecorder <span class="cov0" title="0">{
+        return m.recorder
+}</span>
+
+// GetPayload mocks base method.
+func (m *MockBrokerRequestDto) GetPayload() []byte <span class="cov0" title="0">{
+        m.ctrl.T.Helper()
+        ret := m.ctrl.Call(m, "GetPayload")
+        ret0, _ := ret[0].([]byte)
+        return ret0
+}</span>
+
+// GetPayload indicates an expected call of GetPayload.
+func (mr *MockBrokerRequestDtoMockRecorder) GetPayload() *gomock.Call <span class="cov0" title="0">{
+        mr.mock.ctrl.T.Helper()
+        return mr.mock.ctrl.RecordCallWithMethodType(mr.mock, "GetPayload", reflect.TypeOf((*MockBrokerRequestDto)(nil).GetPayload))
+}</span>
+
+// GetSubscribers mocks base method.
+func (m *MockBrokerRequestDto) GetSubscribers() []string <span class="cov0" title="0">{
+        m.ctrl.T.Helper()
+        ret := m.ctrl.Call(m, "GetSubscribers")
+        ret0, _ := ret[0].([]string)
+        return ret0
+}</span>
+
+// GetSubscribers indicates an expected call of GetSubscribers.
+func (mr *MockBrokerRequestDtoMockRecorder) GetSubscribers() *gomock.Call <span class="cov0" title="0">{
+        mr.mock.ctrl.T.Helper()
+        return mr.mock.ctrl.RecordCallWithMethodType(mr.mock, "GetSubscribers", reflect.TypeOf((*MockBrokerRequestDto)(nil).GetSubscribers))
+}</span>
+
+// MockBrokerServerDto is a mock of BrokerServerDto interface.
+type MockBrokerServerDto struct {
+        ctrl     *gomock.Controller
+        recorder *MockBrokerServerDtoMockRecorder
+        isgomock struct{}
+}
+
+// MockBrokerServerDtoMockRecorder is the mock recorder for MockBrokerServerDto.
+type MockBrokerServerDtoMockRecorder struct {
+        mock *MockBrokerServerDto
+}
+
+// NewMockBrokerServerDto creates a new mock instance.
+func NewMockBrokerServerDto(ctrl *gomock.Controller) *MockBrokerServerDto <span class="cov0" title="0">{
+        mock := &amp;MockBrokerServerDto{ctrl: ctrl}
+        mock.recorder = &amp;MockBrokerServerDtoMockRecorder{mock}
+        return mock
+}</span>
+
+// EXPECT returns an object that allows the caller to indicate expected use.
+func (m *MockBrokerServerDto) EXPECT() *MockBrokerServerDtoMockRecorder <span class="cov0" title="0">{
+        return m.recorder
+}</span>
+
+// Context mocks base method.
+func (m *MockBrokerServerDto) Context() context.Context <span class="cov0" title="0">{
+        m.ctrl.T.Helper()
+        ret := m.ctrl.Call(m, "Context")
+        ret0, _ := ret[0].(context.Context)
+        return ret0
+}</span>
+
+// Context indicates an expected call of Context.
+func (mr *MockBrokerServerDtoMockRecorder) Context() *gomock.Call <span class="cov0" title="0">{
+        mr.mock.ctrl.T.Helper()
+        return mr.mock.ctrl.RecordCallWithMethodType(mr.mock, "Context", reflect.TypeOf((*MockBrokerServerDto)(nil).Context))
+}</span>
+
+// Send mocks base method.
+func (m *MockBrokerServerDto) Send(payload []byte) error <span class="cov0" title="0">{
+        m.ctrl.T.Helper()
+        ret := m.ctrl.Call(m, "Send", payload)
+        ret0, _ := ret[0].(error)
+        return ret0
+}</span>
+
+// Send indicates an expected call of Send.
+func (mr *MockBrokerServerDtoMockRecorder) Send(payload any) *gomock.Call <span class="cov0" title="0">{
+        mr.mock.ctrl.T.Helper()
+        return mr.mock.ctrl.RecordCallWithMethodType(mr.mock, "Send", reflect.TypeOf((*MockBrokerServerDto)(nil).Send), payload)
+}</span>
+</pre>
+		
+		<pre class="file" id="file35" style="display: none">// Code generated by MockGen. DO NOT EDIT.
+// Source: ./internal/infrastructure/event/event.go
+//
+// Generated by this command:
+//
+//        mockgen -source=./internal/infrastructure/event/event.go -destination=./mocks/mock_infrastructure_event.go -package=mocks
+//
+
+// Package mocks is a generated GoMock package.
+package mocks
+
+import (
+        context "context"
+        reflect "reflect"
+
+        gomock "go.uber.org/mock/gomock"
+)
+
+// MockEvent is a mock of Event interface.
+type MockEvent struct {
+        ctrl     *gomock.Controller
+        recorder *MockEventMockRecorder
+        isgomock struct{}
+}
+
+// MockEventMockRecorder is the mock recorder for MockEvent.
+type MockEventMockRecorder struct {
+        mock *MockEvent
+}
+
+// NewMockEvent creates a new mock instance.
+func NewMockEvent(ctrl *gomock.Controller) *MockEvent <span class="cov0" title="0">{
+        mock := &amp;MockEvent{ctrl: ctrl}
+        mock.recorder = &amp;MockEventMockRecorder{mock}
+        return mock
+}</span>
+
+// EXPECT returns an object that allows the caller to indicate expected use.
+func (m *MockEvent) EXPECT() *MockEventMockRecorder <span class="cov0" title="0">{
+        return m.recorder
+}</span>
+
+// CheckID mocks base method.
+func (m *MockEvent) CheckID(ctx context.Context) context.Context <span class="cov0" title="0">{
+        m.ctrl.T.Helper()
+        ret := m.ctrl.Call(m, "CheckID", ctx)
+        ret0, _ := ret[0].(context.Context)
+        return ret0
+}</span>
+
+// CheckID indicates an expected call of CheckID.
+func (mr *MockEventMockRecorder) CheckID(ctx any) *gomock.Call <span class="cov0" title="0">{
+        mr.mock.ctrl.T.Helper()
+        return mr.mock.ctrl.RecordCallWithMethodType(mr.mock, "CheckID", reflect.TypeOf((*MockEvent)(nil).CheckID), ctx)
+}</span>
+
+// WriteLog mocks base method.
+func (m *MockEvent) WriteLog(ctx context.Context, level, op, dsc string) <span class="cov0" title="0">{
+        m.ctrl.T.Helper()
+        m.ctrl.Call(m, "WriteLog", ctx, level, op, dsc)
+}</span>
+
+// WriteLog indicates an expected call of WriteLog.
+func (mr *MockEventMockRecorder) WriteLog(ctx, level, op, dsc any) *gomock.Call <span class="cov0" title="0">{
+        mr.mock.ctrl.T.Helper()
+        return mr.mock.ctrl.RecordCallWithMethodType(mr.mock, "WriteLog", reflect.TypeOf((*MockEvent)(nil).WriteLog), ctx, level, op, dsc)
+}</span>
+</pre>
+		
+		<pre class="file" id="file36" style="display: none">// Code generated by MockGen. DO NOT EDIT.
+// Source: .\internal\domain\repositories\broker.go
+//
+// Generated by this command:
+//
+//        mockgen -source=.\internal\domain\repositories\broker.go -destination=.\mocks\mock_repositories_broker.go -package=mocks
+//
+
+// Package mocks is a generated GoMock package.
+package mocks
+
+import (
+        context "context"
+        reflect "reflect"
+
+        gomock "go.uber.org/mock/gomock"
+)
+
+// MockBrokerClient is a mock of BrokerClient interface.
+type MockBrokerClient struct {
+        ctrl     *gomock.Controller
+        recorder *MockBrokerClientMockRecorder
+        isgomock struct{}
+}
+
+// MockBrokerClientMockRecorder is the mock recorder for MockBrokerClient.
+type MockBrokerClientMockRecorder struct {
+        mock *MockBrokerClient
+}
+
+// NewMockBrokerClient creates a new mock instance.
+func NewMockBrokerClient(ctrl *gomock.Controller) *MockBrokerClient <span class="cov0" title="0">{
+        mock := &amp;MockBrokerClient{ctrl: ctrl}
+        mock.recorder = &amp;MockBrokerClientMockRecorder{mock}
+        return mock
+}</span>
+
+// EXPECT returns an object that allows the caller to indicate expected use.
+func (m *MockBrokerClient) EXPECT() *MockBrokerClientMockRecorder <span class="cov0" title="0">{
+        return m.recorder
+}</span>
+
+// BidirectionalStream mocks base method.
+func (m *MockBrokerClient) BidirectionalStream(urls []string, provMsg &lt;-chan []byte, subMsg chan&lt;- []byte, tx chan&lt;- struct{}, ctx context.Context) <span class="cov0" title="0">{
+        m.ctrl.T.Helper()
+        m.ctrl.Call(m, "BidirectionalStream", urls, provMsg, subMsg, tx, ctx)
+}</span>
+
+// BidirectionalStream indicates an expected call of BidirectionalStream.
+func (mr *MockBrokerClientMockRecorder) BidirectionalStream(urls, provMsg, subMsg, tx, ctx any) *gomock.Call <span class="cov0" title="0">{
+        mr.mock.ctrl.T.Helper()
+        return mr.mock.ctrl.RecordCallWithMethodType(mr.mock, "BidirectionalStream", reflect.TypeOf((*MockBrokerClient)(nil).BidirectionalStream), urls, provMsg, subMsg, tx, ctx)
+}</span>
+
+// ClientStream mocks base method.
+func (m *MockBrokerClient) ClientStream(urls []string, msg &lt;-chan []byte, ctx context.Context) <span class="cov0" title="0">{
+        m.ctrl.T.Helper()
+        m.ctrl.Call(m, "ClientStream", urls, msg, ctx)
+}</span>
+
+// ClientStream indicates an expected call of ClientStream.
+func (mr *MockBrokerClientMockRecorder) ClientStream(urls, msg, ctx any) *gomock.Call <span class="cov0" title="0">{
+        mr.mock.ctrl.T.Helper()
+        return mr.mock.ctrl.RecordCallWithMethodType(mr.mock, "ClientStream", reflect.TypeOf((*MockBrokerClient)(nil).ClientStream), urls, msg, ctx)
+}</span>
+
+// ServerStream mocks base method.
+func (m *MockBrokerClient) ServerStream(urls []string, initalMsg []byte, msg chan&lt;- []byte, ctx context.Context, done chan&lt;- struct{}) <span class="cov0" title="0">{
+        m.ctrl.T.Helper()
+        m.ctrl.Call(m, "ServerStream", urls, initalMsg, msg, ctx, done)
+}</span>
+
+// ServerStream indicates an expected call of ServerStream.
+func (mr *MockBrokerClientMockRecorder) ServerStream(urls, initalMsg, msg, ctx, done any) *gomock.Call <span class="cov0" title="0">{
+        mr.mock.ctrl.T.Helper()
+        return mr.mock.ctrl.RecordCallWithMethodType(mr.mock, "ServerStream", reflect.TypeOf((*MockBrokerClient)(nil).ServerStream), urls, initalMsg, msg, ctx, done)
+}</span>
+</pre>
+		
+		<pre class="file" id="file37" style="display: none">// Code generated by MockGen. DO NOT EDIT.
+// Source: .\internal\domain\repositories\sqs.go
+//
+// Generated by this command:
+//
+//        mockgen -source=.\internal\domain\repositories\sqs.go -destination=.\mocks\mock_repositories_sqs.go -package=mocks
+//
+
+// Package mocks is a generated GoMock package.
+package mocks
+
+import (
+        context "context"
+        entities "dominus-broker/internal/domain/entities"
+        reflect "reflect"
+
+        gomock "go.uber.org/mock/gomock"
+)
+
+// MockMemoryClient is a mock of MemoryClient interface.
+type MockMemoryClient struct {
+        ctrl     *gomock.Controller
+        recorder *MockMemoryClientMockRecorder
+        isgomock struct{}
+}
+
+// MockMemoryClientMockRecorder is the mock recorder for MockMemoryClient.
+type MockMemoryClientMockRecorder struct {
+        mock *MockMemoryClient
+}
+
+// NewMockMemoryClient creates a new mock instance.
+func NewMockMemoryClient(ctrl *gomock.Controller) *MockMemoryClient <span class="cov0" title="0">{
+        mock := &amp;MockMemoryClient{ctrl: ctrl}
+        mock.recorder = &amp;MockMemoryClientMockRecorder{mock}
+        return mock
+}</span>
+
+// EXPECT returns an object that allows the caller to indicate expected use.
+func (m *MockMemoryClient) EXPECT() *MockMemoryClientMockRecorder <span class="cov0" title="0">{
+        return m.recorder
+}</span>
+
+// AckMessage mocks base method.
+func (m *MockMemoryClient) AckMessage(ctx context.Context, messageId, groupId string) error <span class="cov0" title="0">{
+        m.ctrl.T.Helper()
+        ret := m.ctrl.Call(m, "AckMessage", ctx, messageId, groupId)
+        ret0, _ := ret[0].(error)
+        return ret0
+}</span>
+
+// AckMessage indicates an expected call of AckMessage.
+func (mr *MockMemoryClientMockRecorder) AckMessage(ctx, messageId, groupId any) *gomock.Call <span class="cov0" title="0">{
+        mr.mock.ctrl.T.Helper()
+        return mr.mock.ctrl.RecordCallWithMethodType(mr.mock, "AckMessage", reflect.TypeOf((*MockMemoryClient)(nil).AckMessage), ctx, messageId, groupId)
+}</span>
+
+// GetMessage mocks base method.
+func (m *MockMemoryClient) GetMessage(ctx context.Context, workerId, groupId string) (*entities.Message, error) <span class="cov0" title="0">{
+        m.ctrl.T.Helper()
+        ret := m.ctrl.Call(m, "GetMessage", ctx, workerId, groupId)
+        ret0, _ := ret[0].(*entities.Message)
+        ret1, _ := ret[1].(error)
+        return ret0, ret1
+}</span>
+
+// GetMessage indicates an expected call of GetMessage.
+func (mr *MockMemoryClientMockRecorder) GetMessage(ctx, workerId, groupId any) *gomock.Call <span class="cov0" title="0">{
+        mr.mock.ctrl.T.Helper()
+        return mr.mock.ctrl.RecordCallWithMethodType(mr.mock, "GetMessage", reflect.TypeOf((*MockMemoryClient)(nil).GetMessage), ctx, workerId, groupId)
+}</span>
+
+// Group mocks base method.
+func (m *MockMemoryClient) Group(groupId string) error <span class="cov0" title="0">{
+        m.ctrl.T.Helper()
+        ret := m.ctrl.Call(m, "Group", groupId)
+        ret0, _ := ret[0].(error)
+        return ret0
+}</span>
+
+// Group indicates an expected call of Group.
+func (mr *MockMemoryClientMockRecorder) Group(groupId any) *gomock.Call <span class="cov0" title="0">{
+        mr.mock.ctrl.T.Helper()
+        return mr.mock.ctrl.RecordCallWithMethodType(mr.mock, "Group", reflect.TypeOf((*MockMemoryClient)(nil).Group), groupId)
+}</span>
+
+// SendMessage mocks base method.
+func (m *MockMemoryClient) SendMessage(ctx context.Context, q *entities.Message) error <span class="cov0" title="0">{
+        m.ctrl.T.Helper()
+        ret := m.ctrl.Call(m, "SendMessage", ctx, q)
+        ret0, _ := ret[0].(error)
+        return ret0
+}</span>
+
+// SendMessage indicates an expected call of SendMessage.
+func (mr *MockMemoryClientMockRecorder) SendMessage(ctx, q any) *gomock.Call <span class="cov0" title="0">{
+        mr.mock.ctrl.T.Helper()
+        return mr.mock.ctrl.RecordCallWithMethodType(mr.mock, "SendMessage", reflect.TypeOf((*MockMemoryClient)(nil).SendMessage), ctx, q)
+}</span>
+
+// MockCheckerClient is a mock of CheckerClient interface.
+type MockCheckerClient struct {
+        ctrl     *gomock.Controller
+        recorder *MockCheckerClientMockRecorder
+        isgomock struct{}
+}
+
+// MockCheckerClientMockRecorder is the mock recorder for MockCheckerClient.
+type MockCheckerClientMockRecorder struct {
+        mock *MockCheckerClient
+}
+
+// NewMockCheckerClient creates a new mock instance.
+func NewMockCheckerClient(ctrl *gomock.Controller) *MockCheckerClient <span class="cov0" title="0">{
+        mock := &amp;MockCheckerClient{ctrl: ctrl}
+        mock.recorder = &amp;MockCheckerClientMockRecorder{mock}
+        return mock
+}</span>
+
+// EXPECT returns an object that allows the caller to indicate expected use.
+func (m *MockCheckerClient) EXPECT() *MockCheckerClientMockRecorder <span class="cov0" title="0">{
+        return m.recorder
+}</span>
+
+// CheckConsumer mocks base method.
+func (m *MockCheckerClient) CheckConsumer(ctx context.Context, key string) bool <span class="cov0" title="0">{
+        m.ctrl.T.Helper()
+        ret := m.ctrl.Call(m, "CheckConsumer", ctx, key)
+        ret0, _ := ret[0].(bool)
+        return ret0
+}</span>
+
+// CheckConsumer indicates an expected call of CheckConsumer.
+func (mr *MockCheckerClientMockRecorder) CheckConsumer(ctx, key any) *gomock.Call <span class="cov0" title="0">{
+        mr.mock.ctrl.T.Helper()
+        return mr.mock.ctrl.RecordCallWithMethodType(mr.mock, "CheckConsumer", reflect.TypeOf((*MockCheckerClient)(nil).CheckConsumer), ctx, key)
+}</span>
+
+// SaveConsumer mocks base method.
+func (m *MockCheckerClient) SaveConsumer(ctx context.Context, key string) error <span class="cov0" title="0">{
+        m.ctrl.T.Helper()
+        ret := m.ctrl.Call(m, "SaveConsumer", ctx, key)
+        ret0, _ := ret[0].(error)
+        return ret0
+}</span>
+
+// SaveConsumer indicates an expected call of SaveConsumer.
+func (mr *MockCheckerClientMockRecorder) SaveConsumer(ctx, key any) *gomock.Call <span class="cov0" title="0">{
+        mr.mock.ctrl.T.Helper()
+        return mr.mock.ctrl.RecordCallWithMethodType(mr.mock, "SaveConsumer", reflect.TypeOf((*MockCheckerClient)(nil).SaveConsumer), ctx, key)
+}</span>
+</pre>
+		
+		<pre class="file" id="file38" style="display: none">// Code generated by MockGen. DO NOT EDIT.
+// Source: .\internal\application\usecases\ack\factory.go
+//
+// Generated by this command:
+//
+//        mockgen -source=.\internal\application\usecases\ack\factory.go -destination=.\mocks\mock_usecases_ack.go -package=mocks
+//
+
+// Package mocks is a generated GoMock package.
+package mocks
+
+import (
+        context "context"
+        ack "dominus-broker/internal/application/usecases/ack"
+        reflect "reflect"
+
+        gomock "go.uber.org/mock/gomock"
+)
+
+// MockAckUseCase is a mock of AckUseCase interface.
+type MockAckUseCase struct {
+        ctrl     *gomock.Controller
+        recorder *MockAckUseCaseMockRecorder
+        isgomock struct{}
+}
+
+// MockAckUseCaseMockRecorder is the mock recorder for MockAckUseCase.
+type MockAckUseCaseMockRecorder struct {
+        mock *MockAckUseCase
+}
+
+// NewMockAckUseCase creates a new mock instance.
+func NewMockAckUseCase(ctrl *gomock.Controller) *MockAckUseCase <span class="cov0" title="0">{
+        mock := &amp;MockAckUseCase{ctrl: ctrl}
+        mock.recorder = &amp;MockAckUseCaseMockRecorder{mock}
+        return mock
+}</span>
+
+// EXPECT returns an object that allows the caller to indicate expected use.
+func (m *MockAckUseCase) EXPECT() *MockAckUseCaseMockRecorder <span class="cov0" title="0">{
+        return m.recorder
+}</span>
+
+// Ack mocks base method.
+func (m *MockAckUseCase) Ack(ctx context.Context, ms ack.AskDto) error <span class="cov0" title="0">{
+        m.ctrl.T.Helper()
+        ret := m.ctrl.Call(m, "Ack", ctx, ms)
+        ret0, _ := ret[0].(error)
+        return ret0
+}</span>
+
+// Ack indicates an expected call of Ack.
+func (mr *MockAckUseCaseMockRecorder) Ack(ctx, ms any) *gomock.Call <span class="cov0" title="0">{
+        mr.mock.ctrl.T.Helper()
+        return mr.mock.ctrl.RecordCallWithMethodType(mr.mock, "Ack", reflect.TypeOf((*MockAckUseCase)(nil).Ack), ctx, ms)
+}</span>
+</pre>
+		
+		<pre class="file" id="file39" style="display: none">// Code generated by MockGen. DO NOT EDIT.
+// Source: .\internal\application\usecases\consumer\factory.go
+//
+// Generated by this command:
+//
+//        mockgen -source=.\internal\application\usecases\consumer\factory.go -destination=.\mocks\mock_usecases_consumer.go -package=mocks
+//
+
+// Package mocks is a generated GoMock package.
+package mocks
+
+import (
+        context "context"
+        consumer "dominus-broker/internal/application/usecases/consumer"
+        entities "dominus-broker/internal/domain/entities"
+        reflect "reflect"
+
+        gomock "go.uber.org/mock/gomock"
+)
+
+// MockConsumerUseCase is a mock of ConsumerUseCase interface.
+type MockConsumerUseCase struct {
+        ctrl     *gomock.Controller
+        recorder *MockConsumerUseCaseMockRecorder
+        isgomock struct{}
+}
+
+// MockConsumerUseCaseMockRecorder is the mock recorder for MockConsumerUseCase.
+type MockConsumerUseCaseMockRecorder struct {
+        mock *MockConsumerUseCase
+}
+
+// NewMockConsumerUseCase creates a new mock instance.
+func NewMockConsumerUseCase(ctrl *gomock.Controller) *MockConsumerUseCase <span class="cov0" title="0">{
+        mock := &amp;MockConsumerUseCase{ctrl: ctrl}
+        mock.recorder = &amp;MockConsumerUseCaseMockRecorder{mock}
+        return mock
+}</span>
+
+// EXPECT returns an object that allows the caller to indicate expected use.
+func (m *MockConsumerUseCase) EXPECT() *MockConsumerUseCaseMockRecorder <span class="cov0" title="0">{
+        return m.recorder
+}</span>
+
+// Consumer mocks base method.
+func (m *MockConsumerUseCase) Consumer(ctx context.Context, ms consumer.ConsumerDto) (*entities.Message, error) <span class="cov0" title="0">{
+        m.ctrl.T.Helper()
+        ret := m.ctrl.Call(m, "Consumer", ctx, ms)
+        ret0, _ := ret[0].(*entities.Message)
+        ret1, _ := ret[1].(error)
+        return ret0, ret1
+}</span>
+
+// Consumer indicates an expected call of Consumer.
+func (mr *MockConsumerUseCaseMockRecorder) Consumer(ctx, ms any) *gomock.Call <span class="cov0" title="0">{
+        mr.mock.ctrl.T.Helper()
+        return mr.mock.ctrl.RecordCallWithMethodType(mr.mock, "Consumer", reflect.TypeOf((*MockConsumerUseCase)(nil).Consumer), ctx, ms)
+}</span>
+</pre>
+		
+		<pre class="file" id="file40" style="display: none">// Code generated by MockGen. DO NOT EDIT.
+// Source: .\internal\application\usecases\producer\factory.go
+//
+// Generated by this command:
+//
+//        mockgen -source=.\internal\application\usecases\producer\factory.go -destination=.\mocks\mock_usecases_producer.go -package=mocks
+//
+
+// Package mocks is a generated GoMock package.
+package mocks
+
+import (
+        context "context"
+        producer "dominus-broker/internal/application/usecases/producer"
+        reflect "reflect"
+
+        gomock "go.uber.org/mock/gomock"
+)
+
+// MockProducerUseCase is a mock of ProducerUseCase interface.
+type MockProducerUseCase struct {
+        ctrl     *gomock.Controller
+        recorder *MockProducerUseCaseMockRecorder
+        isgomock struct{}
+}
+
+// MockProducerUseCaseMockRecorder is the mock recorder for MockProducerUseCase.
+type MockProducerUseCaseMockRecorder struct {
+        mock *MockProducerUseCase
+}
+
+// NewMockProducerUseCase creates a new mock instance.
+func NewMockProducerUseCase(ctrl *gomock.Controller) *MockProducerUseCase <span class="cov0" title="0">{
+        mock := &amp;MockProducerUseCase{ctrl: ctrl}
+        mock.recorder = &amp;MockProducerUseCaseMockRecorder{mock}
+        return mock
+}</span>
+
+// EXPECT returns an object that allows the caller to indicate expected use.
+func (m *MockProducerUseCase) EXPECT() *MockProducerUseCaseMockRecorder <span class="cov0" title="0">{
+        return m.recorder
+}</span>
+
+// Producer mocks base method.
+func (m *MockProducerUseCase) Producer(ctx context.Context, ms producer.ProducerDto) error <span class="cov0" title="0">{
+        m.ctrl.T.Helper()
+        ret := m.ctrl.Call(m, "Producer", ctx, ms)
+        ret0, _ := ret[0].(error)
+        return ret0
+}</span>
+
+// Producer indicates an expected call of Producer.
+func (mr *MockProducerUseCaseMockRecorder) Producer(ctx, ms any) *gomock.Call <span class="cov0" title="0">{
+        mr.mock.ctrl.T.Helper()
+        return mr.mock.ctrl.RecordCallWithMethodType(mr.mock, "Producer", reflect.TypeOf((*MockProducerUseCase)(nil).Producer), ctx, ms)
+}</span>
+</pre>
+		
+		<pre class="file" id="file41" style="display: none">// Code generated by MockGen. DO NOT EDIT.
+// Source: .\internal\application\usecases\stream_bidirectional\factory.go
+//
+// Generated by this command:
+//
+//        mockgen -source=.\internal\application\usecases\stream_bidirectional\factory.go -destination=.\mocks\mock_usecases_stream_bidirectional.go -package=mocks
+//
+
+// Package mocks is a generated GoMock package.
+package mocks
+
+import (
+        streambidirectional "dominus-broker/internal/application/usecases/stream_bidirectional"
+        reflect "reflect"
+
+        gomock "go.uber.org/mock/gomock"
+)
+
+// MockStreamBidirectionalUseCase is a mock of StreamBidirectionalUseCase interface.
+type MockStreamBidirectionalUseCase struct {
+        ctrl     *gomock.Controller
+        recorder *MockStreamBidirectionalUseCaseMockRecorder
+        isgomock struct{}
+}
+
+// MockStreamBidirectionalUseCaseMockRecorder is the mock recorder for MockStreamBidirectionalUseCase.
+type MockStreamBidirectionalUseCaseMockRecorder struct {
+        mock *MockStreamBidirectionalUseCase
+}
+
+// NewMockStreamBidirectionalUseCase creates a new mock instance.
+func NewMockStreamBidirectionalUseCase(ctrl *gomock.Controller) *MockStreamBidirectionalUseCase <span class="cov0" title="0">{
+        mock := &amp;MockStreamBidirectionalUseCase{ctrl: ctrl}
+        mock.recorder = &amp;MockStreamBidirectionalUseCaseMockRecorder{mock}
+        return mock
+}</span>
+
+// EXPECT returns an object that allows the caller to indicate expected use.
+func (m *MockStreamBidirectionalUseCase) EXPECT() *MockStreamBidirectionalUseCaseMockRecorder <span class="cov0" title="0">{
+        return m.recorder
+}</span>
+
+// StreamBidirectional mocks base method.
+func (m *MockStreamBidirectionalUseCase) StreamBidirectional(st streambidirectional.BrokerBidirectionalDto) error <span class="cov0" title="0">{
+        m.ctrl.T.Helper()
+        ret := m.ctrl.Call(m, "StreamBidirectional", st)
+        ret0, _ := ret[0].(error)
+        return ret0
+}</span>
+
+// StreamBidirectional indicates an expected call of StreamBidirectional.
+func (mr *MockStreamBidirectionalUseCaseMockRecorder) StreamBidirectional(st any) *gomock.Call <span class="cov0" title="0">{
+        mr.mock.ctrl.T.Helper()
+        return mr.mock.ctrl.RecordCallWithMethodType(mr.mock, "StreamBidirectional", reflect.TypeOf((*MockStreamBidirectionalUseCase)(nil).StreamBidirectional), st)
+}</span>
+</pre>
+		
+		<pre class="file" id="file42" style="display: none">// Code generated by MockGen. DO NOT EDIT.
+// Source: .\internal\application\usecases\stream_client\factory.go
+//
+// Generated by this command:
+//
+//        mockgen -source=.\internal\application\usecases\stream_client\factory.go -destination=.\mocks\mock_usecases_stream_client.go -package=mocks
+//
+
+// Package mocks is a generated GoMock package.
+package mocks
+
+import (
+        streamclient "dominus-broker/internal/application/usecases/stream_client"
+        reflect "reflect"
+
+        gomock "go.uber.org/mock/gomock"
+)
+
+// MockStreamClientUseCase is a mock of StreamClientUseCase interface.
+type MockStreamClientUseCase struct {
+        ctrl     *gomock.Controller
+        recorder *MockStreamClientUseCaseMockRecorder
+        isgomock struct{}
+}
+
+// MockStreamClientUseCaseMockRecorder is the mock recorder for MockStreamClientUseCase.
+type MockStreamClientUseCaseMockRecorder struct {
+        mock *MockStreamClientUseCase
+}
+
+// NewMockStreamClientUseCase creates a new mock instance.
+func NewMockStreamClientUseCase(ctrl *gomock.Controller) *MockStreamClientUseCase <span class="cov0" title="0">{
+        mock := &amp;MockStreamClientUseCase{ctrl: ctrl}
+        mock.recorder = &amp;MockStreamClientUseCaseMockRecorder{mock}
+        return mock
+}</span>
+
+// EXPECT returns an object that allows the caller to indicate expected use.
+func (m *MockStreamClientUseCase) EXPECT() *MockStreamClientUseCaseMockRecorder <span class="cov0" title="0">{
+        return m.recorder
+}</span>
+
+// StreamClient mocks base method.
+func (m *MockStreamClientUseCase) StreamClient(st streamclient.BrokerClientDto) error <span class="cov0" title="0">{
+        m.ctrl.T.Helper()
+        ret := m.ctrl.Call(m, "StreamClient", st)
+        ret0, _ := ret[0].(error)
+        return ret0
+}</span>
+
+// StreamClient indicates an expected call of StreamClient.
+func (mr *MockStreamClientUseCaseMockRecorder) StreamClient(st any) *gomock.Call <span class="cov0" title="0">{
+        mr.mock.ctrl.T.Helper()
+        return mr.mock.ctrl.RecordCallWithMethodType(mr.mock, "StreamClient", reflect.TypeOf((*MockStreamClientUseCase)(nil).StreamClient), st)
+}</span>
+</pre>
+		
+		<pre class="file" id="file43" style="display: none">// Code generated by MockGen. DO NOT EDIT.
+// Source: .\internal\application\usecases\stream_server\factory.go
+//
+// Generated by this command:
+//
+//        mockgen -source=.\internal\application\usecases\stream_server\factory.go -destination=.\mocks\mock_usecases_stream_server.go -package=mocks
+//
+
+// Package mocks is a generated GoMock package.
+package mocks
+
+import (
+        streamserver "dominus-broker/internal/application/usecases/stream_server"
+        reflect "reflect"
+
+        gomock "go.uber.org/mock/gomock"
+)
+
+// MockStreamServerUseCase is a mock of StreamServerUseCase interface.
+type MockStreamServerUseCase struct {
+        ctrl     *gomock.Controller
+        recorder *MockStreamServerUseCaseMockRecorder
+        isgomock struct{}
+}
+
+// MockStreamServerUseCaseMockRecorder is the mock recorder for MockStreamServerUseCase.
+type MockStreamServerUseCaseMockRecorder struct {
+        mock *MockStreamServerUseCase
+}
+
+// NewMockStreamServerUseCase creates a new mock instance.
+func NewMockStreamServerUseCase(ctrl *gomock.Controller) *MockStreamServerUseCase <span class="cov0" title="0">{
+        mock := &amp;MockStreamServerUseCase{ctrl: ctrl}
+        mock.recorder = &amp;MockStreamServerUseCaseMockRecorder{mock}
+        return mock
+}</span>
+
+// EXPECT returns an object that allows the caller to indicate expected use.
+func (m *MockStreamServerUseCase) EXPECT() *MockStreamServerUseCaseMockRecorder <span class="cov0" title="0">{
+        return m.recorder
+}</span>
+
+// StreamServer mocks base method.
+func (m *MockStreamServerUseCase) StreamServer(req streamserver.BrokerRequestDto, st streamserver.BrokerServerDto) error <span class="cov0" title="0">{
+        m.ctrl.T.Helper()
+        ret := m.ctrl.Call(m, "StreamServer", req, st)
+        ret0, _ := ret[0].(error)
+        return ret0
+}</span>
+
+// StreamServer indicates an expected call of StreamServer.
+func (mr *MockStreamServerUseCaseMockRecorder) StreamServer(req, st any) *gomock.Call <span class="cov0" title="0">{
+        mr.mock.ctrl.T.Helper()
+        return mr.mock.ctrl.RecordCallWithMethodType(mr.mock, "StreamServer", reflect.TypeOf((*MockStreamServerUseCase)(nil).StreamServer), req, st)
+}</span>
+</pre>
+		
+		</div>
+	</body>
+	<script>
+	(function() {
+		var files = document.getElementById('files');
+		var visible;
+		files.addEventListener('change', onChange, false);
+		function select(part) {
+			if (visible)
+				visible.style.display = 'none';
+			visible = document.getElementById(part);
+			if (!visible)
+				return;
+			files.value = part;
+			visible.style.display = 'block';
+			location.hash = part;
+		}
+		function onChange() {
+			select(files.value);
+			window.scrollTo(0, 0);
+		}
+		if (location.hash != "") {
+			select(location.hash.substr(1));
+		}
+		if (!visible) {
+			select("file0");
+		}
+	})();
+	</script>
+</html>

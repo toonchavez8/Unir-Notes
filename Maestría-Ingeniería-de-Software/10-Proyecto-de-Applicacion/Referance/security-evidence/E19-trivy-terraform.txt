@@ -1,0 +1,33 @@
+2026-08-09T21:15:00-06:00	INFO	[misconfig] Misconfiguration scanning is enabled
+2026-08-09T21:15:00-06:00	INFO	[checks-client] Using existing checks from cache	path="C:\\Users\\toonc\\AppData\\Local\\trivy\\policy\\content"
+2026-08-09T21:15:01-06:00	INFO	[terraform scanner] Scanning root module	file_path="."
+2026-08-09T21:15:01-06:00	WARN	[terraform parser] Variable values were not found in the environment or variable files. Evaluating may not work correctly.	module="root" variables="dominus_server_container_cpu, dominus_server_container_memory, dominus_server_container_ports, dominus_server_file, dominus_server_token, grafana_server_container_ports, network_driver, network_name, prometheus_server_container_ports, redis_server_container_ports, sidecar_server_container_ports"
+2026-08-09T21:15:01-06:00	ERROR	[terraform evaluator] Failed to load module. Maybe try 'terraform init'?	module="root" loc="main.tf:9-20" err="read dir: file does not exist"
+2026-08-09T21:15:01-06:00	ERROR	[terraform evaluator] Failed to load module. Maybe try 'terraform init'?	module="root" loc="main.tf:22-29" err="read dir: file does not exist"
+2026-08-09T21:15:01-06:00	ERROR	[terraform evaluator] Failed to load module. Maybe try 'terraform init'?	module="root" loc="main.tf:31-38" err="read dir: file does not exist"
+2026-08-09T21:15:01-06:00	ERROR	[terraform evaluator] Failed to load module. Maybe try 'terraform init'?	module="root" loc="main.tf:40-45" err="read dir: file does not exist"
+2026-08-09T21:15:01-06:00	ERROR	[terraform evaluator] Failed to load module. Maybe try 'terraform init'?	module="root" loc="main.tf:47-54" err="read dir: file does not exist"
+2026-08-09T21:15:01-06:00	INFO	[terraform scanner] Scanning root module	file_path="modules/container"
+2026-08-09T21:15:01-06:00	WARN	[terraform parser] Variable values were not found in the environment or variable files. Evaluating may not work correctly.	module="root" variables="container_healcheck, container_image, container_name, container_network_name, container_ports"
+2026-08-09T21:15:01-06:00	INFO	[terraform scanner] Scanning root module	file_path="modules/image"
+2026-08-09T21:15:01-06:00	INFO	[terraform scanner] Scanning root module	file_path="modules/volume"
+2026-08-09T21:15:01-06:00	WARN	[terraform parser] Variable values were not found in the environment or variable files. Evaluating may not work correctly.	module="root" variables="volume_driver, volume_name"
+2026-08-09T21:15:01-06:00	INFO	Detected config files	num=4
+
+Report Summary
+
+┌───────────────────┬───────────┬───────────────────┐
+│      Target       │   Type    │ Misconfigurations │
+├───────────────────┼───────────┼───────────────────┤
+│ .                 │ terraform │         0         │
+├───────────────────┼───────────┼───────────────────┤
+│ modules/container │ terraform │         0         │
+├───────────────────┼───────────┼───────────────────┤
+│ modules/image     │ terraform │         0         │
+├───────────────────┼───────────┼───────────────────┤
+│ modules/volume    │ terraform │         0         │
+└───────────────────┴───────────┴───────────────────┘
+Legend:
+- '-': Not scanned
+- '0': Clean (no security findings detected)
+

@@ -1,0 +1,33 @@
+=== Fecha ===
+Sun, Aug  9, 2026  8:50:37 PM
+
+=== Go ===
+go version go1.26.5 windows/amd64
+
+=== govulncheck ===
+Go: go1.26.5
+Scanner: govulncheck@v1.6.0
+DB: https://vuln.go.dev
+DB updated: 2026-07-27 20:14:16 +0000 UTC
+
+
+=== gosec ===
+Version: dev
+Git tag: 
+Build date: 
+
+=== grpcurl ===
+grpcurl.exe dev build <no version set>
+
+=== gitleaks ===
+8.30.1
+
+=== golangci-lint ===
+golangci-lint has version 2.12.2 built with go1.26.2 from c0d3ddc9 on 2026-05-06T11:07:58Z
+
+=== trivy ===
+Version: 0.73.0
+
+=== terraform ===
+Terraform v1.15.8
+on windows_amd64

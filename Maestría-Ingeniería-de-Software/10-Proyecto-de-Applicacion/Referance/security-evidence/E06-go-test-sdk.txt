@@ -1,0 +1,1 @@
+?   	github.com/MBI-88/dominus-sdk/dominus	[no test files]

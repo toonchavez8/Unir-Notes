@@ -1,0 +1,23 @@
+[
+ {
+  "RuleID": "generic-api-key",
+  "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations.",
+  "StartLine": 13,
+  "EndLine": 13,
+  "StartColumn": 80,
+  "EndColumn": 98,
+  "Match": "token=REDACTED\"",
+  "Secret": "REDACTED",
+  "File": "README.md",
+  "SymlinkFile": "",
+  "Commit": "60471dc6a2841281b4af65074a342f7c511cc0fe",
+  "Link": "https://github.com/unir-broker-tfm/dominus-sdk/blob/60471dc6a2841281b4af65074a342f7c511cc0fe/README.md?plain=1#L13",
+  "Entropy": 3.5849626,
+  "Author": "MBI-88",
+  "Email": "ingmbi8807@gmail.com",
+  "Date": "2025-03-07T19:43:40Z",
+  "Message": "updated readme",
+  "Tags": [],
+  "Fingerprint": "60471dc6a2841281b4af65074a342f7c511cc0fe:README.md:generic-api-key:13"
+ }
+]
