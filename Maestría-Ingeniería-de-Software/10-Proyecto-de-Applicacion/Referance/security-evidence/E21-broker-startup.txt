@@ -1,0 +1,32 @@
+MODE=prod
+✅ Config file found
+
+==========================================================
+██████    ██████  ███     ██ ██ ███    ██ ██    ██ ███████
+██   ██  ██    ██ ████  ████ ██ ████   ██ ██    ██ ██
+██   ██  ██    ██ ██ ████ ██ ██ ██ ██  ██ ██    ██ ███████
+██   ██  ██    ██ ██  ██  ██ ██ ██  ██ ██ ██    ██      ██
+██████    ██████  ██      ██ ██ ██   ████  ██████  ███████
+==========================================================
+
+👉 Github: https://github.com/MBI-88
+🔧 Press CTRL+C to terminate the server
+
+dominus server is running on Rest: http://0.0.0.0:8000 🚀  Grpc: 0.0.0.0:5000 🚀
+panic: runtime error: index out of range [0] with length 0
+
+goroutine 65 [running]:
+dominus-broker/internal/infrastructure/grpc/middlewares.(*middlewares).ApiToken(0xb0f0613cb00, {0x1118830?, 0xb0f063a04b0?})
+	/app/internal/infrastructure/grpc/middlewares/middlewares.go:48 +0x24a
+dominus-broker/internal/bootstraps.gRPCServer.StreamServerInterceptor.func10({0x10021e0, 0xb0f06412600}, {0x11201a0, 0xb0f063dc000}, 0xb0f0639a0a8, 0xb0f063ba0c0)
+	/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware/v2@v2.3.3/interceptors/auth/auth.go:61 +0xb5
+google.golang.org/grpc.NewServer.chainStreamServerInterceptors.chainStreamInterceptors.func2({0x10021e0, 0xb0f06412600}, {0x11201a0, 0xb0f063dc000}, 0xb0f0639a0a8, 0xb0f063ba080?)
+	/go/pkg/mod/google.golang.org/grpc@v1.79.3/server.go:1563 +0x7c
+google.golang.org/grpc.(*Server).processStreamingRPC(0xb0f06458008, {0x1118830, 0xb0f063a03c0}, 0xb0f063d6000, 0xb0f06412720, 0x1a4d1e0, 0x0)
+	/go/pkg/mod/google.golang.org/grpc@v1.79.3/server.go:1722 +0x1171
+google.golang.org/grpc.(*Server).handleStream(0xb0f06458008, {0x1119238, 0xb0f06472000}, 0xb0f063d6000)
+	/go/pkg/mod/google.golang.org/grpc@v1.79.3/server.go:1859 +0xb85
+google.golang.org/grpc.(*Server).serveStreams.func2.1()
+	/go/pkg/mod/google.golang.org/grpc@v1.79.3/server.go:1064 +0x7f
+created by google.golang.org/grpc.(*Server).serveStreams.func2 in goroutine 53
+	/go/pkg/mod/google.golang.org/grpc@v1.79.3/server.go:1075 +0x11d

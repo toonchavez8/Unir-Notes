@@ -1,0 +1,25 @@
+BE-07 Redis checks
+Timestamp: 
+2026-08-10T12:53:48.2609451-06:00
+--- ACL identity ---
+Warning: Using a password with '-a' or '-u' option on the command line interface may not be safe.
+dominus
+
+--- ping as dominus ---
+Warning: Using a password with '-a' or '-u' option on the command line interface may not be safe.
+PONG
+
+--- idempotency key TTLs ---
+No idempotency keys present at time of inspection.
+
+--- recent broker log credential scan ---
+Potential credential-bearing log line redacted
+
+--- configured checker database and TTL ---
+checker_db=1
+idempotency_expiry_seconds=10
+--- idempotency key TTLs in DB 1 ---
+No idempotency keys present at time of inspection.
+{}
+--- immediate TTL after Producer ---
+key=idempotency:be07-ttl-check ttl_seconds=10

@@ -1,0 +1,7 @@
+=== RUN   TestConnectionLifecycle
+    security_test.go:323: operations=20 before_goroutines=3 after_goroutines=163 delta=160 server_requests=20
+    security_test.go:325: unexpected goroutine growth: delta=160
+--- FAIL: TestConnectionLifecycle (0.28s)
+FAIL
+FAIL	github.com/MBI-88/dominus-sdk/dominus/security	1.675s
+FAIL

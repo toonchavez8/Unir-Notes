@@ -1,0 +1,43 @@
+  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current
+                                 Dload  Upload  Total   Spent   Left   Speed
+  0      0   0      0   0      0      0      0                              0100   3836 100   3836   0      0 299.5k      0                              0100   3836 100   3836   0      0 293.9k      0                              0100   3836 100   3836   0      0 289.4k      0                              0
+HTTP/1.1 200 OK
+Server: Dominus
+Date: Mon, 10 Aug 2026 15:58:11 GMT
+Content-Type: text/plain; charset=utf-8
+Content-Length: 3836
+
+# HELP cpu_usage_percentage Current cpu usage in percentage
+# TYPE cpu_usage_percentage gauge
+cpu_usage_percentage{cpu_used="cpu_used"} 0.5648535564853621
+# HELP grpc_server_handled_total Total number of RPCs completed on the server, regardless of success or failure.
+# TYPE grpc_server_handled_total counter
+grpc_server_handled_total{grpc_code="OK",grpc_method="ServerReflectionInfo",grpc_service="grpc.reflection.v1.ServerReflection",grpc_type="bidi_stream"} 1
+# HELP grpc_server_handling_seconds Histogram of response latency (seconds) of gRPC that had been application-level handled by the server.
+# TYPE grpc_server_handling_seconds histogram
+grpc_server_handling_seconds_bucket{grpc_method="ServerReflectionInfo",grpc_service="grpc.reflection.v1.ServerReflection",grpc_type="bidi_stream",le="0.005"} 1
+grpc_server_handling_seconds_bucket{grpc_method="ServerReflectionInfo",grpc_service="grpc.reflection.v1.ServerReflection",grpc_type="bidi_stream",le="0.01"} 1
+grpc_server_handling_seconds_bucket{grpc_method="ServerReflectionInfo",grpc_service="grpc.reflection.v1.ServerReflection",grpc_type="bidi_stream",le="0.025"} 1
+grpc_server_handling_seconds_bucket{grpc_method="ServerReflectionInfo",grpc_service="grpc.reflection.v1.ServerReflection",grpc_type="bidi_stream",le="0.05"} 1
+grpc_server_handling_seconds_bucket{grpc_method="ServerReflectionInfo",grpc_service="grpc.reflection.v1.ServerReflection",grpc_type="bidi_stream",le="0.1"} 1
+grpc_server_handling_seconds_bucket{grpc_method="ServerReflectionInfo",grpc_service="grpc.reflection.v1.ServerReflection",grpc_type="bidi_stream",le="0.25"} 1
+grpc_server_handling_seconds_bucket{grpc_method="ServerReflectionInfo",grpc_service="grpc.reflection.v1.ServerReflection",grpc_type="bidi_stream",le="0.5"} 1
+grpc_server_handling_seconds_bucket{grpc_method="ServerReflectionInfo",grpc_service="grpc.reflection.v1.ServerReflection",grpc_type="bidi_stream",le="1"} 1
+grpc_server_handling_seconds_bucket{grpc_method="ServerReflectionInfo",grpc_service="grpc.reflection.v1.ServerReflection",grpc_type="bidi_stream",le="2.5"} 1
+grpc_server_handling_seconds_bucket{grpc_method="ServerReflectionInfo",grpc_service="grpc.reflection.v1.ServerReflection",grpc_type="bidi_stream",le="5"} 1
+grpc_server_handling_seconds_bucket{grpc_method="ServerReflectionInfo",grpc_service="grpc.reflection.v1.ServerReflection",grpc_type="bidi_stream",le="10"} 1
+grpc_server_handling_seconds_bucket{grpc_method="ServerReflectionInfo",grpc_service="grpc.reflection.v1.ServerReflection",grpc_type="bidi_stream",le="+Inf"} 1
+grpc_server_handling_seconds_sum{grpc_method="ServerReflectionInfo",grpc_service="grpc.reflection.v1.ServerReflection",grpc_type="bidi_stream"} 0.004131586
+grpc_server_handling_seconds_count{grpc_method="ServerReflectionInfo",grpc_service="grpc.reflection.v1.ServerReflection",grpc_type="bidi_stream"} 1
+# HELP grpc_server_msg_received_total Total number of RPC stream messages received on the server.
+# TYPE grpc_server_msg_received_total counter
+grpc_server_msg_received_total{grpc_method="ServerReflectionInfo",grpc_service="grpc.reflection.v1.ServerReflection",grpc_type="bidi_stream"} 2
+# HELP grpc_server_msg_sent_total Total number of gRPC stream messages sent by the server.
+# TYPE grpc_server_msg_sent_total counter
+grpc_server_msg_sent_total{grpc_method="ServerReflectionInfo",grpc_service="grpc.reflection.v1.ServerReflection",grpc_type="bidi_stream"} 1
+# HELP grpc_server_started_total Total number of RPCs started on the server.
+# TYPE grpc_server_started_total counter
+grpc_server_started_total{grpc_method="ServerReflectionInfo",grpc_service="grpc.reflection.v1.ServerReflection",grpc_type="bidi_stream"} 1
+# HELP memory_usage_percentage Current memory usage in percentage
+# TYPE memory_usage_percentage gauge
+memory_usage_percentage{mem_used="mem_used"} 3.6112609328458327

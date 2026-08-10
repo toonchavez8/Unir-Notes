@@ -1,0 +1,6 @@
+NAMES                PORTS                                                                                      NETWORKS
+dominus-broker-lab   0.0.0.0:5000->5000/tcp, [::]:5000->5000/tcp, 0.0.0.0:8000->8000/tcp, [::]:8000->8000/tcp   dominus-lab
+redis                0.0.0.0:6379->6379/tcp, [::]:6379->6379/tcp                                                dominus-lab
+--- redis published ports ---
+6379/tcp -> 0.0.0.0:6379
+6379/tcp -> [::]:6379

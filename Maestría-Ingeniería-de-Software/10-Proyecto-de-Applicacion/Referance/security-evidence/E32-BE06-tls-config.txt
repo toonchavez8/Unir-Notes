@@ -1,0 +1,161 @@
+Referance/dominus-broker/internal\infrastructure\enum\enum.go:27:	CONTENT_TYPE_TEXT          = "application/text"
+Referance/dominus-broker/internal\infrastructure\redis\cchecker\outbound.go:5:	"crypto/tls"
+Referance/dominus-broker/internal\infrastructure\redis\cchecker\outbound.go:24:	Tls bool,
+Referance/dominus-broker/internal\infrastructure\redis\cchecker\outbound.go:29:	var cfTls *tls.Config
+Referance/dominus-broker/internal\infrastructure\redis\cchecker\outbound.go:31:	if Tls {
+Referance/dominus-broker/internal\infrastructure\redis\cchecker\outbound.go:32:		cfTls = &tls.Config{
+Referance/dominus-broker/internal\infrastructure\redis\cchecker\outbound.go:33:			MinVersion: tls.VersionTLS12,
+Referance/dominus-broker/internal\infrastructure\redis\cchecker\outbound.go:41:		TLSConfig: cfTls,
+Referance/dominus-broker/internal\bootstraps\bootstraps.go:7:	"dominus-broker/internal/application/usecases/ack"
+Referance/dominus-broker/internal\bootstraps\bootstraps.go:8:	"dominus-broker/internal/application/usecases/consumer"
+Referance/dominus-broker/internal\bootstraps\bootstraps.go:9:	"dominus-broker/internal/application/usecases/producer"
+Referance/dominus-broker/internal\bootstraps\bootstraps.go:10:	streambidirectional "dominus-broker/internal/application/usecases/stream_bidirectional"
+Referance/dominus-broker/internal\bootstraps\bootstraps.go:11:	streamclient "dominus-broker/internal/application/usecases/stream_client"
+Referance/dominus-broker/internal\bootstraps\bootstraps.go:12:	streamserver "dominus-broker/internal/application/usecases/stream_server"
+Referance/dominus-broker/internal\bootstraps\bootstraps.go:29:	"syscall"
+Referance/dominus-broker/internal\bootstraps\bootstraps.go:40:	"google.golang.org/grpc/credentials/insecure"
+Referance/dominus-broker/internal\bootstraps\bootstraps.go:50:	errCa error,
+Referance/dominus-broker/internal\bootstraps\bootstraps.go:51:	cancel context.CancelFunc,
+Referance/dominus-broker/internal\bootstraps\bootstraps.go:65:		cf.RedisConfig.Tls,
+Referance/dominus-broker/internal\bootstraps\bootstraps.go:73:	if errC == nil && errK == nil && errCa == nil {
+Referance/dominus-broker/internal\bootstraps\bootstraps.go:74:		credsS, err := credentials.NewServerTLSFromFile(cf.CertConfig.SslCert, cf.CertConfig.KeyFile)
+Referance/dominus-broker/internal\bootstraps\bootstraps.go:76:			cancel()
+Referance/dominus-broker/internal\bootstraps\bootstraps.go:81:		credsD, err := credentials.NewClientTLSFromFile(cf.CertConfig.SslCaCert, enum.DOMAIN)
+Referance/dominus-broker/internal\bootstraps\bootstraps.go:83:			cancel()
+Referance/dominus-broker/internal\bootstraps\bootstraps.go:88:		optsD = append(optsD, grpc.WithTransportCredentials(insecure.NewCredentials()))
+Referance/dominus-broker/internal\bootstraps\bootstraps.go:112:		grpc.WithDefaultCallOptions(grpc.UseCompressor(gzip.Name)),
+Referance/dominus-broker/internal\bootstraps\bootstraps.go:123:		cf.RedisConfig.Tls,
+Referance/dominus-broker/internal\bootstraps\bootstraps.go:129:	bidirectionalUseCase := streambidirectional.New(bclient)
+Referance/dominus-broker/internal\bootstraps\bootstraps.go:130:	clientUsecase := streamclient.New(bclient)
+Referance/dominus-broker/internal\bootstraps\bootstraps.go:131:	serverUsecase := streamserver.New(bclient)
+Referance/dominus-broker/internal\bootstraps\bootstraps.go:133:	ackUseCase := ack.New(qclient)
+Referance/dominus-broker/internal\bootstraps\bootstraps.go:134:	consumerUseCase := consumer.New(qclient)
+Referance/dominus-broker/internal\bootstraps\bootstraps.go:135:	producerUseCase := producer.New(qclient)
+Referance/dominus-broker/internal\bootstraps\bootstraps.go:148:		clientUsecase,
+Referance/dominus-broker/internal\bootstraps\bootstraps.go:149:		serverUsecase,
+Referance/dominus-broker/internal\bootstraps\bootstraps.go:150:		bidirectionalUseCase,
+Referance/dominus-broker/internal\bootstraps\bootstraps.go:155:		producerUseCase,
+Referance/dominus-broker/internal\bootstraps\bootstraps.go:156:		consumerUseCase,
+Referance/dominus-broker/internal\bootstraps\bootstraps.go:157:		ackUseCase,
+Referance/dominus-broker/internal\bootstraps\bootstraps.go:170:	go func(sr *grpc.Server, list net.Listener, cancel context.CancelFunc) {
+Referance/dominus-broker/internal\bootstraps\bootstraps.go:172:		cancel()
+Referance/dominus-broker/internal\bootstraps\bootstraps.go:173:	}(server, listener, cancel)
+Referance/dominus-broker/internal\bootstraps\bootstraps.go:182:	cancel context.CancelFunc,
+Referance/dominus-broker/internal\bootstraps\bootstraps.go:208:		go func(port int64, cert, key string, cancel context.CancelFunc) {
+Referance/dominus-broker/internal\bootstraps\bootstraps.go:209:			log.Fatal(r.ListenAndServeTLS(fmt.Sprintf("0.0.0.0:%d", port), cert, key))
+Referance/dominus-broker/internal\bootstraps\bootstraps.go:210:			cancel()
+Referance/dominus-broker/internal\bootstraps\bootstraps.go:211:		}(cf.RestConfig.Port, cf.CertConfig.SslCert, cf.CertConfig.KeyFile, cancel)
+Referance/dominus-broker/internal\bootstraps\bootstraps.go:213:		go func(port int64, cancel context.CancelFunc) {
+Referance/dominus-broker/internal\bootstraps\bootstraps.go:215:			cancel()
+Referance/dominus-broker/internal\bootstraps\bootstraps.go:216:		}(cf.RestConfig.Port, cancel)
+Referance/dominus-broker/internal\bootstraps\bootstraps.go:247:	signal.Notify(st, os.Interrupt, syscall.SIGTERM)
+Referance/dominus-broker/internal\bootstraps\bootstraps.go:251:	ctx, cancel := context.WithCancel(context.Background())
+Referance/dominus-broker/internal\bootstraps\bootstraps.go:252:	defer cancel()
+Referance/dominus-broker/internal\bootstraps\bootstraps.go:256:	_, errCa := os.Stat(cf.CertConfig.SslCaCert)
+Referance/dominus-broker/internal\bootstraps\bootstraps.go:268:	r := restServer(reg, cf, lgs, cancel, errC, errK)
+Referance/dominus-broker/internal\bootstraps\bootstraps.go:274:	srG := gRPCServer(cf, lgs, errC, errK, errCa, cancel, metricserver, metricclient)
+Referance/dominus-broker/internal\bootstraps\bootstraps.go:303:	case err := <-st:
+Referance/dominus-broker/internal\bootstraps\bootstraps.go:305:	case <-ctx.Done():
+Referance/dominus-broker/config\config.go:23:	SslCaCert string `json:"ssl_ca_cert" mapstructure:"ssl_ca_cert"`
+Referance/dominus-broker/config\config.go:37:	Tls           bool   `json:"tls" mapstructure:"tls"`
+Referance/dominus-broker/env\entrypoint.sh:17:CONTENT="$(cat "$CONFIG_FILE")"
+Referance/dominus-broker/internal\infrastructure\event\event.go:71:	case enum.LOGCLIENT:
+Referance/dominus-broker/internal\infrastructure\event\event.go:83:	case enum.INFO:
+Referance/dominus-broker/internal\infrastructure\event\event.go:87:	case enum.DEBUG:
+Referance/dominus-broker/internal\infrastructure\event\event.go:91:	case enum.WARN:
+Referance/dominus-broker/internal\infrastructure\redis\cmemory\outbound.go:5:	"crypto/tls"
+Referance/dominus-broker/internal\infrastructure\redis\cmemory\outbound.go:26:	Tls bool,
+Referance/dominus-broker/internal\infrastructure\redis\cmemory\outbound.go:31:	var cfTls *tls.Config
+Referance/dominus-broker/internal\infrastructure\redis\cmemory\outbound.go:33:	if Tls {
+Referance/dominus-broker/internal\infrastructure\redis\cmemory\outbound.go:34:		cfTls = &tls.Config{
+Referance/dominus-broker/internal\infrastructure\redis\cmemory\outbound.go:35:			MinVersion: tls.VersionTLS12,
+Referance/dominus-broker/internal\infrastructure\redis\cmemory\outbound.go:43:		TLSConfig: cfTls,
+Referance/dominus-broker/internal\infrastructure\grpc\mappers\mappers.go:5:	"dominus-broker/internal/application/dto"
+Referance/dominus-broker/internal\infrastructure\grpc\mappers\mappers.go:6:	streambidirectional "dominus-broker/internal/application/usecases/stream_bidirectional"
+Referance/dominus-broker/internal\infrastructure\grpc\mappers\mappers.go:7:	streamclient "dominus-broker/internal/application/usecases/stream_client"
+Referance/dominus-broker/internal\infrastructure\grpc\mappers\mappers.go:8:	streamserver "dominus-broker/internal/application/usecases/stream_server"
+Referance/dominus-broker/internal\infrastructure\grpc\middlewares\middlewares.go:53:		return nil, status.Errorf(codes.Unauthenticated, enum.MATCH_TOKEN)
+Referance/dominus-broker/internal\infrastructure\grpc\middlewares\middlewares.go:72:		case logging.LevelDebug:
+Referance/dominus-broker/internal\infrastructure\grpc\middlewares\middlewares.go:74:		case logging.LevelInfo:
+Referance/dominus-broker/internal\infrastructure\grpc\middlewares\middlewares.go:76:		case logging.LevelWarn:
+Referance/dominus-broker/internal\infrastructure\grpc\middlewares\interceptors.go:14:		streamer grpc.Streamer, opts ...grpc.CallOption) (grpc.ClientStream, error)
+Referance/dominus-broker/internal\infrastructure\grpc\middlewares\interceptors.go:16:		invoker grpc.UnaryInvoker, opts ...grpc.CallOption) error
+Referance/dominus-broker/internal\infrastructure\grpc\middlewares\interceptors.go:32:	invoker grpc.UnaryInvoker, opts ...grpc.CallOption) error {
+Referance/dominus-broker/internal\infrastructure\grpc\middlewares\interceptors.go:39:	streamer grpc.Streamer, opts ...grpc.CallOption) (grpc.ClientStream, error) {
+Referance/dominus-broker/env\env.local.json:13:        "ssl_ca_cert": "./certs/ca_cert.pem",
+Referance/dominus-broker/env\env.local.json:20:        "host": "localhost",
+Referance/dominus-broker/env\env.local.json:22:        "tls": false,
+Referance/dominus-broker/internal\infrastructure\grpc\outbound\client_stream.go:122:					case <-ctx.Done():
+Referance/dominus-broker/internal\infrastructure\grpc\outbound\client_stream.go:125:					case <-retry.C:
+Referance/dominus-broker/internal\infrastructure\grpc\outbound\client_stream.go:209:					case <-ctx.Done():
+Referance/dominus-broker/internal\infrastructure\grpc\outbound\client_stream.go:212:					case <-retry.C:
+Referance/dominus-broker/internal\infrastructure\grpc\outbound\client_stream.go:242:				case <-ctx.Done():
+Referance/dominus-broker/internal\infrastructure\grpc\outbound\client_stream.go:244:				case subMsg <- resp.GetPayload():
+Referance/dominus-broker/internal\application\usecases\stream_server\stream_server_service.go:9:func (s *streamServerUseCase) StreamServer(req BrokerRequestDto, st BrokerServerDto) error {
+Referance/dominus-broker/internal\application\usecases\stream_server\stream_server_service.go:10:	ctx, cancel := context.WithCancel(st.Context())
+Referance/dominus-broker/internal\application\usecases\stream_server\stream_server_service.go:11:	defer cancel()
+Referance/dominus-broker/internal\application\usecases\stream_server\stream_server_service.go:25:		case body, ok := <-stream:
+Referance/dominus-broker/internal\application\usecases\stream_server\stream_server_service.go:28:					cancel()
+Referance/dominus-broker/internal\application\usecases\stream_server\stream_server_service.go:31:		case <-closed:
+Referance/dominus-broker/internal\application\usecases\stream_server\factory.go:5:type StreamServerUseCase interface {
+Referance/dominus-broker/internal\application\usecases\stream_server\factory.go:9:type streamServerUseCase struct {
+Referance/dominus-broker/internal\application\usecases\stream_server\factory.go:13:func New(client repositories.BrokerClient) StreamServerUseCase {
+Referance/dominus-broker/internal\application\usecases\stream_server\factory.go:14:	return &streamServerUseCase{client: client}
+Referance/dominus-broker/internal\application\usecases\producer\producer_service.go:9:func (p *producerUseCase) Producer(ctx context.Context, ms ProducerDto) error {
+Referance/dominus-broker/internal\application\usecases\producer\factory.go:8:type ProducerUseCase interface {
+Referance/dominus-broker/internal\application\usecases\producer\factory.go:12:type producerUseCase struct {
+Referance/dominus-broker/internal\application\usecases\producer\factory.go:16:func New(client repositories.MemoryClient) ProducerUseCase {
+Referance/dominus-broker/internal\application\usecases\producer\factory.go:17:	return &producerUseCase{client: client}
+Referance/dominus-broker/internal\application\usecases\consumer\consumer_service.go:8:func (c *consumerUseCase) Consumer(ctx context.Context, ms ConsumerDto) (*entities.Message, error) {
+Referance/dominus-broker/internal\application\usecases\ack\ack_service.go:9:func (a *ackUseCase) Ack(ctx context.Context, ms AskDto) error {
+Referance/dominus-broker/env\env.prod.json:13:        "ssl_ca_cert": "/etc/dominus/certs/ca_cert.pem",
+Referance/dominus-broker/env\env.prod.json:22:        "tls": false,
+Referance/dominus-broker/env\template.json:13:        "ssl_ca_cert": "./certs/ca_cert.pem",
+Referance/dominus-broker/env\template.json:20:        "host": "localhost",
+Referance/dominus-broker/env\template.json:22:        "tls": false,
+Referance/dominus-broker/internal\infrastructure\grpc\inbound\broker_sqs.go:5:	"dominus-broker/internal/application/usecases/ack"
+Referance/dominus-broker/internal\infrastructure\grpc\inbound\broker_sqs.go:6:	"dominus-broker/internal/application/usecases/consumer"
+Referance/dominus-broker/internal\infrastructure\grpc\inbound\broker_sqs.go:7:	"dominus-broker/internal/application/usecases/producer"
+Referance/dominus-broker/internal\infrastructure\grpc\inbound\broker_sqs.go:20:	p   producer.ProducerUseCase
+Referance/dominus-broker/internal\infrastructure\grpc\inbound\broker_sqs.go:21:	c   consumer.ConsumerUseCase
+Referance/dominus-broker/internal\infrastructure\grpc\inbound\broker_sqs.go:22:	a   ack.AckUseCase
+Referance/dominus-broker/internal\infrastructure\grpc\inbound\broker_sqs.go:28:	p producer.ProducerUseCase,
+Referance/dominus-broker/internal\infrastructure\grpc\inbound\broker_sqs.go:29:	c consumer.ConsumerUseCase,
+Referance/dominus-broker/internal\infrastructure\grpc\inbound\broker_sqs.go:30:	a ack.AckUseCase,
+Referance/dominus-broker/internal\application\usecases\stream_bidirectional\dto.go:5:	"dominus-broker/internal/application/dto"
+Referance/dominus-broker/internal\application\usecases\stream_client\dto.go:5:	"dominus-broker/internal/application/dto"
+Referance/dominus-broker/internal\application\usecases\consumer\factory.go:9:type ConsumerUseCase interface {
+Referance/dominus-broker/internal\application\usecases\consumer\factory.go:13:type consumerUseCase struct {
+Referance/dominus-broker/internal\application\usecases\consumer\factory.go:17:func New(client repositories.MemoryClient) ConsumerUseCase {
+Referance/dominus-broker/internal\application\usecases\consumer\factory.go:18:	return &consumerUseCase{client: client}
+Referance/dominus-broker/internal\infrastructure\grpc\inbound\broker_stream.go:4:	streambidirectional "dominus-broker/internal/application/usecases/stream_bidirectional"
+Referance/dominus-broker/internal\infrastructure\grpc\inbound\broker_stream.go:5:	streamclient "dominus-broker/internal/application/usecases/stream_client"
+Referance/dominus-broker/internal\infrastructure\grpc\inbound\broker_stream.go:6:	streamserver "dominus-broker/internal/application/usecases/stream_server"
+Referance/dominus-broker/internal\infrastructure\grpc\inbound\broker_stream.go:22:	c   streamclient.StreamClientUseCase
+Referance/dominus-broker/internal\infrastructure\grpc\inbound\broker_stream.go:23:	s   streamserver.StreamServerUseCase
+Referance/dominus-broker/internal\infrastructure\grpc\inbound\broker_stream.go:24:	b   streambidirectional.StreamBidirectionalUseCase
+Referance/dominus-broker/internal\infrastructure\grpc\inbound\broker_stream.go:30:	c streamclient.StreamClientUseCase,
+Referance/dominus-broker/internal\infrastructure\grpc\inbound\broker_stream.go:31:	s streamserver.StreamServerUseCase,
+Referance/dominus-broker/internal\infrastructure\grpc\inbound\broker_stream.go:32:	b streambidirectional.StreamBidirectionalUseCase,
+Referance/dominus-broker/internal\application\usecases\stream_bidirectional\factory.go:5:type StreamBidirectionalUseCase interface {
+Referance/dominus-broker/internal\application\usecases\stream_bidirectional\factory.go:9:type streamBidirectionalUseCase struct {
+Referance/dominus-broker/internal\application\usecases\stream_bidirectional\factory.go:13:func New(client repositories.BrokerClient) StreamBidirectionalUseCase {
+Referance/dominus-broker/internal\application\usecases\stream_bidirectional\factory.go:14:	return &streamBidirectionalUseCase{client: client}
+Referance/dominus-broker/internal\application\usecases\ack\factory.go:8:type AckUseCase interface {
+Referance/dominus-broker/internal\application\usecases\ack\factory.go:12:type ackUseCase struct {
+Referance/dominus-broker/internal\application\usecases\ack\factory.go:16:func New(client repositories.MemoryClient) AckUseCase {
+Referance/dominus-broker/internal\application\usecases\ack\factory.go:18:	return &ackUseCase{client: client}
+Referance/dominus-broker/internal\application\usecases\stream_client\factory.go:5:type StreamClientUseCase interface {
+Referance/dominus-broker/internal\application\usecases\stream_client\factory.go:9:type streamClientUseCase struct {
+Referance/dominus-broker/internal\application\usecases\stream_client\factory.go:13:func New(client repositories.BrokerClient) StreamClientUseCase {
+Referance/dominus-broker/internal\application\usecases\stream_client\factory.go:14:	return &streamClientUseCase{client: client}
+Referance/dominus-broker/internal\application\usecases\stream_client\stream_client_service.go:9:func (s *streamClientUseCase) StreamClient(st BrokerClientDto) error {
+Referance/dominus-broker/internal\application\usecases\stream_client\stream_client_service.go:10:	ctx, cancel := context.WithCancel(st.Context())
+Referance/dominus-broker/internal\application\usecases\stream_client\stream_client_service.go:11:	defer cancel()
+Referance/dominus-broker/internal\application\usecases\stream_client\stream_client_service.go:29:			cancel()
+Referance/dominus-broker/internal\application\usecases\stream_bidirectional\stream_bidirectional_service.go:9:func (s *streamBidirectionalUseCase) StreamBidirectional(stream BrokerBidirectionalDto) error {
+Referance/dominus-broker/internal\application\usecases\stream_bidirectional\stream_bidirectional_service.go:11:	ctx, cancel := context.WithCancel(stream.Context())
+Referance/dominus-broker/internal\application\usecases\stream_bidirectional\stream_bidirectional_service.go:12:	defer cancel()
+Referance/dominus-broker/internal\application\usecases\stream_bidirectional\stream_bidirectional_service.go:43:		case payload, ok := <-streamSub:
+Referance/dominus-broker/internal\application\usecases\stream_bidirectional\stream_bidirectional_service.go:46:					cancel()
+Referance/dominus-broker/internal\application\usecases\stream_bidirectional\stream_bidirectional_service.go:49:		case <-closed:

@@ -1,0 +1,7 @@
+=== RUN   TestSerializationError
+    security_test.go:300: marshal_error_input=function send_error=<nil> send_called=true payload_length=0
+    security_test.go:307: FAIL: json.Marshal error was swallowed; Send received an empty payload
+--- FAIL: TestSerializationError (0.01s)
+FAIL
+FAIL	github.com/MBI-88/dominus-sdk/dominus/security	2.549s
+FAIL

@@ -1,0 +1,5 @@
+=== RUN   TestTimeout
+    security_test.go:285: result=timeout elapsed=2.0005833s sdk_context_control=not-exposed
+--- PASS: TestTimeout (2.01s)
+PASS
+ok  	github.com/MBI-88/dominus-sdk/dominus/security	3.257s

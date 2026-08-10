@@ -1,0 +1,93 @@
+Referance/dominus-broker/config\config.go:3:import (
+Referance/dominus-broker/config\config.go:11:	Port     int64  `json:"port" mapstructure:"port"`
+Referance/dominus-broker/config\config.go:16:	Port         int64  `json:"port" mapstructure:"port"`
+Referance/dominus-broker/config\config.go:28:	Port          int64  `json:"port" mapstructure:"port"`
+Referance/dominus-broker/config\config.go:33:	Password      string `json:"password" mapstructure:"password"`
+Referance/dominus-broker/config\config.go:34:	Username      string `json:"username" mapstructure:"username"`
+Referance/dominus-broker/config\config.go:37:	Tls           bool   `json:"tls" mapstructure:"tls"`
+Referance/dominus-broker/config\config.go:84:	if c.RedisConfig.Port == 0 {
+Referance/dominus-broker/config\config.go:85:		return fmt.Errorf("RedisConfig.Port empty")
+Referance/dominus-broker/config\config.go:91:	if c.GrpcConfig.Port == 0 {
+Referance/dominus-broker/config\config.go:92:		return fmt.Errorf("GrpcConfig.GrpcPort empty")
+Referance/dominus-broker/config\config.go:101:	if c.RestConfig.Port == 0 {
+Referance/dominus-broker/config\config.go:102:		return fmt.Errorf("RestConfig.Port empty")
+Referance/dominus-broker/env\template.json:3:        "port": 5000,
+Referance/dominus-broker/env\template.json:7:        "port": 8000,
+Referance/dominus-broker/env\template.json:17:        "port": 6379,
+Referance/dominus-broker/env\template.json:21:        "password": "[REDACTED]",
+Referance/dominus-broker/env\template.json:22:        "tls": false,
+Referance/dominus-broker/env\template.json:23:        "username": "dominus",
+Referance/dominus-broker/env\env.local.json:3:        "port": 5000,
+Referance/dominus-broker/env\env.local.json:7:        "port": 8000,
+Referance/dominus-broker/env\env.local.json:17:        "port": 6379,
+Referance/dominus-broker/env\env.local.json:21:        "password": "[REDACTED]",
+Referance/dominus-broker/env\env.local.json:22:        "tls": false,
+Referance/dominus-broker/env\env.local.json:23:        "username": "dominus",
+Referance/dominus-broker/env\env.prod.json:3:        "port": 5000,
+Referance/dominus-broker/env\env.prod.json:7:        "port": 8000,
+Referance/dominus-broker/env\env.prod.json:17:        "port": 6379,
+Referance/dominus-broker/env\env.prod.json:21:        "password": "[REDACTED]",
+Referance/dominus-broker/env\env.prod.json:22:        "tls": false,
+Referance/dominus-broker/env\env.prod.json:23:        "username": "dominus",
+Referance/dominus-broker/env\entrypoint.sh:24:export APP_CONFIG="$(echo "$CONTENT" | tr -d '\n')"
+Referance/dominus-broker/terraform\dev\dominus\main.tf:16:  container_ports            = var.dominus_container_ports
+Referance/dominus-broker/terraform\main.tf:13:  dominus_container_ports            = var.dominus_server_container_ports
+Referance/dominus-broker/terraform\main.tf:26:  grafana_container_ports = var.grafana_server_container_ports
+Referance/dominus-broker/terraform\main.tf:34:  prometheus_container_ports = var.prometheus_server_container_ports
+Referance/dominus-broker/terraform\main.tf:44:  redis_container_ports = var.redis_server_container_ports
+Referance/dominus-broker/terraform\main.tf:50:  sidecar_container_ports = var.sidecar_server_container_ports
+Referance/dominus-broker/terraform\dev\sidecar\main.tf:14:  container_ports        = var.sidecar_container_ports
+Referance/dominus-broker/terraform\dev\sidecar\main.tf:19:  container_bind_mounts = [
+Referance/dominus-broker/terraform\dev\prometheus\main.tf:20:  container_ports        = var.prometheus_container_ports
+Referance/dominus-broker/terraform\dev\prometheus\main.tf:24:  container_bind_mounts = [
+Referance/dominus-broker/terraform\dev\grafana\main.tf:17:  container_ports        = var.grafana_container_ports
+Referance/dominus-broker/terraform\dev\dominus\variables.tf:17:variable "dominus_container_ports" {
+Referance/dominus-broker/terraform\dev\dominus\output.tf:10:output "dominus_container_ports" {
+Referance/dominus-broker/terraform\dev\dominus\output.tf:11:  value = jsonencode(var.dominus_container_ports)
+Referance/dominus-broker/terraform\dev\prometheus\outputs.tf:6:output "prometheus_container_ports" {
+Referance/dominus-broker/terraform\dev\prometheus\outputs.tf:7:  value = jsonencode(var.prometheus_container_ports)
+Referance/dominus-broker/terraform\dev\grafana\outputs.tf:6:output "grafana_container_ports" {
+Referance/dominus-broker/terraform\dev\grafana\outputs.tf:7:  value = jsonencode(var.grafana_container_ports)
+Referance/dominus-broker/terraform\dev\sidecar\nginx.conf:1:user nginx;
+Referance/dominus-broker/terraform\dev\grafana\variables.tf:22:variable "grafana_container_ports" {
+Referance/dominus-broker/terraform\dev\grafana\variables.tf:32:    "GF_SECURITY_ADMIN_PASSWORD=[REDACTED]",
+Referance/dominus-broker/terraform\dev\grafana\variables.tf:33:    "GF_SECURITY_ADMIN_USER=admin",
+Referance/dominus-broker/terraform\dev\grafana\variables.tf:38:  description = "KEY=value strings for the container (Grafana: GF_*). Use tfvars; marked sensitive for passwords."
+Referance/dominus-broker/terraform\dev\redis\main.tf:16:  container_ports        = var.redis_container_ports
+Referance/dominus-broker/terraform\dev\redis\main.tf:21:  container_bind_mounts = [
+Referance/dominus-broker/terraform\dev\redis\outputs.tf:5:output "redis_container_ports" {
+Referance/dominus-broker/terraform\dev\redis\outputs.tf:6:  value = jsonencode(var.redis_container_ports)
+Referance/dominus-broker/terraform\modules\container\main.tf:23:  dynamic "ports" {
+Referance/dominus-broker/terraform\modules\container\main.tf:24:    for_each = var.container_ports
+Referance/dominus-broker/terraform\modules\container\main.tf:26:      internal = ports.value.internal
+Referance/dominus-broker/terraform\modules\container\main.tf:27:      external = ports.value.external
+Referance/dominus-broker/terraform\modules\container\main.tf:32:    for_each = var.container_bind_mounts
+Referance/dominus-broker/terraform\dev\sidecar\variables.tf:12:variable "sidecar_container_ports" {
+Referance/dominus-broker/terraform\dev\sidecar\variables.tf:25:  default = ["NGINX_HOST=0.0.0.0", "NGINX_PORT=80", "NGINX_ENVSUBST_TEMPLATE_SUFFIX=.conf"]
+Referance/dominus-broker/terraform\dev\sidecar\outputs.tf:5:output "sidecar_container_ports" {
+Referance/dominus-broker/terraform\dev\sidecar\outputs.tf:6:  value = jsonencode(var.sidecar_container_ports)
+Referance/dominus-broker/terraform\dev\redis\variables.tf:22:variable "redis_container_ports" {
+Referance/dominus-broker/terraform\dev\redis\redis.conf:4:bind 0.0.0.0
+Referance/dominus-broker/terraform\dev\redis\redis.conf:6:port 6379
+Referance/dominus-broker/terraform\dev\redis\redis.conf:14:user dominus on >dominus allcommands allkeys
+Referance/dominus-broker/terraform\outputs.tf:10:output "dominus_ports" {
+Referance/dominus-broker/terraform\outputs.tf:11:  value = jsonencode(module.dominus_server.dominus_container_ports)
+Referance/dominus-broker/terraform\outputs.tf:25:output "grafana_container_ports" {
+Referance/dominus-broker/terraform\outputs.tf:26:  value = jsondecode(module.grafana_server.grafana_container_ports)
+Referance/dominus-broker/terraform\outputs.tf:40:output "redis_container_ports" {
+Referance/dominus-broker/terraform\outputs.tf:41:  value = jsondecode(module.redis_server.redis_container_ports)
+Referance/dominus-broker/terraform\outputs.tf:47:output "prometheus_container_ports" {
+Referance/dominus-broker/terraform\outputs.tf:48:  value = jsondecode(module.prometheus_server.prometheus_container_ports)
+Referance/dominus-broker/terraform\outputs.tf:62:output "sidecar_container_ports" {
+Referance/dominus-broker/terraform\outputs.tf:63:  value = jsondecode(module.sidecar_server.sidecar_container_ports)
+Referance/dominus-broker/terraform\dev\prometheus\variables.tf:14:  description = "Config file relative to this module directory; bind-mounted read-only"
+Referance/dominus-broker/terraform\dev\prometheus\variables.tf:28:variable "prometheus_container_ports" {
+Referance/dominus-broker/terraform\modules\container\variables.tf:9:variable "container_ports" {
+Referance/dominus-broker/terraform\modules\container\variables.tf:22:variable "container_bind_mounts" {
+Referance/dominus-broker/terraform\modules\container\variables.tf:29:  description = "Host path bind mounts (Compose `volumes` with a host path)"
+Referance/dominus-broker/terraform\modules\container\variables.tf:88:  description = "Consecutive failures needed to report unhealthy. Defaults to 0."
+Referance/dominus-broker/terraform\variables.tf:7:variable "dominus_server_container_ports" {
+Referance/dominus-broker/terraform\variables.tf:27:variable "grafana_server_container_ports" {
+Referance/dominus-broker/terraform\variables.tf:35:variable "redis_server_container_ports" {
+Referance/dominus-broker/terraform\variables.tf:44:variable "prometheus_server_container_ports" {
+Referance/dominus-broker/terraform\variables.tf:53:variable "sidecar_server_container_ports" {

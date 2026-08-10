@@ -1,0 +1,10 @@
+  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current
+                                 Dload  Upload  Total   Spent   Left   Speed
+  0      0   0      0   0      0      0      0                              0100      9 100      9   0      0    202      0                              0100      9 100      9   0      0    201      0                              0100      9 100      9   0      0    201      0                              0
+HTTP/1.1 200 OK
+Server: Dominus
+Date: Mon, 10 Aug 2026 15:58:11 GMT
+Content-Type: application/text
+Content-Length: 9
+
+Health ok
