@@ -75,6 +75,136 @@ El detector de carreras se incluyó porque una operación puede parecer correcta
 
 El criterio de análisis fue el siguiente: una prueba tiene un resultado esperado, una observación y una interpretación. Cuando la observación coincide con el criterio, se considera que el control funciona para ese escenario. Cuando difiere, se registra un hallazgo. Cuando el escenario no permite decidir si existe una política, se marca como inconcluso y no se presenta como vulnerabilidad confirmada.
 
+### Comandos utilizados para reproducir las conclusiones
+
+Los siguientes comandos muestran cómo se obtuvieron las salidas analizadas. En los ejemplos, `$EVIDENCE` representa la carpeta `Referance/security-evidence` y `$TOKEN_VALIDO` representa el token de laboratorio. Se utiliza una variable para no copiar credenciales directamente en el documento.
+
+#### Preparación del laboratorio
+
+```bash
+EVIDENCE="$PWD/Referance/security-evidence"
+docker image ls dominus-broker:security-lab
+docker ps --format 'table {{.Names}}\t{{.Ports}}\t{{.Networks}}'
+docker logs --tail=200 dominus-broker-lab 2>&1 \
+  | tee "$EVIDENCE/E21-broker-startup.txt"
+```
+
+Estos comandos confirmaron la imagen utilizada, los contenedores activos y los puertos HTTP, gRPC y Redis. El log de arranque se usó como evidencia de que el proceso estaba disponible antes de iniciar las pruebas.
+
+#### BE-01 y BE-02: autenticación
+
+```bash
+grpcurl -plaintext 127.0.0.1:5000 list 2>&1 \
+  | tee "$EVIDENCE/E23-BE01-no-token.txt"
+
+grpcurl -plaintext \
+  -H "x-api-key: token-invalido-de-laboratorio" \
+  127.0.0.1:5000 list 2>&1 \
+  | tee "$EVIDENCE/E25-BE01-invalid-token.txt"
+
+grpcurl -plaintext \
+  -H "x-api-key: $TOKEN_VALIDO" \
+  127.0.0.1:5000 list 2>&1 \
+  | tee "$EVIDENCE/E26-BE01-valid-token.txt"
+
+curl -i http://127.0.0.1:8000/health 2>&1 \
+  | tee "$EVIDENCE/E27-BE02-no-token.txt"
+
+curl -i -H 'x-api-key: token-invalido' \
+  http://127.0.0.1:8000/health 2>&1 \
+  | tee "$EVIDENCE/E28-BE02-invalid-token.txt"
+
+curl -i -H "x-api-key: $TOKEN_VALIDO" \
+  http://127.0.0.1:8000/health 2>&1 \
+  | tee "$EVIDENCE/E29-BE02-valid-health.txt"
+```
+
+La comparación de estas salidas permitió demostrar que HTTP responde `403 Forbidden` sin credenciales y `200 OK` con el token válido. En gRPC, la solicitud sin metadata produjo el `panic`, el token inválido produjo `Unauthenticated` y el token válido permitió listar los servicios. La diferencia entre ambos transportes fundamenta el hallazgo BE-01.
+
+La cabecera reenviada se comprobó con:
+
+```bash
+curl -i -H "x-api-key: $TOKEN_VALIDO" \
+  -H 'X-Forwarded-For: 10.0.0.10' \
+  http://127.0.0.1:8000/health 2>&1 \
+  | tee "$EVIDENCE/E30-BE02-forwarded-for.txt"
+```
+
+El `200 OK` obtenido mostró que esa cabecera no modificó la decisión de autenticación en el escenario probado.
+
+#### BE-03: concurrencia e idempotencia
+
+```bash
+CGO_ENABLED=1 go test -race -count=20 ./tests/security 2>&1 \
+  | tee "$EVIDENCE/E31-BE03-idempotencia.txt"
+```
+
+El comando ejecutó veinte rondas con veinte goroutines que utilizaron una misma clave. `-race` buscó carreras de datos y `-count=20` repitió el escenario. La salida mostró cantidades variables de solicitudes aceptadas, por lo que se comparó el resultado con la propiedad esperada de una sola aceptación por clave.
+
+#### BE-04: destino de loopback
+
+```bash
+nc -l 127.0.0.1 9000
+
+grpcurl -plaintext \
+  -H "x-api-key: $TOKEN_VALIDO" \
+  -d '{"destination":"127.0.0.1:9000"}' \
+  127.0.0.1:5000 dominus.BrokerAPI/ServerStream 2>&1 \
+  | tee "$EVIDENCE/E34-BE04-loopback.txt"
+
+docker logs --tail=500 dominus-broker-lab 2>&1 \
+  | tee "$EVIDENCE/E34-BE04-broker-log.txt"
+```
+
+El receptor limitado a loopback y los logs permitieron comprobar que el broker intentó abrir la conexión. Como el laboratorio no probó destinos externos, este comando no se utilizó para afirmar que existe una allowlist completa.
+
+#### BE-05: payloads, streams y memoria
+
+```bash
+docker stats --no-stream
+go run ./be05_stream_probe.go 20 2>&1 \
+  | tee "$EVIDENCE/E35-BE05-streams.txt"
+docker stats --no-stream \
+  | tee "$EVIDENCE/E35-BE05-stats-after.txt"
+```
+
+Los payloads de 1 KiB, 64 KiB, 1 MiB y 4 MiB se registraron en `E35-BE05-payloads.txt`. El probe de streams abrió como máximo veinte conexiones. La comparación de las salidas con `docker stats` permitió verificar el límite de 4 MiB, los timeouts y que el proceso permaneció vivo.
+
+#### BE-06 y BE-07: transporte y Redis
+
+```bash
+grep -RniE 'tls|plaintext|insecure|certificate|ca' . --exclude-dir=.git \
+  | tee "$EVIDENCE/E32-BE06-tls-config.txt"
+grpcurl -plaintext 127.0.0.1:5000 list 2>&1 \
+  | tee "$EVIDENCE/E32-BE06-transport.txt"
+grpcurl -insecure 127.0.0.1:5000 list 2>&1 \
+  | tee -a "$EVIDENCE/E32-BE06-transport.txt"
+
+docker ps --format 'table {{.Names}}\t{{.Ports}}\t{{.Networks}}' \
+  | tee "$EVIDENCE/E33-BE07-containers.txt"
+docker port redis
+docker exec redis redis-cli --user dominus -a "$REDIS_PASSWORD" ping \
+  | tee "$EVIDENCE/E33-BE07-redis-checks.txt"
+docker exec redis redis-cli -n 1 TTL 'idempotency:be07-ttl-check' \
+  | tee -a "$EVIDENCE/E33-BE07-redis-checks.txt"
+```
+
+La consulta de configuración no sustituyó las pruebas de conexión. `grpcurl` demostró el transporte efectivo; `docker port` mostró si Redis estaba publicado al host; `PING` comprobó autenticación; y `TTL` verificó la expiración de la clave de idempotencia.
+
+#### CL-01 a CL-06: pruebas del SDK
+
+```bash
+cd Referance/dominus-sdk
+go test -v ./dominus/security -run TestTLS 2>&1 | tee "$EVIDENCE/E34-CL01-tls.txt"
+go test -v ./dominus/security -run TestMetadata 2>&1 | tee "$EVIDENCE/E35-CL02-metadata.txt"
+go test -v ./dominus/security -run TestDestinations 2>&1 | tee "$EVIDENCE/E36-CL03-destinations.txt"
+go test -v ./dominus/security -run TestTimeout 2>&1 | tee "$EVIDENCE/E36-CL04-timeout.txt"
+go test -v ./dominus/security -run TestSerializationError 2>&1 | tee "$EVIDENCE/E37-CL05-serialization.txt"
+go test -v ./dominus/security -run TestConnectionLifecycle 2>&1 | tee "$EVIDENCE/E38-CL06-connections.txt"
+```
+
+Cada prueba levanta un servidor local de prueba. `TestTLS` compara certificados; `TestMetadata` observa la presencia de credenciales sin registrar su valor; `TestDestinations` compara formatos permitidos y rechazados; `TestTimeout` bloquea la respuesta; `TestSerializationError` provoca un error de JSON; y `TestConnectionLifecycle` compara las goroutines antes y después de varias operaciones. Por ello, estas salidas respaldan las conclusiones CL-01 a CL-06.
+
 ## 5. Resultados del backend `dominus-broker`
 
 ### BE-01. Autenticación gRPC y manejo de solicitudes sin token
@@ -546,7 +676,9 @@ Confirmación del síntoma: la prueba observó un incremento elevado. No es sufi
 
 Corrección: `Referance/dominus-sdk/dominus/broker_client_conn.go` y `broker_client_factory.go`. Exponer un cliente reutilizable con `Close`, definir quién posee cada `ClientConn` y asegurar que los errores y timeouts liberen recursos. Repetir la prueba con varias duraciones y perfiles antes de cerrar el hallazgo.
 
-## 8. Hallazgos priorizados
+## 8. Hallazgos principales y trazabilidad de correcciones
+
+Para reducir la extensión del análisis, se seleccionaron tres hallazgos principales del backend y tres del SDK. La selección se basa en el efecto observable y en la posibilidad de reproducir cada problema. Las demás pruebas se mantienen como controles complementarios en las secciones anteriores.
 
 | ID | Severidad | Hallazgo | Evidencia principal |
 |---|---|---|---|
@@ -557,29 +689,117 @@ Corrección: `Referance/dominus-sdk/dominus/broker_client_conn.go` y `broker_cli
 | H-05 | Media | El SDK no expone claramente el cierre de conexiones y la prueba observó un crecimiento elevado de goroutines. | `E38-CL06-connections.txt` |
 | H-06 | Media | La validación de destinos del SDK acepta una ruta en una entrada que debería ser host:puerto. | `E36-CL03-destinations.txt`; `broker_client_factory.go:67,72` |
 
-### H-01. Fallo de autenticación gRPC con ausencia de metadata
+### H-01. El middleware gRPC termina el backend cuando falta el token
 
-La evidencia exacta es el `panic` de `E23-BE01-no-token.txt`, seguido por la indisponibilidad registrada en `E24-BE01-health-after-no-token.txt`. El impacto es una denegación de servicio provocada por una solicitud sin credenciales. La corrección debe validar la existencia del encabezado y devolver `Unauthenticated` sin indexar una colección vacía. También debe existir una prueba automatizada para metadata ausente, metadata vacía y múltiples valores.
+**Componente y ruta evaluada.** Backend `dominus-broker`; listener gRPC `127.0.0.1:5000`, consulta de reflexión `list`, sin encabezado `x-api-key`. El problema se encuentra en `Referance/dominus-broker/internal/infrastructure/grpc/middlewares/middlewares.go:48`, dentro del middleware de autenticación que se ejecuta antes de los métodos gRPC protegidos.
 
-### H-02. Idempotencia no atómica
+**Cómo se analizó.** Se ejecutó `grpcurl -plaintext 127.0.0.1:5000 list` sin token y después se consultó `/health` para comprobar si el proceso seguía disponible.
 
-La evidencia muestra variación en el número de solicitudes aceptadas y ausencia de carreras de memoria. Esto distingue un defecto de sincronización de un data race tradicional. La corrección debe mover la decisión a una operación atómica en Redis y hacer que el resultado de esa operación determine si el mensaje continúa.
+La evidencia exacta es el `panic` de `E23-BE01-no-token.txt`, seguido por la indisponibilidad registrada en `E24-BE01-health-after-no-token.txt`:
 
-### H-03. Transporte sin TLS
+```text
+panic: runtime error: index out of range [0] with length 0
+middlewares.go:48
+Failed to connect to 127.0.0.1 port 8000
+```
 
-El broker acepta explícitamente plaintext y rechaza el intento TLS. El impacto es exposición de tokens, metadatos y mensajes. La solución debe configurar TLS en HTTP y gRPC, verificar CA y nombre del servidor, y fallar al arrancar cuando falta un certificado requerido. Si se mantiene plaintext solo para desarrollo, debe quedar limitado a loopback mediante configuración separada.
+**Interpretación y riesgo.** El resultado esperado era `Unauthenticated` y la continuidad del proceso. El resultado real confirma una denegación de servicio provocada por una solicitud sin credenciales. No hace falta conocer el token: basta con alcanzar el puerto gRPC. Esto es importante porque un middleware de autenticación debe rechazar entradas inválidas sin convertirse en el origen de una caída.
 
-### H-04. Error de serialización oculto
+**Corrección.** En `middlewares.go:48`, comprobar que la metadata contiene `x-api-key` y que el arreglo tiene al menos un valor antes de leerlo. Devolver `status.Error(codes.Unauthenticated, "missing api key")` y agregar una prueba de regresión que consulte `/health` después de una solicitud sin token.
 
-El SDK envía una solicitud con longitud cero después de que `json.Marshal` falla. Esto puede provocar mensajes inválidos, pérdida silenciosa de datos o comportamiento diferente entre operaciones. La corrección es devolver el error de serialización y no llamar al broker.
+### H-02. La idempotencia no es atómica bajo concurrencia
 
-### H-05. Ciclo de vida de conexiones
+**Componente y ruta evaluada.** Backend `dominus-broker`; flujo de suscripción del servicio gRPC `dominus.BrokerAPI`, en particular el método `ServerStream`, donde se valida el consumidor y se registra la clave de idempotencia antes de continuar con la operación.
 
-El crecimiento observado no basta por sí solo para afirmar una fuga permanente, pero sí justifica una revisión. El SDK debería compartir conexiones cuando corresponda, documentar quién es su propietario y exponer `Close` o un mecanismo equivalente. La prueba debe repetirse con varias duraciones y perfiles de goroutines.
+**Cómo se analizó.** Se ejecutó `CGO_ENABLED=1 go test -race -count=20 ./tests/security`, con veinte goroutines compartiendo una misma clave de idempotencia.
 
-### H-06. Validación de destinos
+La evidencia muestra variación en el número de solicitudes aceptadas y ausencia de carreras de memoria:
 
-La aceptación de `hostname.test/path` indica que la expresión de validación no modela exactamente el formato permitido. El arreglo debe validar estructura, rango de puerto, esquema si aplica y política de destinos. En el broker debe existir una defensa independiente del SDK, porque el cliente no es una frontera de confianza.
+```text
+accepted=20 total=20
+accepted=3 total=20
+rpc error: code = Aborted desc = rate limit reached
+```
+
+**Interpretación y riesgo.** El resultado esperado era una sola aceptación y diecinueve rechazos identificables como duplicados. El resultado observado demuestra que varias solicitudes pueden pasar la comprobación al mismo tiempo. Esto importa porque un reintento legítimo del cliente puede producir dos efectos de negocio, como dos publicaciones o dos consumos. `-race` no reportó una carrera de memoria, pero ese resultado no garantiza que la secuencia de negocio sea atómica.
+
+**Corrección.** El flujo que actualmente se encuentra en `Referance/dominus-broker/internal/infrastructure/grpc/middlewares/middlewares.go:101-109` debe usar una reserva atómica en `Referance/dominus-broker/internal/infrastructure/redis/cchecker/outbound.go:55`, por ejemplo `SET key value NX EX 10`. Si la clave existe, el broker debe devolver un código específico de duplicado y no continuar hacia `ServerStream`. La prueba debe exigir exactamente una aceptación en todas las rondas.
+
+### H-03. El backend acepta tráfico en texto plano
+
+**Componente y ruta evaluada.** Backend `dominus-broker`; listener HTTP `127.0.0.1:8000/health` y listener gRPC `127.0.0.1:5000`, consultado mediante reflexión.
+
+**Cómo se analizó.** Se revisó la configuración y se compararon `grpcurl -plaintext`, `grpcurl -insecure` y una solicitud HTTPS al puerto HTTP.
+
+El broker acepta explícitamente plaintext y rechaza el intento TLS:
+
+```text
+grpcurl -plaintext: servicios listados correctamente
+grpcurl -insecure: tls: first record does not look like a TLS handshake
+curl https://127.0.0.1:8000/health: TLS handshake failed
+```
+
+**Interpretación y riesgo.** El resultado esperado en producción era una conexión TLS válida y el rechazo de conexiones que no pudieran verificar el certificado. El resultado real confirma que el token, los metadatos y los mensajes viajan sin cifrado en la configuración del laboratorio. La autenticación no reemplaza TLS: saber quién presentó un token no impide que un intermediario lo lea.
+
+**Corrección.** Revisar la configuración de listeners en `Referance/dominus-broker/internal/bootstraps/bootstraps.go` y la incorporación de certificados en la imagen Docker. El modo de producción debe fallar durante el arranque si falta el certificado o la clave. Si plaintext se conserva para desarrollo, debe quedar separado por configuración y restringido a loopback. La prueba debe repetirse con CA válida, CA incorrecta, nombre incorrecto y certificado ausente.
+
+### H-04. El SDK oculta errores de serialización y envía un payload vacío
+
+**Componente y ruta evaluada.** SDK `dominus-sdk`; métodos de envío implementados en `Referance/dominus-sdk/dominus/broker_client_services.go:25` y `:50`.
+
+**Cómo se analizó.** Se ejecutó `go test -v ./dominus/security -run TestSerializationError` con un cuerpo que no podía serializarse a JSON.
+
+El SDK envía una solicitud con longitud cero después de que `json.Marshal` falla:
+
+```text
+send_error=<nil>
+send_called=true
+payload_length=0
+FAIL: serialization error was ignored
+```
+
+**Interpretación y riesgo.** El resultado esperado era un error no nulo y `send_called=false`. El resultado real confirma que el SDK continúa como si la solicitud fuera válida. Esto puede producir mensajes vacíos, pérdida silenciosa de información o diferencias entre operaciones que consumen el payload.
+
+**Corrección.** En `broker_client_services.go:25` y `:50`, conservar el error de `json.Marshal`, devolverlo al consumidor y detener la invocación gRPC. La prueba debe comprobar ambas condiciones: error informado y servidor no invocado.
+
+### H-05. El SDK no demuestra un ciclo de vida seguro para sus conexiones
+
+**Componente y ruta evaluada.** SDK `dominus-sdk`; creación de conexiones en `Referance/dominus-sdk/dominus/broker_client_conn.go:26-46` y fábricas de clientes que la invocan.
+
+**Cómo se analizó.** Se ejecutó `go test -v ./dominus/security -run TestConnectionLifecycle`, realizando veinte operaciones y comparando las goroutines antes y después.
+
+El crecimiento observado fue el siguiente:
+
+```text
+operations=20
+goroutines_before=3
+goroutines_after=163
+delta=160
+FAIL: connection lifecycle threshold exceeded
+```
+
+**Interpretación y riesgo.** El resultado esperado era que las operaciones reutilizaran la conexión o que la prueba pudiera cerrarla explícitamente. El incremento no permite afirmar por sí solo una fuga permanente, pero sí muestra que el SDK no ofrece un ciclo de vida verificable. Si una aplicación crea clientes repetidamente, el efecto puede ser agotamiento gradual de goroutines, memoria o descriptores.
+
+**Corrección.** Revisar `broker_client_conn.go:26-46` y `broker_client_factory.go`. El SDK debe documentar la propiedad de cada `ClientConn`, reutilizar conexiones cuando corresponda y exponer `Close`. La prueba debe repetirse con varias duraciones y perfiles de goroutines antes de cerrar el hallazgo.
+
+### H-06. El SDK acepta destinos con un formato no previsto
+
+**Componente y ruta evaluada.** SDK `dominus-sdk`; fábricas de conexiones en `Referance/dominus-sdk/dominus/broker_client_factory.go:67,72`, `sqs_client_factory.go:61` y reglas de validación en `rules.go`.
+
+**Cómo se analizó.** Se ejecutó `go test -v ./dominus/security -run TestDestinations` con destinos válidos, puertos fuera de rango y una entrada con ruta.
+
+La salida incluyó:
+
+```text
+127.0.0.1:5000 accepted
+hostname.test:5000 rejected
+hostname.test:99999 rejected
+hostname.test/path accepted
+```
+
+**Interpretación y riesgo.** El resultado esperado era aceptar únicamente una dirección con host y puerto. La aceptación de una ruta confirma que la validación permite un formato más amplio que el contrato. No demuestra por sí sola una SSRF contra un servicio real, pero sí identifica una entrada ambigua que podría influir en conexiones no previstas si llega desde configuración o datos externos.
+
+**Corrección.** En las fábricas indicadas, usar `net.SplitHostPort`, validar el rango 1-65535, rechazar rutas y aplicar una allowlist. La misma validación debe existir en el broker, porque un cliente alternativo puede llamar directamente al servicio y no pasar por el SDK.
 
 ## 9. Recomendaciones para una siguiente iteración
 

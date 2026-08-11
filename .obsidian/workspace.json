@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Actividad-03-Pruebas-de-la-herramienta/Actividad-03-Analisis-ciberseguridad.md",
+                "file": "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Actividad-03-Pruebas-de-la-herramienta/Actividad-03-Reporte-ciberseguridad.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Actividad-03-Analisis-ciberseguridad"
+              "title": "Actividad-03-Reporte-ciberseguridad"
             }
           }
         ]
@@ -90,7 +90,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 267.5
+    "width": 415.5
   },
   "right": {
     "id": "a25b807ad639ff42",
@@ -193,6 +193,8 @@
   "active": "925180f11cd5367e",
   "lastOpenFiles": [
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Actividad-03-Pruebas-de-la-herramienta/Guia_Ciberseguridad_Dominus_Bash_Expandida.md",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Actividad-03-Pruebas-de-la-herramienta/Actividad-03-Reporte-ciberseguridad.md",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Actividad-03-Pruebas-de-la-herramienta/guia-intensiva-analisis-ciberseguridad-dominus.md",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Actividad-03-Pruebas-de-la-herramienta/Actividad-03-Analisis-ciberseguridad.md",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/security-evidence/E31-BE03-idempotencia.txt",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/security-evidence/E38-CL06-analysis.md",
@@ -226,8 +228,6 @@
     "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/14-Resumen-02.md",
     "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/15-Elemento-de-ux.md",
     "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/16-Disciplinas-processo-de-diseño-ux.md",
-    "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/17-Entregables-UX.md",
-    "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/18-Resumen-3.md",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-broker/doc/images/2026-07-17 153117.png",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-broker/doc/images/2026-07-17 153124.png",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-broker/doc/images/2026-07-17 150918.png",
