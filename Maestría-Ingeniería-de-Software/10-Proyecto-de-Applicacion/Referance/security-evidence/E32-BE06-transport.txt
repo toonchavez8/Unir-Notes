@@ -1,0 +1,30 @@
+BE-06 effective transport probe
+Timestamp: 
+2026-08-10T12:53:09.7330692-06:00
+--- plaintext gRPC ---
+dominus.BrokerAPI
+dominus.SqsAPI
+grpc.reflection.v1.ServerReflection
+grpc.reflection.v1alpha.ServerReflection
+
+--- TLS with insecure verification ---
+Failed to dial target host "127.0.0.1:5000": tls: first record does not look like a TLS handshake
+
+--- HTTPS monitor ---
+curl: (35) TLS connect error: error:1400442E:SSL routines:CONNECT_CR_SRVR_HELLO:tlsv1 alert protocol version
+
+--- HTTP monitor ---
+  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current
+                                 Dload  Upload  Total   Spent   Left   Speed
+
+  0      0   0      0   0      0      0      0                              0
+100     21 100     21   0      0   5523      0                              0
+100     21 100     21   0      0   5271      0                              0
+100     21 100     21   0      0   5071      0                              0
+HTTP/1.1 403 Forbidden
+Server: Dominus
+Date: Mon, 10 Aug 2026 18:53:10 GMT
+Content-Type: application/text
+Content-Length: 21
+
+failed to match token

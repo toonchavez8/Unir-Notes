@@ -1,0 +1,5 @@
+=== RUN   TestMetadata
+    security_test.go:237: x-api-key present=true length=13 idempotency-header present=true
+--- PASS: TestMetadata (0.00s)
+PASS
+ok  	github.com/MBI-88/dominus-sdk/dominus/security	1.347s

@@ -1,0 +1,23 @@
+=== RUN   TestDestinations
+=== RUN   TestDestinations/loopback-valid-syntax
+    security_test.go:261: destination=127.0.0.1:5000 accepted=true expected_syntax_accept=true error_len=0
+=== RUN   TestDestinations/hostname-with-port
+    security_test.go:261: destination=hostname.test:5000 accepted=false expected_syntax_accept=false error_len=22
+=== RUN   TestDestinations/hostname-invalid-port-shape
+    security_test.go:261: destination=hostname.test:99999 accepted=false expected_syntax_accept=false error_len=22
+=== RUN   TestDestinations/hostname-path
+    security_test.go:261: destination=hostname.test/path accepted=true expected_syntax_accept=false error_len=0
+    security_test.go:263: unexpected destination validation result
+=== RUN   TestDestinations/loopback-no-allowlist
+    security_test.go:261: destination=127.0.0.1:5000 accepted=true expected_syntax_accept=true error_len=0
+=== NAME  TestDestinations
+    security_test.go:267: authorization=not implemented as a separate allowlist; syntax validation is not authorization
+--- FAIL: TestDestinations (0.00s)
+    --- PASS: TestDestinations/loopback-valid-syntax (0.00s)
+    --- PASS: TestDestinations/hostname-with-port (0.00s)
+    --- PASS: TestDestinations/hostname-invalid-port-shape (0.00s)
+    --- FAIL: TestDestinations/hostname-path (0.00s)
+    --- PASS: TestDestinations/loopback-no-allowlist (0.00s)
+FAIL
+FAIL	github.com/MBI-88/dominus-sdk/dominus/security	1.574s
+FAIL

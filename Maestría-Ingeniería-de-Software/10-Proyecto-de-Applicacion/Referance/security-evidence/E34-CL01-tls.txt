@@ -1,0 +1,16 @@
+=== RUN   TestTLS
+=== RUN   TestTLS/valid_CA_and_SAN
+    security_test.go:182: case=valid-ca-san result=success panic=false
+=== RUN   TestTLS/wrong_CA
+    security_test.go:193: case=wrong-ca result=rejected panic=true error_class="Unknown"
+=== RUN   TestTLS/wrong_server_name
+    security_test.go:203: case=wrong-san result=rejected panic=true error_len=199
+=== RUN   TestTLS/missing_CA
+    security_test.go:214: case=missing-ca result=initialization-error panic=true error_len=121
+--- PASS: TestTLS (0.51s)
+    --- PASS: TestTLS/valid_CA_and_SAN (0.01s)
+    --- PASS: TestTLS/wrong_CA (0.32s)
+    --- PASS: TestTLS/wrong_server_name (0.02s)
+    --- PASS: TestTLS/missing_CA (0.00s)
+PASS
+ok  	github.com/MBI-88/dominus-sdk/dominus/security	1.864s

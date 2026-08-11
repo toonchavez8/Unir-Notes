@@ -1,0 +1,29 @@
+BE-05 stream probe
+Address: 127.0.0.1:5000
+Payload: {"id":1,"role":"test","case":"BE-05"}
+Connections requested: 20
+Per-stream timeout: 1.5s
+
+stream=20 latencia=1.5001941s codigo=DeadlineExceeded error="rpc error: code = DeadlineExceeded desc = context deadline exceeded"
+stream=19 latencia=1.500086s codigo=DeadlineExceeded error="rpc error: code = DeadlineExceeded desc = context deadline exceeded"
+stream=17 latencia=1.500086s codigo=DeadlineExceeded error="rpc error: code = DeadlineExceeded desc = context deadline exceeded"
+stream=18 latencia=1.500086s codigo=DeadlineExceeded error="rpc error: code = DeadlineExceeded desc = context deadline exceeded"
+stream=16 latencia=1.500086s codigo=DeadlineExceeded error="rpc error: code = DeadlineExceeded desc = context deadline exceeded"
+stream=02 latencia=1.500086s codigo=DeadlineExceeded error="rpc error: code = DeadlineExceeded desc = context deadline exceeded"
+stream=05 latencia=1.5006424s codigo=DeadlineExceeded error="rpc error: code = DeadlineExceeded desc = context deadline exceeded"
+stream=04 latencia=1.5001122s codigo=DeadlineExceeded error="rpc error: code = DeadlineExceeded desc = context deadline exceeded"
+stream=10 latencia=1.5006424s codigo=DeadlineExceeded error="rpc error: code = DeadlineExceeded desc = context deadline exceeded"
+stream=03 latencia=1.5001122s codigo=DeadlineExceeded error="rpc error: code = DeadlineExceeded desc = context deadline exceeded"
+stream=01 latencia=1.5006424s codigo=DeadlineExceeded error="rpc error: code = DeadlineExceeded desc = context deadline exceeded"
+stream=06 latencia=1.5006424s codigo=DeadlineExceeded error="rpc error: code = DeadlineExceeded desc = context deadline exceeded"
+stream=14 latencia=1.5006424s codigo=DeadlineExceeded error="rpc error: code = DeadlineExceeded desc = context deadline exceeded"
+stream=15 latencia=1.5006424s codigo=DeadlineExceeded error="rpc error: code = DeadlineExceeded desc = context deadline exceeded"
+stream=12 latencia=1.5013073s codigo=DeadlineExceeded error="rpc error: code = DeadlineExceeded desc = context deadline exceeded"
+stream=11 latencia=1.5013073s codigo=DeadlineExceeded error="rpc error: code = DeadlineExceeded desc = context deadline exceeded"
+stream=13 latencia=1.5013073s codigo=DeadlineExceeded error="rpc error: code = DeadlineExceeded desc = context deadline exceeded"
+stream=07 latencia=1.5013073s codigo=DeadlineExceeded error="rpc error: code = DeadlineExceeded desc = context deadline exceeded"
+stream=09 latencia=1.5020187s codigo=DeadlineExceeded error="rpc error: code = DeadlineExceeded desc = context deadline exceeded"
+stream=08 latencia=1.5020187s codigo=DeadlineExceeded error="rpc error: code = DeadlineExceeded desc = context deadline exceeded"
+
+Total latency: 1.5064286s
+All streams closed by client context: yes

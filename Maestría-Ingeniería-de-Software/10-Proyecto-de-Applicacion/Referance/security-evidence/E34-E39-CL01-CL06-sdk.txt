@@ -1,0 +1,50 @@
+=== RUN   TestTLS
+=== RUN   TestTLS/valid_CA_and_SAN
+    security_test.go:182: case=valid-ca-san result=success panic=false
+=== RUN   TestTLS/wrong_CA
+    security_test.go:193: case=wrong-ca result=rejected panic=true error_class="Unknown"
+=== RUN   TestTLS/wrong_server_name
+    security_test.go:203: case=wrong-san result=rejected panic=true error_len=199
+=== RUN   TestTLS/missing_CA
+    security_test.go:214: case=missing-ca result=initialization-error panic=true error_len=121
+--- PASS: TestTLS (0.50s)
+    --- PASS: TestTLS/valid_CA_and_SAN (0.01s)
+    --- PASS: TestTLS/wrong_CA (0.37s)
+    --- PASS: TestTLS/wrong_server_name (0.00s)
+    --- PASS: TestTLS/missing_CA (0.00s)
+=== RUN   TestMetadata
+    security_test.go:237: x-api-key present=true length=13 idempotency-header present=true
+--- PASS: TestMetadata (0.00s)
+=== RUN   TestDestinations
+=== RUN   TestDestinations/loopback-valid-syntax
+    security_test.go:261: destination=127.0.0.1:5000 accepted=true expected_syntax_accept=true error_len=0
+=== RUN   TestDestinations/hostname-with-port
+    security_test.go:261: destination=hostname.test:5000 accepted=false expected_syntax_accept=false error_len=22
+=== RUN   TestDestinations/hostname-invalid-port-shape
+    security_test.go:261: destination=hostname.test:99999 accepted=false expected_syntax_accept=false error_len=22
+=== RUN   TestDestinations/hostname-path
+    security_test.go:261: destination=hostname.test/path accepted=true expected_syntax_accept=false error_len=0
+    security_test.go:263: unexpected destination validation result
+=== RUN   TestDestinations/loopback-no-allowlist
+    security_test.go:261: destination=127.0.0.1:5000 accepted=true expected_syntax_accept=true error_len=0
+=== NAME  TestDestinations
+    security_test.go:267: authorization=not implemented as a separate allowlist; syntax validation is not authorization
+--- FAIL: TestDestinations (0.00s)
+    --- PASS: TestDestinations/loopback-valid-syntax (0.00s)
+    --- PASS: TestDestinations/hostname-with-port (0.00s)
+    --- PASS: TestDestinations/hostname-invalid-port-shape (0.00s)
+    --- FAIL: TestDestinations/hostname-path (0.00s)
+    --- PASS: TestDestinations/loopback-no-allowlist (0.00s)
+=== RUN   TestTimeout
+    security_test.go:285: result=timeout elapsed=2.000473s sdk_context_control=not-exposed
+--- PASS: TestTimeout (2.00s)
+=== RUN   TestSerializationError
+    security_test.go:300: marshal_error_input=function send_error=<nil> send_called=true payload_length=0
+--- PASS: TestSerializationError (0.01s)
+=== RUN   TestConnectionLifecycle
+    security_test.go:323: operations=20 before_goroutines=38 after_goroutines=198 delta=160 server_requests=20
+    security_test.go:325: unexpected goroutine growth: delta=160
+--- FAIL: TestConnectionLifecycle (0.27s)
+FAIL
+FAIL	github.com/MBI-88/dominus-sdk/dominus/security	4.792s
+FAIL

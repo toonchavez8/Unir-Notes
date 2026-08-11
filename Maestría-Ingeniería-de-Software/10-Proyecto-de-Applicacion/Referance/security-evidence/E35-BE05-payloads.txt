@@ -1,0 +1,54 @@
+BE-05 payload probe
+Timestamp: 
+2026-08-10T12:52:22.6783070-06:00
+--- docker stats before ---
+CONTAINER ID   NAME                 CPU %     MEM USAGE / LIMIT     MEM %     NET I/O           BLOCK I/O         PIDS
+7a81fbb56e90   dominus-broker-lab   0.02%     56.8MiB / 15.48GiB    0.36%     1.48MB / 1.52MB   13.6MB / 8.19kB   13
+680b3449867b   redis                0.39%     5.992MiB / 15.48GiB   0.04%     1.51MB / 18.2kB   12.1MB / 8.19kB   6
+
+Payload: 
+1024
+ bytes
+Latency: 
+00:00:00.1870940
+ExitCode: 
+0
+{}
+Process alive: yes
+
+Payload: 
+65536
+ bytes
+Latency: 
+00:00:00.5317922
+ExitCode: 
+0
+{}
+Process alive: yes
+
+Payload: 
+1048576
+ bytes
+Latency: 
+00:00:00.2070366
+ExitCode: 
+0
+{}
+Process alive: yes
+
+Payload: 
+4194304
+ bytes
+Latency: 
+00:00:00.2266809
+ExitCode: 
+72
+ERROR:
+  Code: ResourceExhausted
+  Message: grpc: received message larger than max (4194309 vs. 4194304)
+Process alive: yes
+
+--- docker stats after ---
+CONTAINER ID   NAME                 CPU %     MEM USAGE / LIMIT     MEM %     NET I/O           BLOCK I/O         PIDS
+7a81fbb56e90   dominus-broker-lab   0.02%     60.01MiB / 15.48GiB   0.38%     2.67MB / 3.03MB   13.6MB / 8.19kB   13
+680b3449867b   redis                0.48%     8.723MiB / 15.48GiB   0.06%     3MB / 20.2kB      12.1MB / 8.19kB   6
