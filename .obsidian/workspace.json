@@ -188,55 +188,6 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "floating": {
-    "id": "ca177783d8b5ef63",
-    "type": "floating",
-    "children": [
-      {
-        "id": "6d96aa3b44dbb3c7",
-        "type": "window",
-        "children": [
-          {
-            "id": "e46a1b6c939e9c44",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "0fd13e5a8ca9303f",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Actividad-03-Pruebas-de-la-herramienta/Guia_Ciberseguridad_Dominus_Bash_Expandida.md",
-                    "mode": "preview",
-                    "source": false,
-                    "backlinks": true,
-                    "backlinkOpts": {
-                      "collapseAll": false,
-                      "extraContext": false,
-                      "sortOrder": "alphabetical",
-                      "showSearch": false,
-                      "searchQuery": "",
-                      "backlinkCollapsed": false,
-                      "unlinkedCollapsed": true
-                    }
-                  },
-                  "icon": "lucide-file",
-                  "title": "Guia_Ciberseguridad_Dominus_Bash_Expandida"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 753,
-        "y": 5,
-        "width": 1162,
-        "height": 1022,
-        "maximize": false,
-        "zoom": 1
-      }
-    ]
-  },
   "active": "ff1f8dac86986871",
   "lastOpenFiles": [
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Actividad-03-Pruebas-de-la-herramienta/Guia_Ciberseguridad_Dominus_Bash_Expandida.md",
