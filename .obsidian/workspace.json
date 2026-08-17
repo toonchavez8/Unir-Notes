@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "57e57c0768d43a0a",
+        "id": "571fa01ad193d0e4",
         "type": "tabs",
         "children": [
           {
-            "id": "ff1f8dac86986871",
+            "id": "925180f11cd5367e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Actividad-03-Pruebas-de-la-herramienta/Actividad-03-Reporte-ciberseguridad.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -69,7 +69,7 @@
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
-                "extraContext": false,
+                "extraContext": true,
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
@@ -90,7 +90,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 391.5
+    "width": 415.5
   },
   "right": {
     "id": "a25b807ad639ff42",
@@ -152,27 +152,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Maestría-Ingeniería-de-Software/02-Metologias-Desarollo-y-Calidad/Actividades/Actividad_02/mexissi01_act2.docx",
+                "file": "Maestría-Ingeniería-de-Software/06-Plataforma-desarrollo-software/Actividades/Actividad_03/Guia-paso.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of mexissi01_act2"
-            }
-          },
-          {
-            "id": "488ed5c54d6f83e9",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "title": "Outline of Guia-paso"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -181,72 +171,73 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "open-vscode:VS Code": false,
       "open-in-zed:Open vault in Zed": false,
-      "vscode-editor:Create Code File": false,
+      "open-vscode:VS Code": false,
       "bases:Create new base": false,
       "markdown-importer:Open format converter": false,
       "audio-recorder:Start/stop recording": false,
-      "code-files:Create Code File": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-git:Open Git source control": false,
       "callout-manager:Insert Callout": false,
+      "code-files:Create Code File": false,
+      "obsidian-git:Open Git source control": false,
+      "mermaid-tools:Open Mermaid Toolbar": false,
       "omnisearch:Omnisearch": false,
-      "mermaid-tools:Open Mermaid Toolbar": false
+      "vscode-editor:Create Code File": false
     }
   },
-  "active": "ff1f8dac86986871",
+  "active": "925180f11cd5367e",
   "lastOpenFiles": [
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Actividad-03-Pruebas-de-la-herramienta/Actividad-03-Analisis-ciberseguridad.md",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Actividad-03-Pruebas-de-la-herramienta/Guia_Ciberseguridad_Dominus_Bash_Expandida.md",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Actividad-03-Pruebas-de-la-herramienta/Actividad-03-Reporte-ciberseguridad.md",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/security-evidence/E22-BE01-health-before.txt",
-    "conflict-files-obsidian-git.md",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/security-evidence/E35-BE05-payloads.txt",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/security-evidence/E35-BE05-analysis.md",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/security-evidence/E34-E39-CL01-CL06-sdk.txt",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Actividad-03-Pruebas-de-la-herramienta/guia-intensiva-analisis-ciberseguridad-dominus.md",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Actividad-03-Pruebas-de-la-herramienta/Actividad-03-Analisis-ciberseguridad.md",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/security-evidence/E31-BE03-idempotencia.txt",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/security-evidence/E38-CL06-analysis.md",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/security-evidence/E38-CL06-connections.txt",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/security-evidence/E34-CL01-tls.txt",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/security-evidence/E34-CL01-analysis.md",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/security-evidence/E34-BE04-observation.txt",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/security-evidence/E34-BE04-loopback.txt",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/security-evidence/E31-BE03-idempotencia.txt",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/security-evidence/E37-CL05-analysis.md",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/security-evidence/E36-CL04-analysis.md",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/security-evidence/E36-CL03-analysis.md",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/security-evidence/E35-CL02-analysis.md",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/security-evidence/E37-CL05-serialization.txt",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/security-evidence/E36-CL04-timeout.txt",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/security-evidence/E36-CL03-destinations.txt",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/security-evidence/E35-CL02-metadata.txt",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/security-evidence/E34-E39-CL01-CL06-sdk.txt",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-sdk/dominus/security/security_test.go",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-sdk/dominus/security",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/security-evidence/E37-BE07-analysis.md",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/security-evidence/E36-BE06-analysis.md",
+    "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/12-Aspectos-sociales.md",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/security-evidence/E35-BE05-analysis.md",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/security-evidence/E34-BE04-analysis.md",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/security-evidence/E31-BE03-analysis.md",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/security-evidence/E30-BE02-valid-metrics.txt",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/security-evidence/E30-BE02-forwarded-for.txt",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/security-evidence/E29-BE02-valid-health.txt",
+    "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/19-Postulados-tendendicas-parte-1.md",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/security-evidence/E27-BE02-analysis.md",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/security-evidence/E23-BE01-analysis.md",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/security-evidence/2026-08-10-laboratory-blocker.md",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Actividad-03-Pruebas-de-la-herramienta/Guia_Ciberseguridad_Dominus_Bash_Expandida.md",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Actividad-03-Pruebas-de-la-herramienta/guia-intensiva-analisis-ciberseguridad-dominus.md",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-proto-definition/README.md",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/consumer-example/README.md",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-sdk/doc/server-guide.md",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-sdk/doc/README.md",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-sdk/doc/security-and-metadata.md",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-sdk/doc/overview.md",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-sdk/doc/operations.md",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-sdk/doc/client-guide.md",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-sdk/README.md",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-broker/doc/images/2026-07-17 153124.png",
+    "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/Untitled.md",
+    "README.md",
+    "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/13-Emociones.md",
+    "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/14-Resumen-02.md",
+    "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/15-Elemento-de-ux.md",
+    "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/16-Disciplinas-processo-de-diseño-ux.md",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-broker/doc/images/2026-07-17 153117.png",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-broker/doc/images/2026-07-17 153124.png",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-broker/doc/images/2026-07-17 150918.png",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-broker/doc/images/2026-07-17 150912.png",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-broker/doc/images/2026-07-17 150653.png",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-broker/doc/images/2026-07-17 150807.png",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-broker/doc/images/2026-07-17 150739.png",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-broker/doc/images/2026-07-17 150611.png",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-broker/doc/images/2026-07-17 150653.png",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-broker/doc/images/2026-07-17 000124.png",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-broker/doc/images/2026-07-16 235755.png",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-broker/doc/coverage.md",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-broker/doc/tradeoffs.md",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-broker/doc/testing.md",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-broker/doc/terraform.md",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-broker/doc/README.md",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-broker/doc/sqs-use-cases.md",
     "Untitled.canvas"
   ]
 }
