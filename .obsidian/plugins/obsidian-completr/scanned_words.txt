@@ -22480,6 +22480,7 @@ habilitarla
 hosts
 habilitadas
 habilitar
+hojas
 referencia
 reconocer
 rmino
@@ -26762,6 +26763,8 @@ rechazos
 restringido
 reutilizaran
 revel
+recoja
+realizaci
 la
 los
 las
@@ -81909,6 +81912,7 @@ cerrarla
 contengan
 conten
 condicionado
+compatibilidades
 Nic
 Necesidades
 No
@@ -151541,6 +151545,7 @@ guardarse
 garantizado
 guardadas
 gPz
+grafes
 Ofrecen
 Orientaci
 Ordena
