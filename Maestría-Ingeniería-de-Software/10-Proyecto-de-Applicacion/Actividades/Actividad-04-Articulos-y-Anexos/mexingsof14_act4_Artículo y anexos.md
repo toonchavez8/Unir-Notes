@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Artículo Y Anexos
+=======
+Artículo y anexos
+>>>>>>> origin/main
 
 **Objetivos**
 
@@ -18,6 +22,13 @@ Esta actividad contempla la redacción de los siguientes documentos obligatorios
 **Extensión y formato**
 
 La entrega consistirá en un documento que recoja el contenido anteriormente descrito. En formato fuente Calibri 12 e interlineado 1,5. El documento puede container imágenes, tablas y figuras.
+=======
+- **Anexo 3:** guía básica de mantenimiento. Anexo donde se muestre brevemente un manual básico de mantenimiento (software que hay que actualizar y cómo, componentes, compatibilidades, etc.).
+
+**Extensión y formato**
+
+La entrega consistirá en un documento que recoja el contenido anteriormente descrito. En formato fuente Calibri 12 e interlineado 1,5. El documento puede contener imágenes, tablas y figuras.
+
 
 **Rúbrica**
 
