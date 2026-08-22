@@ -42,9 +42,33 @@
               "icon": "lucide-file",
               "title": "plantilla"
             }
+          },
+          {
+            "id": "20fa4ea1dd3e6ee5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Actividad-04-Articulos-y-Anexos/mexingsof14_act4_Artículo y anexos.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "mexingsof14_act4_Artículo y anexos"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -213,15 +237,15 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "6af15c2ae428f63f",
+  "active": "20fa4ea1dd3e6ee5",
   "lastOpenFiles": [
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Actividad-04-Articulos-y-Anexos/mexingsof14_act4_Artículo y anexos.docx",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Actividad-04-Articulos-y-Anexos/mexingsof14_act4_Artículo y anexos.md",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/plantilla.docx",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Actividad-03-Pruebas-de-la-herramienta/Actividad-03-Analisis-ciberseguridad.md",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Actividad-03-Pruebas-de-la-herramienta/Actividad-03-Reporte-ciberseguridad.md",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/security-evidence/E22-BE01-health-before.txt",
     "conflict-files-obsidian-git.md",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/plantilla.docx",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Actividad-03-Pruebas-de-la-herramienta/Actividad-03-Reporte-ciberseguridad.md",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Actividad-04-Articulos-y-Anexos/mexingsof14_act4_Artículo y anexos.md",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Actividad-04-Articulos-y-Anexos/mexingsof14_act4_Artículo y anexos.docx",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Actividad-03-Pruebas-de-la-herramienta/Actividad-03-Analisis-ciberseguridad.md",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/security-evidence/E22-BE01-health-before.txt",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/security-evidence/E35-BE05-payloads.txt",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/security-evidence/E35-BE05-analysis.md",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/security-evidence/E34-E39-CL01-CL06-sdk.txt",
