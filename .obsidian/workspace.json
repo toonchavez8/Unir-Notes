@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Actividad-04-Articulos-y-Anexos/mexingsof14_act4_Artículo y anexos.md",
+                "file": "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Actividad-04-Articulos-y-Anexos/Anexo-1-Guía-de-ejecución-de-Dominus-Broker.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -64,7 +64,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "mexingsof14_act4_Artículo y anexos"
+              "title": "Anexo-1-Guía-de-ejecución-de-Dominus-Broker"
             }
           }
         ],
@@ -239,15 +239,19 @@
   },
   "active": "20fa4ea1dd3e6ee5",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Actividad-04-Articulos-y-Anexos/Guía-para-elaborar-Anexo-1-Dominus-Broker.md",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Actividad-04-Articulos-y-Anexos/Anexo-1-Guía-de-ejecución-de-Dominus-Broker.md",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Actividad-04-Articulos-y-Anexos/attachments/{1E343668-8DC8-4222-B59B-3059B60CBB87}.png",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Actividad-04-Articulos-y-Anexos/attachments",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/guia.pdf",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/plantilla.docx",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/plantilla.md",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Actividad-04-Articulos-y-Anexos/mexingsof14_act4_Artículo y anexos.md",
+    "conflict-files-obsidian-git.md",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/Ignore/zsh.exe.stackdump",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/Ignore/TFM_v1.md",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/Ignore/TFM_v1.docx",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/Ignore",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Actividad-04-Articulos-y-Anexos/Guía-para-elaborar-Anexo-1-Dominus-Broker.md",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Actividad-04-Articulos-y-Anexos/Anexo-1-Guía-de-ejecución-de-Dominus-Broker.md",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/plantilla.docx",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Actividad-03-Pruebas-de-la-herramienta/Actividad-03-Reporte-ciberseguridad.md",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Actividad-04-Articulos-y-Anexos/mexingsof14_act4_Artículo y anexos.docx",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Actividad-03-Pruebas-de-la-herramienta/Actividad-03-Analisis-ciberseguridad.md",
@@ -255,9 +259,7 @@
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/security-evidence/E35-BE05-payloads.txt",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/security-evidence/E35-BE05-analysis.md",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/security-evidence/E34-E39-CL01-CL06-sdk.txt",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/security-evidence/E34-CL01-tls.txt",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/security-evidence/E34-CL01-analysis.md",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/security-evidence/E34-BE04-observation.txt",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/security-evidence/E31-BE03-analysis.md",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/security-evidence/E23-BE01-analysis.md",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/security-evidence/2026-08-10-laboratory-blocker.md",
@@ -281,9 +283,7 @@
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-broker/doc/images/2026-07-17 150611.png",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-broker/doc/images/2026-07-17 150653.png",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-broker/doc/images/2026-07-17 000124.png",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-broker/doc/images/2026-07-16 235755.png",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-broker/doc/coverage.md",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-broker/doc/tradeoffs.md",
     "Untitled.canvas"
   ]
 }

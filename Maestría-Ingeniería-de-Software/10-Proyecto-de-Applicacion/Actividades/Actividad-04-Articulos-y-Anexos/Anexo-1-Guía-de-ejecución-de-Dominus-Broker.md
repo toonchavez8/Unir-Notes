@@ -2,7 +2,7 @@
 
 **Puesta en marcha de Dominus Broker**
 
-## Objetivo y alcance
+## Objetivo Y Alcance
 
 Este anexo explica cómo poner en marcha Dominus Broker en una infraestructura nueva. El procedimiento está dirigido a desarrolladores y cubre Windows y Linux. Incluye una ejecución local controlada, las comprobaciones funcionales y una ruta de despliegue con Docker y Terraform.
 
@@ -10,15 +10,15 @@ Dominus es un broker híbrido escrito en Go. Expone `BrokerAPI` para flujos gRPC
 
 La ruta principal de este anexo ejecuta Redis en Docker y el broker desde el código fuente. Esta separación permite detectar con claridad si un fallo pertenece a Redis, a la configuración o al proceso Go. El despliegue completo en contenedores se describe después.
 
-## Versión documentada y criterio de fuente
+## Versión Documentada Y Criterio De Fuente
 
-El procedimiento corresponde al código disponible en `Referance` durante la elaboración de este anexo: Dominus Broker con Go 1.26.1 y `dominus-proto-definition` v1.3.7. Los README y las páginas de `doc/` no siempre reflejan la misma revisión. Por ejemplo, todavía aparecen rutas `tests/cases`, un archivo `env.dev.json`, campos como `connection_key` y un `vars.auto.tfvars` que no existen en el árbol actual.
+El procedimiento corresponde al código disponible en `Dominus-Broker-Repos` durante la elaboración de este anexo: Dominus Broker con Go 1.26.1 y `dominus-proto-definition` v1.3.7. Los README y las páginas de `doc/` no siempre reflejan la misma revisión. Por ejemplo, todavía aparecen rutas `tests/cases`, un archivo `env.dev.json`, campos como `connection_key` y un `vars.auto.tfvars` que no existen en el árbol actual.
 
 Ante una diferencia se tomó como fuente principal el código ejecutable, seguido por `go.mod`, `env/template.json`, `Makefile.ps1`, `Dockerfile` y los módulos Terraform. La documentación se usó para entender el diseño y localizar restricciones. Este criterio importa porque copiar literalmente una guía antigua puede producir una configuración que el broker actual rechace.
 
-## Topología de ejecución
+## Topología De Ejecución
 
-La Figura 1 muestra los componentes necesarios para la puesta en marcha básica.
+La Figura 1 muestra los components necesarios para la puesta en marcha básica.
 
 **Figura 1**
 
@@ -43,7 +43,7 @@ La Figura 1 muestra los componentes necesarios para la puesta en marcha básica.
 
 *Nota.* `BrokerAPI` puede iniciar conexiones gRPC hacia servicios suscriptores. Esos servicios sólo son necesarios para probar manualmente los tres modos de streaming; no intervienen en la comprobación básica de `SqsAPI`.
 
-## Requisitos previos
+## Requisitos Previous
 
 La Tabla 1 reúne las herramientas necesarias. Las versiones se deben comprobar en la terminal que se utilizará durante la instalación.
 
@@ -51,18 +51,18 @@ La Tabla 1 reúne las herramientas necesarias. Las versiones se deben comprobar 
 
 *Herramientas para la puesta en marcha*
 
-| Herramienta | Requisito | Uso |
-|---|---|---|
-| Git | Cliente con acceso a los repositorios de Dominus | Obtener el código y sus dependencias privadas |
-| Go | `1.26.1` o una versión compatible con `go.mod` | Compilar, probar y ejecutar el broker |
-| Docker Engine o Docker Desktop | Motor activo y accesible desde la terminal | Ejecutar Redis y, de forma opcional, el broker |
-| PowerShell | 5.1 o posterior en Windows | Cargar la configuración y usar `Makefile.ps1` |
-| Bash | Disponible en Linux | Cargar la configuración y ejecutar los comandos del sistema |
-| `curl` | Cliente HTTP | Comprobar `/health` y `/metrics` |
-| `grpcurl` | Recomendado | Consultar la reflexión gRPC y probar `SqsAPI` |
-| Terraform | Opcional | Crear la pila Docker definida en `terraform/` |
+| Herramienta                    | Requisito                                        | Uso                                                         |
+| ------------------------------ | ------------------------------------------------ | ----------------------------------------------------------- |
+| Git                            | Cliente con acceso a los repositorios de Dominus | Obtener el código y sus dependencias privadas               |
+| Go                             | `1.26.1` o una versión compatible con `go.mod`   | Compilar, probar y ejecutar el broker                       |
+| Docker Engine o Docker Desktop | Motor activo y accessible desde la terminal       | Ejecutar Redis y, de forma opcional, el broker              |
+| PowerShell                     | 5.1 o posterior en Windows                       | Cargar la configuración y usar `Makefile.ps1`               |
+| Bash                           | Disponible en Linux                              | Cargar la configuración y ejecutar los commandos del sistema |
+| `curl`                         | Cliente HTTP                                     | Comprobar `/health` y `/metrics`                            |
+| `grpcurl`                      | Recomendado                                      | Consultar la reflexión gRPC y probar `SqsAPI`               |
+| Terraform                      | Opcional                                         | Crear la pila Docker definida en `terraform/`               |
 
-Los siguientes comandos confirman que las herramientas principales están disponibles:
+Los siguientes commandos confirman que las herramientas principales están disponibles:
 
 ```text
 git --version
@@ -74,16 +74,16 @@ terraform version
 
 `grpcurl` y Terraform son opcionales para el primer arranque. Sin `grpcurl` se puede validar gRPC mediante las pruebas de integración.
 
-## Obtención del código
+## Obtención Del Código
 
-El directorio `Referance` contiene cuatro repositorios relacionados:
+El directorio `Dominus-Broker-Repos` contiene cuatro repositorios relacionados:
 
 - `dominus-broker`, que ejecuta el servicio;
 - `dominus-proto-definition`, que define los contratos gRPC;
 - `dominus-sdk`, que facilita el consumo desde Go;
 - `consumer-example`, que muestra un consumidor y un suscriptor.
 
-En Linux, Git Bash o WSL se puede restaurar el conjunto con el script incluido. El comando se ejecuta desde la raíz del proyecto del TFM:
+En Linux, Git Bash o WSL se puede restaurar el conjunto con el script incluido. El commando se ejecuta desde la raíz del proyecto del TFM:
 
 ```bash
 bash Referance/clone-dominus-deps.sh
@@ -103,9 +103,9 @@ Si los directorios ya existen, no se vuelven a clonar. Se actualizan dentro de c
 
 El broker depende de `github.com/MBI-88/dominus-proto-definition v1.3.7`. Si ese módulo es privado, la cuenta de Git debe tener permiso de lectura. La credencial se configura mediante el gestor aprobado por la organización; no debe guardarse en el repositorio, en un archivo `.tfvars` ni en una captura de terminal.
 
-## Revisión inicial del repositorio
+## Revisión Inicial Del Repositorio
 
-Los comandos de esta sección se ejecutan desde `Referance/dominus-broker`.
+Los commandos de esta sección se ejecutan desde `Dominus-Broker-Repos/dominus-broker`.
 
 Windows:
 
@@ -125,15 +125,15 @@ go mod download
 
 `go env GOMOD` debe devolver la ruta de `dominus-broker/go.mod`. Si `go mod download` informa que no encuentra `dominus-proto-definition`, se revisan las credenciales del repositorio privado antes de continuar.
 
-## Preparación de Redis
+## Preparación De Redis
 
-El broker crea un consumer group durante el arranque y termina con error si no puede conectarse a Redis. Para que la configuración local coincida con el proyecto, Redis se construye con `terraform/dev/redis/Dockerfile`. Ese archivo utiliza Redis 7.2 y copia `redis.conf`, donde se define el usuario ACL `dominus`, la contraseña local de demostración `dominus` y dos bases lógicas.
+El broker crea un consumer group durante el arranque y termina con error si no puede conectarse a Redis. Para que la configuración local coincida con el proyecto, Redis se construye con `terraform/dev/redis/Dockerfile`. Ese archivo utilize Redis 7.2 y copia `redis.conf`, donde se define el usuario ACL `dominus`, la contraseña local de demostración `dominus` y dos bases lógicas.
 
 Estas credenciales sólo se usan en un entorno local aislado. En una infraestructura compartida se deben cambiar en `redis.conf` y en el JSON del broker antes de crear las imágenes.
 
 ### Windows
 
-Desde `Referance\dominus-broker`:
+Desde `Dominus-Broker-Repos\dominus-broker`:
 
 ```powershell
 docker build --tag dominus-redis:7.2 .\terraform\dev\redis
@@ -146,7 +146,7 @@ docker ps --filter "name=redis"
 
 ### Linux
 
-Desde `Referance/dominus-broker`:
+Desde `Dominus-Broker-Repos/dominus-broker`:
 
 ```bash
 docker build --tag dominus-redis:7.2 ./terraform/dev/redis
@@ -157,7 +157,7 @@ docker run --detach \
 docker ps --filter "name=redis"
 ```
 
-El estado del contenedor debe ser `Up`. La conexión se comprueba sin publicar una contraseña nueva en el documento:
+El estado del contenedor debe set `Up`. La conexión se comprueba sin publicar una contraseña nueva en el documento:
 
 ```text
 docker exec redis redis-cli --user dominus --pass dominus PING
@@ -171,7 +171,7 @@ Si el contenedor ya existe pero está detenido, se recupera con:
 docker start redis
 ```
 
-## Configuración de Dominus Broker
+## Configuración De Dominus Broker
 
 El código actual no selecciona automáticamente `env.local.json` por medio del indicador `-prod`. `config.NewConfig()` lee el JSON completo desde la variable `APP_CONFIG` y detiene el proceso si la variable está vacía o si faltan los campos obligatorios.
 
@@ -230,9 +230,9 @@ Para una ejecución local se parte de `env/template.json` y se guarda una copia 
 
 `0.0.0.0/0` permite cualquier IP en el middleware del monitor. Se mantiene para facilitar la práctica local, pero debe sustituirse por el CIDR de administración en una infraestructura compartida.
 
-### Carga de la configuración en Windows
+### Carga De la Configuración En Windows
 
-Desde `Referance\dominus-broker`:
+Desde `Dominus-Broker-Repos\dominus-broker`:
 
 ```powershell
 $configPath = Join-Path $env:TEMP 'dominus.runtime.json'
@@ -248,11 +248,11 @@ $env:DOMINUS_GRPC_TOKEN = 'cambie-esta-clave-grpc'
 $env:DOMINUS_REST_TOKEN = 'cambie-esta-clave-rest'
 ```
 
-Los valores de `DOMINUS_GRPC_TOKEN` y `DOMINUS_REST_TOKEN` deben coincidir con el JSON, pero no forman parte de la configuración del broker; se usan en los comandos de comprobación.
+Los valores de `DOMINUS_GRPC_TOKEN` y `DOMINUS_REST_TOKEN` deben coincidir con el JSON, pero no forman parte de la configuración del broker; se usan en los commandos de comprobación.
 
-### Carga de la configuración en Linux
+### Carga De la Configuración En Linux
 
-Desde `Referance/dominus-broker`:
+Desde `Dominus-Broker-Repos/dominus-broker`:
 
 ```bash
 install -m 600 env/template.json /tmp/dominus.runtime.json
@@ -264,7 +264,7 @@ export DOMINUS_REST_TOKEN='cambie-esta-clave-rest'
 
 Se sustituye el contenido del archivo por el JSON de ejemplo y se utilizan los mismos valores en las variables auxiliares.
 
-## Pruebas automatizadas antes del arranque
+## Pruebas Automatizadas Antes Del Arranque
 
 Las pruebas detectan errores de compilación, integración y concurrencia antes de abrir los puertos del servicio. Desde la raíz de `dominus-broker` se ejecuta:
 
@@ -286,11 +286,11 @@ go test -race -count=1 -v ./tests/integration/broker_stream_flow_test/...
 
 Estas pruebas crean peers controlados y ejercitan `ClientStream`, `ServerStream` y `BidirectionalStream` sin exigir servicios suscriptores externos.
 
-El árbol actual separa pruebas en `tests/units` y `tests/integration`. Algunas páginas internas todavía muestran `tests/cases` o nombres antiguos como `broker_flow_test`; esos ejemplos no se deben usar sin comprobar primero las carpetas disponibles con `go list ./tests/...`.
+El árbol actual separa pruebas en `tests/units` y `tests/integration`. Algunas páginas internas todavía muestran `tests/cases` o nombres antiguos como `broker_flow_test`; esos ejemplos no se deben usar sin comprobar primero las carpetas disponibles con `go list ./tests/…`.
 
-## Ejecución del broker desde el código fuente
+## Ejecución Del Broker Desde El Código Fuente
 
-El broker se inicia desde `Referance/dominus-broker`, en la misma terminal donde se definió `APP_CONFIG`:
+El broker se inicia desde `Dominus-Broker-Repos/dominus-broker`, en la misma terminal donde se definió `APP_CONFIG`:
 
 ```text
 go run ./cmd/api -banner=false
@@ -309,7 +309,7 @@ En el ejemplo no existen certificados válidos en `./certs`, por lo que el monit
 
 El proceso queda en primer plano. Las comprobaciones siguientes se ejecutan desde una segunda terminal.
 
-## Validación del monitor HTTP
+## Validación Del Monitor HTTP
 
 ### Windows
 
@@ -350,9 +350,9 @@ curl --fail --silent --show-error \
   http://127.0.0.1:8000/metrics
 ```
 
-La salida contiene métricas Prometheus, entre ellas `cpu_usage_percentage`, `memory_usage_percentage` y contadores gRPC. Una llamada sin `x-api-key` o con un valor distinto debe ser rechazada.
+La salida contiene métricas Prometheus, entre ellas `cpu_usage_percentage`, `memory_usage_percentage` y contadores gRPC. Una llamada sin `x-api-key` o con un valor distinto debe set rechazada.
 
-## Validación de gRPC
+## Validación De gRPC
 
 Dominus registra la reflexión gRPC. Se puede consultar el contrato activo sin compilar un cliente.
 
@@ -372,7 +372,7 @@ grpcurl -plaintext \
   127.0.0.1:5000 list
 ```
 
-La lista debe contener:
+La lista debe container:
 
 ```text
 dominus.BrokerAPI
@@ -384,11 +384,11 @@ grpc.reflection.v1.ServerReflection
 
 El nombre exacto de la cabecera de idempotencia es `idempotency-header`, tanto en el broker como en la versión actual del SDK. Algunas páginas del SDK todavía la abrevian como `idempotency`; ese nombre no satisface el middleware del broker.
 
-## Prueba del ciclo de mensajes
+## Prueba Del Ciclo De Mensajes
 
 `SqsAPI` aplica `x-api-key` y exige `idempotency-header` en sus llamadas unary. Se debe usar una clave de idempotencia distinta para `Producer`, `Consumer` y `Ack`.
 
-### Publicar un mensaje
+### Publicar Un Mensaje
 
 El campo `payload` es de tipo `bytes`. En la representación JSON de gRPC se envía en Base64. El texto `hello dominus` corresponde a `aGVsbG8gZG9taW51cw==`.
 
@@ -414,9 +414,9 @@ grpcurl -plaintext \
   127.0.0.1:5000 dominus.SqsAPI/Producer
 ```
 
-La respuesta representa `status = 0`. Según las opciones de representación de `grpcurl`, un campo con el valor predeterminado puede aparecer como `"status": "0"` o como un objeto vacío. En ambos casos el comando debe terminar con código de salida cero.
+La respuesta representa `status = 0`. Según las opciones de representación de `grpcurl`, un campo con el valor predeterminado puede aparecer como `"status": "0"` o como un objeto vacío. En ambos casos el commando debe terminar con código de salida cero.
 
-### Consumir el mensaje
+### Consumir El Mensaje
 
 Windows:
 
@@ -442,7 +442,7 @@ grpcurl -plaintext \
 
 La respuesta contiene `messageId`, `date` y `message`. Se copia el valor exacto de `messageId`; su formato es similar a `1710000000000-0`.
 
-### Confirmar el procesamiento
+### Confirmar El Procesamiento
 
 Se sustituye `<MESSAGE_ID>` por el identificador obtenido en el paso anterior.
 
@@ -482,7 +482,7 @@ docker exec redis redis-cli --user dominus --pass dominus XPENDING consumer cons
 
 Después del `Ack`, el mensaje no debe permanecer pendiente para el grupo. Las claves de idempotencia se guardan en la DB 1 con un TTL definido por `idem_potency_ex`.
 
-## Comprobación opcional con `consumer-example`
+## Comprobación Opcional Con `consumer-example`
 
 El repositorio `consumer-example` permite observar el consumo con el SDK en lugar de invocar `Consumer` y `Ack` manualmente. Es una demostración complementaria; no reemplaza la secuencia con `grpcurl` porque no incluye un productor.
 
@@ -512,14 +512,14 @@ Ese retraso también permite que expire la clave de idempotencia de 10 segundos 
 
 La versión actual del SDK crea conexiones gRPC dentro de sus operaciones y no expone un cierre para todas ellas; también usa `context.Background()` en `Producer`, `Consumer` y `Ack`. Por eso `consumer-example` es apropiado para esta comprobación breve, no como plantilla de un consumidor de larga duración sin antes añadir reutilización de conexiones, timeouts y cancelación.
 
-## Despliegue completo con Docker
+## Despliegue Completo Con Docker
 
-Esta ruta ejecuta el broker y Redis en la misma red Docker. El `Dockerfile` del broker compila para Linux, copia `env/` y utiliza `env/entrypoint.sh` para cargar `APP_CONFIG` desde `env.prod.json`.
+Esta ruta ejecuta el broker y Redis en la misma red Docker. El `Dockerfile` del broker compila para Linux, copia `env/` y utilize `env/entrypoint.sh` para cargar `APP_CONFIG` desde `env.prod.json`.
 
 Hay tres condiciones previas:
 
 1. el build necesita acceso de lectura a `dominus-proto-definition`;
-2. el contexto debe contener el directorio `certs` porque el `Dockerfile` lo copia;
+2. el contexto debe container el directorio `certs` porque el `Dockerfile` lo copia;
 3. la configuración del contenedor debe usar `redis` como host, no `localhost`.
 
 Para no hornear secretos en la imagen, se prepara un JSON externo y se monta sobre `/app/env/env.prod.json`. Debe tener estos cambios respecto al ejemplo local:
@@ -539,9 +539,9 @@ Para no hornear secretos en la imagen, se prepara un JSON externo y se monta sob
 
 El archivo real debe conservar todos los bloques del JSON completo; el fragmento anterior sólo muestra los campos que cambian.
 
-### Construcción en Windows
+### Construcción En Windows
 
-Desde `Referance\dominus-broker`:
+Desde `Dominus-Broker-Repos\dominus-broker`:
 
 ```powershell
 New-Item -ItemType Directory -Force -Path '.\certs' | Out-Null
@@ -554,9 +554,9 @@ docker build `
 Remove-Item Env:GITHUB_TOKEN
 ```
 
-### Construcción en Linux
+### Construcción En Linux
 
-Desde `Referance/dominus-broker`:
+Desde `Dominus-Broker-Repos/dominus-broker`:
 
 ```bash
 mkdir -p certs
@@ -570,9 +570,9 @@ unset GITHUB_TOKEN
 
 El `Dockerfile` actual recibe el token como build argument. Se debe evitar la salida detallada del build en evidencias académicas. Para un pipeline real conviene sustituir ese mecanismo por un secreto de BuildKit y comprobar que la credencial no quede en capas ni metadatos.
 
-### Creación de la red y los contenedores
+### Creación De la Red Y Los Contenedores
 
-Los siguientes comandos son iguales en PowerShell y Bash:
+Los siguientes commandos son iguales en PowerShell y Bash:
 
 ```text
 docker network create dominus
@@ -636,9 +636,9 @@ docker logs dominus-broker
 
 La salida debe indicar `MODE=prod`, confirmar que encontró el archivo y anunciar los puertos 8000 y 5000. Las comprobaciones HTTP y gRPC se repiten con los tokens del JSON montado.
 
-## Infraestructura con Terraform
+## Infraestructura Con Terraform
 
-El directorio `terraform/` crea una red Docker y módulos para Dominus, Redis, Nginx sidecar, Prometheus y Grafana. Esta ruta es útil para reconstruir el entorno completo, pero requiere configuración previa.
+El directorio `terraform/` crea una red Docker y módulos para Dominus, Redis, Nginx sidecar, Prometheus y Grafana. Esta ruta es útil para reconstruir el entorno completo, pero require configuración previa.
 
 No hay un archivo `.tfvars` versionado y las variables raíz no tienen valores predeterminados. Se crea `terraform/terraform.tfvars`, que ya coincide con el patrón ignorado por Git:
 
@@ -705,13 +705,13 @@ terraform apply
 unset TF_VAR_dominus_server_token
 ```
 
-En Windows, `terraform/terraform.tf` ya apunta a `npipe:////.//pipe//docker_engine` y no requiere ese cambio.
+En Windows, `terraform/terraform.tf` ya apunta a `npipe:////.//pipe//docker_engine` y no require ese cambio.
 
 La configuración Terraform actual construye el broker con el `env.prod.json` incluido en la imagen y no monta un archivo externo. Su health check y el sidecar Nginx también contienen un token de ejemplo que debe coincidir con `rest_config.api_token`; si no coincide, Dominus puede arrancar pero aparecer como `unhealthy` y Prometheus no podrá leer `/metrics`.
 
-El health check de Redis ejecuta `redis-cli -p 6379 ping` sin usuario ni contraseña, mientras que `redis.conf` exige autenticación. Esa comprobación puede devolver `NOAUTH` y marcar el contenedor como no saludable aunque Redis esté escuchando. Antes de aplicar Terraform se debe parametrizar el comando para autenticar al usuario ACL sin dejar la contraseña en el repositorio.
+El health check de Redis ejecuta `redis-cli -p 6379 ping` sin usuario ni contraseña, mientras que `redis.conf` exige autenticación. Esa comprobación puede devolver `NOAUTH` y marcar el contenedor como no saludable aunque Redis esté escuchando. Antes de aplicar Terraform se debe parametrizar el commando para autenticar al usuario ACL sin dejar la contraseña en el repositorio.
 
-Estas condiciones hacen que la ruta Terraform requiera una adaptación previa: montar la configuración y los certificados desde un almacén seguro, parametrizar los tokens, corregir el health check de Redis y retirar la publicación de `6379`. Redis sólo necesita ser accesible dentro de la red Docker.
+Estas condiciones hacen que la ruta Terraform requiera una adaptación previa: montar la configuración y los certificados desde un almacén seguro, parametrizar los tokens, corregir el health check de Redis y retirar la publicación de `6379`. Redis sólo necesita set accessible dentro de la red Docker.
 
 Los recursos creados se consultan con:
 
@@ -722,7 +722,7 @@ docker ps
 
 En Windows puede usarse `./Makefile.ps1 -Target terraform-output`. La eliminación de esta infraestructura se realiza desde el mismo directorio con `terraform destroy`, después de revisar el plan de destrucción.
 
-## TLS y límites operativos
+## TLS Y Límites Operativos
 
 El bootstrap comprueba la existencia del certificado, la clave y la CA. Cuando los tres archivos están disponibles, gRPC y el monitor se inician con TLS. Si falta alguno, el proceso continúa con gRPC inseguro y HTTP. Esta conducta facilita el desarrollo local, pero no debe interpretarse como un modo seguro de producción.
 
@@ -740,7 +740,7 @@ Las evidencias del proyecto registran un límite gRPC cercano a 4 MiB por mensaj
 
 `SqsAPI` incluye `Ack` y claves de idempotencia con TTL. Estos mecanismos reducen duplicados, pero el despliegue no debe anunciar una garantía absoluta de *exactly-once*. Los reintentos, la reserva de claves y el tratamiento de mensajes pendientes necesitan una política explícita en la aplicación consumidora.
 
-## Solución de problemas
+## Solución De Problemas
 
 **Tabla 3**
 
@@ -759,12 +759,12 @@ Las evidencias del proyecto registran un límite gRPC cercano a 4 MiB por mensaj
 | `ResourceExhausted` | El mensaje supera el límite gRPC | Reducir el payload o configurar límites coordinados en cliente y servidor |
 | Fallo al descargar `dominus-proto-definition` | Falta acceso al módulo privado | Revisar la autenticación Git sin imprimir el token |
 | El build Docker falla al copiar `certs` | El directorio no está en el contexto | Crear `certs/` o proporcionar los certificados antes del build |
-| Terraform solicita variables | No existe `terraform.tfvars` | Crear el archivo local mostrado y pasar el token mediante `TF_VAR_...` |
+| Terraform solicita variables | No existe `terraform.tfvars` | Crear el archivo local mostrado y pasar el token mediante `TF_VAR_…` |
 | Terraform no conecta con Docker en Linux | El proveedor usa el named pipe de Windows | Cambiar `host` a `unix:///var/run/docker.sock` |
 | Redis aparece `unhealthy` con Terraform | El health check ejecuta `PING` sin autenticación | Añadir usuario y secreto al health check mediante un mecanismo seguro |
 | No aparece el modo de log configurado | `log_config` y la etiqueta `mapstructure:"infra_config"` no coinciden | Corregir la etiqueta o usar el nombre admitido por la revisión compilada |
 
-## Detención y limpieza
+## Detención Y Limpieza
 
 El broker ejecutado con `go run` se detiene con `Ctrl+C`. Después se eliminan las variables de la sesión.
 
@@ -789,9 +789,9 @@ docker stop dominus-broker redis
 docker rm dominus-broker redis
 ```
 
-Si sólo se ejecutó Redis, se aplica el comando únicamente a `redis`. Las imágenes y volúmenes no se eliminan automáticamente porque pueden reutilizarse. Terraform mantiene su propio estado y sus recursos se retiran con `terraform destroy` desde `terraform/`.
+Si sólo se ejecutó Redis, se aplica el commando únicamente a `redis`. Las imágenes y volúmenes no se eliminan automáticamente porque pueden reutilizarse. Terraform mantiene su propio estado y sus recursos se retiran con `terraform destroy` desde `terraform/`.
 
-## Criterios de aceptación
+## Criterios De Aceptación
 
 La instalación se considera operativa cuando se cumplen todos los puntos siguientes:
 
@@ -806,4 +806,4 @@ La instalación se considera operativa cuando se cumplen todos los puntos siguie
 - Las pruebas con `-race -count=1` terminan sin fallos.
 - No se han guardado tokens ni contraseñas reales en el repositorio o en las evidencias.
 
-El cumplimiento de estos criterios demuestra que el broker, Redis, la autenticación y el flujo asíncrono básico funcionan como una unidad. La validación de rendimiento, tolerancia a fallos y streams con suscriptores reales requiere un entorno de pruebas posterior.
+El cumplimiento de estos criterios demuestra que el broker, Redis, la autenticación y el flujo asíncrono básico funcionan como una unidad. La validación de rendimiento, tolerancia a fallos y streams con suscriptores reales require un entorno de pruebas posterior.
