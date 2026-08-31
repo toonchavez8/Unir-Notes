@@ -411,3 +411,9 @@ El resto de los anexos debe de recoger todo aquello que puede ser interesante pa
 Pueden incluirse los anexos que se consideren necesarios. Estos no computarán a efectos de extensión del trabajo. Cada parte adicional se numera como un anexo y se ofrece en una página diferente.
 
 1. Ejemplo de nota al pie. [↑](#footnote-ref-2)
+
+
+
+
+
+

@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "571fa01ad193d0e4",
+        "id": "e13e4fc061a91345",
         "type": "tabs",
         "children": [
           {
-            "id": "925180f11cd5367e",
+            "id": "ce4c58f07f1c3d44",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/TFM_Unir-F1011-Servicio_Mensajeria-Gdocs.md",
+                "file": "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Actividad-04-Articulos-y-Anexos/Borrador-secciones-Miguel.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "TFM_Unir-F1011-Servicio_Mensajeria-Gdocs"
+              "title": "Borrador-secciones-Miguel"
             }
           }
         ]
@@ -90,8 +90,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 343.5,
-    "collapsed": true
+    "width": 305.5
   },
   "right": {
     "id": "a25b807ad639ff42",
@@ -191,11 +190,21 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "925180f11cd5367e",
+  "active": "ce4c58f07f1c3d44",
   "lastOpenFiles": [
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Untitled.md",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/TFM_Unir-F1011-Servicio_Mensajeria-Gdocs.md",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Actividad-04-Articulos-y-Anexos/Guía-para-elaborar-Anexo-1-Dominus-Broker.md",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/plantilla.docx",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Actividad-04-Articulos-y-Anexos/Borrador-secciones-Miguel.md",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Actividad-04-Articulos-y-Anexos/TFM_Unir-F1011-Servicio_Mensajeria-Gdocs.docx",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/_extract_sections.py",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/_inspect_doc.py",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/guia.pdf",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Actividad-04-Articulos-y-Anexos/mexingsof14_act4_Artículo y anexos.md",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/plantilla.md",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/TFM_Unir-F1011-Servicio_Mensajeria-Gdocs.docx",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/TFM_Unir-F1011-Servicio_Mensajeria-Gdocs.md",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/guia.txt",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Untitled.md",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Attachments/TFM_Unir-F1011-Servicio_Mensajeria-Gdocs 2.jpeg",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Attachments/TFM_Unir-F1011-Servicio_Mensajeria-Gdocs 17.png",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Attachments/TFM_Unir-F1011-Servicio_Mensajeria-Gdocs 16.png",
@@ -207,9 +216,6 @@
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Attachments/TFM_Unir-F1011-Servicio_Mensajeria-Gdocs 10.png",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Attachments/TFM_Unir-F1011-Servicio_Mensajeria-Gdocs 9.png",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/TFM_Unir-F1011-Servicio_Mensajeria-Gdocs 1.md",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/plantilla.docx",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/plantilla.md",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Actividad-04-Articulos-y-Anexos/Guía-para-elaborar-Anexo-1-Dominus-Broker.md",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Actividad-04-Articulos-y-Anexos/attachments",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-broker/README.md",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-broker/doc/tradeoffs.md",
@@ -221,12 +227,6 @@
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-proto-definition/README.md",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-broker/Makefile.ps1",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-proto-definition/proto/dominus.proto",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-proto-definition/proto/dominus-api.dsc",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-proto-definition/proto/buf.gen.yaml",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-proto-definition/proto/buf.yaml",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-proto-definition/proto",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-proto-definition/dominus/dominus_grpc.pb.go",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Actividad-04-Articulos-y-Anexos/mexingsof14_act4_Artículo y anexos.md",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-sdk/doc/server-guide.md",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-sdk/doc/security-and-metadata.md",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-sdk/doc/README.md",
@@ -237,8 +237,6 @@
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-broker/doc/redis.md",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-broker/doc/README.md",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-broker/doc/performance-test-report.md",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-broker/doc/http-monitor.md",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-broker/doc/grpc-security.md",
     "Untitled.canvas"
   ]
 }
