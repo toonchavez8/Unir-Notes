@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Actividad-04-Articulos-y-Anexos/Borrador-secciones-Miguel.md",
+                "file": "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Entrega-final/Borrador_presentacion_Dominus_Broker.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Borrador-secciones-Miguel"
+              "title": "Borrador_presentacion_Dominus_Broker"
             }
           }
         ]
@@ -192,12 +192,14 @@
   },
   "active": "ce4c58f07f1c3d44",
   "lastOpenFiles": [
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Entrega-final/Guion_defensa_Dominus_Broker_25_min.md",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Entrega-final/Borrador_presentacion_Dominus_Broker.md",
+    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Actividad-04-Articulos-y-Anexos/Borrador-secciones-Miguel.md",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Entrega-final/TFM_Unir-F1011-Servicio_Mensajeria-Gdocs (2).docx",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Entrega-final",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/New folder",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Actividad-04-Articulos-y-Anexos/Guía-para-elaborar-Anexo-1-Dominus-Broker.md",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/plantilla.docx",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Actividad-04-Articulos-y-Anexos/Borrador-secciones-Miguel.md",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Actividad-04-Articulos-y-Anexos/TFM_Unir-F1011-Servicio_Mensajeria-Gdocs.docx",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/_extract_sections.py",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/_inspect_doc.py",
@@ -219,7 +221,6 @@
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Attachments/TFM_Unir-F1011-Servicio_Mensajeria-Gdocs 10.png",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Attachments/TFM_Unir-F1011-Servicio_Mensajeria-Gdocs 9.png",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/TFM_Unir-F1011-Servicio_Mensajeria-Gdocs 1.md",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Actividad-04-Articulos-y-Anexos/attachments",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-broker/README.md",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-broker/doc/tradeoffs.md",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-broker/doc/testing.md",
@@ -237,7 +238,6 @@
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-broker/doc/sqs-use-cases.md",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-broker/doc/redis.md",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-broker/doc/README.md",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-broker/doc/performance-test-report.md",
     "Untitled.canvas"
   ]
 }
