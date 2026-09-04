@@ -201,7 +201,7 @@ Muchas gracias. Quedamos atentos a sus preguntas.
 - Ensayar con cronómetro. El objetivo es terminar cada bloque entre 4:40 y 4:55 para dejar margen a la transición.
 - No leer las diapositivas. Usarlas como apoyo y mantener el detalle en este guion.
 - Mantener las mismas cifras en toda la exposición: 143 pruebas unitarias, 3 pruebas de integración, 91.8 % de cobertura, P99 cercano a 10 ms y throughput observado de 200,000 a 260,000 mensajes por segundo.
-- Presentar el throughput como una métrica observada posiblemente agregada, no como capacidad máxima garantizada.
+- Presentar el throughput como una métrica observada posiblemente agregaddomna, no como capacidad máxima garantizada.
 - No afirmar una garantía general de `exactly once`. La propuesta usa entrega al menos una vez y control de idempotencia dentro del broker.
 - Si el jurado pregunta por los fallos de seguridad, responder con el hallazgo, la causa y la corrección propuesta. Evitar justificarlos o minimizarlos.
 - Usar "prototipo", "escenario evaluado" y "resultado observado" cuando corresponda. Reservar "producción" para el trabajo futuro.
