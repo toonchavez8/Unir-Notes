@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiAlignHorizontalDistributeCenter",
       "LiBookOpenText",
       "LiCodeSquare",
       "LiSpool",
-      "LiMaximize",
-      "LiAudioWaveform"
+      "LiMaximize"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -127,5 +127,9 @@
   "Books": {
     "iconName": "LiBookOpenText",
     "iconColor": "#ff0000"
+  },
+  "Maestría-Ingeniería-de-Software/11-Gen-AI": {
+    "iconName": "LiAlignHorizontalDistributeCenter",
+    "iconColor": "#fa4b00"
   }
 }

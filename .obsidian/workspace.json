@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Entrega-final/Guion_defensa_Dominus_Broker_25_min.md",
+                "file": "Maestría-Ingeniería-de-Software/11-Gen-AI/Actividades/Actividad-02/psuiadesoft02_act2.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Guion_defensa_Dominus_Broker_25_min"
+              "title": "psuiadesoft02_act2"
             }
           }
         ]
@@ -192,25 +192,27 @@
   },
   "active": "ce4c58f07f1c3d44",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
+    "Maestría-Ingeniería-de-Software/11-Gen-AI/Actividades/Actividad-02/psuiadesoft02_act2.docx",
+    "Maestría-Ingeniería-de-Software/11-Gen-AI/Actividades/Actividad-02/psuiadesoft02_act2.md",
+    "Maestría-Ingeniería-de-Software/11-Gen-AI/Actividades/Actividad-01/psuiadesoft02_act1.md",
+    "Maestría-Ingeniería-de-Software/11-Gen-AI/Actividades/Actividad-01/psuiadesoft02_act1.docx",
+    "Maestría-Ingeniería-de-Software/11-Gen-AI/Books/Generación de Código de Automatización en Desarrollo de Software con IA(16326).pdf",
+    "Maestría-Ingeniería-de-Software/11-Gen-AI/Actividades/Actividad-02",
+    "Maestría-Ingeniería-de-Software/11-Gen-AI/Actividades/Actividad-01",
+    "Maestría-Ingeniería-de-Software/11-Gen-AI/Actividades",
+    "Maestría-Ingeniería-de-Software/11-Gen-AI/Books/Tema_1_Aprendizaje_automático_aplicado_a_la_generación_de_código.pdf",
+    "Maestría-Ingeniería-de-Software/11-Gen-AI/Books/Tema_6_Optimización_de_algoritmos_con_inteligencia_artificial_en_desarrollo.pdf",
+    "Maestría-Ingeniería-de-Software/11-Gen-AI/Books/Tema_5_Generación_automática_de_tests_y_verificación_de_software.pdf",
+    "Maestría-Ingeniería-de-Software/11-Gen-AI/Books/Tema_4_Integración_de_IA_en_IDE_Asistencia_y_mejoras_en_la_escritura_de_código.pdf",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Entrega-final/Guion_defensa_Dominus_Broker_25_min.md",
+    "conflict-files-obsidian-git.md",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Entrega-final/Borador.md",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Entrega-final/Borrador_presentacion_Dominus_Broker.md",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Actividad-04-Articulos-y-Anexos/Borrador-secciones-Miguel.md",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Entrega-final/TFM_Unir-F1011-Servicio_Mensajeria-Gdocs (2).docx",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Entrega-final",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/New folder",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Actividad-04-Articulos-y-Anexos/Guía-para-elaborar-Anexo-1-Dominus-Broker.md",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/plantilla.docx",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Actividad-04-Articulos-y-Anexos/TFM_Unir-F1011-Servicio_Mensajeria-Gdocs.docx",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/_extract_sections.py",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/_inspect_doc.py",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/guia.pdf",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Actividad-04-Articulos-y-Anexos/mexingsof14_act4_Artículo y anexos.md",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/plantilla.md",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/TFM_Unir-F1011-Servicio_Mensajeria-Gdocs.docx",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/TFM_Unir-F1011-Servicio_Mensajeria-Gdocs.md",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/guia.txt",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Untitled.md",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Attachments/TFM_Unir-F1011-Servicio_Mensajeria-Gdocs 2.jpeg",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Attachments/TFM_Unir-F1011-Servicio_Mensajeria-Gdocs 17.png",
@@ -235,9 +237,6 @@
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-sdk/doc/security-and-metadata.md",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-sdk/doc/README.md",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-sdk/doc/operations.md",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-sdk/doc/overview.md",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-sdk/doc/client-guide.md",
-    "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/dominus-broker/doc/sqs-use-cases.md",
     "Untitled.canvas"
   ]
 }
