@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "LiAlignHorizontalDistributeCenter",
-      "LiBookOpenText",
-      "LiCodeSquare",
       "LiSpool",
-      "LiMaximize"
+      "LiMaximize",
+      "LiAudioWaveform",
+      "LiPresentation",
+      "LiSquircle"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -93,8 +93,8 @@
     "iconColor": "#049a61"
   },
   "DSA": {
-    "iconName": "LiCodeSquare",
-    "iconColor": "#ffbb00"
+    "iconName": "LiCodesandbox",
+    "iconColor": "#fa9e00"
   },
   "Khan-Acadamy": {
     "iconName": "LiSchool2",
@@ -123,13 +123,5 @@
   "Coursera/Amazon-Jr-Software-Dev": {
     "iconName": "LiMaximize",
     "iconColor": "#f0a524"
-  },
-  "Books": {
-    "iconName": "LiBookOpenText",
-    "iconColor": "#ff0000"
-  },
-  "Maestría-Ingeniería-de-Software/11-Gen-AI": {
-    "iconName": "LiAlignHorizontalDistributeCenter",
-    "iconColor": "#fa4b00"
   }
 }
