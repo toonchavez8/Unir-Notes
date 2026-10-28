@@ -16,8 +16,33 @@
               "icon": "lucide-file",
               "title": "New tab"
             }
+          },
+          {
+            "id": "71db570ee4da816b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Miguel-Chavez-CV.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Miguel-Chavez-CV"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -37,7 +62,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -167,7 +194,6 @@
     "hiddenItems": {
       "vscode-editor:Create Code File": false,
       "bases:Create new base": false,
-      "markdown-importer:Open format converter": false,
       "audio-recorder:Start/stop recording": false,
       "code-files:Create Code File": false,
       "switcher:Open quick switcher": false,
@@ -184,8 +210,10 @@
       "open-in-zed:Open vault in Zed": false
     }
   },
-  "active": "c207e71074ffdba2",
+  "active": "71db570ee4da816b",
   "lastOpenFiles": [
+    "English_MiguelChavez_FullStack_CV.pdf",
+    "Miguel-Chavez-CV.md",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Actividad-03-Pruebas-de-la-herramienta/Actividad-03-Reporte-ciberseguridad.md",
     "Maestría-Ingeniería-de-Software/11-Gen-AI/Actividades/Actividad-02/psuiadesoft02_act2.md",
     "Maestría-Ingeniería-de-Software/11-Gen-AI/Actividades/Actividad-02/psuiadesoft02_act2.docx",
@@ -198,7 +226,6 @@
     "Maestría-Ingeniería-de-Software/11-Gen-AI/Books/Tema_1_Aprendizaje_automático_aplicado_a_la_generación_de_código.pdf",
     "Maestría-Ingeniería-de-Software/11-Gen-AI/Books/Tema_3_Automatización_de_tareas_repetitivas_en_desarrollo.pdf",
     "Maestría-Ingeniería-de-Software/11-Gen-AI/Books/Generación de Código de Automatización en Desarrollo de Software con IA(16326).pdf",
-    "Maestría-Ingeniería-de-Software/11-Gen-AI/Actividades/Actividad-02",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/security-evidence/E38-CL06-analysis.md",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/security-evidence/E37-BE07-analysis.md",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Referance/security-evidence/E37-CL05-analysis.md",
@@ -221,8 +248,6 @@
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Actividad-04-Articulos-y-Anexos/attachments/{1E343668-8DC8-4222-B59B-3059B60CBB87}.png",
     "Maestría-Ingeniería-de-Software/10-Proyecto-de-Applicacion/Actividades/Actividad-03-Pruebas-de-la-herramienta/Actividad-03-Analisis-ciberseguridad.md",
     "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/Untitled.md",
-    "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/19-Postulados-tendendicas-parte-1.md",
-    "Maestría-Ingeniería-de-Software/09-Experencia-e-interfaz/18-Resumen-3.md",
     "Maestría-Ingeniería-de-Software/08-Admin-de-Sistemas-devops-cloud/Actividades/Actividad-02-grupal/attachments/Cloud_Archecture_Act_2.drawio.svg",
     "Dev-Journel/Projects/images/aws-wordpress-alb-page.png",
     "Dev-Journel/Projects/images/aws-network-resource-map.png",
