@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Maestría-Ingeniería-de-Software/11-Gen-AI/Actividades/Actividad-02/psuiadesoft02_act2.md",
+                "file": "Miguel-Chavez-CV.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "psuiadesoft02_act2"
+              "title": "Miguel-Chavez-CV"
             }
           }
         ]
@@ -171,8 +171,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "open-in-zed:Open vault in Zed": false,
-      "open-vscode:VS Code": false,
       "bases:Create new base": false,
       "audio-recorder:Start/stop recording": false,
       "switcher:Open quick switcher": false,
@@ -180,21 +178,15 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "callout-manager:Insert Callout": false,
-      "code-files:Create Code File": false,
-      "obsidian-git:Open Git source control": false,
-      "mermaid-tools:Open Mermaid Toolbar": false,
-      "omnisearch:Omnisearch": false,
-      "vscode-editor:Create Code File": false
+      "command-palette:Open command palette": false
     }
   },
   "active": "ce4c58f07f1c3d44",
   "lastOpenFiles": [
+    "Maestría-Ingeniería-de-Software/11-Gen-AI/Actividades/Actividad-02/psuiadesoft02_act2.md",
     "Miguel-Chavez-CV.md",
     "English_MiguelChavez_FullStack_CV.pdf",
     "Maestría-Ingeniería-de-Software/11-Gen-AI/Actividades/Actividad-02/psuiadesoft02_act2.docx",
-    "Maestría-Ingeniería-de-Software/11-Gen-AI/Actividades/Actividad-02/psuiadesoft02_act2.md",
     "Maestría-Ingeniería-de-Software/11-Gen-AI/Actividades/Actividad-01/psuiadesoft02_act1.md",
     "Maestría-Ingeniería-de-Software/11-Gen-AI/Actividades/Actividad-01/psuiadesoft02_act1.docx",
     "Maestría-Ingeniería-de-Software/11-Gen-AI/Books/Generación de Código de Automatización en Desarrollo de Software con IA(16326).pdf",

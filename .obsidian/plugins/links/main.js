@@ -281,13 +281,13 @@ RegExPatterns.RelativePath = /^(?![A-Z]:\\)(?!\.{1,2}(\/|\\))(?!\/\w)([.\w\-\/\\
 RegExPatterns.Wikilink = /(!?)\[\[([^\[\]|]*)(\|([^\[\]]*))?\]\]/;
 // static readonly Markdownlink = /(!?)\[([^\]\[]*)\]\(([^)(]*)\)/;
 //TODO: revise
-RegExPatterns.Markdownlink = /(!?)\[([^\]\[]*)\]\(((?:[^()\\]*|\\[\(\)]|(?:\([^()]*\)))*?)\)/;
+RegExPatterns.Markdownlink = /(!?)\[([^\]\[]*)\]\(((?:[^()\\]|\\[()]|\([^()]*\))*)\)/;
 RegExPatterns.Htmllink = /<a\s+[^>]*href\s*=\s*['"]([^'"]*)['"][^>]*>(.*?)<\/a>/;
 RegExPatterns.AutolinkUrl = /<([a-zA-Z]{2,32}:[^>]+)>/;
 RegExPatterns.AutolinkMail = /<([a-zA-Z0-9.!#$%&'*+\/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*)>/;
 // static readonly PlainUrl = /\b((?:[a-z][\w\-]+:(?:\/{1,3}|[a-z0-9%])|www\d{0,3}[.]|[a-z0-9.\-]+[.][a-z]{2,4}\/)(?:[^\s()<>]+|\((?:[^\s()<>]+|(?:\([^\s()<>]+\)))*\))+(?:\((?:[^\s()<>]+|(?:\([^\s()<>]+\)))*\)|[^\s`!()\[\]{};:'".,<>?«»“”‘’]))/
 //TODO: revise
-RegExPatterns.PlainUrl = /\b((?:[a-z][\w\-]+:(?:\/{1,3}|[a-z0-9%])|www\d{0,3}[.]|[a-z0-9.\-]+[.][a-z]{2,4}\/)(?:[^\s()<>]+|\([^\s()<>]*\))+(?:\([^\s()<>]*\)|[^\s`!()\[\]{};:'".,<>?«»“”‘’]))/;
+RegExPatterns.PlainUrl = /\b((?:[a-z][\w\-]+:(?:\/{1,3}|[a-z0-9%])|www\d{0,3}[.]|[a-z0-9.\-]+[.][a-z]{2,4}\/)(?:[^\s()<>]|\([^\s()<>]*\))+(?:\([^\s()<>]*\)|[^\s`!()\[\]{};:'".,<>?«»“”‘’]))/;
 RegExPatterns.InvalidNoteNameChars = /[#^\[\]\|*"\/\\<>:?]/;
 RegExPatterns.NoteHeading = /^#+\s+(.*)$/;
 RegExPatterns.AbsoluteUriCheck = /^(?:[a-z+]+:)?\/\//;
